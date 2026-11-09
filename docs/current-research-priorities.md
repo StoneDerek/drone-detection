@@ -6,6 +6,14 @@ adding complexity. A working detector and an explanation of its failures remain
 the goal. This note records the user's recovered preferences and links them to
 the current evidence; it is not a claim that the research problem is solved.
 
+The user's latest direction supersedes another small matched-case or
+same-session study as the next milestone: the current results are unacceptable,
+and the next phase must secure substantially larger, independently varied real
+data and use literature-based baselines. Follow
+[the data-first plan](research-plan-v2.md), including its access/coverage/resource
+gate and a reserved continuous benchmark. Its numerical budgets are proposed
+requirements, not verified available quantities or achieved performance.
+
 | Priority | Established work | Still open |
 | --- | --- | --- |
 | Fundamental scratch-CNN problem | Actual parameter counts, frequency-path coverage, dropout/max-loss defect, sampled-bag target mismatch, gradients, optimizer, caches, checkpoints and replay audited. Tiny CNN memorization on real examples works. | No single sufficient cause explains cross-source failures. Repairs do not prove that CNNs inherently underperform YAMNet. |

@@ -16,3 +16,16 @@ jobs:
         run: |
           bash scripts/check.sh
           uv build --wheel
+  notebook-recovery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install locked notebook CPU verification environment
+        run: |
+          python -m pip install uv==0.13.5
+          uv sync --project notebooks/runtime --frozen --extra cpu --extra test
+      - name: Check notebook and fresh-process recovery
+        run: PYTHONPATH=src notebooks/runtime/.venv/bin/python -m pytest --confcutdir=tests/notebook tests/notebook -q

@@ -66,6 +66,14 @@ reliability, event recall, false alarms per hour, range and live capture are not
 established. The [real results and failures](reports/real-v2/RESULTS.md) state what
 passed and failed; the interface uses “No alarm” rather than claiming absence.
 
+## GPU notebook setup
+
+[Open the Colab GPU setup](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/gpu_runtime_setup.ipynb)
+to mount Drive, pin the code/environment and verify checkpoint recovery across
+process interruption and runtime replacement. This is runtime preparation;
+new detector training follows the [data-first research plan](docs/research-plan-v2.md).
+See the [setup and verification limits](docs/storage-and-training-v2.md).
+
 ## Run the product
 
 Python 3.12 and uv are required. From this checkout:
