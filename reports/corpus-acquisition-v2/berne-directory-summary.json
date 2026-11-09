@@ -1,0 +1,34 @@
+{
+  "source": "https://zenodo.org/records/17525811",
+  "archive": "MicArrayData30s.zip",
+  "archive_bytes": 1515112211,
+  "publisher_md5": "fd8cfda2d852e351b2d33e1ae9a5aba4",
+  "whole_archive_checksum_verified": false,
+  "zip_file_entries": 916,
+  "real_wav_members": 163,
+  "wav_size_counts": {
+    "23040044": 162,
+    "23040060": 1
+  },
+  "candidate_flight_members": {
+    "2022-08-03T11-42-49_reusev3012022-08-03T11-42-49_Dronen_records_Phantom4-static-flight": 28,
+    "2022-08-03T12-22-27_Dronen_records_Phantom4-static-flight-02": 14,
+    "2022-08-03T12-38-12_Dronen_records_Phantom4-linear_flight-01": 11,
+    "2022-08-03T12-47-08_Dronen_records_Phantom4-linear_flight-02": 45,
+    "2022-08-03T14-12-22__Dronen_records_Phantom4-random_flight-01": 17,
+    "2022-08-03T14-36-48__Dronen_records_Mavic_static_flights_01": 24,
+    "2022-08-03T15-48-02__Dronen_records_Mavic_static_flights_02": 8,
+    "2022-08-03T16-37-16__Dronen_records_Align_random_flights": 16
+  },
+  "first_header": {
+    "channels": 8,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "duration_seconds": 30,
+    "prefix_sha256": "08afbd41dc83ffc0a706c80295bffaac899197b72e5605109ef215e23dfbf8b4"
+  },
+  "nominal_file_minutes_if_all_members_are_30s": 81.5,
+  "all_headers_verified": false,
+  "blocker": "Parallel header inspection was rate-limited (HTTP429); remaining WAV and timing/CSV inspection deferred. Use cached serialized access or a full cloud intake.",
+  "scope": "ZIP directory plus one WAV header only; no reconstruction of timing across part suffixes, no accepted unique hours, no acoustic labels or detector scores."
+}

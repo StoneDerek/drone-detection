@@ -1,0 +1,21 @@
+{
+  "source": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Terrace2.rar",
+  "member": {
+    "path": "Terrace2/20230517_194145_0.high_CH0.flac",
+    "size": 1984071,
+    "compressed_size": 1984071,
+    "header_offset": 29,
+    "data_offset": 108,
+    "method": 48,
+    "flags": 32768,
+    "crc32": 3822759066
+  },
+  "crc32_verified": true,
+  "member_sha256": "3ae3d81620318569499d782dbd3421dbd14a9f5e67d430653f6009724079dda3",
+  "frames": 2880000,
+  "sample_rate": 48000,
+  "channels": 1,
+  "subtype": "PCM_16",
+  "duration_seconds": 60.0,
+  "scope": "One raw background microphone view. No waveform listening or drone-absence review. Whole-archive SHA not verified."
+}

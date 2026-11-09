@@ -15,7 +15,7 @@ import urllib.request
 from pathlib import Path
 
 
-def wav_header(data, file_size):
+def wav_header(data, file_size, allow_partial_frame=False):
     if data[:4] != b'RIFF' or data[8:12] != b'WAVE':
         raise ValueError('Only little-endian RIFF/WAVE headers are supported')
     cursor, format_info = 12, None
@@ -32,10 +32,14 @@ def wav_header(data, file_size):
             format_info = {'encoding': encoding, 'channels': channels, 'sample_rate': rate,
                            'bits_per_sample': bits, 'byte_rate': byte_rate, 'block_align': block}
         if tag == b'data':
-            if format_info is None or cursor + size > file_size or size % format_info['block_align']:
+            if format_info is None or cursor + size > file_size:
                 raise ValueError('Invalid data extent')
+            frames, remainder = divmod(size, format_info['block_align'])
+            if remainder and not allow_partial_frame:
+                raise ValueError('Invalid data extent: incomplete interleaved frame')
             return {**format_info, 'data_bytes': size, 'data_offset': cursor,
-                    'duration_seconds': size / format_info['byte_rate']}
+                    'complete_frames': frames, 'partial_frame_bytes': remainder,
+                    'duration_seconds': frames / format_info['sample_rate']}
         cursor += size + (size % 2)
     raise ValueError('Data header not present in bounded prefix')
 

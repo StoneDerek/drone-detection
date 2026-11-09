@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-09",
+  "kind": "Source acquisition only; no accepted training/test labels or partitions",
+  "notes": [
+    "One active writer per output directory.",
+    "A null expected hash denotes a first acquisition; publisher did not provide a checksum. The observed hash is frozen and reused, not called publisher-verified.",
+    "AuDroK ignores Range requests: an interrupted archive transfer restarts; completed verified archives are reused.",
+    "RealMAN extraction uses a stored/uncompressed RAR member, its known byte extent and a pinned full-member SHA; the whole archive hash is not verified."
+  ],
+  "items": [
+    {
+      "id": "audrok-catalog",
+      "filename": "audrok-catalog.xml",
+      "url": "https://mobilithek.info/mdp-api/files/aux/607921792037576704/SQL_tables_AuDroK_20230620.xml",
+      "bytes": 3364217,
+      "sha256": "ff98519aa808130941301e9877af5024902247e9e974cb0c152a1ac60ae72fbc",
+      "profiles": [
+        "pilot",
+        "outdoor"
+      ],
+      "role": "June 2023 catalog; known incomplete references, not the current complete outdoor manifest"
+    },
+    {
+      "id": "audrok-multidrone",
+      "filename": "MultiDrone.zip",
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/MultiDrone.zip",
+      "bytes": 200947757,
+      "sha256": "cdb981fe2d91f3eaf9495aad8a35869ec6e83d4579fe88d6f5167b365e695315",
+      "profiles": [
+        "pilot",
+        "outdoor"
+      ],
+      "role": "Original dual-drone measurements; four simultaneous recorder views per named measurement"
+    },
+    {
+      "id": "realman-ch0-proof",
+      "filename": "realman-Terrace2-CH0.flac",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Terrace2.rar",
+      "range": [
+        108,
+        1984178,
+        1581189847
+      ],
+      "bytes": 1984071,
+      "sha256": "3ae3d81620318569499d782dbd3421dbd14a9f5e67d430653f6009724079dda3",
+      "profiles": [
+        "pilot",
+        "outdoor"
+      ],
+      "role": "One-minute native background extraction proof; no independently reviewed drone-absence label"
+    },
+    {
+      "id": "audrok-outdoor-B",
+      "filename": "Renamed_Dresden-II-S-B.zip",
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-B.zip",
+      "bytes": 3168015789,
+      "sha256": null,
+      "profiles": [
+        "outdoor"
+      ],
+      "role": "Original outdoor measurements, first full acquisition; hash must be frozen in receipt before further preparation"
+    },
+    {
+      "id": "audrok-outdoor-A",
+      "filename": "Renamed_Dresden-II-S-A.zip",
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-A.zip",
+      "bytes": 3515538927,
+      "sha256": null,
+      "profiles": [
+        "outdoor"
+      ],
+      "role": "Original outdoor measurements, first full acquisition; hash must be frozen in receipt before further preparation"
+    }
+  ]
+}

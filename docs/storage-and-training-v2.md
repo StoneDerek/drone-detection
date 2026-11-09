@@ -37,6 +37,16 @@ checked in the notebook. A different GPU may change numerical results. The probe
 requires absolute state agreement within `1e-4` on CUDA, and exact equality on CPU;
 a failure must be investigated rather than relaxing the limit to hide it.
 
+## Source intake after runtime verification
+
+The [CPU-only source-intake notebook](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/source_intake.ipynb)
+uses a separate pinned project subfolder and the standard library. Its default
+profile acquires 6.890 GB, including the original AuDroK outdoor pair; it does not
+train a model. Confirm available Drive allocation before running. Completed files
+are hashed and reused on a replacement runtime; interrupted AuDroK archives must
+restart because that server ignores HTTP ranges. See the
+[acquisition audit and remaining data gaps](../reports/corpus-acquisition-v2/README.md).
+
 ## Storage arrangement
 
 - GitHub holds code, locked environments, configurations and small manifests.

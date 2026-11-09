@@ -6,7 +6,11 @@ and independent coverage have not yet been established for these candidates.
 No detector scores were generated and no train/development/blind assignment was
 made. The existing scored sources remain consumed development material.
 
-The [candidate registry](../../data/corpus-candidates-v2.json) records six sources,
+The [second acquisition audit](../corpus-acquisition-v2/README.md) now resolves
+AuDroK public file access, acquires a native pilot and adds RealMAN/DADS candidates.
+The findings below preserve the first-pass scope; the current registry has eight sources.
+
+The [candidate registry](../../data/corpus-candidates-v2.json) records the current sources,
 roles, licenses, limitations and the next action for each. The
 [publisher file list](../../data/candidate-files-v2.jsonl) records 202 distribution
 members across four API-backed releases, with sizes, URLs and publisher checksums.

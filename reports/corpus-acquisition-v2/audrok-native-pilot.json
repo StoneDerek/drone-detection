@@ -1,0 +1,105 @@
+{
+  "source": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/MultiDrone.zip",
+  "bytes": 200947757,
+  "sha256": "cdb981fe2d91f3eaf9495aad8a35869ec6e83d4579fe88d6f5167b365e695315",
+  "publisher_checksum": null,
+  "entries": [
+    {
+      "path": "54 Inspire M300 Free P/54 Inspire M300 Free P_BSWA.wav",
+      "size": 24600620,
+      "crc32": 4146556779,
+      "sha256": "a90606091410be683a8b40985451906899c7cf7b818d5f2e16488b8ca8840a58",
+      "crc32_verified": true,
+      "frames": 6150144,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 139.45904761904762
+    },
+    {
+      "path": "54 Inspire M300 Free P/54 Inspire M300 Free P_Sys1.wav",
+      "size": 24600620,
+      "crc32": 2910127988,
+      "sha256": "f3640b06f727f024e5dad6d56ed9aaacb9a1b2c8ebeb01f0fcf96de3b594b8b6",
+      "crc32_verified": true,
+      "frames": 6150144,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 139.45904761904762
+    },
+    {
+      "path": "54 Inspire M300 Free P/54 Inspire M300 Free P_Sys2.wav",
+      "size": 24600620,
+      "crc32": 1533558238,
+      "sha256": "8ebacd0a69de08f0065edcba1d3544f703180bd95a0d60a38fd52181cb85b2e5",
+      "crc32_verified": true,
+      "frames": 6150144,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 139.45904761904762
+    },
+    {
+      "path": "54 Inspire M300 Free P/54 Inspire M300 Free P_Sys3.wav",
+      "size": 24600620,
+      "crc32": 2220094400,
+      "sha256": "04161c14d903fa931ff4250e51565436f488d3600f30dad85af8b8d371f80930",
+      "crc32_verified": true,
+      "frames": 6150144,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 139.45904761904762
+    },
+    {
+      "path": "55 Inspire M300 Free WP/55 Inspire M300 Free WP_BSWA.wav",
+      "size": 29771820,
+      "crc32": 1232640001,
+      "sha256": "7e19255fc6fa7fdb39801bc10de543a82039ba95d7f7fb6d367ec0df9c16c1d8",
+      "crc32_verified": true,
+      "frames": 7442944,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 168.77424036281178
+    },
+    {
+      "path": "55 Inspire M300 Free WP/55 Inspire M300 Free WP_Sys1.wav",
+      "size": 29771820,
+      "crc32": 650801139,
+      "sha256": "65311ee4d7286f4182be0d72b25fbf891a5ac7ab8972a3b8c875151a3255a4c2",
+      "crc32_verified": true,
+      "frames": 7442944,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 168.77424036281178
+    },
+    {
+      "path": "55 Inspire M300 Free WP/55 Inspire M300 Free WP_Sys2.wav",
+      "size": 29771820,
+      "crc32": 876314739,
+      "sha256": "e7d6a88c65115069d7a115ccc14caefd2f99e31663c9846e2d727c91c2713692",
+      "crc32_verified": true,
+      "frames": 7442944,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 168.77424036281178
+    },
+    {
+      "path": "55 Inspire M300 Free WP/55 Inspire M300 Free WP_Sys3.wav",
+      "size": 29771820,
+      "crc32": 2498119729,
+      "sha256": "b827d4bb7e8b43f710c2d53eccf0e92b16c49c61e786b8e80bf3c64871c5193b",
+      "crc32_verified": true,
+      "frames": 7442944,
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "FLOAT",
+      "duration_seconds": 168.77424036281178
+    }
+  ],
+  "scope": "Complete local archive byte count/SHA and ZIP member CRCs; WAV metadata decoded. No acoustic labels independently reviewed; no detector scoring."
+}

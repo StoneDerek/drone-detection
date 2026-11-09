@@ -1,0 +1,246 @@
+{
+  "scope": "Public offer/file metadata, not unique recordings. Duplicate names/sizes across offers are mirrors to investigate, not new exposure.",
+  "offers": [
+    {
+      "publication_id": "605778370199691264",
+      "title": "AUDROK Drohnen Sounddaten",
+      "metadata_url": "https://mobilithek.info/mdp-api/mdp-msa-metadata/v2/offers/605778370199691264",
+      "metadata_sha256": "7f03cbb46379f2a87ec68c02d9401170abb96cfd6c6bb6c722de9d3b7796d910",
+      "access_rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "rights_code": "https://w3id.org/mdp/schema/license#NO_LICENSE",
+      "standard_license": null,
+      "file_count": 7
+    },
+    {
+      "publication_id": "607921792037576704",
+      "title": "Sounddatenbank SQL (Tabellen)",
+      "metadata_url": "https://mobilithek.info/mdp-api/mdp-msa-metadata/v2/offers/607921792037576704",
+      "metadata_sha256": "126ac09be063f0e755640cb2f490892b46ff0aa2d3f4c1691937d940c9df34b9",
+      "access_rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "rights_code": "https://w3id.org/mdp/schema/license#NO_LICENSE",
+      "standard_license": null,
+      "file_count": 1
+    },
+    {
+      "publication_id": "623118978199212032",
+      "title": "AuDroK Outdoor Sounddaten (Messungen 2023)",
+      "metadata_url": "https://mobilithek.info/mdp-api/mdp-msa-metadata/v2/offers/623118978199212032",
+      "metadata_sha256": "1709c268f388718e3958d5bfab9f0d120d01aa7e8d5b2b5e3b39d2ca3c4f01e0",
+      "access_rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "rights_code": "https://w3id.org/mdp/schema/license#NO_LICENSE",
+      "standard_license": null,
+      "file_count": 5
+    },
+    {
+      "publication_id": "623214647853346816",
+      "title": "AuDroK: Sounddaten von externen Partnern",
+      "metadata_url": "https://mobilithek.info/mdp-api/mdp-msa-metadata/v2/offers/623214647853346816",
+      "metadata_sha256": "4f4750fc2f496161011d0305e87427d5f17e27e74be7da1f45beb0d713e5c660",
+      "access_rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "rights_code": "https://w3id.org/mdp/schema/license#NO_LICENSE",
+      "standard_license": null,
+      "file_count": 2
+    },
+    {
+      "publication_id": "641698075762397184",
+      "title": "AuDrok Sounddata Zipped WAVE",
+      "metadata_url": "https://mobilithek.info/mdp-api/mdp-msa-metadata/v2/offers/641698075762397184",
+      "metadata_sha256": "68d9fcfbdf3aee5a57f4a5f81b0e65462f62fd86cf47135b083429a155686d2d",
+      "access_rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "rights_code": "https://w3id.org/mdp/schema/license#NO_LICENSE",
+      "standard_license": null,
+      "file_count": 5
+    },
+    {
+      "publication_id": "644264147346690048",
+      "title": "External AuDroK Sounddata Zipped WAVE",
+      "metadata_url": "https://mobilithek.info/mdp-api/mdp-msa-metadata/v2/offers/644264147346690048",
+      "metadata_sha256": "c4a830ce5095a6c50c81b53f289f2d17c94b682e049252eca168dfae7cc80e14",
+      "access_rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "rights_code": "https://w3id.org/mdp/schema/license#NO_LICENSE",
+      "standard_license": null,
+      "file_count": 3
+    }
+  ],
+  "files": [
+    {
+      "publication_id": "605778370199691264",
+      "filename": "AuDroKSoundData-23-02-22 Measurements_1-19.zip",
+      "bytes": 1381646815,
+      "url": "https://mobilithek.info/mdp-api/files/aux/605778370199691264/AuDroKSoundData-23-02-22 Measurements_1-19.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "605778370199691264",
+      "filename": "Renamed_Dresden-II-S-B.zip",
+      "bytes": 3168015789,
+      "url": "https://mobilithek.info/mdp-api/files/aux/605778370199691264/Renamed_Dresden-II-S-B.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "605778370199691264",
+      "filename": "AuDroKSoundData-23-02-22 Measurements_40-59.zip",
+      "bytes": 1532336339,
+      "url": "https://mobilithek.info/mdp-api/files/aux/605778370199691264/AuDroKSoundData-23-02-22 Measurements_40-59.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "605778370199691264",
+      "filename": "Renamed_Dresden-II-S-A.zip",
+      "bytes": 3515538927,
+      "url": "https://mobilithek.info/mdp-api/files/aux/605778370199691264/Renamed_Dresden-II-S-A.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "605778370199691264",
+      "filename": "AuDroKSoundData-23-02-22 Measurements_60-79.zip",
+      "bytes": 1547275253,
+      "url": "https://mobilithek.info/mdp-api/files/aux/605778370199691264/AuDroKSoundData-23-02-22 Measurements_60-79.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "605778370199691264",
+      "filename": "AuDroKSoundData-23-02-22 Measurements_20-39.zip",
+      "bytes": 1529078146,
+      "url": "https://mobilithek.info/mdp-api/files/aux/605778370199691264/AuDroKSoundData-23-02-22 Measurements_20-39.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "605778370199691264",
+      "filename": "Angebotsbeschreibung.xml",
+      "bytes": 10318194,
+      "url": "https://mobilithek.info/mdp-api/files/aux/605778370199691264/Angebotsbeschreibung.xml",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "607921792037576704",
+      "filename": "SQL_tables_AuDroK_20230620.xml",
+      "bytes": 3364217,
+      "url": "https://mobilithek.info/mdp-api/files/aux/607921792037576704/SQL_tables_AuDroK_20230620.xml",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "623118978199212032",
+      "filename": "23-06-07 Measurements_Singledr4.zip",
+      "bytes": 1441077399,
+      "url": "https://mobilithek.info/mdp-api/files/aux/623118978199212032/23-06-07 Measurements_Singledr4.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "623118978199212032",
+      "filename": "23-06-07 Measurements_Singledr3.zip",
+      "bytes": 2161001474,
+      "url": "https://mobilithek.info/mdp-api/files/aux/623118978199212032/23-06-07 Measurements_Singledr3.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "623118978199212032",
+      "filename": "23-06-07 Measurements_Singledr2.zip",
+      "bytes": 1803876079,
+      "url": "https://mobilithek.info/mdp-api/files/aux/623118978199212032/23-06-07 Measurements_Singledr2.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "623118978199212032",
+      "filename": "23-06-07 Measurements_Singledr1.zip",
+      "bytes": 1750210612,
+      "url": "https://mobilithek.info/mdp-api/files/aux/623118978199212032/23-06-07 Measurements_Singledr1.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "623118978199212032",
+      "filename": "23-06-07 Measurements_Multidr.zip",
+      "bytes": 289992378,
+      "url": "https://mobilithek.info/mdp-api/files/aux/623118978199212032/23-06-07 Measurements_Multidr.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "623214647853346816",
+      "filename": "UBA-DLR-TUB.zip",
+      "bytes": 69460295,
+      "url": "https://mobilithek.info/mdp-api/files/aux/623214647853346816/UBA-DLR-TUB.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "623214647853346816",
+      "filename": "Palloza.zip",
+      "bytes": 35917623,
+      "url": "https://mobilithek.info/mdp-api/files/aux/623214647853346816/Palloza.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "641698075762397184",
+      "filename": "Renamed_Dresden-II-S-B.zip",
+      "bytes": 3168015789,
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-B.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "641698075762397184",
+      "filename": "RenamedDresden-I-B.zip",
+      "bytes": 2559445826,
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/RenamedDresden-I-B.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "641698075762397184",
+      "filename": "MultiDrone.zip",
+      "bytes": 200947757,
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/MultiDrone.zip",
+      "full_download_verified": true
+    },
+    {
+      "publication_id": "641698075762397184",
+      "filename": "Renamed_Dresden-II-S-A.zip",
+      "bytes": 3515538927,
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-A.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "641698075762397184",
+      "filename": "RenamedDresden-I-A.zip",
+      "bytes": 2358901265,
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/RenamedDresden-I-A.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "644264147346690048",
+      "filename": "Palloza-WAV.zip",
+      "bytes": 33723208,
+      "url": "https://mobilithek.info/mdp-api/files/aux/644264147346690048/Palloza-WAV.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "644264147346690048",
+      "filename": "UBA-DLR-TUB-WAV.zip",
+      "bytes": 137493488,
+      "url": "https://mobilithek.info/mdp-api/files/aux/644264147346690048/UBA-DLR-TUB-WAV.zip",
+      "full_download_verified": false
+    },
+    {
+      "publication_id": "644264147346690048",
+      "filename": "Audacity-WAV.zip",
+      "bytes": 407606273,
+      "url": "https://mobilithek.info/mdp-api/files/aux/644264147346690048/Audacity-WAV.zip",
+      "full_download_verified": false
+    }
+  ],
+  "range_probes": [
+    {
+      "url": "https://mobilithek.info/mdp-api/files/aux/607921792037576704/SQL_tables_AuDroK_20230620.xml",
+      "status": 200,
+      "content_range": null,
+      "type": "application/octet-stream",
+      "read_bytes": 4097,
+      "prefix_hex": "3c3f786d6c2076657273696f6e3d2231"
+    },
+    {
+      "url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/MultiDrone.zip",
+      "status": 200,
+      "content_range": null,
+      "type": "application/octet-stream",
+      "read_bytes": 4097,
+      "prefix_hex": "504b030414000000000083b8fa560000"
+    }
+  ]
+}

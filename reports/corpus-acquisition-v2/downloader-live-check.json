@@ -1,0 +1,19 @@
+{
+  "scope": "Live HTTPS full-file catalog and exact-range native-member transfers; local storage and replacement invocation reuse. No Drive or large outdoor transfer tested.",
+  "results": [
+    {
+      "source_id": "audrok-catalog",
+      "bytes": 3364217,
+      "sha256": "ff98519aa808130941301e9877af5024902247e9e974cb0c152a1ac60ae72fbc",
+      "fresh_transfer_passed": true,
+      "completed_file_reuse_passed": true
+    },
+    {
+      "source_id": "realman-ch0-proof",
+      "bytes": 1984071,
+      "sha256": "3ae3d81620318569499d782dbd3421dbd14a9f5e67d430653f6009724079dda3",
+      "fresh_transfer_passed": true,
+      "completed_file_reuse_passed": true
+    }
+  ]
+}

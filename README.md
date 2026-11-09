@@ -73,6 +73,11 @@ to mount Drive, pin the code/environment and verify checkpoint recovery across
 process interruption and runtime replacement. This is runtime preparation;
 new detector training follows the [data-first research plan](docs/research-plan-v2.md).
 See the [setup and verification limits](docs/storage-and-training-v2.md).
+The [CPU source-intake notebook](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/source_intake.ipynb)
+then acquires the original outdoor source archives with verified completion/restart
+handling. [Acquisition findings](reports/corpus-acquisition-v2/README.md) document
+what is available and which label/coverage gaps remain.
+
 
 ## Run the product
 

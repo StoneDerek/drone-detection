@@ -66,12 +66,16 @@ def test_bootstrap_refuses_dirty_checkout_and_changed_origin(tmp_path):
         bootstrap.pin_checkout(project, checkout, 'https://example.invalid/other.git')
 
 
-def test_notebook_schema_generated_content_and_code_compile():
+@pytest.mark.parametrize(('filename', 'builder'), [
+    ('gpu_runtime_setup.ipynb', 'build_gpu_notebook.py'),
+    ('source_intake.ipynb', 'build_intake_notebook.py'),
+])
+def test_notebook_schema_generated_content_and_code_compile(filename, builder):
     nbformat = pytest.importorskip('nbformat')
-    path = ROOT / 'notebooks/gpu_runtime_setup.ipynb'
+    path = ROOT / 'notebooks' / filename
     notebook = nbformat.read(path, as_version=4)
     nbformat.validate(notebook)
-    expected = load(ROOT / 'scripts/build_gpu_notebook.py').notebook()
+    expected = load(ROOT / 'scripts' / builder).notebook()
     assert json.loads(path.read_text()) == expected
     for cell in notebook.cells:
         if cell.cell_type == 'code':

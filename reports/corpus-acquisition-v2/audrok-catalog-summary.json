@@ -1,0 +1,557 @@
+{
+  "scope": "Metadata only, SQL never executed; file-duration sums are not unique timeline hours",
+  "catalog_sha256": "f2f859b6b7ecb799c3968717bc3286dbfcadc1805dae40f777d9f2d8a2b9bf40",
+  "tables": {
+    "tb_content_classes": 9,
+    "tb_data_descriptors": 14,
+    "tb_data_origins": 50,
+    "tb_digitally_mixed_dr_sound_data": 606,
+    "tb_dronetypes": 26,
+    "tb_multi_dr_freefield_data": 0,
+    "tb_multi_dr_outdoor_noise_data": 0,
+    "tb_multi_dr_outdoor_pure_data": 0,
+    "tb_recorded_background_sound_data": 109,
+    "tb_short_babble_sound_data": 10000,
+    "tb_single_dr_freefield_data": 3338,
+    "tb_single_dr_outdoor_noise_data": 124,
+    "tb_single_dr_outdoor_pure_data": 0
+  },
+  "by_table_origin": [
+    {
+      "table": "tb_digitally_mixed_dr_sound_data",
+      "origin": 44,
+      "metadata_rows": 606,
+      "rows_with_duration": 606,
+      "summed_file_seconds": 594.4,
+      "drone_type_ids": [
+        11,
+        12
+      ]
+    },
+    {
+      "table": "tb_recorded_background_sound_data",
+      "origin": 43,
+      "metadata_rows": 67,
+      "rows_with_duration": 67,
+      "summed_file_seconds": 335.6,
+      "drone_type_ids": [
+        0
+      ]
+    },
+    {
+      "table": "tb_recorded_background_sound_data",
+      "origin": 50,
+      "metadata_rows": 30,
+      "rows_with_duration": 30,
+      "summed_file_seconds": 300,
+      "drone_type_ids": [
+        0
+      ]
+    },
+    {
+      "table": "tb_recorded_background_sound_data",
+      "origin": 52,
+      "metadata_rows": 12,
+      "rows_with_duration": 12,
+      "summed_file_seconds": 961.2,
+      "drone_type_ids": [
+        0
+      ]
+    },
+    {
+      "table": "tb_short_babble_sound_data",
+      "origin": 44,
+      "metadata_rows": 10000,
+      "rows_with_duration": 10000,
+      "summed_file_seconds": 10000,
+      "drone_type_ids": [
+        0
+      ]
+    },
+    {
+      "table": "tb_single_dr_freefield_data",
+      "origin": 44,
+      "metadata_rows": 56,
+      "rows_with_duration": 56,
+      "summed_file_seconds": 56,
+      "drone_type_ids": [
+        11
+      ]
+    },
+    {
+      "table": "tb_single_dr_freefield_data",
+      "origin": 51,
+      "metadata_rows": 6,
+      "rows_with_duration": 6,
+      "summed_file_seconds": 34,
+      "drone_type_ids": [
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "table": "tb_single_dr_freefield_data",
+      "origin": 52,
+      "metadata_rows": 3276,
+      "rows_with_duration": 3276,
+      "summed_file_seconds": 37567.8,
+      "drone_type_ids": [
+        7,
+        10,
+        16,
+        17,
+        22,
+        23,
+        29,
+        30,
+        31,
+        32,
+        35,
+        36
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 1,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 3,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 2,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 15,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 3,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 9,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 4,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 15,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 5,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 12,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 6,
+      "metadata_rows": 2,
+      "rows_with_duration": 2,
+      "summed_file_seconds": 4,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 7,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 42,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 8,
+      "metadata_rows": 2,
+      "rows_with_duration": 2,
+      "summed_file_seconds": 12,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 9,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 21,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 10,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 3,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 11,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 54,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 12,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 39,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 13,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 21,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 14,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 15,
+      "drone_type_ids": [
+        1
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 15,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 63,
+      "drone_type_ids": [
+        2
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 16,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 129,
+      "drone_type_ids": [
+        2
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 17,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 15,
+      "drone_type_ids": [
+        2
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 18,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 60,
+      "drone_type_ids": [
+        3
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 19,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 36,
+      "drone_type_ids": [
+        3
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 20,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 27,
+      "drone_type_ids": [
+        3
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 21,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 12,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 22,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 15,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 23,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 39,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 24,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 27,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 25,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 33,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 26,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 21,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 27,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 9,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 28,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 21,
+      "drone_type_ids": [
+        4
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 29,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 33,
+      "drone_type_ids": [
+        5
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 30,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 66,
+      "drone_type_ids": [
+        5
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 31,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 59.400000000000006,
+      "drone_type_ids": [
+        5
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 32,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 40.8,
+      "drone_type_ids": [
+        5
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 33,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 114,
+      "drone_type_ids": [
+        6
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 34,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 141,
+      "drone_type_ids": [
+        6
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 35,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 195,
+      "drone_type_ids": [
+        6
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 36,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 84,
+      "drone_type_ids": [
+        7
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 37,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 33.900000000000006,
+      "drone_type_ids": [
+        8
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 38,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 179.7,
+      "drone_type_ids": [
+        8
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 39,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 93,
+      "drone_type_ids": [
+        9
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 40,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 27,
+      "drone_type_ids": [
+        10
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 41,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 9,
+      "drone_type_ids": [
+        10
+      ]
+    },
+    {
+      "table": "tb_single_dr_outdoor_noise_data",
+      "origin": 42,
+      "metadata_rows": 3,
+      "rows_with_duration": 3,
+      "summed_file_seconds": 6,
+      "drone_type_ids": [
+        10
+      ]
+    }
+  ],
+  "catalog_url": "https://mobilithek.info/mdp-api/files/aux/607921792037576704/SQL_tables_AuDroK_20230620.xml",
+  "catalog_xml_sha256": "ff98519aa808130941301e9877af5024902247e9e974cb0c152a1ac60ae72fbc",
+  "missing_origin_ids": [
+    51,
+    52
+  ],
+  "missing_drone_type_ids": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    35,
+    36
+  ],
+  "own_measurement_filename_groups": 78,
+  "own_measurement_group_sizes": {
+    "42": 78
+  },
+  "own_measurement_max_duration_sum_seconds": 1396.2,
+  "grouping_status": "Filename heuristic only; no accepted unique-hour claim. Catalog is June 2023 and lacks later outdoor entries."
+}

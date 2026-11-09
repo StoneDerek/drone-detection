@@ -1,0 +1,605 @@
+{
+  "repository": "https://huggingface.co/datasets/AISHELL/RealMAN",
+  "revision": "fea47505cae8041f4b652b0954ba61c77d2b6df1",
+  "scene_info_url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/dataset_info/scene_info.json",
+  "scene_info_sha256": "475f74138c4ff26c861872a4c567663ac14d4ed89de6359ee68001804b6fcd2c",
+  "license_evidence": "CC-BY-4.0 in https://github.com/Audio-WestlakeU/RealMAN#license",
+  "noise_archives": 51,
+  "noise_archive_bytes": 478593947897,
+  "rounded_noise_minutes_by_type": {
+    "indoor": 4832,
+    "outdoor": 1707,
+    "transportation": 1127,
+    "semi-outdoor": 999
+  },
+  "scenes": [
+    {
+      "scene": "Cafeteria1",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        483,
+        0,
+        120
+      ]
+    },
+    {
+      "scene": "OfficeLobby",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        144,
+        42,
+        21
+      ]
+    },
+    {
+      "scene": "BasketballCourt1",
+      "type": "outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        315,
+        52,
+        158
+      ]
+    },
+    {
+      "scene": "BadmintonCourt1",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        317,
+        80,
+        0
+      ]
+    },
+    {
+      "scene": "Classroom1",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        338,
+        25,
+        120
+      ]
+    },
+    {
+      "scene": "OfficeRoom3",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        214,
+        72,
+        72
+      ]
+    },
+    {
+      "scene": "LivingRoom1",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "scene": "Gym",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        293,
+        33,
+        0
+      ]
+    },
+    {
+      "scene": "Market",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        255,
+        29,
+        0
+      ]
+    },
+    {
+      "scene": "Car-Gasoline",
+      "type": "transportation",
+      "publisher_rounded_noise_minutes_by_split": [
+        189,
+        0,
+        81
+      ]
+    },
+    {
+      "scene": "Car-Electric",
+      "type": "transportation",
+      "publisher_rounded_noise_minutes_by_split": [
+        172,
+        129,
+        129
+      ]
+    },
+    {
+      "scene": "Bus-Electric",
+      "type": "transportation",
+      "publisher_rounded_noise_minutes_by_split": [
+        250,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "Terrace1",
+      "type": "semi-outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        239,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "Laundry",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        28,
+        7,
+        12
+      ]
+    },
+    {
+      "scene": "LivingRoom9",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        45,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "Terrace2",
+      "type": "semi-outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        26,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "Roadside1",
+      "type": "outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        169,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "ConstructionPlant",
+      "type": "outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        346,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "Cafeteria2",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        443,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "Park",
+      "type": "outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        338,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "PedestrianStreet",
+      "type": "semi-outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        495,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "BarberShop",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        213,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "ShoppingMall",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        327,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "SunkenPlaza2",
+      "type": "semi-outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        167,
+        36,
+        36
+      ]
+    },
+    {
+      "scene": "Roadside2",
+      "type": "outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        163,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "Subway-Electric",
+      "type": "transportation",
+      "publisher_rounded_noise_minutes_by_split": [
+        177,
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "OfficeRoom2",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        0,
+        0,
+        118
+      ]
+    },
+    {
+      "scene": "UndergroundParking2",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        233,
+        0,
+        100
+      ]
+    },
+    {
+      "scene": "Cafeteria3",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        0,
+        286,
+        0
+      ]
+    },
+    {
+      "scene": "BadmintonCourt2",
+      "type": "indoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        0,
+        0,
+        355
+      ]
+    },
+    {
+      "scene": "BasketballCourt2",
+      "type": "outdoor",
+      "publisher_rounded_noise_minutes_by_split": [
+        0,
+        166,
+        0
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "test_raw/ma_noise/BadmintonCourt2.rar",
+      "bytes": 20556705462,
+      "publisher_lfs_sha256": "08add47878674b11bab84c36f7c3180c855bc610fc63e6c9277afc0a1022e927",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/BadmintonCourt2.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/BasketballCourt1.rar",
+      "bytes": 6275172887,
+      "publisher_lfs_sha256": "51451d566466e7d53ae60ffa8d6e6c35f9961b2fbc4276e1109e15d6da111de1",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/BasketballCourt1.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/Cafeteria1.rar",
+      "bytes": 6501676423,
+      "publisher_lfs_sha256": "61dd550fabf468282a99e2190a50b112df1e801fc70b786ab333db5d6eb6b0ae",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/Cafeteria1.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/Car-Electric.rar",
+      "bytes": 5441896430,
+      "publisher_lfs_sha256": "9e2dfce7c29014e63c39a98f1f46d0eeb608870823b98515104f0a1e8ef719c4",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/Car-Electric.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/Car-Gasoline.rar",
+      "bytes": 5263048504,
+      "publisher_lfs_sha256": "183f57c8b2e0cf6e1cd6c0a4544079e6c35aca4248de7577db07cb2c0964690a",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/Car-Gasoline.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/Classroom1.rar",
+      "bytes": 4184997460,
+      "publisher_lfs_sha256": "b0419824df8c7adc52942ac6698ea4ca683e8f202adfb6fdd9e34bac73b27dfa",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/Classroom1.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/Laundry.rar",
+      "bytes": 578980161,
+      "publisher_lfs_sha256": "928c1e83628e9e1e26af15b94d4d237c727144f7750f16c913f0b16d3bc648f2",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/Laundry.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/LivingRoom1.rar",
+      "bytes": 368171789,
+      "publisher_lfs_sha256": "4c2e4f41aada9f0f5b9c8864c2ae7e4b9f4b8537a24bfd9436d513a09829e279",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/LivingRoom1.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/OfficeLobby.rar",
+      "bytes": 1088489789,
+      "publisher_lfs_sha256": "8553a07c72d3c253f0d86ea100330b2cf4a9487c1c704c8559597a2690e16dc1",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/OfficeLobby.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/OfficeRoom2.rar",
+      "bytes": 4990479765,
+      "publisher_lfs_sha256": "4905507c94944544b529523f646ea2cac52046a6e151c38bfc950753953a7798",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/OfficeRoom2.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/OfficeRoom3.rar",
+      "bytes": 2515713826,
+      "publisher_lfs_sha256": "52b867746ed3321169e1541c681272e0cbca3e21a6a0d6a2df996143db4d5498",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/OfficeRoom3.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/SunkenPlaza2.rar",
+      "bytes": 1529167562,
+      "publisher_lfs_sha256": "56f3fe37bfe977fe4b4808355df1768410a7c9c9950dbcf1b73b6a2bc3f4d45c",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/SunkenPlaza2.rar"
+    },
+    {
+      "path": "test_raw/ma_noise/UndergroundParking2.rar",
+      "bytes": 4364364804,
+      "publisher_lfs_sha256": "5e7fb36bd268dd64cebb740b46094b68b0a679dc3caae3010bb6f572cf5bea8b",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/test_raw/ma_noise/UndergroundParking2.rar"
+    },
+    {
+      "path": "train/ma_noise/BadmintonCourt1.rar",
+      "bytes": 16290171221,
+      "publisher_lfs_sha256": "ecf8cb6ef252c98d31ce0b836d3355b743507fbccbb20163b3dd7946bcb57bda",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/BadmintonCourt1.rar"
+    },
+    {
+      "path": "train/ma_noise/BarberShop.rar",
+      "bytes": 16478336212,
+      "publisher_lfs_sha256": "7260b2fda25fcffbb0d901f3a8e1a882e2f71a57dc4b4421ceb32525b32b751f",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/BarberShop.rar"
+    },
+    {
+      "path": "train/ma_noise/BasketballCourt1.rar",
+      "bytes": 12770229810,
+      "publisher_lfs_sha256": "7eec51d7cad277cecd8c3379d751e431c8cf5618d8fe104a33a6ecd9b451e6d1",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/BasketballCourt1.rar"
+    },
+    {
+      "path": "train/ma_noise/Bus-Electric.rar",
+      "bytes": 15969122160,
+      "publisher_lfs_sha256": "7122cb81104bea4f662dd426c35b5ee9cea78ea4a6e5ba7b0a540945225f19c3",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Bus-Electric.rar"
+    },
+    {
+      "path": "train/ma_noise/Cafeteria1.rar",
+      "bytes": 27654059815,
+      "publisher_lfs_sha256": "dfa2fd73bae956b059cc5430b90e2bc58d4e18bcd703f7c4e78c852810e66c81",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Cafeteria1.rar"
+    },
+    {
+      "path": "train/ma_noise/Cafeteria2.rar",
+      "bytes": 27853455381,
+      "publisher_lfs_sha256": "67df33f07e58c8ca622b611112b1124d2be8fad678b917b4fc9dea5201d784c7",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Cafeteria2.rar"
+    },
+    {
+      "path": "train/ma_noise/Car-Electric.rar",
+      "bytes": 9570648876,
+      "publisher_lfs_sha256": "9321d7ca03bbae5a62e2f943ecb6bb7ffe6ca5c3f8272ba3e57f47a9ed3993db",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Car-Electric.rar"
+    },
+    {
+      "path": "train/ma_noise/Car-Gasoline.rar",
+      "bytes": 12533007492,
+      "publisher_lfs_sha256": "7e7450278b0abdd381189e613af973546bb11980c2e6621d1d5e1fcea87f12c8",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Car-Gasoline.rar"
+    },
+    {
+      "path": "train/ma_noise/Classroom1.rar",
+      "bytes": 11586161697,
+      "publisher_lfs_sha256": "0df41aa01fc685030c542797e96556faf3bbd07762deb27f26f8449866dd88d6",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Classroom1.rar"
+    },
+    {
+      "path": "train/ma_noise/ConstructionPlant.rar",
+      "bytes": 21697942686,
+      "publisher_lfs_sha256": "5362ab3ce31fbec4ea0ff0f3664f101e97d21fdd39cb6db77774bddb9a90ebfe",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/ConstructionPlant.rar"
+    },
+    {
+      "path": "train/ma_noise/Gym.rar",
+      "bytes": 16630891395,
+      "publisher_lfs_sha256": "0dc2e30950421cbafcacb082369728de203107ee53f57c61d35a3344a89e910f",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Gym.rar"
+    },
+    {
+      "path": "train/ma_noise/Laundry.rar",
+      "bytes": 1861668244,
+      "publisher_lfs_sha256": "6d5126a4582524ace86b3004872be90d843034130f9272dbfdbeb9d0dcd19eac",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Laundry.rar"
+    },
+    {
+      "path": "train/ma_noise/LivingRoom9.rar",
+      "bytes": 3049302820,
+      "publisher_lfs_sha256": "a86d47b941d32bd61d9b89f94d0bae6898aca0d9df6899c1644a4748336bc266",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/LivingRoom9.rar"
+    },
+    {
+      "path": "train/ma_noise/Market.rar",
+      "bytes": 19576283383,
+      "publisher_lfs_sha256": "d31e6b0cb17b592ae1ede71c9da8a3cac47c9b914afe9a2a7cbc52b37a302a66",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Market.rar"
+    },
+    {
+      "path": "train/ma_noise/OfficeLobby.rar",
+      "bytes": 6705448137,
+      "publisher_lfs_sha256": "8715cf16130b4eaa02cd12739df48c494a30d41784a94fe169b12e05e4a17869",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/OfficeLobby.rar"
+    },
+    {
+      "path": "train/ma_noise/OfficeRoom3.rar",
+      "bytes": 7293269153,
+      "publisher_lfs_sha256": "fb95c168bb218823bfa57efba872831940277a00c3d4536c5dc560c3da196044",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/OfficeRoom3.rar"
+    },
+    {
+      "path": "train/ma_noise/Park.rar",
+      "bytes": 18344372145,
+      "publisher_lfs_sha256": "abeeca95304e081b1b0df23b9f0af919d0c34cd0624512f08a8cc620844a7c16",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Park.rar"
+    },
+    {
+      "path": "train/ma_noise/PedestrianStreet.rar",
+      "bytes": 32279313799,
+      "publisher_lfs_sha256": "d815f4d7798eadd4a7bcacc4621ce8b3ed3909ed3e1f3e73fe5121e81aa75f92",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/PedestrianStreet.rar"
+    },
+    {
+      "path": "train/ma_noise/Roadside1.rar",
+      "bytes": 10746777073,
+      "publisher_lfs_sha256": "39cc5fb68223eaa857feff7fdf54778612cc52ceb7d5be92bad35369e6113042",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Roadside1.rar"
+    },
+    {
+      "path": "train/ma_noise/Roadside2.rar",
+      "bytes": 9816039343,
+      "publisher_lfs_sha256": "eeebd78df08522af7a8b14a4e56e786497c0db7a46408bdd9da6bdbd20ac9ee9",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Roadside2.rar"
+    },
+    {
+      "path": "train/ma_noise/ShoppingMall.rar",
+      "bytes": 27063319168,
+      "publisher_lfs_sha256": "961d8bcf64b536f0a054d05a0c1e9ae6c567d420176dc7236550f4517efb6e6b",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/ShoppingMall.rar"
+    },
+    {
+      "path": "train/ma_noise/Subway-Electric.rar",
+      "bytes": 12332714490,
+      "publisher_lfs_sha256": "5fb85a1100f25f71968b259b51ec400ad1460ee548955f6a65204ddab64a4631",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Subway-Electric.rar"
+    },
+    {
+      "path": "train/ma_noise/SunkenPlaza2.rar",
+      "bytes": 6631141739,
+      "publisher_lfs_sha256": "d700e1049678ecb42b9e42e4a87885dec0db3b06453b3d44a8712c6f6b6cb91e",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/SunkenPlaza2.rar"
+    },
+    {
+      "path": "train/ma_noise/Terrace1.rar",
+      "bytes": 10611648713,
+      "publisher_lfs_sha256": "e7d555069116a92c7e1fbddf5c109b60ff93f389eb524f6a5d8eb15b963d5d09",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Terrace1.rar"
+    },
+    {
+      "path": "train/ma_noise/Terrace2.rar",
+      "bytes": 1581189847,
+      "publisher_lfs_sha256": "b123adb2450abc7bf824b6baf1654b4f66fba098de36a3ea3b49389cedf1b1d9",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Terrace2.rar"
+    },
+    {
+      "path": "train/ma_noise/UndergroundParking2.rar",
+      "bytes": 10957395398,
+      "publisher_lfs_sha256": "ea31748e22a5dc24062b771c5662b9e7a7a0b58da1fe09c5b8d0a91415e73bb6",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/UndergroundParking2.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/BadmintonCourt1.rar",
+      "bytes": 4427690914,
+      "publisher_lfs_sha256": "2739f1b3286699080172e513d70ff1a89e35e8c5c46ffa76a09f666468652c30",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/BadmintonCourt1.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/BasketballCourt1.rar",
+      "bytes": 2045453995,
+      "publisher_lfs_sha256": "bcedabffbe8b5745b0f642401a207d999bc2c0a3ab7cd4d905cdde231eef1404",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/BasketballCourt1.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/BasketballCourt2.rar",
+      "bytes": 8306164427,
+      "publisher_lfs_sha256": "cca55ae5923b1f556b4ecce3fe5a68738fc5570fa28b264ada1a5e013ddcbd5d",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/BasketballCourt2.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/Cafeteria3.rar",
+      "bytes": 16228845606,
+      "publisher_lfs_sha256": "55dca6b6447b0a76b4977786507904030cad6f77cd0572c63caef10645131b8b",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/Cafeteria3.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/Car-Electric.rar",
+      "bytes": 5714580111,
+      "publisher_lfs_sha256": "380bab768d8bc07aee8791cff735185f09e1b1b9cf34123b4e421480fdde3180",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/Car-Electric.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/Classroom1.rar",
+      "bytes": 904601638,
+      "publisher_lfs_sha256": "3a63dc58103ecde60cb34057588c3bdfbd40c4f90bde1315e17f07155f9dc55e",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/Classroom1.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/Gym.rar",
+      "bytes": 1928709662,
+      "publisher_lfs_sha256": "8ca6d93d6dfce094a851d45a5c97fa92690d66fc10b231dd8bfb2d87f96a36e9",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/Gym.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/Laundry.rar",
+      "bytes": 359993641,
+      "publisher_lfs_sha256": "4a402818b0fe38189f0e4be71410b2ed91c9ff1213a617a0bce4c9b9dd94fa62",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/Laundry.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/Market.rar",
+      "bytes": 1406713135,
+      "publisher_lfs_sha256": "6364b20a5604d7b0183c9bee550f78fad50778f2c3c43674341c952be0e557e4",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/Market.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/OfficeLobby.rar",
+      "bytes": 1681614540,
+      "publisher_lfs_sha256": "5bafcec6cd1297f084b39e8ef3dd7d498a11f65f93fba3e172727ccc96a06258",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/OfficeLobby.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/OfficeRoom3.rar",
+      "bytes": 2509484118,
+      "publisher_lfs_sha256": "050d811aab369d430a6d1ee1392ef5025a682d31077cac2dc90dba636516819d",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/OfficeRoom3.rar"
+    },
+    {
+      "path": "val_raw/ma_noise/SunkenPlaza2.rar",
+      "bytes": 1537321051,
+      "publisher_lfs_sha256": "709ac8c36315cee6b45128a67658c7ba373bf3f008f31bbe1db2e8c6caeb67ac",
+      "url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/val_raw/ma_noise/SunkenPlaza2.rar"
+    }
+  ],
+  "scope": "Publisher scene-duration metadata only. One native CH0 member transferred and CRC/SHA checked. No reviewed drone-absent benchmark hours established. Do not count channels as elapsed time."
+}

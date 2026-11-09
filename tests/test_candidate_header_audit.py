@@ -49,3 +49,15 @@ def test_ignored_http_range_is_rejected_without_reading_body(tmp_path):
     with patch.object(audit.urllib.request, 'urlopen', return_value=FullResponse()):
         with pytest.raises(ValueError, match='exact bounded range'):
             audit.audit_member({'size': 4000080, 'download_url': 'https://example.invalid/file'}, tmp_path)
+
+
+def test_incomplete_native_frame_remains_a_visible_diagnostic():
+    header, length = prefix(1, 6, 32, 100)
+    malformed = bytearray(header)
+    struct.pack_into('<I', malformed, 4, length)
+    struct.pack_into('<I', malformed, len(header) - 4, 100 * 24 + 8)
+    with pytest.raises(ValueError, match='incomplete interleaved frame'):
+        audit.wav_header(malformed, length + 8)
+    facts = audit.wav_header(malformed, length + 8, allow_partial_frame=True)
+    assert facts['complete_frames'] == 100 and facts['partial_frame_bytes'] == 8
+    assert facts['duration_seconds'] == 100 / 50000
