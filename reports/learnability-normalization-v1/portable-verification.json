@@ -1,0 +1,368 @@
+{
+  "checks": [
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/background/background_0001.wav",
+      "model": "fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "fixed-seed42"
+    },
+    {
+      "error": 5.587935447692871e-09,
+      "file": "audio/background/background_0251.wav",
+      "model": "fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "fixed-seed42"
+    },
+    {
+      "error": 3.725290298461914e-09,
+      "file": "audio/background/background_0201.wav",
+      "model": "fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "fixed-seed7"
+    },
+    {
+      "error": 3.958120942115784e-09,
+      "file": "audio/background/background_0001.wav",
+      "model": "fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "fixed-seed7"
+    },
+    {
+      "error": 1.9208528101444244e-09,
+      "file": "audio/background/background_0251.wav",
+      "model": "fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "fixed-seed7"
+    },
+    {
+      "error": 1.6298145055770874e-09,
+      "file": "audio/background/background_0201.wav",
+      "model": "fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "fixed-logistic"
+    },
+    {
+      "error": 2.6020852139652106e-18,
+      "file": "audio/background/background_0001.wav",
+      "model": "fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/background/background_0251.wav",
+      "model": "fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "fixed-logistic"
+    },
+    {
+      "error": 6.245004513516506e-17,
+      "file": "audio/background/background_0201.wav",
+      "model": "fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "peak-seed42"
+    },
+    {
+      "error": 5.960464477539062e-07,
+      "file": "audio/background/background_0001.wav",
+      "model": "peak-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "peak-seed42"
+    },
+    {
+      "error": 1.210719347000122e-08,
+      "file": "audio/background/background_0251.wav",
+      "model": "peak-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "peak-seed42"
+    },
+    {
+      "error": 1.6298145055770874e-09,
+      "file": "audio/background/background_0201.wav",
+      "model": "peak-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "peak-seed7"
+    },
+    {
+      "error": 5.21540641784668e-08,
+      "file": "audio/background/background_0001.wav",
+      "model": "peak-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "peak-seed7"
+    },
+    {
+      "error": 2.561137080192566e-09,
+      "file": "audio/background/background_0251.wav",
+      "model": "peak-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "peak-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/background/background_0201.wav",
+      "model": "peak-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "peak-logistic"
+    },
+    {
+      "error": 3.469446951953614e-17,
+      "file": "audio/background/background_0001.wav",
+      "model": "peak-logistic"
+    },
+    {
+      "error": 1.1102230246251565e-16,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "peak-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/background/background_0251.wav",
+      "model": "peak-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "peak-logistic"
+    },
+    {
+      "error": 1.9058241313221758e-21,
+      "file": "audio/background/background_0201.wav",
+      "model": "peak-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "rms-fixed-seed42"
+    },
+    {
+      "error": 6.51925802230835e-09,
+      "file": "audio/background/background_0001.wav",
+      "model": "rms-fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "rms-fixed-seed42"
+    },
+    {
+      "error": 9.313225746154785e-10,
+      "file": "audio/background/background_0251.wav",
+      "model": "rms-fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "rms-fixed-seed42"
+    },
+    {
+      "error": 1.979060471057892e-09,
+      "file": "audio/background/background_0201.wav",
+      "model": "rms-fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "rms-fixed-seed7"
+    },
+    {
+      "error": 8.381903171539307e-09,
+      "file": "audio/background/background_0001.wav",
+      "model": "rms-fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "rms-fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/background/background_0251.wav",
+      "model": "rms-fixed-seed7"
+    },
+    {
+      "error": 5.960464477539063e-08,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "rms-fixed-seed7"
+    },
+    {
+      "error": 1.5133991837501526e-09,
+      "file": "audio/background/background_0201.wav",
+      "model": "rms-fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "rms-fixed-logistic"
+    },
+    {
+      "error": 1.5959455978986625e-16,
+      "file": "audio/background/background_0001.wav",
+      "model": "rms-fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "rms-fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/background/background_0251.wav",
+      "model": "rms-fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "rms-fixed-logistic"
+    },
+    {
+      "error": 1.0842021724855044e-18,
+      "file": "audio/background/background_0201.wav",
+      "model": "rms-fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "exact-rms-fixed-seed42"
+    },
+    {
+      "error": 1.7462298274040222e-09,
+      "file": "audio/background/background_0001.wav",
+      "model": "exact-rms-fixed-seed42"
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "exact-rms-fixed-seed42"
+    },
+    {
+      "error": 1.280568540096283e-08,
+      "file": "audio/background/background_0251.wav",
+      "model": "exact-rms-fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "exact-rms-fixed-seed42"
+    },
+    {
+      "error": 3.725290298461914e-09,
+      "file": "audio/background/background_0201.wav",
+      "model": "exact-rms-fixed-seed42"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "exact-rms-fixed-seed7"
+    },
+    {
+      "error": 5.029141902923584e-08,
+      "file": "audio/background/background_0001.wav",
+      "model": "exact-rms-fixed-seed7"
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "exact-rms-fixed-seed7"
+    },
+    {
+      "error": 7.450580596923828e-09,
+      "file": "audio/background/background_0251.wav",
+      "model": "exact-rms-fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "exact-rms-fixed-seed7"
+    },
+    {
+      "error": 3.14321368932724e-09,
+      "file": "audio/background/background_0201.wav",
+      "model": "exact-rms-fixed-seed7"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "model": "exact-rms-fixed-logistic"
+    },
+    {
+      "error": 6.245004513516506e-17,
+      "file": "audio/background/background_0001.wav",
+      "model": "exact-rms-fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "model": "exact-rms-fixed-logistic"
+    },
+    {
+      "error": 8.673617379884035e-18,
+      "file": "audio/background/background_0251.wav",
+      "model": "exact-rms-fixed-logistic"
+    },
+    {
+      "error": 0.0,
+      "file": "audio/drone/drone_0078.wav",
+      "model": "exact-rms-fixed-logistic"
+    },
+    {
+      "error": 6.938893903907228e-18,
+      "file": "audio/background/background_0201.wav",
+      "model": "exact-rms-fixed-logistic"
+    }
+  ],
+  "code_sha256": "932efdd2d1c742e74c0b54768b57fa8356120decfa56cedf7410b2ed59d9becb",
+  "maximum_error": 5.960464477539062e-07,
+  "passed": true,
+  "scope": "Six prespecified real inputs per numeric package; software reproducibility, not new acoustic trials."
+}

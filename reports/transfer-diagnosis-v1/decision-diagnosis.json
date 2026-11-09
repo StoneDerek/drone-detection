@@ -1,0 +1,146 @@
+{
+  "coherent-frequency-seed42": {
+    "shared_threshold_control": {
+      "change": "Weights and all preprocessing fixed. One threshold respecting<=5% separately on188 earlier and16 FPV negatives. Off/on ratio and confirmation fixed.",
+      "consumed_fpv": {
+        "average_precision_max_window_score": 0.888585567779898,
+        "balanced_accuracy": 0.6904761904761905,
+        "confusion": {
+          "fn": 13,
+          "fp": 0,
+          "tn": 16,
+          "tp": 8
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.6171375472411187,
+        "negative_recording_false_positive_fraction": 0.0,
+        "negative_recordings": 16,
+        "positive_hours": 0.7971696145124717,
+        "positive_recordings": 21,
+        "precision": 1.0,
+        "provenance_groups": 1,
+        "recording_recall": 0.38095238095238093,
+        "recordings": 37,
+        "roc_auc_max_window_score": 0.8303571428571428
+      },
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.6616832065057754,
+        "on_hits": 2,
+        "on_threshold": 0.8822442753410339
+      },
+      "old_development": {
+        "average_precision_max_window_score": 0.7492185307579202,
+        "balanced_accuracy": 0.8423597678916828,
+        "confusion": {
+          "fn": 6,
+          "fp": 8,
+          "tn": 180,
+          "tp": 16
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.0425531914893617,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.6666666666666666,
+        "provenance_groups": 145,
+        "recording_recall": 0.7272727272727273,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.940522243713733
+      },
+      "scope": "Development-only bounded decision control; not an independent improvement."
+    },
+    "two_hit_activation_auc": 0.8392857142857142,
+    "within_fpv_zero_false_file_ceiling": {
+      "feasible_probability_threshold": true,
+      "positive_files_detected": 8,
+      "threshold": 0.8822442753410339,
+      "warning": "Oracle on consumed data only; finite16-negative budget allows0 false files. Not a selected deployment or fresh validation."
+    }
+  },
+  "coherent-frequency-seed7": {
+    "shared_threshold_control": {
+      "change": "Weights and all preprocessing fixed. One threshold respecting<=5% separately on188 earlier and16 FPV negatives. Off/on ratio and confirmation fixed.",
+      "consumed_fpv": {
+        "average_precision_max_window_score": 0.7399709810368811,
+        "balanced_accuracy": 0.5,
+        "confusion": {
+          "fn": 21,
+          "fp": 0,
+          "tn": 16,
+          "tp": 0
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.6171375472411187,
+        "negative_recording_false_positive_fraction": 0.0,
+        "negative_recordings": 16,
+        "positive_hours": 0.7971696145124717,
+        "positive_recordings": 21,
+        "precision": null,
+        "provenance_groups": 1,
+        "recording_recall": 0.0,
+        "recordings": 37,
+        "roc_auc_max_window_score": 0.7261904761904762
+      },
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.6494085686874389,
+        "on_hits": 2,
+        "on_threshold": 0.8658780915832519
+      },
+      "old_development": {
+        "average_precision_max_window_score": 0.7720509152600399,
+        "balanced_accuracy": 0.8624274661508704,
+        "confusion": {
+          "fn": 5,
+          "fp": 9,
+          "tn": 179,
+          "tp": 17
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.6538461538461539,
+        "provenance_groups": 145,
+        "recording_recall": 0.7727272727272727,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.949468085106383
+      },
+      "scope": "Development-only bounded decision control; not an independent improvement."
+    },
+    "two_hit_activation_auc": 0.7321428571428571,
+    "within_fpv_zero_false_file_ceiling": {
+      "feasible_probability_threshold": true,
+      "positive_files_detected": 2,
+      "threshold": 0.7681724293327331,
+      "warning": "Oracle on consumed data only; finite16-negative budget allows0 false files. Not a selected deployment or fresh validation."
+    }
+  },
+  "svm-linear-fft4096": {
+    "two_hit_activation_auc": 0.675595238095238,
+    "within_fpv_zero_false_file_ceiling": {
+      "feasible_probability_threshold": true,
+      "positive_files_detected": 0,
+      "threshold": 0.6998680816975017,
+      "warning": "Oracle on consumed data only; finite16-negative budget allows0 false files. Not a selected deployment or fresh validation."
+    }
+  },
+  "yamnet-default": {
+    "two_hit_activation_auc": 0.8839285714285714,
+    "within_fpv_zero_false_file_ceiling": {
+      "feasible_probability_threshold": false,
+      "positive_files_detected": null,
+      "threshold": null,
+      "warning": "Oracle on consumed data only; finite16-negative budget allows0 false files. Not a selected deployment or fresh validation."
+    }
+  }
+}

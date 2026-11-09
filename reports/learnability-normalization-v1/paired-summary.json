@@ -1,0 +1,317 @@
+{
+  "rows": [
+    {
+      "arm": "peak",
+      "family": "CNN",
+      "initial_weights_sha256": "7f6948e3d111432eb64c88a31d98bae9c761daf65cb81daf958376e86c0ade08",
+      "model_id": "76d5b2eb7833e546793457b03a76084665ae36d7596b64284113b8ee9d41989e",
+      "seed": 42,
+      "selected_epoch": 8,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          1,
+          673
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9996043521266074,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "peak",
+      "family": "CNN",
+      "initial_weights_sha256": "13f828e50c885c28aeda6c37c626a18a8af8bd1d6e28a0ca4868887f54bd4019",
+      "model_id": "07e6c11e638271efe1fd2ef7ab854e49fd361dce18ba8682034f7ebdbd7a1328",
+      "seed": 7,
+      "selected_epoch": 22,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          1,
+          673
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9997032640949555,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "peak",
+      "family": "512descriptor logistic",
+      "seed": 42,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          9,
+          665
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9986547972304649,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "fixed",
+      "family": "CNN",
+      "initial_weights_sha256": "7f6948e3d111432eb64c88a31d98bae9c761daf65cb81daf958376e86c0ade08",
+      "model_id": "db6a7a862b478465ec6adb88e080496cb7ebfa2fca9dc8c9e749fb0e8658e90c",
+      "seed": 42,
+      "selected_epoch": 8,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          2,
+          672
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9996538081107814,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "fixed",
+      "family": "CNN",
+      "initial_weights_sha256": "13f828e50c885c28aeda6c37c626a18a8af8bd1d6e28a0ca4868887f54bd4019",
+      "model_id": "6a320b1871a96cf8838de6502bfc7ce9febcffe1827d20e6ab45507ac49abb86",
+      "seed": 7,
+      "selected_epoch": 24,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          149,
+          1,
+          8,
+          666
+        ],
+        "group_auc": 0.9,
+        "group_confusion_tn_fp_fn_tp": [
+          2,
+          1,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9936003956478734,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "fixed",
+      "family": "512descriptor logistic",
+      "seed": 42,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          11,
+          663
+        ],
+        "group_auc": 0.6833333333333335,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.992373887240356,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "rms-fixed",
+      "family": "CNN",
+      "initial_weights_sha256": "7f6948e3d111432eb64c88a31d98bae9c761daf65cb81daf958376e86c0ade08",
+      "model_id": "9e70a69ecb757acfbb3fe9420f4316c9fd4797a6caf8673d814c973692ac52f4",
+      "seed": 42,
+      "selected_epoch": 24,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          149,
+          1,
+          2,
+          672
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          2,
+          1,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9993966369930761,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "rms-fixed",
+      "family": "CNN",
+      "initial_weights_sha256": "13f828e50c885c28aeda6c37c626a18a8af8bd1d6e28a0ca4868887f54bd4019",
+      "model_id": "53b0e9d458ede8f8b4771c65f00c76ae4b27b349e8eb13deef6f0d26258767f6",
+      "seed": 7,
+      "selected_epoch": 20,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          2,
+          672
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9994263105835806,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "rms-fixed",
+      "family": "512descriptor logistic",
+      "seed": 42,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          17,
+          657
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9964094955489615,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "exact-rms-fixed",
+      "family": "CNN",
+      "initial_weights_sha256": "7f6948e3d111432eb64c88a31d98bae9c761daf65cb81daf958376e86c0ade08",
+      "model_id": "de0ac303e766c7d069b07d98805a783f3b2e101c1b498dc3e67ae1473bd8ac65",
+      "seed": 42,
+      "selected_epoch": 12,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          149,
+          1,
+          2,
+          672
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          2,
+          1,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9993768545994065,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "exact-rms-fixed",
+      "family": "CNN",
+      "initial_weights_sha256": "13f828e50c885c28aeda6c37c626a18a8af8bd1d6e28a0ca4868887f54bd4019",
+      "model_id": "66c4304c133da87967390c137dbe7c504dcb4bdd33e06ac26244aa255e286cc6",
+      "seed": 7,
+      "selected_epoch": 20,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          3,
+          671
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9993570722057369,
+        "segments": 824
+      }
+    },
+    {
+      "arm": "exact-rms-fixed",
+      "family": "512descriptor logistic",
+      "seed": 42,
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          148,
+          2,
+          19,
+          655
+        ],
+        "group_auc": 1.0,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9964490603363008,
+        "segments": 824
+      }
+    }
+  ],
+  "scope": "Descriptive, consumed, single-session published-label diagnosis. No independent acoustic reliability claim."
+}

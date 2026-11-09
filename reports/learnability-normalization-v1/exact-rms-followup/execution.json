@@ -1,0 +1,35 @@
+{
+  "audio_code_sha256": "86c76f23d8eef55598ac2ba75d84a9fd0f0217f37b14b82b5330b822927d7b09",
+  "code_sha256": "77a080cbfeff41368c4642a52c8886b844377ff64d0366e0ac7b25a36da52bed",
+  "epochs": 24,
+  "features": {
+    "axis": "linear_filterbank",
+    "dynamic_range_db": 80.0,
+    "f_max": 7600.0,
+    "f_min": 50.0,
+    "gain_max_db": 20.0,
+    "gain_target_rms": 0.05,
+    "hop_seconds": 0.5,
+    "intensity": "log_power",
+    "mel_bins": 256,
+    "min_audio_seconds": 0.25,
+    "n_fft": 4096,
+    "normalize_rms": "exact",
+    "power_reference": "unit_stft_power",
+    "sample_rate": 16000,
+    "silence_rms": 1e-05,
+    "stft_hop": 256,
+    "window_seconds": 1.0
+  },
+  "input_coverage_audit_sha256": "82b63068c649b9cb7862065980922f2ae7558d0d7ab66053b0d019f5e08ad5fa",
+  "method": "Same released labels, weights, splits,154689parameter architecture, initial seeds, batch permutations, optimizer, epochs, validation selection and0.5 threshold. Only amplitude rule differs.",
+  "parent_plan_sha256": "1dd8cfcffd9aec2f86974c2012513bd23a435a13df1a6ab5e1bfc4997e4a6450",
+  "scope": "Consumed single-session diagnosis. Numerical normalization may exceed unit float amplitude; no clipping, audio replay normalization or physical SPL calibration. Silence guard retained.",
+  "seeds": [
+    42,
+    7
+  ],
+  "spectrogram_code_sha256": "508c09ff8d5251f7f676b5596061f014ddf5b3a5a123afc3f4281e624bc2046f",
+  "training_helper_sha256": "0cd332dcb9b49bc1887a504b70e5c16886619b7afbd5a4888c5f141569580b9b",
+  "trigger": "Only3194/5491 clips reached RMS0.05 under20dB/peak caps;40dB still misses70. This follow-up tests an actual shared numerical RMS instead of calling bounded gain equal-RMS."
+}

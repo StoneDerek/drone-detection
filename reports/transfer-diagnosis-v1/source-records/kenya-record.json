@@ -1,0 +1,255 @@
+{
+  "created": "2026-07-23T12:53:59.327899+00:00",
+  "modified": "2026-07-23T12:53:59.842500+00:00",
+  "id": 21443074,
+  "conceptrecid": "19551067",
+  "doi": "10.5281/zenodo.21443074",
+  "conceptdoi": "10.5281/zenodo.19551067",
+  "doi_url": "https://doi.org/10.5281/zenodo.21443074",
+  "metadata": {
+    "title": "Kenya Forest Sounds Dataset",
+    "doi": "10.5281/zenodo.21443074",
+    "publication_date": "2026-07-23",
+    "description": "<div class=\"markdown-heading\">\n<h1 class=\"heading-element\">Kenya Forest Sounds Dataset</h1>\n</div>\n<p><strong>License:</strong>&nbsp;Creative Commons Attribution 4.0 International (CC BY 4.0)</p>\n<div class=\"markdown-heading\">\n<h2 class=\"heading-element\">Authors and Contributors</h2>\n</div>\n<p>All authors and contributors are listed on Zenodo:</p>\n<ul>\n<li><a href=\"https://zenodo.org/records/21443074\">https://zenodo.org/records/21443074</a></li>\n</ul>\n<div class=\"markdown-heading\">\n<h2 class=\"heading-element\">About</h2>\n</div>\n<p>The&nbsp;<strong>Kenya Forest Sounds Dataset</strong>&nbsp;contains&nbsp;<strong>5,500 audio recordings</strong>&nbsp;collected during excursions to three forests in the Kenyan South Rift region:</p>\n<ul>\n<li><strong>Oloolua Forest</strong>&nbsp;(Kajiado County)</li>\n<li><strong>Ngong Hills Forest Reserve</strong>&nbsp;(Kajiado County)</li>\n<li><strong>Nyangores Forest</strong>&nbsp;(Bomet County)</li>\n</ul>\n<p>The primary purpose of this dataset is to address the limited availability of natural sound recordings from tropical forest ecosystems. The dataset can be used for machine learning classification tasks that detect and classify natural sounds occurring in forest environments.</p>\n<div class=\"markdown-heading\">\n<h3 class=\"heading-element\">Potential Use Cases</h3>\n</div>\n<ol>\n<li>Detecting human conversation in forest ecosystems.</li>\n<li>Identifying Swahili-English human conversations.</li>\n<li>Acoustic biodiversity and environmental monitoring.</li>\n<li>Training and evaluation of audio classification models.</li>\n</ol>\n<div class=\"markdown-heading\">\n<h3 class=\"heading-element\">Refer to the datasheet on the Zenodo record for more details regarding collection and use of the dataset.</h3>\n</div>\n<div class=\"markdown-heading\">\n<h2 class=\"heading-element\">Dataset Structure</h2>\n</div>\n<ol>\n<li>Audio files are provided in&nbsp;<strong>WAV format</strong>&nbsp;using the naming convention:\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\">\n<pre class=\"notranslate\"><code>ZOOM0XXX_X_16k.wav\n</code></pre>\n</div>\n</li>\n<li>Clip durations range from&nbsp;<strong>0.07 seconds to 5.02 seconds</strong>.</li>\n<li>The dataset README (Dataset_Description.xlsx) contains two annotation tabs:\n<ul>\n<li><strong>Human-Annotated</strong></li>\n<li><strong>ML-Annotated-People-Talking</strong></li>\n</ul>\n</li>\n<li>The&nbsp;<strong>Human-Annotated</strong>&nbsp;subset contains&nbsp;<strong>3,164</strong>&nbsp;sounds labelled by human annotators.</li>\n<li>The&nbsp;<strong>ML-Annotated-People-Talking</strong>&nbsp;subset contains&nbsp;<strong>2,336</strong>&nbsp;sounds of human conversation detected by a pre-trained model and subsequently validated by human annotators.</li>\n<li>Details of the ML annotation workflow are available at:\n<ul>\n<li><a href=\"https://github.com/SCES-Makerspace-Lab/Auto-Sound-Annotation-2026\">https://github.com/SCES-Makerspace-Lab/Auto-Sound-Annotation-2026</a></li>\n</ul>\n</li>\n</ol>\n<div class=\"markdown-heading\">\n<h2 class=\"heading-element\">Sound Labels</h2>\n</div>\n<p>The dataset contains the following labels as done conventionally by the research team:</p>\n<table>\n<tbody>\n<tr>\n<th>Label</th>\n<th>Count</th>\n</tr>\n</tbody>\n<tbody>\n<tr>\n<td>Axe</td>\n<td>90</td>\n</tr>\n<tr>\n<td>Bag</td>\n<td>12</td>\n</tr>\n<tr>\n<td>Bag Zip</td>\n<td>22</td>\n</tr>\n<tr>\n<td>Birds</td>\n<td>213</td>\n</tr>\n<tr>\n<td>car passing</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Chainsaw</td>\n<td>129</td>\n</tr>\n<tr>\n<td>Child</td>\n<td>2</td>\n</tr>\n<tr>\n<td>cow mooing</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Creaking</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Crickets</td>\n<td>3</td>\n</tr>\n<tr>\n<td>Cutting wood</td>\n<td>7</td>\n</tr>\n<tr>\n<td>Distant talking</td>\n<td>15</td>\n</tr>\n<tr>\n<td>disturbance noise</td>\n<td>6</td>\n</tr>\n<tr>\n<td>Drone</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Engine</td>\n<td>3</td>\n</tr>\n<tr>\n<td>Flowing water</td>\n<td>21</td>\n</tr>\n<tr>\n<td>Livestock</td>\n<td>26</td>\n</tr>\n<tr>\n<td>Machine beeping</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Machine moving</td>\n<td>6</td>\n</tr>\n<tr>\n<td>Motorcycle</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Moving object</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Moving vehicle</td>\n<td>6</td>\n</tr>\n<tr>\n<td>Objects moving</td>\n<td>46</td>\n</tr>\n<tr>\n<td>Objects moving in water</td>\n<td>11</td>\n</tr>\n<tr>\n<td>passing vehicle</td>\n<td>3</td>\n</tr>\n<tr>\n<td>people talking</td>\n<td>39</td>\n</tr>\n<tr>\n<td>people talking and laughing</td>\n<td>1</td>\n</tr>\n<tr>\n<td>person laughing</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Person moving</td>\n<td>9</td>\n</tr>\n<tr>\n<td>Person singing</td>\n<td>3</td>\n</tr>\n<tr>\n<td>Person talking</td>\n<td>3448</td>\n</tr>\n<tr>\n<td>person talking over disturbance noise</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Person walking</td>\n<td>379</td>\n</tr>\n<tr>\n<td>Phone</td>\n<td>4</td>\n</tr>\n<tr>\n<td>Plastic wrapper</td>\n<td>11</td>\n</tr>\n<tr>\n<td>pouring water</td>\n<td>4</td>\n</tr>\n<tr>\n<td>radio</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Shuffling</td>\n<td>13</td>\n</tr>\n<tr>\n<td>sloshing water</td>\n<td>4</td>\n</tr>\n<tr>\n<td>sloshing water and talking</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Steel banging</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Vehicle</td>\n<td>703</td>\n</tr>\n<tr>\n<td>White Noise</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Wind</td>\n<td>231</td>\n</tr>\n<tr>\n<td><strong>SUM</strong></td>\n<td><strong>5500</strong></td>\n</tr>\n</tbody>\n</table>\n<div class=\"markdown-heading\">\n<h2 class=\"heading-element\">Citation and Attribution</h2>\n</div>\n<p>When using this dataset, please cite the dataset record available on Zenodo:&nbsp;<a href=\"https://zenodo.org/records/21443074\">https://zenodo.org/records/21443074</a></p>\n<div class=\"markdown-heading\">\n<h4 class=\"heading-element\">Any questions/issues are more than welcome: please write to Allan Vikiru (<a href=\"mailto:avikiru@strathmore.edu\">avikiru@strathmore.edu</a>) with your query!</h4>\n</div>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Vikiru, Allan",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "orcid": "0000-0002-7739-5667"
+      },
+      {
+        "name": "Simiyu, Daniel",
+        "affiliation": "Strathmore University Conservation Technology Research Hub"
+      },
+      {
+        "name": "Kahoro, Sandra",
+        "affiliation": "Strathmore University Conservation Technology Research Hub"
+      },
+      {
+        "name": "Muti, Zainabu",
+        "affiliation": "Strathmore University Conservation Technology Research Hub"
+      },
+      {
+        "name": "Kamau, Solomon",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "orcid": "0009-0000-4844-5760"
+      },
+      {
+        "name": "Macharia, Anthony",
+        "affiliation": "Kenya Forestry Research Institute"
+      },
+      {
+        "name": "Zemp, Delphine Clara",
+        "affiliation": "University of Neuch\u00e2tel",
+        "orcid": "0000-0002-2239-2995"
+      },
+      {
+        "name": "Muchiri, Henry",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "orcid": "0000-0003-1773-6674"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Ali, Abdirahman",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": "DataCollector"
+      },
+      {
+        "name": "Sankay, Monique",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": "DataCollector"
+      },
+      {
+        "name": "King'ang'i, Trevor",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": "DataCollector"
+      },
+      {
+        "name": "Waruingi, Lauryn",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": null
+      },
+      {
+        "name": "Ochieng', Arnold",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": null
+      },
+      {
+        "name": "Muendo, Cicily",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": null
+      },
+      {
+        "name": "Wanyingi, Shirleen",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": null
+      },
+      {
+        "name": "Wangaru, Lydiah",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": null
+      },
+      {
+        "name": "Barasa, Michael",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": null
+      },
+      {
+        "name": "Kibe, Caldwell",
+        "affiliation": "Strathmore University Conservation Technology Research Hub",
+        "type": null
+      }
+    ],
+    "keywords": [
+      "Environmental Sounds"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/SCES-Makerspace-Lab/Kenya-Forest-Sounds-Dataset/tree/v1.0.1",
+        "relation": "isDerivedFrom",
+        "resource_type": "dataset",
+        "scheme": "url"
+      }
+    ],
+    "version": "v1.0.2",
+    "references": [
+      "Meelan Bandara, Roshinie Jayasundara, Isuru Ariyarathne, Dulani Meedeniya, and Charith Perera. Forest sound classification dataset: FSC22. Sensors, 23(4):2032, 2023. Number: 4",
+      "Karol J. Piczak. ESC: Dataset for environmental sound classification. In Proceedings of the 23rd ACM international conference on Multimedia, MM '15, pages 1015\u20131018. Association for Computing Machinery, 2015-10",
+      "Daniel Simiyu, Henry Muchiri, Allan Vikiru, Julius Butime, and Zainabu Muti. A forest acoustics \u2013 temporal frequency convolution neural network model for detecting illegal logging activities in forest. In 2024 5th International Conference on Smart Sensors and Application (ICSSA), pages 1\u20136, 2024-09."
+    ],
+    "language": "eng",
+    "custom": {
+      "code:codeRepository": "https://github.com/SCES-Makerspace-Lab/Kenya-Forest-Sounds-Dataset",
+      "code:developmentStatus": {
+        "id": "active",
+        "title": {
+          "en": "Active"
+        }
+      }
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "IG-2023-113",
+        "internal_id": "04qbvap43::IG-2023-113",
+        "funder": {
+          "name": "Future Earth"
+        },
+        "title": "2023 Climate Change AI Innovation Grant",
+        "url": "https://www.climatechange.ai/innovation_grants/2023/5"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "19551067"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Kenya Forest Sounds Dataset",
+  "links": {
+    "self": "https://zenodo.org/api/records/21443074",
+    "self_html": "https://zenodo.org/records/21443074",
+    "preview_html": "https://zenodo.org/records/21443074?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.21443074",
+    "self_doi": "https://doi.org/10.5281/zenodo.21443074",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21443074",
+    "reserve_doi": "https://zenodo.org/api/records/21443074/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/19551067",
+    "parent_html": "https://zenodo.org/records/19551067",
+    "parent_doi": "https://doi.org/10.5281/zenodo.19551067",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.19551067",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21443074/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21443074/sequence/default",
+    "files": "https://zenodo.org/api/records/21443074/files",
+    "media_files": "https://zenodo.org/api/records/21443074/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:21443074:KFSD_Datasheet.pdf/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:21443074:KFSD_Datasheet.pdf/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:21443074:KFSD_Datasheet.pdf/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:21443074:KFSD_Datasheet.pdf/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:21443074:KFSD_Datasheet.pdf/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:21443074:KFSD_Datasheet.pdf/full/%5E1200,/0/default.jpg"
+    },
+    "latest": "https://zenodo.org/api/records/21443074/versions/latest",
+    "latest_html": "https://zenodo.org/records/21443074/latest",
+    "versions": "https://zenodo.org/api/records/21443074/versions",
+    "draft": "https://zenodo.org/api/records/21443074/draft",
+    "access_links": "https://zenodo.org/api/records/21443074/access/links",
+    "access_grants": "https://zenodo.org/api/records/21443074/access/grants",
+    "access_users": "https://zenodo.org/api/records/21443074/access/users",
+    "access_request": "https://zenodo.org/api/records/21443074/access/request",
+    "access": "https://zenodo.org/api/records/21443074/access",
+    "communities": "https://zenodo.org/api/records/21443074/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/21443074/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/21443074/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/21443074/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/21443074/quota-increase",
+    "requests": "https://zenodo.org/api/records/21443074/requests"
+  },
+  "updated": "2026-07-23T12:53:59.842500+00:00",
+  "recid": "21443074",
+  "revision": 3,
+  "files": [
+    {
+      "id": "e5afc304-ac61-451c-8904-1a6040a2a2f1",
+      "key": "SCES-Makerspace-Lab/Kenya-Forest-Sounds-Dataset-v1.0.1.zip",
+      "size": 716622014,
+      "checksum": "md5:9789f781d9bec915bfb2e15f0c91a42a",
+      "links": {
+        "self": "https://zenodo.org/api/records/21443074/files/SCES-Makerspace-Lab/Kenya-Forest-Sounds-Dataset-v1.0.1.zip/content"
+      }
+    },
+    {
+      "id": "4710b1e4-c5ad-4dc4-a499-948913f50d8f",
+      "key": "Dataset_Description.xlsx",
+      "size": 159617,
+      "checksum": "md5:50752c1cb78cd6f939fe7454ade1b0a5",
+      "links": {
+        "self": "https://zenodo.org/api/records/21443074/files/Dataset_Description.xlsx/content"
+      }
+    },
+    {
+      "id": "0c449906-9cec-4adf-a93e-96eb7713b41f",
+      "key": "KFSD_Datasheet.pdf",
+      "size": 88374,
+      "checksum": "md5:4baa6d389fc9329f5b1d9db2764a2525",
+      "links": {
+        "self": "https://zenodo.org/api/records/21443074/files/KFSD_Datasheet.pdf/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1588054"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 95,
+    "unique_downloads": 64,
+    "views": 303,
+    "unique_views": 277,
+    "version_downloads": 85,
+    "version_unique_downloads": 58,
+    "version_unique_views": 247,
+    "version_views": 270
+  },
+  "state": "done",
+  "submitted": true
+}

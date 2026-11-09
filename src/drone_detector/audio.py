@@ -97,10 +97,17 @@ def mel_bank(config):
 
 
 def normalize_context_gain(samples, config):
-    """Fixed causal gain from available samples; never fit or read a whole file."""
+    """Available-context RMS gain; exact mode is an uncapped numerical control.
+
+    Existing boolean modes retain their gain/peak caps. Exact spectrogram mode
+    may produce float amplitudes above1; it does not clip them or claim a
+    calibrated physical sound-pressure level. The silence guard is shared.
+    """
     rms = float(np.sqrt(np.mean(samples.astype(np.float64) ** 2)))
     if rms < config.silence_rms:
         return samples
+    if getattr(config, 'normalize_rms', False) == 'exact':
+        return (samples * (config.gain_target_rms / rms)).astype(np.float32)
     peak = float(np.max(np.abs(samples)))
     gain = min(config.gain_target_rms / rms, 10 ** (config.gain_max_db / 20), .98 / max(peak, 1e-12))
     return (samples * gain).astype(np.float32)

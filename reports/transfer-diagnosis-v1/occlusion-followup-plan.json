@@ -1,0 +1,7 @@
+{
+  "limits": "Nonphysical tensor occlusion creates unfamiliar inputs. It measures sensitivity to removing a frequency region; it is not proof of a causal acoustic cue or label-preserving accuracy.",
+  "operation": "Set32 consecutive input frequency rows to the existing zero floor, positions every16 rows including final boundary. Keep other values and peak reference unchanged. Plot score changes over the frequency axis.",
+  "parent_cases_sha256": "5a626ce72a0aaf186aa9c23f02fcfd3a7d81e40e047d597d24370401e809ed77",
+  "selection": "All8 already-selected first/middle contexts; both existing CNN seeds. No new case chosen by intervention success.",
+  "trigger": "In first ITU context seed7 scores0.934 and stays high after time-mean collapse and independent band-time permutation; both first-context Grad-CAM maps have no positive attribution. Middle context shows a clear multi-line structure but both CNN scores are low. These observations motivate a numerical input-band intervention, not an audibility claim."
+}

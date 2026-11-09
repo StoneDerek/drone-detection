@@ -1,0 +1,8 @@
+{
+  "features": [
+    "log waveform RMS",
+    "one mean-image scalar for each existing amplitude arm"
+  ],
+  "purpose": "Check whether high simplified-task scores require fine detail. These are train-fitted explanatory controls on consumed labels, not new detector selection.",
+  "recipe": "Same training-only interval/class weights, StandardScaler, logistic C1, seed42, threshold0.5. No tuning."
+}

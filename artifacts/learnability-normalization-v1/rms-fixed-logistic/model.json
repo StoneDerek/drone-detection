@@ -1,0 +1,86 @@
+{
+  "C": 1,
+  "family": "512descriptor logistic regression",
+  "features": {
+    "axis": "linear_filterbank",
+    "dynamic_range_db": 80.0,
+    "f_max": 7600.0,
+    "f_min": 50.0,
+    "gain_max_db": 20.0,
+    "gain_target_rms": 0.05,
+    "hop_seconds": 0.5,
+    "intensity": "log_power",
+    "mel_bins": 256,
+    "min_audio_seconds": 0.25,
+    "n_fft": 4096,
+    "normalize_rms": true,
+    "power_reference": "unit_stft_power",
+    "sample_rate": 16000,
+    "silence_rms": 1e-05,
+    "stft_hop": 256,
+    "window_seconds": 1.0
+  },
+  "input_arm": "rms-fixed",
+  "normalization_and_weights": "Fit train only; released-label diagnostic. Numeric parameters unchanged.",
+  "parameters_sha256": "775d20aa472fc95ab9d681588a3aac731981f5459d784ccba626272ae2d6accd",
+  "splits": {
+    "test": {
+      "confusion_tn_fp_fn_tp": [
+        148,
+        2,
+        17,
+        657
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        1,
+        2,
+        0,
+        10
+      ],
+      "positive_segments": 674,
+      "publisher_groups": 13,
+      "segment_auc": 0.9964094955489615,
+      "segments": 824
+    },
+    "train": {
+      "confusion_tn_fp_fn_tp": [
+        696,
+        4,
+        20,
+        3124
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        12,
+        2,
+        0,
+        16
+      ],
+      "positive_segments": 3144,
+      "publisher_groups": 30,
+      "segment_auc": 0.9997223736822973,
+      "segments": 3844
+    },
+    "val": {
+      "confusion_tn_fp_fn_tp": [
+        148,
+        2,
+        27,
+        646
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        1,
+        2,
+        0,
+        9
+      ],
+      "positive_segments": 673,
+      "publisher_groups": 12,
+      "segment_auc": 0.9909856364536901,
+      "segments": 823
+    }
+  },
+  "training": "Identical published segment targets and interval/class weights; train-only standardization."
+}

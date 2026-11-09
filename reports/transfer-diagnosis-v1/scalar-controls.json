@@ -1,0 +1,302 @@
+{
+  "fixed_image_brightness": {
+    "coefficient": [
+      [
+        0.4318600633737269
+      ]
+    ],
+    "intercept": [
+      0.016528949405010117
+    ],
+    "splits": {
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          143,
+          7,
+          343,
+          331
+        ],
+        "group_auc": 0.6666666666666667,
+        "group_confusion_tn_fp_fn_tp": [
+          0,
+          3,
+          1,
+          9
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.9502373887240356,
+        "segments": 824
+      },
+      "train": {
+        "confusion_tn_fp_fn_tp": [
+          546,
+          154,
+          1851,
+          1293
+        ],
+        "group_auc": 0.6026785714285714,
+        "group_confusion_tn_fp_fn_tp": [
+          3,
+          11,
+          1,
+          15
+        ],
+        "positive_segments": 3144,
+        "publisher_groups": 30,
+        "segment_auc": 0.7753857688113416,
+        "segments": 3844
+      },
+      "val": {
+        "confusion_tn_fp_fn_tp": [
+          144,
+          6,
+          485,
+          188
+        ],
+        "group_auc": 0.8518518518518519,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          1,
+          8
+        ],
+        "positive_segments": 673,
+        "publisher_groups": 12,
+        "segment_auc": 0.9324418028727093,
+        "segments": 823
+      }
+    },
+    "train_mean": [
+      0.005002983367285978
+    ],
+    "train_scale": [
+      0.005279329350608384
+    ]
+  },
+  "log_waveform_rms": {
+    "coefficient": [
+      [
+        0.16094319726682785
+      ]
+    ],
+    "intercept": [
+      0.00018924058658210298
+    ],
+    "splits": {
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          88,
+          62,
+          367,
+          307
+        ],
+        "group_auc": 0.23333333333333334,
+        "group_confusion_tn_fp_fn_tp": [
+          0,
+          3,
+          2,
+          8
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.5968447082096934,
+        "segments": 824
+      },
+      "train": {
+        "confusion_tn_fp_fn_tp": [
+          374,
+          326,
+          2208,
+          936
+        ],
+        "group_auc": 0.4151785714285714,
+        "group_confusion_tn_fp_fn_tp": [
+          0,
+          14,
+          2,
+          14
+        ],
+        "positive_segments": 3144,
+        "publisher_groups": 30,
+        "segment_auc": 0.48455879680116326,
+        "segments": 3844
+      },
+      "val": {
+        "confusion_tn_fp_fn_tp": [
+          88,
+          62,
+          502,
+          171
+        ],
+        "group_auc": 0.37037037037037035,
+        "group_confusion_tn_fp_fn_tp": [
+          0,
+          3,
+          2,
+          7
+        ],
+        "positive_segments": 673,
+        "publisher_groups": 12,
+        "segment_auc": 0.44854878652798424,
+        "segments": 823
+      }
+    },
+    "train_mean": [
+      -4.691487454583342
+    ],
+    "train_scale": [
+      0.881642155812879
+    ]
+  },
+  "peak_image_brightness": {
+    "coefficient": [
+      [
+        0.48963198782081485
+      ]
+    ],
+    "intercept": [
+      -0.0017739956603444688
+    ],
+    "splits": {
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          93,
+          57,
+          242,
+          432
+        ],
+        "group_auc": 0.9333333333333333,
+        "group_confusion_tn_fp_fn_tp": [
+          0,
+          3,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.6963699307616221,
+        "segments": 824
+      },
+      "train": {
+        "confusion_tn_fp_fn_tp": [
+          390,
+          310,
+          623,
+          2521
+        ],
+        "group_auc": 0.6160714285714286,
+        "group_confusion_tn_fp_fn_tp": [
+          0,
+          14,
+          1,
+          15
+        ],
+        "positive_segments": 3144,
+        "publisher_groups": 30,
+        "segment_auc": 0.7910387131952017,
+        "segments": 3844
+      },
+      "val": {
+        "confusion_tn_fp_fn_tp": [
+          102,
+          48,
+          141,
+          532
+        ],
+        "group_auc": 0.8888888888888888,
+        "group_confusion_tn_fp_fn_tp": [
+          0,
+          3,
+          0,
+          9
+        ],
+        "positive_segments": 673,
+        "publisher_groups": 12,
+        "segment_auc": 0.8113719663199603,
+        "segments": 823
+      }
+    },
+    "train_mean": [
+      0.3290689221317159
+    ],
+    "train_scale": [
+      0.1191640453549422
+    ]
+  },
+  "rms-fixed_image_brightness": {
+    "coefficient": [
+      [
+        0.9956274549354053
+      ]
+    ],
+    "intercept": [
+      0.10081279593044395
+    ],
+    "splits": {
+      "test": {
+        "confusion_tn_fp_fn_tp": [
+          145,
+          5,
+          335,
+          339
+        ],
+        "group_auc": 0.8666666666666667,
+        "group_confusion_tn_fp_fn_tp": [
+          1,
+          2,
+          0,
+          10
+        ],
+        "positive_segments": 674,
+        "publisher_groups": 13,
+        "segment_auc": 0.7914737883283878,
+        "segments": 824
+      },
+      "train": {
+        "confusion_tn_fp_fn_tp": [
+          560,
+          140,
+          1030,
+          2114
+        ],
+        "group_auc": 0.625,
+        "group_confusion_tn_fp_fn_tp": [
+          2,
+          12,
+          1,
+          15
+        ],
+        "positive_segments": 3144,
+        "publisher_groups": 30,
+        "segment_auc": 0.7906434023991276,
+        "segments": 3844
+      },
+      "val": {
+        "confusion_tn_fp_fn_tp": [
+          143,
+          7,
+          233,
+          440
+        ],
+        "group_auc": 0.8888888888888888,
+        "group_confusion_tn_fp_fn_tp": [
+          2,
+          1,
+          1,
+          8
+        ],
+        "positive_segments": 673,
+        "publisher_groups": 12,
+        "segment_auc": 0.9014066369489847,
+        "segments": 823
+      }
+    },
+    "train_mean": [
+      0.018373843149373535
+    ],
+    "train_scale": [
+      0.016376940296600445
+    ]
+  }
+}

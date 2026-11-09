@@ -1,0 +1,149 @@
+{
+  "created": "2025-11-04T19:13:00.584018+00:00",
+  "modified": "2025-11-04T19:13:00.808279+00:00",
+  "id": 17525811,
+  "conceptrecid": "17525810",
+  "doi": "10.5281/zenodo.17525811",
+  "conceptdoi": "10.5281/zenodo.17525810",
+  "doi_url": "https://doi.org/10.5281/zenodo.17525811",
+  "metadata": {
+    "title": "Real-World Drone Audio Dataset Collected by Fraunhofer IDMT (August 2022)",
+    "doi": "10.5281/zenodo.17525811",
+    "publication_date": "2025-11-04",
+    "description": "<p>This dataset contains real-world <strong>audio recordings of drone flights</strong> collected by Fraunhofer IDMT during an experiment in August 2022 in Berne, Lower Saxony, Germany. The recordings capture drones (DJI Phantom, DJI Mavic, and Align models) performing static, linear, and random flights, captured using a <strong>microphone array</strong>.</p>\n<p>The dataset employs an <strong>8-microphone array arranged in a 15 cm cubic configuration</strong>. The coordinate system of the array is defined as:</p>\n<ul>\n<li>\n<p>x-axis pointing north</p>\n</li>\n<li>\n<p>z-axis pointing upward</p>\n</li>\n<li>\n<p>y-axis following the right-hand rule</p>\n</li>\n</ul>\n<p>An illustration of the array configuration and coordinate system is presented in Figure 1 of the reference paper.</p>\n<p>A total of eight reliable flight recordings were selected, with durations ranging from 4 to 23 minutes, totaling approximately 106 minutes. Most flights occurred within 200 meters of the microphone array, with a maximum distance of 430 meters. All flight recordings were split into 30-second segments, with each segment a single sample. Each sample contains the audio recording and the corresponding real-time drone coordinates (DOATruePos.csv).</p>\n<p>Each drone and the array were equipped with a GPS-Logger 3 (SM Modellbau), providing high-precision location data with &plusmn;2.5 m accuracy at a 10 Hz update rate. Real-time latitude and longitude data enabled calculation of each drone&rsquo;s distance and azimuth relative to the microphone array.&nbsp; Azimuth angles were computed based on the dihedral angle in space. Distances between drones and the array were calculated using the Haversine formula, assuming equal altitude. These measurements provide the drone&rsquo;s direction and corresponding azimuth angles, which are critical for validating audio-based drone localization models.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Yang, Ximei",
+        "affiliation": null
+      },
+      {
+        "name": "Bitzer, Joerg",
+        "affiliation": "Fraunhofer Institute for Digital Media Technology IDMT"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Yang, Ximei",
+        "affiliation": null,
+        "type": null
+      },
+      {
+        "name": "Bitzer, Joerg",
+        "affiliation": "Fraunhofer Institute for Digital Media Technology IDMT",
+        "type": "Distributor"
+      },
+      {
+        "name": "Fraunhofer Institute for Digital Media Technology IDMT",
+        "affiliation": null,
+        "type": "DataCollector"
+      }
+    ],
+    "keywords": [
+      "drone audio dataset",
+      "UAV audio",
+      "microphone array",
+      "flight recordings",
+      "azimuth",
+      "Haversine formula",
+      "GPS tracking"
+    ],
+    "references": [
+      "X. Yang, P. Naylor, S. Doclo, J. Bitzer, Neural Drone Localization Exploiting Signal Synthesis of Real-World Audio Data, in Proc. European Signal Processing Conference (EUSIPCO), Palermo, Italy, Sep. 2025, pp. 256-260."
+    ],
+    "custom": {
+      "code:codeRepository": "https://github.com/SOUNDS-RESEARCH/DroneSynthesis2DOA/tree/main"
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "meeting": {
+      "title": "Proc. European Signal Processing Conference",
+      "acronym": "EUSIPCO",
+      "dates": "Sep. 2025",
+      "place": "Palermo, Italy"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "17525810"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Real-World Drone Audio Dataset Collected by Fraunhofer IDMT (August 2022)",
+  "links": {
+    "self": "https://zenodo.org/api/records/17525811",
+    "self_html": "https://zenodo.org/records/17525811",
+    "preview_html": "https://zenodo.org/records/17525811?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.17525811",
+    "self_doi": "https://doi.org/10.5281/zenodo.17525811",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17525811",
+    "reserve_doi": "https://zenodo.org/api/records/17525811/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/17525810",
+    "parent_html": "https://zenodo.org/records/17525810",
+    "parent_doi": "https://doi.org/10.5281/zenodo.17525810",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17525810",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17525811/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17525811/sequence/default",
+    "files": "https://zenodo.org/api/records/17525811/files",
+    "media_files": "https://zenodo.org/api/records/17525811/media-files",
+    "latest": "https://zenodo.org/api/records/17525811/versions/latest",
+    "latest_html": "https://zenodo.org/records/17525811/latest",
+    "versions": "https://zenodo.org/api/records/17525811/versions",
+    "draft": "https://zenodo.org/api/records/17525811/draft",
+    "access_links": "https://zenodo.org/api/records/17525811/access/links",
+    "access_grants": "https://zenodo.org/api/records/17525811/access/grants",
+    "access_users": "https://zenodo.org/api/records/17525811/access/users",
+    "access_request": "https://zenodo.org/api/records/17525811/access/request",
+    "access": "https://zenodo.org/api/records/17525811/access",
+    "communities": "https://zenodo.org/api/records/17525811/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/17525811/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/17525811/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/17525811/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/17525811/quota-increase",
+    "requests": "https://zenodo.org/api/records/17525811/requests"
+  },
+  "updated": "2025-11-04T19:13:00.808279+00:00",
+  "recid": "17525811",
+  "revision": 3,
+  "files": [
+    {
+      "id": "ded8e119-36e6-4884-9d18-f4999a80c47f",
+      "key": "MicArrayData30s.zip",
+      "size": 1515112211,
+      "checksum": "md5:fd8cfda2d852e351b2d33e1ae9a5aba4",
+      "links": {
+        "self": "https://zenodo.org/api/records/17525811/files/MicArrayData30s.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1452550"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 1950,
+    "unique_downloads": 428,
+    "views": 1117,
+    "unique_views": 971,
+    "version_downloads": 1950,
+    "version_unique_downloads": 428,
+    "version_unique_views": 971,
+    "version_views": 1117
+  },
+  "state": "done",
+  "submitted": true
+}

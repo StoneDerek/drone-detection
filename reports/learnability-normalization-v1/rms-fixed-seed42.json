@@ -1,0 +1,155 @@
+{
+  "history": [
+    {
+      "elapsed_seconds": 23.496097537999958,
+      "epoch": 2,
+      "mean_update_loss_with_l2": 0.11234049208950801,
+      "weighted_train_bce": 0.08223750442266464,
+      "weighted_validation_bce": 0.08813876658678055
+    },
+    {
+      "elapsed_seconds": 46.57578249800008,
+      "epoch": 4,
+      "mean_update_loss_with_l2": 0.07119214220247308,
+      "weighted_train_bce": 0.04454221948981285,
+      "weighted_validation_bce": 0.0542934276163578
+    },
+    {
+      "elapsed_seconds": 69.89396269899953,
+      "epoch": 6,
+      "mean_update_loss_with_l2": 0.09686765435044883,
+      "weighted_train_bce": 0.04355243220925331,
+      "weighted_validation_bce": 0.04279112070798874
+    },
+    {
+      "elapsed_seconds": 94.76832044099956,
+      "epoch": 8,
+      "mean_update_loss_with_l2": 0.055909372469196555,
+      "weighted_train_bce": 0.051381003111600876,
+      "weighted_validation_bce": 0.04643838852643967
+    },
+    {
+      "elapsed_seconds": 116.02066711899988,
+      "epoch": 10,
+      "mean_update_loss_with_l2": 0.05698891794767048,
+      "weighted_train_bce": 0.047503020614385605,
+      "weighted_validation_bce": 0.05710942670702934
+    },
+    {
+      "elapsed_seconds": 136.5185346649996,
+      "epoch": 12,
+      "mean_update_loss_with_l2": 0.047360975890740994,
+      "weighted_train_bce": 0.030491109937429428,
+      "weighted_validation_bce": 0.024918876588344574
+    },
+    {
+      "elapsed_seconds": 156.51034683799935,
+      "epoch": 14,
+      "mean_update_loss_with_l2": 0.051168285859901394,
+      "weighted_train_bce": 0.04808866232633591,
+      "weighted_validation_bce": 0.11464250087738037
+    },
+    {
+      "elapsed_seconds": 179.42049170599967,
+      "epoch": 16,
+      "mean_update_loss_with_l2": 0.03910777136133831,
+      "weighted_train_bce": 0.026448819786310196,
+      "weighted_validation_bce": 0.03366928547620773
+    },
+    {
+      "elapsed_seconds": 203.15691045599942,
+      "epoch": 18,
+      "mean_update_loss_with_l2": 0.04576602646867271,
+      "weighted_train_bce": 0.02587312087416649,
+      "weighted_validation_bce": 0.06840380281209946
+    },
+    {
+      "elapsed_seconds": 226.07883573899926,
+      "epoch": 20,
+      "mean_update_loss_with_l2": 0.041286755460085436,
+      "weighted_train_bce": 0.024593038484454155,
+      "weighted_validation_bce": 0.03436102345585823
+    },
+    {
+      "elapsed_seconds": 250.2617849139997,
+      "epoch": 22,
+      "mean_update_loss_with_l2": 0.037128667179189744,
+      "weighted_train_bce": 0.07262925058603287,
+      "weighted_validation_bce": 0.11876415461301804
+    },
+    {
+      "elapsed_seconds": 270.0959153959993,
+      "epoch": 24,
+      "mean_update_loss_with_l2": 0.03429882953584683,
+      "weighted_train_bce": 0.017509354278445244,
+      "weighted_validation_bce": 0.0241510272026062
+    }
+  ],
+  "initial_weights_sha256": "7f6948e3d111432eb64c88a31d98bae9c761daf65cb81daf958376e86c0ade08",
+  "model_id": "9e70a69ecb757acfbb3fe9420f4316c9fd4797a6caf8673d814c973692ac52f4",
+  "name": "rms-fixed",
+  "parameters": 154689,
+  "seconds": 275.25192410399995,
+  "seed": 42,
+  "selected_epoch": 24,
+  "source": "One consumed ITU session, published labels; overlapping clips are not independent examples.",
+  "splits": {
+    "test": {
+      "confusion_tn_fp_fn_tp": [
+        149,
+        1,
+        2,
+        672
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        2,
+        1,
+        0,
+        10
+      ],
+      "positive_segments": 674,
+      "publisher_groups": 13,
+      "segment_auc": 0.9993966369930761,
+      "segments": 824
+    },
+    "train": {
+      "confusion_tn_fp_fn_tp": [
+        694,
+        6,
+        23,
+        3121
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        10,
+        4,
+        0,
+        16
+      ],
+      "positive_segments": 3144,
+      "publisher_groups": 30,
+      "segment_auc": 0.9995583424209379,
+      "segments": 3844
+    },
+    "val": {
+      "confusion_tn_fp_fn_tp": [
+        149,
+        1,
+        3,
+        670
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        2,
+        1,
+        0,
+        9
+      ],
+      "positive_segments": 673,
+      "publisher_groups": 12,
+      "segment_auc": 0.9999108469539375,
+      "segments": 823
+    }
+  }
+}

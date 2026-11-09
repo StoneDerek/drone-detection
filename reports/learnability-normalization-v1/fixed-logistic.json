@@ -1,0 +1,66 @@
+{
+  "C": 1,
+  "family": "512descriptor logistic regression",
+  "input_arm": "fixed",
+  "parameters_sha256": "afb5e8cec866aff5e017d474201ec2a68f945c9cc3ab1d3c7bf0d51c73e09dc7",
+  "splits": {
+    "test": {
+      "confusion_tn_fp_fn_tp": [
+        148,
+        2,
+        11,
+        663
+      ],
+      "group_auc": 0.6833333333333335,
+      "group_confusion_tn_fp_fn_tp": [
+        1,
+        2,
+        0,
+        10
+      ],
+      "positive_segments": 674,
+      "publisher_groups": 13,
+      "segment_auc": 0.992373887240356,
+      "segments": 824
+    },
+    "train": {
+      "confusion_tn_fp_fn_tp": [
+        697,
+        3,
+        42,
+        3102
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        11,
+        3,
+        0,
+        16
+      ],
+      "positive_segments": 3144,
+      "publisher_groups": 30,
+      "segment_auc": 0.9991666666666665,
+      "segments": 3844
+    },
+    "val": {
+      "confusion_tn_fp_fn_tp": [
+        150,
+        0,
+        7,
+        666
+      ],
+      "group_auc": 1.0,
+      "group_confusion_tn_fp_fn_tp": [
+        3,
+        0,
+        0,
+        9
+      ],
+      "positive_segments": 673,
+      "publisher_groups": 12,
+      "segment_auc": 0.9999405646359584,
+      "segments": 823
+    }
+  },
+  "training": "Identical published segment targets and interval/class weights; train-only standardization."
+}

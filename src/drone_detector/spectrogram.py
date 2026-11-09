@@ -33,7 +33,7 @@ class SpectrogramConfig:
     silence_rms: float = 1e-5
     dynamic_range_db: float = 80.
     power_reference: str = 'context_peak'
-    normalize_rms: bool = False
+    normalize_rms: bool | str = False
     gain_target_rms: float = .05
     gain_max_db: float = 20.
 
@@ -46,7 +46,7 @@ class SpectrogramConfig:
             raise ValueError('Invalid spectral frequency range')
         if not 0 < self.hop_seconds <= self.window_seconds or self.dynamic_range_db <= 0:
             raise ValueError('Invalid context or dynamic range')
-        if self.power_reference not in {'context_peak', 'unit_stft_power'} or not isinstance(self.normalize_rms, bool):
+        if self.power_reference not in {'context_peak', 'unit_stft_power'} or not (isinstance(self.normalize_rms, bool) or self.normalize_rms == 'exact'):
             raise ValueError('Invalid spectral amplitude rule')
         if not 0 < self.gain_target_rms <= .5 or not 0 <= self.gain_max_db <= 40:
             raise ValueError('Invalid reference RMS or gain cap')

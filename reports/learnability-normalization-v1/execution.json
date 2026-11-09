@@ -1,0 +1,80 @@
+{
+  "arms": {
+    "fixed": {
+      "axis": "linear_filterbank",
+      "dynamic_range_db": 80.0,
+      "f_max": 7600.0,
+      "f_min": 50.0,
+      "gain_max_db": 20.0,
+      "gain_target_rms": 0.05,
+      "hop_seconds": 0.5,
+      "intensity": "log_power",
+      "mel_bins": 256,
+      "min_audio_seconds": 0.25,
+      "n_fft": 4096,
+      "normalize_rms": false,
+      "power_reference": "unit_stft_power",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 256,
+      "window_seconds": 1.0
+    },
+    "peak": {
+      "axis": "linear_filterbank",
+      "dynamic_range_db": 80.0,
+      "f_max": 7600.0,
+      "f_min": 50.0,
+      "gain_max_db": 20.0,
+      "gain_target_rms": 0.05,
+      "hop_seconds": 0.5,
+      "intensity": "log_power",
+      "mel_bins": 256,
+      "min_audio_seconds": 0.25,
+      "n_fft": 4096,
+      "normalize_rms": false,
+      "power_reference": "context_peak",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 256,
+      "window_seconds": 1.0
+    },
+    "rms-fixed": {
+      "axis": "linear_filterbank",
+      "dynamic_range_db": 80.0,
+      "f_max": 7600.0,
+      "f_min": 50.0,
+      "gain_max_db": 20.0,
+      "gain_target_rms": 0.05,
+      "hop_seconds": 0.5,
+      "intensity": "log_power",
+      "mel_bins": 256,
+      "min_audio_seconds": 0.25,
+      "n_fft": 4096,
+      "normalize_rms": true,
+      "power_reference": "unit_stft_power",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 256,
+      "window_seconds": 1.0
+    }
+  },
+  "batch_size": 64,
+  "code_sha256": "0cd332dcb9b49bc1887a504b70e5c16886619b7afbd5a4888c5f141569580b9b",
+  "epochs": 24,
+  "hardware": {
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "plan_sha256": "1dd8cfcffd9aec2f86974c2012513bd23a435a13df1a6ab5e1bfc4997e4a6450",
+  "scope": "CONSUMED-data released-label feasibility. No new audible truth, independent assessment or detector promotion.",
+  "seeds": [
+    42,
+    7
+  ],
+  "selection": "Lowest deterministic weighted validation BCE every2epochs; report test descriptively after selecting all checkpoints.",
+  "source_groups_sha256": "a79cd37058795b15ad355c156934493f546bd83acad9ba3e961add270d20d837",
+  "source_split_sha256": "1492a1984c014adcd5daeecf34c17c174e8eaec38e05de0922b6befd4a6d873f",
+  "split_audit_sha256": "2a8b573b3282edeef7c29b7c0010896f1ecb4f920cba04f1d996f7efae030d46",
+  "target": "Released one-second class labels; segment BCE; equal interval mass within class and equal class mass."
+}

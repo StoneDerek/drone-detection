@@ -34,6 +34,17 @@ Adam updates, checkpoint identities and replay padding. It identifies a remainin
 sampled-window target mismatch and unnecessary DDL bit-depth reduction. Isolated
 corrections and an unsuccessful same-data training control are preserved separately.
 
+The [transfer case diagnosis](reports/transfer-diagnosis-v1/RESULTS.md) separates
+threshold failures from learned input sensitivities using actual recordings,
+temporal probes and disclosed band occlusions. A
+[simplified learning study](reports/learnability-normalization-v1/RESULTS.md)
+shows the repaired scratch CNN can learn the published one-second labels at two
+seeds, with matched non-neural controls and peak, fixed, bounded-RMS and exact-RMS
+amplitude rules. This is consumed single-session diagnosis. It does not establish
+cross-source reliability or that harmonic motion was learned. The
+[current priorities](docs/current-research-priorities.md) preserve the user's
+request to understand the relevant distinctions before adding richer inputs.
+
 The [model lab](reports/spectral-lab-v1/RESULTS.md) compares trained spectrogram
 CNNs, a fully non-neural SVM, and the existing YAMNet/logistic controls. It shows
 the input beside genuine Grad-CAM, with context/layer/class selection, frequency

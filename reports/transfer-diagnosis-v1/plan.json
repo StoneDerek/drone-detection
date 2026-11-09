@@ -1,0 +1,34 @@
+{
+  "base_commit": "c25a3de",
+  "case_selection": [
+    "FPV fpv_53_1: shared miss/disagreement",
+    "FPV ambient_kiili_3: seed42 false positive",
+    "FPV grass_trimmer_1: named mechanical confounder",
+    "First sorted eligible ITU interval detected byseed7 and missed byseed42"
+  ],
+  "contexts": "First and middle available full3s context per case, aligned to0.5s. Same waveform for every model; do not infer audible presence within weakly labelled files.",
+  "created_utc": "2026-11-09T16:51:27.315668+00:00",
+  "decision_check": "Read saved scores only. Compare existing thresholds with the theoretical within-FPV zero-negative-file ceiling, then test one shared two-hit threshold respecting <=5% negative-file FPR separately on original development and consumed FPV. No changes to product or claim of independent improvement.",
+  "learning_task": {
+    "arms": [
+      "context-peak relative log power",
+      "fixed STFT power reference1, raw amplitude",
+      "fixed STFT power reference1, bounded common waveform RMS target0.05, max+20dB, peak0.98"
+    ],
+    "data": "Same published ITU one-second segments and interval-disjoint split, now explicitly consumed diagnostic data. Retain published class labels; not newly verified audible labels.",
+    "input": "Same1s waveform,16kHz mono,4096Hann,256hop,256uniform-Hz bands50-7600,47 complete frames. No padding.",
+    "neural": "Existing154689-parameter frequency-aware CNN, dropout0, Adam0.001 per-tensor clipnorm1, convolution L2=1e-4,24epochs,batch64,seeds42and7. Same seed and batch order across normalization arms.",
+    "non_neural": "Train-only standardized512 per-frequency temporal mean/std descriptors plus C1 logistic regression on identical inputs and sample weights. No hyperparameter sweep.",
+    "outcome": "Report segment and interval-block metrics by split, both seeds, exact target/input differences from original detector, normalization effects and matched initial weights. No product promotion.",
+    "selection": "Minimum deterministic weighted validation segment BCE every2epochs. Retain last and selected weights. Fixed0.5 classification threshold; no threshold tuning.",
+    "target": "Per-segment BCE on the publisher-released one-second labels, not full-recording max labels. This deliberately simplifies the target to test learnability; it is not proof each segment is audibly positive.",
+    "weights": "Equal source-interval/block mass within each class and equal class mass; fit on train only."
+  },
+  "primary_question": "What acoustic structure do repaired scratch CNNs use, and can they learn a matched-duration, within-condition target before broader source transfer?",
+  "probes": {
+    "tensor": "Per-band temporal mean repeated; common random time permutation; independent per-band time permutations. Ten fixed permutations per context. The last two preserve marginal spectra; independent permutations break cross-band synchronization. Nonphysical tensor interventions, not new acoustic trials.",
+    "waveform": "Uniform0.25 gain and piecewise0.25 gain in the second half with10ms taper; diagnostics only."
+  },
+  "scope": "Consumed-data diagnosis and a simplified released-label learning task; no fresh reliability claim or architecture expansion.",
+  "source_search": "Audit public original human annotations for audibility, negative coverage, capture sessions and licence. Kenya Forest and IDMT Berne metadata are candidates only; do not score fresh audio before qualifying and freezing a new panel."
+}
