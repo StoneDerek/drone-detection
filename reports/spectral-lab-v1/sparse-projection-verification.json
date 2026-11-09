@@ -1,0 +1,106 @@
+{
+  "checks": [
+    {
+      "case": "mel64-fft1024",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_054200"
+    },
+    {
+      "case": "mel64-fft1024",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_054200"
+    },
+    {
+      "case": "mel64-fft1024",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_234400"
+    },
+    {
+      "case": "mel64-fft1024",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_234400"
+    },
+    {
+      "case": "mel64-fft1024",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_035200"
+    },
+    {
+      "case": "mel64-fft1024",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_035200"
+    },
+    {
+      "case": "mel64-fft1024",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_095600"
+    },
+    {
+      "case": "mel64-fft1024",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_095600"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_054200"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_054200"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_234400"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230701_234400"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_035200"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_035200"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 0,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_095600"
+    },
+    {
+      "case": "mel64-fft4096",
+      "context_start": 8000,
+      "max_absolute_error": 0.0,
+      "recording": "batear-20230702_095600"
+    }
+  ],
+  "comparison": "Original dense cached tensors versus equivalent sparse filterbank multiplication",
+  "completed_models_retrained": false,
+  "max_absolute_error": 0.0,
+  "passed": true,
+  "protocol_changed": false,
+  "tolerance": 1e-06
+}

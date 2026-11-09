@@ -1,0 +1,105 @@
+{
+  "checkpoints": {
+    "compact8": {
+      "consistent_max_loss_dropout_mean": 0.6764714166618786,
+      "consistent_max_loss_inference": 0.6956919124335438,
+      "contexts_per_bag": "same fixed first min8 contexts in both modes",
+      "head_replay_score_error": 5.960464477539063e-08,
+      "model_id": "9f238fb48ca943b69a4fad4ed22babe79681942965d0fe14316d2ebbea056743",
+      "old_loss_inference": 0.6908435481399684,
+      "old_loss_with_dropout_mean": 0.5448989192876337,
+      "old_loss_with_dropout_std": 0.011287115628830958,
+      "recordings": 405
+    },
+    "medium-balanced-max-last": {
+      "consistent_max_loss_dropout_mean": 0.917003751984416,
+      "consistent_max_loss_inference": 0.7968424475944129,
+      "contexts_per_bag": "same fixed first min8 contexts in both modes",
+      "head_replay_score_error": 1.1920928955078125e-07,
+      "model_id": "447f30cbcbfde382a8770026300ec5270104caf963775fd8a44867d28f4e13f4",
+      "old_loss_inference": 0.7876265481186957,
+      "old_loss_with_dropout_mean": 0.3672367806378013,
+      "old_loss_with_dropout_std": 0.01743590383928512,
+      "recordings": 405
+    },
+    "medium-full-smooth-last": {
+      "consistent_max_loss_dropout_mean": 0.68644885310433,
+      "consistent_max_loss_inference": 0.7042547487310291,
+      "contexts_per_bag": "same fixed first min8 contexts in both modes",
+      "head_replay_score_error": 2.9802322387695312e-08,
+      "model_id": "853a75855e3494ca40cc128f3243ad900c4aa2cc3e4e35f1b4a6ce0bfd99a435",
+      "old_loss_inference": 0.6835171559402211,
+      "old_loss_with_dropout_mean": 0.656300726381135,
+      "old_loss_with_dropout_std": 0.007118676345942715,
+      "recordings": 405
+    },
+    "medium-sampled-max-last": {
+      "consistent_max_loss_dropout_mean": 0.9931322720507583,
+      "consistent_max_loss_inference": 1.567178803515959,
+      "contexts_per_bag": "same fixed first min8 contexts in both modes",
+      "head_replay_score_error": 2.2351741790771484e-08,
+      "model_id": "68970aa55e25bcbd03d03a18586778f68a94b2e07cee5db3b4bb34b60d051909",
+      "old_loss_inference": 1.558912237110221,
+      "old_loss_with_dropout_mean": 0.574114458822538,
+      "old_loss_with_dropout_std": 0.080922851006028,
+      "recordings": 405
+    }
+  },
+  "interpretation": "The old positive-max/negative-mean objective has an input-independent noise loophole. Dropout supplies such noise inside the network. The fixed-checkpoint comparison isolates dropout mode on identical real inputs/weights, not optimization trajectory. This does not prove it is the only cause of field failures or explain the historical EfficientNet pipeline.",
+  "noise_witness": [
+    {
+      "consistent_max_balanced_loss": 0.8698361453293524,
+      "constant_uninformative_loss": 0.6931471805599453,
+      "contexts": 5,
+      "deterministic_inference_balanced_loss": 0.7618710061148999,
+      "dropout": 0.1,
+      "logits_when_kept_or_dropped": [
+        -1.0,
+        1.5
+      ],
+      "old_asymmetric_balanced_loss": 0.6550127459470141,
+      "same_identical_input_for_both_labels": true
+    },
+    {
+      "consistent_max_balanced_loss": 0.8919435482784237,
+      "constant_uninformative_loss": 0.6931471805599453,
+      "contexts": 8,
+      "deterministic_inference_balanced_loss": 0.7618710061148999,
+      "dropout": 0.1,
+      "logits_when_kept_or_dropped": [
+        -1.0,
+        1.5
+      ],
+      "old_asymmetric_balanced_loss": 0.5660522036715498,
+      "same_identical_input_for_both_labels": true
+    },
+    {
+      "consistent_max_balanced_loss": 0.9229690906213341,
+      "constant_uninformative_loss": 0.6931471805599453,
+      "contexts": 15,
+      "deterministic_inference_balanced_loss": 0.7618710061148999,
+      "dropout": 0.1,
+      "logits_when_kept_or_dropped": [
+        -1.0,
+        1.5
+      ],
+      "old_asymmetric_balanced_loss": 0.4412049261521606,
+      "same_identical_input_for_both_labels": true
+    },
+    {
+      "consistent_max_balanced_loss": 0.951165018151738,
+      "constant_uninformative_loss": 0.6931471805599453,
+      "contexts": 60,
+      "deterministic_inference_balanced_loss": 0.7618710061148999,
+      "dropout": 0.1,
+      "logits_when_kept_or_dropped": [
+        -1.0,
+        1.5
+      ],
+      "old_asymmetric_balanced_loss": 0.32774406379565346,
+      "same_identical_input_for_both_labels": true
+    }
+  ],
+  "scope": "Mathematical/software loss diagnostic plus frozen real-input checkpoint audit; not acoustic accuracy evidence",
+  "script_sha256": "f8168d25b5ecaa3a93ddcc810c4f0e86e485b0eb16d5608a40d3f070a43b6caa"
+}

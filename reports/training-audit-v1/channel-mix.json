@@ -1,0 +1,3727 @@
+{
+  "contexts": 301,
+  "files": 101,
+  "limitation": "Power ratio uses mean single-channel power as reference, not the better microphone or a calibrated acoustic signal. Narrow spectral notches can exist even with acceptable whole-file RMS.",
+  "maximum_energy_fraction_in_deep_notches": 0.04287466393579234,
+  "recordings": [
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0026425349500701378,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5707134674270876,
+            "200-1000Hz": -0.2964687989044738,
+            "3000-7600Hz": -3.9554813037637127,
+            "50-200Hz": -0.8391690605286327
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.003373113318450514,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.595151950263291,
+            "200-1000Hz": -0.21051454653961435,
+            "3000-7600Hz": -3.7758136440022305,
+            "50-200Hz": -0.00025657362494409784
+          },
+          "start_sample": 48000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5020592255989933,
+            "200-1000Hz": -0.32296468942638656,
+            "3000-7600Hz": -2.2647549477838793,
+            "50-200Hz": -0.0787522748660273
+          },
+          "start_sample": 96000
+        }
+      ],
+      "id": "batear-20260415_192501",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.07060752138063117,
+            "200-1000Hz": -0.3581489779801543,
+            "3000-7600Hz": -0.6001526470685447,
+            "50-200Hz": -0.007966649686339
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.07607306678617336,
+            "200-1000Hz": -0.3268112684050709,
+            "3000-7600Hz": -0.6770200359291574,
+            "50-200Hz": -0.6522668399408924
+          },
+          "start_sample": 64000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00033724111197017164,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5747506750505154,
+            "200-1000Hz": -0.2597684801256301,
+            "3000-7600Hz": -1.947112335721738,
+            "50-200Hz": -1.3378145550907692
+          },
+          "start_sample": 128000
+        }
+      ],
+      "id": "batear-20260415_192502",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.021722346811769468,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.6601842227127299,
+            "200-1000Hz": -0.44684619125999614,
+            "3000-7600Hz": -4.303595127292954,
+            "50-200Hz": -0.000659578892634899
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.000548379569721981,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.9148971517206099,
+            "200-1000Hz": -0.3709261384871859,
+            "3000-7600Hz": -2.8615853902749167,
+            "50-200Hz": -0.6459027092127
+          },
+          "start_sample": 24000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0001924307810592916,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.269177974382491,
+            "200-1000Hz": -0.4362446677373974,
+            "3000-7600Hz": -2.8762613277918585,
+            "50-200Hz": -1.0903731762536524
+          },
+          "start_sample": 48000
+        }
+      ],
+      "id": "batear-20260415_192503",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.047836137808871214,
+            "200-1000Hz": -0.12543344060599138,
+            "3000-7600Hz": -0.19641147787443247,
+            "50-200Hz": -0.04096221787216921
+          },
+          "start_sample": 0
+        }
+      ],
+      "id": "batear-20260415_192504",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.04385355594090527,
+            "200-1000Hz": -0.10090458604094749,
+            "3000-7600Hz": -0.4169775452825702,
+            "50-200Hz": -0.2786252304626543
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.010225864661305104,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.70104675562201,
+            "200-1000Hz": -1.1247751769106855,
+            "3000-7600Hz": -1.9876298425980958,
+            "50-200Hz": -0.07595702562610213
+          },
+          "start_sample": 16000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.023052391701450535,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.823901925075842,
+            "200-1000Hz": -1.2733372859375411,
+            "3000-7600Hz": -1.9382202611089525,
+            "50-200Hz": -0.07264222774294753
+          },
+          "start_sample": 32000
+        }
+      ],
+      "id": "batear-20260415_192505",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.45958734646271787,
+            "200-1000Hz": -0.1708030395863047,
+            "3000-7600Hz": -2.949141518612671,
+            "50-200Hz": -0.4147011230833722
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.23238709209586458,
+            "200-1000Hz": -0.24397237714676118,
+            "3000-7600Hz": -0.4577081756932171,
+            "50-200Hz": -0.5711644295711289
+          },
+          "start_sample": 24000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.3232407405360543,
+            "200-1000Hz": -0.29540275401227606,
+            "3000-7600Hz": -1.2746046097416872,
+            "50-200Hz": -0.5519067439513499
+          },
+          "start_sample": 40000
+        }
+      ],
+      "id": "batear-20260415_192506",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.006862998051305722,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.29043046659772,
+            "200-1000Hz": -0.7418197688817157,
+            "3000-7600Hz": -1.8758638104893812,
+            "50-200Hz": -0.00011105548029774503
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0010367293742339068,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.6374505478474664,
+            "200-1000Hz": -0.5790704027902545,
+            "3000-7600Hz": -2.4240881794748113,
+            "50-200Hz": -6.411981446546976e-05
+          },
+          "start_sample": 8000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0007793701168137653,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.5668317176005315,
+            "200-1000Hz": -0.5865637931276196,
+            "3000-7600Hz": -2.4060638447164258,
+            "50-200Hz": -6.682951739882162e-05
+          },
+          "start_sample": 16000
+        }
+      ],
+      "id": "batear-20260415_192507",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.09889873236252525,
+            "200-1000Hz": -0.0013210203948183577,
+            "3000-7600Hz": -0.5978512107491386,
+            "50-200Hz": -6.301695419151658e-08
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.05484203956304076,
+            "200-1000Hz": -0.040325653800478346,
+            "3000-7600Hz": -0.7962211290584559,
+            "50-200Hz": -5.324794893364036e-08
+          },
+          "start_sample": 184000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.3141591214416004,
+            "200-1000Hz": -0.28199838124956156,
+            "3000-7600Hz": -2.2701751327694835,
+            "50-200Hz": -0.0007857603796912447
+          },
+          "start_sample": 360000
+        }
+      ],
+      "id": "batear-20260415_192509",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 1.2490298409576575e-05,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.12864258918367805,
+            "200-1000Hz": -0.22686994887858375,
+            "3000-7600Hz": -2.0524483986269355,
+            "50-200Hz": -4.2494499376808243e-07
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.05325603387324793,
+            "200-1000Hz": -0.36408476505451864,
+            "3000-7600Hz": -1.9282269066841704,
+            "50-200Hz": -0.6002505773735042
+          },
+          "start_sample": 40000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0004661029531206586,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.937952465418576,
+            "200-1000Hz": -1.5386406308827347,
+            "3000-7600Hz": -1.2708465254506622,
+            "50-200Hz": -0.0022390971183048037
+          },
+          "start_sample": 80000
+        }
+      ],
+      "id": "batear-20260415_192510",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.08187284573877399,
+            "200-1000Hz": -0.23470397690216718,
+            "3000-7600Hz": -0.46281525175185156,
+            "50-200Hz": -0.2862822735936856
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.04287466393579234,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -5.686578842025409,
+            "200-1000Hz": -2.0660493293033833,
+            "3000-7600Hz": -1.6004585162150202,
+            "50-200Hz": -0.2027587846128019
+          },
+          "start_sample": 40000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.018846662857612686,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -5.784544876479448,
+            "200-1000Hz": -2.2876069555078917,
+            "3000-7600Hz": -2.36267080262794,
+            "50-200Hz": -0.5735678216681895
+          },
+          "start_sample": 72000
+        }
+      ],
+      "id": "batear-20260415_192511",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.006179051856003312,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.5048697363330943,
+            "200-1000Hz": -0.8860331074077337,
+            "3000-7600Hz": -3.564018299532716,
+            "50-200Hz": -0.15740324796105326
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0033163605464455953,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.4285679649807257,
+            "200-1000Hz": -0.8692124562082055,
+            "3000-7600Hz": -3.4646088672943787,
+            "50-200Hz": -0.1257336447516432
+          },
+          "start_sample": 24000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0022474500269604337,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.3456241697376603,
+            "200-1000Hz": -0.8233104813778613,
+            "3000-7600Hz": -3.333750179229744,
+            "50-200Hz": -0.12072000687127894
+          },
+          "start_sample": 48000
+        }
+      ],
+      "id": "batear-20260415_195200",
+      "label": "drone",
+      "source": "batear-field"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.848447815027079,
+            "200-1000Hz": -3.023456927773341,
+            "3000-7600Hz": -2.334376959627069,
+            "50-200Hz": -2.931860252274718
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00035321928724652663,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.870280968225081,
+            "200-1000Hz": -3.011770207168129,
+            "3000-7600Hz": -2.9997912605016004,
+            "50-200Hz": -3.0979161983192465
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00014974429811497053,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.7485497344546217,
+            "200-1000Hz": -2.9665349562936876,
+            "3000-7600Hz": -2.6035721834878087,
+            "50-200Hz": -2.8171076118585825
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_001",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": -4.821637332766436e-16
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -9.643274665532873e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.821637332766436e-16,
+            "200-1000Hz": 9.64327466553287e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_002",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.6685958537063965,
+            "200-1000Hz": -0.9514916448403801,
+            "3000-7600Hz": -1.6353777725576997,
+            "50-200Hz": -1.0857755609964586
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.7108724712462682,
+            "200-1000Hz": -1.020185562158675,
+            "3000-7600Hz": -1.6185835291984842,
+            "50-200Hz": -0.9990105877526311
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5258155889176562,
+            "200-1000Hz": -0.7286138497160086,
+            "3000-7600Hz": -1.2486536239242654,
+            "50-200Hz": -0.879912476350771
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_003",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.149459911210981,
+            "200-1000Hz": -2.523614719999067,
+            "3000-7600Hz": -2.928120617212345,
+            "50-200Hz": -2.802447976921958
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.9213438314996862,
+            "200-1000Hz": -2.753215202770427,
+            "3000-7600Hz": -2.9416994296298604,
+            "50-200Hz": -2.825953940797512
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.055581897870266,
+            "200-1000Hz": -3.115515476471733,
+            "3000-7600Hz": -3.025873122885093,
+            "50-200Hz": -2.8998102447748186
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_004",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.5550249261256406,
+            "200-1000Hz": -0.6145096274414316,
+            "3000-7600Hz": -3.4541556768750183,
+            "50-200Hz": -0.5487553591930681
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.6433075758028686,
+            "200-1000Hz": -0.7598275232580656,
+            "3000-7600Hz": -3.1838158227945597,
+            "50-200Hz": -0.8707148689339765
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.7576452282005488,
+            "200-1000Hz": -0.5706112389184369,
+            "3000-7600Hz": -3.2593132529874675,
+            "50-200Hz": -1.8737964753532648
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_005",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00010432304690630413,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.850943508896802,
+            "200-1000Hz": -2.9753530774836108,
+            "3000-7600Hz": -2.46213930688466,
+            "50-200Hz": -2.781534116304341
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00032903850525267225,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.86458035620837,
+            "200-1000Hz": -2.9704026032134583,
+            "3000-7600Hz": -2.4818204733473506,
+            "50-200Hz": -2.7617433291185427
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 4.629618499567099e-05,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.9107808953525915,
+            "200-1000Hz": -2.9792975948261087,
+            "3000-7600Hz": -2.575885474358987,
+            "50-200Hz": -2.882464723417901
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_006",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 9.64327466553287e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.821637332766436e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_007",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.39354850957604,
+            "200-1000Hz": -2.2197195325227552,
+            "3000-7600Hz": -2.6188343137842622,
+            "50-200Hz": -1.3327253174522526
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0012894610969583701,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.3197287031921823,
+            "200-1000Hz": -1.729302894089451,
+            "3000-7600Hz": -1.9415834644041845,
+            "50-200Hz": -0.8619302722761761
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.8079687859278406,
+            "200-1000Hz": -1.0657838543326645,
+            "3000-7600Hz": -1.1772428831463442,
+            "50-200Hz": -0.8227956365419296
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_008",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.10354106497796445,
+            "200-1000Hz": -0.06447242800105413,
+            "3000-7600Hz": -0.21991804416201355,
+            "50-200Hz": -0.06830856134877027
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.0053330550271703,
+            "200-1000Hz": -0.002862216003562759,
+            "3000-7600Hz": -0.02428190155462671,
+            "50-200Hz": -0.006761881914073106
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.955055097991816e-07,
+            "200-1000Hz": -9.727175121365797e-08,
+            "3000-7600Hz": -3.3721241588051354e-06,
+            "50-200Hz": -2.191436503666406e-07
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_009",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": -4.821637332766436e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_010",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.874342016180225,
+            "200-1000Hz": -2.971386265453637,
+            "3000-7600Hz": -2.291717259053241,
+            "50-200Hz": -2.7351162168806047
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0002943706127094545,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.880957213868581,
+            "200-1000Hz": -2.986508145220016,
+            "3000-7600Hz": -2.220423890822207,
+            "50-200Hz": -2.854715540777538
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.001978637331452059,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.8790433212657645,
+            "200-1000Hz": -3.0025761897390195,
+            "3000-7600Hz": -2.8482732118451852,
+            "50-200Hz": -2.894142055171405
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_011",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.154533531161836,
+            "200-1000Hz": -1.4983224234348627,
+            "3000-7600Hz": -2.9414456599644274,
+            "50-200Hz": -0.7115667957631886
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.189565128793183,
+            "200-1000Hz": -1.645864315216685,
+            "3000-7600Hz": -2.9995047591437123,
+            "50-200Hz": -0.6089684427319565
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.007567908789032998,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.6484984315592413,
+            "200-1000Hz": -2.5456280641213462,
+            "3000-7600Hz": -2.771699572780726,
+            "50-200Hz": -0.698924802081447
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_012",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0072628480761451324,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.8452597523419136,
+            "200-1000Hz": -3.5536653999928443,
+            "3000-7600Hz": -1.2483495584060946,
+            "50-200Hz": -2.613887535974487
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.7614544974981445,
+            "200-1000Hz": -2.672217299474143,
+            "3000-7600Hz": -1.0660669004780867,
+            "50-200Hz": -2.846738924405892
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.3815144478789885,
+            "200-1000Hz": -2.0925055810586572,
+            "3000-7600Hz": -0.5512646169740302,
+            "50-200Hz": -2.9619496367938685
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_013",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.8380234971676339,
+            "200-1000Hz": -1.2966274987953188,
+            "3000-7600Hz": -2.000840580638789,
+            "50-200Hz": -1.7896332856155222
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.9328737033409294,
+            "200-1000Hz": -1.2156470700493953,
+            "3000-7600Hz": -2.071758114555483,
+            "50-200Hz": -1.6448256714156981
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.6595710947339117,
+            "200-1000Hz": -0.38722908640276027,
+            "3000-7600Hz": -2.620391052559621,
+            "50-200Hz": -0.5204708498805592
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_014",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.4560502795113395,
+            "200-1000Hz": -0.5701730508578514,
+            "3000-7600Hz": -2.100575690292579,
+            "50-200Hz": -0.670651378720557
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0010806774632768751,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.4000394864340433,
+            "200-1000Hz": -0.3360716575684583,
+            "3000-7600Hz": -2.00970768945411,
+            "50-200Hz": -0.009459635374261595
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.6015207161429899,
+            "200-1000Hz": -0.5568195081984092,
+            "3000-7600Hz": -1.7188237187940434,
+            "50-200Hz": -0.6591877494361658
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_015",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.411548300000185,
+            "200-1000Hz": -2.184782332284991,
+            "3000-7600Hz": -2.3495639719820325,
+            "50-200Hz": -1.2472212969987737
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.411300119489412,
+            "200-1000Hz": -2.295979927729298,
+            "3000-7600Hz": -2.586190473349104,
+            "50-200Hz": -1.2645038331151368
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.9685347613536733,
+            "200-1000Hz": -1.0530648051671696,
+            "3000-7600Hz": -1.0284582204382589,
+            "50-200Hz": -0.6234328330228901
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_016",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.08021538205743198,
+            "200-1000Hz": -0.027638166151391877,
+            "3000-7600Hz": -0.23158918988942,
+            "50-200Hz": -0.025807924901122534
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.08553888525393044,
+            "200-1000Hz": -0.06619951263631002,
+            "3000-7600Hz": -0.13185108542927404,
+            "50-200Hz": -0.0546074015284807
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.08286503624993564,
+            "200-1000Hz": -0.07839716367146665,
+            "3000-7600Hz": -0.1808324777612259,
+            "50-200Hz": -0.07270862003384494
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_017",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.1030658309347987,
+            "200-1000Hz": -2.6567294828447965,
+            "3000-7600Hz": -0.32801682337157356,
+            "50-200Hz": -1.1246283908242598
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.072321253205702,
+            "200-1000Hz": -2.501016124729686,
+            "3000-7600Hz": -0.3870885475401952,
+            "50-200Hz": -1.1466216982965474
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.1027516912416166,
+            "200-1000Hz": -2.8259888435646645,
+            "3000-7600Hz": -0.42761666178722424,
+            "50-200Hz": -1.1545036574707188
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_018",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": -4.821637332766436e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_019",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.2642282940197316,
+            "200-1000Hz": -2.756616220632142,
+            "3000-7600Hz": -0.7650781579203224,
+            "50-200Hz": -1.1194068455935493
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.4574023570776118,
+            "200-1000Hz": -2.524305826154789,
+            "3000-7600Hz": -0.7853123488537872,
+            "50-200Hz": -1.139509025374012
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.344818292955225,
+            "200-1000Hz": -1.3063157347717453,
+            "3000-7600Hz": -0.628269382880075,
+            "50-200Hz": -0.88783716813507
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_020",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 8.85515476919807e-05,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.8333472219036615,
+            "200-1000Hz": -2.9819509542579725,
+            "3000-7600Hz": -1.8424480145763666,
+            "50-200Hz": -2.817628658004765
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 1.8025278647373324e-05,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.871362614130729,
+            "200-1000Hz": -3.0175907686744323,
+            "3000-7600Hz": -2.718329380424167,
+            "50-200Hz": -3.1007251371162674
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00013929260650424237,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.8563399525970263,
+            "200-1000Hz": -3.009257892203765,
+            "3000-7600Hz": -2.652007605597728,
+            "50-200Hz": -3.166262671585231
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_021",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.832933897794763,
+            "200-1000Hz": -2.9771842240202844,
+            "3000-7600Hz": -2.360726053492263,
+            "50-200Hz": -2.7931528293266195
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00012954733428418482,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.663109538405549,
+            "200-1000Hz": -3.003754240212553,
+            "3000-7600Hz": -2.584741294187301,
+            "50-200Hz": -2.901184906858367
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00014300684657533717,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.8855562736447995,
+            "200-1000Hz": -2.918785002139375,
+            "3000-7600Hz": -2.2182912587745527,
+            "50-200Hz": -2.665205839966869
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_022",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_023",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5371479450367612,
+            "200-1000Hz": -0.25532502083662223,
+            "3000-7600Hz": -0.9425754626107629,
+            "50-200Hz": -0.19317202438792297
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.1691756153307937,
+            "200-1000Hz": -0.21576731018892747,
+            "3000-7600Hz": -2.2907506184697453,
+            "50-200Hz": -0.17179408039857527
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.5062752711139185,
+            "200-1000Hz": -0.2523678162182103,
+            "3000-7600Hz": -3.5437222897161442,
+            "50-200Hz": -0.11298623784952214
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_024",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 9.64327466553287e-16
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": -4.821637332766436e-16
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_025",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 3.7792891499893594e-05,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.671381216965761,
+            "200-1000Hz": -3.0551449553593524,
+            "3000-7600Hz": -2.6363368683636796,
+            "50-200Hz": -3.275656705755627
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.8433144329151934,
+            "200-1000Hz": -2.984893320994554,
+            "3000-7600Hz": -2.0058268093269143,
+            "50-200Hz": -2.791143271046565
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.83428298808846,
+            "200-1000Hz": -2.9812327804132166,
+            "3000-7600Hz": -2.1979922286854645,
+            "50-200Hz": -2.7671501391806697
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_026",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.6241021432521623,
+            "200-1000Hz": -0.7633277445781589,
+            "3000-7600Hz": -3.2019134161594303,
+            "50-200Hz": -0.8674394265076195
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.7562950621929003,
+            "200-1000Hz": -0.6023445163343206,
+            "3000-7600Hz": -3.2480388675384737,
+            "50-200Hz": -1.9040754993133562
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.334263204678782,
+            "200-1000Hz": -0.016900100294699807,
+            "3000-7600Hz": -3.4591980980767225,
+            "50-200Hz": -1.4947162069367885
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_027",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.821637332766436e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_028",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.49753121249213583,
+            "200-1000Hz": -0.7045261263022297,
+            "3000-7600Hz": -1.140090253126763,
+            "50-200Hz": -0.935055676069685
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.6091625595310942,
+            "200-1000Hz": -0.6998210299594905,
+            "3000-7600Hz": -1.3115857630506178,
+            "50-200Hz": -0.8858358970287012
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5919302356860421,
+            "200-1000Hz": -0.8550171513767839,
+            "3000-7600Hz": -1.5785447404021604,
+            "50-200Hz": -0.9252277344567926
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_029",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.776034783011452,
+            "200-1000Hz": -3.305381384817891,
+            "3000-7600Hz": -0.39024499168477866,
+            "50-200Hz": -1.084340487041555
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.966682763464391,
+            "200-1000Hz": -2.8074927099918923,
+            "3000-7600Hz": -1.7866517773254653,
+            "50-200Hz": -1.0457038161927574
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.4928753938048538,
+            "200-1000Hz": -2.9115904871525933,
+            "3000-7600Hz": -0.7758884005130084,
+            "50-200Hz": -1.2345788419543593
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-BACKGROUND_030",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -5.677125980178245e-10,
+            "200-1000Hz": -9.543081041862834e-11,
+            "3000-7600Hz": -0.0029332320050775526,
+            "50-200Hz": -9.61338051408036e-12
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": -9.643274665532873e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": -9.643274665532873e-16
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_001",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.002725615910008205,
+            "200-1000Hz": -0.002230132109173199,
+            "3000-7600Hz": -0.31750917825110225,
+            "50-200Hz": -0.011771235809381433
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.003710625316372777,
+            "200-1000Hz": -0.0011235076489971656,
+            "3000-7600Hz": -0.09577430787883293,
+            "50-200Hz": -0.02251732304309364
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.001431749694785084,
+            "200-1000Hz": -0.037479827171285604,
+            "3000-7600Hz": -0.23348916109823117,
+            "50-200Hz": -0.6989426219014689
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_002",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.151666881469561e-09,
+            "200-1000Hz": -3.5475727057384586e-10,
+            "3000-7600Hz": -2.80537654934931e-06,
+            "50-200Hz": -4.948446394646385e-11
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -6.44978854122461e-10,
+            "200-1000Hz": -1.3681781662926894e-10,
+            "3000-7600Hz": -5.822519564497439e-09,
+            "50-200Hz": -1.2575312327606347e-11
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_003",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.7289236502839924,
+            "200-1000Hz": -1.4372123738799076,
+            "3000-7600Hz": -2.920270427895745,
+            "50-200Hz": -0.8693487433792115
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.842449058525438,
+            "200-1000Hz": -2.7076371179093393,
+            "3000-7600Hz": -1.978320931539482,
+            "50-200Hz": -0.7655799354264461
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.5221632152107403,
+            "200-1000Hz": -2.9625414317593055,
+            "3000-7600Hz": -1.8411559750572148,
+            "50-200Hz": -0.8864580592370659
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_004",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.639860141162847e-08,
+            "200-1000Hz": -6.763871930524172e-09,
+            "3000-7600Hz": -0.0036415913795690602,
+            "50-200Hz": -7.233053882781239e-10
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -7.539926514604257e-09,
+            "200-1000Hz": -2.8957885935529584e-09,
+            "3000-7600Hz": -0.007492295153650176,
+            "50-200Hz": -1.8236348503998764e-10
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -8.741376803633994e-09,
+            "200-1000Hz": -3.097494076888687e-09,
+            "3000-7600Hz": -0.014067406530917507,
+            "50-200Hz": -2.449864285573059e-10
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_005",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.6918293299120644,
+            "200-1000Hz": -1.0435438494378886,
+            "3000-7600Hz": -2.39823815049164,
+            "50-200Hz": -2.6933492064527997
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.485396323630772,
+            "200-1000Hz": -0.9948377347023492,
+            "3000-7600Hz": -2.73712884560151,
+            "50-200Hz": -2.88038073511492
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 9.45314421261619e-05,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.446969256908858,
+            "200-1000Hz": -0.9767481653436759,
+            "3000-7600Hz": -5.499606802264872,
+            "50-200Hz": -3.262536512252023
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_006",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.067809920733168,
+            "200-1000Hz": -1.1927448311211417,
+            "3000-7600Hz": -3.498290533801678,
+            "50-200Hz": -3.145563707062162
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.14702041773508,
+            "200-1000Hz": -1.2200179671710871,
+            "3000-7600Hz": -2.6858609760612797,
+            "50-200Hz": -1.098223700453376
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.02620925855405758,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.193742990609272,
+            "200-1000Hz": -1.9384158683906862,
+            "3000-7600Hz": -5.4720002659162335,
+            "50-200Hz": -0.8797033922978112
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_007",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.767841545594898,
+            "200-1000Hz": -1.4408412474455585,
+            "3000-7600Hz": -2.9362636953698917,
+            "50-200Hz": -1.0395924347732048
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.8125538064278706,
+            "200-1000Hz": -2.7271030362954125,
+            "3000-7600Hz": -1.8864479380348258,
+            "50-200Hz": -0.7908175297961911
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.5111960254554253,
+            "200-1000Hz": -2.9488302874403316,
+            "3000-7600Hz": -1.7531677428242711,
+            "50-200Hz": -0.8837343847689517
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_008",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.010847476187307333,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.99768929275751,
+            "200-1000Hz": -2.3669050502630826,
+            "3000-7600Hz": -3.3878388132380706,
+            "50-200Hz": -0.7436210077628769
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.00737753957419532,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.0490996096681187,
+            "200-1000Hz": -2.566845338272548,
+            "3000-7600Hz": -2.980556450923798,
+            "50-200Hz": -0.6351457409430196
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.7654357843791988,
+            "200-1000Hz": -1.764223567110491,
+            "3000-7600Hz": -1.6893815275351363,
+            "50-200Hz": -0.66226832306727
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_009",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.4670621191615316,
+            "200-1000Hz": -3.1648515659739305,
+            "3000-7600Hz": -3.522533819702846,
+            "50-200Hz": -1.1874945786218434
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.012343064660634466,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.001638066210591,
+            "200-1000Hz": -2.2521366011799215,
+            "3000-7600Hz": -3.3983668836926255,
+            "50-200Hz": -0.8238204157783852
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.006042143566110791,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.2176765275176455,
+            "200-1000Hz": -2.5699839988035658,
+            "3000-7600Hz": -3.095447564413128,
+            "50-200Hz": -0.6096087886453261
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_010",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.005051100470668068,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.3629976894717424,
+            "200-1000Hz": -2.5103971346392076,
+            "3000-7600Hz": -3.3812604541291726,
+            "50-200Hz": -0.5724353373392443
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.8983230507161697,
+            "200-1000Hz": -1.7802081264319678,
+            "3000-7600Hz": -1.8074180800651216,
+            "50-200Hz": -0.6429636645786118
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.8881949406525393,
+            "200-1000Hz": -3.939965480604948,
+            "3000-7600Hz": -2.2983019461258256,
+            "50-200Hz": -0.9507256150365561
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_011",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.700617679244438,
+            "200-1000Hz": -3.195780512854782,
+            "3000-7600Hz": -1.8592171636223396,
+            "50-200Hz": -1.1074846197774395
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.5080061789683503,
+            "200-1000Hz": -2.662981860472094,
+            "3000-7600Hz": -3.710302936657899,
+            "50-200Hz": -1.1992273900743649
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.015008982423760678,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.1111174233265726,
+            "200-1000Hz": -2.9720056810259488,
+            "3000-7600Hz": -5.14792997211425,
+            "50-200Hz": -1.0473897773830465
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_012",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.24464655237061966,
+            "200-1000Hz": -0.2494785355195114,
+            "3000-7600Hz": -0.14444086410980506,
+            "50-200Hz": -0.11792258256254853
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.21406670031289493,
+            "200-1000Hz": -1.1412342269573021,
+            "3000-7600Hz": -0.13210347050949206,
+            "50-200Hz": -0.8818287158449233
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0028319818733989377,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.27110769572656357,
+            "200-1000Hz": -2.9881265394151098,
+            "3000-7600Hz": -0.13807686824572407,
+            "50-200Hz": -1.3429746875266255
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_013",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 9.64327466553287e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 9.64327466553287e-16
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_014",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.6587641220226366,
+            "200-1000Hz": -0.7910702762081151,
+            "3000-7600Hz": -2.2875276044566224,
+            "50-200Hz": -1.189869209740739
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.14524009716489492,
+            "200-1000Hz": -0.6734351244054466,
+            "3000-7600Hz": -0.16370780322222217,
+            "50-200Hz": -0.962299558543833
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.11232061561927713,
+            "200-1000Hz": -0.11585785853047252,
+            "3000-7600Hz": -0.10918728530160489,
+            "50-200Hz": -0.11653537465612651
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_015",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -9.643274665532873e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 1.928654933106574e-15,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_016",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -4.821637332766436e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_017",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 9.64327466553287e-16
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 9.64327466553287e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_018",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": -4.821637332766436e-16
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -9.643274665532873e-16,
+            "200-1000Hz": -9.643274665532873e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_019",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.7170524726901351,
+            "200-1000Hz": -0.5011758458377329,
+            "3000-7600Hz": -0.3649044310676752,
+            "50-200Hz": -0.034372584661017176
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.8005558709831362,
+            "200-1000Hz": -0.3771242630755503,
+            "3000-7600Hz": -0.3212748186402093,
+            "50-200Hz": -0.03174462940269991
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.4645181227764599,
+            "200-1000Hz": -0.3258735743974733,
+            "3000-7600Hz": -0.5188598468614063,
+            "50-200Hz": -0.07361664426029774
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_020",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": -9.643274665532873e-16,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -9.643274665532873e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_021",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -4.821637332766436e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 9.64327466553287e-16,
+            "200-1000Hz": -4.821637332766436e-16,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_022",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_023",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": -4.821637332766436e-16
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -9.598544337057506e-10,
+            "200-1000Hz": -2.4629502092949273e-10,
+            "3000-7600Hz": -0.005498115571496653,
+            "50-200Hz": -4.1289126971875084e-11
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -7.073679482357726e-10,
+            "200-1000Hz": -1.8654866624500667e-10,
+            "3000-7600Hz": -0.002799950517678135,
+            "50-200Hz": -5.2950739025030513e-11
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_024",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.6378330936338763,
+            "200-1000Hz": -2.9947549642522486,
+            "3000-7600Hz": -0.19494222884860493,
+            "50-200Hz": -1.1309070421425744
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.4342134297462625,
+            "200-1000Hz": -2.954860107500883,
+            "3000-7600Hz": -0.21861885290426053,
+            "50-200Hz": -1.204192338004659
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.4560705004437571,
+            "200-1000Hz": -0.24822693336823884,
+            "3000-7600Hz": -0.19288759114782672,
+            "50-200Hz": -0.08822011258605279
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_025",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.0342941963799628,
+            "200-1000Hz": -1.3101503256949907,
+            "3000-7600Hz": -2.4173242105466475,
+            "50-200Hz": -3.0765669586946642
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.8019389302870326,
+            "200-1000Hz": -2.2610807994150233,
+            "3000-7600Hz": -3.2317663290528493,
+            "50-200Hz": -2.892809616311217
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.187835071900808,
+            "200-1000Hz": -2.9035699950274045,
+            "3000-7600Hz": -3.0511500617284466,
+            "50-200Hz": -2.9145869027998312
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_026",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.821637332766436e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": -4.821637332766436e-16
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_027",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.11378712560112739,
+            "200-1000Hz": -0.2902051695852708,
+            "3000-7600Hz": -0.12255233633301611,
+            "50-200Hz": -0.8066946622976857
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.1935182997043568,
+            "200-1000Hz": -1.3623547962607472,
+            "3000-7600Hz": -0.17165483632980957,
+            "50-200Hz": -0.9300073559921812
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2264186135075213,
+            "200-1000Hz": -0.18948245204542385,
+            "3000-7600Hz": -0.14038083446047347,
+            "50-200Hz": -0.14605801647954633
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_028",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -7.53627218977848e-10,
+            "200-1000Hz": -6.06745198684901e-11,
+            "3000-7600Hz": -0.004076883662696647,
+            "50-200Hz": -6.36931541412886e-10
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -8.43534843847276e-10,
+            "200-1000Hz": -7.939115166712468e-11,
+            "3000-7600Hz": -0.009472964539119909,
+            "50-200Hz": -1.2405407473027888e-09
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.077321179621253e-09,
+            "200-1000Hz": -2.2709670756057029e-10,
+            "3000-7600Hz": -0.0006327940821349195,
+            "50-200Hz": -4.383738161071979e-09
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_029",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5388166420705315,
+            "200-1000Hz": -1.230492749574325,
+            "3000-7600Hz": -0.14311446778370482,
+            "50-200Hz": -0.8276288402267945
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.4227489268220582,
+            "200-1000Hz": -3.280376178702804,
+            "3000-7600Hz": -0.14441895917255718,
+            "50-200Hz": -1.1020941324517026
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.18205880963391513,
+            "200-1000Hz": -2.6013701991416442,
+            "3000-7600Hz": -0.10275374451401524,
+            "50-200Hz": -1.018796377905268
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-DRONE_030",
+      "label": "drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 9.64327466553287e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_001",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.1751322119747316e-10,
+            "200-1000Hz": -1.8478442914133402e-11,
+            "3000-7600Hz": -0.0011224974877418479,
+            "50-200Hz": -2.3188700424535523e-11
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -4.821637332766436e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_002",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 9.64327466553287e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_003",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.0050623094614500545,
+            "200-1000Hz": -0.03850124313093325,
+            "3000-7600Hz": -0.01074913222780945,
+            "50-200Hz": -1.0517818687881055
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.0038497387271940633,
+            "200-1000Hz": -0.03195104018537774,
+            "3000-7600Hz": -0.011390851001766258,
+            "50-200Hz": -0.9731635101618896
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.00350519321316977,
+            "200-1000Hz": -0.03862789871315107,
+            "3000-7600Hz": -0.00439213885754199,
+            "50-200Hz": -1.082972034931601
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_004",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.3075678309016741,
+            "200-1000Hz": -0.8531340539913697,
+            "3000-7600Hz": -0.10968616564189479,
+            "50-200Hz": -1.0097681466718083
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2818458284552441,
+            "200-1000Hz": -0.8659765357535053,
+            "3000-7600Hz": -0.09760805422876997,
+            "50-200Hz": -0.9860775954652077
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.18695874850254215,
+            "200-1000Hz": -0.8183469546255701,
+            "3000-7600Hz": -0.07639907880787469,
+            "50-200Hz": -1.0745922481914258
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_005",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 9.64327466553287e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_006",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.47887997108788e-07,
+            "200-1000Hz": -9.150855319290145e-09,
+            "3000-7600Hz": -0.009229101406683789,
+            "50-200Hz": -2.559569553999453e-09
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -4.821637332766436e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_007",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.2308124798963428e-10,
+            "200-1000Hz": -1.8518944667728808e-11,
+            "3000-7600Hz": -0.0012565111850755628,
+            "50-200Hz": -3.135462541136004e-11
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.9165285152569544e-10,
+            "200-1000Hz": -1.7476506676380385e-11,
+            "3000-7600Hz": -0.0028823197612241115,
+            "50-200Hz": -2.6012251246619544e-11
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_008",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 9.64327466553287e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": -4.821637332766436e-16
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -9.643274665532873e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_009",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.1798767031104116e-10,
+            "200-1000Hz": -1.5805327176837135e-11,
+            "3000-7600Hz": -7.536472293613068e-09,
+            "50-200Hz": -5.432056619098063e-12
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.821637332766436e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_010",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.0867690906687783e-08,
+            "200-1000Hz": -3.986973337548913e-10,
+            "3000-7600Hz": -9.841606994546049e-08,
+            "50-200Hz": -1.1539142464791963e-11
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.895402118588298e-09,
+            "200-1000Hz": -4.844356888148614e-10,
+            "3000-7600Hz": -1.0737119109975219e-07,
+            "50-200Hz": -1.6461937749096503e-10
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_011",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.13507485874995967,
+            "200-1000Hz": -0.8177659563210125,
+            "3000-7600Hz": -0.09925826070206595,
+            "50-200Hz": -1.1393756173729799
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.3766097491420387,
+            "200-1000Hz": -0.8751707563367515,
+            "3000-7600Hz": -0.14650967845941656,
+            "50-200Hz": -0.987412969579755
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.24515831356233378,
+            "200-1000Hz": -0.8503404884512488,
+            "3000-7600Hz": -0.09144357870237695,
+            "50-200Hz": -1.0661161230865885
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_012",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2801118215800908,
+            "200-1000Hz": -0.29169766145614595,
+            "3000-7600Hz": -0.20520782578918736,
+            "50-200Hz": -0.28192817723703323
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2435517946522054,
+            "200-1000Hz": -0.36368322604448244,
+            "3000-7600Hz": -0.15554087177057457,
+            "50-200Hz": -0.3728587635142132
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.1834931336025445,
+            "200-1000Hz": -0.2396890973691031,
+            "3000-7600Hz": -0.12108738293672157,
+            "50-200Hz": -0.34746592640369894
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_013",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.537713272704181e-06,
+            "200-1000Hz": -1.4920930910934465e-08,
+            "3000-7600Hz": -0.0015862826123088035,
+            "50-200Hz": -1.9786731527562414e-09
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -3.701681349484069e-06,
+            "200-1000Hz": -6.82620162221911e-08,
+            "3000-7600Hz": -0.0003446258172935268,
+            "50-200Hz": -2.3921825565871733e-09
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -5.968197444649302e-07,
+            "200-1000Hz": -2.375257391288972e-07,
+            "3000-7600Hz": -0.00016687944423630013,
+            "50-200Hz": -1.2291795232523609e-09
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_014",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.6871188565538878,
+            "200-1000Hz": -0.40205154501257157,
+            "3000-7600Hz": -0.32896760305266015,
+            "50-200Hz": -0.1334231089778311
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.3566991143972489,
+            "200-1000Hz": -0.24873489979632807,
+            "3000-7600Hz": -0.23007615244718133,
+            "50-200Hz": -0.20405061828219656
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.41542491768885736,
+            "200-1000Hz": -0.36238674229337253,
+            "3000-7600Hz": -0.16423069946911506,
+            "50-200Hz": -0.3459827760163448
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_015",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -9.643274665532873e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 9.64327466553287e-16,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 9.64327466553287e-16
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -4.821637332766436e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_016",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": -9.643274665532873e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_017",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.24747935551487482,
+            "200-1000Hz": -0.5264524600376024,
+            "3000-7600Hz": -0.2934139933086394,
+            "50-200Hz": -0.9193265160699655
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.280255728778648,
+            "200-1000Hz": -0.43760666725498715,
+            "3000-7600Hz": -0.2543186388937178,
+            "50-200Hz": -0.7681334371426956
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2154488588721245,
+            "200-1000Hz": -0.6437833894479705,
+            "3000-7600Hz": -0.26666653794400785,
+            "50-200Hz": -1.0776137570338749
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_018",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2774361634327619,
+            "200-1000Hz": -0.5182551206186524,
+            "3000-7600Hz": -0.25442350661274693,
+            "50-200Hz": -1.227090097719032
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2253008890515187,
+            "200-1000Hz": -0.6125242754400394,
+            "3000-7600Hz": -0.20758838048037426,
+            "50-200Hz": -1.4246899810113893
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.23940942853692762,
+            "200-1000Hz": -0.2607380594352356,
+            "3000-7600Hz": -0.20302876097456804,
+            "50-200Hz": -1.0030610975629497
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_019",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.4718389384906671,
+            "200-1000Hz": -0.7120626666317313,
+            "3000-7600Hz": -0.38140077089047686,
+            "50-200Hz": -0.8584568736551114
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2838026091943495,
+            "200-1000Hz": -1.2237620751398806,
+            "3000-7600Hz": -0.26310526834722797,
+            "50-200Hz": -1.1227795630467665
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.22330521100825698,
+            "200-1000Hz": -1.252538412127241,
+            "3000-7600Hz": -0.21333858621471716,
+            "50-200Hz": -1.2226037366238742
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_020",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.3465929572753277,
+            "200-1000Hz": -1.7320805984756318,
+            "3000-7600Hz": -0.9311417160759154,
+            "50-200Hz": -1.340436798658281
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.45283880564262513,
+            "200-1000Hz": -1.809715994506227,
+            "3000-7600Hz": -0.8789024589484593,
+            "50-200Hz": -1.0966025945130689
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.3994667944259877,
+            "200-1000Hz": -0.4465425329170374,
+            "3000-7600Hz": -0.3557957726363004,
+            "50-200Hz": -0.9224114255788295
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_021",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.7245345874588247,
+            "200-1000Hz": -2.210842181871489,
+            "3000-7600Hz": -0.4024039963337914,
+            "50-200Hz": -1.9167030298179608
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.9539163850939785,
+            "200-1000Hz": -2.0886087217446794,
+            "3000-7600Hz": -0.41634406229125,
+            "50-200Hz": -0.20166645936808553
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.352160066307449,
+            "200-1000Hz": -3.042483375639594,
+            "3000-7600Hz": -0.3896892814927716,
+            "50-200Hz": -1.6785196094765409
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_022",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5388398550758684,
+            "200-1000Hz": -0.7864343138754816,
+            "3000-7600Hz": -0.844597468466607,
+            "50-200Hz": -0.8222761640329824
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.4367560389820029,
+            "200-1000Hz": -0.9844201255202898,
+            "3000-7600Hz": -0.7691262040869141,
+            "50-200Hz": -1.104940459912178
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.2521600139057544,
+            "200-1000Hz": -0.7511516092440824,
+            "3000-7600Hz": -0.5719365407395327,
+            "50-200Hz": -0.9951953834868
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_023",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.15522950976569594,
+            "200-1000Hz": -0.1668442520704691,
+            "3000-7600Hz": -0.3145796973922381,
+            "50-200Hz": -0.45325284641704977
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.14911094162613486,
+            "200-1000Hz": -0.14772785356424062,
+            "3000-7600Hz": -0.25324305336771946,
+            "50-200Hz": -0.6251708862626326
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.23509446245474142,
+            "200-1000Hz": -0.42851262432962917,
+            "3000-7600Hz": -0.17557603160743512,
+            "50-200Hz": -1.021881391324945
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_024",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.17764837693035374,
+            "200-1000Hz": -0.6440266500578209,
+            "3000-7600Hz": -0.15481819106113823,
+            "50-200Hz": -1.082136299725596
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.28909879998277477,
+            "200-1000Hz": -0.488815124610657,
+            "3000-7600Hz": -0.1800605499904197,
+            "50-200Hz": -0.7587382246727065
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.5024933274439253,
+            "200-1000Hz": -0.7602724390175241,
+            "3000-7600Hz": -0.4523985826059339,
+            "50-200Hz": -0.7041405956769418
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_025",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.32527930614335754,
+            "200-1000Hz": -0.7973795298862523,
+            "3000-7600Hz": -0.7175157885037419,
+            "50-200Hz": -1.1521749165269304
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.4137556662154823,
+            "200-1000Hz": -0.4288910399662929,
+            "3000-7600Hz": -0.3400122414398402,
+            "50-200Hz": -0.17179702104269254
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.540607005761143,
+            "200-1000Hz": -0.49764509250444794,
+            "3000-7600Hz": -0.5873029712786928,
+            "50-200Hz": -0.23511676872983095
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_026",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -9.643274665532873e-16,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 9.64327466553287e-16,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_027",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.12794149470945673,
+            "200-1000Hz": -0.12636739621684598,
+            "3000-7600Hz": -0.32225045848217404,
+            "50-200Hz": -0.005930037615433916
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -0.1304768056947522,
+            "200-1000Hz": -0.137751173340593,
+            "3000-7600Hz": -0.3661782668281346,
+            "50-200Hz": -0.004837419582206109
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": 0.0,
+            "200-1000Hz": 0.0,
+            "3000-7600Hz": 0.0,
+            "50-200Hz": 0.0
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_028",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -1.8550506723424336,
+            "200-1000Hz": -2.244619286197488,
+            "3000-7600Hz": -0.39205713035645584,
+            "50-200Hz": -0.04283173353364574
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.6867387943283836,
+            "200-1000Hz": -2.0274657997843044,
+            "3000-7600Hz": -0.42829968691130144,
+            "50-200Hz": -0.05459387332525939
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.5645482261583346,
+            "200-1000Hz": -1.738733871428134,
+            "3000-7600Hz": -0.6484155429550513,
+            "50-200Hz": -0.08018834448103057
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_029",
+      "label": "non_drone",
+      "source": "svanstrom"
+    },
+    {
+      "contexts": [
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.280890813209166,
+            "200-1000Hz": -2.1721784041403747,
+            "3000-7600Hz": -0.4761208245326146,
+            "50-200Hz": -0.02666266034639295
+          },
+          "start_sample": 0
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.9042062705085407,
+            "200-1000Hz": -2.5437063148742496,
+            "3000-7600Hz": -0.4991728339010603,
+            "50-200Hz": -0.0436022304257034
+          },
+          "start_sample": 56000
+        },
+        {
+          "energy_fraction_in_bins_attenuated_over10db": 0.0,
+          "mono_power_to_mean_channel_power_db": {
+            "1000-3000Hz": -2.6800053209788977,
+            "200-1000Hz": -1.875949140291083,
+            "3000-7600Hz": -0.8128597325992791,
+            "50-200Hz": -0.0857637289755364
+          },
+          "start_sample": 112000
+        }
+      ],
+      "id": "svanstrom-HELICOPTER_030",
+      "label": "non_drone",
+      "source": "svanstrom"
+    }
+  ],
+  "scope": "First/middle/last cached context in all101 stereo train/dev files; frequency-power diagnostic, no new labels or accuracy claim",
+  "worst_band_mean_channel_attenuation_db": -5.784544876479448
+}

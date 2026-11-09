@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acoustic-drone-detector"
+version = "0.4.0"
+description = "Auditable acoustic detection experiments and recorded-stream replay"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+dependencies = [
+  "numpy==2.3.5",
+  "scipy==1.17.0",
+  "scikit-learn==1.8.0",
+  "soundfile==0.13.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.0.2", "ruff==0.14.4"]
+pretrained = ["tensorflow-cpu==2.20.0"]
+
+[project.scripts]
+drone-detector = "drone_detector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

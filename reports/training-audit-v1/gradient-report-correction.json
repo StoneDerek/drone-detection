@@ -1,0 +1,5 @@
+{
+  "change": "Use unique Keras variable paths for the per-layer gradient-norm display. The initial dictionary used repeated kernel/bias names and displayed only the last layer. All numerical loss/gradient/Adam/checkpoint checks are unchanged. Training was gated on the preserved initial passing oracle.",
+  "current_report_sha256": "88cbbd326ba213ef82c14b5e7d20f1db4c38f812e0b1d31acce34638f956d6b0",
+  "initial_report_sha256": "f94ac0fdadda133d3b16d2360c42c51b24f387207f8f2cdb121e78fe11bfefee"
+}

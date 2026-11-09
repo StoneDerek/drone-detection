@@ -1,0 +1,22 @@
+{
+  "asset_manifest_sha256": "4175ee40118dfae4da3ecef00af8150b3a0f8622ca989ddef7a0405b639faa78",
+  "assets": 192,
+  "deployed": true,
+  "deployment_id": "9fdad524-8681-4f5f-8a83-a811a3e76594",
+  "deployment_url": "https://9fdad524.drone-audio-lab.pages.dev",
+  "hosting": "Cloudflare Pages static assets; inference executes in browser; no paid plan change",
+  "latest_stage": {
+    "ended_on": "2026-11-09T04:46:27.943892Z",
+    "name": "deploy",
+    "started_on": null,
+    "status": "success"
+  },
+  "production_url": "https://drone-audio-lab.pages.dev",
+  "project": "drone-audio-lab",
+  "total_bytes": 54845546,
+  "validation": [
+    "Python test suite (see validation report)",
+    "browser numerical parity",
+    "interactive browser workflow and no audio uploads"
+  ]
+}

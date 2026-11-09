@@ -1,0 +1,13 @@
+{
+  "catalog_models": 11,
+  "default_modified": false,
+  "default_regression_passed": true,
+  "environment_published": false,
+  "gradcam_models": 8,
+  "isolated_browser_passed": true,
+  "new_frozen_models": 9,
+  "package_integrity_passed": true,
+  "primary_local_port": 8004,
+  "root_browser_passed": true,
+  "software_tests": 66
+}

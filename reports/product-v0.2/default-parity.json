@@ -1,0 +1,21 @@
+{
+  "alarms_equal": true,
+  "compared_fields": [
+    "score",
+    "alarm",
+    "reason",
+    "window_start_seconds",
+    "timestamp_seconds",
+    "padded",
+    "end_of_file",
+    "model_id"
+  ],
+  "control": "Isolated installed 0.1.0 wheel",
+  "current": "0.2.0 editable runtime",
+  "input_sha256": "18ef2eb6318f075bd1c978b2c0c16dcb01fd8a6575925703e0fca27f0206395c",
+  "max_score_error": 0,
+  "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "passed": true,
+  "scope": "Software regression on an existing development input; no new acoustic assessment",
+  "windows": 14
+}

@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "command": "infer",
+      "first_process_seconds": 2.2561871159998645,
+      "summary": {
+        "timing": {
+          "canonical_sample_rate": 16000,
+          "channels": 1,
+          "clipped_fraction": 0.0,
+          "duration_seconds": 12.0,
+          "end_to_end_seconds": 0.026246658999980355,
+          "mode": "recorded_stream_replay; file decoding/resampling precedes replay",
+          "model_id": "aa9a710c030a5a628f320d9741d1f920581d84b9816002dbfb1cfac0c6b8a330",
+          "original_sample_rate": 16000,
+          "peak": 0.576416015625,
+          "real_time_factor": 0.0021872215833316964,
+          "rms": 0.15194152660493918,
+          "silence_fraction": 0.00014583333333333335
+        },
+        "windows": 19
+      }
+    },
+    {
+      "command": "stream",
+      "first_process_seconds": 0.8238831470000605,
+      "summary": {
+        "timing": {
+          "canonical_sample_rate": 16000,
+          "channels": 1,
+          "clipped_fraction": 0.0,
+          "duration_seconds": 12.0,
+          "end_to_end_seconds": 0.02667889200006357,
+          "mode": "recorded_stream_replay; file decoding/resampling precedes replay",
+          "model_id": "aa9a710c030a5a628f320d9741d1f920581d84b9816002dbfb1cfac0c6b8a330",
+          "original_sample_rate": 16000,
+          "peak": 0.576416015625,
+          "real_time_factor": 0.0022232410000052973,
+          "rms": 0.15194152660493918,
+          "silence_fraction": 0.00014583333333333335
+        },
+        "windows": 19
+      }
+    }
+  ],
+  "editable_install": false,
+  "exact_score_state_window_parity": true,
+  "limitations": "Same host and CPU; isolated wheel install, not a fresh cloud machine or independent acoustic test.",
+  "matches_frozen_reference_trace": true,
+  "module_path": "/tmp/drone-clean-v1/lib/python3.12/site-packages/drone_detector/__init__.py",
+  "network_required_for_inference": false,
+  "passed": true,
+  "windows_per_command": 19,
+  "working_directory": "/tmp/drone-portable-smoke-v1"
+}

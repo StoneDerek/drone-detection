@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "low-frequency",
+      "displayedState": "Review audio quality",
+      "windows": 3,
+      "flag": "low_frequency_dominance"
+    },
+    {
+      "name": "clipping",
+      "displayedState": "Review audio quality",
+      "windows": 3,
+      "flag": "clipping"
+    },
+    {
+      "name": "silence",
+      "displayedState": "Silent input",
+      "windows": 3,
+      "flag": null
+    },
+    {
+      "name": "short",
+      "displayedState": "Insufficient audio",
+      "windows": 1,
+      "flag": null
+    }
+  ],
+  "browser": "156.0.8078.79",
+  "pageErrors": [],
+  "scope": "Generated signals verify software handling and display only. They are not acoustic detection evidence."
+}

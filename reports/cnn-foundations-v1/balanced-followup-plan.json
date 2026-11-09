@@ -1,0 +1,12 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "91461413eb9c787e5b829f619ffc68ff0630d376289c43c828087fe00f24f321"
+  },
+  "interpretation": "This changes class composition variance and repeat frequency while preserving the expected class-balanced objective and optimizer-step budget. It does not isolate clipping alone or add verified audible labels.",
+  "intervention": "Same93313-parameter coverage CNN, cached inputs, seed42, sampled8 hard-max positives, mean negative loss, Adam.001 clipnorm1, dropout.1, L2.0001. Four recordings per class per batch, no inverse-class reweighting (avoids double balancing). Keep51 optimizer steps/epoch and24 epochs.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "parent_plan_sha256": "ef1a730b01fd00e668f120fb91b3969bed6de7c0018b6fc53853f9bece1b9ed3",
+  "reason": "31% negative-only minibatches; common training loss oscillates widely (.64 to1.53) despite more parameters. Class weights balance expectation, not each batch, and gradient clipping is nonlinear.",
+  "scope": "Adaptive DEVELOPMENT control, declared after observing the original sampled/max medium training instability. No new assessment or strong labels."
+}

@@ -1,0 +1,744 @@
+{
+  "class_mapping": {
+    "0": "non_drone",
+    "1": "drone"
+  },
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+  },
+  "contract": {
+    "annotation": {
+      "ambiguous": "exclude ambiguous time from negative exposure and matching; never infer absence from a filename",
+      "event": "audibly present drone corroborated by recording log or synchronized video; uncertain boundaries excluded",
+      "minimum_claimed_event_seconds": 3.0,
+      "negative": "fully reviewed audio with no drone, including intervals between verified events",
+      "onset_tolerance_seconds": 0.5
+    },
+    "decision": {
+      "merge_gap_seconds": 1.0,
+      "off_hits": 2,
+      "off_threshold_ratio": 0.75,
+      "on_hits_options": [
+        1,
+        2
+      ],
+      "selection": "development only: prefer point FA/h <= 1, then highest event recall, lowest p95 delay, lowest FA/h, highest threshold; otherwise lowest FA/h then highest recall",
+      "threshold_grid": [
+        0.2,
+        0.35,
+        0.5,
+        0.65,
+        0.8,
+        0.9,
+        0.95
+      ]
+    },
+    "freeze": "Freeze candidate, train-only preprocessing, split, decision, contract and demo IDs before final evaluation. A reused final set becomes development evidence.",
+    "id": "presence-v1-provisional",
+    "intended_scope": {
+      "capture": "single microphone; devices not yet supplied or measured",
+      "distance_m": null,
+      "drone_variety": "unknown until audio provenance is established",
+      "environments": "stationary outdoor capture initially; wind and other conditions unmeasured",
+      "interference": "fans, leaf blowers, lawnmowers, traffic, speech, music, aircraft",
+      "live_microphone": "not verified; no audio capture device in the current cloud instance",
+      "snr_db": null
+    },
+    "schema_version": 1,
+    "status": "provisional engineering choices; not user-specified numerical requirements",
+    "targets": {
+      "end_to_end_real_time_factor": 0.25,
+      "event_recall_lower_95": 0.9,
+      "false_alarms_per_hour_upper_95": 1.0,
+      "minimum_events": 100,
+      "minimum_independent_groups": 30,
+      "minimum_known_devices": 2,
+      "minimum_known_drone_types": 3,
+      "minimum_negative_hours": 10.0,
+      "minimum_sources": 2,
+      "p95_detection_delay_seconds": 4.0
+    },
+    "uncertainty": "95% session/component cluster bootstrap (2000 replicates); supplement with Poisson exposure interval (explicit stationarity assumption) and event-binomial interval (explicit independence assumption), take conservative bounds. Neither substitutes for coverage or independent capture.",
+    "user_requirements": [
+      "single-microphone drone presence even with interference",
+      "file input and recorded continuous-stream replay",
+      "independent audio evaluation and an honest operating range"
+    ]
+  },
+  "contract_sha256": "9c0197f9a12df93b8a0b013766e2189c0ae9861a2f85404c85ecd8ebf0e7fd78",
+  "decision": {
+    "off_hits": 2,
+    "off_threshold": 0.48750000000000004,
+    "on_hits": 1,
+    "on_threshold": 0.65
+  },
+  "feature_dimension": 96,
+  "features": {
+    "f_max": 7600.0,
+    "f_min": 80.0,
+    "hop_seconds": 0.5,
+    "mel_bins": 48,
+    "min_audio_seconds": 0.25,
+    "n_fft": 512,
+    "representation": "absolute_mel",
+    "sample_rate": 16000,
+    "silence_rms": 1e-05,
+    "stft_hop": 160,
+    "window_seconds": 3.0
+  },
+  "limitations": "Experimental. No reliability claim without independent authentic audio evaluation.",
+  "model_id": "fe7502bf87afbf78d5f74e7d88952f2f2bef0ade68f0433337d10d7e0a463edf",
+  "normalization": "StandardScaler fit to weighted training windows only; parameters in NPZ",
+  "parameters_sha256": "2336512de951b7bf3356e65e08343ff6fe9aca9e4ef61f8a2b13aa05cf832fb8",
+  "schema_version": 1,
+  "selection": {
+    "chosen": {
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.48750000000000004,
+        "on_hits": 1,
+        "on_threshold": 0.65
+      },
+      "metrics": {
+        "alarm_events": 4,
+        "all_events": 4,
+        "event_precision": 1.0,
+        "event_recall": 1.0,
+        "events": 4,
+        "false_alarm_events": 0,
+        "false_alarms_per_hour": 0.0,
+        "hours": 0.04,
+        "independent_groups": 4,
+        "matched_events": 4,
+        "median_delay_seconds_detected_events_only": 3.0013212825000437,
+        "negative_alarm_time_fraction": 0.01293103448275862,
+        "negative_hours": 0.03222222222222222,
+        "p95_delay_seconds_detected_events_only": 3.0014427287501007,
+        "recording_confusion": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 8,
+          "tp": 4
+        },
+        "recording_errors": 0,
+        "recording_precision": 1.0,
+        "recording_recall": 1.0,
+        "recordings": 12,
+        "short_events_outside_claim": 0
+      }
+    },
+    "criterion": "development only: prefer point FA/h <= 1, then highest event recall, lowest p95 delay, lowest FA/h, highest threshold; otherwise lowest FA/h then highest recall",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "score_runtime_seconds": 0.2926975209993543,
+    "split": "development",
+    "trials": [
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.15000000000000002,
+          "on_hits": 1,
+          "on_threshold": 0.2
+        },
+        "metrics": {
+          "alarm_events": 6,
+          "all_events": 4,
+          "event_precision": 0.6666666666666666,
+          "event_recall": 1.0,
+          "events": 4,
+          "false_alarm_events": 2,
+          "false_alarms_per_hour": 62.06896551724138,
+          "hours": 0.04,
+          "independent_groups": 4,
+          "matched_events": 4,
+          "median_delay_seconds_detected_events_only": 3.0013212825000437,
+          "negative_alarm_time_fraction": 0.03879310344827586,
+          "negative_hours": 0.03222222222222222,
+          "p95_delay_seconds_detected_events_only": 3.0014427287501007,
+          "recording_confusion": {
+            "fn": 0,
+            "fp": 1,
+            "tn": 7,
+            "tp": 4
+          },
+          "recording_errors": 1,
+          "recording_precision": 0.8,
+          "recording_recall": 1.0,
+          "recordings": 12,
+          "short_events_outside_claim": 0
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.26249999999999996,
+          "on_hits": 1,
+          "on_threshold": 0.35
+        },
+        "metrics": {
+          "alarm_events": 6,
+          "all_events": 4,
+          "event_precision": 0.6666666666666666,
+          "event_recall": 1.0,
+          "events": 4,
+          "false_alarm_events": 2,
+          "false_alarms_per_hour": 62.06896551724138,
+          "hours": 0.04,
+          "independent_groups": 4,
+          "matched_events": 4,
+          "median_delay_seconds_detected_events_only": 3.0013212825000437,
+          "negative_alarm_time_fraction": 0.03017241379310345,
+          "negative_hours": 0.03222222222222222,
+          "p95_delay_seconds_detected_events_only": 3.0014427287501007,
+          "recording_confusion": {
+            "fn": 0,
+            "fp": 1,
+            "tn": 7,
+            "tp": 4
+          },
+          "recording_errors": 1,
+          "recording_precision": 0.8,
+          "recording_recall": 1.0,
+          "recordings": 12,
+          "short_events_outside_claim": 0
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 1,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "alarm_events": 4,
+          "all_events": 4,
+          "event_precision": 1.0,
+          "event_recall": 1.0,
+          "events": 4,
+          "false_alarm_events": 0,
+          "false_alarms_per_hour": 0.0,
+          "hours": 0.04,
+          "independent_groups": 4,
+          "matched_events": 4,
+          "median_delay_seconds_detected_events_only": 3.0013212825000437,
+          "negative_alarm_time_fraction": 0.017241379310344827,
+          "negative_hours": 0.03222222222222222,
+          "p95_delay_seconds_detected_events_only": 3.0014427287501007,
+          "recording_confusion": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 8,
+            "tp": 4
+          },
+          "recording_errors": 0,
+          "recording_precision": 1.0,
+          "recording_recall": 1.0,
+          "recordings": 12,
+          "short_events_outside_claim": 0
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.48750000000000004,
+          "on_hits": 1,
+          "on_threshold": 0.65
+        },
+        "metrics": {
+          "alarm_events": 4,
+          "all_events": 4,
+          "event_precision": 1.0,
+          "event_recall": 1.0,
+          "events": 4,
+          "false_alarm_events": 0,
+          "false_alarms_per_hour": 0.0,
+          "hours": 0.04,
+          "independent_groups": 4,
+          "matched_events": 4,
+          "median_delay_seconds_detected_events_only": 3.0013212825000437,
+          "negative_alarm_time_fraction": 0.01293103448275862,
+          "negative_hours": 0.03222222222222222,
+          "p95_delay_seconds_detected_events_only": 3.0014427287501007,
+          "recording_confusion": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 8,
+            "tp": 4
+          },
+          "recording_errors": 0,
+          "recording_precision": 1.0,
+          "recording_recall": 1.0,
+          "recordings": 12,
+          "short_events_outside_claim": 0
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.6000000000000001,
+          "on_hits": 1,
+          "on_threshold": 0.8
+        },
+        "metrics": {
+          "alarm_events": 3,
+          "all_events": 4,
+          "event_precision": 1.0,
+          "event_recall": 0.75,
+          "events": 4,
+          "false_alarm_events": 0,
+          "false_alarms_per_hour": 0.0,
+          "hours": 0.04,
+          "independent_groups": 4,
+          "matched_events": 3,
+          "median_delay_seconds_detected_events_only": 3.001292142000011,
+          "negative_alarm_time_fraction": 0.01293103448275862,
+          "negative_hours": 0.03222222222222222,
+          "p95_delay_seconds_detected_events_only": 3.0013445949000697,
+          "recording_confusion": {
+            "fn": 1,
+            "fp": 0,
+            "tn": 8,
+            "tp": 3
+          },
+          "recording_errors": 1,
+          "recording_precision": 1.0,
+          "recording_recall": 0.75,
+          "recordings": 12,
+          "short_events_outside_claim": 0
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.675,
+          "on_hits": 1,
+          "on_threshold": 0.9
+        },
+        "metrics": {
+          "alarm_events": 3,
+          "all_events": 4,
+          "event_precision": 1.0,
+          "event_recall": 0.75,
+          "events": 4,
+          "false_alarm_events": 0,
+          "false_alarms_per_hour": 0.0,
+          "hours": 0.04,
+          "independent_groups": 4,
+          "matched_events": 3,
+          "median_delay_seconds_detected_events_only": 3.001292142000011,
+          "negative_alarm_time_fraction": 0.01293103448275862,
+          "negative_hours": 0.03222222222222222,
+          "p95_delay_seconds_detected_events_only": 3.0013445949000697,
+          "recording_confusion": {
+            "fn": 1,
+            "fp": 0,
+            "tn": 8,
+            "tp": 3
+          },
+          "recording_errors": 1,
+          "recording_precision": 1.0,
+          "recording_recall": 0.75,
+          "recordings": 12,
+          "short_events_outside_claim": 0
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.7124999999999999,
+          "on_hits": 1,
+          "on_threshold": 0.95
+        },
+        "metrics": {
+          "alarm_events": 3,
+          "all_events": 4,
+          "event_precision": 1.0,
+          "event_recall": 0.75,
+          "events": 4,
+          "false_alarm_events": 0,
+          "false_alarms_per_hour": 0.0,
+          "hours": 0.04,
+          "independent_groups": 4,
+          "matched_events": 3,
+          "median_delay_seconds_detected_events_only": 3.001292142000011,
+          "negative_alarm_time_fraction": 0.01293103448275862,
+          "negative_hours": 0.03222222222222222,
+          "p95_delay_seconds_detected_events_only": 3.0013445949000697,
+          "recording_confusion": {
+            "fn": 1,
+            "fp": 0,
+            "tn": 8,
+            "tp": 3
+          },
+          "recording_errors": 1,
+          "recording_precision": 1.0,
+          "recording_recall": 0.75,
+          "recordings": 12,
+          "short_events_outside_claim": 0
+        }
+      }
+    ],
+    "warning": "Point-rate constraint selects a candidate; independent evidence and uncertainty are assessed separately."
+  },
+  "status": "frozen",
+  "training": {
+    "classifier": "logistic regression C=1, lbfgs, max_iter=1000",
+    "gain_augment": false,
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "origins": [
+      "synthetic"
+    ],
+    "records": [
+      {
+        "group_id": "4eed3b2864b81639d91e",
+        "id": "g0-s00-hard_negative",
+        "sha256": "a3ffb49475f387917fa72d084c8704e109ba62e319eb50a483841803b1d8937d",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "4eed3b2864b81639d91e",
+        "id": "g0-s00-ordinary_negative",
+        "sha256": "c5489ee217fc4810eaaf1136412076758f7134ab7534f29ded3375357942564f",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "4eed3b2864b81639d91e",
+        "id": "g0-s00-positive",
+        "sha256": "c8e60977c2dfc195551bf56cb8550b1fc4fcd112eed9ef28fac1eee6581e321d",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "c4506a65d82c0eec0788",
+        "id": "g0-s01-hard_negative",
+        "sha256": "09e3f4c5c68d41e52cc10e049a7f2ac8cc311215b06dfb626a1a21069575111d",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "c4506a65d82c0eec0788",
+        "id": "g0-s01-ordinary_negative",
+        "sha256": "a605acd0402bb0e839a77d8cc243600f484f324b557c5e1c577584c91028734c",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "c4506a65d82c0eec0788",
+        "id": "g0-s01-positive",
+        "sha256": "65436de1fc88e850b49d44026039b98d2177a65c5ad8175d3b736115cfcfab17",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "f0e4368430d52156e2be",
+        "id": "g0-s03-hard_negative",
+        "sha256": "840d826cb1ee704ba95a1ee782e43f914ac2f46172321ffc897db39009160839",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "f0e4368430d52156e2be",
+        "id": "g0-s03-ordinary_negative",
+        "sha256": "8e4161cbcc04ec2063c076f80d071bda4f043e13f59770576d2544071d5308fa",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "f0e4368430d52156e2be",
+        "id": "g0-s03-positive",
+        "sha256": "c29346d8ad1c5ae4333b2fa766a0010969f7016df0c05085fc1760cfe50942cf",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "e96876e31d6bebbfac8e",
+        "id": "g0-s04-hard_negative",
+        "sha256": "0932dbd96ee5d4a0e6aa91fb839ce645398af86ad00f8b1af129f58e04c33da6",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "e96876e31d6bebbfac8e",
+        "id": "g0-s04-ordinary_negative",
+        "sha256": "de9df8da78d7473fd9bf5ef723a8ea721abb8d6f45efb6cbc72c2e04ff068076",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "e96876e31d6bebbfac8e",
+        "id": "g0-s04-positive",
+        "sha256": "9da6aaa7f79245e7b84aae588a97aafbc0e8b9d4dc88b3e96a8567b83eab1117",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "fcda78bfeabecd82382c",
+        "id": "g0-s05-hard_negative",
+        "sha256": "cf700e7794982805222e6224aad037998c0ea47a4b4318fa9d8bb274a7fd89d7",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "fcda78bfeabecd82382c",
+        "id": "g0-s05-ordinary_negative",
+        "sha256": "baa9ca689d8f15dd9cd3fd27fa1b6fe9c6750002634922960475a1d3eaffd4c9",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "fcda78bfeabecd82382c",
+        "id": "g0-s05-positive",
+        "sha256": "fed1107af5ed3823b625b07c2c42ccd6088e1d9af58ddbcdafc4625d575117eb",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "2345852f3e80aceaff41",
+        "id": "g0-s06-hard_negative",
+        "sha256": "b8d420657f466285fe351d02ebdbe49772e180a87e146b28f96db1815ce7b7b1",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "2345852f3e80aceaff41",
+        "id": "g0-s06-ordinary_negative",
+        "sha256": "5d69787f7531f0a476c9c1015548040dee77cae69de496535c1c73988a76258f",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "2345852f3e80aceaff41",
+        "id": "g0-s06-positive",
+        "sha256": "f245944858c01478450e5b498511bf2e90c104f7714372d542a11d45685b767e",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "5af19e2df4617336d955",
+        "id": "g0-s07-hard_negative",
+        "sha256": "88e286fefe046ae568f18cb0418660134fcb22341403bca5b8e6e6064dd1fab0",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "5af19e2df4617336d955",
+        "id": "g0-s07-ordinary_negative",
+        "sha256": "454d53bcf241f0df9ae0aa1ecb58ade3696d4d2e63ee49b324025fa34fd94cc5",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "5af19e2df4617336d955",
+        "id": "g0-s07-positive",
+        "sha256": "51d1a22233fb6db3e340ef8f62d52b6faf617b5086864fd06d0d472fbdc190b9",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "37ca1913d50bae9fb554",
+        "id": "g0-s08-hard_negative",
+        "sha256": "90a27a318def742d22d91fdf00d3cd782d3a9be683dcff321b711da72f849915",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "37ca1913d50bae9fb554",
+        "id": "g0-s08-ordinary_negative",
+        "sha256": "6915f7c472cd123b82b15218f4426ed681f9ab94e734886f6ca70ad25e8075a2",
+        "source": "synthetic-generator-0",
+        "windows": 19
+      },
+      {
+        "group_id": "37ca1913d50bae9fb554",
+        "id": "g0-s08-positive",
+        "sha256": "b4df79f226ca75e1e0bf5fa87be615d3200928df14a2e2f90de60ec3965ceda7",
+        "source": "synthetic-generator-0",
+        "windows": 10
+      },
+      {
+        "group_id": "683bbc89e58a520e1e84",
+        "id": "g1-s00-hard_negative",
+        "sha256": "5d3a66352033de901668b48df6b9f4b3db80d1a3e4cb7b7350bc556982031af2",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "683bbc89e58a520e1e84",
+        "id": "g1-s00-ordinary_negative",
+        "sha256": "578f7154a07fec7a9c31bab9ceb0857e3016172092d3f9268f98a277c5951d48",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "683bbc89e58a520e1e84",
+        "id": "g1-s00-positive",
+        "sha256": "6427cf841b829aba24cc6813d7a1e310c6e91e21131f850ed8f2707867890988",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      },
+      {
+        "group_id": "228c79efabd610d2064f",
+        "id": "g1-s02-hard_negative",
+        "sha256": "dcf5f0b69e61ca2ccc26457cc971844d41d379324a0a80a39a5942a0ed72347f",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "228c79efabd610d2064f",
+        "id": "g1-s02-ordinary_negative",
+        "sha256": "8989adec44c7375f73b02ad94378a9c3d4d91f8d8a25ca77054b993ee447b75d",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "228c79efabd610d2064f",
+        "id": "g1-s02-positive",
+        "sha256": "5f105b47873afcde71162ee3298cb29e551a0fe9f72603ced11d2a92f147b234",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      },
+      {
+        "group_id": "e907b159941acf1f936d",
+        "id": "g1-s03-hard_negative",
+        "sha256": "2c6ccd247dce6b3c350ecf764b487ce6ed8b11e77f6173d35e622539f93a223b",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "e907b159941acf1f936d",
+        "id": "g1-s03-ordinary_negative",
+        "sha256": "4335dc985f5ea599f1681ecb9db2bdd7403dedaf35e9c6664a8e1dec7926d296",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "e907b159941acf1f936d",
+        "id": "g1-s03-positive",
+        "sha256": "960d8e5a15ba751a990029660bfc0149af8775bed40b1f37342cbe3479ad34bc",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      },
+      {
+        "group_id": "a66f770d32d932835dda",
+        "id": "g1-s04-hard_negative",
+        "sha256": "b482de581c5f1f2a55e2d2cbc1526dacda51ef5d25002eb22bffdeeafd537e56",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "a66f770d32d932835dda",
+        "id": "g1-s04-ordinary_negative",
+        "sha256": "01b1fa946ea8801ab1765b52b50a3c40508964c2de1e984e49d5a6207cf53208",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "a66f770d32d932835dda",
+        "id": "g1-s04-positive",
+        "sha256": "97e1f3441d3475abfac4f21a69fadd0cd47e9a2c0a92dbc751c1a1e039f005d3",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      },
+      {
+        "group_id": "58d941ec57bd4f3280e1",
+        "id": "g1-s05-hard_negative",
+        "sha256": "4f24de82bd39116fecb37a00e8c7b2b7cf78b0edffeee0c8cca3c4c913901e5f",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "58d941ec57bd4f3280e1",
+        "id": "g1-s05-ordinary_negative",
+        "sha256": "076d491acb2ead92c5b443fa09dcf030c7fc912291d3bef43af35707f98dbb45",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "58d941ec57bd4f3280e1",
+        "id": "g1-s05-positive",
+        "sha256": "c026e6c40862063a1aebf35a057f11711ec8c3d5aaa48217e1be0c52be2c851c",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      },
+      {
+        "group_id": "a623debd4f27360d5e51",
+        "id": "g1-s07-hard_negative",
+        "sha256": "21975041a29251d615d2ef3413a5c76893ed4c278819393757b48a4f32ec6c48",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "a623debd4f27360d5e51",
+        "id": "g1-s07-ordinary_negative",
+        "sha256": "177a3a8e1d4e4b87a6689fcfa4b1257756a4794da05434d0eb8f0f61a85004d1",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "a623debd4f27360d5e51",
+        "id": "g1-s07-positive",
+        "sha256": "a159bbba18da5a87a0d5abb3161b7e2f5eb754312a66352cf5887409f2b1ce46",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      },
+      {
+        "group_id": "29c8d15c6cb329fd88ac",
+        "id": "g1-s08-hard_negative",
+        "sha256": "082d9d1e90755ea798e1cf2035ce2da01567a97b00072884a74bdff262f2488b",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "29c8d15c6cb329fd88ac",
+        "id": "g1-s08-ordinary_negative",
+        "sha256": "17c37945ba19f4af79e5bbfa993be0d2303cc2079669f0f8449eac1bf055281f",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "29c8d15c6cb329fd88ac",
+        "id": "g1-s08-positive",
+        "sha256": "c5d373b3de5f3a633312e815162de5418d43ae04d9c6e6925d163e1ecdb87a04",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      },
+      {
+        "group_id": "c4e61ecbc23be0e9263f",
+        "id": "g1-s09-hard_negative",
+        "sha256": "fd572b20e21fff49f6ab33d2ec5d7ee43475510b90a4d7294732874f4b93fb54",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "c4e61ecbc23be0e9263f",
+        "id": "g1-s09-ordinary_negative",
+        "sha256": "f2d1c3bd04c1fa4704675dab0f88fcf7b56adae2264d4cea65e362db19af86ad",
+        "source": "synthetic-generator-1",
+        "windows": 19
+      },
+      {
+        "group_id": "c4e61ecbc23be0e9263f",
+        "id": "g1-s09-positive",
+        "sha256": "3a7187ca85890c00a8c5f478ef3c6a07b0882cbf340903b0d25db790e9c55949",
+        "source": "synthetic-generator-1",
+        "windows": 10
+      }
+    ],
+    "sample_weight": "equal recording mass then balanced class mass",
+    "seconds": 0.9121088790000158,
+    "seed": 42,
+    "window_counts": {
+      "0": 656,
+      "1": 112
+    }
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "soundfile": "0.13.1"
+  }
+}

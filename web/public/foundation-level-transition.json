@@ -1,0 +1,1116 @@
+{
+  "band_level_changes_db": {
+    "0-100Hz": -3.866837228869551,
+    "100-500Hz": -10.82451328676603,
+    "1500-4000Hz": -13.823290643246036,
+    "4000-8000Hz": -15.184015266234773,
+    "500-1500Hz": -9.75396641876765
+  },
+  "canonical_samples": 160001,
+  "controls": {
+    "internal_minus12dB_step_at1_5s": {
+      "available_samples": 48000,
+      "rms": 0.05168831362967546,
+      "zero_padding_samples": 0
+    },
+    "real_after_matched_duration": {
+      "available_samples": 32000,
+      "rms": 0.024727884089044017,
+      "zero_padding_samples": 16000
+    },
+    "real_after_reference_rms_matched": {
+      "available_samples": 32000,
+      "rms": 0.06334320656841268,
+      "zero_padding_samples": 16000
+    },
+    "real_before_matched_duration": {
+      "available_samples": 32000,
+      "rms": 0.06334320899410244,
+      "zero_padding_samples": 16000
+    },
+    "reference_rms_base": {
+      "available_samples": 48000,
+      "rms": 0.05000000028470052,
+      "zero_padding_samples": 0
+    },
+    "reference_rms_internal_step": {
+      "available_samples": 48000,
+      "rms": 0.050000000401163286,
+      "zero_padding_samples": 0
+    },
+    "reference_rms_uniform_minus12dB": {
+      "available_samples": 48000,
+      "rms": 0.05000000028470052,
+      "zero_padding_samples": 0
+    },
+    "unchanged_4_to_7s": {
+      "available_samples": 48000,
+      "rms": 0.07039690678812767,
+      "zero_padding_samples": 0
+    },
+    "uniform_minus12dB": {
+      "available_samples": 48000,
+      "rms": 0.017599226697031917,
+      "zero_padding_samples": 0
+    },
+    "uniform_minus20dB": {
+      "available_samples": 48000,
+      "rms": 0.007039690800652662,
+      "zero_padding_samples": 0
+    }
+  },
+  "measured_transition": {
+    "after_rms": 0.024727884089044017,
+    "before_rms": 0.06334320899410244,
+    "gain_to_match_after_to_before_rms": 2.561610559399516,
+    "matched_excerpt_samples": 32000,
+    "median_level_change_db": -5.650814293731258,
+    "method": "Largest drop in median 20ms-block RMS, using adjacent240ms blocks and excluding edges. Descriptive, not an independently annotated event.",
+    "seconds": 7.74
+  },
+  "models": {
+    "coherent-frequency-seed42": {
+      "controls": {
+        "internal_minus12dB_step_at1_5s": 0.9753309488296509,
+        "real_after_matched_duration": 0.05509434640407562,
+        "real_after_reference_rms_matched": 0.05509434640407562,
+        "real_before_matched_duration": 0.0652237981557846,
+        "reference_rms_base": 0.980822741985321,
+        "reference_rms_internal_step": 0.9753309488296509,
+        "reference_rms_uniform_minus12dB": 0.980822741985321,
+        "unchanged_4_to_7s": 0.980822741985321,
+        "uniform_minus12dB": 0.980822741985321,
+        "uniform_minus20dB": 0.980822741985321
+      },
+      "internal_step_score_change": -0.005491793155670166,
+      "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+      "trace": [
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07658634863974699,
+          "score": 0.9248005747795105,
+          "timestamp_seconds": 3.0,
+          "window_start_seconds": 0.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06572182652689247,
+          "score": 0.9654260277748108,
+          "timestamp_seconds": 3.5,
+          "window_start_seconds": 0.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06228599258731943,
+          "score": 0.9721298813819885,
+          "timestamp_seconds": 4.0,
+          "window_start_seconds": 1.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06267748799958439,
+          "score": 0.9815556406974792,
+          "timestamp_seconds": 4.5,
+          "window_start_seconds": 1.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06429209721463368,
+          "score": 0.9830827713012695,
+          "timestamp_seconds": 5.0,
+          "window_start_seconds": 2.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06503913041772436,
+          "score": 0.9847554564476013,
+          "timestamp_seconds": 5.5,
+          "window_start_seconds": 2.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06953466047842241,
+          "score": 0.9854151010513306,
+          "timestamp_seconds": 6.0,
+          "window_start_seconds": 3.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07030227466039846,
+          "score": 0.9856751561164856,
+          "timestamp_seconds": 6.5,
+          "window_start_seconds": 3.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07039690678812767,
+          "score": 0.980822741985321,
+          "timestamp_seconds": 7.0,
+          "window_start_seconds": 4.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06972487921361943,
+          "score": 0.9810643196105957,
+          "timestamp_seconds": 7.5,
+          "window_start_seconds": 4.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06642255124154735,
+          "score": 0.9777857661247253,
+          "timestamp_seconds": 8.0,
+          "window_start_seconds": 5.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.05885218811009481,
+          "score": 0.9742940068244934,
+          "timestamp_seconds": 8.5,
+          "window_start_seconds": 5.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.050599147939140394,
+          "score": 0.9716481566429138,
+          "timestamp_seconds": 9.0,
+          "window_start_seconds": 6.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.044364408804185025,
+          "score": 0.9665700197219849,
+          "timestamp_seconds": 9.5,
+          "window_start_seconds": 6.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.035670692981369385,
+          "score": 0.9654833674430847,
+          "timestamp_seconds": 10.0,
+          "window_start_seconds": 7.0
+        },
+        {
+          "alarm": true,
+          "padded": true,
+          "rms": 0.027234408745455314,
+          "score": 0.7106518149375916,
+          "timestamp_seconds": 10.0000625,
+          "window_start_seconds": 7.5
+        }
+      ],
+      "uniform_minus12dB_score_change": 0.0
+    },
+    "coherent-frequency-seed7": {
+      "controls": {
+        "internal_minus12dB_step_at1_5s": 0.9316227436065674,
+        "real_after_matched_duration": 0.04987290874123573,
+        "real_after_reference_rms_matched": 0.04987296462059021,
+        "real_before_matched_duration": 0.04678899422287941,
+        "reference_rms_base": 0.9320313334465027,
+        "reference_rms_internal_step": 0.9316227436065674,
+        "reference_rms_uniform_minus12dB": 0.9320313334465027,
+        "unchanged_4_to_7s": 0.9320313930511475,
+        "uniform_minus12dB": 0.9320313930511475,
+        "uniform_minus20dB": 0.9320313930511475
+      },
+      "internal_step_score_change": -0.0004086494445800781,
+      "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+      "trace": [
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07658634863974699,
+          "score": 0.9458937048912048,
+          "timestamp_seconds": 3.0,
+          "window_start_seconds": 0.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06572182652689247,
+          "score": 0.9627639055252075,
+          "timestamp_seconds": 3.5,
+          "window_start_seconds": 0.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06228599258731943,
+          "score": 0.961359441280365,
+          "timestamp_seconds": 4.0,
+          "window_start_seconds": 1.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06267748799958439,
+          "score": 0.9678416848182678,
+          "timestamp_seconds": 4.5,
+          "window_start_seconds": 1.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06429209721463368,
+          "score": 0.9660525321960449,
+          "timestamp_seconds": 5.0,
+          "window_start_seconds": 2.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06503913041772436,
+          "score": 0.9541135430335999,
+          "timestamp_seconds": 5.5,
+          "window_start_seconds": 2.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06953466047842241,
+          "score": 0.9534389972686768,
+          "timestamp_seconds": 6.0,
+          "window_start_seconds": 3.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07030227466039846,
+          "score": 0.9521313905715942,
+          "timestamp_seconds": 6.5,
+          "window_start_seconds": 3.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07039690678812767,
+          "score": 0.9320313930511475,
+          "timestamp_seconds": 7.0,
+          "window_start_seconds": 4.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06972487921361943,
+          "score": 0.9322816729545593,
+          "timestamp_seconds": 7.5,
+          "window_start_seconds": 4.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06642255124154735,
+          "score": 0.915790319442749,
+          "timestamp_seconds": 8.0,
+          "window_start_seconds": 5.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.05885218811009481,
+          "score": 0.9125787019729614,
+          "timestamp_seconds": 8.5,
+          "window_start_seconds": 5.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.050599147939140394,
+          "score": 0.9180214405059814,
+          "timestamp_seconds": 9.0,
+          "window_start_seconds": 6.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.044364408804185025,
+          "score": 0.9142153859138489,
+          "timestamp_seconds": 9.5,
+          "window_start_seconds": 6.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.035670692981369385,
+          "score": 0.923847496509552,
+          "timestamp_seconds": 10.0,
+          "window_start_seconds": 7.0
+        },
+        {
+          "alarm": true,
+          "padded": true,
+          "rms": 0.027234408745455314,
+          "score": 0.6586184501647949,
+          "timestamp_seconds": 10.0000625,
+          "window_start_seconds": 7.5
+        }
+      ],
+      "uniform_minus12dB_score_change": 0.0
+    },
+    "coherent-global-seed42": {
+      "controls": {
+        "internal_minus12dB_step_at1_5s": 0.9023279547691345,
+        "real_after_matched_duration": 0.7760831713676453,
+        "real_after_reference_rms_matched": 0.7760831713676453,
+        "real_before_matched_duration": 0.7632266283035278,
+        "reference_rms_base": 0.9385279417037964,
+        "reference_rms_internal_step": 0.9023279547691345,
+        "reference_rms_uniform_minus12dB": 0.9385279417037964,
+        "unchanged_4_to_7s": 0.9385279417037964,
+        "uniform_minus12dB": 0.9385279417037964,
+        "uniform_minus20dB": 0.9385279417037964
+      },
+      "internal_step_score_change": -0.036199986934661865,
+      "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+      "trace": [
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07658634863974699,
+          "score": 0.8410957455635071,
+          "timestamp_seconds": 3.0,
+          "window_start_seconds": 0.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06572182652689247,
+          "score": 0.9085578918457031,
+          "timestamp_seconds": 3.5,
+          "window_start_seconds": 0.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06228599258731943,
+          "score": 0.9155975580215454,
+          "timestamp_seconds": 4.0,
+          "window_start_seconds": 1.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06267748799958439,
+          "score": 0.9169996976852417,
+          "timestamp_seconds": 4.5,
+          "window_start_seconds": 1.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06429209721463368,
+          "score": 0.9224557876586914,
+          "timestamp_seconds": 5.0,
+          "window_start_seconds": 2.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06503913041772436,
+          "score": 0.9411023259162903,
+          "timestamp_seconds": 5.5,
+          "window_start_seconds": 2.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06953466047842241,
+          "score": 0.9397000074386597,
+          "timestamp_seconds": 6.0,
+          "window_start_seconds": 3.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07030227466039846,
+          "score": 0.9422247409820557,
+          "timestamp_seconds": 6.5,
+          "window_start_seconds": 3.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07039690678812767,
+          "score": 0.9385279417037964,
+          "timestamp_seconds": 7.0,
+          "window_start_seconds": 4.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06972487921361943,
+          "score": 0.938144326210022,
+          "timestamp_seconds": 7.5,
+          "window_start_seconds": 4.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06642255124154735,
+          "score": 0.9284642934799194,
+          "timestamp_seconds": 8.0,
+          "window_start_seconds": 5.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.05885218811009481,
+          "score": 0.9225807785987854,
+          "timestamp_seconds": 8.5,
+          "window_start_seconds": 5.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.050599147939140394,
+          "score": 0.911611795425415,
+          "timestamp_seconds": 9.0,
+          "window_start_seconds": 6.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.044364408804185025,
+          "score": 0.9043369889259338,
+          "timestamp_seconds": 9.5,
+          "window_start_seconds": 6.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.035670692981369385,
+          "score": 0.9110456109046936,
+          "timestamp_seconds": 10.0,
+          "window_start_seconds": 7.0
+        },
+        {
+          "alarm": true,
+          "padded": true,
+          "rms": 0.027234408745455314,
+          "score": 0.8531442880630493,
+          "timestamp_seconds": 10.0000625,
+          "window_start_seconds": 7.5
+        }
+      ],
+      "uniform_minus12dB_score_change": 0.0
+    },
+    "linear256-fft4096": {
+      "controls": {
+        "internal_minus12dB_step_at1_5s": 0.4295222759246826,
+        "real_after_matched_duration": 0.40136024355888367,
+        "real_after_reference_rms_matched": 0.40136027336120605,
+        "real_before_matched_duration": 0.3964255750179291,
+        "reference_rms_base": 0.4225219488143921,
+        "reference_rms_internal_step": 0.4295222759246826,
+        "reference_rms_uniform_minus12dB": 0.4225219488143921,
+        "unchanged_4_to_7s": 0.4225219786167145,
+        "uniform_minus12dB": 0.4225219786167145,
+        "uniform_minus20dB": 0.4225219488143921
+      },
+      "internal_step_score_change": 0.00700029730796814,
+      "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+      "trace": [
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07658634863974699,
+          "score": 0.43398517370224,
+          "timestamp_seconds": 3.0,
+          "window_start_seconds": 0.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06572182652689247,
+          "score": 0.4305552542209625,
+          "timestamp_seconds": 3.5,
+          "window_start_seconds": 0.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06228599258731943,
+          "score": 0.42849406599998474,
+          "timestamp_seconds": 4.0,
+          "window_start_seconds": 1.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06267748799958439,
+          "score": 0.4274155795574188,
+          "timestamp_seconds": 4.5,
+          "window_start_seconds": 1.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06429209721463368,
+          "score": 0.42689383029937744,
+          "timestamp_seconds": 5.0,
+          "window_start_seconds": 2.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06503913041772436,
+          "score": 0.4231283366680145,
+          "timestamp_seconds": 5.5,
+          "window_start_seconds": 2.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06953466047842241,
+          "score": 0.4231155812740326,
+          "timestamp_seconds": 6.0,
+          "window_start_seconds": 3.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07030227466039846,
+          "score": 0.42281419038772583,
+          "timestamp_seconds": 6.5,
+          "window_start_seconds": 3.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07039690678812767,
+          "score": 0.4225219786167145,
+          "timestamp_seconds": 7.0,
+          "window_start_seconds": 4.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06972487921361943,
+          "score": 0.4221571087837219,
+          "timestamp_seconds": 7.5,
+          "window_start_seconds": 4.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06642255124154735,
+          "score": 0.4235851764678955,
+          "timestamp_seconds": 8.0,
+          "window_start_seconds": 5.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.05885218811009481,
+          "score": 0.42590296268463135,
+          "timestamp_seconds": 8.5,
+          "window_start_seconds": 5.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.050599147939140394,
+          "score": 0.42823511362075806,
+          "timestamp_seconds": 9.0,
+          "window_start_seconds": 6.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.044364408804185025,
+          "score": 0.4312351942062378,
+          "timestamp_seconds": 9.5,
+          "window_start_seconds": 6.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.035670692981369385,
+          "score": 0.43280261754989624,
+          "timestamp_seconds": 10.0,
+          "window_start_seconds": 7.0
+        },
+        {
+          "alarm": false,
+          "padded": true,
+          "rms": 0.027234408745455314,
+          "score": 0.4239448606967926,
+          "timestamp_seconds": 10.0000625,
+          "window_start_seconds": 7.5
+        }
+      ],
+      "uniform_minus12dB_score_change": 0.0
+    },
+    "relative-logistic": {
+      "controls": {
+        "internal_minus12dB_step_at1_5s": 0.046939892319933556,
+        "real_after_matched_duration": 7.830771108364719e-23,
+        "real_after_reference_rms_matched": 7.830771797628959e-23,
+        "real_before_matched_duration": 3.471934586107272e-24,
+        "reference_rms_base": 0.9671012955548229,
+        "reference_rms_internal_step": 0.04693989955053556,
+        "reference_rms_uniform_minus12dB": 0.9671012955548229,
+        "unchanged_4_to_7s": 0.9671012897445596,
+        "uniform_minus12dB": 0.9671012897445596,
+        "uniform_minus20dB": 0.9671012983995869
+      },
+      "internal_step_score_change": -0.920161397424626,
+      "model_id": "30c0d49b9e1be3318e25c76a554a7988752267945442790fa98cc6feffa97af1",
+      "trace": [
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07658634863974699,
+          "score": 0.25074834591794154,
+          "timestamp_seconds": 3.0,
+          "window_start_seconds": 0.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06572182652689247,
+          "score": 0.9596440843706934,
+          "timestamp_seconds": 3.5,
+          "window_start_seconds": 0.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06228599258731943,
+          "score": 0.9738429715533446,
+          "timestamp_seconds": 4.0,
+          "window_start_seconds": 1.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06267748799958439,
+          "score": 0.9782992915513172,
+          "timestamp_seconds": 4.5,
+          "window_start_seconds": 1.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06429209721463368,
+          "score": 0.9685019727704516,
+          "timestamp_seconds": 5.0,
+          "window_start_seconds": 2.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06503913041772436,
+          "score": 0.9798008130668426,
+          "timestamp_seconds": 5.5,
+          "window_start_seconds": 2.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06953466047842241,
+          "score": 0.9787849359368479,
+          "timestamp_seconds": 6.0,
+          "window_start_seconds": 3.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07030227466039846,
+          "score": 0.9785650020989638,
+          "timestamp_seconds": 6.5,
+          "window_start_seconds": 3.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07039690678812767,
+          "score": 0.9671012897445596,
+          "timestamp_seconds": 7.0,
+          "window_start_seconds": 4.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06972487921361943,
+          "score": 0.9673146035347484,
+          "timestamp_seconds": 7.5,
+          "window_start_seconds": 4.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06642255124154735,
+          "score": 0.12482845975217616,
+          "timestamp_seconds": 8.0,
+          "window_start_seconds": 5.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.05885218811009481,
+          "score": 0.0023134414963917054,
+          "timestamp_seconds": 8.5,
+          "window_start_seconds": 5.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.050599147939140394,
+          "score": 0.0008070119795579556,
+          "timestamp_seconds": 9.0,
+          "window_start_seconds": 6.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.044364408804185025,
+          "score": 0.0005195983070242125,
+          "timestamp_seconds": 9.5,
+          "window_start_seconds": 6.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.035670692981369385,
+          "score": 0.0017106267618698576,
+          "timestamp_seconds": 10.0,
+          "window_start_seconds": 7.0
+        },
+        {
+          "alarm": false,
+          "padded": true,
+          "rms": 0.027234408745455314,
+          "score": 1.8995207753264748e-16,
+          "timestamp_seconds": 10.0000625,
+          "window_start_seconds": 7.5
+        }
+      ],
+      "uniform_minus12dB_score_change": 0.0
+    },
+    "svm-linear-fft4096": {
+      "controls": {
+        "internal_minus12dB_step_at1_5s": 0.40231774591194663,
+        "real_after_matched_duration": 0.07225934580381513,
+        "real_after_reference_rms_matched": 0.0722593461622918,
+        "real_before_matched_duration": 0.07567171081974867,
+        "reference_rms_base": 0.5195354929905533,
+        "reference_rms_internal_step": 0.40231774105413015,
+        "reference_rms_uniform_minus12dB": 0.5195354929905533,
+        "unchanged_4_to_7s": 0.5195354742916092,
+        "uniform_minus12dB": 0.5195354742916092,
+        "uniform_minus20dB": 0.5195353361419656
+      },
+      "internal_step_score_change": -0.11721772837966254,
+      "model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+      "trace": [
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07658634863974699,
+          "score": 0.6381254590712117,
+          "timestamp_seconds": 3.0,
+          "window_start_seconds": 0.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06572182652689247,
+          "score": 0.6953626349292185,
+          "timestamp_seconds": 3.5,
+          "window_start_seconds": 0.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06228599258731943,
+          "score": 0.7029342792764028,
+          "timestamp_seconds": 4.0,
+          "window_start_seconds": 1.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06267748799958439,
+          "score": 0.731061564211336,
+          "timestamp_seconds": 4.5,
+          "window_start_seconds": 1.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06429209721463368,
+          "score": 0.7017218231447772,
+          "timestamp_seconds": 5.0,
+          "window_start_seconds": 2.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06503913041772436,
+          "score": 0.6202239691060935,
+          "timestamp_seconds": 5.5,
+          "window_start_seconds": 2.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06953466047842241,
+          "score": 0.5539048097270117,
+          "timestamp_seconds": 6.0,
+          "window_start_seconds": 3.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07030227466039846,
+          "score": 0.5254004644218673,
+          "timestamp_seconds": 6.5,
+          "window_start_seconds": 3.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07039690678812767,
+          "score": 0.5195354742916337,
+          "timestamp_seconds": 7.0,
+          "window_start_seconds": 4.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06972487921361943,
+          "score": 0.5232552015886054,
+          "timestamp_seconds": 7.5,
+          "window_start_seconds": 4.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06642255124154735,
+          "score": 0.5021390735156733,
+          "timestamp_seconds": 8.0,
+          "window_start_seconds": 5.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.05885218811009481,
+          "score": 0.25950946317171925,
+          "timestamp_seconds": 8.5,
+          "window_start_seconds": 5.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.050599147939140394,
+          "score": 0.16279907591366363,
+          "timestamp_seconds": 9.0,
+          "window_start_seconds": 6.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.044364408804185025,
+          "score": 0.14718565327281855,
+          "timestamp_seconds": 9.5,
+          "window_start_seconds": 6.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.035670692981369385,
+          "score": 0.2766421233213791,
+          "timestamp_seconds": 10.0,
+          "window_start_seconds": 7.0
+        },
+        {
+          "alarm": false,
+          "padded": true,
+          "rms": 0.027234408745455314,
+          "score": 0.06413723353458683,
+          "timestamp_seconds": 10.0000625,
+          "window_start_seconds": 7.5
+        }
+      ],
+      "uniform_minus12dB_score_change": 0.0
+    },
+    "yamnet-default": {
+      "controls": {
+        "internal_minus12dB_step_at1_5s": 0.016111093106719758,
+        "real_after_matched_duration": 0.7305199804161933,
+        "real_after_reference_rms_matched": 0.9070281872819237,
+        "real_before_matched_duration": 0.0979903560228899,
+        "reference_rms_base": 0.17309622139118705,
+        "reference_rms_internal_step": 0.013619428917406385,
+        "reference_rms_uniform_minus12dB": 0.17309622139118705,
+        "unchanged_4_to_7s": 0.43435717333422946,
+        "uniform_minus12dB": 0.010058786979734639,
+        "uniform_minus20dB": 7.0870670721011665e-06
+      },
+      "internal_step_score_change": -0.4182460802275097,
+      "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+      "trace": [
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.07658634863974699,
+          "score": 0.00035074527872272303,
+          "timestamp_seconds": 3.0,
+          "window_start_seconds": 0.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06572182652689247,
+          "score": 0.0006158132714817129,
+          "timestamp_seconds": 3.5,
+          "window_start_seconds": 0.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06228599258731943,
+          "score": 0.0076758388983360435,
+          "timestamp_seconds": 4.0,
+          "window_start_seconds": 1.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06267748799958439,
+          "score": 0.007726668154067523,
+          "timestamp_seconds": 4.5,
+          "window_start_seconds": 1.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06429209721463368,
+          "score": 0.40242077002496585,
+          "timestamp_seconds": 5.0,
+          "window_start_seconds": 2.0
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06503913041772436,
+          "score": 0.47554546582005675,
+          "timestamp_seconds": 5.5,
+          "window_start_seconds": 2.5
+        },
+        {
+          "alarm": false,
+          "padded": false,
+          "rms": 0.06953466047842241,
+          "score": 0.5435127407266303,
+          "timestamp_seconds": 6.0,
+          "window_start_seconds": 3.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07030227466039846,
+          "score": 0.8762243379068546,
+          "timestamp_seconds": 6.5,
+          "window_start_seconds": 3.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.07039690678812767,
+          "score": 0.43435717333422946,
+          "timestamp_seconds": 7.0,
+          "window_start_seconds": 4.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06972487921361943,
+          "score": 0.516255218465159,
+          "timestamp_seconds": 7.5,
+          "window_start_seconds": 4.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.06642255124154735,
+          "score": 0.9950523510269319,
+          "timestamp_seconds": 8.0,
+          "window_start_seconds": 5.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.05885218811009481,
+          "score": 0.988350341443432,
+          "timestamp_seconds": 8.5,
+          "window_start_seconds": 5.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.050599147939140394,
+          "score": 0.988921268498909,
+          "timestamp_seconds": 9.0,
+          "window_start_seconds": 6.0
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.044364408804185025,
+          "score": 0.9985933479939662,
+          "timestamp_seconds": 9.5,
+          "window_start_seconds": 6.5
+        },
+        {
+          "alarm": true,
+          "padded": false,
+          "rms": 0.035670692981369385,
+          "score": 0.9990182533711464,
+          "timestamp_seconds": 10.0,
+          "window_start_seconds": 7.0
+        },
+        {
+          "alarm": true,
+          "padded": true,
+          "rms": 0.027234408745455314,
+          "score": 0.9939431216711545,
+          "timestamp_seconds": 10.0000625,
+          "window_start_seconds": 7.5
+        }
+      ],
+      "uniform_minus12dB_score_change": -0.42429838635449485
+    }
+  },
+  "original_info": {
+    "canonical_sample_rate": 16000,
+    "channels": 2,
+    "clipped_fraction": 0.0,
+    "duration_seconds": 10.000022675736961,
+    "original_sample_rate": 44100,
+    "peak": 0.442718505859375,
+    "rms": 0.06342851410876767,
+    "silence_fraction": 0.0029499815626152334
+  },
+  "original_sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+  "recording": "svanstrom-DRONE_001",
+  "scope": "Controlled diagnostic changes to one existing real training recording, not training data or acoustic accuracy evidence",
+  "screenshot_identification": "Compare original trace scores with user screenshot before attributing it to this case."
+}

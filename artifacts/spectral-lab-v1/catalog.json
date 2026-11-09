@@ -1,0 +1,56 @@
+{
+  "data_summary": "405 real training files (55 positive, 350 negative), 210 development files (22 positive, 188 negative). 4,648 sampled contexts available; the selected checkpoint can have seen fewer. Four positive development provenance groups; counts are not independent trials.",
+  "defaults": [
+    "linear256-fft4096",
+    "svm-linear-fft4096",
+    "yamnet-default"
+  ],
+  "models": [
+    {
+      "bundle": "models/linear256-fft4096",
+      "name": "linear256-fft4096"
+    },
+    {
+      "bundle": "models/frequency-context-fft4096",
+      "name": "frequency-context-fft4096"
+    },
+    {
+      "bundle": "models/linear-fft1024",
+      "name": "linear-fft1024"
+    },
+    {
+      "bundle": "models/linear-fft4096",
+      "name": "linear-fft4096"
+    },
+    {
+      "bundle": "models/linear-power-fft4096",
+      "name": "linear-power-fft4096"
+    },
+    {
+      "bundle": "models/mel256-fft4096",
+      "name": "mel256-fft4096"
+    },
+    {
+      "bundle": "models/mel64-fft1024",
+      "name": "mel64-fft1024"
+    },
+    {
+      "bundle": "models/mel64-fft4096",
+      "name": "mel64-fft4096"
+    },
+    {
+      "bundle": "models/svm-linear-fft4096",
+      "name": "svm-linear-fft4096"
+    },
+    {
+      "bundle": "../real-v2/candidate",
+      "name": "yamnet-default"
+    },
+    {
+      "bundle": "../real-v2/baseline",
+      "name": "relative-logistic"
+    }
+  ],
+  "preferred_for_inspection": "linear256-fft4096",
+  "scope": "Development model lab. New spectrogram CNNs/SVM have no fresh independent assessment. The previously assessed YAMNet default is preserved."
+}

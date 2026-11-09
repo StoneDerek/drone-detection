@@ -1,0 +1,11 @@
+# CNN foundations browser release
+
+The validated release is live at https://drone-audio-lab.pages.dev . Deployment `9fdad524-8681-4f5f-8a83-a811a3e76594` serves 17 frozen models, including 14 spectrogram CNNs. The [experiment report](../cnn-foundations-v1/RESULTS.md) separates scientific findings from these software checks.
+
+The [numerical check](parity.json) passed 272 model/context score comparisons on three existing real train/development recordings, with maximum score difference 1.92e-06, and 36 Grad-CAM target/layer comparisons with maximum map difference 1.25e-05. Model identities, alarm decisions and timestamps matched. This is software parity, not 272 independent acoustic trials.
+
+Both [local](local-browser.json) and [public](public-browser.json) full workflows passed playback/seek, the preserved CNN/SVM/YAMNet comparison, score/attribution agreement, genuine zero maps, downloads, example selection, input hashing, notes and invalid audio handling. Both [local](interactions.json) and [public](public-interactions.json) interaction checks passed seven retained recordings, all 14 CNN options, six new model explanations at the same preserved interval, matching input matrices, opacity/native-cell controls, linked zoom/pan/reset, batch export and a repaired-CNN score/Grad-CAM comparison. There were no page errors or audio uploads.
+
+All proofs bind to JavaScript SHA-256 `3fd3b0f47c537578f1bf803e9a771cfab8a10efb775765de82114308f4049839`. The public new-model identities match the frozen exported catalog. Asset checksums and deployment metadata are retained beside these reports. The diagnosis page includes the objective witness, complete source-specific development results, learning curves, five specific-context attribution comparisons and old/new responses to the quieter transition.
+
+Ruff, the lockfile check and all 78 Python tests passed. The 0.4.0 wheel matches all 19 current runtime modules; all 92 packaged files and all six exact training execution source archives passed identity checks. Earlier model packages retain their original checksums. No new independent field assessment, live microphone validation or default-model promotion is claimed; the assessed YAMNet product default remains separately preserved.

@@ -1,0 +1,318 @@
+{
+  "cases": [
+    {
+      "annotation_status": "weak",
+      "cnn_gradcam_drone_conv1_positive": false,
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "figure": "svanstrom-DRONE_001.png",
+      "first_context_scores": {
+        "cnn": 0.43398517370224,
+        "svm": 0.638125459071211,
+        "yamnet": 0.00035074527872272303
+      },
+      "id": "svanstrom-DRONE_001",
+      "license": "CC0-1.0",
+      "original_info": {
+        "canonical_sample_rate": 16000,
+        "channels": 2,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 10.000022675736961,
+        "original_sample_rate": 44100,
+        "peak": 0.442718505859375,
+        "rms": 0.06342851410876767,
+        "silence_fraction": 0.0029499815626152334
+      },
+      "peak_rule": "Mean power, 50\u20133000Hz, local prominence6dB and minimum4 FFT bins; descriptive only, not rotor identification",
+      "provenance": {
+        "sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+        "url": "https://raw.githubusercontent.com/DroneDetectionThesis/Drone-detection-dataset/442d0c6750708cc221636f7a1fd31cbd8cb0aeb8/Data/Audio/DRONE_001.wav"
+      },
+      "public_example": "examples/svanstrom-DRONE_001.wav",
+      "publisher_label": "drone",
+      "source": "svanstrom",
+      "source_file_sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+      "split": "train",
+      "strongest_mean_spectral_peaks_hz": [
+        347.65625,
+        171.875,
+        519.53125,
+        867.1875,
+        1039.0625,
+        691.40625,
+        1210.9375
+      ]
+    },
+    {
+      "annotation_status": "weak",
+      "cnn_gradcam_drone_conv1_positive": false,
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "figure": "svanstrom-HELICOPTER_001.png",
+      "first_context_scores": {
+        "cnn": 0.42994627356529236,
+        "svm": 0.18359422591522437,
+        "yamnet": 5.991271851080766e-06
+      },
+      "id": "svanstrom-HELICOPTER_001",
+      "license": "CC0-1.0",
+      "original_info": {
+        "canonical_sample_rate": 16000,
+        "channels": 2,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 10.000022675736961,
+        "original_sample_rate": 44100,
+        "peak": 0.74517822265625,
+        "rms": 0.06312680252897701,
+        "silence_fraction": 0.003143730351685302
+      },
+      "peak_rule": "Mean power, 50\u20133000Hz, local prominence6dB and minimum4 FFT bins; descriptive only, not rotor identification",
+      "provenance": {
+        "sha256": "ff04901b686c1b5aee3db7a7fcef94df677fd2e8cd49e6a840dc09e025260e90",
+        "url": "https://raw.githubusercontent.com/DroneDetectionThesis/Drone-detection-dataset/442d0c6750708cc221636f7a1fd31cbd8cb0aeb8/Data/Audio/HELICOPTER_001.wav"
+      },
+      "public_example": "examples/svanstrom-HELICOPTER_001.wav",
+      "publisher_label": "non_drone",
+      "source": "svanstrom",
+      "source_file_sha256": "ff04901b686c1b5aee3db7a7fcef94df677fd2e8cd49e6a840dc09e025260e90",
+      "split": "train",
+      "strongest_mean_spectral_peaks_hz": [
+        148.4375,
+        222.65625,
+        539.0625,
+        101.5625,
+        125.0,
+        74.21875
+      ]
+    },
+    {
+      "annotation_status": "weak",
+      "cnn_gradcam_drone_conv1_positive": false,
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "figure": "svanstrom-BACKGROUND_001.png",
+      "first_context_scores": {
+        "cnn": 0.43527209758758545,
+        "svm": 0.04964568838903017,
+        "yamnet": 0.00029873404178666483
+      },
+      "id": "svanstrom-BACKGROUND_001",
+      "license": "CC0-1.0",
+      "original_info": {
+        "canonical_sample_rate": 16000,
+        "channels": 2,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 10.000045351473922,
+        "original_sample_rate": 44100,
+        "peak": 0.758880615234375,
+        "rms": 0.014897140086393961,
+        "silence_fraction": 0.001937487890700683
+      },
+      "peak_rule": "Mean power, 50\u20133000Hz, local prominence6dB and minimum4 FFT bins; descriptive only, not rotor identification",
+      "provenance": {
+        "sha256": "e8790309a7888c58c1d1f0f3bfa7850f193af5f23fceb8fdc830aad610ffeb28",
+        "url": "https://raw.githubusercontent.com/DroneDetectionThesis/Drone-detection-dataset/442d0c6750708cc221636f7a1fd31cbd8cb0aeb8/Data/Audio/BACKGROUND_001.wav"
+      },
+      "public_example": "examples/svanstrom-BACKGROUND_001.wav",
+      "publisher_label": "non_drone",
+      "source": "svanstrom",
+      "source_file_sha256": "e8790309a7888c58c1d1f0f3bfa7850f193af5f23fceb8fdc830aad610ffeb28",
+      "split": "train",
+      "strongest_mean_spectral_peaks_hz": [
+        929.6875,
+        980.46875,
+        882.8125,
+        464.84375,
+        97.65625,
+        203.125,
+        1550.78125,
+        1503.90625,
+        1863.28125,
+        312.5,
+        1601.5625,
+        50.78125
+      ]
+    },
+    {
+      "annotation_status": "weak",
+      "cnn_gradcam_drone_conv1_positive": false,
+      "excerpt_duration_seconds": 9.0775625,
+      "excerpt_start_seconds": 0.0,
+      "figure": "batear-20260415_192501.png",
+      "first_context_scores": {
+        "cnn": 0.43214550614356995,
+        "svm": 0.3582941221789163,
+        "yamnet": 0.9898558264199055
+      },
+      "id": "batear-20260415_192501",
+      "license": "MIT",
+      "original_info": {
+        "canonical_sample_rate": 16000,
+        "channels": 2,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 9.0775625,
+        "original_sample_rate": 16000,
+        "peak": 0.056640625,
+        "rms": 0.006181297664847379,
+        "silence_fraction": 0.0013425960988976942
+      },
+      "peak_rule": "Mean power, 50\u20133000Hz, local prominence6dB and minimum4 FFT bins; descriptive only, not rotor identification",
+      "provenance": {
+        "sha256": "18ef2eb6318f075bd1c978b2c0c16dcb01fd8a6575925703e0fca27f0206395c",
+        "url": "https://raw.githubusercontent.com/batear-io/batear-datasets/d0d6e67d9e7d167be9e0db249ef6a44acb52f732/field-tests/FPV/5inch_resampled/20260415_192501.wav"
+      },
+      "public_example": "examples/batear-20260415_192501.wav",
+      "publisher_label": "drone",
+      "source": "batear-field",
+      "source_file_sha256": "18ef2eb6318f075bd1c978b2c0c16dcb01fd8a6575925703e0fca27f0206395c",
+      "split": "development",
+      "strongest_mean_spectral_peaks_hz": [
+        742.1875,
+        703.125,
+        644.53125,
+        54.6875,
+        777.34375,
+        933.59375,
+        1480.46875,
+        910.15625,
+        1570.3125,
+        2152.34375,
+        390.625,
+        1187.5
+      ]
+    },
+    {
+      "annotation_status": "weak",
+      "cnn_gradcam_drone_conv1_positive": false,
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "figure": "batear-20230701_054200.png",
+      "first_context_scores": {
+        "cnn": 0.41635677218437195,
+        "svm": 0.41639376741900774,
+        "yamnet": 0.0007008684484315089
+      },
+      "id": "batear-20230701_054200",
+      "license": "MIT",
+      "original_info": {
+        "canonical_sample_rate": 16000,
+        "channels": 1,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 60.0,
+        "original_sample_rate": 48000,
+        "peak": 0.04541015625,
+        "rms": 0.0035777238039446254,
+        "silence_fraction": 0.0025364583333333333
+      },
+      "peak_rule": "Mean power, 50\u20133000Hz, local prominence6dB and minimum4 FFT bins; descriptive only, not rotor identification",
+      "provenance": {
+        "sha256": "93f8f41bf2eb4d64e2e91d79fd930c0ce24594a9315f9700528d0be30c2a5a5c",
+        "url": "https://raw.githubusercontent.com/batear-io/batear-datasets/d0d6e67d9e7d167be9e0db249ef6a44acb52f732/field-tests/ambient/rural/20230701_054200.WAV"
+      },
+      "public_example": "examples/batear-20230701_054200.wav",
+      "publisher_label": "non_drone",
+      "source": "batear-field",
+      "source_file_sha256": "93f8f41bf2eb4d64e2e91d79fd930c0ce24594a9315f9700528d0be30c2a5a5c",
+      "split": "development",
+      "strongest_mean_spectral_peaks_hz": [
+        117.1875,
+        1566.40625,
+        855.46875,
+        1160.15625,
+        1941.40625
+      ]
+    },
+    {
+      "annotation_status": "weak",
+      "cnn_gradcam_drone_conv1_positive": false,
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 98.0,
+      "figure": "d3-1679740f637ee146.png",
+      "first_context_scores": {
+        "cnn": 0.4244147837162018,
+        "svm": 0.4358056516168831,
+        "yamnet": 0.9891758048114438
+      },
+      "id": "d3-1679740f637ee146",
+      "license": "GPL-3.0 repository; imported noise retains Pixabay terms; raw audio not redistributed",
+      "original_info": {
+        "canonical_sample_rate": 16000,
+        "channels": 1,
+        "clipped_fraction": 6.674757281553398e-06,
+        "duration_seconds": 206.0,
+        "original_sample_rate": 16000,
+        "peak": 1.0,
+        "rms": 0.006301037000967625,
+        "silence_fraction": 0.023826759708737863
+      },
+      "peak_rule": "Mean power, 50\u20133000Hz, local prominence6dB and minimum4 FFT bins; descriptive only, not rotor identification",
+      "provenance": {
+        "archive_sha256": "955f0010ec37f0c4b580e75a95b6e5782a676763277211a0d328ac6d32f9c860",
+        "original_channels": 12,
+        "original_path": "Flights/Validation/26 oct vol 4/matrix.wav",
+        "selected_channel": 0,
+        "sha256": "728abd06f190abddabc6cb0968bd8c3e95b34bcf39253db9faa626a80f9d28d0",
+        "url": "https://raw.githubusercontent.com/introlab/d3set/b7f80cfbb1393ed490a8677cb1550ed95b076718/Flights/Validation/26%20oct%20vol%204/matrix.wav"
+      },
+      "publisher_label": "drone",
+      "source": "d3set-ground",
+      "source_file_sha256": "d8fc8aaec2815297cd268ad5eac9330e601fb98efac1c50d40cc7458fe135ae7",
+      "split": "train",
+      "strongest_mean_spectral_peaks_hz": [
+        246.09375,
+        125.0,
+        1175.78125,
+        472.65625,
+        687.5,
+        781.25,
+        2636.71875,
+        1792.96875
+      ]
+    },
+    {
+      "annotation_status": "weak",
+      "cnn_gradcam_drone_conv1_positive": false,
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "figure": "d3-138c873838376b30.png",
+      "first_context_scores": {
+        "cnn": 0.4185616374015808,
+        "svm": 0.33811370647462985,
+        "yamnet": 0.00038699668050961195
+      },
+      "id": "d3-138c873838376b30",
+      "license": "GPL-3.0 repository; imported noise retains Pixabay terms; raw audio not redistributed",
+      "original_info": {
+        "canonical_sample_rate": 16000,
+        "channels": 1,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 96.528,
+        "original_sample_rate": 16000,
+        "peak": 0.79693603515625,
+        "rms": 0.14374192981217593,
+        "silence_fraction": 0.0003412222360351401
+      },
+      "peak_rule": "Mean power, 50\u20133000Hz, local prominence6dB and minimum4 FFT bins; descriptive only, not rotor identification",
+      "provenance": {
+        "archive_sha256": "955f0010ec37f0c4b580e75a95b6e5782a676763277211a0d328ac6d32f9c860",
+        "original_channels": 2,
+        "original_path": "Noise/ManuallySelectedNoise/Insect/birds-frogs-nature-mosquito-8258.wav",
+        "selected_channel": 0,
+        "sha256": "2e76d1f5d5e851e8843ed217d7a76bb5611c1a376499e0727345a8dae479f2b8",
+        "url": "https://raw.githubusercontent.com/introlab/d3set/b7f80cfbb1393ed490a8677cb1550ed95b076718/Noise/ManuallySelectedNoise/Insect/birds-frogs-nature-mosquito-8258.wav"
+      },
+      "publisher_label": "non_drone",
+      "source": "d3set-noise",
+      "source_file_sha256": "434f87d08578ca6d961a9efe1ca49dd759a7ff3423ad01c371c44446e273bb22",
+      "split": "train",
+      "strongest_mean_spectral_peaks_hz": [
+        2050.78125,
+        62.5,
+        585.9375,
+        421.875
+      ]
+    }
+  ],
+  "scope": "Seven deliberately small qualitative case studies, NOT independent detector trials. Visual inspection does not establish audible drone timing.",
+  "selection": "First numbered Svanstrom drone/helicopter/background; previously used Batear192501; first Batear background; first D3 ground training file middle10s; first D3 Insect training file first10s. Selection precedes spectral inspection and does not use prediction quality."
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "version": "0.2.0",
+  "module_path": "/tmp/drone-quality-clean-QYishC/lib/python3.12/site-packages/drone_detector/__init__.py",
+  "isolated_python": true,
+  "editable_install": false,
+  "source_checkout_required_for_inference": false,
+  "evaluation_corpus_required": false,
+  "input": "Copied existing development recording",
+  "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "windows": 14,
+  "max_score_error": 0,
+  "compared_fields": [
+    "score",
+    "alarm",
+    "reason",
+    "padded",
+    "window_start_seconds",
+    "timestamp_seconds",
+    "model_id"
+  ],
+  "trace_has_quality_measures": true,
+  "timing": {
+    "original_sample_rate": 16000,
+    "channels": 2,
+    "duration_seconds": 9.0775625,
+    "peak": 0.056640625,
+    "clipped_fraction": 0.0,
+    "rms": 0.006181297664847379,
+    "silence_fraction": 0.0013425960988976942,
+    "canonical_sample_rate": 16000,
+    "end_to_end_seconds": 23.978288369999973,
+    "real_time_factor": 2.6414897578507412,
+    "mode": "recorded_stream_replay; file decoding/resampling precedes replay",
+    "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f"
+  },
+  "scope": "Software installation/regression verification only; not another acoustic benchmark"
+}

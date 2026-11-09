@@ -1,0 +1,12 @@
+{
+  "copied_model_only": true,
+  "isolated_installed_wheel": true,
+  "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "no_corpus_or_examples": true,
+  "passed": true,
+  "scope": "Existing real development input verifies installation/API only; no new reliability evidence",
+  "scores_alarms_equal_to_01": true,
+  "trace_has_quality_measures": true,
+  "version": "0.2.0",
+  "windows": 14
+}

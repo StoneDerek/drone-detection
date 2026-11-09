@@ -1,0 +1,7 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "936d257d6f3fbfaaed2844260b7c96f61ec1cd70e50b9d8d382746bcf3cd403b"
+  },
+  "note": "Equivalent sparse mel projection replaces dense zero multiplications; original completed arms retained. Hypotheses, data, tensors, training objective and selection rules unchanged."
+}

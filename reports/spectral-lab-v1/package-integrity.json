@@ -1,0 +1,18 @@
+{
+  "artifacts/context-gain-v1": {
+    "all_passed": true,
+    "files": 10
+  },
+  "artifacts/product-v0.2": {
+    "all_passed": true,
+    "files": 5
+  },
+  "artifacts/real-v2": {
+    "all_passed": true,
+    "files": 14
+  },
+  "artifacts/spectral-lab-v1": {
+    "all_passed": true,
+    "files": 54
+  }
+}

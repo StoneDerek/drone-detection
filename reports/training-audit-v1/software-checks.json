@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "preserved_checkpoint_source_hash": "02179c6c105b944024b3efc20174f81ddee4769a404bf6eb23876ed19c87d339",
+  "python_tests_passed": 80,
+  "scope": "Software checks and source identities; not acoustic performance trials",
+  "source_archive_matches_plan": true,
+  "test_log_sha256": "b1ee2d71b57a2c8666db571a5795b0fe0b6b36354f67016784dd5b92e2761874"
+}

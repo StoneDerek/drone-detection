@@ -1,0 +1,10 @@
+{
+  "baseline": "absolute",
+  "final_touched": false,
+  "models": {
+    "absolute": "fe7502bf87afbf78d5f74e7d88952f2f2bef0ade68f0433337d10d7e0a463edf",
+    "gain-aug-42": "aa9a710c030a5a628f320d9741d1f920581d84b9816002dbfb1cfac0c6b8a330"
+  },
+  "rule": "Compare seed-42 arms only; prefer point FA/h <= contract limit, highest development event recall, lowest FA/h, fewest gain threshold flips, lowest gain score change, lowest delay, then arm name. Other augmentation seeds are sensitivity checks, not cherry-picked candidates.",
+  "selected": "gain-aug-42"
+}

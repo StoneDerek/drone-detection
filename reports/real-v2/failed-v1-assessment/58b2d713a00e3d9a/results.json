@@ -1,0 +1,2556 @@
+{
+  "decision": {
+    "off_hits": 2,
+    "off_threshold": 0.74625,
+    "on_hits": 1,
+    "on_threshold": 0.995
+  },
+  "field_reliability_claim": false,
+  "model_id": "58b2d713a00e3d9a34e145001736c0f09554eff3b58aca57fbc5771d1b16d357",
+  "records": [
+    {
+      "alarms": [],
+      "duration_seconds": 60.0,
+      "group_id": "f0c7e1226c2d105878d8",
+      "id": "batear-20230701_054200",
+      "label": "non_drone",
+      "max_score": 0.0009074690848536201,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 60.0,
+      "group_id": "f0c7e1226c2d105878d8",
+      "id": "batear-20230701_234400",
+      "label": "non_drone",
+      "max_score": 0.00036155522539004615,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 60.0,
+      "group_id": "f19d9fa0537854c4b274",
+      "id": "batear-20230702_035200",
+      "label": "non_drone",
+      "max_score": 0.0003726419809062337,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 60.0,
+      "group_id": "f19d9fa0537854c4b274",
+      "id": "batear-20230702_095600",
+      "label": "non_drone",
+      "max_score": 0.000490179051238435,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 60.0,
+      "group_id": "f19d9fa0537854c4b274",
+      "id": "batear-20230702_104400",
+      "label": "non_drone",
+      "max_score": 0.00030405133978352207,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 60.0,
+      "group_id": "4f7ea44087981815b3a6",
+      "id": "batear-20230703_191400",
+      "label": "non_drone",
+      "max_score": 0.00026796667701174247,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 9.0775625,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192501",
+      "label": "drone",
+      "max_score": 0.01112404203963677,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 11.3299375,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192502",
+      "label": "drone",
+      "max_score": 0.00018743327843763748,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 6.4305,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192503",
+      "label": "drone",
+      "max_score": 0.002639044826287894,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 3.3190625,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192504",
+      "label": "drone",
+      "max_score": 3.310654580157543e-06,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.176625,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192505",
+      "label": "drone",
+      "max_score": 0.10210689156877825,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.8035625,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192506",
+      "label": "drone",
+      "max_score": 0.0019591427103208777,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 4.1085,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192507",
+      "label": "drone",
+      "max_score": 2.6793258285929438e-09,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 25.77275,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192509",
+      "label": "drone",
+      "max_score": 7.129218694412709e-06,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 8.2416875,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192510",
+      "label": "drone",
+      "max_score": 5.0992054256439914e-06,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 7.684375,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_192511",
+      "label": "drone",
+      "max_score": 7.195058440790706e-06,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 6.2911875,
+      "group_id": "63fcb5d8323b010f581e",
+      "id": "batear-20260415_195200",
+      "label": "drone",
+      "max_score": 2.3841087572021924e-05,
+      "predicted": 0,
+      "source": "batear-field",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 485.0,
+      "group_id": "4680a1a9cbfbb1c12cf4",
+      "id": "d3-0c6b4e6aaff3b37a",
+      "label": "drone",
+      "max_score": 0.9436152317532477,
+      "predicted": 0,
+      "source": "d3set-ground",
+      "truth": 1
+    },
+    {
+      "alarms": [
+        [
+          51.5,
+          55.0
+        ],
+        [
+          78.5,
+          83.0
+        ],
+        [
+          516.0,
+          521.5
+        ]
+      ],
+      "duration_seconds": 613.0,
+      "group_id": "fce9f9c5176cae898a40",
+      "id": "d3-0c721b4707f8381f",
+      "label": "drone",
+      "max_score": 0.9999138098495607,
+      "predicted": 1,
+      "source": "d3set-ground",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 650.0,
+      "group_id": "4680a1a9cbfbb1c12cf4",
+      "id": "d3-27b257af76b15731",
+      "label": "drone",
+      "max_score": 0.960558020123302,
+      "predicted": 0,
+      "source": "d3set-ground",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "d3-31a5dd29602876a7",
+      "label": "non_drone",
+      "max_score": 0.0002375426410940185,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "d3-36cce5ea05eb2e80",
+      "label": "non_drone",
+      "max_score": 1.3602408448649765e-05,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "671ee17eb93f08edcc2d",
+      "id": "d3-3eb150cc9646c83c",
+      "label": "non_drone",
+      "max_score": 0.00019276984290072304,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "d3-50c13f736d595d12",
+      "label": "non_drone",
+      "max_score": 9.203530975853766e-05,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "d3-56eba38bc89c0a4d",
+      "label": "non_drone",
+      "max_score": 0.00031285449284356646,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 26.697125,
+      "group_id": "c3778c51a3a54f88eb09",
+      "id": "d3-58f6918d30d69368",
+      "label": "non_drone",
+      "max_score": 1.182405754464792e-06,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 309.0,
+      "group_id": "4680a1a9cbfbb1c12cf4",
+      "id": "d3-5a9632372b172ce9",
+      "label": "drone",
+      "max_score": 0.763927730858652,
+      "predicted": 0,
+      "source": "d3set-ground",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "279287efd815dc261cf7",
+      "id": "d3-63e5fe2eb1a3f26b",
+      "label": "non_drone",
+      "max_score": 0.0005886703978185265,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 231.064,
+      "group_id": "4680a1a9cbfbb1c12cf4",
+      "id": "d3-68738cd299ec9a2e",
+      "label": "drone",
+      "max_score": 0.9623776976743185,
+      "predicted": 0,
+      "source": "d3set-ground",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "d3-78c7aa1bd77f8fbe",
+      "label": "non_drone",
+      "max_score": 5.5604970079664965e-05,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 36.075125,
+      "group_id": "e8e52dacfe2f5487bdad",
+      "id": "d3-ae34f86613f86cac",
+      "label": "non_drone",
+      "max_score": 0.0002572460469983956,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "d3-b0151678253f8137",
+      "label": "non_drone",
+      "max_score": 3.624377020986882e-05,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 21.624,
+      "group_id": "8ae2fb0806a3f0965d11",
+      "id": "d3-bc29b8bb24b6889f",
+      "label": "non_drone",
+      "max_score": 0.003293801849623016,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "d3-c10aaceb0c1a8b02",
+      "label": "non_drone",
+      "max_score": 0.00015996012646831987,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 41.04,
+      "group_id": "33767688e633089a194e",
+      "id": "d3-c290938c31cb09c1",
+      "label": "non_drone",
+      "max_score": 1.9832875663666756e-05,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [
+        [
+          68.5,
+          72.5
+        ],
+        [
+          89.5,
+          96.5
+        ],
+        [
+          139.5,
+          155.0
+        ],
+        [
+          228.0,
+          232.5
+        ],
+        [
+          351.0,
+          361.0
+        ],
+        [
+          393.5,
+          401.5
+        ]
+      ],
+      "duration_seconds": 418.0,
+      "group_id": "fce9f9c5176cae898a40",
+      "id": "d3-cae46a95e7dad505",
+      "label": "drone",
+      "max_score": 0.999526456611312,
+      "predicted": 1,
+      "source": "d3set-ground",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 126.168,
+      "group_id": "b3dac2d4c08cd745c73e",
+      "id": "d3-ece16903b721c4c6",
+      "label": "non_drone",
+      "max_score": 0.00017883465613046057,
+      "predicted": 0,
+      "source": "d3set-noise",
+      "truth": 0
+    },
+    {
+      "alarms": [
+        [
+          58.5,
+          64.5
+        ],
+        [
+          84.0,
+          88.0
+        ],
+        [
+          230.0,
+          235.0
+        ],
+        [
+          546.5,
+          560.0
+        ]
+      ],
+      "duration_seconds": 576.0,
+      "group_id": "fce9f9c5176cae898a40",
+      "id": "d3-f8bd8b9487b4ea34",
+      "label": "drone",
+      "max_score": 0.9999997364629887,
+      "predicted": 1,
+      "source": "d3set-ground",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8802004cc7d672f23e60",
+      "id": "esc10-5-151085-A-20",
+      "label": "non_drone",
+      "max_score": 6.2317247350010755e-09,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "30d8609576cf4a21341f",
+      "id": "esc10-5-170338-A-41",
+      "label": "non_drone",
+      "max_score": 0.0027163793925946297,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "30d8609576cf4a21341f",
+      "id": "esc10-5-170338-B-41",
+      "label": "non_drone",
+      "max_score": 0.001478318044956755,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "f6c53279aeb76f9f853b",
+      "id": "esc10-5-171653-A-41",
+      "label": "non_drone",
+      "max_score": 1.4372424491204073e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "9c6fd6ef5309f5b0fee8",
+      "id": "esc10-5-177957-A-40",
+      "label": "non_drone",
+      "max_score": 2.6282048198817242e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "9c6fd6ef5309f5b0fee8",
+      "id": "esc10-5-177957-B-40",
+      "label": "non_drone",
+      "max_score": 0.002721526426742979,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "9c6fd6ef5309f5b0fee8",
+      "id": "esc10-5-177957-C-40",
+      "label": "non_drone",
+      "max_score": 0.00054755146865464,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "9c6fd6ef5309f5b0fee8",
+      "id": "esc10-5-177957-D-40",
+      "label": "non_drone",
+      "max_score": 0.00016830524937457887,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "9c6fd6ef5309f5b0fee8",
+      "id": "esc10-5-177957-E-40",
+      "label": "non_drone",
+      "max_score": 4.874476366018021e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8c5992c0098bef1881ac",
+      "id": "esc10-5-181766-A-10",
+      "label": "non_drone",
+      "max_score": 9.606395274113407e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "44afd31b8f9f4e282e7b",
+      "id": "esc10-5-185579-A-41",
+      "label": "non_drone",
+      "max_score": 3.0409242200362066e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "44afd31b8f9f4e282e7b",
+      "id": "esc10-5-185579-B-41",
+      "label": "non_drone",
+      "max_score": 3.66630587835537e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "14f0eaa962c8ddc5792c",
+      "id": "esc10-5-186924-A-12",
+      "label": "non_drone",
+      "max_score": 0.0001384138471272011,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "f62f4658f37146da65c3",
+      "id": "esc10-5-187979-A-21",
+      "label": "non_drone",
+      "max_score": 2.260353623758398e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "a646cb196b94154da968",
+      "id": "esc10-5-188655-A-10",
+      "label": "non_drone",
+      "max_score": 0.0011153122314461934,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "e318c47e9eb7f1faf650",
+      "id": "esc10-5-189212-A-12",
+      "label": "non_drone",
+      "max_score": 0.0006631310655634117,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8b178e7a7e237293656c",
+      "id": "esc10-5-189237-A-12",
+      "label": "non_drone",
+      "max_score": 6.486777438788711e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "a54f0a99412f0c0d6434",
+      "id": "esc10-5-191131-A-40",
+      "label": "non_drone",
+      "max_score": 0.0012253644546878259,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "e003deb5a549d29cfdc3",
+      "id": "esc10-5-193339-A-10",
+      "label": "non_drone",
+      "max_score": 0.0007156465043728031,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "539f0b110952d6d4a4c7",
+      "id": "esc10-5-193473-A-12",
+      "label": "non_drone",
+      "max_score": 0.0001484980252007037,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "539f0b110952d6d4a4c7",
+      "id": "esc10-5-193473-B-12",
+      "label": "non_drone",
+      "max_score": 0.0001011776345365066,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "ccc91d19f0dcb9168f42",
+      "id": "esc10-5-194533-A-21",
+      "label": "non_drone",
+      "max_score": 2.2647800670318248e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "39ebb2d6fcd5dcb02de9",
+      "id": "esc10-5-194892-A-10",
+      "label": "non_drone",
+      "max_score": 0.0004488576077629959,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "669525745c37042028fe",
+      "id": "esc10-5-194930-A-1",
+      "label": "non_drone",
+      "max_score": 3.4240503777732635e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "669525745c37042028fe",
+      "id": "esc10-5-194930-B-1",
+      "label": "non_drone",
+      "max_score": 8.980780518814277e-09,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "6719fd46204d1d23793d",
+      "id": "esc10-5-195710-A-10",
+      "label": "non_drone",
+      "max_score": 3.8560710711530314e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "360fce30bef449ebeb10",
+      "id": "esc10-5-198321-A-10",
+      "label": "non_drone",
+      "max_score": 0.00010247777480481363,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0a3a2682a425aae94259",
+      "id": "esc10-5-198411-A-20",
+      "label": "non_drone",
+      "max_score": 2.1984802921075695e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0a3a2682a425aae94259",
+      "id": "esc10-5-198411-B-20",
+      "label": "non_drone",
+      "max_score": 0.13981156226608074,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0a3a2682a425aae94259",
+      "id": "esc10-5-198411-C-20",
+      "label": "non_drone",
+      "max_score": 0.0005259552408564826,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0a3a2682a425aae94259",
+      "id": "esc10-5-198411-D-20",
+      "label": "non_drone",
+      "max_score": 8.968707551328832e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0a3a2682a425aae94259",
+      "id": "esc10-5-198411-E-20",
+      "label": "non_drone",
+      "max_score": 0.0006556049818443202,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0a3a2682a425aae94259",
+      "id": "esc10-5-198411-F-20",
+      "label": "non_drone",
+      "max_score": 8.140562954605857e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0a3a2682a425aae94259",
+      "id": "esc10-5-198411-G-20",
+      "label": "non_drone",
+      "max_score": 0.046892328344096436,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8dbc549d7bc41c3bccdd",
+      "id": "esc10-5-200334-A-1",
+      "label": "non_drone",
+      "max_score": 1.8021967574008754e-09,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8dbc549d7bc41c3bccdd",
+      "id": "esc10-5-200334-B-1",
+      "label": "non_drone",
+      "max_score": 1.3068613084355858e-09,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "745f736bd59d7f9db574",
+      "id": "esc10-5-200339-A-1",
+      "label": "non_drone",
+      "max_score": 2.1620902876181266e-13,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "5e09233b57d9260d44a2",
+      "id": "esc10-5-200461-A-11",
+      "label": "non_drone",
+      "max_score": 3.999390475398538e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "5e09233b57d9260d44a2",
+      "id": "esc10-5-200461-B-11",
+      "label": "non_drone",
+      "max_score": 1.559328510349607e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "66e465bb5cda57fc7771",
+      "id": "esc10-5-201194-A-38",
+      "label": "non_drone",
+      "max_score": 3.8874089617432495e-11,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "155ed82c2f0f4d1ede9b",
+      "id": "esc10-5-201274-A-21",
+      "label": "non_drone",
+      "max_score": 1.4802042257526945e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "aca5892051a305798963",
+      "id": "esc10-5-202220-A-21",
+      "label": "non_drone",
+      "max_score": 1.8024106948319417e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "f19f02f0545595880112",
+      "id": "esc10-5-202898-A-10",
+      "label": "non_drone",
+      "max_score": 2.18847733068903e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "5d3528334f1adacd09fc",
+      "id": "esc10-5-203128-A-0",
+      "label": "non_drone",
+      "max_score": 8.615243456472455e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "5d3528334f1adacd09fc",
+      "id": "esc10-5-203128-B-0",
+      "label": "non_drone",
+      "max_score": 1.078179123070841e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "6f28242f1b1e4b0f3989",
+      "id": "esc10-5-203739-A-10",
+      "label": "non_drone",
+      "max_score": 0.0006137836763242299,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "25f3ae7250032eff4e0d",
+      "id": "esc10-5-205898-A-40",
+      "label": "non_drone",
+      "max_score": 2.283071449983166e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "ac62213d4689c9ebe04f",
+      "id": "esc10-5-208030-A-0",
+      "label": "non_drone",
+      "max_score": 5.804775613735876e-15,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "4b948ff07ec71070ce08",
+      "id": "esc10-5-208624-A-38",
+      "label": "non_drone",
+      "max_score": 1.5917730789297617e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "e00504a4eda9842c0ec8",
+      "id": "esc10-5-208810-A-11",
+      "label": "non_drone",
+      "max_score": 1.4364958517281009e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "e00504a4eda9842c0ec8",
+      "id": "esc10-5-208810-B-11",
+      "label": "non_drone",
+      "max_score": 1.3561470791182717e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "92424be1c1e3c6e40ba5",
+      "id": "esc10-5-209698-A-38",
+      "label": "non_drone",
+      "max_score": 0.00021983652970161393,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "670c683c0c373fe998d9",
+      "id": "esc10-5-209833-A-38",
+      "label": "non_drone",
+      "max_score": 5.667544095062245e-11,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "576dab4d57f974f6d50b",
+      "id": "esc10-5-210571-A-38",
+      "label": "non_drone",
+      "max_score": 6.315508926407057e-09,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "eebdbd27d0137f5545bd",
+      "id": "esc10-5-212181-A-38",
+      "label": "non_drone",
+      "max_score": 2.4289561691528384e-09,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "bfd86a8c7726bf6b0ebf",
+      "id": "esc10-5-212454-A-0",
+      "label": "non_drone",
+      "max_score": 4.217228372436218e-09,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8be8c1e4613a189837e5",
+      "id": "esc10-5-213077-A-11",
+      "label": "non_drone",
+      "max_score": 0.000600902602321939,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "f690e1b2bcb871d85294",
+      "id": "esc10-5-213802-A-12",
+      "label": "non_drone",
+      "max_score": 0.0007674285443969786,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "0523ea1be6680f3a82a5",
+      "id": "esc10-5-213855-A-0",
+      "label": "non_drone",
+      "max_score": 8.755864045729104e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8818f76473267c1b16a3",
+      "id": "esc10-5-215658-A-12",
+      "label": "non_drone",
+      "max_score": 2.7363500700455363e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "8818f76473267c1b16a3",
+      "id": "esc10-5-215658-B-12",
+      "label": "non_drone",
+      "max_score": 6.469578193031305e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "dc34d88df2e164baf212",
+      "id": "esc10-5-216370-A-41",
+      "label": "non_drone",
+      "max_score": 0.0007897299652324397,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "dc34d88df2e164baf212",
+      "id": "esc10-5-216370-B-41",
+      "label": "non_drone",
+      "max_score": 0.0001130078255253762,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "eb39af502d75ffb4989b",
+      "id": "esc10-5-217158-A-0",
+      "label": "non_drone",
+      "max_score": 1.4102951221420374e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "1d9ac4cb05e34d54587c",
+      "id": "esc10-5-219342-A-38",
+      "label": "non_drone",
+      "max_score": 1.5473536287178254e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "d5143fa1351246ddd78d",
+      "id": "esc10-5-219379-A-11",
+      "label": "non_drone",
+      "max_score": 3.8465025681357856e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "d5143fa1351246ddd78d",
+      "id": "esc10-5-219379-B-11",
+      "label": "non_drone",
+      "max_score": 2.1181345184864855e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "d5143fa1351246ddd78d",
+      "id": "esc10-5-219379-C-11",
+      "label": "non_drone",
+      "max_score": 2.032261213931448e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "441f637bb9491f6f38f5",
+      "id": "esc10-5-220026-A-21",
+      "label": "non_drone",
+      "max_score": 2.9362775330955367e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "75726e565dfc4a79b413",
+      "id": "esc10-5-220027-A-21",
+      "label": "non_drone",
+      "max_score": 1.8001147995772274e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "4fe7fc4cc273f0e13eb6",
+      "id": "esc10-5-220955-A-40",
+      "label": "non_drone",
+      "max_score": 2.1642950673013765e-05,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "49901c2cae996c6c0fdf",
+      "id": "esc10-5-221518-A-21",
+      "label": "non_drone",
+      "max_score": 3.0276050902880465e-08,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "adf9ea993d186c2181bf",
+      "id": "esc10-5-221593-A-21",
+      "label": "non_drone",
+      "max_score": 8.532827200824696e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "1a2b5e324fb2f092bbf0",
+      "id": "esc10-5-222524-A-41",
+      "label": "non_drone",
+      "max_score": 3.692655051753018e-06,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "c03f29d149789296367e",
+      "id": "esc10-5-231762-A-0",
+      "label": "non_drone",
+      "max_score": 3.7817876620166297e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "25ab2c18189dd7b62527",
+      "id": "esc10-5-233160-A-1",
+      "label": "non_drone",
+      "max_score": 1.1230051316959056e-11,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "86372d19ac0fdf1d44d3",
+      "id": "esc10-5-234879-A-1",
+      "label": "non_drone",
+      "max_score": 9.92300307901502e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "86372d19ac0fdf1d44d3",
+      "id": "esc10-5-234879-B-1",
+      "label": "non_drone",
+      "max_score": 3.061524998106533e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "fe16f33b5d949800c9c2",
+      "id": "esc10-5-235671-A-38",
+      "label": "non_drone",
+      "max_score": 3.900704450118823e-07,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 5.0,
+      "group_id": "757cb6c52e99662020c3",
+      "id": "esc10-5-9032-A-0",
+      "label": "non_drone",
+      "max_score": 2.32948036133359e-10,
+      "predicted": 0,
+      "source": "esc10",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_001",
+      "label": "non_drone",
+      "max_score": 0.49066549366429196,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_002",
+      "label": "non_drone",
+      "max_score": 0.04578297258009227,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_003",
+      "label": "non_drone",
+      "max_score": 1.902994396108752e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_004",
+      "label": "non_drone",
+      "max_score": 0.0026021060700564557,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_005",
+      "label": "non_drone",
+      "max_score": 0.0002452070656794169,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_006",
+      "label": "non_drone",
+      "max_score": 6.344424247554699e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_007",
+      "label": "non_drone",
+      "max_score": 0.02150211092535503,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_008",
+      "label": "non_drone",
+      "max_score": 0.05183299321275486,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_009",
+      "label": "non_drone",
+      "max_score": 4.915885045651826e-09,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_010",
+      "label": "non_drone",
+      "max_score": 0.026990824503636428,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_011",
+      "label": "non_drone",
+      "max_score": 2.5892402654064322e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_012",
+      "label": "non_drone",
+      "max_score": 1.860969689555317e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_013",
+      "label": "non_drone",
+      "max_score": 8.754653316783888e-07,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_014",
+      "label": "non_drone",
+      "max_score": 0.14756234097185228,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_015",
+      "label": "non_drone",
+      "max_score": 0.0005084080640208867,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_016",
+      "label": "non_drone",
+      "max_score": 0.03459143567916929,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_017",
+      "label": "non_drone",
+      "max_score": 0.0012808130842694265,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_018",
+      "label": "non_drone",
+      "max_score": 0.04954485558886108,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_019",
+      "label": "non_drone",
+      "max_score": 0.026990824503636428,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_020",
+      "label": "non_drone",
+      "max_score": 0.0010347844875893662,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_021",
+      "label": "non_drone",
+      "max_score": 0.7241154899998807,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_022",
+      "label": "non_drone",
+      "max_score": 3.249505311043348e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_023",
+      "label": "non_drone",
+      "max_score": 0.012231499621270034,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_024",
+      "label": "non_drone",
+      "max_score": 3.106744647248181e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_025",
+      "label": "non_drone",
+      "max_score": 0.004121050473722068,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_026",
+      "label": "non_drone",
+      "max_score": 3.343656865656346e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_027",
+      "label": "non_drone",
+      "max_score": 0.048502685093643715,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_028",
+      "label": "non_drone",
+      "max_score": 0.0011462712248498652,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_029",
+      "label": "non_drone",
+      "max_score": 2.0534027369975525e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-BACKGROUND_030",
+      "label": "non_drone",
+      "max_score": 0.0008374293630739067,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_001",
+      "label": "drone",
+      "max_score": 7.9568530694095e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_002",
+      "label": "drone",
+      "max_score": 0.2943668847453773,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_003",
+      "label": "drone",
+      "max_score": 4.411744257788939e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_004",
+      "label": "drone",
+      "max_score": 0.00023181493920913231,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_005",
+      "label": "drone",
+      "max_score": 1.3873615304530631e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_006",
+      "label": "drone",
+      "max_score": 0.00048481148338736917,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_007",
+      "label": "drone",
+      "max_score": 0.010199551705153787,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_008",
+      "label": "drone",
+      "max_score": 0.0002535702121561874,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_009",
+      "label": "drone",
+      "max_score": 0.00010987425166910068,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_010",
+      "label": "drone",
+      "max_score": 0.0008372905246380798,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_011",
+      "label": "drone",
+      "max_score": 0.00011591725789507966,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_012",
+      "label": "drone",
+      "max_score": 0.005378383651541111,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_013",
+      "label": "drone",
+      "max_score": 0.04209338335767313,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_014",
+      "label": "drone",
+      "max_score": 3.10005869874633e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_015",
+      "label": "drone",
+      "max_score": 7.831724141698507e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_016",
+      "label": "drone",
+      "max_score": 5.533624393457293e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_017",
+      "label": "drone",
+      "max_score": 7.274268394507007e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_018",
+      "label": "drone",
+      "max_score": 2.272337238097199e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_019",
+      "label": "drone",
+      "max_score": 1.1869962679742771e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_020",
+      "label": "drone",
+      "max_score": 0.0008469290539521497,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_021",
+      "label": "drone",
+      "max_score": 3.488320478169843e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_022",
+      "label": "drone",
+      "max_score": 1.1031178108239078e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_023",
+      "label": "drone",
+      "max_score": 2.691039269346242e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_024",
+      "label": "drone",
+      "max_score": 3.368057870495568e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_025",
+      "label": "drone",
+      "max_score": 0.016609593454647457,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_026",
+      "label": "drone",
+      "max_score": 0.00546734282493506,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_027",
+      "label": "drone",
+      "max_score": 3.5634290900009647e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_028",
+      "label": "drone",
+      "max_score": 0.0023087194937713817,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_029",
+      "label": "drone",
+      "max_score": 0.0014960075526657963,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-DRONE_030",
+      "label": "drone",
+      "max_score": 0.05218040220365931,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 1
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_001",
+      "label": "non_drone",
+      "max_score": 1.3602408448649765e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_002",
+      "label": "non_drone",
+      "max_score": 0.00010556652622045196,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_003",
+      "label": "non_drone",
+      "max_score": 5.5604970079664965e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_004",
+      "label": "non_drone",
+      "max_score": 5.778055918229597e-07,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_005",
+      "label": "non_drone",
+      "max_score": 0.0004166478668599537,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_006",
+      "label": "non_drone",
+      "max_score": 9.203530975853766e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_007",
+      "label": "non_drone",
+      "max_score": 1.4980432017330583e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_008",
+      "label": "non_drone",
+      "max_score": 0.00013248964931078554,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_009",
+      "label": "non_drone",
+      "max_score": 3.624377020986882e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_010",
+      "label": "non_drone",
+      "max_score": 2.380228618707043e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_011",
+      "label": "non_drone",
+      "max_score": 6.792865348599566e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000022675736961,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_012",
+      "label": "non_drone",
+      "max_score": 0.000406032368892651,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_013",
+      "label": "non_drone",
+      "max_score": 7.518880013275447e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_014",
+      "label": "non_drone",
+      "max_score": 8.994264280859511e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_015",
+      "label": "non_drone",
+      "max_score": 0.00041818215525526775,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_016",
+      "label": "non_drone",
+      "max_score": 0.00015996012646831987,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_017",
+      "label": "non_drone",
+      "max_score": 0.0002375426410940185,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_018",
+      "label": "non_drone",
+      "max_score": 0.0003130997085309407,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_019",
+      "label": "non_drone",
+      "max_score": 0.0006990899517189514,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_020",
+      "label": "non_drone",
+      "max_score": 0.0003544692196429962,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_021",
+      "label": "non_drone",
+      "max_score": 1.8534570451300657e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_022",
+      "label": "non_drone",
+      "max_score": 0.0002207423493248063,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_023",
+      "label": "non_drone",
+      "max_score": 5.0830305117094194e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_024",
+      "label": "non_drone",
+      "max_score": 0.00011681392819213709,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_025",
+      "label": "non_drone",
+      "max_score": 3.748570279705793e-05,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_026",
+      "label": "non_drone",
+      "max_score": 2.2109790378271e-06,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_027",
+      "label": "non_drone",
+      "max_score": 0.00031285449284356646,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_028",
+      "label": "non_drone",
+      "max_score": 0.001275536220092068,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_029",
+      "label": "non_drone",
+      "max_score": 0.01794667988208127,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    },
+    {
+      "alarms": [],
+      "duration_seconds": 10.000045351473922,
+      "group_id": "6d839353de2927565bd2",
+      "id": "svanstrom-HELICOPTER_030",
+      "label": "non_drone",
+      "max_score": 0.00551451890943169,
+      "predicted": 0,
+      "source": "svanstrom",
+      "truth": 0
+    }
+  ],
+  "representation": "relative_mel",
+  "runtime": {
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "real_time_factor": 0.0027643760506025376,
+    "seconds": 14.863794171997142
+  },
+  "source_breakdown": {
+    "batear-field": {
+      "average_precision_max_window_score": 0.7214994898149979,
+      "balanced_accuracy": 0.5,
+      "confusion": {
+        "fn": 11,
+        "fp": 0,
+        "tn": 6,
+        "tp": 0
+      },
+      "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+      "field_reliability_claim": false,
+      "group_bootstrap_95": {
+        "false_positive_fraction": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "warning": "Conservative source/day groups, not independent windows. Few positive-source groups make intervals inadequate for field claims."
+      },
+      "negative_hours": 0.1,
+      "negative_recording_false_positive_fraction": 0.0,
+      "negative_recordings": 6,
+      "positive_hours": 0.025898819444444443,
+      "positive_recordings": 11,
+      "precision": null,
+      "provenance_groups": 4,
+      "recording_recall": 0.0,
+      "recordings": 17,
+      "roc_auc_max_window_score": 0.36363636363636365
+    },
+    "d3set-ground": {
+      "average_precision_max_window_score": null,
+      "balanced_accuracy": null,
+      "confusion": {
+        "fn": 4,
+        "fp": 0,
+        "tn": 0,
+        "tp": 3
+      },
+      "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+      "field_reliability_claim": false,
+      "group_bootstrap_95": {
+        "false_positive_fraction": null,
+        "recall": [
+          0.0,
+          1.0
+        ],
+        "warning": "Conservative source/day groups, not independent windows. Few positive-source groups make intervals inadequate for field claims."
+      },
+      "negative_hours": 0.0,
+      "negative_recording_false_positive_fraction": null,
+      "negative_recordings": 0,
+      "positive_hours": 0.9116844444444444,
+      "positive_recordings": 7,
+      "precision": 1.0,
+      "provenance_groups": 2,
+      "recording_recall": 0.42857142857142855,
+      "recordings": 7,
+      "roc_auc_max_window_score": null
+    },
+    "d3set-noise": {
+      "average_precision_max_window_score": null,
+      "balanced_accuracy": null,
+      "confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 14,
+        "tp": 0
+      },
+      "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+      "field_reliability_claim": false,
+      "group_bootstrap_95": {
+        "false_positive_fraction": [
+          0.0,
+          0.0
+        ],
+        "recall": null,
+        "warning": "Conservative source/day groups, not independent windows. Few positive-source groups make intervals inadequate for field claims."
+      },
+      "negative_hours": 0.09489015762786597,
+      "negative_recording_false_positive_fraction": 0.0,
+      "negative_recordings": 14,
+      "positive_hours": 0.0,
+      "positive_recordings": 0,
+      "precision": null,
+      "provenance_groups": 8,
+      "recording_recall": null,
+      "recordings": 14,
+      "roc_auc_max_window_score": null
+    },
+    "esc10": {
+      "average_precision_max_window_score": null,
+      "balanced_accuracy": null,
+      "confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 80,
+        "tp": 0
+      },
+      "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+      "field_reliability_claim": false,
+      "group_bootstrap_95": {
+        "false_positive_fraction": [
+          0.0,
+          0.0
+        ],
+        "recall": null,
+        "warning": "Conservative source/day groups, not independent windows. Few positive-source groups make intervals inadequate for field claims."
+      },
+      "negative_hours": 0.1111111111111111,
+      "negative_recording_false_positive_fraction": 0.0,
+      "negative_recordings": 80,
+      "positive_hours": 0.0,
+      "positive_recordings": 0,
+      "precision": null,
+      "provenance_groups": 57,
+      "recording_recall": null,
+      "recordings": 80,
+      "roc_auc_max_window_score": null
+    },
+    "svanstrom": {
+      "average_precision_max_window_score": 0.3277345919328219,
+      "balanced_accuracy": 0.5,
+      "confusion": {
+        "fn": 30,
+        "fp": 0,
+        "tn": 60,
+        "tp": 0
+      },
+      "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+      "field_reliability_claim": false,
+      "group_bootstrap_95": {
+        "false_positive_fraction": [
+          0.0,
+          0.0
+        ],
+        "recall": [
+          0.0,
+          0.0
+        ],
+        "warning": "Conservative source/day groups, not independent windows. Few positive-source groups make intervals inadequate for field claims."
+      },
+      "negative_hours": 0.1666672335600907,
+      "negative_recording_false_positive_fraction": 0.0,
+      "negative_recordings": 60,
+      "positive_hours": 0.08333363567649281,
+      "positive_recordings": 30,
+      "precision": null,
+      "provenance_groups": 1,
+      "recording_recall": 0.0,
+      "recordings": 90,
+      "roc_auc_max_window_score": 0.4766666666666666
+    }
+  },
+  "summary": {
+    "average_precision_max_window_score": 0.4626180365466642,
+    "balanced_accuracy": 0.53125,
+    "confusion": {
+      "fn": 45,
+      "fp": 0,
+      "tn": 160,
+      "tp": 3
+    },
+    "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+    "field_reliability_claim": false,
+    "group_bootstrap_95": {
+      "false_positive_fraction": [
+        0.0,
+        0.0
+      ],
+      "recall": [
+        0.0,
+        0.6923076923076923
+      ],
+      "warning": "Conservative source/day groups, not independent windows. Few positive-source groups make intervals inadequate for field claims."
+    },
+    "negative_hours": 0.47266850229906776,
+    "negative_recording_false_positive_fraction": 0.0,
+    "negative_recordings": 160,
+    "positive_hours": 1.0209168995653817,
+    "positive_recordings": 48,
+    "precision": 1.0,
+    "provenance_groups": 71,
+    "recording_recall": 0.0625,
+    "recordings": 208,
+    "roc_auc_max_window_score": 0.65859375
+  }
+}

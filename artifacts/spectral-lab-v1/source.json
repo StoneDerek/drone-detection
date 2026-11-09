@@ -1,0 +1,35 @@
+{
+  "all_new_models_frozen": true,
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "9891621bfd8805e56d226adf804cce7a9d79a0fa4d0fb58af9d24bceee6bf625"
+  },
+  "default_model_modified": false,
+  "hardware": {
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "model_ids": {
+    "frequency-context-fft4096": "9d818cb0f09337098cf3dcc09bd862861e19c72468845a237a8c9a84a27ee0aa",
+    "linear-fft1024": "a4076f9ce5887fca02d406794dd877f1ec9de867139b37b0d1345b90cd4fdacd",
+    "linear-fft4096": "9f46a375100e3f615d2e9a176885d967fc2d0188120c34dd33b7b4131daaf496",
+    "linear-power-fft4096": "5fa8085efb50dd9958908fe3b992e0dee855bd08517462df95b88b6613f2808d",
+    "linear256-fft4096": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+    "mel256-fft4096": "ffeedd502bf29f945d6145e65b23cc7adf3b5404ee06991f2d4f2063c67cf143",
+    "mel64-fft1024": "88fa2c3b6dbe4827651f57c35bc603a96e1251222a74fb2a8ff6a623e18d6ee9",
+    "mel64-fft4096": "e5e1bb0c6f9def3ac23cf4cb5b921ce7fbe17bcf66fea35bf44bf3f3f352f03d",
+    "svm-linear-fft4096": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04"
+  },
+  "product_source_sha256": "ff32b0b2909d847d8ceb424771ed13903eaccac6a9dcc800b3d18630a2491e34",
+  "runtime_versions": {
+    "acoustic-drone-detector": "0.3.0",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "soundfile": "0.13.1",
+    "tensorflow-cpu": "2.20.0"
+  },
+  "source_and_wheel_modules_equal": true,
+  "wheel_sha256": "a6b6c84888afdf3bdc48c97f0193a7033c35177f7e07d3a258727164868a0c35"
+}

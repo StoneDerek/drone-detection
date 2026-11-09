@@ -1,0 +1,21 @@
+{
+  "audit_plan_sha256": "f14df386ef2a3962c65bfb882e4dce996ceca76a1ecd0137f36ffe88fae8b82d",
+  "change": "At every update, scan every cached context in each selected recording (maximum60), select all exact tied maxima with inference mode, then recompute only those contexts with gradients. With dropout0/no batch normalization, this equals the full cached-recording symmetric max-BCE gradient. No sampled sub-bag inherits the full label.",
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "02179c6c105b944024b3efc20174f81ddee4769a404bf6eb23876ed19c87d339"
+  },
+  "epochs": 24,
+  "gradient_oracle_sha256": "f94ac0fdadda133d3b16d2360c42c51b24f387207f8f2cdb121e78fe11bfefee",
+  "limits": "The fixed cache still caps60 uniform contexts/recording; it is not every dense product context. Labels are still weak. One seed, no fresh assessment or default promotion.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "name": "full-recording-frequency-seed42",
+  "sampling_diagnosis_sha256": "729b27033e1cb29dd1e0f7344a4a62895e6e3de7fc9a881a6ad363ae1a3b4de9",
+  "seed": 42,
+  "selection": "Minimum deterministic balanced full-cache max-BCE on DEVELOPMENT every2 epochs. Preserve best-at8, best-at24 and last24.",
+  "snapshot_epochs": [
+    8
+  ],
+  "unchanged": "Same405 train/210 development files, cached256x172 frontend,154689-parameter CNN, same initial weights,51 balanced4+4 recording batches/epoch, Adam.001 per-tensor clipnorm1,L2.0001,dropout0.",
+  "variant": "frequency_aware"
+}

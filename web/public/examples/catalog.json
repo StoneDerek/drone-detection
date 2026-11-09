@@ -1,0 +1,65 @@
+{
+  "examples": [
+    {
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "license": "CC0-1.0",
+      "provenance": {
+        "sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+        "url": "https://raw.githubusercontent.com/DroneDetectionThesis/Drone-detection-dataset/442d0c6750708cc221636f7a1fd31cbd8cb0aeb8/Data/Audio/DRONE_001.wav"
+      },
+      "public_example": "examples/svanstrom-DRONE_001.wav",
+      "publisher_label": "drone"
+    },
+    {
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "id": "svanstrom-HELICOPTER_001",
+      "license": "CC0-1.0",
+      "provenance": {
+        "sha256": "ff04901b686c1b5aee3db7a7fcef94df677fd2e8cd49e6a840dc09e025260e90",
+        "url": "https://raw.githubusercontent.com/DroneDetectionThesis/Drone-detection-dataset/442d0c6750708cc221636f7a1fd31cbd8cb0aeb8/Data/Audio/HELICOPTER_001.wav"
+      },
+      "public_example": "examples/svanstrom-HELICOPTER_001.wav",
+      "publisher_label": "non_drone"
+    },
+    {
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "license": "CC0-1.0",
+      "provenance": {
+        "sha256": "e8790309a7888c58c1d1f0f3bfa7850f193af5f23fceb8fdc830aad610ffeb28",
+        "url": "https://raw.githubusercontent.com/DroneDetectionThesis/Drone-detection-dataset/442d0c6750708cc221636f7a1fd31cbd8cb0aeb8/Data/Audio/BACKGROUND_001.wav"
+      },
+      "public_example": "examples/svanstrom-BACKGROUND_001.wav",
+      "publisher_label": "non_drone"
+    },
+    {
+      "excerpt_duration_seconds": 9.0775625,
+      "excerpt_start_seconds": 0.0,
+      "id": "batear-20260415_192501",
+      "license": "MIT",
+      "provenance": {
+        "sha256": "18ef2eb6318f075bd1c978b2c0c16dcb01fd8a6575925703e0fca27f0206395c",
+        "url": "https://raw.githubusercontent.com/batear-io/batear-datasets/d0d6e67d9e7d167be9e0db249ef6a44acb52f732/field-tests/FPV/5inch_resampled/20260415_192501.wav"
+      },
+      "public_example": "examples/batear-20260415_192501.wav",
+      "publisher_label": "drone"
+    },
+    {
+      "excerpt_duration_seconds": 10.0,
+      "excerpt_start_seconds": 0.0,
+      "id": "batear-20230701_054200",
+      "license": "MIT",
+      "provenance": {
+        "sha256": "93f8f41bf2eb4d64e2e91d79fd930c0ce24594a9315f9700528d0be30c2a5a5c",
+        "url": "https://raw.githubusercontent.com/batear-io/batear-datasets/d0d6e67d9e7d167be9e0db249ef6a44acb52f732/field-tests/ambient/rural/20230701_054200.WAV"
+      },
+      "public_example": "examples/batear-20230701_054200.wav",
+      "publisher_label": "non_drone"
+    }
+  ],
+  "scope": "Seven deliberately small qualitative case studies, NOT independent detector trials. Visual inspection does not establish audible drone timing."
+}

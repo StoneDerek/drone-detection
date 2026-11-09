@@ -1,0 +1,17 @@
+{
+  "before_code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "0f06094c18e3081bbd291245c4d9b5674ef1d6d8b916de489e39c2907313df97"
+  },
+  "checks": [
+    "Independent float64 FFT and resampling reference; all615 file ingresses and7299 cached contexts",
+    "Original source conversion precision and physical-channel selection",
+    "Actual cyclic sub-bag objective versus full recording objective",
+    "Independent gradient oracle, deterministic train/inference modes, class balancing and Adam updates",
+    "Saved selected/last checkpoint identities, training/validation isolation",
+    "Full versus padded-tail replay and capped-versus-dense context sensitivity"
+  ],
+  "conditional_control": "If the sampled recording objective discrepancy is confirmed and exact full-recording gradients are verified, run one same-architecture/same-data seed42 control through24 epochs with full-cache maxima selected at every update. Compare its declared8-epoch snapshot and24-epoch horizon against the preserved sampled baseline. Retain all checkpoints; no default promotion or data changes.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "scope": "Existing train/development data and frozen models only. Forensic training/preprocessing audit; no external assessment or architecture search."
+}

@@ -1,0 +1,41 @@
+{
+  "baseline_auc_rounded": 0.835,
+  "decision": "Start frequency readout seed7 concurrently based on stronger interim AUC, before seed42 epoch24 completes. Keep architecture,24epoch budget,sampling,optimizer and checkpoint rule fixed. Do not retune to seed7 results.",
+  "frequency": {
+    "development_auc": 0.9044970986460348,
+    "development_balanced_bag_loss": 0.3751067455025592,
+    "development_consistent_max_balanced_loss": 0.4060901732960662,
+    "elapsed_seconds": 168.48149704699972,
+    "epoch": 4,
+    "mean_effective_positive_contexts": 1.0,
+    "mean_gradient_norm": 8.143928368886312,
+    "positive_contexts_forwarded": 1632,
+    "positive_pool_gradient_contexts_above1e_10": 204,
+    "train_auc": 0.9338181818181818,
+    "train_balanced_bag_loss": 0.29664794715216636,
+    "train_consistent_max_balanced_loss": 0.3356959419900173,
+    "training_loss": 0.51379293904585,
+    "unique_positive_contexts_with_pool_gradient": 357,
+    "unique_train_windows_seen": 4120
+  },
+  "global": {
+    "development_auc": 0.7449226305609284,
+    "development_balanced_bag_loss": 0.6350940661414795,
+    "development_consistent_max_balanced_loss": 0.6492038934817628,
+    "elapsed_seconds": 158.26360196699898,
+    "epoch": 4,
+    "mean_effective_positive_contexts": 1.0,
+    "mean_gradient_norm": 1.2741622556658352,
+    "positive_contexts_forwarded": 1632,
+    "positive_pool_gradient_contexts_above1e_10": 204,
+    "train_auc": 0.7435844155844156,
+    "train_balanced_bag_loss": 0.6404908909658333,
+    "train_consistent_max_balanced_loss": 0.6566571583608528,
+    "training_loss": 0.6715077255286422,
+    "unique_positive_contexts_with_pool_gradient": 268,
+    "unique_train_windows_seen": 4120
+  },
+  "plan_sha256": "4e730ae01ded6a56dd7cdffdb13e0197675540e59265270be712362da1ad4eb2",
+  "scope": "Explicit interim development-driven replication decision; not a prespecified final winner or independent assessment",
+  "trigger_epoch": 4
+}

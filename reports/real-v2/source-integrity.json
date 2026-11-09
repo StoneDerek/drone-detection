@@ -1,0 +1,6 @@
+{
+  "baseline_and_candidate_match_snapshot": true,
+  "evaluated_source_sha256": "8b000552833fa9d170da9a7fa3309c6952c30d20f24ef109c2f6a9a7d700ec99",
+  "passed": true,
+  "product_change_after_freeze": "CLI initializes the same frozen encoder before paced playback; no model/feature/threshold changes. Isolated wheel score/alarm parity verified."
+}

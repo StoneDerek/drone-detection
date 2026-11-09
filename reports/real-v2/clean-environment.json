@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "command": "infer",
+      "process_wall_seconds": 18.064921331000733,
+      "runtime": {
+        "canonical_sample_rate": 16000,
+        "channels": 2,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 9.0775625,
+        "end_to_end_seconds": 14.118400401000144,
+        "mode": "recorded_stream_replay; file decoding/resampling precedes replay",
+        "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+        "original_sample_rate": 16000,
+        "peak": 0.056640625,
+        "real_time_factor": 1.5553074298304355,
+        "rms": 0.006181297664847379,
+        "silence_fraction": 0.0013425960988976942
+      }
+    },
+    {
+      "command": "stream",
+      "process_wall_seconds": 17.918100811999466,
+      "runtime": {
+        "canonical_sample_rate": 16000,
+        "channels": 2,
+        "clipped_fraction": 0.0,
+        "duration_seconds": 9.0775625,
+        "elapsed_seconds": 9.106428838000284,
+        "mode": "wall-clock recorded replay, not live capture",
+        "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+        "model_initialization_seconds_before_playback": 5.902799077999589,
+        "original_sample_rate": 16000,
+        "peak": 0.056640625,
+        "rms": 0.006181297664847379,
+        "silence_fraction": 0.0013425960988976942
+      }
+    }
+  ],
+  "editable_install": false,
+  "exact_alarm_and_context_parity": true,
+  "isolated_python": true,
+  "limitations": "Same host, isolated wheel install. Replay after initialization; no live hardware timing or new acoustic benchmark.",
+  "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "module_path": "/tmp/drone-product-clean-qye0d9n4/lib/python3.12/site-packages/drone_detector/__init__.py",
+  "paced_p95_lag_after_model_initialization_seconds": 0.058514185250760416,
+  "passed": true,
+  "score_max_absolute_error": 0,
+  "score_tolerance": 1e-05,
+  "windows": 14,
+  "working_directory": "/tmp/drone-portable-v2-a6ez4azd"
+}

@@ -1,0 +1,13 @@
+# Deployed interface verification
+
+The public app is https://drone-audio-lab.pages.dev . The latest production deployment is recorded in [deployment.json](deployment.json). [The final public check](final-deployment-check.json) returned HTTP200, loaded all11 model choices and5 example choices without page errors, and verified the public HTML and JavaScript hashes against the validated local build. The CSP is active.
+
+The [full public browser workflow](public-browser.json) passed with playback/seek, the three default models, both attribution targets, score/Grad-CAM agreement, a true zero attribution map, frequency zoom, result downloads, example selection, hashed draft listening notes and invalid input handling. It observed no network audio uploads. This test used the existing Batear development file, not a new field trial. The final deployment only clarifies the browser's unavailable quality-flag checks in HTML; the tested JavaScript hash is identical.
+
+The [numerical port checks](parity.json) passed across176 classifier/context outputs for all11 models on3 existing train/development files, with16/44.1kHz WAV decoding and6 Grad-CAM cases. Checked score differences were at most1.93e-6; image differences at most1.06e-5; attribution differences at most2.99e-6. All14 Batear context alarm decisions, reasons and timestamps matched Python. This verifies the port on those inputs, not generalization or acoustic reliability.
+
+`bash scripts/check.sh` passed Ruff and67 Python tests, including a new check that reference-RMS gain reaches a fixed-reference spectrogram while cancelling under peak-relative normalization. All54 pre-existing spectral package checksums and all9 new diagnostic packet checksums passed. Frozen prior model weights and decisions were preserved.
+
+Public browser testing kept TLS certificate validation enabled. Chromium required running outside the read-only filesystem sandbox to access its existing NSS certificate database. The supplied proxy CA was already present; certificate errors were not bypassed. The ordinary Python HTTP client received Cloudflare1010 for its default client identity; the real Chromium workflow returned200 and completed. No paid Cloudflare plan or cloud environment publication was requested or performed.
+
+The browser's genuine Grad-CAM uses the selected logit and convolution layer, with interpolation disclosed. SVM inference uses no neural encoder. Browser audio input supports WAV; the Python app retains other formats and per-window quality flags. No live capture, physical delay, event recall, range or field reliability claim follows from these software checks.

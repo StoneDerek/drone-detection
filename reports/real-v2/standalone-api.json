@@ -1,0 +1,8 @@
+{
+  "editable_source_required": false,
+  "examples_required": false,
+  "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "passed": true,
+  "scope": "Copied wheel and packaged model, without evaluation corpus or notebook state",
+  "windows": 14
+}

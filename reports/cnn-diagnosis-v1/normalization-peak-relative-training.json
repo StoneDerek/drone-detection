@@ -1,0 +1,95 @@
+{
+  "features": {
+    "axis": "linear_filterbank",
+    "dynamic_range_db": 80.0,
+    "f_max": 7600.0,
+    "f_min": 50.0,
+    "gain_max_db": 20.0,
+    "gain_target_rms": 0.05,
+    "hop_seconds": 0.5,
+    "intensity": "log_power",
+    "mel_bins": 256,
+    "min_audio_seconds": 0.25,
+    "n_fft": 4096,
+    "normalize_rms": false,
+    "power_reference": "context_peak",
+    "sample_rate": 16000,
+    "silence_rms": 1e-05,
+    "stft_hop": 256,
+    "window_seconds": 3.0
+  },
+  "model_id": "9f7da3f2a57c5a5977dbee812a6bc8e91f4e2892d4f8988931ec9930e910de66",
+  "status": "trained diagnostic, not frozen or deployed",
+  "training": {
+    "available_sampled_windows": 4648,
+    "bag_batch_size": 8,
+    "epochs_completed": 8,
+    "history": [
+      {
+        "elapsed_seconds": 9.297199580999859,
+        "epoch": 1,
+        "training_loss": 0.668843711123747,
+        "unique_train_windows_seen": 2488
+      },
+      {
+        "development_balanced_bag_loss": 0.676533929160589,
+        "elapsed_seconds": 14.734376399999974,
+        "epoch": 2,
+        "training_loss": 0.6073087696351257,
+        "unique_train_windows_seen": 3653
+      },
+      {
+        "elapsed_seconds": 22.867604708000044,
+        "epoch": 3,
+        "training_loss": 0.530519944926103,
+        "unique_train_windows_seen": 3868
+      },
+      {
+        "development_balanced_bag_loss": 0.8754598193475887,
+        "elapsed_seconds": 28.13238770299995,
+        "epoch": 4,
+        "training_loss": 0.544635157959134,
+        "unique_train_windows_seen": 4064
+      },
+      {
+        "elapsed_seconds": 37.433471156999985,
+        "epoch": 5,
+        "training_loss": 0.5796946255015392,
+        "unique_train_windows_seen": 4243
+      },
+      {
+        "development_balanced_bag_loss": 0.9607527175075167,
+        "elapsed_seconds": 43.58232761599993,
+        "epoch": 6,
+        "training_loss": 0.47188304934431524,
+        "unique_train_windows_seen": 4411
+      },
+      {
+        "elapsed_seconds": 51.6972100129999,
+        "epoch": 7,
+        "training_loss": 0.5273662972099641,
+        "unique_train_windows_seen": 4579
+      },
+      {
+        "development_balanced_bag_loss": 0.7765899110761988,
+        "elapsed_seconds": 57.05961208100007,
+        "epoch": 8,
+        "training_loss": 0.5068867001317295,
+        "unique_train_windows_seen": 4648
+      }
+    ],
+    "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+    "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+    "max_windows_per_bag_step": 8,
+    "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+    "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+    "origins": [
+      "authentic"
+    ],
+    "seconds": 59.49550147600007,
+    "seed": 42,
+    "selected_epoch": 2,
+    "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+    "unique_windows_seen_at_selected_epoch": 3653
+  }
+}

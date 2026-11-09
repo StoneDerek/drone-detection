@@ -1,0 +1,13 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "8b000552833fa9d170da9a7fa3309c6952c30d20f24ef109c2f6a9a7d700ec99"
+  },
+  "label_scope": "publisher weak clip labels; no event truth",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "models": [
+    "30c0d49b9e1be3318e25c76a554a7988752267945442790fa98cc6feffa97af1",
+    "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f"
+  ],
+  "split": "final"
+}

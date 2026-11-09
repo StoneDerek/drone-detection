@@ -1,0 +1,91 @@
+{
+  "arms": [
+    {
+      "augment": false,
+      "hits": [
+        1
+      ],
+      "hypothesis": "Inexpensive absolute log-Mel baseline",
+      "name": "absolute",
+      "representation": "absolute_mel",
+      "seed": 42
+    },
+    {
+      "augment": false,
+      "hits": [
+        1
+      ],
+      "hypothesis": "Subtracting scalar log-energy removes gain shortcut",
+      "name": "relative",
+      "representation": "relative_mel",
+      "seed": 42
+    },
+    {
+      "augment": false,
+      "hits": [
+        1
+      ],
+      "hypothesis": "Flatness/crest/cepstral features distinguish tonal structure",
+      "name": "harmonic",
+      "representation": "relative_harmonic",
+      "seed": 42
+    },
+    {
+      "augment": false,
+      "hits": [
+        1,
+        2
+      ],
+      "hypothesis": "Confirmation reduces transient alarms at a delay cost",
+      "name": "temporal",
+      "representation": "relative_mel",
+      "seed": 42
+    },
+    {
+      "augment": true,
+      "hits": [
+        1,
+        2
+      ],
+      "hypothesis": "Train-only gain augmentation; repeated seeds check stochastic sensitivity",
+      "name": "gain-aug-7",
+      "representation": "relative_mel",
+      "seed": 7
+    },
+    {
+      "augment": true,
+      "hits": [
+        1,
+        2
+      ],
+      "hypothesis": "Train-only gain augmentation; repeated seeds check stochastic sensitivity",
+      "name": "gain-aug-42",
+      "representation": "relative_mel",
+      "seed": 42
+    },
+    {
+      "augment": true,
+      "hits": [
+        1,
+        2
+      ],
+      "hypothesis": "Train-only gain augmentation; repeated seeds check stochastic sensitivity",
+      "name": "gain-aug-123",
+      "representation": "relative_mel",
+      "seed": 123
+    }
+  ],
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+  },
+  "contract_file_sha256": "8993cc4242a69a69ddd3110b8426e4243d0a8444ab50b4f5b39769ed71631ba8",
+  "final": "One frozen batch: baseline and development-selected candidate. No tuning on final.",
+  "generation_seed": 20261108,
+  "notes": "Unaugmented lbfgs is deterministic; repeated nominal seeds would not be independent experiments. No expensive model expansion on generated signals.",
+  "purpose": "SYNTHETIC SOFTWARE/CONTROLLED-SIGNAL CHECKS ONLY",
+  "reserved_final_source": "synthetic-generator-2",
+  "schema_version": 1,
+  "selection": "Compare seed-42 arms only; prefer point FA/h <= contract limit, highest development event recall, lowest FA/h, fewest gain threshold flips, lowest gain score change, lowest delay, then arm name. Other augmentation seeds are sensitivity checks, not cherry-picked candidates.",
+  "split_seed": 42
+}

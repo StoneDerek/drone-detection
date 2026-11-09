@@ -1,0 +1,89 @@
+{
+  "data_summary": "Same 405 real training files (55 positive, 350 negative; 6 conservative positive groups) and 210 development files (22 positive, 188 negative; 4 positive groups). 4,648 available training contexts, no added independent audio. New models use 256\u00d7172 relative log-power inputs; training recipes and seeds are disclosed.",
+  "defaults": [
+    "coherent-frequency-seed42",
+    "full-recording-frequency-seed42",
+    "svm-linear-fft4096",
+    "yamnet-default"
+  ],
+  "models": [
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/linear256-fft4096",
+      "name": "linear256-fft4096"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/frequency-context-fft4096",
+      "name": "frequency-context-fft4096"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/linear-fft1024",
+      "name": "linear-fft1024"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/linear-fft4096",
+      "name": "linear-fft4096"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/linear-power-fft4096",
+      "name": "linear-power-fft4096"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/mel256-fft4096",
+      "name": "mel256-fft4096"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/mel64-fft1024",
+      "name": "mel64-fft1024"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/mel64-fft4096",
+      "name": "mel64-fft4096"
+    },
+    {
+      "bundle": "../../artifacts/spectral-lab-v1/models/svm-linear-fft4096",
+      "name": "svm-linear-fft4096"
+    },
+    {
+      "bundle": "../../artifacts/real-v2/candidate",
+      "name": "yamnet-default"
+    },
+    {
+      "bundle": "../../artifacts/real-v2/baseline",
+      "name": "relative-logistic"
+    },
+    {
+      "bundle": "../../artifacts/cnn-foundations-v1/frozen/coverage8",
+      "name": "coverage8"
+    },
+    {
+      "bundle": "../../artifacts/cnn-foundations-v1/frozen/medium-balanced-global-head",
+      "name": "medium-balanced-global-head"
+    },
+    {
+      "bundle": "../../artifacts/cnn-foundations-v1/frozen/medium-balanced-frequency-head",
+      "name": "medium-balanced-frequency-head"
+    },
+    {
+      "bundle": "../../artifacts/cnn-foundations-v1/frozen/coherent-global-seed42",
+      "name": "coherent-global-seed42"
+    },
+    {
+      "bundle": "../../artifacts/cnn-foundations-v1/frozen/coherent-frequency-seed42",
+      "name": "coherent-frequency-seed42"
+    },
+    {
+      "bundle": "../../artifacts/cnn-foundations-v1/frozen/coherent-frequency-seed7",
+      "name": "coherent-frequency-seed7"
+    },
+    {
+      "bundle": "../../artifacts/training-audit-v1/frozen/full-recording-frequency-seed42",
+      "name": "full-recording-frequency-seed42"
+    },
+    {
+      "bundle": "../../artifacts/training-audit-v1/frozen/full-recording-frequency-seed42-last",
+      "name": "full-recording-frequency-seed42-last"
+    }
+  ],
+  "preferred_for_inspection": "coherent-frequency-seed42",
+  "scope": "Training-pipeline audit lab. Full-recording controls are diagnostic, use the same existing development data and have not improved recall. Public deployment/defaults are unchanged."
+}

@@ -1,0 +1,823 @@
+{
+  "models": {
+    "linear-fft1024": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 2,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.5314273112689956,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 22,
+            "fp": 0,
+            "tn": 188,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": null,
+          "provenance_groups": 145,
+          "recording_recall": 0.0,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8295454545454546
+        }
+      },
+      "family": "spectrogram_cnn",
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 1024,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "7a3c5b4ad33cd86df305f3a0c9b22c10686be5afe84cb587614cffbc73de48b3",
+      "shape": [
+        483,
+        184,
+        1
+      ],
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 10.35355462699954,
+            "epoch": 1,
+            "training_loss": 0.6735075525209016,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.662417072716315,
+            "elapsed_seconds": 16.24856338400059,
+            "epoch": 2,
+            "training_loss": 0.6091150331730936,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 25.467588436998994,
+            "epoch": 3,
+            "training_loss": 0.5051339389938935,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.7431992691458785,
+            "elapsed_seconds": 28.52990445999967,
+            "epoch": 4,
+            "training_loss": 0.47430426232955036,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 32.65262285499921,
+            "epoch": 5,
+            "training_loss": 0.48977456957686183,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.8602334997053546,
+            "elapsed_seconds": 36.45487797199894,
+            "epoch": 6,
+            "training_loss": 0.444857126868823,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 42.193301770999824,
+            "epoch": 7,
+            "training_loss": 0.49149546333972144,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.6442810219583756,
+            "elapsed_seconds": 45.505091978000564,
+            "epoch": 8,
+            "training_loss": 0.448503953276896,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 47.320828244999575,
+        "seed": 42,
+        "selected_epoch": 8,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 4648
+      }
+    },
+    "linear-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 2,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.6348925253108679,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 22,
+            "fp": 0,
+            "tn": 188,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": null,
+          "provenance_groups": 145,
+          "recording_recall": 0.0,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8665377176015474
+        }
+      },
+      "family": "spectrogram_cnn",
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "e478f09fe8af5f14499a35e5d2151673125b51b97451e30bddc47186f5e44f40",
+      "shape": [
+        1933,
+        172,
+        1
+      ],
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 20.664387401000567,
+            "epoch": 1,
+            "training_loss": 0.6755427688944573,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6753792965881944,
+            "elapsed_seconds": 44.705704619000244,
+            "epoch": 2,
+            "training_loss": 0.6139845912363014,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 74.14799093300098,
+            "epoch": 3,
+            "training_loss": 0.5506554392038607,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.7500797828237888,
+            "elapsed_seconds": 97.4327590440007,
+            "epoch": 4,
+            "training_loss": 0.5260038165485158,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 126.29282741600036,
+            "epoch": 5,
+            "training_loss": 0.5138343037927852,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.8601079449774535,
+            "elapsed_seconds": 146.90728409700023,
+            "epoch": 6,
+            "training_loss": 0.45587481543713926,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 170.97478478800076,
+            "epoch": 7,
+            "training_loss": 0.5140610962521797,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.662923709673598,
+            "elapsed_seconds": 185.3500231580001,
+            "epoch": 8,
+            "training_loss": 0.4574296201268832,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 190.17682747300023,
+        "seed": 42,
+        "selected_epoch": 8,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 4648
+      }
+    },
+    "linear-power-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 2,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.22882988862622555,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 22,
+            "fp": 0,
+            "tn": 188,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": null,
+          "provenance_groups": 145,
+          "recording_recall": 0.0,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.7739361702127661
+        }
+      },
+      "family": "spectrogram_cnn",
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "linear_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "96f669d75499cdf618e3f38c638db26bfebd7ca301fba61648a8453df2db0db3",
+      "shape": [
+        1933,
+        172,
+        1
+      ],
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 14.295224127001347,
+            "epoch": 1,
+            "training_loss": 0.7010106748225642,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6911725003985649,
+            "elapsed_seconds": 27.791782068999964,
+            "epoch": 2,
+            "training_loss": 0.6822281935635734,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 53.39780881400111,
+            "epoch": 3,
+            "training_loss": 0.6489868339370278,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.9126773425999387,
+            "elapsed_seconds": 69.71894170199994,
+            "epoch": 4,
+            "training_loss": 0.5264101986791573,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 89.15954871000031,
+            "epoch": 5,
+            "training_loss": 0.5531955440254772,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.7416657436660687,
+            "elapsed_seconds": 104.18813607100128,
+            "epoch": 6,
+            "training_loss": 0.555477417567197,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 121.66574467600003,
+            "epoch": 7,
+            "training_loss": 0.4792300874696058,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7864577945148864,
+            "elapsed_seconds": 135.82886311900074,
+            "epoch": 8,
+            "training_loss": 0.4942745478714214,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 141.6455054650014,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "mel256-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 2,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.41046974227582433,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 22,
+            "fp": 0,
+            "tn": 188,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": null,
+          "provenance_groups": 145,
+          "recording_recall": 0.0,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8484042553191489
+        }
+      },
+      "family": "spectrogram_cnn",
+      "features": {
+        "axis": "mel",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 256,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "2343554f12891ddfdad29a52af463bd35464ec941e490054ac07003d4732b16a",
+      "shape": [
+        256,
+        172,
+        1
+      ],
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 21.574057765999896,
+            "epoch": 1,
+            "training_loss": 0.6717788366710439,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6828736504197581,
+            "elapsed_seconds": 24.230825517000994,
+            "epoch": 2,
+            "training_loss": 0.6099365750948588,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 33.05088401800094,
+            "epoch": 3,
+            "training_loss": 0.49926214855091244,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.8671165209396867,
+            "elapsed_seconds": 35.74819983500129,
+            "epoch": 4,
+            "training_loss": 0.4905244686147746,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 41.4555283589998,
+            "epoch": 5,
+            "training_loss": 0.5603981865387336,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.9578520069676776,
+            "elapsed_seconds": 44.32666452400008,
+            "epoch": 6,
+            "training_loss": 0.4529716810759376,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 50.593715893999615,
+            "epoch": 7,
+            "training_loss": 0.5343174238999685,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7110571965133425,
+            "elapsed_seconds": 55.13384363800105,
+            "epoch": 8,
+            "training_loss": 0.5086509994432038,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 57.128216500001145,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "mel64-fft1024": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.48750000000000004,
+          "on_hits": 2,
+          "on_threshold": 0.65
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.19326782691359098,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 22,
+            "fp": 0,
+            "tn": 188,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": null,
+          "provenance_groups": 145,
+          "recording_recall": 0.0,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.6694874274661509
+        }
+      },
+      "family": "spectrogram_cnn",
+      "features": {
+        "axis": "mel",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 1024,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "47e544e4ad7b493a8defe1f24eb0e534603b7ce8de611b1362ed36ffc4190261",
+      "shape": [
+        64,
+        184,
+        1
+      ],
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 10.831585658999757,
+            "epoch": 1,
+            "training_loss": 0.6706026056233574,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6647440461474299,
+            "elapsed_seconds": 12.157488191000084,
+            "epoch": 2,
+            "training_loss": 0.6032750434150883,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 14.961721089999628,
+            "epoch": 3,
+            "training_loss": 0.5210274474001398,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.848851392269891,
+            "elapsed_seconds": 16.48051722799937,
+            "epoch": 4,
+            "training_loss": 0.5245770668866587,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 19.176967006000268,
+            "epoch": 5,
+            "training_loss": 0.587585083117672,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 1.409979855348095,
+            "elapsed_seconds": 20.08991203000005,
+            "epoch": 6,
+            "training_loss": 0.4861697034508574,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 21.97542697099925,
+            "epoch": 7,
+            "training_loss": 0.5639979844438094,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7290093601569605,
+            "elapsed_seconds": 22.868936589999066,
+            "epoch": 8,
+            "training_loss": 0.5657149376530274,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 23.650322499999675,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "mel64-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 2,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.2513887874394274,
+          "balanced_accuracy": 0.4973404255319149,
+          "confusion": {
+            "fn": 22,
+            "fp": 1,
+            "tn": 187,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.005319148936170213,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.0,
+          "provenance_groups": 145,
+          "recording_recall": 0.0,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.7214700193423598
+        }
+      },
+      "family": "spectrogram_cnn",
+      "features": {
+        "axis": "mel",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "75890dfdb0cf4f27f50b55f0a859d55e957f697fbe7ce904837e474cdf3cabcf",
+      "shape": [
+        64,
+        172,
+        1
+      ],
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 3.990794149998692,
+            "epoch": 1,
+            "training_loss": 0.6654334658501195,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6710439498610146,
+            "elapsed_seconds": 4.920631050999873,
+            "epoch": 2,
+            "training_loss": 0.6132385464859944,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 6.725313861999894,
+            "epoch": 3,
+            "training_loss": 0.5266158027099628,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.8633035799250641,
+            "elapsed_seconds": 7.5827570729998115,
+            "epoch": 4,
+            "training_loss": 0.564322260372779,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 9.917948153999532,
+            "epoch": 5,
+            "training_loss": 0.5472550210999507,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 1.1523125729455146,
+            "elapsed_seconds": 10.95226263999939,
+            "epoch": 6,
+            "training_loss": 0.4682266703423332,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 13.188124710999546,
+            "epoch": 7,
+            "training_loss": 0.577486526878441,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7991410174755635,
+            "elapsed_seconds": 14.388524766000046,
+            "epoch": 8,
+            "training_loss": 0.705637820430246,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 15.347681818999263,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "svm-linear-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.48750000000000004,
+          "on_hits": 1,
+          "on_threshold": 0.65
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.7415536449872226,
+          "balanced_accuracy": 0.7901353965183752,
+          "confusion": {
+            "fn": 9,
+            "fp": 2,
+            "tn": 186,
+            "tp": 13
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.010638297872340425,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.8666666666666667,
+          "provenance_groups": 145,
+          "recording_recall": 0.5909090909090909,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8486460348162476
+        }
+      },
+      "family": "rbf_svm",
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "7cceaaa056445dd5710cf49d5e22386a0be6d0ccddf1bbb5bc2d650ff76a2ec6",
+      "training": {
+        "C": 1.0,
+        "kernel": "RBF",
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "method": "Temporal mean/std per frequency; train-only weighted standardization; four max-positive-instance updates; all sampled negative windows",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 50.149497394999344,
+        "seed": 42,
+        "support_vectors": 749
+      }
+    }
+  },
+  "scope": "DEVELOPMENT ONLY; prior assessment consumed; no fresh final set scored; assessed default preserved"
+}

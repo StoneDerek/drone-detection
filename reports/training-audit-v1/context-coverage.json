@@ -1,0 +1,2050 @@
+{
+  "all_dense_scored_timestamps_and_padding_verified": true,
+  "dense_full_contexts": 12523,
+  "dense_scored_contexts_freshly_verified": 12560,
+  "dense_tensor_max_error": 0.0,
+  "files_with_less_than_1ms_new_audio_in_tail": 6,
+  "interpretation": "Training/validation use at most60 uniform full windows; product replay uses all dense windows and may append a padded tail. This is a disclosed distribution mismatch, not an off-by-one feature/label indexing error. Tail-removal comparisons retain the original calibrated decision and are diagnostic.",
+  "model_outcomes": {
+    "coherent-frequency-seed42": {
+      "changed_recordings": [],
+      "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+      "with_tails": {
+        "average_precision_max_window_score": 0.7492185307579202,
+        "balanced_accuracy": 0.8397001934235977,
+        "confusion": {
+          "fn": 6,
+          "fp": 9,
+          "tn": 179,
+          "tp": 16
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.64,
+        "provenance_groups": 145,
+        "recording_recall": 0.7272727272727273,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.940522243713733
+      },
+      "without_tails_fixed_original_decision": {
+        "average_precision_max_window_score": 0.7492185307579202,
+        "balanced_accuracy": 0.8397001934235977,
+        "confusion": {
+          "fn": 6,
+          "fp": 9,
+          "tn": 179,
+          "tp": 16
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.64,
+        "provenance_groups": 145,
+        "recording_recall": 0.7272727272727273,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.940522243713733
+      }
+    },
+    "coherent-frequency-seed7": {
+      "changed_recordings": [],
+      "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+      "with_tails": {
+        "average_precision_max_window_score": 0.7720509152600399,
+        "balanced_accuracy": 0.8624274661508704,
+        "confusion": {
+          "fn": 5,
+          "fp": 9,
+          "tn": 179,
+          "tp": 17
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.6538461538461539,
+        "provenance_groups": 145,
+        "recording_recall": 0.7727272727272727,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.949468085106383
+      },
+      "without_tails_fixed_original_decision": {
+        "average_precision_max_window_score": 0.7670004102095349,
+        "balanced_accuracy": 0.8624274661508704,
+        "confusion": {
+          "fn": 5,
+          "fp": 9,
+          "tn": 179,
+          "tp": 17
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.6538461538461539,
+        "provenance_groups": 145,
+        "recording_recall": 0.7727272727272727,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.9492263056092843
+      }
+    },
+    "coherent-global-seed42": {
+      "changed_recordings": [],
+      "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+      "with_tails": {
+        "average_precision_max_window_score": 0.5982669214102522,
+        "balanced_accuracy": 0.726063829787234,
+        "confusion": {
+          "fn": 11,
+          "fp": 9,
+          "tn": 179,
+          "tp": 11
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.55,
+        "provenance_groups": 145,
+        "recording_recall": 0.5,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.8931334622823984
+      },
+      "without_tails_fixed_original_decision": {
+        "average_precision_max_window_score": 0.5975430351600501,
+        "balanced_accuracy": 0.726063829787234,
+        "confusion": {
+          "fn": 11,
+          "fp": 9,
+          "tn": 179,
+          "tp": 11
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.55,
+        "provenance_groups": 145,
+        "recording_recall": 0.5,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.8919245647969052
+      }
+    }
+  },
+  "padded_files": 38,
+  "passed": true,
+  "recordings": [
+    {
+      "dense_full_scored_contexts": 115,
+      "id": "batear-20230701_054200",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "batear-field",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 115,
+      "id": "batear-20230701_234400",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "batear-field",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 115,
+      "id": "batear-20230702_035200",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "batear-field",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 115,
+      "id": "batear-20230702_095600",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "batear-field",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 115,
+      "id": "batear-20230702_104400",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "batear-field",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 115,
+      "id": "batear-20230703_191400",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "batear-field",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 13,
+      "id": "batear-20260415_192501",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.07756250000000087,
+      "uniform_contexts": 13
+    },
+    {
+      "dense_full_scored_contexts": 17,
+      "id": "batear-20260415_192502",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.3299374999999998,
+      "uniform_contexts": 17
+    },
+    {
+      "dense_full_scored_contexts": 7,
+      "id": "batear-20260415_192503",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.4305000000000003,
+      "uniform_contexts": 7
+    },
+    {
+      "dense_full_scored_contexts": 1,
+      "id": "batear-20260415_192504",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.3190624999999998,
+      "uniform_contexts": 1
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "batear-20260415_192505",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.1766249999999996,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 6,
+      "id": "batear-20260415_192506",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.30356249999999996,
+      "uniform_contexts": 6
+    },
+    {
+      "dense_full_scored_contexts": 3,
+      "id": "batear-20260415_192507",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.10850000000000026,
+      "uniform_contexts": 3
+    },
+    {
+      "dense_full_scored_contexts": 46,
+      "id": "batear-20260415_192509",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.2727499999999985,
+      "uniform_contexts": 46
+    },
+    {
+      "dense_full_scored_contexts": 11,
+      "id": "batear-20260415_192510",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.2416874999999994,
+      "uniform_contexts": 11
+    },
+    {
+      "dense_full_scored_contexts": 10,
+      "id": "batear-20260415_192511",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.18437500000000018,
+      "uniform_contexts": 10
+    },
+    {
+      "dense_full_scored_contexts": 7,
+      "id": "batear-20260415_195200",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "batear-field",
+      "tail_new_audio_seconds": 0.2911875000000004,
+      "uniform_contexts": 7
+    },
+    {
+      "dense_full_scored_contexts": 692,
+      "id": "d3-0051e42516b62b4e",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": 0.4203749999999786,
+      "uniform_contexts": 57
+    },
+    {
+      "dense_full_scored_contexts": 25,
+      "id": "d3-065df126dce4396b",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.38400000000000034,
+      "uniform_contexts": 25
+    },
+    {
+      "dense_full_scored_contexts": 951,
+      "id": "d3-0c6b4e6aaff3b37a",
+      "label": "drone",
+      "padded_contexts": 0,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 59
+    },
+    {
+      "dense_full_scored_contexts": 1221,
+      "id": "d3-0c721b4707f8381f",
+      "label": "drone",
+      "padded_contexts": 0,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 67,
+      "id": "d3-11a549a855ccb9af",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.02400000000000091,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 452,
+      "id": "d3-15162f0d0c016438",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": 0.17043749999999136,
+      "uniform_contexts": 58
+    },
+    {
+      "dense_full_scored_contexts": 15,
+      "id": "d3-18b06eceae351e72",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 6.250000000029843e-05,
+      "uniform_contexts": 15
+    },
+    {
+      "dense_full_scored_contexts": 15,
+      "id": "d3-2101906a3ccd53de",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 6.250000000029843e-05,
+      "uniform_contexts": 15
+    },
+    {
+      "dense_full_scored_contexts": 224,
+      "id": "d3-220976027e5fd49c",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.41200000000000614,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 1295,
+      "id": "d3-27b257af76b15731",
+      "label": "drone",
+      "padded_contexts": 0,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 15,
+      "id": "d3-3eb150cc9646c83c",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 6.250000000029843e-05,
+      "uniform_contexts": 15
+    },
+    {
+      "dense_full_scored_contexts": 48,
+      "id": "d3-58f6918d30d69368",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.19712499999999977,
+      "uniform_contexts": 48
+    },
+    {
+      "dense_full_scored_contexts": 613,
+      "id": "d3-5a9632372b172ce9",
+      "label": "drone",
+      "padded_contexts": 0,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 877,
+      "id": "d3-63e4a5488a408f2f",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": 0.32012500000001864,
+      "uniform_contexts": 58
+    },
+    {
+      "dense_full_scored_contexts": 15,
+      "id": "d3-63e5fe2eb1a3f26b",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 6.250000000029843e-05,
+      "uniform_contexts": 15
+    },
+    {
+      "dense_full_scored_contexts": 457,
+      "id": "d3-68738cd299ec9a2e",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": 0.06399999999999295,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 16,
+      "id": "d3-6b049b36c10efedd",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.3669375000000006,
+      "uniform_contexts": 16
+    },
+    {
+      "dense_full_scored_contexts": 14,
+      "id": "d3-6da1ea77ce7de25e",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.2680000000000007,
+      "uniform_contexts": 14
+    },
+    {
+      "dense_full_scored_contexts": 16,
+      "id": "d3-7713c20e8609ecaf",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.20400000000000063,
+      "uniform_contexts": 16
+    },
+    {
+      "dense_full_scored_contexts": 55,
+      "id": "d3-78ceaed8de5a9051",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.02400000000000091,
+      "uniform_contexts": 55
+    },
+    {
+      "dense_full_scored_contexts": 15,
+      "id": "d3-8f0da8b35645adf5",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 6.250000000029843e-05,
+      "uniform_contexts": 15
+    },
+    {
+      "dense_full_scored_contexts": 67,
+      "id": "d3-ae34f86613f86cac",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.07512499999999989,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 20,
+      "id": "d3-b286ef8d1753f123",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.0649374999999992,
+      "uniform_contexts": 20
+    },
+    {
+      "dense_full_scored_contexts": 38,
+      "id": "d3-bc29b8bb24b6889f",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.12399999999999878,
+      "uniform_contexts": 38
+    },
+    {
+      "dense_full_scored_contexts": 1312,
+      "id": "d3-be38b56b7d209c46",
+      "label": "drone",
+      "padded_contexts": 1,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": 0.12018750000004275,
+      "uniform_contexts": 59
+    },
+    {
+      "dense_full_scored_contexts": 39,
+      "id": "d3-be79b12c1118d5e0",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.20406249999999915,
+      "uniform_contexts": 39
+    },
+    {
+      "dense_full_scored_contexts": 31,
+      "id": "d3-c14cbcd0aec458e3",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.4319999999999986,
+      "uniform_contexts": 31
+    },
+    {
+      "dense_full_scored_contexts": 77,
+      "id": "d3-c290938c31cb09c1",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.03999999999999915,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 40,
+      "id": "d3-c29c4c24808f1fc0",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.3000000000000007,
+      "uniform_contexts": 40
+    },
+    {
+      "dense_full_scored_contexts": 15,
+      "id": "d3-ca08ebc5b5b5a394",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 6.250000000029843e-05,
+      "uniform_contexts": 15
+    },
+    {
+      "dense_full_scored_contexts": 806,
+      "id": "d3-cae46a95e7dad505",
+      "label": "drone",
+      "padded_contexts": 0,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 57
+    },
+    {
+      "dense_full_scored_contexts": 247,
+      "id": "d3-ece16903b721c4c6",
+      "label": "non_drone",
+      "padded_contexts": 1,
+      "source": "d3set-noise",
+      "tail_new_audio_seconds": 0.16800000000000637,
+      "uniform_contexts": 60
+    },
+    {
+      "dense_full_scored_contexts": 1130,
+      "id": "d3-f8bd8b9487b4ea34",
+      "label": "drone",
+      "padded_contexts": 0,
+      "source": "d3set-ground",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 58
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-125929-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-149294-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-149294-B-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 4,
+      "id": "esc10-4-156843-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 4
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-156844-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-157297-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-157611-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-157611-B-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-160999-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-161127-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 4,
+      "id": "esc10-4-161579-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 4
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-161579-B-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-163264-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164021-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164064-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164064-B-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164064-C-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164206-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164661-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164661-B-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-164859-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-165823-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-165823-B-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-166661-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-167063-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-167063-B-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-167063-C-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-167077-A-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-167077-B-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-167077-C-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 3,
+      "id": "esc10-4-167642-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 3
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-169127-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-169127-B-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-170078-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-170247-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-170247-B-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-171207-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 4,
+      "id": "esc10-4-171519-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 4
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-175000-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-175000-B-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-175000-C-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-175945-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-177250-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-179984-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-180380-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-181035-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-181286-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-181563-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-181865-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-182368-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-182369-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 4,
+      "id": "esc10-4-182395-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 4
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-182613-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-182613-B-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-183487-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-183992-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-184434-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-184575-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-185415-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-185575-A-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-185575-B-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-185575-C-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-185619-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-188033-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-191327-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-191687-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-192236-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-193480-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-193480-B-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-194711-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-194754-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-195497-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-195497-B-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-198965-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-199261-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-204618-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-207124-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-208021-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-59579-A-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-4-59579-B-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-151085-A-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-170338-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-170338-B-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-171653-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-177957-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-177957-B-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-177957-C-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-177957-D-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-177957-E-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-181766-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-185579-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-185579-B-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-186924-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 4,
+      "id": "esc10-5-187979-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 4
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-188655-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-189212-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-189237-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-191131-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-193339-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-193473-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-193473-B-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-194533-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-194892-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-194930-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-194930-B-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-195710-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198321-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198411-A-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198411-B-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198411-C-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198411-D-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198411-E-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198411-F-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-198411-G-20",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-200334-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-200334-B-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-200339-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-200461-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-200461-B-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-201194-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-201274-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-202220-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-202898-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-203128-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-203128-B-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-203739-A-10",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-205898-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-208030-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-208624-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-208810-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-208810-B-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-209698-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-209833-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-210571-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-212181-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-212454-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-213077-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-213802-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-213855-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-215658-A-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-215658-B-12",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-216370-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-216370-B-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-217158-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-219342-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-219379-A-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-219379-B-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-219379-C-11",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 3,
+      "id": "esc10-5-220026-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 3
+    },
+    {
+      "dense_full_scored_contexts": 4,
+      "id": "esc10-5-220027-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 4
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-220955-A-40",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-221518-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 3,
+      "id": "esc10-5-221593-A-21",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 3
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-222524-A-41",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 4,
+      "id": "esc10-5-231762-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 4
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-233160-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-234879-A-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-234879-B-1",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-235671-A-38",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    },
+    {
+      "dense_full_scored_contexts": 5,
+      "id": "esc10-5-9032-A-0",
+      "label": "non_drone",
+      "padded_contexts": 0,
+      "source": "esc10",
+      "tail_new_audio_seconds": null,
+      "uniform_contexts": 5
+    }
+  ],
+  "scope": "Existing DEVELOPMENT traces only; fixed weights/decisions, no new assessment or threshold selection",
+  "uniform_contexts": 2651
+}

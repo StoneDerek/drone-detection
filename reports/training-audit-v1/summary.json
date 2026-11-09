@@ -1,0 +1,19 @@
+{
+  "artifact_checksums_sha256": "2f4ead15b9691945d7e943bc168bb170ba495f29d150b07295048146f779ad98",
+  "artifact_files": 16,
+  "baseline_detected_positives": 16,
+  "cached_contexts_reextracted": 7299,
+  "control_detected_positives": 14,
+  "development_negative_files": 188,
+  "development_negatives_alarmed": 9,
+  "existing_models_and_public_deployment_unchanged": true,
+  "files_audited": 615,
+  "original_precision_files_recovered": 15,
+  "raw_audio_packaged": false,
+  "status": "Completed bounded audit; residual training/generalization issues remain",
+  "tests_passed": 80,
+  "verified_issues": [
+    "Sampled sub-bag target differs from whole-recording weak label",
+    "DDL32-bit\u219216-bit conversion loses precision"
+  ]
+}

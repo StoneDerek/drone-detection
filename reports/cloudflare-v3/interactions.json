@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8012",
+  "scope": "UI checks on existing real examples and one development upload; no new acoustic benchmark",
+  "app_js_sha256": "3fd3b0f47c537578f1bf803e9a771cfab8a10efb775765de82114308f4049839",
+  "automaticExamplesLoaded": 5,
+  "multipleFileUpload": true,
+  "batchRecordings": 7,
+  "persistentRecordingResults": true,
+  "allCatalogCNNsSelectable": true,
+  "cnnCount": 14,
+  "unscoredCNNExplanation": true,
+  "contextPreservedAcrossModels": true,
+  "identicalPreprocessingShowsIdenticalInput": true,
+  "nativeMapShape": [
+    8,
+    22
+  ],
+  "opacityZeroMatchesInput": true,
+  "heatmapAndOverlay": true,
+  "nativeAndInterpolatedMaps": true,
+  "linkedRectangleZoom": true,
+  "wheelZoom": true,
+  "shiftDragPan": true,
+  "resetZoom": true,
+  "hashedBatchExport": true,
+  "bounds": {
+    "before": {
+      "fmin": 79.377,
+      "fmax": 3029.377,
+      "tmin": 1.628,
+      "tmax": 4.364
+    },
+    "dragged": {
+      "fmin": 687.256,
+      "fmax": 2296.347,
+      "tmin": 2.282,
+      "tmax": 3.683
+    },
+    "wheeled": {
+      "fmin": 881.69,
+      "fmax": 2110.037,
+      "tmin": 2.455,
+      "tmax": 3.524
+    },
+    "panned": {
+      "fmin": 923.049,
+      "fmax": 2151.396,
+      "tmin": 2.404,
+      "tmax": 3.473
+    },
+    "reset": {
+      "fmin": 79.377,
+      "fmax": 7570.623,
+      "tmin": 1.628,
+      "tmax": 4.364
+    }
+  },
+  "noAudioUploads": true,
+  "pageErrors": [],
+  "browser": "156.0.8078.79",
+  "newModelExplanations": [
+    {
+      "name": "coverage8",
+      "model_id": "e8cfb43a7e07bb0d7fc98abc59af05317e0512355ca16bf8056f1a713b2fa330",
+      "coarse_shape": [
+        15,
+        22
+      ],
+      "score": 0.4879376995476083
+    },
+    {
+      "name": "medium-balanced-global-head",
+      "model_id": "b955c44de275b93f03e06319d99207f561b7356152258a23e18fb8ed3fbdd331",
+      "coarse_shape": [
+        15,
+        22
+      ],
+      "score": 0.3436118910723763
+    },
+    {
+      "name": "medium-balanced-frequency-head",
+      "model_id": "8dfb6a64e6e38bb6164ff21b0adf7938cc959fe9cd958e374bcf58b32a361f8b",
+      "coarse_shape": [
+        15,
+        22
+      ],
+      "score": 0.998234114532386
+    },
+    {
+      "name": "coherent-global-seed42",
+      "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+      "coarse_shape": [
+        15,
+        22
+      ],
+      "score": 0.900155057028741
+    },
+    {
+      "name": "coherent-frequency-seed42",
+      "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+      "coarse_shape": [
+        15,
+        22
+      ],
+      "score": 0.9944683252202301
+    },
+    {
+      "name": "coherent-frequency-seed7",
+      "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+      "coarse_shape": [
+        15,
+        22
+      ],
+      "score": 0.9987759894047546
+    }
+  ]
+}

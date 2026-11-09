@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "kind": "positive",
+      "windows": 726,
+      "duration": 365.420375,
+      "alarms": 15,
+      "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+      "uploadAndSeek": true,
+      "displayedState": "ALARM"
+    },
+    {
+      "kind": "negative",
+      "windows": 5,
+      "duration": 5,
+      "alarms": 0,
+      "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+      "uploadAndSeek": true,
+      "displayedState": "No alarm"
+    }
+  ],
+  "download": true,
+  "playbackAdvanced": true,
+  "invalidAudioActionable": true,
+  "pageErrors": [],
+  "browser": "156.0.8078.79",
+  "scope": "Software product verification on development recordings; not additional benchmark trials"
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "posthoc_failure_ids": [
+    "batear-new-2474750763FAA288_20260428_072320",
+    "batear-new-2474750763FAA288_20260428_072430",
+    "batear-new-2474750763FAA288_20260428_072800",
+    "batear-new-2474750763FAA288_20260428_073020"
+  ],
+  "reason": "First matching source/class/type by manifest order, fixed before fresh assessment. Includes real positives, ordinary negatives and mechanical hard negatives. A separately labeled appendix adds the first four observed candidate errors after assessment.",
+  "recording_ids": [
+    "ddl-310321-T016-10",
+    "ddl-310321-T003-10",
+    "batear-new-2474750763FAA288_20260428_072210",
+    "batear-new-2474750763FAA288_20260428_080410",
+    "batear-new-2474750763FAA288_20260428_072112",
+    "esc50-fresh-1-18527-A-44",
+    "esc50-fresh-1-11687-A-47",
+    "esc50-fresh-1-100210-A-36",
+    "esc50-fresh-1-18631-A-23",
+    "batear-new-2474750763FAA288_20260428_072320",
+    "batear-new-2474750763FAA288_20260428_072430",
+    "batear-new-2474750763FAA288_20260428_072800",
+    "batear-new-2474750763FAA288_20260428_073020"
+  ],
+  "titles": {
+    "batear-new-2474750763FAA288_20260428_072112": "batear-new-day \u00b7 same-session-rural",
+    "batear-new-2474750763FAA288_20260428_072210": "batear-new-day \u00b7 mavic-pro",
+    "batear-new-2474750763FAA288_20260428_072320": "batear-new-day \u00b7 mavic-pro",
+    "batear-new-2474750763FAA288_20260428_072430": "batear-new-day \u00b7 mavic-pro",
+    "batear-new-2474750763FAA288_20260428_072800": "batear-new-day \u00b7 same-session-rural",
+    "batear-new-2474750763FAA288_20260428_073020": "batear-new-day \u00b7 mavic-pro",
+    "batear-new-2474750763FAA288_20260428_080410": "batear-new-day \u00b7 mini-4-pro",
+    "ddl-310321-T003-10": "ddl-real \u00b7 PRO4",
+    "ddl-310321-T016-10": "ddl-real \u00b7 MINI",
+    "esc50-fresh-1-100210-A-36": "esc50-fresh-negatives \u00b7 vacuum_cleaner",
+    "esc50-fresh-1-11687-A-47": "esc50-fresh-negatives \u00b7 airplane",
+    "esc50-fresh-1-18527-A-44": "esc50-fresh-negatives \u00b7 engine",
+    "esc50-fresh-1-18631-A-23": "esc50-fresh-negatives \u00b7 breathing"
+  }
+}

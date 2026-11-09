@@ -1,0 +1,15 @@
+{
+  "baseline_model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "candidate_model_json_sha256": "05249d0283be2414f6876bf045febb183f54da0bf6dd3b8134f90e6d08d70618",
+  "default_modified": false,
+  "encoder_hashes_identical": true,
+  "fresh_final_not_scored": true,
+  "identical_training_record_ids_hashes_groups_windows": true,
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "model_id": "464e329b3d2253f9c928eb721fc0a001006b9fb3972312f65ad773bbb49ea35d",
+  "passed": true,
+  "product_source_sha256": "a5e1b60f5304456c92cab67da65967bef436c7bb9b41ffecd6909170fb57a21f",
+  "selection_source_sha256": "a5e1b60f5304456c92cab67da65967bef436c7bb9b41ffecd6909170fb57a21f",
+  "training_records_used": 405,
+  "training_source_sha256": "60f182132f0c33e266ce86b71efa08bfac23b823d16c4c954c179f03d433aae7"
+}

@@ -1,0 +1,11 @@
+{
+  "checksum_manifest_sha256": "a863f2e7c0a89be0832c04391904d0fe544ac42b90a0d8cd6f59455a87194a72",
+  "frozen_models": 11,
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "package_files_checked": 92,
+  "passed": true,
+  "python_modules_exact": 19,
+  "raw_audio_included": false,
+  "wheel": "acoustic_drone_detector-0.4.0-py3-none-any.whl",
+  "wheel_sha256": "d1fb25b2a47b53b442bb4e8045acbc8a84daed397daffdac59d64d95d77c51c7"
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scope": "Product software check on one existing real development input; not acoustic validation",
+  "models": [
+    {
+      "name": "mel64-fft1024",
+      "model_id": "47e544e4ad7b493a8defe1f24eb0e534603b7ce8de611b1362ed36ffc4190261",
+      "windows": 14
+    },
+    {
+      "name": "relative-logistic",
+      "model_id": "30c0d49b9e1be3318e25c76a554a7988752267945442790fa98cc6feffa97af1",
+      "windows": 14
+    }
+  ],
+  "uploadComparison": true,
+  "playbackAndSeek": true,
+  "genuineGradcamAPI": true,
+  "explanationMatchesScore": true,
+  "gradcam": {
+    "shape": [
+      64,
+      184
+    ],
+    "coarse_shape": [
+      32,
+      92
+    ],
+    "target": "drone",
+    "layer": "conv1",
+    "has_positive_attribution": true
+  },
+  "frequencyZoom": true,
+  "comparisonAndExplanationDownloads": true,
+  "invalidAudioActionable": true,
+  "browser": "156.0.8078.79",
+  "pageErrors": []
+}

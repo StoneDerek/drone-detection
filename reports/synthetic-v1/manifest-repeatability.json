@@ -1,0 +1,7 @@
+{
+  "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+  "operation": "Regenerated data/audit/grouping/splits only. No final audio rescored or model retuned.",
+  "passed": true,
+  "recordings": 90,
+  "scope": "Same pinned environment, different output root"
+}

@@ -1,0 +1,174 @@
+{
+  "attribution": "Actual gradient-weighted activations of trained CNN logits. Not proof of causal acoustic cues; no Grad-CAM claimed for SVM or frozen SavedModel.",
+  "cases": {
+    "linear-fft1024": {
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 1024,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "shape": [
+        483,
+        184,
+        1
+      ]
+    },
+    "linear-fft4096": {
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "shape": [
+        1933,
+        172,
+        1
+      ]
+    },
+    "linear-power-fft4096": {
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "linear_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "shape": [
+        1933,
+        172,
+        1
+      ]
+    },
+    "mel256-fft4096": {
+      "features": {
+        "axis": "mel",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 256,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "shape": [
+        256,
+        172,
+        1
+      ]
+    },
+    "mel64-fft1024": {
+      "features": {
+        "axis": "mel",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 1024,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "shape": [
+        64,
+        184,
+        1
+      ]
+    },
+    "mel64-fft4096": {
+      "features": {
+        "axis": "mel",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "shape": [
+        64,
+        172,
+        1
+      ]
+    }
+  },
+  "checkpoint_selection": "Minimum balanced development bag loss on <=60 uniform contexts per recording, checked every 2 epochs; full development recording traces used once for decision calibration",
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "846d034fb2f141e11309de54b2f9a4994d21c790ec3abc895bf7d91ec4dede72"
+  },
+  "controls": "Same grouped real files, uniformly sampled contexts, 16kHz mono, 3s context, .5s detection step, 256-sample STFT hop, 50-7600Hz band, per-context relative amplitude, CNN architecture/optimizer/seed/epoch budget and weak bag objective",
+  "data": {
+    "development": {
+      "files": 210,
+      "hours": 1.9078109136826027,
+      "negative": 188,
+      "positive": 22
+    },
+    "train": {
+      "files": 405,
+      "hours": 1.9124942162304737,
+      "negative": 350,
+      "positive": 55
+    }
+  },
+  "epochs": 8,
+  "hypotheses": [
+    "Retaining linear frequency bins preserves narrow harmonic detail",
+    "Increasing actual Hann analysis window from 1024 to 4096 improves frequency discrimination at the cost of temporal resolution",
+    "Log intensity may expose weak harmonics better than linear power",
+    "Identical CNN capacity can respond differently to frequency/time tensor dimensions",
+    "A fully non-neural RBF SVM on spectral temporal summaries can compete with the CNN"
+  ],
+  "interpretation_limit": "Dense grids change effective CNN receptive fields in physical Hz; higher input pixel count is not independent data or proof of increased information. Log intensity and mel frequency warping are separate factors.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "promotion": "No default replacement or fresh reliability claim from this development sweep",
+  "scope": "DEVELOPMENT ONLY; prior assessment consumed; no fresh final set scored; assessed default preserved",
+  "seed": 42,
+  "source_video": {
+    "inspection": "YouTube oEmbed request blocked with proxy 403; content not watched or verified",
+    "url": "https://www.youtube.com/watch?v=UytYrhYLOKI"
+  }
+}

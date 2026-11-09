@@ -1,0 +1,19 @@
+{
+  "batches_by_positive_count": {
+    "0": 378,
+    "1": 493,
+    "2": 257,
+    "3": 73,
+    "4": 21,
+    "5": 2
+  },
+  "epochs": 24,
+  "interpretation": "Class weighting balances expected mass, not every minibatch. Gradient clipping is nonlinear; negative-only batches and rare high-positive batches may destabilize training. This is a hypothesis, not a demonstrated cause.",
+  "negative_only_fraction": 0.3088235294117647,
+  "positive_records": 55,
+  "record_batch_size": 8,
+  "records": 405,
+  "scope": "Sampling-design diagnostic, not detection accuracy",
+  "seed": 42,
+  "theoretical_negative_only_probability_full_batch": 0.30769619607227444
+}

@@ -1,0 +1,162 @@
+{
+  "duplicate_method_limit": "Exact/gain-normalized whole-file hashes cannot rule out lossy copies or shifted/overlapping excerpts. Human provenance review remains mandatory.",
+  "flags": {},
+  "groups": {
+    "228c79efabd610d2064f": [
+      "g1-s02-hard_negative",
+      "g1-s02-ordinary_negative",
+      "g1-s02-positive"
+    ],
+    "2345852f3e80aceaff41": [
+      "g0-s06-hard_negative",
+      "g0-s06-ordinary_negative",
+      "g0-s06-positive"
+    ],
+    "29c8d15c6cb329fd88ac": [
+      "g1-s08-hard_negative",
+      "g1-s08-ordinary_negative",
+      "g1-s08-positive"
+    ],
+    "37ca1913d50bae9fb554": [
+      "g0-s08-hard_negative",
+      "g0-s08-ordinary_negative",
+      "g0-s08-positive"
+    ],
+    "3cc48e1a744f80958c1b": [
+      "g2-s09-hard_negative",
+      "g2-s09-ordinary_negative",
+      "g2-s09-positive"
+    ],
+    "4eed3b2864b81639d91e": [
+      "g0-s00-hard_negative",
+      "g0-s00-ordinary_negative",
+      "g0-s00-positive"
+    ],
+    "58d941ec57bd4f3280e1": [
+      "g1-s05-hard_negative",
+      "g1-s05-ordinary_negative",
+      "g1-s05-positive"
+    ],
+    "5af19e2df4617336d955": [
+      "g0-s07-hard_negative",
+      "g0-s07-ordinary_negative",
+      "g0-s07-positive"
+    ],
+    "5e4c9a938926d12b4f40": [
+      "g1-s06-hard_negative",
+      "g1-s06-ordinary_negative",
+      "g1-s06-positive"
+    ],
+    "6218588a06bcc9000894": [
+      "g2-s06-hard_negative",
+      "g2-s06-ordinary_negative",
+      "g2-s06-positive"
+    ],
+    "654978475961bff6ff71": [
+      "g2-s05-hard_negative",
+      "g2-s05-ordinary_negative",
+      "g2-s05-positive"
+    ],
+    "683bbc89e58a520e1e84": [
+      "g1-s00-hard_negative",
+      "g1-s00-ordinary_negative",
+      "g1-s00-positive"
+    ],
+    "763fa936095326e6f538": [
+      "g0-s02-hard_negative",
+      "g0-s02-ordinary_negative",
+      "g0-s02-positive"
+    ],
+    "8329f9501ba67f450504": [
+      "g2-s04-hard_negative",
+      "g2-s04-ordinary_negative",
+      "g2-s04-positive"
+    ],
+    "86675b723b41904f4a49": [
+      "g2-s03-hard_negative",
+      "g2-s03-ordinary_negative",
+      "g2-s03-positive"
+    ],
+    "a623debd4f27360d5e51": [
+      "g1-s07-hard_negative",
+      "g1-s07-ordinary_negative",
+      "g1-s07-positive"
+    ],
+    "a66f770d32d932835dda": [
+      "g1-s04-hard_negative",
+      "g1-s04-ordinary_negative",
+      "g1-s04-positive"
+    ],
+    "a9725855433961e5be9b": [
+      "g2-s02-hard_negative",
+      "g2-s02-ordinary_negative",
+      "g2-s02-positive"
+    ],
+    "c4506a65d82c0eec0788": [
+      "g0-s01-hard_negative",
+      "g0-s01-ordinary_negative",
+      "g0-s01-positive"
+    ],
+    "c4e61ecbc23be0e9263f": [
+      "g1-s09-hard_negative",
+      "g1-s09-ordinary_negative",
+      "g1-s09-positive"
+    ],
+    "cd46a1b7c330f1d4ca16": [
+      "g2-s07-hard_negative",
+      "g2-s07-ordinary_negative",
+      "g2-s07-positive"
+    ],
+    "d2e0a2a4572a2b90704c": [
+      "g0-s09-hard_negative",
+      "g0-s09-ordinary_negative",
+      "g0-s09-positive"
+    ],
+    "d3a88b7cdb31fc652db8": [
+      "g2-s08-hard_negative",
+      "g2-s08-ordinary_negative",
+      "g2-s08-positive"
+    ],
+    "d8357cafb454e50aec43": [
+      "g2-s01-hard_negative",
+      "g2-s01-ordinary_negative",
+      "g2-s01-positive"
+    ],
+    "e24403e03eb35f967360": [
+      "g1-s01-hard_negative",
+      "g1-s01-ordinary_negative",
+      "g1-s01-positive"
+    ],
+    "e907b159941acf1f936d": [
+      "g1-s03-hard_negative",
+      "g1-s03-ordinary_negative",
+      "g1-s03-positive"
+    ],
+    "e96876e31d6bebbfac8e": [
+      "g0-s04-hard_negative",
+      "g0-s04-ordinary_negative",
+      "g0-s04-positive"
+    ],
+    "f0e4368430d52156e2be": [
+      "g0-s03-hard_negative",
+      "g0-s03-ordinary_negative",
+      "g0-s03-positive"
+    ],
+    "f106e7a0ea364c11fd2c": [
+      "g2-s00-hard_negative",
+      "g2-s00-ordinary_negative",
+      "g2-s00-positive"
+    ],
+    "fcda78bfeabecd82382c": [
+      "g0-s05-hard_negative",
+      "g0-s05-ordinary_negative",
+      "g0-s05-positive"
+    ]
+  },
+  "known_authentic_recordings": 0,
+  "manifest_sha256": "67d86b312a9d2bc4dd7b5efa10da72118ebad4418e5a5e8cb4ddb5b00abaea22",
+  "recordings": 90,
+  "schema_version": 1,
+  "total_hours": 0.3,
+  "unresolved_provenance": []
+}

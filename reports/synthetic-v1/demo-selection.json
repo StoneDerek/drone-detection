@@ -1,0 +1,16 @@
+{
+  "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+  "posthoc_failure_ids": [
+    "g2-s02-positive"
+  ],
+  "reason": "First two final generator sessions by ID, all three recordings per session; selected before training and final inference. Positive, ordinary-negative and difficult-negative generated inputs. Post-hoc appendix contains every candidate holdout failure.",
+  "recording_ids": [
+    "g2-s00-hard_negative",
+    "g2-s00-ordinary_negative",
+    "g2-s00-positive",
+    "g2-s01-hard_negative",
+    "g2-s01-ordinary_negative",
+    "g2-s01-positive",
+    "g2-s02-positive"
+  ]
+}

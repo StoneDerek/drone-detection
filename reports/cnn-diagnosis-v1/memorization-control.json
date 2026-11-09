@@ -1,0 +1,251 @@
+{
+  "history": [
+    {
+      "min_correct_class_score": 0.4558764696121216,
+      "seconds": 0.15356860199995026,
+      "training_accuracy": 0.5,
+      "training_bce": 0.692857563495636,
+      "update": 0
+    },
+    {
+      "last_gradient_norm": 0.101993627846241,
+      "min_correct_class_score": 0.4781227707862854,
+      "seconds": 2.941145354000014,
+      "training_accuracy": 0.625,
+      "training_bce": 0.6853100061416626,
+      "update": 50
+    },
+    {
+      "last_gradient_norm": 0.19012072682380676,
+      "min_correct_class_score": 0.4626445770263672,
+      "seconds": 4.823519566999948,
+      "training_accuracy": 0.6875,
+      "training_bce": 0.6669952869415283,
+      "update": 100
+    },
+    {
+      "last_gradient_norm": 0.20440983772277832,
+      "min_correct_class_score": 0.43773168325424194,
+      "seconds": 6.742555511999967,
+      "training_accuracy": 0.625,
+      "training_bce": 0.6403111219406128,
+      "update": 150
+    },
+    {
+      "last_gradient_norm": 0.30593428015708923,
+      "min_correct_class_score": 0.43396884202957153,
+      "seconds": 8.80848007499992,
+      "training_accuracy": 0.625,
+      "training_bce": 0.6181489825248718,
+      "update": 200
+    },
+    {
+      "last_gradient_norm": 0.3397139012813568,
+      "min_correct_class_score": 0.41655904054641724,
+      "seconds": 10.604103879999911,
+      "training_accuracy": 0.6875,
+      "training_bce": 0.5747610330581665,
+      "update": 250
+    },
+    {
+      "last_gradient_norm": 0.41124096512794495,
+      "min_correct_class_score": 0.4917159080505371,
+      "seconds": 12.405484436999927,
+      "training_accuracy": 0.9375,
+      "training_bce": 0.4238511323928833,
+      "update": 300
+    },
+    {
+      "last_gradient_norm": 1.6826602220535278,
+      "min_correct_class_score": 0.5821129679679871,
+      "seconds": 14.133809503999942,
+      "training_accuracy": 1.0,
+      "training_bce": 0.28163349628448486,
+      "update": 350
+    },
+    {
+      "last_gradient_norm": 0.4186360239982605,
+      "min_correct_class_score": 0.6012511253356934,
+      "seconds": 16.077425740999956,
+      "training_accuracy": 1.0,
+      "training_bce": 0.1946212649345398,
+      "update": 400
+    },
+    {
+      "last_gradient_norm": 0.4988571107387543,
+      "min_correct_class_score": 0.7278739213943481,
+      "seconds": 17.803386348999993,
+      "training_accuracy": 1.0,
+      "training_bce": 0.12277242541313171,
+      "update": 450
+    },
+    {
+      "last_gradient_norm": 1.4299849271774292,
+      "min_correct_class_score": 0.7717678546905518,
+      "seconds": 19.59378100799995,
+      "training_accuracy": 1.0,
+      "training_bce": 0.0863637626171112,
+      "update": 500
+    },
+    {
+      "last_gradient_norm": 0.5755669474601746,
+      "min_correct_class_score": 0.8756444454193115,
+      "seconds": 21.26349880700002,
+      "training_accuracy": 1.0,
+      "training_bce": 0.05167171359062195,
+      "update": 550
+    },
+    {
+      "last_gradient_norm": 0.12459379434585571,
+      "min_correct_class_score": 0.8867016434669495,
+      "seconds": 22.928850023999985,
+      "training_accuracy": 1.0,
+      "training_bce": 0.03824388235807419,
+      "update": 600
+    },
+    {
+      "last_gradient_norm": 0.5437443852424622,
+      "min_correct_class_score": 0.9461528658866882,
+      "seconds": 24.584457767000004,
+      "training_accuracy": 1.0,
+      "training_bce": 0.02443847432732582,
+      "update": 650
+    },
+    {
+      "last_gradient_norm": 0.43398815393447876,
+      "min_correct_class_score": 0.9488587975502014,
+      "seconds": 26.42321743699995,
+      "training_accuracy": 1.0,
+      "training_bce": 0.018040603026747704,
+      "update": 700
+    },
+    {
+      "last_gradient_norm": 0.15442615747451782,
+      "min_correct_class_score": 0.9713632464408875,
+      "seconds": 28.335837047999917,
+      "training_accuracy": 1.0,
+      "training_bce": 0.013609674759209156,
+      "update": 750
+    }
+  ],
+  "labels": "Publisher recording labels inherited by middle context, NOT independently verified audible events",
+  "records": [
+    {
+      "id": "svanstrom-DRONE_001",
+      "label": "drone",
+      "sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-DRONE_002",
+      "label": "drone",
+      "sha256": "a18e7825b0da4df748bea37d9392d92512192a7fe6447bea679d8980c8cfe3c4",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-DRONE_003",
+      "label": "drone",
+      "sha256": "12f04588de940bcd15ae955eb1b9a8a250986cf129f5c481f64598cd32cd302b",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-DRONE_004",
+      "label": "drone",
+      "sha256": "37c5062e4f07c9e05a67f7eb92a02785bddbf2fa10da8fd8596526755b54ec82",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-DRONE_005",
+      "label": "drone",
+      "sha256": "d56924abc9fe6ae53fae99e3eb5b72d2805c605581fa3e129eac8e578623705a",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-DRONE_006",
+      "label": "drone",
+      "sha256": "2079a59ea51d1e3468c29302d3c0c443b365fa27fe7dc53ac57a5fbc6d6b1edf",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-DRONE_007",
+      "label": "drone",
+      "sha256": "46bb93a90bec955129f6e2b2043d8d406fe93dedcd50a2a1519f82db1c59e420",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-DRONE_008",
+      "label": "drone",
+      "sha256": "3001968764aafe76b604c455a7464f19dde8bd5b91fc24f1f486be6df5daa749",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-HELICOPTER_001",
+      "label": "non_drone",
+      "sha256": "ff04901b686c1b5aee3db7a7fcef94df677fd2e8cd49e6a840dc09e025260e90",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-HELICOPTER_002",
+      "label": "non_drone",
+      "sha256": "e9dbf544c189c0a1d80f3d599501432ecbd84e03ce5e1536114c6417d7de30d9",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-HELICOPTER_003",
+      "label": "non_drone",
+      "sha256": "976b0afd62fe6045673d37e0ba585979212603061c27bf9d1de4b23049b8f6af",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-HELICOPTER_004",
+      "label": "non_drone",
+      "sha256": "bdb7524eef645970587e1e96eaf23374255fc1789522f4bb69a42effc017d18b",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-BACKGROUND_001",
+      "label": "non_drone",
+      "sha256": "e8790309a7888c58c1d1f0f3bfa7850f193af5f23fceb8fdc830aad610ffeb28",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-BACKGROUND_002",
+      "label": "non_drone",
+      "sha256": "3bdef3845531382240df338a41e555d42023d98e8db63c54380fab82c23bde39",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-BACKGROUND_003",
+      "label": "non_drone",
+      "sha256": "7fcad6fffda1d56ba8c236480b04289e8c079ff518c0770770c0cb8c09c43e95",
+      "start_sample": 56000
+    },
+    {
+      "id": "svanstrom-BACKGROUND_004",
+      "label": "non_drone",
+      "sha256": "8db1c6e9977126387f5ab00fe5d09cbda1a91e12d315a59356059d606eab0552",
+      "start_sample": 56000
+    }
+  ],
+  "scope": "Fit the SAME 16 real training contexts; mechanical optimization check only, NO generalization test",
+  "scores": [
+    0.9990386962890625,
+    0.9945011138916016,
+    0.9983868598937988,
+    0.9736373424530029,
+    0.9737008810043335,
+    0.9893636703491211,
+    0.9874643683433533,
+    0.9768894910812378,
+    0.014590912498533726,
+    0.005957257468253374,
+    0.028636761009693146,
+    0.0003867240739054978,
+    0.021954169496893883,
+    0.027461983263492584,
+    0.009401627816259861,
+    1.0846139275599853e-06
+  ],
+  "selection": "First 8 drone, 4 helicopter and 4 background Svanstrom training recordings, sorted by id; one middle cached context each",
+  "settings": "Same compact1781 CNN seed42, peak-relative linear256 input, Adam .001 clipnorm1, dropout .1, L2 .0001; supervised singleton BCE, full batch16, max2000 updates, stop100% correct and minimum correct-class score>.95"
+}

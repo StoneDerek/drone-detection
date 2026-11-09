@@ -1,0 +1,24 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "535027f488b72440b2470f5e3c9ec104d4f81dedd6c5d77b6283a1fc515f7d0a"
+  },
+  "models": {
+    "frequency-context-fft4096": {
+      "decision_equal": true,
+      "frozen_id": "9d818cb0f09337098cf3dcc09bd862861e19c72468845a237a8c9a84a27ee0aa",
+      "parameters_sha256": "89442e4520a28c5fdf9ca630441ebfb9ff40982b022dacec87d188e9654cdfd9",
+      "prior_draft_id": "e9c71428eeab4aa179247cb18bcf631a6f740c6d67d0db6854cd8459d71e52dc",
+      "weights_equal": true
+    },
+    "linear256-fft4096": {
+      "decision_equal": true,
+      "frozen_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+      "parameters_sha256": "52ccda9c41dced0f16c4dbaeda542dbd70b8b2dff467ffb784f1a32ef180b80d",
+      "prior_draft_id": "1c87ece0ad79f5b2758e00b3b6ba49fde581fff14eb0d5587f1ffe1b43e22b79",
+      "weights_equal": true
+    }
+  },
+  "reason": "Package validation rejected a trained status inherited from follow-up parents after development calibration.",
+  "weights_decisions_metrics_changed": false
+}

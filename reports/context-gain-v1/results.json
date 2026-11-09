@@ -1,0 +1,101 @@
+{
+  "baseline": {
+    "development": {
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.375,
+        "on_hits": 2,
+        "on_threshold": 0.5
+      },
+      "metrics": {
+        "average_precision_max_window_score": 0.9112552480199538,
+        "balanced_accuracy": 0.9306092843326886,
+        "confusion": {
+          "fn": 2,
+          "fp": 9,
+          "tn": 179,
+          "tp": 20
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.6896551724137931,
+        "provenance_groups": 145,
+        "recording_recall": 0.9090909090909091,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.9830754352030947
+      }
+    },
+    "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f"
+  },
+  "candidate": {
+    "development": {
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.6000000000000001,
+        "on_hits": 1,
+        "on_threshold": 0.8
+      },
+      "metrics": {
+        "average_precision_max_window_score": 0.957981993851559,
+        "balanced_accuracy": 0.9533365570599613,
+        "confusion": {
+          "fn": 1,
+          "fp": 9,
+          "tn": 179,
+          "tp": 21
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.7,
+        "provenance_groups": 145,
+        "recording_recall": 0.9545454545454546,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.9917794970986461
+      }
+    },
+    "development_seconds": 573.248276436997,
+    "input_gain": {
+      "maximum_gain_db": 20.0,
+      "peak_cap": 0.98,
+      "scope": "available samples in current context, before padding",
+      "silence_guard_unchanged": true,
+      "target_rms": 0.05
+    },
+    "model_id": "464e329b3d2253f9c928eb721fc0a001006b9fb3972312f65ad773bbb49ea35d",
+    "training_seconds": 140.16214512199986
+  },
+  "default_changed": false,
+  "fresh_reliability_claim": false,
+  "plan": {
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "60f182132f0c33e266ce86b71efa08bfac23b823d16c4c954c179f03d433aae7"
+    },
+    "control": "Frozen YAMNet v1; identical MI head method, C1, seed42, train/development files, context/hop, threshold grid and sensitivity-v2 selection",
+    "engineering_choices": "Gain target/caps and advisory thresholds are provisional choices, not claims from the article or user requirements",
+    "evaluation_scope": "DEVELOPMENT ONLY. Prior v2 assessment informed the failure hypotheses and is consumed for any future model optimization. No fresh assessment is scored here.",
+    "hypothesis": "Available-context RMS gain control reduces microphone/loudness sensitivity of frozen audio embeddings",
+    "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+    "only_feature_change": "Per-context RMS target .05, gain cap +20dB, peak cap .98, before zero padding; original silence guard unchanged",
+    "promotion": "The independently assessed v2 default is preserved; this model is an opt-in experiment regardless of development outcome",
+    "reference": "User-pasted Counter-UAS 101 \u2013 Acoustic Drone Detection (Jan 2026); secondary overview used for hypotheses, quantitative claims unverified"
+  },
+  "quality_advisory_coverage": {
+    "clipping_flagged_windows": 6,
+    "interpretation": "Uncalibrated input advisories, not measured wind/SNR or an accuracy/coverage improvement. Binary alarm decisions unchanged by flags.",
+    "low_frequency_flagged_windows": 2806,
+    "recordings": 210,
+    "windows": 12710
+  },
+  "scope": "DEVELOPMENT ONLY. Prior v2 assessment informed the failure hypotheses and is consumed for any future model optimization. No fresh assessment is scored here."
+}

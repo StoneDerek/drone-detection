@@ -1,0 +1,12 @@
+{
+  "device_buffering": "unmeasured",
+  "duration_seconds": 12.0,
+  "first_wall_delivery_seconds": 3.0027676049999172,
+  "last_wall_delivery_seconds": 12.002398303000064,
+  "matches_frozen_reference_trace": true,
+  "mode": "Wall-clock recorded replay after model initialization/file decode, no physical microphone",
+  "p95_compute_delivery_lag_seconds": 0.0027027266998857157,
+  "passed": true,
+  "score_and_state_parity": true,
+  "windows": 19
+}

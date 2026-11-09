@@ -1,0 +1,9 @@
+# Keep source line endings consistent while preserving checksummed evidence.
+* text=auto eol=lf
+artifacts/** -text
+reports/** -text
+web/public/** -text
+data/*.jsonl -text
+
+# Google's original class map uses CRLF; its published bytes are retained.
+artifacts/**/yamnet_class_map.csv whitespace=trailing-space,space-before-tab,cr-at-eol

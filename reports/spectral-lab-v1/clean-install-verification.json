@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "version": "0.3.0",
+  "module_path": "/tmp/drone-lab-clean-lGaqcT/lib/python3.12/site-packages/drone_detector/__init__.py",
+  "isolated_python": true,
+  "editable_install": false,
+  "copied_models_and_input": true,
+  "source_checkout_or_corpus_required": false,
+  "input_sha256": "18ef2eb6318f075bd1c978b2c0c16dcb01fd8a6575925703e0fca27f0206395c",
+  "model_ids": {
+    "cnn": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+    "svm": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04"
+  },
+  "scope": "Install/provenance check; not a new acoustic benchmark. Browser proof verifies the installed running app."
+}

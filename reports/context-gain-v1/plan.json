@@ -1,0 +1,14 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "60f182132f0c33e266ce86b71efa08bfac23b823d16c4c954c179f03d433aae7"
+  },
+  "control": "Frozen YAMNet v1; identical MI head method, C1, seed42, train/development files, context/hop, threshold grid and sensitivity-v2 selection",
+  "engineering_choices": "Gain target/caps and advisory thresholds are provisional choices, not claims from the article or user requirements",
+  "evaluation_scope": "DEVELOPMENT ONLY. Prior v2 assessment informed the failure hypotheses and is consumed for any future model optimization. No fresh assessment is scored here.",
+  "hypothesis": "Available-context RMS gain control reduces microphone/loudness sensitivity of frozen audio embeddings",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "only_feature_change": "Per-context RMS target .05, gain cap +20dB, peak cap .98, before zero padding; original silence guard unchanged",
+  "promotion": "The independently assessed v2 default is preserved; this model is an opt-in experiment regardless of development outcome",
+  "reference": "User-pasted Counter-UAS 101 \u2013 Acoustic Drone Detection (Jan 2026); secondary overview used for hypotheses, quantitative claims unverified"
+}

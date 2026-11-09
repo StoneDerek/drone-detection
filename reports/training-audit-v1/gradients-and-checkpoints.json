@@ -1,0 +1,85 @@
+{
+  "batch_single_logit_error": 1.9073486328125e-06,
+  "checkpoint_checks": [
+    {
+      "name": "coherent-global-seed42",
+      "selected_epoch": 24,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-global-seed42-last",
+      "selected_epoch": 24,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-global-seed42-at8",
+      "selected_epoch": 2,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-frequency-seed42",
+      "selected_epoch": 10,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-frequency-seed42-last",
+      "selected_epoch": 24,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-frequency-seed42-at8",
+      "selected_epoch": 8,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-frequency-seed7",
+      "selected_epoch": 12,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-frequency-seed7-last",
+      "selected_epoch": 24,
+      "weights_exact": true
+    },
+    {
+      "name": "coherent-frequency-seed7-at8",
+      "selected_epoch": 8,
+      "weights_exact": true
+    }
+  ],
+  "clipping_semantics": "Keras clipnorm1 clips each parameter tensor, not one global concatenated gradient.",
+  "full_contexts": 179,
+  "full_objective_including_l2": 0.09667989611625671,
+  "gradient_norms": {
+    "conv1/bias": 0.37805256247520447,
+    "conv1/kernel": 0.9952995777130127,
+    "conv2/bias": 0.13533994555473328,
+    "conv2/kernel": 0.29442089796066284,
+    "features/bias": 0.02839105948805809,
+    "features/kernel": 0.1330430507659912,
+    "logit/bias": 0.013980092480778694,
+    "logit/kernel": 0.15343143045902252,
+    "readout/bias": 0.0192350372672081,
+    "readout/kernel": 0.2022305727005005
+  },
+  "independent_bce_objective": 0.09667989611625671,
+  "independent_first_adam_step_weight_error": 1.946489286419606e-08,
+  "independent_gradient_max_error": 1.9371509552001953e-07,
+  "model_id": "897285a50bc748e5d39ffab6fac8a6f210769ab57bb30cd3da6bd541fdf5c047",
+  "passed": true,
+  "recordings": [
+    "d3-1679740f637ee146",
+    "d3-1887ea8d3a150f07",
+    "svanstrom-DRONE_001",
+    "svanstrom-DRONE_002",
+    "d3-0377ba0cc2255a43",
+    "d3-0cc81b1a030cf5f7",
+    "esc10-1-100032-A-0",
+    "esc10-1-110389-A-0"
+  ],
+  "scope": "Software/gradient oracle on8 existing real TRAIN recordings; no acoustic accuracy evidence",
+  "selected_maxima": 8,
+  "train_inference_logit_error": 0.0,
+  "two_pass_gradient_max_error": 4.425644874572754e-06,
+  "two_pass_objective": 0.09667988121509552
+}

@@ -1,0 +1,12 @@
+{
+  "name": "drone-audio-lab-web",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "scripts": {"build": "node build.mjs"},
+  "dependencies": {
+    "@tensorflow/tfjs": "4.22.0",
+    "fft.js": "4.0.4"
+  },
+  "devDependencies": {"esbuild": "0.25.12", "wrangler": "4.65.0"}
+}

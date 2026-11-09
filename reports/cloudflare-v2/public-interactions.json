@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "url": "https://drone-audio-lab.pages.dev",
+  "scope": "UI checks on existing real examples and one development upload; no new acoustic benchmark",
+  "app_js_sha256": "4058f17614383da9584198ff9813bd16bfee2838c4e282fc0932f32f07e41a0e",
+  "automaticExamplesLoaded": 5,
+  "multipleFileUpload": true,
+  "batchRecordings": 7,
+  "persistentRecordingResults": true,
+  "allEightCNNsSelectable": true,
+  "unscoredCNNExplanation": true,
+  "contextPreservedAcrossModels": true,
+  "identicalPreprocessingShowsIdenticalInput": true,
+  "nativeMapShape": [
+    8,
+    22
+  ],
+  "opacityZeroMatchesInput": true,
+  "heatmapAndOverlay": true,
+  "nativeAndInterpolatedMaps": true,
+  "linkedRectangleZoom": true,
+  "wheelZoom": true,
+  "shiftDragPan": true,
+  "resetZoom": true,
+  "hashedBatchExport": true,
+  "bounds": {
+    "before": {
+      "fmin": 79.377,
+      "fmax": 3029.377,
+      "tmin": 1.628,
+      "tmax": 4.364
+    },
+    "dragged": {
+      "fmin": 687.256,
+      "fmax": 2296.347,
+      "tmin": 2.282,
+      "tmax": 3.683
+    },
+    "wheeled": {
+      "fmin": 882.331,
+      "fmax": 2110.678,
+      "tmin": 2.455,
+      "tmax": 3.524
+    },
+    "panned": {
+      "fmin": 923.69,
+      "fmax": 2152.037,
+      "tmin": 2.404,
+      "tmax": 3.473
+    },
+    "reset": {
+      "fmin": 79.377,
+      "fmax": 7570.623,
+      "tmin": 1.628,
+      "tmax": 4.364
+    }
+  },
+  "noAudioUploads": true,
+  "pageErrors": [],
+  "browser": "156.0.8078.79"
+}

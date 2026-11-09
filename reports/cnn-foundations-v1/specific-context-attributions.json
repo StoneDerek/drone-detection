@@ -1,0 +1,235 @@
+{
+  "cases": [
+    {
+      "end_seconds": 7.0,
+      "id": "svanstrom-DRONE_001",
+      "license": "CC0-1.0",
+      "models": {
+        "coherent-frequency-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+          "positive_map": true,
+          "score": 0.980822741985321
+        },
+        "coherent-frequency-seed7": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+          "positive_map": true,
+          "score": 0.9320313930511475
+        },
+        "coherent-global-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+          "positive_map": true,
+          "score": 0.9385279417037964
+        },
+        "linear256-fft4096": {
+          "coarse_shape": [
+            8,
+            22
+          ],
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "positive_map": false,
+          "score": 0.4225219786167145
+        }
+      },
+      "original_sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+      "publisher_label": "drone",
+      "start_seconds": 4.0
+    },
+    {
+      "end_seconds": 9.5,
+      "id": "svanstrom-DRONE_001",
+      "license": "CC0-1.0",
+      "models": {
+        "coherent-frequency-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+          "positive_map": true,
+          "score": 0.9665700197219849
+        },
+        "coherent-frequency-seed7": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+          "positive_map": true,
+          "score": 0.9142152667045593
+        },
+        "coherent-global-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+          "positive_map": true,
+          "score": 0.9043369889259338
+        },
+        "linear256-fft4096": {
+          "coarse_shape": [
+            8,
+            22
+          ],
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "positive_map": false,
+          "score": 0.4312351942062378
+        }
+      },
+      "original_sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+      "publisher_label": "drone",
+      "start_seconds": 6.5
+    },
+    {
+      "end_seconds": 3.0,
+      "id": "batear-20260415_192501",
+      "license": "MIT",
+      "models": {
+        "coherent-frequency-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+          "positive_map": true,
+          "score": 0.99834144115448
+        },
+        "coherent-frequency-seed7": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+          "positive_map": true,
+          "score": 0.9993046522140503
+        },
+        "coherent-global-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+          "positive_map": true,
+          "score": 0.9525488615036011
+        },
+        "linear256-fft4096": {
+          "coarse_shape": [
+            8,
+            22
+          ],
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "positive_map": false,
+          "score": 0.43214550614356995
+        }
+      },
+      "original_sha256": "18ef2eb6318f075bd1c978b2c0c16dcb01fd8a6575925703e0fca27f0206395c",
+      "publisher_label": "drone",
+      "start_seconds": 0.0
+    },
+    {
+      "end_seconds": 6.0,
+      "id": "svanstrom-HELICOPTER_001",
+      "license": "CC0-1.0",
+      "models": {
+        "coherent-frequency-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+          "positive_map": true,
+          "score": 0.007332285866141319
+        },
+        "coherent-frequency-seed7": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+          "positive_map": false,
+          "score": 0.0029809661209583282
+        },
+        "coherent-global-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+          "positive_map": true,
+          "score": 0.12758664786815643
+        },
+        "linear256-fft4096": {
+          "coarse_shape": [
+            8,
+            22
+          ],
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "positive_map": false,
+          "score": 0.42446252703666687
+        }
+      },
+      "original_sha256": "ff04901b686c1b5aee3db7a7fcef94df677fd2e8cd49e6a840dc09e025260e90",
+      "publisher_label": "non_drone",
+      "start_seconds": 3.0
+    },
+    {
+      "end_seconds": 3.0,
+      "id": "batear-20230701_054200",
+      "license": "MIT",
+      "models": {
+        "coherent-frequency-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+          "positive_map": true,
+          "score": 0.5534877777099609
+        },
+        "coherent-frequency-seed7": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859",
+          "positive_map": true,
+          "score": 0.15499036014080048
+        },
+        "coherent-global-seed42": {
+          "coarse_shape": [
+            15,
+            22
+          ],
+          "model_id": "2ea6fc34ba9d8247d3f1f28eaaf2b30c682f568e6620b6cf5bd651a5914d683e",
+          "positive_map": true,
+          "score": 0.8039500713348389
+        },
+        "linear256-fft4096": {
+          "coarse_shape": [
+            8,
+            22
+          ],
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "positive_map": false,
+          "score": 0.41635677218437195
+        }
+      },
+      "original_sha256": "93f8f41bf2eb4d64e2e91d79fd930c0ce24594a9315f9700528d0be30c2a5a5c",
+      "publisher_label": "non_drone",
+      "start_seconds": 0.0
+    }
+  ],
+  "scope": "Five deliberately selected contexts from existing licensed TRAIN/DEVELOPMENT examples. Visual/software diagnostics, no new independent acoustic trials or verified audible labels."
+}

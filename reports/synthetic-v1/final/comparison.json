@@ -1,0 +1,2119 @@
+{
+  "final_reused": false,
+  "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+  "results": [
+    {
+      "assessment": {
+        "evidence_requirements": {
+          "authentic_only": false,
+          "devices": false,
+          "drone_types": false,
+          "events": false,
+          "independent_groups": false,
+          "negative_hours": false,
+          "sources": false
+        },
+        "numerical_checks": {
+          "delay": false,
+          "false_alarms": false,
+          "recall": false,
+          "runtime_on_reported_hardware": true
+        },
+        "reliability_claim_supported": false,
+        "status": "INSUFFICIENT INDEPENDENT AUTHENTIC EVIDENCE; numerical results are diagnostic"
+      },
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.48750000000000004,
+        "on_hits": 1,
+        "on_threshold": 0.65
+      },
+      "features": {
+        "f_max": 7600.0,
+        "f_min": 80.0,
+        "hop_seconds": 0.5,
+        "mel_bins": 48,
+        "min_audio_seconds": 0.25,
+        "n_fft": 512,
+        "representation": "absolute_mel",
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 160,
+        "window_seconds": 3.0
+      },
+      "model_id": "fe7502bf87afbf78d5f74e7d88952f2f2bef0ade68f0433337d10d7e0a463edf",
+      "records": [
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "f106e7a0ea364c11fd2c",
+          "id": "g2-s00-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "f106e7a0ea364c11fd2c",
+          "id": "g2-s00-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.001297447999832
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "f106e7a0ea364c11fd2c",
+          "id": "g2-s00-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.001297447999832,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d8357cafb454e50aec43",
+          "id": "g2-s01-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d8357cafb454e50aec43",
+          "id": "g2-s01-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.0010090079999827
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d8357cafb454e50aec43",
+          "id": "g2-s01-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.0010090079999827,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              3.0,
+              12.0
+            ]
+          ],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 1,
+          "false_alarm_indices": [
+            0
+          ],
+          "group_id": "a9725855433961e5be9b",
+          "id": "g2-s02-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 9.0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": false,
+          "recording_error": true,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "a9725855433961e5be9b",
+          "id": "g2-s02-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              9.0,
+              10.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            5.001091537000093
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "a9725855433961e5be9b",
+          "id": "g2-s02-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 5.001091537000093,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "86675b723b41904f4a49",
+          "id": "g2-s03-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "86675b723b41904f4a49",
+          "id": "g2-s03-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.001554699000053
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "86675b723b41904f4a49",
+          "id": "g2-s03-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.001554699000053,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "8329f9501ba67f450504",
+          "id": "g2-s04-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "8329f9501ba67f450504",
+          "id": "g2-s04-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.0010582499999146
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "8329f9501ba67f450504",
+          "id": "g2-s04-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.0010582499999146,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "654978475961bff6ff71",
+          "id": "g2-s05-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "654978475961bff6ff71",
+          "id": "g2-s05-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.0010735060000115
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "654978475961bff6ff71",
+          "id": "g2-s05-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.0010735060000115,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "6218588a06bcc9000894",
+          "id": "g2-s06-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "6218588a06bcc9000894",
+          "id": "g2-s06-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.000996535000013
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "6218588a06bcc9000894",
+          "id": "g2-s06-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.000996535000013,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "cd46a1b7c330f1d4ca16",
+          "id": "g2-s07-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "cd46a1b7c330f1d4ca16",
+          "id": "g2-s07-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 1,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "cd46a1b7c330f1d4ca16",
+          "id": "g2-s07-positive",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [
+            0
+          ],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": true,
+          "recording_error": true,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d3a88b7cdb31fc652db8",
+          "id": "g2-s08-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d3a88b7cdb31fc652db8",
+          "id": "g2-s08-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.000983056000223
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d3a88b7cdb31fc652db8",
+          "id": "g2-s08-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.000983056000223,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "3cc48e1a744f80958c1b",
+          "id": "g2-s09-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "3cc48e1a744f80958c1b",
+          "id": "g2-s09-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.0011990070001957
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "3cc48e1a744f80958c1b",
+          "id": "g2-s09-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.0011990070001957,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        }
+      ],
+      "runtime": {
+        "capture": "recorded replay, 100 ms canonical-rate delivery blocks; no live microphone measurement",
+        "hardware": {
+          "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+          "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+          "python": "3.12.14"
+        },
+        "includes": "input checksum, decoding, resampling, rolling context, feature extraction, scoring, alarm logic; excludes one-time model import/load and JSON report output",
+        "p95_feature_score_decision_seconds": 0.001399568749957325,
+        "real_time_factor": 0.0020719109694432012,
+        "seconds": 0.7458879489995525
+      },
+      "source_breakdown": {
+        "synthetic-generator-2": {
+          "alarm_events": 10,
+          "all_events": 10,
+          "event_precision": 0.9,
+          "event_recall": 0.9,
+          "events": 10,
+          "false_alarm_events": 1,
+          "false_alarms_per_hour": 12.413793103448276,
+          "hours": 0.1,
+          "independent_groups": 10,
+          "matched_events": 9,
+          "median_delay_seconds_detected_events_only": 3.0010735060000115,
+          "negative_alarm_time_fraction": 0.04482758620689655,
+          "negative_hours": 0.08055555555555556,
+          "p95_delay_seconds_detected_events_only": 4.201276801800076,
+          "recording_confusion": {
+            "fn": 1,
+            "fp": 1,
+            "tn": 19,
+            "tp": 9
+          },
+          "recording_errors": 2,
+          "recording_precision": 0.9,
+          "recording_recall": 0.9,
+          "recordings": 30,
+          "short_events_outside_claim": 0,
+          "uncertainty": {
+            "fa_per_hour_cluster_95": [
+              0.0,
+              37.241379310344826
+            ],
+            "fa_per_hour_conservative_upper_95": 69.16522830131046,
+            "fa_per_hour_poisson_95_assumes_stationary_rate": [
+              0.31429003014980533,
+              69.16522830131046
+            ],
+            "method": "2000 component/session cluster bootstrap replicates, seed 20261108; intervals conditional on observed corpus",
+            "p95_delay_cluster_95": [
+              3.0011990070001957,
+              5.001091537000093
+            ],
+            "recall_binomial_95_assumes_independent_events": [
+              0.5549838829718047,
+              0.9974714214555382
+            ],
+            "recall_cluster_95": [
+              0.7,
+              1.0
+            ],
+            "recall_conservative_lower_95": 0.5549838829718047,
+            "warning": "Synthetic/session grouping is not proof of real-world independence. Degenerate bootstrap intervals and zero observed alarms do not prove zero risk."
+          }
+        }
+      },
+      "summary": {
+        "alarm_events": 10,
+        "all_events": 10,
+        "event_precision": 0.9,
+        "event_recall": 0.9,
+        "events": 10,
+        "false_alarm_events": 1,
+        "false_alarms_per_hour": 12.413793103448276,
+        "hours": 0.1,
+        "independent_groups": 10,
+        "matched_events": 9,
+        "median_delay_seconds_detected_events_only": 3.0010735060000115,
+        "negative_alarm_time_fraction": 0.04482758620689655,
+        "negative_hours": 0.08055555555555556,
+        "p95_delay_seconds_detected_events_only": 4.201276801800076,
+        "recording_confusion": {
+          "fn": 1,
+          "fp": 1,
+          "tn": 19,
+          "tp": 9
+        },
+        "recording_errors": 2,
+        "recording_precision": 0.9,
+        "recording_recall": 0.9,
+        "recordings": 30,
+        "short_events_outside_claim": 0,
+        "uncertainty": {
+          "fa_per_hour_cluster_95": [
+            0.0,
+            37.241379310344826
+          ],
+          "fa_per_hour_conservative_upper_95": 69.16522830131046,
+          "fa_per_hour_poisson_95_assumes_stationary_rate": [
+            0.31429003014980533,
+            69.16522830131046
+          ],
+          "method": "2000 component/session cluster bootstrap replicates, seed 20261108; intervals conditional on observed corpus",
+          "p95_delay_cluster_95": [
+            3.0011990070001957,
+            5.001091537000093
+          ],
+          "recall_binomial_95_assumes_independent_events": [
+            0.5549838829718047,
+            0.9974714214555382
+          ],
+          "recall_cluster_95": [
+            0.7,
+            1.0
+          ],
+          "recall_conservative_lower_95": 0.5549838829718047,
+          "warning": "Synthetic/session grouping is not proof of real-world independence. Degenerate bootstrap intervals and zero observed alarms do not prove zero risk."
+        }
+      }
+    },
+    {
+      "assessment": {
+        "evidence_requirements": {
+          "authentic_only": false,
+          "devices": false,
+          "drone_types": false,
+          "events": false,
+          "independent_groups": false,
+          "negative_hours": false,
+          "sources": false
+        },
+        "numerical_checks": {
+          "delay": false,
+          "false_alarms": false,
+          "recall": false,
+          "runtime_on_reported_hardware": true
+        },
+        "reliability_claim_supported": false,
+        "status": "INSUFFICIENT INDEPENDENT AUTHENTIC EVIDENCE; numerical results are diagnostic"
+      },
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.6000000000000001,
+        "on_hits": 1,
+        "on_threshold": 0.8
+      },
+      "features": {
+        "f_max": 7600.0,
+        "f_min": 80.0,
+        "hop_seconds": 0.5,
+        "mel_bins": 48,
+        "min_audio_seconds": 0.25,
+        "n_fft": 512,
+        "representation": "relative_mel",
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 160,
+        "window_seconds": 3.0
+      },
+      "model_id": "aa9a710c030a5a628f320d9741d1f920581d84b9816002dbfb1cfac0c6b8a330",
+      "records": [
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "f106e7a0ea364c11fd2c",
+          "id": "g2-s00-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "f106e7a0ea364c11fd2c",
+          "id": "g2-s00-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            2.501105990000042
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "f106e7a0ea364c11fd2c",
+          "id": "g2-s00-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 2.501105990000042,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d8357cafb454e50aec43",
+          "id": "g2-s01-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d8357cafb454e50aec43",
+          "id": "g2-s01-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            2.5011654630000066
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d8357cafb454e50aec43",
+          "id": "g2-s01-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 2.5011654630000066,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "a9725855433961e5be9b",
+          "id": "g2-s02-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "a9725855433961e5be9b",
+          "id": "g2-s02-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 1,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "a9725855433961e5be9b",
+          "id": "g2-s02-positive",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [
+            0
+          ],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": true,
+          "recording_error": true,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "86675b723b41904f4a49",
+          "id": "g2-s03-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "86675b723b41904f4a49",
+          "id": "g2-s03-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            2.5011015430000043
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "86675b723b41904f4a49",
+          "id": "g2-s03-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 2.5011015430000043,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "8329f9501ba67f450504",
+          "id": "g2-s04-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "8329f9501ba67f450504",
+          "id": "g2-s04-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.0009945930000868
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "8329f9501ba67f450504",
+          "id": "g2-s04-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.0009945930000868,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "654978475961bff6ff71",
+          "id": "g2-s05-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "654978475961bff6ff71",
+          "id": "g2-s05-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            2.5009674820000782
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "654978475961bff6ff71",
+          "id": "g2-s05-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 2.5009674820000782,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "6218588a06bcc9000894",
+          "id": "g2-s06-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "6218588a06bcc9000894",
+          "id": "g2-s06-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            2.5010843099998965
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "6218588a06bcc9000894",
+          "id": "g2-s06-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 2.5010843099998965,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "cd46a1b7c330f1d4ca16",
+          "id": "g2-s07-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "cd46a1b7c330f1d4ca16",
+          "id": "g2-s07-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              9.0,
+              11.0
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            5.000992011000108
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "cd46a1b7c330f1d4ca16",
+          "id": "g2-s07-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 5.000992011000108,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0.5,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d3a88b7cdb31fc652db8",
+          "id": "g2-s08-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d3a88b7cdb31fc652db8",
+          "id": "g2-s08-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              7.0,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            3.001070777999985
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "d3a88b7cdb31fc652db8",
+          "id": "g2-s08-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 3.001070777999985,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "3cc48e1a744f80958c1b",
+          "id": "g2-s09-hard_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 0,
+          "alarms": [],
+          "all_event_count": 0,
+          "delays_seconds": [],
+          "duration_seconds": 12.0,
+          "event_count": 0,
+          "events": [],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "3cc48e1a744f80958c1b",
+          "id": "g2-s09-ordinary_negative",
+          "matched_events": 0,
+          "matches": [],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 0,
+          "negative_seconds": 12.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": false,
+          "recording_binary_truth": false,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        },
+        {
+          "alarm_count": 1,
+          "alarms": [
+            [
+              6.5,
+              11.5
+            ]
+          ],
+          "all_event_count": 1,
+          "delays_seconds": [
+            2.500995696000018
+          ],
+          "duration_seconds": 12.0,
+          "event_count": 1,
+          "events": [
+            [
+              4.0,
+              10.0
+            ]
+          ],
+          "false_alarm_count": 0,
+          "false_alarm_indices": [],
+          "group_id": "3cc48e1a744f80958c1b",
+          "id": "g2-s09-positive",
+          "matched_events": 1,
+          "matches": [
+            {
+              "alarm_index": 0,
+              "delay_seconds": 2.500995696000018,
+              "event_index": 0
+            }
+          ],
+          "missed_event_indices": [],
+          "negative_alarm_seconds": 1.0,
+          "negative_seconds": 5.0,
+          "origin": "synthetic",
+          "recording_binary_prediction": true,
+          "recording_binary_truth": true,
+          "recording_error": false,
+          "short_event_count": 0,
+          "source": "synthetic-generator-2"
+        }
+      ],
+      "runtime": {
+        "capture": "recorded replay, 100 ms canonical-rate delivery blocks; no live microphone measurement",
+        "hardware": {
+          "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+          "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+          "python": "3.12.14"
+        },
+        "includes": "input checksum, decoding, resampling, rolling context, feature extraction, scoring, alarm logic; excludes one-time model import/load and JSON report output",
+        "p95_feature_score_decision_seconds": 0.0013733093499126879,
+        "real_time_factor": 0.002055011919444875,
+        "seconds": 0.739804291000155
+      },
+      "source_breakdown": {
+        "synthetic-generator-2": {
+          "alarm_events": 9,
+          "all_events": 10,
+          "event_precision": 1.0,
+          "event_recall": 0.9,
+          "events": 10,
+          "false_alarm_events": 0,
+          "false_alarms_per_hour": 0.0,
+          "hours": 0.1,
+          "independent_groups": 10,
+          "matched_events": 9,
+          "median_delay_seconds_detected_events_only": 2.501105990000042,
+          "negative_alarm_time_fraction": 0.029310344827586206,
+          "negative_hours": 0.08055555555555556,
+          "p95_delay_seconds_detected_events_only": 4.201023517800058,
+          "recording_confusion": {
+            "fn": 1,
+            "fp": 0,
+            "tn": 20,
+            "tp": 9
+          },
+          "recording_errors": 1,
+          "recording_precision": 1.0,
+          "recording_recall": 0.9,
+          "recordings": 30,
+          "short_events_outside_claim": 0,
+          "uncertainty": {
+            "fa_per_hour_cluster_95": [
+              0.0,
+              0.0
+            ],
+            "fa_per_hour_conservative_upper_95": 45.79298632693161,
+            "fa_per_hour_poisson_95_assumes_stationary_rate": [
+              0.0,
+              45.79298632693161
+            ],
+            "method": "2000 component/session cluster bootstrap replicates, seed 20261108; intervals conditional on observed corpus",
+            "p95_delay_cluster_95": [
+              2.5011654630000066,
+              5.000992011000108
+            ],
+            "recall_binomial_95_assumes_independent_events": [
+              0.5549838829718047,
+              0.9974714214555382
+            ],
+            "recall_cluster_95": [
+              0.7,
+              1.0
+            ],
+            "recall_conservative_lower_95": 0.5549838829718047,
+            "warning": "Synthetic/session grouping is not proof of real-world independence. Degenerate bootstrap intervals and zero observed alarms do not prove zero risk."
+          }
+        }
+      },
+      "summary": {
+        "alarm_events": 9,
+        "all_events": 10,
+        "event_precision": 1.0,
+        "event_recall": 0.9,
+        "events": 10,
+        "false_alarm_events": 0,
+        "false_alarms_per_hour": 0.0,
+        "hours": 0.1,
+        "independent_groups": 10,
+        "matched_events": 9,
+        "median_delay_seconds_detected_events_only": 2.501105990000042,
+        "negative_alarm_time_fraction": 0.029310344827586206,
+        "negative_hours": 0.08055555555555556,
+        "p95_delay_seconds_detected_events_only": 4.201023517800058,
+        "recording_confusion": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 20,
+          "tp": 9
+        },
+        "recording_errors": 1,
+        "recording_precision": 1.0,
+        "recording_recall": 0.9,
+        "recordings": 30,
+        "short_events_outside_claim": 0,
+        "uncertainty": {
+          "fa_per_hour_cluster_95": [
+            0.0,
+            0.0
+          ],
+          "fa_per_hour_conservative_upper_95": 45.79298632693161,
+          "fa_per_hour_poisson_95_assumes_stationary_rate": [
+            0.0,
+            45.79298632693161
+          ],
+          "method": "2000 component/session cluster bootstrap replicates, seed 20261108; intervals conditional on observed corpus",
+          "p95_delay_cluster_95": [
+            2.5011654630000066,
+            5.000992011000108
+          ],
+          "recall_binomial_95_assumes_independent_events": [
+            0.5549838829718047,
+            0.9974714214555382
+          ],
+          "recall_cluster_95": [
+            0.7,
+            1.0
+          ],
+          "recall_conservative_lower_95": 0.5549838829718047,
+          "warning": "Synthetic/session grouping is not proof of real-world independence. Degenerate bootstrap intervals and zero observed alarms do not prove zero risk."
+        }
+      }
+    }
+  ],
+  "schema_version": 1,
+  "split": "final"
+}

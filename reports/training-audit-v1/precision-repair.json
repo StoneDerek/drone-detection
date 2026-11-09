@@ -1,0 +1,28 @@
+{
+  "format": "FLOAT WAV preserves exactly the original selected-channel float32 ingress samples",
+  "manifest": "/workspace/drone-detection/runs/training-audit-v1/precision-corpus/manifest.jsonl",
+  "manifest_sha256": "4ced7b35b3b129b0f2dc8ad047553f7510b9a995837b3e6c003a23ac16a7bedc",
+  "parent_manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "raw_audio_packaged": false,
+  "recordings": 615,
+  "repaired_ddl_training_files": 15,
+  "repaired_ids": [
+    "ddl-290321-T004-10",
+    "ddl-290321-T004-50",
+    "ddl-290321-T004-90",
+    "ddl-290321-T005-10",
+    "ddl-290321-T005-50",
+    "ddl-290321-T005-90",
+    "ddl-290321-T006-10",
+    "ddl-290321-T006-50",
+    "ddl-290321-T006-90",
+    "ddl-290321-T007-10",
+    "ddl-290321-T007-50",
+    "ddl-290321-T007-90",
+    "ddl-290321-T008-10",
+    "ddl-290321-T008-50",
+    "ddl-290321-T008-90"
+  ],
+  "scope": "Isolated TRAIN/DEVELOPMENT precision repair; original corpus and all frozen models unchanged. No final audio or new labels.",
+  "usage": "Prepare a new feature cache from this manifest for future controlled precision experiments. Old caches/models reject the changed manifest identity."
+}

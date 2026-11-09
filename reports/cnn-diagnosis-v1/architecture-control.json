@@ -1,0 +1,45 @@
+{
+  "fft_bin_hz": 3.90625,
+  "harmonic_fft_bins": [
+    64,
+    128,
+    192,
+    256,
+    320
+  ],
+  "interpretation_limit": "An existence proof of a compact CNN invariance, not evidence these exact inputs occur in field audio or that this alone explains the source gap.",
+  "irregular_fft_bins": [
+    64,
+    160,
+    288,
+    448,
+    640
+  ],
+  "results": [
+    {
+      "frequency_receptive_field_bins": 25,
+      "max_pooled_feature_difference": 2.384185791015625e-07,
+      "model": "linear-fft4096",
+      "model_id": "9f46a375100e3f615d2e9a176885d967fc2d0188120c34dd33b7b4131daaf496",
+      "score_pair": [
+        0.013686265796422958,
+        0.013686265796422958
+      ]
+    },
+    {
+      "frequency_receptive_field_bins": 153,
+      "max_pooled_feature_difference": 0.0033001601696014404,
+      "model": "frequency-context-fft4096",
+      "model_id": "9d818cb0f09337098cf3dcc09bd862861e19c72468845a237a8c9a84a27ee0aa",
+      "score_pair": [
+        0.0019371344242244959,
+        0.0019331061048433185
+      ]
+    },
+    {
+      "max_pooled_feature_difference": 5.820766091346741e-11,
+      "model": "untrained compact seed42"
+    }
+  ],
+  "scope": "Artificial image architecture control, NOT acoustic performance evidence"
+}

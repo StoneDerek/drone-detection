@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8012",
+  "scope": "Browser functionality on one existing real development file, not an acoustic field test",
+  "app_js_sha256": "d0f7c4b93b8fa3f0d9f227b8b91be6fb79aafd695ef896caadfea2778e4d8578",
+  "models": [
+    {
+      "name": "linear256-fft4096",
+      "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+      "windows": 14
+    },
+    {
+      "name": "svm-linear-fft4096",
+      "model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+      "windows": 14
+    },
+    {
+      "name": "yamnet-default",
+      "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+      "windows": 14
+    }
+  ],
+  "playbackAndSeek": true,
+  "scoreAndGradcamAgree": true,
+  "zeroMapPreserved": true,
+  "nonDroneTarget": true,
+  "frequencyZoom": true,
+  "comparisonAndExplanationDownloads": true,
+  "examples": true,
+  "intervalNotesWithAudioHash": true,
+  "invalidInputHandled": true,
+  "noAudioUploads": true,
+  "browser": "156.0.8078.79",
+  "pageErrors": [],
+  "screenshot": "reports/cloudflare-v1/local-browser.png"
+}

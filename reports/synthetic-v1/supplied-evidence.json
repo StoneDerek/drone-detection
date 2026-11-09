@@ -1,0 +1,17 @@
+{
+  "audio_in_packet": 0,
+  "discord_excerpts_present": false,
+  "folder_counts": {
+    "Drone Detection Project": 1,
+    "Drone Detection Project/Drone": 1,
+    "Drone Detection Project/Non-Drone/Non-Drone-Samples": 127,
+    "Drone Detection Project/online_drone_large": 1332
+  },
+  "historical_audio_inventory": 1461,
+  "inventory_sha256": "481363c86e5ccba8f1e8095cdea593b9ccb1fa68893c1a677c5a33be3e89d807",
+  "original_archive": "Drone Detection Project-20261108T015626Z-1-001.zip",
+  "packet_sha256": "ed09f1e913c5c7bf3a9b814755e433f13167f8bdb7fcac35dff13dca84abe19f",
+  "review_scope": "Historical filename counts only. No duration/content hashes, provenance, labels or independence verified. No archive audio available.",
+  "review_sha256": "16a382786465ef3043f1ce5ac4486c597687e58dad273af985ddc0da0d22185c",
+  "s18_present": false
+}

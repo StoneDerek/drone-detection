@@ -1,0 +1,126 @@
+{
+  "architecture": {
+    "activations": "ReLU",
+    "convolutions": [
+      {
+        "filters": 6,
+        "kernel": [
+          5,
+          5
+        ],
+        "stride": [
+          2,
+          2
+        ]
+      },
+      {
+        "filters": 8,
+        "kernel": [
+          3,
+          3
+        ],
+        "stride": [
+          4,
+          2
+        ]
+      },
+      {
+        "filters": 16,
+        "kernel": [
+          3,
+          3
+        ],
+        "stride": [
+          4,
+          2
+        ]
+      }
+    ],
+    "dropout": 0.1,
+    "frequency_receptive_field_bins": 25,
+    "gradcam_layers": [
+      "conv1",
+      "conv2",
+      "features"
+    ],
+    "head": "linear scalar logit",
+    "input": "[batch, frequency, time, 1]",
+    "name": "compact 2D CNN trained from scratch",
+    "parameters": 1781,
+    "pool": "global average",
+    "variant": "compact"
+  },
+  "model_id": "9f238fb48ca943b69a4fad4ed22babe79681942965d0fe14316d2ebbea056743",
+  "training": {
+    "available_sampled_windows": 4648,
+    "bag_batch_size": 8,
+    "epochs_completed": 8,
+    "history": [
+      {
+        "elapsed_seconds": 6.977107512999282,
+        "epoch": 1,
+        "training_loss": 0.668843711123747,
+        "unique_train_windows_seen": 2488
+      },
+      {
+        "development_balanced_bag_loss": 0.676533929160589,
+        "elapsed_seconds": 12.466681616999267,
+        "epoch": 2,
+        "training_loss": 0.6073087696351257,
+        "unique_train_windows_seen": 3653
+      },
+      {
+        "elapsed_seconds": 20.779342648000238,
+        "epoch": 3,
+        "training_loss": 0.530519944926103,
+        "unique_train_windows_seen": 3868
+      },
+      {
+        "development_balanced_bag_loss": 0.8754598193475887,
+        "elapsed_seconds": 26.1027200970002,
+        "epoch": 4,
+        "training_loss": 0.544635157959134,
+        "unique_train_windows_seen": 4064
+      },
+      {
+        "elapsed_seconds": 33.7053795110005,
+        "epoch": 5,
+        "training_loss": 0.5796946255015392,
+        "unique_train_windows_seen": 4243
+      },
+      {
+        "development_balanced_bag_loss": 0.9607527175075167,
+        "elapsed_seconds": 38.96347508399958,
+        "epoch": 6,
+        "training_loss": 0.47188304934431524,
+        "unique_train_windows_seen": 4411
+      },
+      {
+        "elapsed_seconds": 46.1882614999995,
+        "epoch": 7,
+        "training_loss": 0.5273662972099641,
+        "unique_train_windows_seen": 4579
+      },
+      {
+        "development_balanced_bag_loss": 0.7765899110761988,
+        "elapsed_seconds": 51.236778107000646,
+        "epoch": 8,
+        "training_loss": 0.5068867001317295,
+        "unique_train_windows_seen": 4648
+      }
+    ],
+    "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+    "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+    "max_windows_per_bag_step": 8,
+    "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+    "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+    "origins": [
+      "authentic"
+    ],
+    "seconds": 53.58838575300069,
+    "seed": 42,
+    "selected_epoch": 2,
+    "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+    "unique_windows_seen_at_selected_epoch": 3653
+  }
+}

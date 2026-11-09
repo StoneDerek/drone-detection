@@ -1,0 +1,36 @@
+{
+  "archives": {
+    "balanced-implementation.tar.gz": {
+      "matches_declared_execution": true,
+      "python_modules": 19,
+      "source_sha256": "91461413eb9c787e5b829f619ffc68ff0630d376289c43c828087fe00f24f321"
+    },
+    "coherent-implementation.tar.gz": {
+      "matches_declared_execution": true,
+      "python_modules": 19,
+      "source_sha256": "ad8da39c339497f30fdf376d7c872719de64bbd59e0255181143a62f6fbc0c63"
+    },
+    "full-max-implementation.tar.gz": {
+      "matches_declared_execution": true,
+      "python_modules": 19,
+      "source_sha256": "a6829454b506ee300b58c46e60a7b119cf42c1db122929f5380ef7c03833cf5e"
+    },
+    "heads-implementation.tar.gz": {
+      "matches_declared_execution": true,
+      "python_modules": 19,
+      "source_sha256": "a6829454b506ee300b58c46e60a7b119cf42c1db122929f5380ef7c03833cf5e"
+    },
+    "initial-source.tar.gz": {
+      "matches_declared_execution": true,
+      "python_modules": 18,
+      "source_sha256": "2d1783c9bf86237ee37e4cb9a6c5b8067e8143fd55b888f8c9de834300f46e22"
+    },
+    "training-implementation-initial.tar.gz": {
+      "matches_declared_execution": true,
+      "python_modules": 19,
+      "source_sha256": "739bc227d91020cdce0ee26a6355281226a0fa3257216b175d2411d87ccfb61a"
+    }
+  },
+  "passed": true,
+  "scope": "Exact source snapshot identities; does not guarantee identical floating-point training outcomes across environments"
+}

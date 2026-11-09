@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "presence-v1-provisional",
+  "status": "provisional engineering choices; not user-specified numerical requirements",
+  "user_requirements": [
+    "single-microphone drone presence even with interference",
+    "file input and recorded continuous-stream replay",
+    "independent audio evaluation and an honest operating range"
+  ],
+  "intended_scope": {
+    "capture": "single microphone; devices not yet supplied or measured",
+    "environments": "stationary outdoor capture initially; wind and other conditions unmeasured",
+    "drone_variety": "unknown until audio provenance is established",
+    "interference": "fans, leaf blowers, lawnmowers, traffic, speech, music, aircraft",
+    "distance_m": null,
+    "snr_db": null,
+    "live_microphone": "not verified; no audio capture device in the current cloud instance"
+  },
+  "annotation": {
+    "event": "audibly present drone corroborated by recording log or synchronized video; uncertain boundaries excluded",
+    "minimum_claimed_event_seconds": 3.0,
+    "onset_tolerance_seconds": 0.5,
+    "ambiguous": "exclude ambiguous time from negative exposure and matching; never infer absence from a filename",
+    "negative": "fully reviewed audio with no drone, including intervals between verified events"
+  },
+  "decision": {
+    "merge_gap_seconds": 1.0,
+    "on_hits_options": [1, 2],
+    "off_hits": 2,
+    "threshold_grid": [0.2, 0.35, 0.5, 0.65, 0.8, 0.9, 0.95],
+    "off_threshold_ratio": 0.75,
+    "selection": "development only: prefer point FA/h <= 1, then highest event recall, lowest p95 delay, lowest FA/h, highest threshold; otherwise lowest FA/h then highest recall"
+  },
+  "targets": {
+    "event_recall_lower_95": 0.9,
+    "false_alarms_per_hour_upper_95": 1.0,
+    "p95_detection_delay_seconds": 4.0,
+    "end_to_end_real_time_factor": 0.25,
+    "minimum_independent_groups": 30,
+    "minimum_events": 100,
+    "minimum_negative_hours": 10.0,
+    "minimum_sources": 2,
+    "minimum_known_devices": 2,
+    "minimum_known_drone_types": 3
+  },
+  "freeze": "Freeze candidate, train-only preprocessing, split, decision, contract and demo IDs before final evaluation. A reused final set becomes development evidence.",
+  "uncertainty": "95% session/component cluster bootstrap (2000 replicates); supplement with Poisson exposure interval (explicit stationarity assumption) and event-binomial interval (explicit independence assumption), take conservative bounds. Neither substitutes for coverage or independent capture."
+}

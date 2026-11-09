@@ -1,0 +1,53 @@
+{
+  "excerpt_seconds": 30.0,
+  "experimental_inference_parity": {
+    "experimental_warning": "DEVELOPMENT-ONLY gain-normalization experiment. No fresh independent assessment; not a replacement for the assessed default model.",
+    "irregular_blocks_match": true,
+    "normalization_representation": "yamnet_rms",
+    "passed": true,
+    "windows": 14
+  },
+  "hardware": {
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "includes": "In-memory rolling context, features, score, alarm and quality measurements; excludes disk decoding/capture; warm shared encoder",
+  "initialization_seconds": 8.411641933999817,
+  "measurements": [
+    {
+      "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+      "real_time_factor": 0.059379600733306385,
+      "repeat": 0,
+      "seconds": 1.7813880219991916,
+      "variant": "default",
+      "windows": 55
+    },
+    {
+      "model_id": "464e329b3d2253f9c928eb721fc0a001006b9fb3972312f65ad773bbb49ea35d",
+      "real_time_factor": 0.05195459583331588,
+      "repeat": 0,
+      "seconds": 1.5586378749994765,
+      "variant": "gain",
+      "windows": 55
+    },
+    {
+      "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+      "real_time_factor": 0.03140539639998678,
+      "repeat": 1,
+      "seconds": 0.9421618919996035,
+      "variant": "default",
+      "windows": 55
+    },
+    {
+      "model_id": "464e329b3d2253f9c928eb721fc0a001006b9fb3972312f65ad773bbb49ea35d",
+      "real_time_factor": 0.02479043846666779,
+      "repeat": 1,
+      "seconds": 0.7437131540000337,
+      "variant": "gain",
+      "windows": 55
+    }
+  ],
+  "scope": "Software profiling on an existing development excerpt; no detection assessment or event-delay claim",
+  "source_sha256": "157d9b5bb788db22f0279cf89b0b837ae3b981aacc3230e2c3881c3e7ce3acb1"
+}

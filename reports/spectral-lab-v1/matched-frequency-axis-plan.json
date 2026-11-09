@@ -1,0 +1,12 @@
+{
+  "calibration": "The same additional 5% negative-recording-budget development calibration; no new generalization claim.",
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "072fb40f147126c7cfa60aec0b73bf6004c550b71f65ae1c2ca8e7f93ff0c7d4"
+  },
+  "controlled_changes": "256 area-normalized triangular filters spaced uniformly in Hz versus uniformly in mel. Same 4096-sample Hann window, hop256, 50-7600Hz band, relative log power, 80dB floor, 1781-parameter CNN, seed42, Adam, eight epochs, bag sampling/objective/checkpoint policy.",
+  "hypothesis": "The full linear FFT has many more bins than the mel input. Match both inputs to 256x172 to test linear versus mel band placement independently of tensor dimensions.",
+  "interpretation": "Band placement changes local physical receptive fields. Tensor dimensions, initialization, model capacity and amplitude rule match the mel256 control.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "scope": "Additional DEVELOPMENT control; same data, no final assessment opened, default unchanged."
+}

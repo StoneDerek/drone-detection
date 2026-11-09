@@ -1,0 +1,36 @@
+{
+  "DDL_selection": "Three contiguous 10 s excerpts at 10/50/90% per flight, metadata-only selection before any model scoring. Entire capture days grouped. Excerpts are not independent trials.",
+  "counts": {
+    "development": {
+      "drone": 22,
+      "non_drone": 188
+    },
+    "final": {
+      "drone": 133,
+      "non_drone": 1608
+    },
+    "train": {
+      "drone": 55,
+      "non_drone": 350
+    }
+  },
+  "dataset_revision": "v2.1",
+  "duplicate_placement_correction": {
+    "files": 97,
+    "fresh_assessment_started": false,
+    "moved_entire_component_to": "train",
+    "previous_manifest_sha256": "0724e949d55764a29732ded14b441b480ccdf657e73380a853627e290d01ad78",
+    "shared_decoded_audio": "Svanstrom helicopter negatives also appear in D3Set noise"
+  },
+  "field_claim": "Not established; publisher weak labels and only a few positive capture-day groups",
+  "fresh_assessment": "Previously unused DDL capture day (31 March), previously unused Batear capture day (28 April), and previously unused ESC source IDs/classes",
+  "groups": {
+    "development": 145,
+    "final": 1222,
+    "train": 237
+  },
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "previous_Svanstrom_source_now_training": true,
+  "previous_final_is_development": true,
+  "unknown_parent_SNR_background_excluded": true
+}

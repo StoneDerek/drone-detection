@@ -1,0 +1,71 @@
+{
+  "amplitude": "Reference1 means scipy spectrum-scaled STFT power, not calibrated sound pressure. RMS target.05, gain ceiling20dB, peak ceiling.98, available context only. Caps mean RMS target is not always reached.",
+  "arms": {
+    "fixed-reference": {
+      "axis": "linear_filterbank",
+      "dynamic_range_db": 80.0,
+      "f_max": 7600.0,
+      "f_min": 50.0,
+      "gain_max_db": 20.0,
+      "gain_target_rms": 0.05,
+      "hop_seconds": 0.5,
+      "intensity": "log_power",
+      "mel_bins": 256,
+      "min_audio_seconds": 0.25,
+      "n_fft": 4096,
+      "normalize_rms": false,
+      "power_reference": "unit_stft_power",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 256,
+      "window_seconds": 3.0
+    },
+    "peak-relative": {
+      "axis": "linear_filterbank",
+      "dynamic_range_db": 80.0,
+      "f_max": 7600.0,
+      "f_min": 50.0,
+      "gain_max_db": 20.0,
+      "gain_target_rms": 0.05,
+      "hop_seconds": 0.5,
+      "intensity": "log_power",
+      "mel_bins": 256,
+      "min_audio_seconds": 0.25,
+      "n_fft": 4096,
+      "normalize_rms": false,
+      "power_reference": "context_peak",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 256,
+      "window_seconds": 3.0
+    },
+    "rms-fixed-reference": {
+      "axis": "linear_filterbank",
+      "dynamic_range_db": 80.0,
+      "f_max": 7600.0,
+      "f_min": 50.0,
+      "gain_max_db": 20.0,
+      "gain_target_rms": 0.05,
+      "hop_seconds": 0.5,
+      "intensity": "log_power",
+      "mel_bins": 256,
+      "min_audio_seconds": 0.25,
+      "n_fft": 4096,
+      "normalize_rms": true,
+      "power_reference": "unit_stft_power",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 256,
+      "window_seconds": 3.0
+    }
+  },
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "aa7a79fc6aabb357e63b372fc10efc56998af71260eb2a101a420c1d97cb6895"
+  },
+  "controls": "Same 405 train/210 development files, starts/max60 contexts, compact1781 CNN, seed42, eight epochs, sampled-bag objective, optimizer and checkpoint selection. Baseline is repeated to measure run reproducibility.",
+  "hypothesis": "A later peak normalization cancels upstream scalar RMS gain. A fixed STFT power reference permits reference-RMS changes to reach the CNN.",
+  "interpretation": "Changing representation changes the optimization landscape. One seed and weak labels cannot identify a universal architecture winner. Raw max60-context development bag loss is the prespecified comparison; no field reliability claim.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "scope": "Controlled DEVELOPMENT diagnosis; no final audio, threshold optimization, default change or multi-view input."
+}

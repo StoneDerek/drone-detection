@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "bf59655b3bfb13c3bec01823641b52d9c3d232176dec2003a43ac0031035b4d3",
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "a5e1b60f5304456c92cab67da65967bef436c7bb9b41ffecd6909170fb57a21f"
+  },
+  "default_bundle": "../real-v2/candidate",
+  "default_model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "default_modified": false,
+  "wheel_sha256": "13b2daaa7291fe181a27f325481de9bd6b375d3dd8c1c4e82b4537d3f1351849",
+  "wheel_sources_match_checkout": true
+}

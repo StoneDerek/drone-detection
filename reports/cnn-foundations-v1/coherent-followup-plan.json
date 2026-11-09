@@ -1,0 +1,29 @@
+{
+  "arms": {
+    "frequency": {
+      "parameters": 154689,
+      "variant": "frequency_aware"
+    },
+    "global": {
+      "parameters": 154675,
+      "variant": "global_readout"
+    }
+  },
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "ad8da39c339497f30fdf376d7c872719de64bbd59e0255181143a62f6fbc0c63"
+  },
+  "control": "Same32/64/128 encoder, strides2/3/3, seed42, Adam.001 clipnorm1 L2.0001. Only readout differs between paired repair arms.",
+  "diagnosis_sha256": "1a8fa2872355e8fa17f4a4dce10a81d60d056f7a9fd2386dfe46fc5934a42781",
+  "epochs": 24,
+  "input": "Frozen256x172 uniform-Hz relative log-power frontend, unchanged7299 cached train/development contexts.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "parent_plan_sha256": "ef1a730b01fd00e668f120fb91b3969bed6de7c0018b6fc53853f9bece1b9ed3",
+  "repair": "Binary cross entropy of the SAME maximum window logit for either recording class. Disable dropout before instance pooling. These two repairs are bundled; do not attribute any gain solely to one.",
+  "replication": "Seed7 on the stronger repaired arm if development max-score AUC improves>.03 over original linear256 baseline or catches >=3 more positive development recordings under the same5% negative budget.",
+  "sampling": "Same sampled8 cyclic policy for both classes, same four recordings per class/batch,51 steps/epoch. No new data or labels.",
+  "scope": "Development research, weak recording labels and only6 conservative positive training groups. No final-assessment audio or independent field reliability claim.",
+  "selection": "Minimum deterministic consistent-max balanced DEVELOPMENT loss every2 epochs; also retain last and best-at8.",
+  "snapshot": 8,
+  "trigger": "Exact input-independent dropout counterexample, corroborated by fixed-weight real-input checkpoint audit."
+}

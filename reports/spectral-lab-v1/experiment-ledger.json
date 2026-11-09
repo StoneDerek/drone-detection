@@ -1,0 +1,1726 @@
+{
+  "additional_calibration_plan": "calibration-plan.json",
+  "hardware": {
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "models": {
+    "frequency-context-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.26863059873104095,
+          "on_hits": 2,
+          "on_threshold": 0.35817413164138795
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.6270856685294691,
+          "balanced_accuracy": 0.726063829787234,
+          "confusion": {
+            "fn": 11,
+            "fp": 9,
+            "tn": 179,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.55,
+          "provenance_groups": 145,
+          "recording_recall": 0.5,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8633945841392651
+        }
+      },
+      "model_id": "9d818cb0f09337098cf3dcc09bd862861e19c72468845a237a8c9a84a27ee0aa",
+      "parent_model_id": "a75785176e1cb97a81c6ac31a8e2230bf529b74edfeb56a59d783632eb57fe8c",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.6457282913165265,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 11,
+            "fp": 0,
+            "tn": 6,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": null,
+          "provenance_groups": 4,
+          "recording_recall": 0.0,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.4696969696969697
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 0,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 1.0,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 3,
+            "tn": 19,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.13636363636363635,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 6,
+            "tn": 154,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.0375,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 33.502323216998775,
+            "epoch": 1,
+            "training_loss": 0.6549023588498434,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.7430700654635923,
+            "elapsed_seconds": 47.601171683996654,
+            "epoch": 2,
+            "training_loss": 0.5495237171942112,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 82.76351633199738,
+            "epoch": 3,
+            "training_loss": 0.5368269284566244,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.7934307140735928,
+            "elapsed_seconds": 96.73734767399947,
+            "epoch": 4,
+            "training_loss": 0.4869114030517784,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 113.97831087199665,
+            "epoch": 5,
+            "training_loss": 0.4988317073268049,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.680346769203722,
+            "elapsed_seconds": 127.05280827599927,
+            "epoch": 6,
+            "training_loss": 0.5033352132521424,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 144.6118722479987,
+            "epoch": 7,
+            "training_loss": 0.4753056617051947,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.6638002986663378,
+            "elapsed_seconds": 157.96470929099814,
+            "epoch": 8,
+            "training_loss": 0.4650771955356878,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 163.68960292599877,
+        "seed": 42,
+        "selected_epoch": 8,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 4648
+      }
+    },
+    "linear-fft1024": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.3159528347325325,
+          "on_hits": 2,
+          "on_threshold": 0.42127044631004334
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.5314273112689956,
+          "balanced_accuracy": 0.726063829787234,
+          "confusion": {
+            "fn": 11,
+            "fp": 9,
+            "tn": 179,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.55,
+          "provenance_groups": 145,
+          "recording_recall": 0.5,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8295454545454546
+        }
+      },
+      "model_id": "a4076f9ce5887fca02d406794dd877f1ec9de867139b37b0d1345b90cd4fdacd",
+      "parent_model_id": "7a3c5b4ad33cd86df305f3a0c9b22c10686be5afe84cb587614cffbc73de48b3",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.5581971356035527,
+          "balanced_accuracy": 0.4166666666666667,
+          "confusion": {
+            "fn": 11,
+            "fp": 1,
+            "tn": 5,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.16666666666666666,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": 0.0,
+          "provenance_groups": 4,
+          "recording_recall": 0.0,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.3030303030303031
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 0,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 1.0,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 20,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.09090909090909091,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 6,
+            "tn": 154,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.0375,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 10.35355462699954,
+            "epoch": 1,
+            "training_loss": 0.6735075525209016,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.662417072716315,
+            "elapsed_seconds": 16.24856338400059,
+            "epoch": 2,
+            "training_loss": 0.6091150331730936,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 25.467588436998994,
+            "epoch": 3,
+            "training_loss": 0.5051339389938935,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.7431992691458785,
+            "elapsed_seconds": 28.52990445999967,
+            "epoch": 4,
+            "training_loss": 0.47430426232955036,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 32.65262285499921,
+            "epoch": 5,
+            "training_loss": 0.48977456957686183,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.8602334997053546,
+            "elapsed_seconds": 36.45487797199894,
+            "epoch": 6,
+            "training_loss": 0.444857126868823,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 42.193301770999824,
+            "epoch": 7,
+            "training_loss": 0.49149546333972144,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.6442810219583756,
+            "elapsed_seconds": 45.505091978000564,
+            "epoch": 8,
+            "training_loss": 0.448503953276896,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 47.320828244999575,
+        "seed": 42,
+        "selected_epoch": 8,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 4648
+      }
+    },
+    "linear-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.2709590690803528,
+          "on_hits": 2,
+          "on_threshold": 0.3612787587738037
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.6348925253108679,
+          "balanced_accuracy": 0.726063829787234,
+          "confusion": {
+            "fn": 11,
+            "fp": 9,
+            "tn": 179,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.55,
+          "provenance_groups": 145,
+          "recording_recall": 0.5,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8665377176015474
+        }
+      },
+      "model_id": "9f46a375100e3f615d2e9a176885d967fc2d0188120c34dd33b7b4131daaf496",
+      "parent_model_id": "e478f09fe8af5f14499a35e5d2151673125b51b97451e30bddc47186f5e44f40",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.6457282913165265,
+          "balanced_accuracy": 0.4166666666666667,
+          "confusion": {
+            "fn": 11,
+            "fp": 1,
+            "tn": 5,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.16666666666666666,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": 0.0,
+          "provenance_groups": 4,
+          "recording_recall": 0.0,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.4696969696969697
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 0,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 1.0,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 3,
+            "tn": 19,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.13636363636363635,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 5,
+            "tn": 155,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.03125,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 20.664387401000567,
+            "epoch": 1,
+            "training_loss": 0.6755427688944573,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6753792965881944,
+            "elapsed_seconds": 44.705704619000244,
+            "epoch": 2,
+            "training_loss": 0.6139845912363014,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 74.14799093300098,
+            "epoch": 3,
+            "training_loss": 0.5506554392038607,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.7500797828237888,
+            "elapsed_seconds": 97.4327590440007,
+            "epoch": 4,
+            "training_loss": 0.5260038165485158,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 126.29282741600036,
+            "epoch": 5,
+            "training_loss": 0.5138343037927852,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.8601079449774535,
+            "elapsed_seconds": 146.90728409700023,
+            "epoch": 6,
+            "training_loss": 0.45587481543713926,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 170.97478478800076,
+            "epoch": 7,
+            "training_loss": 0.5140610962521797,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.662923709673598,
+            "elapsed_seconds": 185.3500231580001,
+            "epoch": 8,
+            "training_loss": 0.4574296201268832,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 190.17682747300023,
+        "seed": 42,
+        "selected_epoch": 8,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 4648
+      }
+    },
+    "linear-power-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.34109648788690566,
+          "on_hits": 2,
+          "on_threshold": 0.4547953171825409
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.22882988862622555,
+          "balanced_accuracy": 0.5215183752417795,
+          "confusion": {
+            "fn": 20,
+            "fp": 9,
+            "tn": 179,
+            "tp": 2
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.18181818181818182,
+          "provenance_groups": 145,
+          "recording_recall": 0.09090909090909091,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.7739361702127661
+        }
+      },
+      "model_id": "5fa8085efb50dd9958908fe3b992e0dee855bd08517462df95b88b6613f2808d",
+      "parent_model_id": "96f669d75499cdf618e3f38c638db26bfebd7ca301fba61648a8453df2db0db3",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.5731206924388743,
+          "balanced_accuracy": 0.5454545454545454,
+          "confusion": {
+            "fn": 10,
+            "fp": 0,
+            "tn": 6,
+            "tp": 1
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 4,
+          "recording_recall": 0.09090909090909091,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.3484848484848485
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 10,
+            "fp": 0,
+            "tn": 0,
+            "tp": 1
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 0.09090909090909091,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 20,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.09090909090909091,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 7,
+            "tn": 153,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.04375,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 14.295224127001347,
+            "epoch": 1,
+            "training_loss": 0.7010106748225642,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6911725003985649,
+            "elapsed_seconds": 27.791782068999964,
+            "epoch": 2,
+            "training_loss": 0.6822281935635734,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 53.39780881400111,
+            "epoch": 3,
+            "training_loss": 0.6489868339370278,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.9126773425999387,
+            "elapsed_seconds": 69.71894170199994,
+            "epoch": 4,
+            "training_loss": 0.5264101986791573,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 89.15954871000031,
+            "epoch": 5,
+            "training_loss": 0.5531955440254772,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.7416657436660687,
+            "elapsed_seconds": 104.18813607100128,
+            "epoch": 6,
+            "training_loss": 0.555477417567197,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 121.66574467600003,
+            "epoch": 7,
+            "training_loss": 0.4792300874696058,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7864577945148864,
+            "elapsed_seconds": 135.82886311900074,
+            "epoch": 8,
+            "training_loss": 0.4942745478714214,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 141.6455054650014,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "linear256-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.3383214744400978,
+          "on_hits": 2,
+          "on_threshold": 0.45109529925346376
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.42145290064929286,
+          "balanced_accuracy": 0.7487911025145068,
+          "confusion": {
+            "fn": 10,
+            "fp": 9,
+            "tn": 179,
+            "tp": 12
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.5714285714285714,
+          "provenance_groups": 145,
+          "recording_recall": 0.5454545454545454,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8346228239845261
+        }
+      },
+      "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+      "parent_model_id": "b044e3dfda1278599253202518d796e7a9761a910bdefcc66aac2f9f585ed76c",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.7376598446117163,
+          "balanced_accuracy": 0.5454545454545454,
+          "confusion": {
+            "fn": 10,
+            "fp": 0,
+            "tn": 6,
+            "tp": 1
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 4,
+          "recording_recall": 0.09090909090909091,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.5757575757575758
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 0,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 1.0,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 4,
+            "tn": 18,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.18181818181818182,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 5,
+            "tn": 155,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.03125,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 10.689379617000668,
+            "epoch": 1,
+            "training_loss": 0.668849271886489,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6756539130349224,
+            "elapsed_seconds": 12.506960565002373,
+            "epoch": 2,
+            "training_loss": 0.6071300857207355,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 15.616749537999567,
+            "epoch": 3,
+            "training_loss": 0.5240176528984425,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.8750229469758082,
+            "elapsed_seconds": 17.22868414000186,
+            "epoch": 4,
+            "training_loss": 0.5530540376317268,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 19.525188008999976,
+            "epoch": 5,
+            "training_loss": 0.5658532392744925,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.9689832275600048,
+            "elapsed_seconds": 21.01611774400226,
+            "epoch": 6,
+            "training_loss": 0.4720123172098515,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 23.482555721999233,
+            "epoch": 7,
+            "training_loss": 0.5244452228733137,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.846790161799834,
+            "elapsed_seconds": 25.227479762001167,
+            "epoch": 8,
+            "training_loss": 0.5075429526029849,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 26.12884806800139,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "mel256-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.34463336045265197,
+          "on_hits": 2,
+          "on_threshold": 0.45951114727020265
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.41046974227582433,
+          "balanced_accuracy": 0.7033365570599613,
+          "confusion": {
+            "fn": 12,
+            "fp": 9,
+            "tn": 179,
+            "tp": 10
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.5263157894736842,
+          "provenance_groups": 145,
+          "recording_recall": 0.45454545454545453,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8484042553191489
+        }
+      },
+      "model_id": "ffeedd502bf29f945d6145e65b23cc7adf3b5404ee06991f2d4f2063c67cf143",
+      "parent_model_id": "2343554f12891ddfdad29a52af463bd35464ec941e490054ac07003d4732b16a",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.6912280900917265,
+          "balanced_accuracy": 0.5454545454545454,
+          "confusion": {
+            "fn": 10,
+            "fp": 0,
+            "tn": 6,
+            "tp": 1
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 4,
+          "recording_recall": 0.09090909090909091,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.5151515151515151
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 2,
+            "fp": 0,
+            "tn": 0,
+            "tp": 9
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 0.8181818181818182,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 20,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.09090909090909091,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 7,
+            "tn": 153,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.04375,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 21.574057765999896,
+            "epoch": 1,
+            "training_loss": 0.6717788366710439,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6828736504197581,
+            "elapsed_seconds": 24.230825517000994,
+            "epoch": 2,
+            "training_loss": 0.6099365750948588,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 33.05088401800094,
+            "epoch": 3,
+            "training_loss": 0.49926214855091244,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.8671165209396867,
+            "elapsed_seconds": 35.74819983500129,
+            "epoch": 4,
+            "training_loss": 0.4905244686147746,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 41.4555283589998,
+            "epoch": 5,
+            "training_loss": 0.5603981865387336,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 0.9578520069676776,
+            "elapsed_seconds": 44.32666452400008,
+            "epoch": 6,
+            "training_loss": 0.4529716810759376,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 50.593715893999615,
+            "epoch": 7,
+            "training_loss": 0.5343174238999685,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7110571965133425,
+            "elapsed_seconds": 55.13384363800105,
+            "epoch": 8,
+            "training_loss": 0.5086509994432038,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 57.128216500001145,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "mel64-fft1024": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.3854303407144546,
+          "on_hits": 2,
+          "on_threshold": 0.5139071209526062
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.19326782691359098,
+          "balanced_accuracy": 0.5215183752417795,
+          "confusion": {
+            "fn": 20,
+            "fp": 9,
+            "tn": 179,
+            "tp": 2
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.18181818181818182,
+          "provenance_groups": 145,
+          "recording_recall": 0.09090909090909091,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.6694874274661509
+        }
+      },
+      "model_id": "88fa2c3b6dbe4827651f57c35bc603a96e1251222a74fb2a8ff6a623e18d6ee9",
+      "parent_model_id": "47e544e4ad7b493a8defe1f24eb0e534603b7ce8de611b1362ed36ffc4190261",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.492711611027119,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 11,
+            "fp": 0,
+            "tn": 6,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": null,
+          "provenance_groups": 4,
+          "recording_recall": 0.0,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.07575757575757576
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 9,
+            "fp": 0,
+            "tn": 0,
+            "tp": 2
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 0.18181818181818182,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 6,
+            "tn": 16,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.2727272727272727,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 3,
+            "tn": 157,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.01875,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 10.831585658999757,
+            "epoch": 1,
+            "training_loss": 0.6706026056233574,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6647440461474299,
+            "elapsed_seconds": 12.157488191000084,
+            "epoch": 2,
+            "training_loss": 0.6032750434150883,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 14.961721089999628,
+            "epoch": 3,
+            "training_loss": 0.5210274474001398,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.848851392269891,
+            "elapsed_seconds": 16.48051722799937,
+            "epoch": 4,
+            "training_loss": 0.5245770668866587,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 19.176967006000268,
+            "epoch": 5,
+            "training_loss": 0.587585083117672,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 1.409979855348095,
+            "elapsed_seconds": 20.08991203000005,
+            "epoch": 6,
+            "training_loss": 0.4861697034508574,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 21.97542697099925,
+            "epoch": 7,
+            "training_loss": 0.5639979844438094,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7290093601569605,
+            "elapsed_seconds": 22.868936589999066,
+            "epoch": 8,
+            "training_loss": 0.5657149376530274,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 23.650322499999675,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "mel64-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.37056942755699157,
+          "on_hits": 2,
+          "on_threshold": 0.4940925700759888
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.2513887874394274,
+          "balanced_accuracy": 0.5215183752417795,
+          "confusion": {
+            "fn": 20,
+            "fp": 9,
+            "tn": 179,
+            "tp": 2
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.18181818181818182,
+          "provenance_groups": 145,
+          "recording_recall": 0.09090909090909091,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.7214700193423598
+        }
+      },
+      "model_id": "e5e1bb0c6f9def3ac23cf4cb5b921ce7fbe17bcf66fea35bf44bf3f3f352f03d",
+      "parent_model_id": "75890dfdb0cf4f27f50b55f0a859d55e957f697fbe7ce904837e474cdf3cabcf",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.5911964595119675,
+          "balanced_accuracy": 0.5,
+          "confusion": {
+            "fn": 11,
+            "fp": 0,
+            "tn": 6,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": null,
+          "provenance_groups": 4,
+          "recording_recall": 0.0,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.21212121212121213
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 9,
+            "fp": 0,
+            "tn": 0,
+            "tp": 2
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 0.18181818181818182,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 4,
+            "tn": 18,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.18181818181818182,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 5,
+            "tn": 155,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.03125,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "available_sampled_windows": 4648,
+        "bag_batch_size": 8,
+        "epochs_completed": 8,
+        "history": [
+          {
+            "elapsed_seconds": 3.990794149998692,
+            "epoch": 1,
+            "training_loss": 0.6654334658501195,
+            "unique_train_windows_seen": 2488
+          },
+          {
+            "development_balanced_bag_loss": 0.6710439498610146,
+            "elapsed_seconds": 4.920631050999873,
+            "epoch": 2,
+            "training_loss": 0.6132385464859944,
+            "unique_train_windows_seen": 3653
+          },
+          {
+            "elapsed_seconds": 6.725313861999894,
+            "epoch": 3,
+            "training_loss": 0.5266158027099628,
+            "unique_train_windows_seen": 3868
+          },
+          {
+            "development_balanced_bag_loss": 0.8633035799250641,
+            "elapsed_seconds": 7.5827570729998115,
+            "epoch": 4,
+            "training_loss": 0.564322260372779,
+            "unique_train_windows_seen": 4064
+          },
+          {
+            "elapsed_seconds": 9.917948153999532,
+            "epoch": 5,
+            "training_loss": 0.5472550210999507,
+            "unique_train_windows_seen": 4243
+          },
+          {
+            "development_balanced_bag_loss": 1.1523125729455146,
+            "elapsed_seconds": 10.95226263999939,
+            "epoch": 6,
+            "training_loss": 0.4682266703423332,
+            "unique_train_windows_seen": 4411
+          },
+          {
+            "elapsed_seconds": 13.188124710999546,
+            "epoch": 7,
+            "training_loss": 0.577486526878441,
+            "unique_train_windows_seen": 4579
+          },
+          {
+            "development_balanced_bag_loss": 0.7991410174755635,
+            "elapsed_seconds": 14.388524766000046,
+            "epoch": 8,
+            "training_loss": 0.705637820430246,
+            "unique_train_windows_seen": 4648
+          }
+        ],
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "max_windows_per_bag_step": 8,
+        "objective": "Positive bag: softplus(-max window logit); negative bag: mean softplus(window logit); balanced class and equal recording mass",
+        "optimizer": "Adam lr .001, clipnorm 1, L2 1e-4",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 15.347681818999263,
+        "seed": 42,
+        "selected_epoch": 2,
+        "selection": "Minimum balanced publisher-bag development loss, every 2 epochs, max 60 uniform contexts per file",
+        "unique_windows_seen_at_selected_epoch": 3653
+      }
+    },
+    "svm-linear-fft4096": {
+      "development": {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.3775990136823287,
+          "on_hits": 2,
+          "on_threshold": 0.5034653515764382
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.7415536449872226,
+          "balanced_accuracy": 0.8169729206963249,
+          "confusion": {
+            "fn": 7,
+            "fp": 9,
+            "tn": 179,
+            "tp": 15
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.625,
+          "provenance_groups": 145,
+          "recording_recall": 0.6818181818181818,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.8486460348162476
+        }
+      },
+      "model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+      "parent_model_id": "7cceaaa056445dd5710cf49d5e22386a0be6d0ccddf1bbb5bc2d650ff76a2ec6",
+      "source_breakdown": {
+        "batear-field": {
+          "average_precision_max_window_score": 0.6847226303108657,
+          "balanced_accuracy": 0.34848484848484856,
+          "confusion": {
+            "fn": 7,
+            "fp": 4,
+            "tn": 2,
+            "tp": 4
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1,
+          "negative_recording_false_positive_fraction": 0.6666666666666666,
+          "negative_recordings": 6,
+          "positive_hours": 0.025898819444444443,
+          "positive_recordings": 11,
+          "precision": 0.5,
+          "provenance_groups": 4,
+          "recording_recall": 0.36363636363636365,
+          "recordings": 17,
+          "roc_auc_max_window_score": 0.3484848484848485
+        },
+        "d3set-ground": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 0,
+            "tn": 0,
+            "tp": 11
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.0,
+          "negative_recording_false_positive_fraction": null,
+          "negative_recordings": 0,
+          "positive_hours": 1.388776423611111,
+          "positive_recordings": 11,
+          "precision": 1.0,
+          "provenance_groups": 3,
+          "recording_recall": 1.0,
+          "recordings": 11,
+          "roc_auc_max_window_score": null
+        },
+        "d3set-noise": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 2,
+            "tn": 20,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.1709134484048249,
+          "negative_recording_false_positive_fraction": 0.09090909090909091,
+          "negative_recordings": 22,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 22,
+          "recording_recall": null,
+          "recordings": 22,
+          "roc_auc_max_window_score": null
+        },
+        "esc10": {
+          "average_precision_max_window_score": null,
+          "balanced_accuracy": null,
+          "confusion": {
+            "fn": 0,
+            "fp": 3,
+            "tn": 157,
+            "tp": 0
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.2222222222222222,
+          "negative_recording_false_positive_fraction": 0.01875,
+          "negative_recordings": 160,
+          "positive_hours": 0.0,
+          "positive_recordings": 0,
+          "precision": 0.0,
+          "provenance_groups": 116,
+          "recording_recall": null,
+          "recordings": 160,
+          "roc_auc_max_window_score": null
+        }
+      },
+      "training": {
+        "C": 1.0,
+        "kernel": "RBF",
+        "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "method": "Temporal mean/std per frequency; train-only weighted standardization; four max-positive-instance updates; all sampled negative windows",
+        "origins": [
+          "authentic"
+        ],
+        "seconds": 50.149497394999344,
+        "seed": 42,
+        "support_vectors": 749
+      }
+    }
+  },
+  "original_plan": "plan.json",
+  "runtime_versions": {
+    "acoustic-drone-detector": "0.3.0",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "soundfile": "0.13.1",
+    "tensorflow-cpu": "2.20.0"
+  },
+  "scope": "DEVELOPMENT ONLY; prior assessment consumed; no fresh final set scored; assessed default preserved"
+}

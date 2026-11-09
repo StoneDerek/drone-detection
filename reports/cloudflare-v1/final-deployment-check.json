@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "url": "https://drone-audio-lab.pages.dev/",
+  "status": 200,
+  "deployment_id": "989d2e60-dc1b-4a81-8793-221f0e3c4d75",
+  "html_sha256": "4aea6658d1c458ac53c1ea21a0d9df4c0cb3fe50b31a61cf935a1a4649c08c9e",
+  "app_js_sha256": "d0f7c4b93b8fa3f0d9f227b8b91be6fb79aafd695ef896caadfea2778e4d8578",
+  "models": 11,
+  "examples": 5,
+  "content_security_policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src blob: 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'",
+  "page_errors": []
+}

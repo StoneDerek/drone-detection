@@ -1,0 +1,601 @@
+{
+  "passed": true,
+  "scope": "Numerical software parity on three existing real TRAIN/DEVELOPMENT files, not an acoustic benchmark",
+  "app_js_sha256": "d0f7c4b93b8fa3f0d9f227b8b91be6fb79aafd695ef896caadfea2778e4d8578",
+  "tolerances": {
+    "decoded_audio_max_abs": 0.00001,
+    "cnn_svm_logistic_score_abs": 0.00001,
+    "yamnet_score_abs": 0.0002,
+    "spectrogram_and_gradcam_max_abs": 0.002
+  },
+  "browser": "156.0.8078.79",
+  "results": [
+    {
+      "id": "batear-20260415_192501",
+      "decode": {
+        "length": 145241,
+        "max_error": 0,
+        "mean_error": 0
+      },
+      "models": {
+        "linear256-fft4096": {
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "windows": 14,
+          "max_score_error": 7.097225490637626e-8,
+          "scores": [
+            0.43214549448209905,
+            0.4324576338024284,
+            0.4333767720174778,
+            0.4338095170992812,
+            0.434849211768431,
+            0.4358960898375353,
+            0.4357032162685849,
+            0.4344915156701769,
+            0.43445209805469814,
+            0.433665750332442,
+            0.43160051915597436,
+            0.4302758949460778,
+            0.43058367437787204,
+            0.4234910225047252
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 44032,
+            "max_error": 0.0000029206275939941406,
+            "mean_error": 1.4392889650131364e-8
+          }
+        },
+        "frequency-context-fft4096": {
+          "model_id": "9d818cb0f09337098cf3dcc09bd862861e19c72468845a237a8c9a84a27ee0aa",
+          "windows": 14,
+          "max_score_error": 1.5546443377090213e-7,
+          "scores": [
+            0.27640425859003376,
+            0.2828937452147774,
+            0.28623565551051894,
+            0.28835257828614663,
+            0.29773114197164513,
+            0.28266198088290606,
+            0.2681725086453925,
+            0.24158862564547076,
+            0.2364774696407385,
+            0.2295938686059282,
+            0.2296310871631758,
+            0.23309183590977747,
+            0.2509041158440284,
+            0.2065643287360505
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 332476,
+            "max_error": 0.00001055002212524414,
+            "mean_error": 6.489880233914228e-8
+          }
+        },
+        "linear-fft1024": {
+          "model_id": "a4076f9ce5887fca02d406794dd877f1ec9de867139b37b0d1345b90cd4fdacd",
+          "windows": 14,
+          "max_score_error": 1.8111883737237378e-7,
+          "scores": [
+            0.3685514012718706,
+            0.3735146775596438,
+            0.36595931802534837,
+            0.35573023587426367,
+            0.33940168984712027,
+            0.32019202941348524,
+            0.2993254590540259,
+            0.2739819642049893,
+            0.26752490177386623,
+            0.26149786478832976,
+            0.27307302866862365,
+            0.28878959984703156,
+            0.3176334220645008,
+            0.19774887491785173
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 88872,
+            "max_error": 0.000006685033440589905,
+            "mean_error": 6.278785167057233e-8
+          }
+        },
+        "linear-fft4096": {
+          "model_id": "9f46a375100e3f615d2e9a176885d967fc2d0188120c34dd33b7b4131daaf496",
+          "windows": 14,
+          "max_score_error": 2.1244328018976688e-7,
+          "scores": [
+            0.2890960698410314,
+            0.2953132410443155,
+            0.29834536286197544,
+            0.30205238087796504,
+            0.3125220190515709,
+            0.30335975242122704,
+            0.2916877041213816,
+            0.2730751820559424,
+            0.2695798810120254,
+            0.2634725159158724,
+            0.2609530643556959,
+            0.2616260907526732,
+            0.27280126643486285,
+            0.23221978192679968
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 332476,
+            "max_error": 0.00001055002212524414,
+            "mean_error": 6.489880233914228e-8
+          }
+        },
+        "linear-power-fft4096": {
+          "model_id": "5fa8085efb50dd9958908fe3b992e0dee855bd08517462df95b88b6613f2808d",
+          "windows": 14,
+          "max_score_error": 2.3680934380099217e-8,
+          "scores": [
+            0.4531584607155738,
+            0.45297091307731374,
+            0.4526473406348061,
+            0.45260674136968754,
+            0.4531672971106856,
+            0.4529253537760071,
+            0.45234333220055534,
+            0.45176858966216343,
+            0.4525147243648039,
+            0.4527587232655498,
+            0.45299060805449703,
+            0.45331867988341323,
+            0.45372015645391034,
+            0.4539913894355207
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 332476,
+            "max_error": 2.384185791015625e-7,
+            "mean_error": 1.2153126643164134e-10
+          }
+        },
+        "mel256-fft4096": {
+          "model_id": "ffeedd502bf29f945d6145e65b23cc7adf3b5404ee06991f2d4f2063c67cf143",
+          "windows": 14,
+          "max_score_error": 5.67580903387821e-8,
+          "scores": [
+            0.4508301438128352,
+            0.4510492845573742,
+            0.45134369360834004,
+            0.4505212238279462,
+            0.44923498907024917,
+            0.44802731487999403,
+            0.4464154370743706,
+            0.44457356302940987,
+            0.444880363478824,
+            0.44562913983653957,
+            0.4467463632592168,
+            0.44758884302835616,
+            0.44852904525095905,
+            0.4467310308503501
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 44032,
+            "max_error": 7.282942533493042e-7,
+            "mean_error": 1.2137378647356283e-8
+          }
+        },
+        "mel64-fft1024": {
+          "model_id": "88fa2c3b6dbe4827651f57c35bc603a96e1251222a74fb2a8ff6a623e18d6ee9",
+          "windows": 14,
+          "max_score_error": 5.811994302495904e-8,
+          "scores": [
+            0.48223203491269506,
+            0.48123534706265364,
+            0.4814068172271288,
+            0.4802678465043774,
+            0.48003298192674887,
+            0.4817034248361544,
+            0.4821125251283791,
+            0.48323678266796466,
+            0.48295765124707796,
+            0.4854481460690237,
+            0.48840535924788275,
+            0.492479754115353,
+            0.4965549644895075,
+            0.4744520563970277
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 11776,
+            "max_error": 3.3155083656311035e-7,
+            "mean_error": 1.0142052222205244e-8
+          }
+        },
+        "mel64-fft4096": {
+          "model_id": "e5e1bb0c6f9def3ac23cf4cb5b921ce7fbe17bcf66fea35bf44bf3f3f352f03d",
+          "windows": 14,
+          "max_score_error": 6.694124887740571e-8,
+          "scores": [
+            0.4761391743245118,
+            0.47567395134619334,
+            0.47641648143354304,
+            0.4752810257139785,
+            0.47389865655230234,
+            0.4728803207857922,
+            0.4730021208770514,
+            0.47353160575866404,
+            0.47465407765895445,
+            0.47619198297764487,
+            0.47745167167653374,
+            0.4797062642579482,
+            0.4816138703171323,
+            0.4696575980781408
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 11008,
+            "max_error": 2.2351741790771484e-7,
+            "mean_error": 5.793692760689314e-9
+          }
+        },
+        "svm-linear-fft4096": {
+          "model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+          "windows": 14,
+          "max_score_error": 4.9522973999405195e-8,
+          "scores": [
+            0.35829407265594865,
+            0.38588752329537496,
+            0.4467815788753787,
+            0.3416670550906503,
+            0.4096400824561527,
+            0.42929747002247826,
+            0.41129309089155947,
+            0.3725265270724366,
+            0.2569797730184972,
+            0.2074292673642209,
+            0.11535584376516547,
+            0.10880090874996177,
+            0.1501532898961838,
+            0.05158054457549131
+          ],
+          "decisions_match": true,
+          "image": {
+            "length": 332476,
+            "max_error": 0.00001055002212524414,
+            "mean_error": 6.489880233914228e-8
+          }
+        },
+        "yamnet-default": {
+          "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+          "windows": 14,
+          "max_score_error": 0.0000019209100132755452,
+          "scores": [
+            0.989855862257058,
+            0.9410790742928052,
+            0.950356571433408,
+            0.9652701549569583,
+            0.9744972583084197,
+            0.8071211148087647,
+            0.9343667908396389,
+            0.5402067785326887,
+            0.9439322634267173,
+            0.7843204088629937,
+            0.9868923879548737,
+            0.9965451660344823,
+            0.9901148474496835,
+            0.8589173369949031
+          ],
+          "decisions_match": true
+        },
+        "relative-logistic": {
+          "model_id": "30c0d49b9e1be3318e25c76a554a7988752267945442790fa98cc6feffa97af1",
+          "windows": 14,
+          "max_score_error": 3.2080484935193e-9,
+          "scores": [
+            0.999999999282968,
+            0.9999999982274765,
+            0.9999999982376642,
+            0.9999999984683481,
+            0.9999999994563087,
+            0.9999999998693381,
+            0.9999999999687281,
+            0.9999999999539146,
+            0.9999999994407724,
+            0.9999999912229701,
+            0.9999991246570397,
+            0.9999846656426763,
+            0.9980401509036461,
+            4.944771938815733e-13
+          ],
+          "decisions_match": true
+        }
+      },
+      "gradcam": {
+        "drone-conv1": {
+          "length": 44032,
+          "max_error": 0,
+          "mean_error": 0,
+          "score_error": 1.166147090003733e-8,
+          "positive_matches": true,
+          "coarse_shape": [
+            128,
+            86
+          ]
+        },
+        "drone-conv2": {
+          "length": 44032,
+          "max_error": 0,
+          "mean_error": 0,
+          "score_error": 1.166147090003733e-8,
+          "positive_matches": true,
+          "coarse_shape": [
+            32,
+            43
+          ]
+        },
+        "drone-features": {
+          "length": 44032,
+          "max_error": 0,
+          "mean_error": 0,
+          "score_error": 1.166147090003733e-8,
+          "positive_matches": true,
+          "coarse_shape": [
+            8,
+            22
+          ]
+        },
+        "non_drone-conv1": {
+          "length": 44032,
+          "max_error": 0.0000029802322387695312,
+          "mean_error": 8.066735761023539e-8,
+          "score_error": 1.166147090003733e-8,
+          "positive_matches": true,
+          "coarse_shape": [
+            128,
+            86
+          ]
+        },
+        "non_drone-conv2": {
+          "length": 44032,
+          "max_error": 0.0000010728836059570312,
+          "mean_error": 1.6766649042797644e-7,
+          "score_error": 1.166147090003733e-8,
+          "positive_matches": true,
+          "coarse_shape": [
+            32,
+            43
+          ]
+        },
+        "non_drone-features": {
+          "length": 44032,
+          "max_error": 5.066394805908203e-7,
+          "mean_error": 1.1062822819059325e-7,
+          "score_error": 1.166147090003733e-8,
+          "positive_matches": true,
+          "coarse_shape": [
+            8,
+            22
+          ]
+        }
+      }
+    },
+    {
+      "id": "svanstrom-DRONE_001",
+      "decode": {
+        "length": 160001,
+        "max_error": 0,
+        "mean_error": 0
+      },
+      "models": {
+        "linear256-fft4096": {
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "windows": 1,
+          "max_score_error": 1.7335966273623882e-8,
+          "scores": [
+            0.43398519103820626
+          ],
+          "decisions_match": true
+        },
+        "frequency-context-fft4096": {
+          "model_id": "9d818cb0f09337098cf3dcc09bd862861e19c72468845a237a8c9a84a27ee0aa",
+          "windows": 1,
+          "max_score_error": 3.5187733282704414e-9,
+          "scores": [
+            0.2873268092253673
+          ],
+          "decisions_match": true
+        },
+        "linear-fft1024": {
+          "model_id": "a4076f9ce5887fca02d406794dd877f1ec9de867139b37b0d1345b90cd4fdacd",
+          "windows": 1,
+          "max_score_error": 7.367699245142134e-8,
+          "scores": [
+            0.3868596098479519
+          ],
+          "decisions_match": true
+        },
+        "linear-fft4096": {
+          "model_id": "9f46a375100e3f615d2e9a176885d967fc2d0188120c34dd33b7b4131daaf496",
+          "windows": 1,
+          "max_score_error": 1.1390612603134898e-7,
+          "scores": [
+            0.29969021147654534
+          ],
+          "decisions_match": true
+        },
+        "linear-power-fft4096": {
+          "model_id": "5fa8085efb50dd9958908fe3b992e0dee855bd08517462df95b88b6613f2808d",
+          "windows": 1,
+          "max_score_error": 1.4409948290161623e-8,
+          "scores": [
+            0.4536655689334163
+          ],
+          "decisions_match": true
+        },
+        "mel256-fft4096": {
+          "model_id": "ffeedd502bf29f945d6145e65b23cc7adf3b5404ee06991f2d4f2063c67cf143",
+          "windows": 1,
+          "max_score_error": 1.0004631179061363e-8,
+          "scores": [
+            0.4467270274251784
+          ],
+          "decisions_match": true
+        },
+        "mel64-fft1024": {
+          "model_id": "88fa2c3b6dbe4827651f57c35bc603a96e1251222a74fb2a8ff6a623e18d6ee9",
+          "windows": 1,
+          "max_score_error": 4.745555515217603e-8,
+          "scores": [
+            0.5036774995224417
+          ],
+          "decisions_match": true
+        },
+        "mel64-fft4096": {
+          "model_id": "e5e1bb0c6f9def3ac23cf4cb5b921ce7fbe17bcf66fea35bf44bf3f3f352f03d",
+          "windows": 1,
+          "max_score_error": 4.343813087004378e-8,
+          "scores": [
+            0.4848716693383994
+          ],
+          "decisions_match": true
+        },
+        "svm-linear-fft4096": {
+          "model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+          "windows": 1,
+          "max_score_error": 2.0496425445770683e-8,
+          "scores": [
+            0.6381254795676364
+          ],
+          "decisions_match": true
+        },
+        "yamnet-default": {
+          "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+          "windows": 1,
+          "max_score_error": 1.0437862289444134e-9,
+          "scores": [
+            0.0003507442349364941
+          ],
+          "decisions_match": true
+        },
+        "relative-logistic": {
+          "model_id": "30c0d49b9e1be3318e25c76a554a7988752267945442790fa98cc6feffa97af1",
+          "windows": 1,
+          "max_score_error": 9.096795205998376e-9,
+          "scores": [
+            0.25074835501473675
+          ],
+          "decisions_match": true
+        }
+      },
+      "gradcam": {}
+    },
+    {
+      "id": "esc10-4-125929-A-40",
+      "decode": {
+        "length": 80000,
+        "max_error": 0,
+        "mean_error": 0
+      },
+      "models": {
+        "linear256-fft4096": {
+          "model_id": "1fc66e6a7e899713e5ac4df0c7a68d893760884fc628f8bd82646700added4dd",
+          "windows": 1,
+          "max_score_error": 3.35086150493602e-8,
+          "scores": [
+            0.44214940441735223
+          ],
+          "decisions_match": true
+        },
+        "frequency-context-fft4096": {
+          "model_id": "9d818cb0f09337098cf3dcc09bd862861e19c72468845a237a8c9a84a27ee0aa",
+          "windows": 1,
+          "max_score_error": 1.7595233370304442e-7,
+          "scores": [
+            0.3148212759500558
+          ],
+          "decisions_match": true
+        },
+        "linear-fft1024": {
+          "model_id": "a4076f9ce5887fca02d406794dd877f1ec9de867139b37b0d1345b90cd4fdacd",
+          "windows": 1,
+          "max_score_error": 2.5110506229886198e-8,
+          "scores": [
+            0.38438045509364527
+          ],
+          "decisions_match": true
+        },
+        "linear-fft4096": {
+          "model_id": "9f46a375100e3f615d2e9a176885d967fc2d0188120c34dd33b7b4131daaf496",
+          "windows": 1,
+          "max_score_error": 3.895118338981263e-9,
+          "scores": [
+            0.322994027456596
+          ],
+          "decisions_match": true
+        },
+        "linear-power-fft4096": {
+          "model_id": "5fa8085efb50dd9958908fe3b992e0dee855bd08517462df95b88b6613f2808d",
+          "windows": 1,
+          "max_score_error": 1.0086400104025728e-8,
+          "scores": [
+            0.4505268234478406
+          ],
+          "decisions_match": true
+        },
+        "mel256-fft4096": {
+          "model_id": "ffeedd502bf29f945d6145e65b23cc7adf3b5404ee06991f2d4f2063c67cf143",
+          "windows": 1,
+          "max_score_error": 2.6172084333087042e-8,
+          "scores": [
+            0.44940837854711485
+          ],
+          "decisions_match": true
+        },
+        "mel64-fft1024": {
+          "model_id": "88fa2c3b6dbe4827651f57c35bc603a96e1251222a74fb2a8ff6a623e18d6ee9",
+          "windows": 1,
+          "max_score_error": 2.0100345943241393e-8,
+          "scores": [
+            0.513780673577061
+          ],
+          "decisions_match": true
+        },
+        "mel64-fft4096": {
+          "model_id": "e5e1bb0c6f9def3ac23cf4cb5b921ce7fbe17bcf66fea35bf44bf3f3f352f03d",
+          "windows": 1,
+          "max_score_error": 3.4866776466024874e-8,
+          "scores": [
+            0.49194064229920864
+          ],
+          "decisions_match": true
+        },
+        "svm-linear-fft4096": {
+          "model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+          "windows": 1,
+          "max_score_error": 8.088886577217735e-8,
+          "scores": [
+            0.297740033030571
+          ],
+          "decisions_match": true
+        },
+        "yamnet-default": {
+          "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+          "windows": 1,
+          "max_score_error": 7.649186681410111e-9,
+          "scores": [
+            0.0010776144035560015
+          ],
+          "decisions_match": true
+        },
+        "relative-logistic": {
+          "model_id": "30c0d49b9e1be3318e25c76a554a7988752267945442790fa98cc6feffa97af1",
+          "windows": 1,
+          "max_score_error": 2.706801406957395e-12,
+          "scores": [
+            0.000016682678631553985
+          ],
+          "decisions_match": true
+        }
+      },
+      "gradcam": {}
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

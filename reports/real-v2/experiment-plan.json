@@ -1,0 +1,18 @@
+{
+  "assessment": "One frozen batch, both arms. Fresh field days and negative source IDs; no final-driven optimization.",
+  "calibration": "sensitivity-v2: maximize development recall under <=5% negative-file FPR; prefer lowest feasible threshold, then FPR and two-hit confirmation",
+  "candidate_selection": "Feasible FPR<=5%, then highest recall, highest max-score ROC AUC, lowest FPR; ties prefer YAMNet. Development only.",
+  "claims": "Weak publisher recording labels. No independently verified temporal event metric or field-reliability claim.",
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "8b000552833fa9d170da9a7fa3309c6952c30d20f24ef109c2f6a9a7d700ec99"
+  },
+  "controlled": "Same real data, MI learning, seed42, C1, context3s/hop0.5s, train-only scaling; representation differs",
+  "hypotheses": {
+    "relative": "Broader real positives plus sensitivity calibration improve the cheap baseline",
+    "yamnet": "Frozen audio pretraining transfers across microphones better than spectral summaries"
+  },
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "old_assessment_consumed": true,
+  "seed": 42
+}

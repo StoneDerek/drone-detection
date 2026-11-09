@@ -1,0 +1,13 @@
+{
+  "cached_compressed_bytes": 3032270134,
+  "member_crc_checks": 10500,
+  "member_sha256_recorded": true,
+  "metadata": "Zenodo DOI 10.5281/zenodo.6459183",
+  "prefetch_traffic_not_counted_in_reader_counter": true,
+  "publisher_whole_md5": "4a6d4da4e1c732550c1ccd8d29dd16f8",
+  "reason": "Partial HTTPS range fetch; every selected ZIP member CRC and its content SHA are retained. No assertion of full-archive MD5 verification.",
+  "sequential_reader_bytes_transferred": 0,
+  "source": "https://zenodo.org/records/6459183/files/MLSP_2022_Real_Data.zip?download=1",
+  "synthetic_archive_downloaded": false,
+  "whole_archive_md5_verified": false
+}

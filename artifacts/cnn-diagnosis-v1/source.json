@@ -1,0 +1,45 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "aa7a79fc6aabb357e63b372fc10efc56998af71260eb2a101a420c1d97cb6895"
+  },
+  "files_sha256": {
+    "pyproject.toml": "f20cd82fc348bda0ca18cf16d8676820366da8f9253996ee7f2b2e52d5d87853",
+    "scripts/diagnose_cnn.py": "d44815184343342c3f72daac88be9a7bbf13227afd2ca0a1761be01994f90126",
+    "scripts/diagnose_normalization.py": "6371a52a95147cee7f0d7f734c80ccefe9b61ffa35bdc97ca6c8d8afc9da6d73",
+    "scripts/observe_real_audio.py": "92030377c79187a8f47e34db77741b021bbbf93caf35540bd084f3a3e99244ae",
+    "scripts/summarize_cnn_diagnosis.py": "d1b5b8c28f76b17b82aaa3c909b957020d4d5998c7c7e83ba790183a3e9580f4",
+    "src/drone_detector/__init__.py": "3d17f968ce29e2e7d91fc76b5cbe1637b3a7ca1be5b118ad80116087e0295831",
+    "src/drone_detector/audio.py": "cadb8ec788f2d4a7dfa4a89d23fafdb84eab087d7ce416a54b5e96136771f800",
+    "src/drone_detector/cli.py": "63e23f851c154a9eebdeb06841ed1339edab16fbe851e9f555537cd6e8d4dab2",
+    "src/drone_detector/common.py": "4b4a71ee244301d6d04d3a15edd25caf1146b8a10d15c9ea6e2b6f8f867727ac",
+    "src/drone_detector/data.py": "ecbec3f3c3cc18a9b68b1bc6c5fafb8e381e3229f39e154f819e70f6ddc5f611",
+    "src/drone_detector/demo.py": "91079f3ea981a78fa4916a096833f1a3f6b906e3c15a6f3972002a0fb7ff9996",
+    "src/drone_detector/encoder.py": "e5cdf23a5b2724899c368721e3b02b7c75b76890a075256f7277dbe05a7a525f",
+    "src/drone_detector/evaluation.py": "160f236001795675eac5e1fb9759e66e7c625192f5141edeb721f8338c6d349a",
+    "src/drone_detector/experiments.py": "2eb4a7bc32a324e5d0a90eeb078c568da9c7dc71abb5b7a36e5a713f8c8cd639",
+    "src/drone_detector/lab.py": "7c31fae3a423ca231b7ac652881f969725db4d9b903c1e2b3a00c8c15adaf1de",
+    "src/drone_detector/model.py": "b38e63ac95bf87eaac376f70569d48fa9b0722f696119dda7a4021d125d10fd6",
+    "src/drone_detector/spectral_calibration.py": "cada15942c1516a0aa6ea95e185270c837aefb5539f9ae876b0670b75a48c6ed",
+    "src/drone_detector/spectral_training.py": "f1b02eb5edddf140ebb6eaa2f98cd04d45e015f04c35ee559d966c77aec061bd",
+    "src/drone_detector/spectrogram.py": "e52c071d6e18467e15665050b0f64139d3e33b29cd18ab0d6c6fb494e40450d2",
+    "src/drone_detector/stream.py": "6d86cca63fc17cfdec0f6bf03ef3b11fc992da90b89f202cd4f480f8ca504c1d",
+    "src/drone_detector/synthetic.py": "672805197d1213e490b7e77d987199f9a8a6593cde26d5327b0daf05c5fc1ed0",
+    "src/drone_detector/weak.py": "40be9ee6f460ff76b54a6dac04de8be77d4cee16529fd6211f0c8e808c26cd5f",
+    "src/drone_detector/web.py": "a43adfc776d8f2446923f5a5f474920e3a1d3eca53326a36b0237de1fdcc0a8f",
+    "tests/test_spectrogram.py": "982f94675808f3735cc4fe5f6cb8fe1b3b92817bc1a0588dbc5dc671ecdb5d7a",
+    "uv.lock": "7bf04b200f7fbf97ba6b2349e0a4c67e57fe28e1186a6c378748cb8d5770a6e6"
+  },
+  "hardware": {
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "status": "Diagnostic trained models; no frozen alarms or independent assessment",
+  "versions": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "soundfile": "0.13.1"
+  }
+}

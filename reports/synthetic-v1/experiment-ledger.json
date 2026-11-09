@@ -1,0 +1,601 @@
+[
+  {
+    "augment": false,
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+    },
+    "compute_seconds": 1.7374884270000166,
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.48750000000000004,
+      "on_hits": 1,
+      "on_threshold": 0.65
+    },
+    "development": {
+      "alarm_events": 4,
+      "all_events": 4,
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "events": 4,
+      "false_alarm_events": 0,
+      "false_alarms_per_hour": 0.0,
+      "hours": 0.04,
+      "independent_groups": 4,
+      "matched_events": 4,
+      "median_delay_seconds_detected_events_only": 3.0013212825000437,
+      "negative_alarm_time_fraction": 0.01293103448275862,
+      "negative_hours": 0.03222222222222222,
+      "p95_delay_seconds_detected_events_only": 3.0014427287501007,
+      "recording_confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 8,
+        "tp": 4
+      },
+      "recording_errors": 0,
+      "recording_precision": 1.0,
+      "recording_recall": 1.0,
+      "recordings": 12,
+      "short_events_outside_claim": 0
+    },
+    "features": {
+      "f_max": 7600.0,
+      "f_min": 80.0,
+      "hop_seconds": 0.5,
+      "mel_bins": 48,
+      "min_audio_seconds": 0.25,
+      "n_fft": 512,
+      "representation": "absolute_mel",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 160,
+      "window_seconds": 3.0
+    },
+    "gain_probe": {
+      "comparisons": 35,
+      "gains_db": [
+        -24,
+        -12,
+        6
+      ],
+      "max_absolute_score_change": 0.5749711179356112,
+      "mean_absolute_score_change": 0.03491303788734061,
+      "scope": "Fixed central 3 s context; representation sensitivity only, no full-stream or authentic robustness claim",
+      "split": "development",
+      "threshold_flip_fraction": 0.05714285714285714
+    },
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "hits": [
+      1
+    ],
+    "hypothesis": "Inexpensive absolute log-Mel baseline",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "model_id": "fe7502bf87afbf78d5f74e7d88952f2f2bef0ade68f0433337d10d7e0a463edf",
+    "name": "absolute",
+    "representation": "absolute_mel",
+    "seed": 42,
+    "training_window_counts": {
+      "0": 656,
+      "1": 112
+    }
+  },
+  {
+    "augment": false,
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+    },
+    "compute_seconds": 1.3076490780001677,
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.48750000000000004,
+      "on_hits": 1,
+      "on_threshold": 0.65
+    },
+    "development": {
+      "alarm_events": 4,
+      "all_events": 4,
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "events": 4,
+      "false_alarm_events": 0,
+      "false_alarms_per_hour": 0.0,
+      "hours": 0.04,
+      "independent_groups": 4,
+      "matched_events": 4,
+      "median_delay_seconds_detected_events_only": 2.5010140745000626,
+      "negative_alarm_time_fraction": 0.034482758620689655,
+      "negative_hours": 0.03222222222222222,
+      "p95_delay_seconds_detected_events_only": 2.5011071409000123,
+      "recording_confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 8,
+        "tp": 4
+      },
+      "recording_errors": 0,
+      "recording_precision": 1.0,
+      "recording_recall": 1.0,
+      "recordings": 12,
+      "short_events_outside_claim": 0
+    },
+    "features": {
+      "f_max": 7600.0,
+      "f_min": 80.0,
+      "hop_seconds": 0.5,
+      "mel_bins": 48,
+      "min_audio_seconds": 0.25,
+      "n_fft": 512,
+      "representation": "relative_mel",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 160,
+      "window_seconds": 3.0
+    },
+    "gain_probe": {
+      "comparisons": 35,
+      "gains_db": [
+        -24,
+        -12,
+        6
+      ],
+      "max_absolute_score_change": 6.393153051398315e-08,
+      "mean_absolute_score_change": 4.408401227402362e-09,
+      "scope": "Fixed central 3 s context; representation sensitivity only, no full-stream or authentic robustness claim",
+      "split": "development",
+      "threshold_flip_fraction": 0.0
+    },
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "hits": [
+      1
+    ],
+    "hypothesis": "Subtracting scalar log-energy removes gain shortcut",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "model_id": "f7d4061c489458b7c2b1f3d25a2f0131c6875b336fb1153899b76026ef134d39",
+    "name": "relative",
+    "representation": "relative_mel",
+    "seed": 42,
+    "training_window_counts": {
+      "0": 656,
+      "1": 112
+    }
+  },
+  {
+    "augment": false,
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+    },
+    "compute_seconds": 1.468868718000067,
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.48750000000000004,
+      "on_hits": 1,
+      "on_threshold": 0.65
+    },
+    "development": {
+      "alarm_events": 4,
+      "all_events": 4,
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "events": 4,
+      "false_alarm_events": 0,
+      "false_alarms_per_hour": 0.0,
+      "hours": 0.04,
+      "independent_groups": 4,
+      "matched_events": 4,
+      "median_delay_seconds_detected_events_only": 2.5011675014999355,
+      "negative_alarm_time_fraction": 0.034482758620689655,
+      "negative_hours": 0.03222222222222222,
+      "p95_delay_seconds_detected_events_only": 2.501281163550016,
+      "recording_confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 8,
+        "tp": 4
+      },
+      "recording_errors": 0,
+      "recording_precision": 1.0,
+      "recording_recall": 1.0,
+      "recordings": 12,
+      "short_events_outside_claim": 0
+    },
+    "features": {
+      "f_max": 7600.0,
+      "f_min": 80.0,
+      "hop_seconds": 0.5,
+      "mel_bins": 48,
+      "min_audio_seconds": 0.25,
+      "n_fft": 512,
+      "representation": "relative_harmonic",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 160,
+      "window_seconds": 3.0
+    },
+    "gain_probe": {
+      "comparisons": 35,
+      "gains_db": [
+        -24,
+        -12,
+        6
+      ],
+      "max_absolute_score_change": 5.792300694640318e-08,
+      "mean_absolute_score_change": 4.013253491047497e-09,
+      "scope": "Fixed central 3 s context; representation sensitivity only, no full-stream or authentic robustness claim",
+      "split": "development",
+      "threshold_flip_fraction": 0.0
+    },
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "hits": [
+      1
+    ],
+    "hypothesis": "Flatness/crest/cepstral features distinguish tonal structure",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "model_id": "2eb8d19d3a650d59a4f6a92c6a1cc6e2c4345208907d282fb54cdf0ae1f65daf",
+    "name": "harmonic",
+    "representation": "relative_harmonic",
+    "seed": 42,
+    "training_window_counts": {
+      "0": 656,
+      "1": 112
+    }
+  },
+  {
+    "augment": false,
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+    },
+    "compute_seconds": 1.3732671509999363,
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.48750000000000004,
+      "on_hits": 1,
+      "on_threshold": 0.65
+    },
+    "development": {
+      "alarm_events": 4,
+      "all_events": 4,
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "events": 4,
+      "false_alarm_events": 0,
+      "false_alarms_per_hour": 0.0,
+      "hours": 0.04,
+      "independent_groups": 4,
+      "matched_events": 4,
+      "median_delay_seconds_detected_events_only": 2.5011150909998605,
+      "negative_alarm_time_fraction": 0.034482758620689655,
+      "negative_hours": 0.03222222222222222,
+      "p95_delay_seconds_detected_events_only": 2.501429830749885,
+      "recording_confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 8,
+        "tp": 4
+      },
+      "recording_errors": 0,
+      "recording_precision": 1.0,
+      "recording_recall": 1.0,
+      "recordings": 12,
+      "short_events_outside_claim": 0
+    },
+    "features": {
+      "f_max": 7600.0,
+      "f_min": 80.0,
+      "hop_seconds": 0.5,
+      "mel_bins": 48,
+      "min_audio_seconds": 0.25,
+      "n_fft": 512,
+      "representation": "relative_mel",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 160,
+      "window_seconds": 3.0
+    },
+    "gain_probe": {
+      "comparisons": 35,
+      "gains_db": [
+        -24,
+        -12,
+        6
+      ],
+      "max_absolute_score_change": 6.393153051398315e-08,
+      "mean_absolute_score_change": 4.408401227402362e-09,
+      "scope": "Fixed central 3 s context; representation sensitivity only, no full-stream or authentic robustness claim",
+      "split": "development",
+      "threshold_flip_fraction": 0.0
+    },
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "hits": [
+      1,
+      2
+    ],
+    "hypothesis": "Confirmation reduces transient alarms at a delay cost",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "model_id": "06d23efdbfff79a67d96779bd7e3467c443bfa2f6ea3c0c6c8ced4e0b6c208dd",
+    "name": "temporal",
+    "representation": "relative_mel",
+    "seed": 42,
+    "training_window_counts": {
+      "0": 656,
+      "1": 112
+    }
+  },
+  {
+    "augment": true,
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+    },
+    "compute_seconds": 2.199674271000049,
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6000000000000001,
+      "on_hits": 1,
+      "on_threshold": 0.8
+    },
+    "development": {
+      "alarm_events": 4,
+      "all_events": 4,
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "events": 4,
+      "false_alarm_events": 0,
+      "false_alarms_per_hour": 0.0,
+      "hours": 0.04,
+      "independent_groups": 4,
+      "matched_events": 4,
+      "median_delay_seconds_detected_events_only": 2.5010669900001403,
+      "negative_alarm_time_fraction": 0.034482758620689655,
+      "negative_hours": 0.03222222222222222,
+      "p95_delay_seconds_detected_events_only": 2.5010939719499903,
+      "recording_confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 8,
+        "tp": 4
+      },
+      "recording_errors": 0,
+      "recording_precision": 1.0,
+      "recording_recall": 1.0,
+      "recordings": 12,
+      "short_events_outside_claim": 0
+    },
+    "features": {
+      "f_max": 7600.0,
+      "f_min": 80.0,
+      "hop_seconds": 0.5,
+      "mel_bins": 48,
+      "min_audio_seconds": 0.25,
+      "n_fft": 512,
+      "representation": "relative_mel",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 160,
+      "window_seconds": 3.0
+    },
+    "gain_probe": {
+      "comparisons": 35,
+      "gains_db": [
+        -24,
+        -12,
+        6
+      ],
+      "max_absolute_score_change": 4.3831772877922504e-08,
+      "mean_absolute_score_change": 2.939143935818082e-09,
+      "scope": "Fixed central 3 s context; representation sensitivity only, no full-stream or authentic robustness claim",
+      "split": "development",
+      "threshold_flip_fraction": 0.0
+    },
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "hits": [
+      1,
+      2
+    ],
+    "hypothesis": "Train-only gain augmentation; repeated seeds check stochastic sensitivity",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "model_id": "561b11968d188699637f5fe9639cd9081f08f950772cd92c640415d62fec3605",
+    "name": "gain-aug-7",
+    "representation": "relative_mel",
+    "seed": 7,
+    "training_window_counts": {
+      "0": 1312,
+      "1": 224
+    }
+  },
+  {
+    "augment": true,
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+    },
+    "compute_seconds": 2.1604716599999847,
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6000000000000001,
+      "on_hits": 1,
+      "on_threshold": 0.8
+    },
+    "development": {
+      "alarm_events": 4,
+      "all_events": 4,
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "events": 4,
+      "false_alarm_events": 0,
+      "false_alarms_per_hour": 0.0,
+      "hours": 0.04,
+      "independent_groups": 4,
+      "matched_events": 4,
+      "median_delay_seconds_detected_events_only": 2.5010732199999666,
+      "negative_alarm_time_fraction": 0.034482758620689655,
+      "negative_hours": 0.03222222222222222,
+      "p95_delay_seconds_detected_events_only": 2.5011999509001273,
+      "recording_confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 8,
+        "tp": 4
+      },
+      "recording_errors": 0,
+      "recording_precision": 1.0,
+      "recording_recall": 1.0,
+      "recordings": 12,
+      "short_events_outside_claim": 0
+    },
+    "features": {
+      "f_max": 7600.0,
+      "f_min": 80.0,
+      "hop_seconds": 0.5,
+      "mel_bins": 48,
+      "min_audio_seconds": 0.25,
+      "n_fft": 512,
+      "representation": "relative_mel",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 160,
+      "window_seconds": 3.0
+    },
+    "gain_probe": {
+      "comparisons": 35,
+      "gains_db": [
+        -24,
+        -12,
+        6
+      ],
+      "max_absolute_score_change": 4.383177631961388e-08,
+      "mean_absolute_score_change": 2.9391443398088007e-09,
+      "scope": "Fixed central 3 s context; representation sensitivity only, no full-stream or authentic robustness claim",
+      "split": "development",
+      "threshold_flip_fraction": 0.0
+    },
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "hits": [
+      1,
+      2
+    ],
+    "hypothesis": "Train-only gain augmentation; repeated seeds check stochastic sensitivity",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "model_id": "aa9a710c030a5a628f320d9741d1f920581d84b9816002dbfb1cfac0c6b8a330",
+    "name": "gain-aug-42",
+    "representation": "relative_mel",
+    "seed": 42,
+    "training_window_counts": {
+      "0": 1312,
+      "1": 224
+    }
+  },
+  {
+    "augment": true,
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "c079bae5cd42f92ed295a0663f521daa44cf523aa8a7f2a74b7a6afafa430a49"
+    },
+    "compute_seconds": 2.2136733570000615,
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6000000000000001,
+      "on_hits": 1,
+      "on_threshold": 0.8
+    },
+    "development": {
+      "alarm_events": 4,
+      "all_events": 4,
+      "event_precision": 1.0,
+      "event_recall": 1.0,
+      "events": 4,
+      "false_alarm_events": 0,
+      "false_alarms_per_hour": 0.0,
+      "hours": 0.04,
+      "independent_groups": 4,
+      "matched_events": 4,
+      "median_delay_seconds_detected_events_only": 2.5010882499999525,
+      "negative_alarm_time_fraction": 0.034482758620689655,
+      "negative_hours": 0.03222222222222222,
+      "p95_delay_seconds_detected_events_only": 2.5014306217500346,
+      "recording_confusion": {
+        "fn": 0,
+        "fp": 0,
+        "tn": 8,
+        "tp": 4
+      },
+      "recording_errors": 0,
+      "recording_precision": 1.0,
+      "recording_recall": 1.0,
+      "recordings": 12,
+      "short_events_outside_claim": 0
+    },
+    "features": {
+      "f_max": 7600.0,
+      "f_min": 80.0,
+      "hop_seconds": 0.5,
+      "mel_bins": 48,
+      "min_audio_seconds": 0.25,
+      "n_fft": 512,
+      "representation": "relative_mel",
+      "sample_rate": 16000,
+      "silence_rms": 1e-05,
+      "stft_hop": 160,
+      "window_seconds": 3.0
+    },
+    "gain_probe": {
+      "comparisons": 35,
+      "gains_db": [
+        -24,
+        -12,
+        6
+      ],
+      "max_absolute_score_change": 4.383178264788512e-08,
+      "mean_absolute_score_change": 2.9391446112797947e-09,
+      "scope": "Fixed central 3 s context; representation sensitivity only, no full-stream or authentic robustness claim",
+      "split": "development",
+      "threshold_flip_fraction": 0.0
+    },
+    "hardware": {
+      "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "python": "3.12.14"
+    },
+    "hits": [
+      1,
+      2
+    ],
+    "hypothesis": "Train-only gain augmentation; repeated seeds check stochastic sensitivity",
+    "manifest_sha256": "9a3a26196c2ad0d63893cab939803e00fd612e3c29978815eabebce45df71e68",
+    "model_id": "b6bd9ecf7d132bbe6f973628e7d652a1767a5582094282ef8d95bf83004df8f8",
+    "name": "gain-aug-123",
+    "representation": "relative_mel",
+    "seed": 123,
+    "training_window_counts": {
+      "0": 1312,
+      "1": 224
+    }
+  }
+]

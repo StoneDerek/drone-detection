@@ -1,0 +1,54 @@
+{
+  "arms": {
+    "compact8": {
+      "epochs": 8,
+      "parameters": 1781,
+      "positive": "sample8/max",
+      "variant": "compact"
+    },
+    "coverage8": {
+      "epochs": 8,
+      "parameters": 1781,
+      "positive": "sample8/max",
+      "variant": "coverage"
+    },
+    "medium-full-smooth": {
+      "epochs": 24,
+      "parameters": 93313,
+      "positive": "all cached contexts, normalized logsumexp temperature0.5",
+      "snapshot_epochs": [
+        8
+      ],
+      "variant": "coverage_medium"
+    },
+    "medium-sampled-max": {
+      "epochs": 24,
+      "parameters": 93313,
+      "positive": "sample8/max",
+      "snapshot_epochs": [
+        8
+      ],
+      "variant": "coverage_medium"
+    }
+  },
+  "cache_index_sha256": "b4126b181fb837a3a6e47e2714b8b90f24764da3a6502ec266c4a50a68b09712",
+  "calibration": "Any later interface alarm calibration uses the same disclosed5% development-negative budget, with source-level failures and raw ranking retained. No new field-FPR claim.",
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "2d1783c9bf86237ee37e4cb9a6c5b8067e8143fd55b888f8c9de834300f46e22"
+  },
+  "conditional_followup": "If full/smooth beats sampled/max at24 by>.03 development AUC or>.05 common bag loss, run a full-positive/hard-max arm to separate the two training changes. Repeat a clearly improved result at seed7 before interpreting stability.",
+  "controls": "Seed42, Adam.001 clipnorm1, dropout.1, L2.0001, eight recording bags per optimizer step, balanced/equal recording mass. Negatives sample8 and retain mean window softplus. Same uniformly capped60 candidate contexts/file.",
+  "coverage": "Change frequency strides4 to3 in conv2/conv3, retaining all kernel shapes, channels, parameter count and seeded initial weights. This also changes output stride and receptive-field span; field changes cannot isolate missing rows alone.",
+  "formulation": "Full-positive/smooth arm jointly removes random positive sub-bag omission and concentrates less gradient on one winner. It does not repair wrong whole-recording labels. This is a grouped intervention, not proof either component alone causes improvement.",
+  "hardware": {
+    "cpu": "AMD EPYC 7763 64-Core Processor",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "id": "cnn-foundations-v1",
+  "input": "Same verified cached linear256 by172 relative-log-power tensors, 4096 Hann, hop256, 3s context. No amplitude or input representation change.",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "scope": "TRAIN/DEVELOPMENT only. Existing weak publisher labels; no new independent assessment, invented audible intervals or default promotion. No multi-view/3D input.",
+  "selection": "Common max-positive / mean-negative balanced development bag loss every2 epochs. Compare at8 epochs as well as completed24. Report inference-mode full sampled-training loss, per-source outcomes and gradient/instance-selection exposure."
+}

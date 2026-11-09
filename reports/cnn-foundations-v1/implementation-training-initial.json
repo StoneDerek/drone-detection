@@ -1,0 +1,31 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "739bc227d91020cdce0ee26a6355281226a0fa3257216b175d2411d87ccfb61a"
+  },
+  "files_sha256": {
+    "pyproject.toml": "f20cd82fc348bda0ca18cf16d8676820366da8f9253996ee7f2b2e52d5d87853",
+    "scripts/experiment_cnn_foundations.py": "2419a7e52e383de953432f1f371a422700237bf6980e5a85ae98341972ebbf41",
+    "src/drone_detector/__init__.py": "3d17f968ce29e2e7d91fc76b5cbe1637b3a7ca1be5b118ad80116087e0295831",
+    "src/drone_detector/audio.py": "cadb8ec788f2d4a7dfa4a89d23fafdb84eab087d7ce416a54b5e96136771f800",
+    "src/drone_detector/cli.py": "63e23f851c154a9eebdeb06841ed1339edab16fbe851e9f555537cd6e8d4dab2",
+    "src/drone_detector/common.py": "4b4a71ee244301d6d04d3a15edd25caf1146b8a10d15c9ea6e2b6f8f867727ac",
+    "src/drone_detector/data.py": "ecbec3f3c3cc18a9b68b1bc6c5fafb8e381e3229f39e154f819e70f6ddc5f611",
+    "src/drone_detector/demo.py": "91079f3ea981a78fa4916a096833f1a3f6b906e3c15a6f3972002a0fb7ff9996",
+    "src/drone_detector/encoder.py": "e5cdf23a5b2724899c368721e3b02b7c75b76890a075256f7277dbe05a7a525f",
+    "src/drone_detector/evaluation.py": "160f236001795675eac5e1fb9759e66e7c625192f5141edeb721f8338c6d349a",
+    "src/drone_detector/experiments.py": "2eb4a7bc32a324e5d0a90eeb078c568da9c7dc71abb5b7a36e5a713f8c8cd639",
+    "src/drone_detector/foundation_training.py": "3f63e36b103b559dfde1fb977434c07cc3d71e671b8fa3e212e681679170c810",
+    "src/drone_detector/lab.py": "6753008c690e824cb3b9c8ded3f0113c22158fd5127fc5f40236aaec709b7a03",
+    "src/drone_detector/model.py": "b38e63ac95bf87eaac376f70569d48fa9b0722f696119dda7a4021d125d10fd6",
+    "src/drone_detector/spectral_calibration.py": "cada15942c1516a0aa6ea95e185270c837aefb5539f9ae876b0670b75a48c6ed",
+    "src/drone_detector/spectral_training.py": "0a6519a396157797c678bceed16ecd908e8b5a45e825429b6b87606083c02639",
+    "src/drone_detector/spectrogram.py": "6d2b5c733220638d5b8c287e408a48a80b79fd708fa60ac43f4e4c944ab99dc8",
+    "src/drone_detector/stream.py": "6d86cca63fc17cfdec0f6bf03ef3b11fc992da90b89f202cd4f480f8ca504c1d",
+    "src/drone_detector/synthetic.py": "672805197d1213e490b7e77d987199f9a8a6593cde26d5327b0daf05c5fc1ed0",
+    "src/drone_detector/weak.py": "40be9ee6f460ff76b54a6dac04de8be77d4cee16529fd6211f0c8e808c26cd5f",
+    "src/drone_detector/web.py": "a43adfc776d8f2446923f5a5f474920e3a1d3eca53326a36b0237de1fdcc0a8f",
+    "uv.lock": "7bf04b200f7fbf97ba6b2349e0a4c67e57fe28e1186a6c378748cb8d5770a6e6"
+  },
+  "scope": "Exact implementation loaded for the initially planned medium sampled/max and full/smooth runs. Initial plan code identifies protocol preparation; this snapshot adds the training implementation."
+}

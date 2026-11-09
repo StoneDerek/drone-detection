@@ -1,0 +1,14 @@
+{
+  "app_js_sha256": "3fd3b0f47c537578f1bf803e9a771cfab8a10efb775765de82114308f4049839",
+  "cnn_models": 14,
+  "gradcam_comparisons": 36,
+  "maximum_gradcam_error": 1.2502074241638184e-05,
+  "maximum_score_error": 1.9209100132755452e-06,
+  "models": 17,
+  "no_audio_uploads": true,
+  "passed": true,
+  "public_deployment_id": "9fdad524-8681-4f5f-8a83-a811a3e76594",
+  "public_workflows_passed": true,
+  "python_tests_passed": 78,
+  "score_comparisons": 272
+}

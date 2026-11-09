@@ -1,0 +1,21 @@
+{
+  "archive_sha256": "e1f10c89ddc3f1d9b4b28cb6c8add6021cfdcb7669158390ea0ee3ef5576f8ab",
+  "files_sha256": {
+    "src/drone_detector/__init__.py": "0bd0a79b2b24b10d0874d0c7ec1811bb394074d36ec7b5e0b2141a705d809c95",
+    "src/drone_detector/audio.py": "cadb8ec788f2d4a7dfa4a89d23fafdb84eab087d7ce416a54b5e96136771f800",
+    "src/drone_detector/cli.py": "92c5f84d8125bbb3ea4ce60b2338089f301a98608773fb86804978a06807e34f",
+    "src/drone_detector/common.py": "4b4a71ee244301d6d04d3a15edd25caf1146b8a10d15c9ea6e2b6f8f867727ac",
+    "src/drone_detector/data.py": "ecbec3f3c3cc18a9b68b1bc6c5fafb8e381e3229f39e154f819e70f6ddc5f611",
+    "src/drone_detector/demo.py": "91079f3ea981a78fa4916a096833f1a3f6b906e3c15a6f3972002a0fb7ff9996",
+    "src/drone_detector/encoder.py": "e5cdf23a5b2724899c368721e3b02b7c75b76890a075256f7277dbe05a7a525f",
+    "src/drone_detector/evaluation.py": "160f236001795675eac5e1fb9759e66e7c625192f5141edeb721f8338c6d349a",
+    "src/drone_detector/experiments.py": "2eb4a7bc32a324e5d0a90eeb078c568da9c7dc71abb5b7a36e5a713f8c8cd639",
+    "src/drone_detector/model.py": "2d976188eb54121212c0efa77151f73480aacbce3e53c92d6f1a66f4e88bff95",
+    "src/drone_detector/stream.py": "6d86cca63fc17cfdec0f6bf03ef3b11fc992da90b89f202cd4f480f8ca504c1d",
+    "src/drone_detector/synthetic.py": "672805197d1213e490b7e77d987199f9a8a6593cde26d5327b0daf05c5fc1ed0",
+    "src/drone_detector/weak.py": "40be9ee6f460ff76b54a6dac04de8be77d4cee16529fd6211f0c8e808c26cd5f",
+    "src/drone_detector/web.py": "da38d988638268ed73154969c6220554812f7ae260392ff4230e6dfa580fc608"
+  },
+  "scope": "Exact source snapshot recorded by the experimental model training. Subsequent UI-only explanation/closed-connection handling changes are in the product source snapshot.",
+  "source_sha256": "60f182132f0c33e266ce86b71efa08bfac23b823d16c4c954c179f03d433aae7"
+}

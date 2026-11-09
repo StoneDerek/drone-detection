@@ -1,0 +1,30 @@
+{
+  "false_positive_file_categories": {
+    "airplane": 2,
+    "breathing": 3,
+    "can_opening": 4,
+    "car_horn": 5,
+    "chirping_birds": 3,
+    "clapping": 4,
+    "clock_alarm": 9,
+    "cow": 7,
+    "crickets": 5,
+    "glass_breaking": 3,
+    "insects": 1,
+    "laughing": 5,
+    "pig": 1,
+    "same-session-rural": 2,
+    "sheep": 17,
+    "siren": 2,
+    "snoring": 5,
+    "train": 10,
+    "vacuum_cleaner": 25,
+    "washing_machine": 7,
+    "wind": 6
+  },
+  "missed_positive_file_sources": {
+    "batear-new-day": 24,
+    "ddl-real": 9
+  },
+  "scope": "Diagnostic inspection of frozen assessment only; no model/threshold changed"
+}

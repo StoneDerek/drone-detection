@@ -1,0 +1,14 @@
+{
+  "alarms_timestamps_reasons_padding_equal": true,
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "9891621bfd8805e56d226adf804cce7a9d79a0fa4d0fb58af9d24bceee6bf625"
+  },
+  "max_score_error": 0.0,
+  "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+  "passed": true,
+  "scope": "Software regression on an existing real development input; old 0.1.0 isolated trace versus current default. No additional acoustic benchmark.",
+  "source_wheel_installed_modules_identical": true,
+  "tolerance": 1e-05,
+  "windows": 14
+}

@@ -1,0 +1,4289 @@
+{
+  "class_mapping": {
+    "0": "non_drone",
+    "1": "drone"
+  },
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "8b000552833fa9d170da9a7fa3309c6952c30d20f24ef109c2f6a9a7d700ec99"
+  },
+  "contract": {
+    "event_reliability_contract": "contracts/evaluation-v1.json remains unfulfilled",
+    "id": "publisher-presence-prototype-sensitivity-v2",
+    "label_scope": "weak recording-level publisher labels",
+    "no_field_reliability_claim": true,
+    "selection": "Development only: prefer negative-file FPR <=5%, highest recall, lowest threshold meeting the budget, then lowest FPR and two-hit confirmation. Provisional sensitivity policy addresses long-file extreme-score bias."
+  },
+  "contract_sha256": "efa1c22c1adf5fdf924ccc08450a9c1ec7c91866f822137406b0481f0643c638",
+  "decision": {
+    "off_hits": 2,
+    "off_threshold": 0.375,
+    "on_hits": 2,
+    "on_threshold": 0.5
+  },
+  "feature_dimension": 96,
+  "features": {
+    "f_max": 7600.0,
+    "f_min": 80.0,
+    "hop_seconds": 0.5,
+    "mel_bins": 48,
+    "min_audio_seconds": 0.25,
+    "n_fft": 512,
+    "representation": "relative_mel",
+    "sample_rate": 16000,
+    "silence_rms": 1e-05,
+    "stft_hop": 160,
+    "window_seconds": 3.0
+  },
+  "limitations": "Research prototype trained on real publisher-labeled audio. Event recall/delay and field reliability remain unvalidated. Scores are uncalibrated; unfamiliar sounds can trigger alarms.",
+  "model_id": "30c0d49b9e1be3318e25c76a554a7988752267945442790fa98cc6feffa97af1",
+  "normalization": "Weighted train-bag windows only; mean/scale stored in NPZ",
+  "parameters_sha256": "9cf0a04cca5f99faed9ce42f281755e60e51e80ba216e5b667b6cda892f2c982",
+  "schema_version": 1,
+  "selection": {
+    "chosen": {
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.375,
+        "on_hits": 2,
+        "on_threshold": 0.5
+      },
+      "metrics": {
+        "average_precision_max_window_score": 0.8216660410272393,
+        "balanced_accuracy": 0.8851547388781432,
+        "confusion": {
+          "fn": 4,
+          "fp": 9,
+          "tn": 179,
+          "tp": 18
+        },
+        "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+        "field_reliability_claim": false,
+        "negative_hours": 0.4931356706270471,
+        "negative_recording_false_positive_fraction": 0.047872340425531915,
+        "negative_recordings": 188,
+        "positive_hours": 1.4146752430555554,
+        "positive_recordings": 22,
+        "precision": 0.6666666666666666,
+        "provenance_groups": 145,
+        "recording_recall": 0.8181818181818182,
+        "recordings": 210,
+        "roc_auc_max_window_score": 0.9081237911025145
+      }
+    },
+    "code": {
+      "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+      "source_sha256": "8b000552833fa9d170da9a7fa3309c6952c30d20f24ef109c2f6a9a7d700ec99"
+    },
+    "runtime_seconds": 26.092107270004817,
+    "split": "development",
+    "trials": [
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.15000000000000002,
+          "on_hits": 1,
+          "on_threshold": 0.2
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8759671179883947,
+          "confusion": {
+            "fn": 3,
+            "fp": 21,
+            "tn": 167,
+            "tp": 19
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.11170212765957446,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.475,
+          "provenance_groups": 145,
+          "recording_recall": 0.8636363636363636,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.26249999999999996,
+          "on_hits": 1,
+          "on_threshold": 0.35
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.886605415860735,
+          "confusion": {
+            "fn": 3,
+            "fp": 17,
+            "tn": 171,
+            "tp": 19
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.09042553191489362,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.5277777777777778,
+          "provenance_groups": 145,
+          "recording_recall": 0.8636363636363636,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 1,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8999032882011606,
+          "confusion": {
+            "fn": 3,
+            "fp": 12,
+            "tn": 176,
+            "tp": 19
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.06382978723404255,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.6129032258064516,
+          "provenance_groups": 145,
+          "recording_recall": 0.8636363636363636,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.48750000000000004,
+          "on_hits": 1,
+          "on_threshold": 0.65
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8624274661508704,
+          "confusion": {
+            "fn": 5,
+            "fp": 9,
+            "tn": 179,
+            "tp": 17
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.6538461538461539,
+          "provenance_groups": 145,
+          "recording_recall": 0.7727272727272727,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.6000000000000001,
+          "on_hits": 1,
+          "on_threshold": 0.8
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8423597678916828,
+          "confusion": {
+            "fn": 6,
+            "fp": 8,
+            "tn": 180,
+            "tp": 16
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0425531914893617,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.6666666666666666,
+          "provenance_groups": 145,
+          "recording_recall": 0.7272727272727273,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.675,
+          "on_hits": 1,
+          "on_threshold": 0.9
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8249516441005802,
+          "confusion": {
+            "fn": 7,
+            "fp": 6,
+            "tn": 182,
+            "tp": 15
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.031914893617021274,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.7142857142857143,
+          "provenance_groups": 145,
+          "recording_recall": 0.6818181818181818,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.7124999999999999,
+          "on_hits": 1,
+          "on_threshold": 0.95
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8329303675048355,
+          "confusion": {
+            "fn": 7,
+            "fp": 3,
+            "tn": 185,
+            "tp": 15
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.015957446808510637,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.8333333333333334,
+          "provenance_groups": 145,
+          "recording_recall": 0.6818181818181818,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.735,
+          "on_hits": 1,
+          "on_threshold": 0.98
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.815522243713733,
+          "confusion": {
+            "fn": 8,
+            "fp": 1,
+            "tn": 187,
+            "tp": 14
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.005319148936170213,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.9333333333333333,
+          "provenance_groups": 145,
+          "recording_recall": 0.6363636363636364,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.74625,
+          "on_hits": 1,
+          "on_threshold": 0.995
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.7954545454545454,
+          "confusion": {
+            "fn": 9,
+            "fp": 0,
+            "tn": 188,
+            "tp": 13
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 1.0,
+          "provenance_groups": 145,
+          "recording_recall": 0.5909090909090909,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.15000000000000002,
+          "on_hits": 2,
+          "on_threshold": 0.2
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.886605415860735,
+          "confusion": {
+            "fn": 3,
+            "fp": 17,
+            "tn": 171,
+            "tp": 19
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.09042553191489362,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.5277777777777778,
+          "provenance_groups": 145,
+          "recording_recall": 0.8636363636363636,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.26249999999999996,
+          "on_hits": 2,
+          "on_threshold": 0.35
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8892649903288202,
+          "confusion": {
+            "fn": 3,
+            "fp": 16,
+            "tn": 172,
+            "tp": 19
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0851063829787234,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.5428571428571428,
+          "provenance_groups": 145,
+          "recording_recall": 0.8636363636363636,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.375,
+          "on_hits": 2,
+          "on_threshold": 0.5
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8851547388781432,
+          "confusion": {
+            "fn": 4,
+            "fp": 9,
+            "tn": 179,
+            "tp": 18
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.6666666666666666,
+          "provenance_groups": 145,
+          "recording_recall": 0.8181818181818182,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.48750000000000004,
+          "on_hits": 2,
+          "on_threshold": 0.65
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8397001934235977,
+          "confusion": {
+            "fn": 6,
+            "fp": 9,
+            "tn": 179,
+            "tp": 16
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.047872340425531915,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.64,
+          "provenance_groups": 145,
+          "recording_recall": 0.7272727272727273,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.6000000000000001,
+          "on_hits": 2,
+          "on_threshold": 0.8
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8249516441005802,
+          "confusion": {
+            "fn": 7,
+            "fp": 6,
+            "tn": 182,
+            "tp": 15
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.031914893617021274,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.7142857142857143,
+          "provenance_groups": 145,
+          "recording_recall": 0.6818181818181818,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.675,
+          "on_hits": 2,
+          "on_threshold": 0.9
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8302707930367504,
+          "confusion": {
+            "fn": 7,
+            "fp": 4,
+            "tn": 184,
+            "tp": 15
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.02127659574468085,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.7894736842105263,
+          "provenance_groups": 145,
+          "recording_recall": 0.6818181818181818,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.7124999999999999,
+          "on_hits": 2,
+          "on_threshold": 0.95
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.8329303675048355,
+          "confusion": {
+            "fn": 7,
+            "fp": 3,
+            "tn": 185,
+            "tp": 15
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.015957446808510637,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.8333333333333334,
+          "provenance_groups": 145,
+          "recording_recall": 0.6818181818181818,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.735,
+          "on_hits": 2,
+          "on_threshold": 0.98
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.815522243713733,
+          "confusion": {
+            "fn": 8,
+            "fp": 1,
+            "tn": 187,
+            "tp": 14
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.005319148936170213,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 0.9333333333333333,
+          "provenance_groups": 145,
+          "recording_recall": 0.6363636363636364,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      },
+      {
+        "decision": {
+          "off_hits": 2,
+          "off_threshold": 0.74625,
+          "on_hits": 2,
+          "on_threshold": 0.995
+        },
+        "metrics": {
+          "average_precision_max_window_score": 0.8216660410272393,
+          "balanced_accuracy": 0.7272727272727273,
+          "confusion": {
+            "fn": 12,
+            "fp": 0,
+            "tn": 188,
+            "tp": 10
+          },
+          "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+          "field_reliability_claim": false,
+          "negative_hours": 0.4931356706270471,
+          "negative_recording_false_positive_fraction": 0.0,
+          "negative_recordings": 188,
+          "positive_hours": 1.4146752430555554,
+          "positive_recordings": 22,
+          "precision": 1.0,
+          "provenance_groups": 145,
+          "recording_recall": 0.45454545454545453,
+          "recordings": 210,
+          "roc_auc_max_window_score": 0.9081237911025145
+        }
+      }
+    ]
+  },
+  "status": "frozen",
+  "training": {
+    "C": 1.0,
+    "label_scope": "Publisher clip-level labels, not independently verified event boundaries",
+    "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+    "max_uniform_windows_per_recording": 60,
+    "method": "MI logistic regression; initialize bag means, four train-only max-positive-instance updates; all uniformly sampled negative windows, equal bag mass then balanced classes",
+    "origins": [
+      "authentic"
+    ],
+    "records": [
+      {
+        "group_id": "18ac37f010e4ea9a8fa7",
+        "id": "d3-0377ba0cc2255a43",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "2fcc5ae038f1a00fcac29f7faa7e84be91c79801ba42ed23cdaa6693d4ec84a4",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "3e1784a3b4121435394a",
+        "id": "d3-0cc81b1a030cf5f7",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 9,
+        "sha256": "9be45711278378d6c93f8ea6104c3176870973352948cda7b2507e9bbded308b",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "7175dcdcc82962dc4f59",
+        "id": "d3-138c873838376b30",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "434f87d08578ca6d961a9efe1ca49dd759a7ff3423ad01c371c44446e273bb22",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "990fa1798148ff32834d",
+        "id": "d3-1679740f637ee146",
+        "label": "drone",
+        "positive_instance_index": 45,
+        "sampled_windows": 59,
+        "sha256": "d8fc8aaec2815297cd268ad5eac9330e601fb98efac1c50d40cc7458fe135ae7",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "44265551b23ce0c40a6a",
+        "id": "d3-1887ea8d3a150f07",
+        "label": "drone",
+        "positive_instance_index": 55,
+        "sampled_windows": 59,
+        "sha256": "d8177433f36a69e62950f47c6b76baa906cdd79017ab465b9e619ac3856cb817",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "a870b7d762cf7dd194c7",
+        "id": "d3-19404cbbb290a824",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "de092fb952a0fcf8a4ad69056ee6f69490fba59eb3c16a444f74d5e290c95ed1",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6a7cf4384f97956b2ac5",
+        "id": "d3-19b1a340e68fc3b1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 30,
+        "sha256": "4f6c57525e8e837be3950aad4d59e5d008d4cb242ccd5c7b89d00176ea992de6",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "990fa1798148ff32834d",
+        "id": "d3-1dd716f051aa22fc",
+        "label": "drone",
+        "positive_instance_index": 36,
+        "sampled_windows": 60,
+        "sha256": "433626e1b310707531f2cdd2f8bd03b82750169410acd3c5f2448fcaf3d2816f",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "1fa522824adff1c74645",
+        "id": "d3-245a574bb1590201",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 40,
+        "sha256": "c87c873e1b9aa731832b274c64fe72e42ad0d0ae619883846e19c0539cf42024",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "d3-31a5dd29602876a7",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "02bff2b2f831e5ca225b3f585947e92f6e80f94240070113c8675d8877069e8f",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "eaa8235ebfa777d7c00f",
+        "id": "d3-31ee4dff6d327c5d",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "fe3d75e05ee41d5dd883fca95cc64d844d5b372eed4488ff5b6168a7c7e3e95e",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "990fa1798148ff32834d",
+        "id": "d3-33d19fc857611176",
+        "label": "drone",
+        "positive_instance_index": 52,
+        "sampled_windows": 57,
+        "sha256": "e743b81a44e83444f798671c215d329d532e4e725cd84eb422578789e178253a",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "63ec930388a014edff05",
+        "id": "d3-3470b1761331b99c",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "a75f0de5b8f62392e73a47bd530a87f988cc0e3fea5246a6ab0f0f4350c8ebd0",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "d3-36cce5ea05eb2e80",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "f0919cb3fcb454dc80341832f0d228a5e64429e94048678c02a37081c636e57e",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "3965883d819a1d0f0bbd",
+        "id": "d3-41c0e41adf70e886",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "ce08c38ed0b97da743216d9a54f6270f969cfe33c3ea5717232c85e61b041c0b",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "4b0adfe558d67b89a329",
+        "id": "d3-42786b8ed532f395",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 20,
+        "sha256": "c72c9a5c63df5a2b123834bbb19b51656fdc4ceccf4372f66da91d6a5fcc21a4",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "dd13ed9fd86651c79760",
+        "id": "d3-4308da7c23994826",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "a25714971e39b3f79450807b6ac085f4733c561b33f519da628c8c9c1c194d49",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "d3-50c13f736d595d12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "72402646b72fea9e3e13fe2fe6f1442e648b3bcd5a2e0c33b33334cc1c22fdff",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "175bdee88fb0094b75bd",
+        "id": "d3-53b2d73d68217d55",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "355001b44601c188798e88f4089b8598ca02be2978b9849eb9ceb3436ac265b4",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "dbd7a59f8b2922f87c45",
+        "id": "d3-541154699211e4d1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "628ff7ed05fac48b4ee5e8080a57ebbf662be8f598dce1f82aa3e7dffc767c98",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "bac4901698bbb4d75041",
+        "id": "d3-5553d8a6103e1275",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 20,
+        "sha256": "6c4e2420404688fe0e6297128a4a28c1f07587bad3c352650fc1de8286c5f8cc",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6ee66dbdd6aa5f2b2b33",
+        "id": "d3-56db4d2b090a8ed9",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "6526df82aa1d639d5d62c15fab77c193ba5624e55afbfc534f57d7404d0eff84",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "d3-56eba38bc89c0a4d",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "a0972e4e89788019949578468fcb3a108c1778acaf24df8ab0138d3f9c569174",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "990fa1798148ff32834d",
+        "id": "d3-56f02a3b8e8df748",
+        "label": "drone",
+        "positive_instance_index": 34,
+        "sampled_windows": 56,
+        "sha256": "03bb8eede2b16924baae932d0b535933ed577f512b9fac1fdaa92da3e137825e",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "5d0787e704b7e4fa582b",
+        "id": "d3-581588c00ee218ee",
+        "label": "drone",
+        "positive_instance_index": 21,
+        "sampled_windows": 60,
+        "sha256": "9c6efd9de5f7b06a2b1f6a7c875491ba89faed8c3c16e661d3a505f177cae6ef",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "b08759e15ed2387b4e36",
+        "id": "d3-5bf7a2fa6ba4e64e",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "786b7661e284ae1e5a82f02999805faa85914aaa3eaa84ec40d49d9398265d40",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "f68a0149344b2be24020",
+        "id": "d3-5cfe7444d4b002e0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 30,
+        "sha256": "4c4f80ff0a326ca78d29e241c2d33660977794330fb53eed561f01a975758eb7",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "9d86cad204367f59bd93",
+        "id": "d3-600804a6274511fe",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "84d3958cd982fb47a375d01ce50024fcb76a73f956440f4e099546f01f13366c",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "ae23b3cce36b05beb16b",
+        "id": "d3-66bd4f35892c3098",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "58d252144f03eb604e4aa58671eed40010f6babdd49fcfddb2fc977bfa8f1f53",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "0c88f73b995f208f669a",
+        "id": "d3-6700cfdf2a295b19",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "6f9be42b7112f36c5c9bed07d3fdae163ed2b083200d56fdeaac1902b860ec4f",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "990fa1798148ff32834d",
+        "id": "d3-68075c7e7994456a",
+        "label": "drone",
+        "positive_instance_index": 22,
+        "sampled_windows": 59,
+        "sha256": "98526d7281a95332391af75c3952a641000b2f4908bb38adfd02c268bb9e0761",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "b541199817b9e3b2ee4c",
+        "id": "d3-6c24bc051a494024",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "6760f3a20b25e1ca7adfa802e05fedccbc5ac9cab214cca5d887880997863d2e",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "ceedd808f4993afd1909",
+        "id": "d3-7186486694d9810f",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "f99db0dee6828ce802234290d29b74d32b732f44bab05cfeac777b7d35fac966",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "d3-78c7aa1bd77f8fbe",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "17e4acaf687b224996ce7c61e47e70dadefbf6c3083c1ddb079409b03034b426",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "eb34d74466e6ec0163a3",
+        "id": "d3-79196314124d184d",
+        "label": "drone",
+        "positive_instance_index": 44,
+        "sampled_windows": 59,
+        "sha256": "a9abcbc0403fe75208e4af799117fa2992722b84f1b52dfc283e4eb00484129e",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "b22384943db71f11db48",
+        "id": "d3-799ea9250d868445",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "ad9d6935dfe16bbecb359b49155391945197715e78f6a1cdd86ab9cdf168e82f",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "694dbf21578464b7b337",
+        "id": "d3-8bf3302d5a3a44ce",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 17,
+        "sha256": "43f53d7ce9e0b902153ef54d0545d8cab74a30b060ae404a0e68996c88a9bcb3",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "ff7b86f0126f7f156f58",
+        "id": "d3-a78a4ce2309eb4e2",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "10e5b52f424ca68d64d8a03354dc0383a32fb05a6b7e2ebde4e204064b4bd6d0",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "0d1d225e026840701ebd",
+        "id": "d3-ab6dcfd9d9839fb7",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 13,
+        "sha256": "e8927c112bed5fd2fbb36548b301e10e3f334cfa096b7cbe40a9bf471e4a03d9",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "72aae9521b620c814dcb",
+        "id": "d3-ab99587810141b43",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "cc24eb29827f46a8e5e677afc20020f8c8c7d5146f97386aca6238b95cd59900",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "d3-b0151678253f8137",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "0653e3c19244619bbea1ebf830c56ae20debbbb9a4c9f3ed015bc9e11fba60ec",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "d3-c10aaceb0c1a8b02",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "1a4d1c507a7ce79668ac270978b7d5600091e00d848f9e527ed1733e7f3f9cef",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "990fa1798148ff32834d",
+        "id": "d3-c13c298ffa7a2e5a",
+        "label": "drone",
+        "positive_instance_index": 55,
+        "sampled_windows": 59,
+        "sha256": "aa9e0f788592daabf4c3d1548244507eac23bb1af1faa707dcddf957b247ca39",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "35d5fb160178288c9668",
+        "id": "d3-c27f46bd2c6c43fc",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "dfb649626a68538a604cad5ce6e09fbb717bab5fa723a02bf8bcb7991b352361",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "0eb7f0ad8ba37407ebd2",
+        "id": "d3-c331b77a4e48acc9",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 1,
+        "sha256": "31e17d6fc896427eff9580be6afc86b831321568d1ab7e9002fa50637f9b199d",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "d38d77fe6206cf56881b",
+        "id": "d3-c3ee859b766f7457",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 14,
+        "sha256": "c2c2ba86ded1401c397dcf4cf04a89563d4dc85a197a15effc38f36fc6287dad",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "4a32721f7401fafb385b",
+        "id": "d3-c7e16ec7fcc6d4c2",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 35,
+        "sha256": "c846fe469ae6421f8bd77c5ff3fb93030415cc14f14fa7f68e1983d7675918ce",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "d18f79bb94c2a37cebe7",
+        "id": "d3-d27f9ea1d6bd4baa",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 11,
+        "sha256": "24cd3068fbbd81b25e67082edea0133320319df1f81586fb522cbaf174d25ba1",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "4b84b0e6fa4055a0e760",
+        "id": "d3-de6141451eceedbd",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "3123558ee7c0ecb442dfc788240037609ad5ee5c65df3af2f432f5637563e379",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "71138b335f5aae8ef7b7",
+        "id": "d3-de9310d6a405bfe6",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 58,
+        "sha256": "9097a3a3a84aec8236e196db871a90bdec2da463ea1198fa0057ac92fce6508a",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "990fa1798148ff32834d",
+        "id": "d3-e032a94834a951cc",
+        "label": "drone",
+        "positive_instance_index": 41,
+        "sampled_windows": 59,
+        "sha256": "f3f8ab48074d7a4a1d43c25794c2dba2c0a88e6aa088cb073f8b12bd92d2ad42",
+        "source": "d3set-ground"
+      },
+      {
+        "group_id": "f3fa6f37fba2192df045",
+        "id": "d3-e110c98014776563",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "3e9054e4282d9608a835d7ecaeef54f92b4ccdecd76e7c14498f05e9e3129197",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "67ebec59535d23758c2b",
+        "id": "d3-e78bfcfb3f2403c4",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "4585a562c3ed09dde9b3bb5e16cb8d5a2e66bb15394ca958e43a83f056c9a8fb",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "7542917fe3090d1e754b",
+        "id": "d3-e82e3691b53f4027",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "1810298fe3793b1d192e5ba7b41b28cdd94fbc550f47057229ec741f2ffd3b38",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "3197539eb4be5a79f4f0",
+        "id": "d3-ee1ef4efaef914d7",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "ba17c00f8d414158c5c41f430661e9074bb39510adcf3b5cd38bf7349afb7751",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "9bc7107b1b1ca9d954ef",
+        "id": "d3-f0d86d0d766222c5",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 60,
+        "sha256": "f06ecd344378ff9d550cad0b98956d23b388065ccc68905f0ff4f76a67a290ac",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "b894a1e899e95e51df7f",
+        "id": "d3-f6255cec0719b8e0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "5388cf23616f5c03fd67a1584cb2ebff011ad5f8fddee5221a9d7246aa289d2f",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "de00b733dd310cbd684a",
+        "id": "d3-f724fdb6608bc04a",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "b688958ecdd6f45507c732c8bad411b4a2695d61fcbd35d0eb5eae94d386f7d3",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "5104d306b511bf469335",
+        "id": "d3-f829ec0593dba5e4",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 18,
+        "sha256": "04f25854eb88b349d02c4a5abc5ee579148357a67ff25a0cd36c13c083a691b3",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "a71bc04cb3e976e71ba0",
+        "id": "d3-f8bc63cc633624c5",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 20,
+        "sha256": "654c0d1cd6f23bcf74f22b9e652d47c64a5b81ac4f9e245e0ce36dc3e721d681",
+        "source": "d3set-noise"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T004-10",
+        "label": "drone",
+        "positive_instance_index": 7,
+        "sampled_windows": 15,
+        "sha256": "33152fdf27c86b1bc91f828d3535286234ceb52da913841a83b75b06a45f6c54",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T004-50",
+        "label": "drone",
+        "positive_instance_index": 13,
+        "sampled_windows": 15,
+        "sha256": "caf1e4f4ed21f9c46485b426ac46705cc428040694676168c056c869f7edd19e",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T004-90",
+        "label": "drone",
+        "positive_instance_index": 10,
+        "sampled_windows": 15,
+        "sha256": "862f9e9f4f18694dec3bab1c355d56af957a21b1cf828ac8b43789799041e994",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T005-10",
+        "label": "drone",
+        "positive_instance_index": 14,
+        "sampled_windows": 15,
+        "sha256": "1198fe1d4a208735460e37c7667d91f0f88ce86be10059a64480bd902346caa8",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T005-50",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "e645427b745b4404961b751f376436babea2d1165163ef1bc8117450e0cc773c",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T005-90",
+        "label": "drone",
+        "positive_instance_index": 5,
+        "sampled_windows": 15,
+        "sha256": "c7499a2827e5a8a650a93f236944bc7b0b4162b91c384425c43936a4e7b4a927",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T006-10",
+        "label": "drone",
+        "positive_instance_index": 9,
+        "sampled_windows": 15,
+        "sha256": "80d4e10ae945c97b36e3747494be0dd1dd54e134fa2d6e526e4c34496aff4c9d",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T006-50",
+        "label": "drone",
+        "positive_instance_index": 3,
+        "sampled_windows": 15,
+        "sha256": "0038f61bf1c6ab9405d08bab6e08a37c54010c0bccd0202faee192291b309233",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T006-90",
+        "label": "drone",
+        "positive_instance_index": 1,
+        "sampled_windows": 15,
+        "sha256": "90acd3717850ccd75fd606912abad835eb287bdfad254a4e2c22d1f1e9056d7b",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T007-10",
+        "label": "drone",
+        "positive_instance_index": 8,
+        "sampled_windows": 15,
+        "sha256": "6d92005b4e57368b84544940c72057c614a892fb33435992d5677c73ad33c841",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T007-50",
+        "label": "drone",
+        "positive_instance_index": 5,
+        "sampled_windows": 15,
+        "sha256": "d591ff499d9b0bbb33c6a081476b48e756661dd75b7f77fd54222b77b31a290b",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T007-90",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "29e9c0af1a6c46e85962e474005e0d26a83aa8a44b57147bf1838a273fc646b6",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T008-10",
+        "label": "drone",
+        "positive_instance_index": 8,
+        "sampled_windows": 15,
+        "sha256": "5ae8fa4acae23777c389933356c8c7a02a26aef6ec268e6e71b353b5ce02f1fb",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T008-50",
+        "label": "drone",
+        "positive_instance_index": 14,
+        "sampled_windows": 15,
+        "sha256": "8200a66aa231f9751390a8027dbbc72736f94bdf2c3fec22327aba35516844cd",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "c92429db0627caeb417f",
+        "id": "ddl-290321-T008-90",
+        "label": "drone",
+        "positive_instance_index": 14,
+        "sampled_windows": 15,
+        "sha256": "ed9e3ceb4f11277186cd405381a9f5df03856969f15853457229ca735e34c1d7",
+        "source": "ddl-real"
+      },
+      {
+        "group_id": "46dade4c52268344054a",
+        "id": "esc10-1-100032-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f40a849a2375c8c63312a73dd2dd6c74007301fcc21b4be2ece29a642831e3d8",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e8f355eb6c5ff1fc1f51",
+        "id": "esc10-1-110389-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 2,
+        "sha256": "4a18f3f834eb184b9f02595ac74c7de37ef8048a3da92f58f27018fec580b36a",
+        "source": "esc10"
+      },
+      {
+        "group_id": "04e898dbf3ef702400f8",
+        "id": "esc10-1-116765-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "1199ff6d4f5040bf20f06a441276bcd6448b1e1de4f098ce3e47d856ee97ce33",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0057612ef2e4ceeaeb89",
+        "id": "esc10-1-17150-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "3d278bc2034dfb83881491a8eec97de6f1239f0a5b8a7c02be46b5aab0a51609",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec377efadb30da46b101",
+        "id": "esc10-1-172649-A-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "23ad50d792907e1caa894e6e31bb623938ae0417606b830b433da11ca2ecb2f4",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec377efadb30da46b101",
+        "id": "esc10-1-172649-B-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ca32a4cd05246a83b4ede5ecd48d05de0fd026169002f786f28de7eaa3693630",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec377efadb30da46b101",
+        "id": "esc10-1-172649-C-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "9bc5e8a84cc1beb275a81d8041faaf0c6b0681c6a6962972c85e5c8e54a03a89",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec377efadb30da46b101",
+        "id": "esc10-1-172649-D-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0c742933bef2f80b0bde223bbd00bf92013b0130fc0ebfb139d873774118af6f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec377efadb30da46b101",
+        "id": "esc10-1-172649-E-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2fa49f370f70849805b2467339431682860ac025c2beccfd4afaaa9939dc63c7",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec377efadb30da46b101",
+        "id": "esc10-1-172649-F-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "02635aac12a85ba006c6558dd11246a2afed7e123cc42c3e14a5ab4081a22d71",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1f1ad0c3dcbd5019ed2d",
+        "id": "esc10-1-17367-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "d732acd2e0c7c40405968010f49f250740c86998fc416eff2ed5330fc8c89dea",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b2f7001c0dca9922d128",
+        "id": "esc10-1-17565-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "bf16e25363a2d5824c07e96dc05defcb87e1d9dcd47bfd241a9d25e01b411209",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c8401ec60996e7794302",
+        "id": "esc10-1-17742-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "57c4d44ed80ad163ac63353ea98a7b286cfbe5ceb844cc57959b70c08ce5dde9",
+        "source": "esc10"
+      },
+      {
+        "group_id": "2e463014801101936b10",
+        "id": "esc10-1-17808-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e6a90f134fe2f2eaa759b2b01ec831d6f86e300522fb0a5d19e050df16c606af",
+        "source": "esc10"
+      },
+      {
+        "group_id": "2e463014801101936b10",
+        "id": "esc10-1-17808-B-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f28b0f8158b6a5adfa4bca5df5c71963c839dd22815440c8b3e220ef2016a365",
+        "source": "esc10"
+      },
+      {
+        "group_id": "cff53a53793c0e012cb3",
+        "id": "esc10-1-181071-A-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "5faf5c216d7573ba4f0a07c5495d3666925c5287b97752341661614ea68d87dd",
+        "source": "esc10"
+      },
+      {
+        "group_id": "cff53a53793c0e012cb3",
+        "id": "esc10-1-181071-B-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6727248f265e7f9d179c6b72e85f8d2cbc4a31edcac27492036422116bb1673d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "6d2c7e3055bdafc6bcdd",
+        "id": "esc10-1-187207-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ddf5bf45f73bc73d1838bf0cb6af530584f324aef513112ee15c210e83ecbd6b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c6b10ee10bb999251eac",
+        "id": "esc10-1-19898-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "02afa3102978b5fb16f9c6237d90231abb74318873309600f01caf4776746944",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c6b10ee10bb999251eac",
+        "id": "esc10-1-19898-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "cab4735712a7727e16cc1946308f80034c926c59ed467dccf539f39bebe8d61d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c6b10ee10bb999251eac",
+        "id": "esc10-1-19898-C-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "04f11bf73d8b4df3c64b523a334f42f44053045478810093bf028fb02a82448e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e119836cbbbf9f93f798",
+        "id": "esc10-1-211527-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "3cbcd59a0db21f0ed8c252c74ea1bc193117d2c13ed99821885c46c564010b3e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e119836cbbbf9f93f798",
+        "id": "esc10-1-211527-B-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "935be6bfdd4e24f767f5af092bb88c9a6ac000b926f1fe9075b66ebed907c8c0",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e119836cbbbf9f93f798",
+        "id": "esc10-1-211527-C-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "165fa383fbfd24ea4455a84802a78970f02c3461677c23fabecd647c3c675dbc",
+        "source": "esc10"
+      },
+      {
+        "group_id": "12d640d52205701351dc",
+        "id": "esc10-1-21189-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "5f15ab2d8f6ef9932909b1b75c8ac254cbea46c93b4b2f0f3542abdf09b9abc0",
+        "source": "esc10"
+      },
+      {
+        "group_id": "f7ecc97d5189c84e485f",
+        "id": "esc10-1-21934-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "8d26e40e0e382b0d2d7f6dafcb132cfe703ee3f7f32780e878fdb5a1aaffcc28",
+        "source": "esc10"
+      },
+      {
+        "group_id": "310db23e76fb28e5d52a",
+        "id": "esc10-1-21935-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4d7ad80cf2733e2d9260061afbbdb0bd3d64cfcbc3df5c8a0258639716a7329d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "375d9cc1c99aea65fe10",
+        "id": "esc10-1-22694-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e97893bf8a391f769576ee70497ba51640d3bc646cbf20e719f6d22cc033b2e3",
+        "source": "esc10"
+      },
+      {
+        "group_id": "375d9cc1c99aea65fe10",
+        "id": "esc10-1-22694-B-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "cf7f480ac6fe0f61ed436d230200ca160f0c936c70009f3622b71c432af8b5ce",
+        "source": "esc10"
+      },
+      {
+        "group_id": "9ba7bedbd287c27e118e",
+        "id": "esc10-1-26143-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "8e32762c8c48e5414dbecc2979833748cb838ba476bac75d2a512262ef842eb0",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8eba7027cab3ecfc090b",
+        "id": "esc10-1-26222-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7a03695543a56d61464ea2bd87e0947bb994d38c914492c02be686693b6e1dac",
+        "source": "esc10"
+      },
+      {
+        "group_id": "dfffa602c855a857c564",
+        "id": "esc10-1-26806-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "9021db2a8218814e1f90957a179589c7f3167fd1f235f58019890064e23ee5be",
+        "source": "esc10"
+      },
+      {
+        "group_id": "f78f9c934ee3a1d69f6f",
+        "id": "esc10-1-27724-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "3bb615f722d94caa848f64bf4da365fde52dc93a732b0d017d38fe9e1474649f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "3ee76be4c18eccf9073b",
+        "id": "esc10-1-28135-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4d04b84d490c4d9ab28a52c4c96d1b14c2f8b132fc4be38166197ae814920742",
+        "source": "esc10"
+      },
+      {
+        "group_id": "3ee76be4c18eccf9073b",
+        "id": "esc10-1-28135-B-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "806548ec876df9f91ced5503f76794a42dca6b8790324f87464de5ed780189cb",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d8d44a27e7556a3a4280",
+        "id": "esc10-1-29561-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4dc600962b53709664b27073f46ef2ad7d766ddad39c3ff04fcaf98442aae65b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "832ef24bbf66ce1e35dd",
+        "id": "esc10-1-29680-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4c1cdb30db5fd43eb62c17c051efaf7dde38938c0449e6bfcfb998dba92cc443",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8febd6280f917eb38d09",
+        "id": "esc10-1-30226-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ca2626d2b49c7c20a3e0f9f8d7aa56f4497643c6bc264ff37764392be2b15753",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4706529be9907f60b469",
+        "id": "esc10-1-30344-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "52a876cff473fe9b6deb4feea9545a2b976e63e03744921afc72f9800758ce30",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e981d77c843d0b29d887",
+        "id": "esc10-1-31748-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 2,
+        "sha256": "865652b27db628cd353379f222c01a48711f383d16b3d80bcd8493e6e8432a9e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1a337194920fc6055574",
+        "id": "esc10-1-32318-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0e96f0bab8bbba81c98a8d7741cf258c8381c6481bac36961b8603a600a6c321",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fb66aaafde67d6de6a8b",
+        "id": "esc10-1-34119-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "4085bfea267b1ecfcdd95b666e2f0c6a5fdf152794740834a24c54c75967f5fe",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fb66aaafde67d6de6a8b",
+        "id": "esc10-1-34119-B-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "55c3e6b3ce6299d1c1675fc9655327aa2dbc2130d87c08f5f38cac7d33e336cc",
+        "source": "esc10"
+      },
+      {
+        "group_id": "99f35ee509e7681b9668",
+        "id": "esc10-1-35687-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "48f0b86e08a4349f66efed2b56405ba5b2b04cc01b8b5701465d9f283d4b5d8b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "91d526c116f472de8848",
+        "id": "esc10-1-39901-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b1e33d5fe73bc31317fa9fa4e70d0fcaf761346f8a908c89cec50c6c23f41603",
+        "source": "esc10"
+      },
+      {
+        "group_id": "91d526c116f472de8848",
+        "id": "esc10-1-39901-B-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "582d4c541bb4bdbc300ccbbaa52f120931a849b1616a4eb6135cf32c5ba8c517",
+        "source": "esc10"
+      },
+      {
+        "group_id": "784916f1a723fd44d3d0",
+        "id": "esc10-1-39923-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "62379ace4cf58d0625a09fa8cf943ce8ab5a99602c20c6f96bacd522e6903e06",
+        "source": "esc10"
+      },
+      {
+        "group_id": "9bdb01d62ae3918583b6",
+        "id": "esc10-1-40730-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "5b6f2f3795ac7b2711c39742a77ae7b81017aad43d0a226896cc5d78c87c1b92",
+        "source": "esc10"
+      },
+      {
+        "group_id": "9148df984ea1c4b14020",
+        "id": "esc10-1-4211-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6e8d15a855d1622c1f7dcd12e00ba2bfc3b65a316947e1bbdcaa0be0157175db",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8c6a745a4a42be4ad224",
+        "id": "esc10-1-42139-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "169e283f52931f7de0c752e59a5b5149c96fc33ed7323031fe22392e1abab283",
+        "source": "esc10"
+      },
+      {
+        "group_id": "03a5294dc9106e98404f",
+        "id": "esc10-1-43382-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "95fff21655b9945a12e73e69c1d1e5015b2f2802bde43bc7f76351b695cf9901",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8c1095eb4f73065716cc",
+        "id": "esc10-1-43760-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "efd808d11d8df8f75f46b7d4183baf082abce9948985c4fca02e191d3204be10",
+        "source": "esc10"
+      },
+      {
+        "group_id": "36762c0351fbc8190e75",
+        "id": "esc10-1-44831-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "f8958a100e0b005c1421eac9b114d4dff6b0d7d58caf24ba933a2c6ae5343d26",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d6e6f3b28ca399625535",
+        "id": "esc10-1-46272-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "d48f5f4994b0ac7bbd4983f7c4cb3bdee0a3fe15bdbd0ac8f0fba7450d75c678",
+        "source": "esc10"
+      },
+      {
+        "group_id": "2706bfc593265655fb26",
+        "id": "esc10-1-47250-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "81312e10f426ae6312c29a97fd4227ef36bcae323c520ddff4b8e890d458772d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "2706bfc593265655fb26",
+        "id": "esc10-1-47250-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "25cd4254bfe2be5d1d4674161a8dbc16635fd658cdd1b7bac80510099911f3c5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "01dd95e28327e579992d",
+        "id": "esc10-1-47273-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "a77b4c35c9d4a66bdbe2a677a43b8f646579ce5773c59cf721bcb9db419d1b2d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b3609bfb2faa91a3ad81",
+        "id": "esc10-1-47274-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c7114b4b84b83598dfacbf7d1774f34fb61ba87af426944db4ad8ade82c7779b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "dde3077df17664898bdc",
+        "id": "esc10-1-48413-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e8aebc842de3e00fb0ba00f085e482fa8e9e43a4398d646341434e6c0f501bc3",
+        "source": "esc10"
+      },
+      {
+        "group_id": "867ce81e9c13b2002876",
+        "id": "esc10-1-50060-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "cc8119be878eafdc69f7408dad614493a238174372eebf75e4c8314d1bb9807d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ca7e210161c1ec3a9c10",
+        "id": "esc10-1-54505-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "94c62d8761cb68e3a7ee6c7c64ef5bdb4f14b5b32a5ae0d792cd7eebfdcb38c0",
+        "source": "esc10"
+      },
+      {
+        "group_id": "2775c2fe6c0737ee39c3",
+        "id": "esc10-1-54958-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "d93233d42dc57a3e81cb9ca446145f50cdc806f0174393b1055e5d9a327cef86",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec92c3700ff7f3fc9962",
+        "id": "esc10-1-56311-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "cf0dcbd49d979bf73992068b51db46cf3098995e66b3fb8ceb6ec276009aadc7",
+        "source": "esc10"
+      },
+      {
+        "group_id": "99c56b19479765d83c28",
+        "id": "esc10-1-57163-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "be4ee5f3dbf6cfdf65a4afa6b0dc98914e5e36728d1d3778039de70f21579303",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c3080bb9c7e564ff29c5",
+        "id": "esc10-1-59324-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 3,
+        "sha256": "fe73df75398008f02288e9b4dfeb267814e357d9290339e5cea3dfaf03fdce74",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4161f486ecdeef293d36",
+        "id": "esc10-1-59513-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b573fcbb4d3a8a05a857dc1ffdb09c687253ff3a03baa326460e291ce4cbfee7",
+        "source": "esc10"
+      },
+      {
+        "group_id": "077a5f18d33cbcd63abb",
+        "id": "esc10-1-60997-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6e225fdade2a26e8477eab8f3d9058537cd919de78fd1a2dcb029dcc014ce744",
+        "source": "esc10"
+      },
+      {
+        "group_id": "077a5f18d33cbcd63abb",
+        "id": "esc10-1-60997-B-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2de04b4d958ab53a2f66653f66bc640757bb07cacbb1a614c28777f505c9aa20",
+        "source": "esc10"
+      },
+      {
+        "group_id": "76269118b082457439d0",
+        "id": "esc10-1-61252-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "fb76a05332ed37fa76ef09b878d28831d5c433554d317893a9911384bd84082b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "337c552768e276dcafe6",
+        "id": "esc10-1-62849-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "a78412e271e9bac017201211a97f8e67278d157f980c62a9680bdab90d444785",
+        "source": "esc10"
+      },
+      {
+        "group_id": "65fcf2cef4ca473d213d",
+        "id": "esc10-1-62850-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "62077d3dbf18bb92558998085d84778a6dd7390574c3080ef7b600158f2fd984",
+        "source": "esc10"
+      },
+      {
+        "group_id": "25c89a327d5462a2bd24",
+        "id": "esc10-1-63871-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "9ae1461223eaecf2df3818b51e0d7b5987ef497b17038594455bbcee6673d350",
+        "source": "esc10"
+      },
+      {
+        "group_id": "dc711ac460cc531516e6",
+        "id": "esc10-1-64398-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0bb8b8988b6d398e67e0f896d5acbf28adf1d4bec9d00cb45fb00d430389ad95",
+        "source": "esc10"
+      },
+      {
+        "group_id": "dc711ac460cc531516e6",
+        "id": "esc10-1-64398-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "fc460220cde3dc9a080da0c1742d38755a25870463bc34d66aec65eb16050fb5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ef935c9f1a11a153bd77",
+        "id": "esc10-1-7057-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f92e52f9ab78d700dc10bcbc36020082613e669db245961b3205e8394c075da6",
+        "source": "esc10"
+      },
+      {
+        "group_id": "30bd61cc1c845d741766",
+        "id": "esc10-1-81883-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "1d3237552ea143411a563b9e886f870df5870d31cb3272ae33f2588ba5076fe7",
+        "source": "esc10"
+      },
+      {
+        "group_id": "f38fe79042dff105e5bc",
+        "id": "esc10-1-85362-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2f7742933d677b0dc8d77b802e90ee0fb94b5828183ca96f7a8dd8d24ab57b7b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8cde5e97a768c07fbb0a",
+        "id": "esc10-1-91359-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "dc68614d5082a595bce514b13304d91451cc6d570dddfb84a9283e5d77fc3148",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8cde5e97a768c07fbb0a",
+        "id": "esc10-1-91359-B-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "119e12872a9ec159c255ddaab2c8382439a97815ce90552273529d53f86ee8ff",
+        "source": "esc10"
+      },
+      {
+        "group_id": "49cc88b8c8467568fa56",
+        "id": "esc10-1-97392-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "9ec2eb304d2a1ab3a50150a2a558dce0771e4ffc920d074e107fd76cb7b5d28c",
+        "source": "esc10"
+      },
+      {
+        "group_id": "14f0569c32ddedc31111",
+        "id": "esc10-2-100786-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "53704d16503042581837335ba937d399c028f788903f103abf44af1c2d2d5d71",
+        "source": "esc10"
+      },
+      {
+        "group_id": "424009c4928db42f04ca",
+        "id": "esc10-2-101676-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ef456a67e12d2e2c84513e9eb8bea769e343cd5e0bfe65a34dc96c526f260838",
+        "source": "esc10"
+      },
+      {
+        "group_id": "3fa65b1a7a5bc13dbfd6",
+        "id": "esc10-2-102852-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "88e893f0db59886dd96f9b2c0f839eaad0364e9d2ec948eca3ef6af1a66e64b5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "43391a2c39ae5afe2087",
+        "id": "esc10-2-107351-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f89a24c9494eab238d80013b9409e6da4058b8097c665a789e48de1aef1bcef5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "43391a2c39ae5afe2087",
+        "id": "esc10-2-107351-B-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ebb3365010813cec4b951d1294d3376fc598116a1f86115a3e279ea013160a6a",
+        "source": "esc10"
+      },
+      {
+        "group_id": "94cd4fe38adefba5c213",
+        "id": "esc10-2-109505-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "93f6ffc756ec82bf5e6be83ccc070415138b60fa00408734a78753089567e489",
+        "source": "esc10"
+      },
+      {
+        "group_id": "5a7d1796295001881196",
+        "id": "esc10-2-114280-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "23cd06e6c8b2e054d13ad6392d34d91588cd8572041d6f4c1c337048fd5deb69",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0cdd401ceb5d1e3654e3",
+        "id": "esc10-2-114587-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "34d7f9c32c2cda9b6b68483028bb85326259d1c5f2956eac2ecc48b18b06f999",
+        "source": "esc10"
+      },
+      {
+        "group_id": "9cceda16bb0d1c22123f",
+        "id": "esc10-2-116400-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "9830a9ccefad59e7ac9313b86913a6a15e5b4cb281fd479fc6fb076a06ff2a6e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8e2c5caf5465eb0a0d59",
+        "id": "esc10-2-117271-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "636eb41093489304bb85802fdf2e8ac8b911500516e210e01f3b0b92f156c01d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "5f12e403ae095d1732b1",
+        "id": "esc10-2-117625-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "26c3b6b455aeb91f6f3d9a2b00f7e06bd1fc79609606ea2ae86272657dc02e88",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ec339aa68e02d5759586",
+        "id": "esc10-2-118072-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "c2003f5ce159e77c3a0e52ff042567d159ea8eab6cd3081e64c0b709556dcb4e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b78b92af7241ebf8beb5",
+        "id": "esc10-2-118104-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c32ccc6f408d6546132b177036d7a1881bb8f3d9d42f9a2c2a1708c1afc84317",
+        "source": "esc10"
+      },
+      {
+        "group_id": "eabea7e25e1438d375cb",
+        "id": "esc10-2-118964-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c684bc7d6ff7d8b9dbb7b033760319c4b4aac2ec0ae221df9ba684790a502d87",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8ed41e759a4a96ac9d30",
+        "id": "esc10-2-119102-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "38fbd04161595637bc147c898db64461961794931a7f1e7202430926a5cb8d0b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "bc317f9191e9f530faa2",
+        "id": "esc10-2-119748-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7bb645903e539845643c4162d619f51b3648307fbe1966b19d15f01ceb8ecde5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8db7255d70c37a27764b",
+        "id": "esc10-2-122104-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0ed7ff66a9d9a570768815d0027803283f091201ec8bf742f466441ad051f736",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8db7255d70c37a27764b",
+        "id": "esc10-2-122104-B-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "3cbf9d8b919210c37a2c74706cdeacf99073a83e98ae6a797d31b34e35db9a59",
+        "source": "esc10"
+      },
+      {
+        "group_id": "edb542eca74c0bca1db5",
+        "id": "esc10-2-124662-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "60c6883343535fcf14bb030d30c7b79c81fad89fdc7f4e6f34d81c1d98c1e645",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4f86b08a278c0ea4a2fc",
+        "id": "esc10-2-125966-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "86643b7df512575db786b21b70092f27050b81e01f459f7fcbcb862314827e51",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0f4447fcef5a79114529",
+        "id": "esc10-2-127108-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "23f4cb882b12e8da2ab06a9b8f2f58affb715007b1846d6a041b0717aeb04ec0",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0f6167656282d923dae6",
+        "id": "esc10-2-128631-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 3,
+        "sha256": "f188f4f7bfe6ade616fcecb2f0c0245a4c6c08996a6714c04c7702edf417e31a",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c6b54b40be5cd9648bfa",
+        "id": "esc10-2-130978-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "c11d9e1ea6af05182568e915c8e237ab6fee643ffb054fcbaa7d2961c1aa584a",
+        "source": "esc10"
+      },
+      {
+        "group_id": "7adc1f71b769f152ea74",
+        "id": "esc10-2-130979-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6d8820a0d6362e67817faa206672b7599ab808877b7df702530b69aa22651813",
+        "source": "esc10"
+      },
+      {
+        "group_id": "f632866a59f821e5cb7e",
+        "id": "esc10-2-131943-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "069b85098b561472e16a15929fd1774827a13e0373feae1dc07d0d70d791d581",
+        "source": "esc10"
+      },
+      {
+        "group_id": "a5a6d382490880c58c4f",
+        "id": "esc10-2-132157-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "1925d1067111dd06970446f46a786f261efa68b121039bb5cea4f546f9600685",
+        "source": "esc10"
+      },
+      {
+        "group_id": "a5a6d382490880c58c4f",
+        "id": "esc10-2-132157-B-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4158aa78341d58d23771deb264c7db18f9a3784b42fc838c77a002cb28e3f784",
+        "source": "esc10"
+      },
+      {
+        "group_id": "468ee6bb454316defab5",
+        "id": "esc10-2-133863-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "a5dc90f79b7bfbe1b1b8279d5f5542be82af3fa32502ba57518d1302e9e38a9f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "6cbe2935ca57356661ec",
+        "id": "esc10-2-134700-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "568eb59736a3e7a59e588f0876a6acc81ecf9eff88179e42a995ff82f572a8db",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b006dd4bb7f478f1b695",
+        "id": "esc10-2-135728-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "3c5b88ddfd575a07515060508e33c810ead374401b0ab16429263fd22fdb3911",
+        "source": "esc10"
+      },
+      {
+        "group_id": "50b7725f7f3020f78cc3",
+        "id": "esc10-2-137162-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4d9d5bd94694230cc4d40e3c1e1bfc9a91228741fc516946852c0bb8dac6c2de",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ca6fe9d696b7de879de1",
+        "id": "esc10-2-140147-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b3a54dc34ab83fa96fc06604e0852973bce5ed9ed872cdc9be92d389e0d5a1ef",
+        "source": "esc10"
+      },
+      {
+        "group_id": "f6eeb12371d5ad4947b8",
+        "id": "esc10-2-141584-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b87b57fe9099b0eaf893274145d5237d2da3228dd9b641f473273dcd6759f3a3",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d47ac5ac9e4db8e436ef",
+        "id": "esc10-2-151079-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "8a13243f77b12668061f6fb18e820d8398c75d35eca09f9640efdd9df6703499",
+        "source": "esc10"
+      },
+      {
+        "group_id": "dfb06a3da2528bb4a500",
+        "id": "esc10-2-155801-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "1851566021e7ad54163515236574452dd86cadc4657317f6bc285c9e06a9b436",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b4ea4cdb9bcfba6864da",
+        "id": "esc10-2-18766-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "10a98a61a73baee8028c19b9de330261f2dae87f57b2792457d81e46a544697a",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b4ea4cdb9bcfba6864da",
+        "id": "esc10-2-18766-B-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ce9d67f6f6b8d093d3dc2d14088251d76b2772210733908d01b0ecc08c349fe4",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0c7b8cfa1a2a44b3225e",
+        "id": "esc10-2-188822-A-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b5a49dab9e1ba8bf7c694ae863d3f73747102cd73b74d3a2060fe66e9796d91d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0c7b8cfa1a2a44b3225e",
+        "id": "esc10-2-188822-B-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2c6928f5af242d0da9bfa41749ff6d606785ab179754a275c2be9d7c3b64461f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0c7b8cfa1a2a44b3225e",
+        "id": "esc10-2-188822-C-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "df124f48361127f4aa51cfe34078634e047c19af3a63d29826cb5a1def0c743f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0c7b8cfa1a2a44b3225e",
+        "id": "esc10-2-188822-D-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7ffae2dcd7611c77a1d57de223433e1e70fa6ffe2422b9e882e815ccaedc62b8",
+        "source": "esc10"
+      },
+      {
+        "group_id": "7cd288b7293d6b522f5f",
+        "id": "esc10-2-28314-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f77a729e093baeeba246d00c4875e6fd7702c3635e0e5e58aca2357f62d16c92",
+        "source": "esc10"
+      },
+      {
+        "group_id": "7cd288b7293d6b522f5f",
+        "id": "esc10-2-28314-B-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6c5f3f8b6af384c0b553741b51e7348c24537d686e7abaa6eadf4badd2da2168",
+        "source": "esc10"
+      },
+      {
+        "group_id": "bb9fdae7f64c11359c82",
+        "id": "esc10-2-30322-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "894526cbb7e9ca1150893b332a69cdc2cffaede5a29a881b4b7fe7dab4f1156e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "bb9fdae7f64c11359c82",
+        "id": "esc10-2-30322-B-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b0a16101ed58292d6105d0f694adfb885578c56292e04e6c64a53ca3d5c2e884",
+        "source": "esc10"
+      },
+      {
+        "group_id": "580a3362b3959a18d2d9",
+        "id": "esc10-2-37806-A-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "df941887d080de8487f8018f09091c040e82eae7a3a0cb7d532fb64ba64e04ef",
+        "source": "esc10"
+      },
+      {
+        "group_id": "580a3362b3959a18d2d9",
+        "id": "esc10-2-37806-B-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "bf730207adaed816833dc254f33b6f67b62b88b309a3ad9d54b70c2af310c9d7",
+        "source": "esc10"
+      },
+      {
+        "group_id": "580a3362b3959a18d2d9",
+        "id": "esc10-2-37806-C-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "512833e0ad721ba5c7bbb699403b50dd878ebd29de4cac2ca247e5315da5e987",
+        "source": "esc10"
+      },
+      {
+        "group_id": "580a3362b3959a18d2d9",
+        "id": "esc10-2-37806-D-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "d1691db93768e4e6ea6d2b20e4aeaccd383b3e2d28b8ba476ad86526bd7fb452",
+        "source": "esc10"
+      },
+      {
+        "group_id": "a06d7b7e1abd2931a9b4",
+        "id": "esc10-2-50665-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "8179d295f531f165ee89e92c3fb9f496ca6e13cff1fae3bb76067ee84da49078",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d451a9743fcf910b0b2b",
+        "id": "esc10-2-50666-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "1f15be2b6c7bc156ccb5174b205b03eace593d728ea227a889ecd17375d4f5ea",
+        "source": "esc10"
+      },
+      {
+        "group_id": "54638ba2c676fb6edf61",
+        "id": "esc10-2-50667-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b099e90db935a98b053d2a13db180ed783d35c89d600c07fa4f3aa8261cbf1ef",
+        "source": "esc10"
+      },
+      {
+        "group_id": "54638ba2c676fb6edf61",
+        "id": "esc10-2-50667-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c8d73fbda3f8b2ed27df38e09ced22fe2d59c46160a92ba985c37d9fdcb6f474",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c44e217dfcbe0178c467",
+        "id": "esc10-2-50668-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b3b5b151092231382feea724dc38188638814a7824592c7d80967d1bad59669f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c44e217dfcbe0178c467",
+        "id": "esc10-2-50668-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "11a783b1f9a74db022ac654722d21aef2e374cbf6b68ecb8fa20c576662edefc",
+        "source": "esc10"
+      },
+      {
+        "group_id": "172642febd7c562ebea3",
+        "id": "esc10-2-61311-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e0c27e6498d90f6e3a70346ebd43669478a92a170d453ebae6afbda2af1954e2",
+        "source": "esc10"
+      },
+      {
+        "group_id": "3d3c04c5118df47aaded",
+        "id": "esc10-2-65747-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "14a098365b21366eeec932f9cadfb368144fbd7d84e0066f81992afc3fac19a5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ea8a4c5a127bd44019e3",
+        "id": "esc10-2-65750-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "665283baf62e962de29cbd5ffa44457c52b98ff6fa6db9469b82f33fab488d4c",
+        "source": "esc10"
+      },
+      {
+        "group_id": "f5f418f1e57b01f9be77",
+        "id": "esc10-2-66637-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7956582f54756ada936b22c5d2e810d7237ddc95897a1557a59417e3b1be0f99",
+        "source": "esc10"
+      },
+      {
+        "group_id": "f5f418f1e57b01f9be77",
+        "id": "esc10-2-66637-B-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "9ef70dfc68879c756405662282e61e32aa88b3716455b13205936c4f7a135bb8",
+        "source": "esc10"
+      },
+      {
+        "group_id": "31922edd0f905cc9e5dd",
+        "id": "esc10-2-68391-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "fd9981a2adcd14a9b297e1bae44b268cfbbb9586a57219e1297c3fc470ec525b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "31922edd0f905cc9e5dd",
+        "id": "esc10-2-68391-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7c098d4477e3ac8cbf8a66d4ff144ef3706526c159eb54ede68f6b39257db425",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0b77f64a266530ae5f4c",
+        "id": "esc10-2-71162-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0e66be15bafedfc302c7a14003083c8296388bc983aa93f257c709e780da6ac8",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b75cac9a7a10118f9d1f",
+        "id": "esc10-2-72970-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f6d91324daa8863100c7f922b20727c86d46c27249cce9e15d66305e623e56b8",
+        "source": "esc10"
+      },
+      {
+        "group_id": "6b8173775bd4c987fc56",
+        "id": "esc10-2-73027-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "42eba8ebc797e9fa843e8dbfb907c58ea8c8976277997d5f6e726b1bd3fe4111",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e85e73fd0a676a36c43c",
+        "id": "esc10-2-73260-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "206b445eaf57f739c09185695e82bc0c3e7b9f68215ad9f7cb4374f7648e9acc",
+        "source": "esc10"
+      },
+      {
+        "group_id": "485a4f33638a53350c4d",
+        "id": "esc10-2-77945-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "cf77f72a73605adbcea2a0d61bdd666b4335e190edf722b8f67a216392ebd224",
+        "source": "esc10"
+      },
+      {
+        "group_id": "485a4f33638a53350c4d",
+        "id": "esc10-2-77945-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7a7c9cb12b77609346548ae861044137910b0e1dddc8da116fdc258fff13cd6c",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d23bdab34b2ac747e750",
+        "id": "esc10-2-80482-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "1bc0b84be46c90e74f19f4704f488cb17a4e34686fd76bc4454007f13bf64f33",
+        "source": "esc10"
+      },
+      {
+        "group_id": "6150fc60926e56097c8a",
+        "id": "esc10-2-81270-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ffbbe318c72dca7a09901a60088fd1cd1337ebde994ef32c4fe40fa829c2ca14",
+        "source": "esc10"
+      },
+      {
+        "group_id": "be7a8b2e6f56641b843b",
+        "id": "esc10-2-81731-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "25d3a915368db5e4175b1d51dea34bfad02d909039a051cbf72c0f39a0f34667",
+        "source": "esc10"
+      },
+      {
+        "group_id": "15aebc828b50a9d8f549",
+        "id": "esc10-2-82367-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2cce637e5f60368db490c8ec980eb0cc7dbdd623c077bcd456a2fb60afdd4820",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0f273d06eb44d1d959ee",
+        "id": "esc10-2-82538-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c6a37c234e9c3333de6fc9b16e93db76060e9eee9b1e989970a3cbc0bfc1cb5a",
+        "source": "esc10"
+      },
+      {
+        "group_id": "54a67c18d12a692db244",
+        "id": "esc10-2-87781-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "81fe7ce5da401a69a542439a5c8277864468a0bf09bf1378b0accac15c033638",
+        "source": "esc10"
+      },
+      {
+        "group_id": "74e32ef59cc8453e6ac9",
+        "id": "esc10-2-88724-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ba63b4175b60e54464f7bbec4b91f1f9345323221fe48655dc31c48be72312d6",
+        "source": "esc10"
+      },
+      {
+        "group_id": "094729f269a3e0db6bec",
+        "id": "esc10-2-93030-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e56f2b85d767caab2bf9ade0a4049bee154919d9650166a2c05c430face89347",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d9510c67baa6ad752f33",
+        "id": "esc10-2-95035-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "21fae7e7daf06262ec9230a4f2f2bb013fbbaeb126eb50ca62ab364d52c84759",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8c6f49a7e4ca0603b72e",
+        "id": "esc10-2-95258-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "d28ca7b6710feb0ec50272e5a77f924e80fa83290bdec6ec4c0db82ce6576f07",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8c6f49a7e4ca0603b72e",
+        "id": "esc10-2-95258-B-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f3d02c689e4003bf4800de2af77dc773ccb4de9049ce4cb81104696d17ba1956",
+        "source": "esc10"
+      },
+      {
+        "group_id": "b8815955b92a4e28cd4a",
+        "id": "esc10-2-96460-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "21a1734ac6f4894f2575e87721b3347fc97b856e63d49ac2fd0a4745a34b6b88",
+        "source": "esc10"
+      },
+      {
+        "group_id": "946a65455ed8095b6ec9",
+        "id": "esc10-3-104632-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "415e6d92371447377a916760fdda326f55f6f88cf428dc45b3edfe45b1d2b0a5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "62def4a5d9b6e52f44a4",
+        "id": "esc10-3-104958-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "d538428b1a51d450809757d169ba16f77c85721c267a46d29f5d538dfc846563",
+        "source": "esc10"
+      },
+      {
+        "group_id": "9785d82f9be51ee415fe",
+        "id": "esc10-3-107219-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "18c72ca3f004fa0367a401f65ea375e46a81ce715e1993e4c67c7a8ffe364d20",
+        "source": "esc10"
+      },
+      {
+        "group_id": "bd99def872b1ca54d4a7",
+        "id": "esc10-3-116135-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0415467964520c0268ea0b5beb9465ff6a2458f508d409a9b6d039f247f74352",
+        "source": "esc10"
+      },
+      {
+        "group_id": "dc28976c5b16fe212d79",
+        "id": "esc10-3-118656-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c8b03e975750a6c264f839e6adc68a5450a5d44d4db808b443522d918fe3185f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0db092ff31819056d76b",
+        "id": "esc10-3-118657-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e3ea73b1d6c8390853acf5e390eae7d90b314d749c03cdab3a4560d924687aba",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0db092ff31819056d76b",
+        "id": "esc10-3-118657-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "a1f94069bc51bb5ef19075a4a746610d98f9e05405750fa30d9818832286c07f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ac496367bd5ba62a96bc",
+        "id": "esc10-3-118658-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "55f4073b9095db0ad4d20230badbb7decc9549e5f080df29717d7d379648405e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ac496367bd5ba62a96bc",
+        "id": "esc10-3-118658-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f26428971e55d517dbca42ad5b5678fd0fce166931f3e1c581121a93b346cf61",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d706ff6d0c9521030e90",
+        "id": "esc10-3-118972-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c98d58cf863f4b16e9c9416f4a3b253f69eed3f4fc3b0ce22ae3f7f2dedf43d2",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d706ff6d0c9521030e90",
+        "id": "esc10-3-118972-B-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "354e5e850c5a474d4e822af1ed35ce304780ee4a9494f3d5edfee7a9fe859cfe",
+        "source": "esc10"
+      },
+      {
+        "group_id": "64b4bf45a83c1c735e8f",
+        "id": "esc10-3-120644-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "44acca39a9f884a0ba916ea8f5865079006d42acd31a8498f4e5bb0d5bd10146",
+        "source": "esc10"
+      },
+      {
+        "group_id": "97f174d9099c37d8f871",
+        "id": "esc10-3-132852-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "5d4960883ceabe28c008721ea3b5f5206a6f0234cacd4c1af81dd7594b4d3503",
+        "source": "esc10"
+      },
+      {
+        "group_id": "38f0fb99e4ba15458111",
+        "id": "esc10-3-134049-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2ccd86599da9a402b116d814d765b0fd1a568ee11923394bfc0a3af4db1581fa",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1a6bb571873ce2c20a39",
+        "id": "esc10-3-136288-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "8293b4fe3c40cf9bbe243fa27d153bbef86217f855e4295e89f41411267c9f8d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "695dbe1cd88f701a05e8",
+        "id": "esc10-3-137152-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "55944b46e8d399218da6b57cc1b3359d58e9da5db30cb377c3c8ae46d692d1fc",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c5c98458af04858ef000",
+        "id": "esc10-3-140774-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "1dd994fb071b52e4232b0cbd06558dd8d179008be2e4cf1f41d4abdca4f390fe",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4b80232d07b5828f4379",
+        "id": "esc10-3-141684-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6046ae5559d7ce126b25406ff8538214d66c73c77ba15cd9ecb4849513dd3d87",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8dd6608ca4ef7540ea38",
+        "id": "esc10-3-142005-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "784441f1c74be9dc64ec77aa9628df5b4557711b5f1435286dff9ea9317f02e0",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e694673461ca30f099db",
+        "id": "esc10-3-142006-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "bd24c750af1d7ed49a3d19ecc4401cd10368a18e02a07c3a5524fdb7a576d5af",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1df819d7ff58a10182b8",
+        "id": "esc10-3-142593-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "8eb0915dab65e09fd489c3ccac93e620892cb795abe4b16e7a103c5bbc92446b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "983507f725c81d4c303a",
+        "id": "esc10-3-142601-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ef15ba95b34a2a12a0b7f272d5b26422e828ceffa16613e3f89df1890d5f1d75",
+        "source": "esc10"
+      },
+      {
+        "group_id": "51f020efc27b27c0f253",
+        "id": "esc10-3-142605-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "444b8bc04cef9c0ec40d33e3c163c54a98185e23bc76eab68d02ce8c8cdf7e21",
+        "source": "esc10"
+      },
+      {
+        "group_id": "de8337d6298aff456dcf",
+        "id": "esc10-3-143119-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "bd5ca9e66497ab6b82c8c158d657011240040a7f9b5434fa73d40314b66433b2",
+        "source": "esc10"
+      },
+      {
+        "group_id": "6bb1910331538a97adea",
+        "id": "esc10-3-143929-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "5510934acbb493aee8e975d5b1c1b34b1a39ef0b870e6091778909995fef9004",
+        "source": "esc10"
+      },
+      {
+        "group_id": "859f54361782e525efdc",
+        "id": "esc10-3-143933-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "02809701aa82027a54a463637255b4e26ef3ccd1a47d69b59289e185b28ed675",
+        "source": "esc10"
+      },
+      {
+        "group_id": "5d979b776637127871f6",
+        "id": "esc10-3-144028-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2828c40f81b8bdfded734b1ea057444f780d1ada4241a2dc2ab70c646f963b47",
+        "source": "esc10"
+      },
+      {
+        "group_id": "426e7fab6cd308136c4f",
+        "id": "esc10-3-144692-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c7c434ea67b02a56ea63337e9d7a823deca517a038a80a0cf01daed61d18dba5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "5a2b87595e86808be640",
+        "id": "esc10-3-144827-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "553ceeb0be8984ea22e9ae1b4c892e76c19867e9240d5f9367c62b08ee7eba4e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "5a2b87595e86808be640",
+        "id": "esc10-3-144827-B-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "977a5b671cb9b57aea049bce2b1c139c039aa745c5c46c1f84964d8098381aa8",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0e0f730e837832785a6f",
+        "id": "esc10-3-145382-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "20a3a8bbeec30ee012d8241acc02752d5f80877d2d3b58847b23bd5a99f7ee56",
+        "source": "esc10"
+      },
+      {
+        "group_id": "198dad98b2f72d03ea1f",
+        "id": "esc10-3-145774-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "126163ee53c9cfc620a9963303a56e5e8fb2e1a47da02ac0a8849f35244e0c8e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "619306a5c3346519d6e1",
+        "id": "esc10-3-147965-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e5de3d144c438512347ce7ebad8a7d69b0f1a28e47dc1c2ee86da44a6ef30a03",
+        "source": "esc10"
+      },
+      {
+        "group_id": "8eb12b43ce5acf16fd92",
+        "id": "esc10-3-148330-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 3,
+        "sha256": "bfd24723af5d665600f2eef92307ab266f444465a231e6cc2276783bcc05f4af",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4320b33b20e707276364",
+        "id": "esc10-3-149189-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0ab042724404b7b43a3f0b31188f57e6acf04f531dc3fa0f1f09ab68ad096d4f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0161748615d00551ae99",
+        "id": "esc10-3-150231-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "9e21a595275419e08b419011167efbe40de0ee2a610adbcaa0b0951c61230622",
+        "source": "esc10"
+      },
+      {
+        "group_id": "13e471f2e44c2bbe8531",
+        "id": "esc10-3-150363-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4d1d86984a7d2408c0719015f37ca12054b97cd2e8b9e7853462908122e6d424",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d444de33e0f9e500d6ba",
+        "id": "esc10-3-150979-A-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "41e05ff06cd2d710f748b0d10bf136fd6e11d489327cbeafed690918b417fc42",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d444de33e0f9e500d6ba",
+        "id": "esc10-3-150979-B-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "60f34984d5387e02be66cd64b3170c1b2c1d953defe874930c15f8fd775dc34d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d444de33e0f9e500d6ba",
+        "id": "esc10-3-150979-C-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "38ee55ad9ddb3090622e41f502c5097214517b2a47c161f8d9e0d57c26636cd7",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1b5c46f6d9d24fc7441b",
+        "id": "esc10-3-151080-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e673e80074c99c9a8426ff708ca40d5f7a146605cf7b1625532276a7b95fd801",
+        "source": "esc10"
+      },
+      {
+        "group_id": "9ea0a08b68451c165f7a",
+        "id": "esc10-3-151081-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "48a0009a2b2f7e97d19c020c1292e17ee0775dc7537bca3109c4128fb17ac7de",
+        "source": "esc10"
+      },
+      {
+        "group_id": "9ea0a08b68451c165f7a",
+        "id": "esc10-3-151081-B-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "922250bbeca13111c955a83958f013c3a50b48e240705c57a645faf8b47a35d6",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fec9f8192e505974263b",
+        "id": "esc10-3-152007-A-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "dff786672fb70a78c6ddcde9935d1327fcb6704251844753c3a28b73ad2eef44",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fec9f8192e505974263b",
+        "id": "esc10-3-152007-B-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "39f6c0417c9bc1154f1cc292a593a33caec51eb985482c89d57e5fede76cdb9f",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fec9f8192e505974263b",
+        "id": "esc10-3-152007-C-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "ccd8f855a799a8d21f3234ba81cce8a4eccbbfdef8d141b938f2c5e0ea85aa44",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fec9f8192e505974263b",
+        "id": "esc10-3-152007-D-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c47feeedb4dbf4681b595318dfc3ca0aa555af0a2ef87022715c55ff47922999",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fec9f8192e505974263b",
+        "id": "esc10-3-152007-E-20",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2369f99bd8ec01a9eb92d1be9a418143ff6f2298791d7811b614ba6cf92ef420",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4d07d6bb88baf1e0d4e3",
+        "id": "esc10-3-154926-A-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "c21a6fadacf782bac2e8efab3815d2fe18ff0130239e671fb666acd2d52dfac5",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4d07d6bb88baf1e0d4e3",
+        "id": "esc10-3-154926-B-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "b919f24982343c8aaeb58472f23ac370b0ea7e343f4925fc6cca81714086f215",
+        "source": "esc10"
+      },
+      {
+        "group_id": "94936a4d737f9f5a6b4d",
+        "id": "esc10-3-154957-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6ffb2cb87baaaadf4833dc967e2c5b0006efed54c30cd1723bd546266cd0f089",
+        "source": "esc10"
+      },
+      {
+        "group_id": "5c1181e8c421c16e6f3f",
+        "id": "esc10-3-155312-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "cd91728dada57b9083122f0991dad5de4010287f91847bca4ac828d6402080e4",
+        "source": "esc10"
+      },
+      {
+        "group_id": "74f0f3e22f822b9749a9",
+        "id": "esc10-3-155642-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2b3168d0ece00768528c830841cd6edd683367bfb1ae0da1788912713a8a895d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "74f0f3e22f822b9749a9",
+        "id": "esc10-3-155642-B-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "76de2c046bd684e4788f852b5c3bc56df90b97660627b197619d156eccd3f306",
+        "source": "esc10"
+      },
+      {
+        "group_id": "07de868650ce71538a2d",
+        "id": "esc10-3-156558-A-21",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6d28e8680e1e333d864bdf850f3e4964429e4f4f3d55e50f39f2894050bd0f56",
+        "source": "esc10"
+      },
+      {
+        "group_id": "cbf94bdf9db55f24e572",
+        "id": "esc10-3-157149-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "83d1a7c62ffbf4f2241775502ec2fe3cf5c32fd69b4c107d8ca66b21d08bcda9",
+        "source": "esc10"
+      },
+      {
+        "group_id": "857a7454cdc84165c585",
+        "id": "esc10-3-157187-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "732379827a29ef372d098553de376a66adaac8c32b357221295a9bc7ebba84f0",
+        "source": "esc10"
+      },
+      {
+        "group_id": "05676947eeefd9955326",
+        "id": "esc10-3-157487-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2acadf44d110c13b39bf17d6db9afa13bb4db19c8b3147b1a61b4f492caf1e97",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1fb01891b76d64983c7d",
+        "id": "esc10-3-157615-A-10",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "5d3ac19904b4f7f0545f20b5a4d31d0cc9d97c5f555efc42b0484b41418052fa",
+        "source": "esc10"
+      },
+      {
+        "group_id": "71ef9a219cf8e58f4940",
+        "id": "esc10-3-157695-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7a6099b6ef5f58af8b6f9a9deda41cc0d8efe5a0fd60fdd638a711523674903a",
+        "source": "esc10"
+      },
+      {
+        "group_id": "a8efa172d24348f9dc98",
+        "id": "esc10-3-158476-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "6d5eb5cbb48457fddc3647fa4750e1c5d3c8f5121756182206adfbf9c9eedc50",
+        "source": "esc10"
+      },
+      {
+        "group_id": "2d575c49506cddca3ba6",
+        "id": "esc10-3-163288-A-1",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "941201c0fc36b34f7b84ed0b89342c7d8a66576a526c68d4992265f4b81646fe",
+        "source": "esc10"
+      },
+      {
+        "group_id": "79a18eed79e8a94d578c",
+        "id": "esc10-3-163459-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 4,
+        "sha256": "fede0d9dcbf6c0252880acf39d411d62e0060e9c9ff3bda9135b3dc2bccb41fe",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e6973642c65fb01d2853",
+        "id": "esc10-3-164120-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "adcd03bf5b6a5c220cfbc4382ba6aa6873bedef53d0034a4dc5e2f0f6a183cb4",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d05f73f69ea2f95ae40d",
+        "id": "esc10-3-164630-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f51da90204e7194f92090de1872a27968ffda90c53fc694ca9d4781233fb6dad",
+        "source": "esc10"
+      },
+      {
+        "group_id": "3bc64a1736a4d039bea7",
+        "id": "esc10-3-164688-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "9ab49e668972a4d80ce6afdc17b03e8093d9a63a151e4f07b14cf6322d5bf68c",
+        "source": "esc10"
+      },
+      {
+        "group_id": "aec34ef25dd7660b1b6c",
+        "id": "esc10-3-165856-A-41",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "4382daa9057a7ccd87814f783f8cc72260a243e989cab1680977711cc2117d6b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "c08ea49059d5c9309447",
+        "id": "esc10-3-166422-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "3ecc909c603753417b812b66a4846f3159bf854cc22b695f5018948bd1035fc9",
+        "source": "esc10"
+      },
+      {
+        "group_id": "655c99be1247a79e16fd",
+        "id": "esc10-3-170015-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "7aff1d04c4c381636e0bfc7d9dfbf76509d0f30674fc542bb8f8ed757f29e29d",
+        "source": "esc10"
+      },
+      {
+        "group_id": "0b6f29f59891a8b2b02b",
+        "id": "esc10-3-170377-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "19eb30064eb159ebaa25a91a2435ff5f3eea28a536c9e11ca983dcbd8ce6d93b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "06ad375d2221cded5c25",
+        "id": "esc10-3-170383-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "04e08776e964a521d01760abfced1577572fc873f43a93a0039f41dcf61f9e68",
+        "source": "esc10"
+      },
+      {
+        "group_id": "d9f7eaf2a70f9c324488",
+        "id": "esc10-3-171012-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "caec02091ae6803d4dec5136f0aa6d539a8788609d83063409bc3b534ae21024",
+        "source": "esc10"
+      },
+      {
+        "group_id": "4b02397c49df7a72a83e",
+        "id": "esc10-3-171041-A-38",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "2101ae519c1e5ac0fb0cd6a516346fc1361fb277077b2998c9666c12465811c7",
+        "source": "esc10"
+      },
+      {
+        "group_id": "ff481c51b59bfd0e3e9f",
+        "id": "esc10-3-180256-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "39ed8c8b60974843511f0f53e33e37f670f9cf22eebcb8b23798d52e0309127b",
+        "source": "esc10"
+      },
+      {
+        "group_id": "e605681f0b1973d81977",
+        "id": "esc10-3-180977-A-0",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "d5d290a12f7aac1e5a5cee44e7a4d6033ee9f9999846f84b2278f7fbd6516df2",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fe78926ef1f2f9daf606",
+        "id": "esc10-3-187710-A-11",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "97714f535ad104a9eac0b85552f37b97e05b1d18f67223d502d201503b02dbaa",
+        "source": "esc10"
+      },
+      {
+        "group_id": "fedf3a7ec2d58a78d57a",
+        "id": "esc10-3-65748-A-12",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "e829acb3fa5e83e70139e275435c6bf63b2400d85456d34490633d4e16f4309e",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1b01c8271d494f38533a",
+        "id": "esc10-3-68630-A-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "f085e649b44c0ff59ce93228fd367da81c68f53e5f932fb3c2dbbcc66c997a66",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1b01c8271d494f38533a",
+        "id": "esc10-3-68630-B-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "fc18f3d9663d8f180bf65e1747543816ceebc6a710de319de74017a8eb2e4b15",
+        "source": "esc10"
+      },
+      {
+        "group_id": "1b01c8271d494f38533a",
+        "id": "esc10-3-68630-C-40",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 5,
+        "sha256": "0358b8428bc77a109345b4f36f92fcdae1795efdf1928e74a4bbf35d58b607ee",
+        "source": "esc10"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_001",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "e8790309a7888c58c1d1f0f3bfa7850f193af5f23fceb8fdc830aad610ffeb28",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_002",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "3bdef3845531382240df338a41e555d42023d98e8db63c54380fab82c23bde39",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_003",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "7fcad6fffda1d56ba8c236480b04289e8c079ff518c0770770c0cb8c09c43e95",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_004",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "8db1c6e9977126387f5ab00fe5d09cbda1a91e12d315a59356059d606eab0552",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_005",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "1e86479957e5ef21e5ab4c4b25d3df1f09647a34957e621790f199cac8dfac28",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_006",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "f73498b347bd77f4824cd42887ef72c08eb928e79ad2d2dba54f105d5b23fff5",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_007",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "737b05e544fce41d5d2f2e608bae5fd199a6695a80f4c31d2e6945490f15c91d",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_008",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "7f03a35e12c520b95eeab235ce7bec4d174b5adbf506e398da1f9d8a2f3f51a4",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_009",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "e3cb52f2d2abef93cfe80724de76a96f4de8fa05597139e0ce5ad7dd32db5d7d",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_010",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "37200cb91d6f12b4e5e6c79cfe42576252f033c67e862f737d7147ff52981318",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_011",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "c59c17282d104ca1383efbe9addff87dd3c0669fd0a3edea6923f4fe86a4f9cc",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_012",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "9dc31639da818626ff0f0995c793f1d36c12450ef5fd7e275dfc4fa9e52fe1f9",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_013",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "ed96b240e24ad16fca1c430cccbed95754354567c9c1b4e707772504213864a7",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_014",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "9bc49486d332ea8dc745fb6ec0c6cf46d5c20ebcb2bd43324d06996bd22fb680",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_015",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "37c9ca48639871650a6610f43a08f78574c2cabb02ff69d84fcd4e6b9863c01c",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_016",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "ed26ab3e21d613b3b2400e1fd93cb81435cca26e4ae02283460ada3ebcce754f",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_017",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "c8e44c10e29e7f10452e1bfa228ceffee1ade9aaefd0e7f4e18a1f801af2b647",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_018",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "0d618c8b488c2463de551890ed92499e56a2e203306e7d92ffef7ce20a409d69",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_019",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "37200cb91d6f12b4e5e6c79cfe42576252f033c67e862f737d7147ff52981318",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_020",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "d1bdd8d0fffa1e99b2a672160456e1eb2bd8c2b4ed41c99320dd982d576bd637",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_021",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "88c517a8e97b1735716e2257ae5cd55f355ed5834f427c3746918e1b9411e778",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_022",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "33537f39d3143b27d5a9de3c66e0f1e00c599b73b263989814ff9f17e59ec4f9",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_023",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "2fce1d9350ab2b453676e156000ff292a520ba710bbc571e69e7b19aa51ebe4f",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_024",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "991877ffaa560d376332a878afdeb1c95c080aee7e2a5d1ff0f7da44ecc93ffa",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_025",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "c441558280f77504792a2a0c6a8829422a7763b366a45aab18ac381c7c43f066",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_026",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "55654455627d97f252f30f63ea7f37e5ce7d9a6c076eb3580c630bc46e98a6e9",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_027",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "9f4edfaca8194afbb264120cb002f7e9d4bceb03f0fc2ec39a88d6af2b251cd5",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_028",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "af35ea6d7947b5d520054067233f932637f3852f1dc0f6e3e9479e525d9eac3a",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_029",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "785c4bd25ef23a1a9f66af55accfb3bce6a06149c79bf9d236b8ce042562f397",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-BACKGROUND_030",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "34f988beed58747337bf53bed8be7fcc3f0a6aadb06d49dc486fc48ef97d6b71",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_001",
+        "label": "drone",
+        "positive_instance_index": 5,
+        "sampled_windows": 15,
+        "sha256": "3c3fe29253e442cee58bb02b064e590e060d3e3e1c4039d8eb05d2da3b2c368c",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_002",
+        "label": "drone",
+        "positive_instance_index": 11,
+        "sampled_windows": 15,
+        "sha256": "a18e7825b0da4df748bea37d9392d92512192a7fe6447bea679d8980c8cfe3c4",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_003",
+        "label": "drone",
+        "positive_instance_index": 12,
+        "sampled_windows": 15,
+        "sha256": "12f04588de940bcd15ae955eb1b9a8a250986cf129f5c481f64598cd32cd302b",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_004",
+        "label": "drone",
+        "positive_instance_index": 11,
+        "sampled_windows": 15,
+        "sha256": "37c5062e4f07c9e05a67f7eb92a02785bddbf2fa10da8fd8596526755b54ec82",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_005",
+        "label": "drone",
+        "positive_instance_index": 1,
+        "sampled_windows": 15,
+        "sha256": "d56924abc9fe6ae53fae99e3eb5b72d2805c605581fa3e129eac8e578623705a",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_006",
+        "label": "drone",
+        "positive_instance_index": 10,
+        "sampled_windows": 15,
+        "sha256": "2079a59ea51d1e3468c29302d3c0c443b365fa27fe7dc53ac57a5fbc6d6b1edf",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_007",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "46bb93a90bec955129f6e2b2043d8d406fe93dedcd50a2a1519f82db1c59e420",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_008",
+        "label": "drone",
+        "positive_instance_index": 11,
+        "sampled_windows": 15,
+        "sha256": "3001968764aafe76b604c455a7464f19dde8bd5b91fc24f1f486be6df5daa749",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_009",
+        "label": "drone",
+        "positive_instance_index": 1,
+        "sampled_windows": 15,
+        "sha256": "b17bff5669ee90a509af546c0edf0ffb4703c26920b7137c71010edc9186f897",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_010",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "4798cb55d03757b17b4f43f40f9173eec0a0205de9797cce5424420c6833859c",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_011",
+        "label": "drone",
+        "positive_instance_index": 14,
+        "sampled_windows": 15,
+        "sha256": "d556d8297499b37f58ac90d0d3f865d553495688230905c52bd9c3019829cec9",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_012",
+        "label": "drone",
+        "positive_instance_index": 2,
+        "sampled_windows": 15,
+        "sha256": "7631a3915d5ac73cc704c12fef7de1c6020c0181c04f58be90318ec0f870b2d1",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_013",
+        "label": "drone",
+        "positive_instance_index": 14,
+        "sampled_windows": 15,
+        "sha256": "5548aac8a087f83faacd47da455af8a6e1f55489001200f222582ccdc81f7f08",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_014",
+        "label": "drone",
+        "positive_instance_index": 14,
+        "sampled_windows": 15,
+        "sha256": "94ace9424b53e69c34ca8184ab3bac397996807047d4abf3a31abf96abc22d9b",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_015",
+        "label": "drone",
+        "positive_instance_index": 12,
+        "sampled_windows": 15,
+        "sha256": "154de713d1e6bab713d91dedf66c623b313eb8dd74b9560fdc6199abc4f1d03e",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_016",
+        "label": "drone",
+        "positive_instance_index": 2,
+        "sampled_windows": 15,
+        "sha256": "c46e30be454f61aa0dad797daa4dddd4e747e893150eb0b99fc27ede5ee090da",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_017",
+        "label": "drone",
+        "positive_instance_index": 4,
+        "sampled_windows": 15,
+        "sha256": "789304d5fecdf52bee3eaea5b2b56ce20e67875b7d0df0b57bd15a7bf488719d",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_018",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "06c806bdbe8499a31976b9c63be89afddc35fc20ebceb5b7fef8d48105d22490",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_019",
+        "label": "drone",
+        "positive_instance_index": 8,
+        "sampled_windows": 15,
+        "sha256": "732ed57b672f7d1c6edc36f08fedad116119b4dd0d267c7e33ad20af6693acd0",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_020",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "68b73a293ca70e8791481492122cdc81db56c4967673c9f27d99844127bcb23d",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_021",
+        "label": "drone",
+        "positive_instance_index": 2,
+        "sampled_windows": 15,
+        "sha256": "7aba84d6e9edfa6766d18cc481022162e0c9a09734a502a6ac0789e8e9ce88a6",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_022",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "ddc68de1fdb7b5ec7477d897af55e1a3881991bbe1587c9d083844050e685df9",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_023",
+        "label": "drone",
+        "positive_instance_index": 0,
+        "sampled_windows": 15,
+        "sha256": "596be4f0dd105f98bc2b9a8fc0bbad69ba88645130f6cf54f683799555be53bf",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_024",
+        "label": "drone",
+        "positive_instance_index": 2,
+        "sampled_windows": 15,
+        "sha256": "719c315afc8b9aca1bc8428aeeed1306be1d8f381806e1c4ef89b2338f849b7d",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_025",
+        "label": "drone",
+        "positive_instance_index": 11,
+        "sampled_windows": 15,
+        "sha256": "4450b89707d09138e4aaf49b84df9d3188b3f7c778ba9af1fb149dec7534900a",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_026",
+        "label": "drone",
+        "positive_instance_index": 9,
+        "sampled_windows": 15,
+        "sha256": "a3fca5caa403979b87122f425db4c04fabd13c7d5505d2112c77d680870905a3",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_027",
+        "label": "drone",
+        "positive_instance_index": 10,
+        "sampled_windows": 15,
+        "sha256": "de55752be0ac29995d82cce0f0f9cedaa38a9c4405b0e180c27fed8030903fe5",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_028",
+        "label": "drone",
+        "positive_instance_index": 5,
+        "sampled_windows": 15,
+        "sha256": "cf401858d8fc05a969a2ad3389cfeffb9b824b96da344cc9216e37bce597f3bb",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_029",
+        "label": "drone",
+        "positive_instance_index": 8,
+        "sampled_windows": 15,
+        "sha256": "ca05e5b073ecc4e6567677d1a760f32ed96198c9f77b53ea90f07ba59915383b",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-DRONE_030",
+        "label": "drone",
+        "positive_instance_index": 1,
+        "sampled_windows": 15,
+        "sha256": "9bcb1ee9e4e80086e238042a90929ea8c43a5549792f617e2669ef438dd50552",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_001",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "ff04901b686c1b5aee3db7a7fcef94df677fd2e8cd49e6a840dc09e025260e90",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_002",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "e9dbf544c189c0a1d80f3d599501432ecbd84e03ce5e1536114c6417d7de30d9",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_003",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "976b0afd62fe6045673d37e0ba585979212603061c27bf9d1de4b23049b8f6af",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_004",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "bdb7524eef645970587e1e96eaf23374255fc1789522f4bb69a42effc017d18b",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_005",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "43961c8304d0de1d4dfb0ead9d97de8949a2e0893fc5bb3098ef9ab9a5e23120",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_006",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "6ee524cabbff355ba4490ca975e284725531b59d2d660ef27ea0279215b95b08",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_007",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "84102b6c5918a672ba8fb12750b7da9fd2d3f9857034627312f9d3a845610efc",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_008",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "900639c6f5b02bbb3b42698550672aee7cd9b1fa77e8e9a8d00a0b0c1ed2e835",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_009",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "7a69c14724199307229fb9fad26738ea4161a2734a8139cc865759a98718cc52",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_010",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "a65b32fa367acfa63ce071b7e0b34b14e9aa82e571c2a5f96ae3b0067f8caa12",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_011",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "cd9effd2f2552f29e6ae40fe6bf5f61ec9ead9cab6d428fbe242e939e9e50324",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_012",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "94b8278d0c2ce8157250c229219505a8e18a1796d6d608de7a928eb896c19edb",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_013",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "f4353777e7cafed31deef733eac90c65b0cc346e27503133acca5923ace0110e",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_014",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "f0dbb7525b3dcb9d5269da1ef79ab1aaa94de912309ac4974caaacc75c8e103c",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_015",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "a87b44b5cd1768bc657be7633c7ada7d93277d18c7214cfdbcbeb12c659f1cf4",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_016",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "c68034426c7f0a97e4e95ebb7c7076893423835710aec2d7467c8b33b3dcef63",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_017",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "7a8dcbbece59a44d276dc6b967ddf5b27a87a596d783eab3481f79510829f882",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_018",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "769efc0d59b2107abb5e798a63781c43a1e382305f063f66d4f7f14a378a83b3",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_019",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "f06f4a129f1ffe7d6ed9547f595d86ecf427e2d43a06c41f243d6a3ad8496ad4",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_020",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "dec81d6f4386afda08ddb0129a2afc8a3c34f8239f30ffe58ddad9cd5cc585e0",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_021",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "8677954e4aa82fe7db2281af1c7f6dbb064e82bc3f3fc66a04ccf23e2e571c05",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_022",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "ff1f8395286e5cac5a24115a3b804480e1e0ebbc2fb903bae8c377ca0bd90fe5",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_023",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "811f1e939c894a6f406d724f51bd6b06ba9dd271f03df3306ac456fc46af13a0",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_024",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "d4b54c14bc09b136c9d7ce7bbd59ac27c6d34675c10bd675c7013d8294fdb3ba",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_025",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "a82b468ae60f483a673b19794c8c43aefcea2bf66f7fa37fc533c918eb8fcb3d",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_026",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "95184efe7292c1e9535a3f11580df0ccb0fff4a8536011690a5e738a1c393856",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_027",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "a9555b719d5401d39c6713fe6dbb121298c1fab2015b29258a0143c9779a6fc0",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_028",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "b4637a283e3175d935b9444cf29e5d47b1dec0736b45d365f517d3a3dc60af80",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_029",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "00d4cb5e960aa0d613f412892993befb1b96f1c391709f8577d1a76cd47eb963",
+        "source": "svanstrom"
+      },
+      {
+        "group_id": "6d839353de2927565bd2",
+        "id": "svanstrom-HELICOPTER_030",
+        "label": "non_drone",
+        "positive_instance_index": null,
+        "sampled_windows": 15,
+        "sha256": "55ecba3904aa9cf9427b6811a1ac69ae36e8c77c29c068742c5f971baf57f9cf",
+        "source": "svanstrom"
+      }
+    ],
+    "seconds": 14.29111695499978,
+    "seed": 42
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "soundfile": "0.13.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "all_frozen_control_models_load": true,
+  "audit_package_manifest_sha256": "2f4ead15b9691945d7e943bc168bb170ba495f29d150b07295048146f779ad98",
+  "checksummed_files": {
+    "artifacts/cnn-diagnosis-v1": 9,
+    "artifacts/cnn-foundations-v1": 92,
+    "artifacts/real-v2": 14,
+    "artifacts/spectral-lab-v1": 54,
+    "artifacts/training-audit-v1": 16
+  },
+  "initial_gradient_oracle_identity_preserved": true,
+  "passed": true,
+  "raw_audio_included": false
+}

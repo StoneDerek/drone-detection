@@ -1,0 +1,62 @@
+{
+  "default_at_gain_decision": {
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6000000000000001,
+      "on_hits": 1,
+      "on_threshold": 0.8
+    },
+    "metrics": {
+      "average_precision_max_window_score": 0.9112552480199538,
+      "balanced_accuracy": 0.9226305609284333,
+      "confusion": {
+        "fn": 2,
+        "fp": 12,
+        "tn": 176,
+        "tp": 20
+      },
+      "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+      "field_reliability_claim": false,
+      "negative_hours": 0.4931356706270471,
+      "negative_recording_false_positive_fraction": 0.06382978723404255,
+      "negative_recordings": 188,
+      "positive_hours": 1.4146752430555554,
+      "positive_recordings": 22,
+      "precision": 0.625,
+      "provenance_groups": 145,
+      "recording_recall": 0.9090909090909091,
+      "recordings": 210,
+      "roc_auc_max_window_score": 0.9830754352030947
+    }
+  },
+  "gain_at_default_decision": {
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "metrics": {
+      "average_precision_max_window_score": 0.957981993851559,
+      "balanced_accuracy": 0.9359284332688589,
+      "confusion": {
+        "fn": 2,
+        "fp": 7,
+        "tn": 181,
+        "tp": 20
+      },
+      "event_metrics": "Not assessed: publisher clip labels do not establish temporal truth",
+      "field_reliability_claim": false,
+      "negative_hours": 0.4931356706270471,
+      "negative_recording_false_positive_fraction": 0.03723404255319149,
+      "negative_recordings": 188,
+      "positive_hours": 1.4146752430555554,
+      "positive_recordings": 22,
+      "precision": 0.7407407407407407,
+      "provenance_groups": 145,
+      "recording_recall": 0.9090909090909091,
+      "recordings": 210,
+      "roc_auc_max_window_score": 0.9917794970986461
+    }
+  }
+}

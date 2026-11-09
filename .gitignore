@@ -1,4 +1,13 @@
 # Byte-compiled / optimized / DLL files
+
+# Local experiments contain generated audio and per-window traces.
+/runs/
+/build/
+/dist/
+/web/node_modules/
+/web/public/models/
+/web/.wrangler/
+
 __pycache__/
 *.py[codz]
 *$py.class

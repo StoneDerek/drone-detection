@@ -1,0 +1,13 @@
+{
+  "batching": "Independent per-context features and batched classifier forward pass; sequential versus batch scores checked on first development recording. Audio timestamps are retained; offline batch traces claim no per-window delivery time.",
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "7c5b57a9e4c04517c6e04a056e4335610dc7b79e3d36b4074543d3e906e71e63"
+  },
+  "id": "spectral-exact-development-budget-v1",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "policy": "For each on-hit count 1/2, set threshold to the (floor(.05*Nneg)+1)th largest negative recording activation statistic plus a 1e-5 numerical margin. Select maximal development recall within the 5% negative-file budget, then lower threshold, lower FPR, two hits. Off threshold .75\u00d7on, two off hits.",
+  "reason": "Scores of small CNNs cluster between coarse grid thresholds. Separate a calibration limitation from spectral ranking.",
+  "scope": "Additional DEVELOPMENT calibration after observing coarse-grid failures. No new final assessment; no neural weights retrained; default unchanged.",
+  "warning": "Development FPR is constrained by construction, not evidence of generalization. Budget is a provisional engineering choice."
+}

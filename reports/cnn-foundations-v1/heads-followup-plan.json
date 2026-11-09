@@ -1,0 +1,24 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "a6829454b506ee300b58c46e60a7b119cf42c1db122929f5380ef7c03833cf5e"
+  },
+  "full_max_control": "Same93313-parameter network, original random recording batches/class weights, all positive contexts and negative sample8. Change only positive pooling from normalized logsumexp to hard max.24epochs, seed42.",
+  "full_max_trigger": "Prespecified decomposition condition met at full/smooth epoch12: common development bag loss.58169 versus sampled/max best24.64274, improvement>.05.",
+  "head_arms": {
+    "medium-balanced-frequency-head": {
+      "parameters": 154689,
+      "variant": "frequency_aware"
+    },
+    "medium-balanced-global-head": {
+      "parameters": 154675,
+      "variant": "global_readout"
+    }
+  },
+  "head_control": "Same32/64/128 convolution encoder, strides2/3/3, seed42, cached256x172 inputs, balanced4+4 recording batches, sampled8/max positive and mean-negative loss, optimizer and24epochs. Global pooling plus Dense473 is parameter-matched within14 parameters to time-only pooling plus Dense32 over15 frequency positions. Nonlinear head shape and pooling differ intentionally; parameter count alone is controlled, not identical function classes.",
+  "head_hypothesis": "After fixing coverage, global averaging still destroys absolute frequency arrangement. Preserve frequency positions in the readout without adding an input view.",
+  "kind": "heads",
+  "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+  "parent_plan_sha256": "ef1a730b01fd00e668f120fb91b3969bed6de7c0018b6fc53853f9bece1b9ed3",
+  "scope": "Additional DEVELOPMENT controls; same cached real inputs and weak labels, no new final assessment or multi-view input."
+}

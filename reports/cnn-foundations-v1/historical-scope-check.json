@@ -1,0 +1,11 @@
+{
+  "commit": "c1e44605c07004501b72e4c3dc0c08c3af3f3f01",
+  "conclusion": "The demonstrated asymmetric bag/dropout loophole belongs to our scratch-CNN pipeline. It must not be presented as a diagnosed cause of the historical EfficientNet failures.",
+  "files": {
+    "losses.py": "ccf1d9fc4aaca9955a7a7e1f9a7986bc0f4d67a6f6ae246009af882e263ed60a",
+    "trainer.py": "b37aa8e2ddc2cf58258c35b248e230221ef96a100a9252cb41aee343ddd880cb"
+  },
+  "limits": "Source inspection only. Historical checkpoint and raw data protocol are not re-evaluated by this finding.",
+  "observed": "Trainer constructs build_bce_loss(pos_weight); train and validation call the same BCEWithLogitsLoss on segment logits/labels. Its loss is not our positive-max/negative-mean recording-bag objective.",
+  "repository": "https://github.com/ShikangHu/dronedetection"
+}

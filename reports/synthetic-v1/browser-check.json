@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "records": 7,
+  "scoreRowsPerRecording": 19,
+  "failureState": "NO ALARM",
+  "positiveState": "ALARM",
+  "seeking": true,
+  "playbackAdvanced": true,
+  "pageErrors": [],
+  "browser": "156.0.8078.79",
+  "node": "v24.22.1",
+  "playwright": "1.62.1",
+  "delivery": "Internal loopback HTTP; direct file navigation is administratively blocked in this cloud browser",
+  "scope": "HTML/audio/score/selection demonstration only; not real-world detector validation"
+}

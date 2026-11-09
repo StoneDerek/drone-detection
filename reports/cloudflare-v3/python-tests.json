@@ -1,0 +1,11 @@
+{
+  "code": {
+    "git_head": "dc198f9a8639ee5441d23e50c78a33588b36e052",
+    "source_sha256": "0f06094c18e3081bbd291245c4d9b5674ef1d6d8b916de489e39c2907313df97"
+  },
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 TF_CPP_MIN_LOG_LEVEL=2 MPLCONFIGDIR=runs/matplotlib .venv/bin/pytest -q",
+  "log_sha256": "6a7dc1ded69d48d87b904722e404a8788cb1f8b618dca754103d4a087ef6d045",
+  "passed": true,
+  "scope": "Software tests, not acoustic evaluation trials",
+  "tests_passed": 78
+}
