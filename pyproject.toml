@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest==9.0.2", "ruff==0.14.4"]
+dev = ["pytest==9.0.2", "ruff==0.14.4", "matplotlib==3.10.8"]
 pretrained = ["tensorflow-cpu==2.20.0"]
 
 [project.scripts]
