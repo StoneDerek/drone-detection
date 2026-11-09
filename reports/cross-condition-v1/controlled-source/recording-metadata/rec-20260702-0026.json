@@ -1,0 +1,219 @@
+{
+  "identification": {
+    "schema_name": "uav-acoustic-recording-metadata",
+    "schema_version": "1.1.0",
+    "dataset_version": "1.1.0",
+    "recording_id": "rec-20260702-0026",
+    "session_id": "ses-undated-194",
+    "segment_id": "source"
+  },
+  "provenance": {
+    "origin": "self_collected",
+    "processing_level": "raw_converted_lossless",
+    "original_relative_directory": "7月2日 城市噪声/A3 30m 20m",
+    "source_dataset": null,
+    "source_recording_id": "20260702_A3_30m_20m",
+    "processing_software_version": "ieee-release-builder-1.1.0"
+  },
+  "acquisition": {
+    "date": "2026-07-02",
+    "start_time": null,
+    "location_public": "Nanjing, Jiangsu, China",
+    "environment": {
+      "scene_type": "urban_outdoor",
+      "weather": null,
+      "wind_speed_m_s": null,
+      "temperature_c": null,
+      "notes_zh": "城市噪声室外环境"
+    },
+    "platform": {
+      "uav_manufacturer": "DJI",
+      "uav_model": "Flip",
+      "flight_state": "hover"
+    },
+    "array": {
+      "array_id": "array-01",
+      "array_model": "SMD-CR16",
+      "geometry_version": "cross16-paper-42p5mm-v1",
+      "channel_count": 16,
+      "height_above_ground_m": 0.25
+    },
+    "audio": {
+      "sample_rate_hz": 48000,
+      "bit_depth": 16,
+      "encoding": "pcm_s16",
+      "endianness": "little",
+      "duration_seconds": 82.56
+    }
+  },
+  "audio_files": [
+    {
+      "channel_index": 0,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-00.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "4aca67ef48064bee7d2ff50b58fd3c3206f700d8b5285a5ca27c520ce61b5e6e"
+    },
+    {
+      "channel_index": 1,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-01.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "4ea5ec1e64ff8c45be2cf65dab7b03a0c588677ea5e410852e1d55de579d2957"
+    },
+    {
+      "channel_index": 2,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-02.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "890b065bc4616cc891e3ad4e1b1b1b4ab1b25cdcb7043dcdf78023597f839993"
+    },
+    {
+      "channel_index": 3,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-03.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "5556cb89d5189a13a898e5d1f2faf58e8ad7d256ad5e06a6f33b99cbc8a117ab"
+    },
+    {
+      "channel_index": 4,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-04.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "0306dfbd593daaa69e54067b7c8f17f0b3216a0176750801a6712d04d1c25f3a"
+    },
+    {
+      "channel_index": 5,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-05.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "913df671a541ede892c8abb56d78ac31ae8156f9319f501c326b736d3c727a46"
+    },
+    {
+      "channel_index": 6,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-06.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "ccc686f244473b053c4dd12b2079dd0a76c41119dfc71f8114cc870d8a67f09d"
+    },
+    {
+      "channel_index": 7,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-07.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "e6969b9089543f08bf2fd4ce8b3f4155b01425f27a3cc85d9839497a745bf05c"
+    },
+    {
+      "channel_index": 8,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-08.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "24b9da7b632cbf5934844079ef5b44e28dc36d5f369b5460917aab30587b39e4"
+    },
+    {
+      "channel_index": 9,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-09.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "a721431346d723e4ee6ac567173f2647157b07ac7016cf0fafcabcbb4f51bc6b"
+    },
+    {
+      "channel_index": 10,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-10.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "e93f7a01ba4a3e7be00436e0ad4c76d65f5e9173e92238dbd7efe0fb2cb19ef2"
+    },
+    {
+      "channel_index": 11,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-11.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "7625e04a752739179f313a00961176e887e505bee7338c379946815d5b881f00"
+    },
+    {
+      "channel_index": 12,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-12.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "72e00ca7b40b2c4a64b99ebec726d1dfea4f00de199702884ab806e34faa1fea"
+    },
+    {
+      "channel_index": 13,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-13.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "d66d5197e08a312508a7ffdecd755e8ca0e159b4775de1bce9c2efe6e7526757"
+    },
+    {
+      "channel_index": 14,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-14.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "967166326869332f94aaeb40ab3a10152fc34cbe93a7dfad94ed1539a88b8dde"
+    },
+    {
+      "channel_index": 15,
+      "relative_path": "data/real_uav/ses-undated-194/rec-20260702-0026/rec-20260702-0026__ch-15.wav",
+      "sample_count": 3962880,
+      "file_size_bytes": 7925804,
+      "sha256": "6b00c15785f67d1e25b55e5d839f4dc74fa23f34c8396cd01d97bfd6e78ba128"
+    }
+  ],
+  "target": {
+    "present": true,
+    "count": 1,
+    "events": [
+      {
+        "start_seconds": 0.0,
+        "end_seconds": 82.56,
+        "label_source": "experimental_design"
+      }
+    ]
+  },
+  "spatial": {
+    "coordinate_system": "array_centered_right_handed_cartesian",
+    "geometry_reference": "metadata/array_geometry.csv#cross16-paper-42p5mm-v1",
+    "target_position_m": {
+      "x": 0.0,
+      "y": -30.0,
+      "z": 20.0
+    },
+    "horizontal_distance_m": 30.0,
+    "radial_distance_m": 36.055513,
+    "azimuth_deg": -90.0,
+    "elevation_deg": 33.690067525979785,
+    "label_source": "computed_from_geometry"
+  },
+  "quality_control": {
+    "status": "pass",
+    "channel_set_complete": true,
+    "equal_sample_count": true,
+    "clipping_fraction_max": 0.0,
+    "silent_channels": [],
+    "synchronization_checked": false,
+    "max_sync_error_samples": null,
+    "warnings": [
+      "Synchronization metric pending."
+    ],
+    "reviewed_by": "automated_release_qc",
+    "review_date": "2026-10-06"
+  },
+  "rights": {
+    "access_level": "open",
+    "license_spdx": "CC-BY-4.0",
+    "citation_required": true,
+    "ethical_or_privacy_notes": "Dataset license approved by the owner on 23 October 2026: CC BY 4.0. Field background and controlled-replay recordings are identified separately; replay source provenance is retained."
+  },
+  "experimental_design": {
+    "design_scope": "uav_condition_grid",
+    "environment_grid_id": "urban-grid-4az-5dist-4height",
+    "acquisition_batch_id": "batch-20260702",
+    "array_position_label": "A3",
+    "nominal_condition_id": "urban-a3-d030-h020",
+    "observation_role": "single_acquisition_of_nominal_condition",
+    "independent_acquisition_index": 1,
+    "independent_acquisition_count": 1,
+    "is_duplicate_file": false
+  }
+}

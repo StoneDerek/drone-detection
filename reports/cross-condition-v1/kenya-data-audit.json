@@ -1,0 +1,9 @@
+{
+  "conservative_original_groups": 1,
+  "cross_corpus_whole_file_matches": [],
+  "human_primary_positive_files": 5,
+  "labels": "Human primary Drone clip labels only; no negative labels, no temporal audibility truth.",
+  "limits": "No exact-file match does not rule out every shifted or lossy derivative. Five adjacent excerpts do not constitute five independent captures.",
+  "seconds": 24.984625,
+  "source_sha256": "2261ad25c4062177ddc2d0ab28be51c4361d1f6282819083b992d36a9f9745af"
+}

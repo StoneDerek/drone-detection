@@ -1,0 +1,68 @@
+{
+  "cases": [
+    {
+      "id": "fpv-fpv5-fpv_53_1",
+      "label": "drone",
+      "path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_1.wav",
+      "sha256": "c6858b86dd28b49ad598af69295268ef69a2eb9ea86f57e60e0a2de7c7359d3d"
+    },
+    {
+      "id": "fpv-no_drone-ambient_kiili_3",
+      "label": "non_drone",
+      "path": "runs/external-v3/downloads/fpv/no_drone/ambient_kiili_3.wav",
+      "sha256": "bd9835b2258e5487c02f9ebcbbd20027fec11aa3a8ab2fdb3e89845d09f1217e"
+    },
+    {
+      "id": "fpv-no_drone-grass_trimmer_1",
+      "label": "non_drone",
+      "path": "runs/external-v3/downloads/fpv/no_drone/grass_trimmer_1.wav",
+      "sha256": "bd1021f4be6f2608bc4bd25d63c41f9962f84ad4c7915b05e5042479a65271a1"
+    },
+    {
+      "id": "kenya-ZOOM0071_16_16k",
+      "label": "drone",
+      "path": "runs/cross-condition-v1/kenya/ZOOM0071_16_16k.wav",
+      "sha256": "531ed386d309122bff51f7563d4437dfce89d54fe00038355be9b4c6e8949f49"
+    },
+    {
+      "id": "kenya-ZOOM0071_17_16k",
+      "label": "drone",
+      "path": "runs/cross-condition-v1/kenya/ZOOM0071_17_16k.wav",
+      "sha256": "1b69a58b7e7e2f803e31ce74466d210b4f488afff6c3bf6923587fc6e1b7bdda"
+    },
+    {
+      "id": "kenya-ZOOM0071_18_16k",
+      "label": "drone",
+      "path": "runs/cross-condition-v1/kenya/ZOOM0071_18_16k.wav",
+      "sha256": "fca9af60497cf6e25980f31e119b16f815f0a7ab9d132992359e079ed4c545ff"
+    },
+    {
+      "id": "kenya-ZOOM0071_19_16k",
+      "label": "drone",
+      "path": "runs/cross-condition-v1/kenya/ZOOM0071_19_16k.wav",
+      "sha256": "394598d41a5228b9b9a469d6fc9c506b20f2118f385fc77489f71ec478785152"
+    },
+    {
+      "id": "kenya-ZOOM0071_20_16k",
+      "label": "drone",
+      "path": "runs/cross-condition-v1/kenya/ZOOM0071_20_16k.wav",
+      "sha256": "bb0a2d727c68a76984883d7b0ff81fb9967958f5d73363b5f776eccea210d723"
+    },
+    {
+      "id": "audio/drone/drone_0078.wav",
+      "label": "drone",
+      "path": "runs/external-v3/downloads/itu/itu-aris-lab-acoustic-drone-dataset/audio/drone/drone_0078.wav",
+      "sha256": "65b7a3d72da6a931c0878bdc2aa0d9f701b00f3a620caba623ceada7c94efd51"
+    },
+    {
+      "id": "audio/background/background_0201.wav",
+      "label": "background",
+      "path": "runs/external-v3/downloads/itu/itu-aris-lab-acoustic-drone-dataset/audio/background/background_0201.wav",
+      "sha256": "83fa4ee6b277d635908ca06f5392bd3056869ca59fbdfb23197c49016b1b2bde"
+    }
+  ],
+  "context_rule": "First and middle full1s context, middle on0.5s grid; duplicate start removed for1s ITU clips.",
+  "interpretation": "Nonphysical tensor permutations test numerical dependence, not new acoustic accuracy or an assumption that temporal motion is required for hovering drones.",
+  "timing": "Disclosed follow-up after transfer outcomes, all sources already consumed. No Nanjing audio or model results are used.",
+  "transformations": "Original, uniform waveformgain0.25, time-mean repeated, ten common-time permutations, ten independent-band-time permutations. Fixed seed1000+case/context index."
+}

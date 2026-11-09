@@ -1,0 +1,210 @@
+{
+  "identification": {
+    "schema_name": "uav-acoustic-recording-metadata",
+    "schema_version": "1.1.0",
+    "dataset_version": "1.1.0",
+    "recording_id": "rec-20261013-0003",
+    "session_id": "ses-20261013-001",
+    "segment_id": "source"
+  },
+  "provenance": {
+    "origin": "self_collected",
+    "processing_level": "raw_converted_lossless",
+    "original_relative_directory": "02_原始数据/legacy_layout/负样本 10月13日/风吹树声",
+    "source_dataset": null,
+    "source_recording_id": null,
+    "processing_software_version": "final-analysis-builder-1.1.0"
+  },
+  "acquisition": {
+    "date": "2026-10-13",
+    "start_time": null,
+    "location_public": "Nanjing, Jiangsu, China",
+    "environment": {
+      "scene_type": "wind_in_trees",
+      "weather": null,
+      "wind_speed_m_s": null,
+      "temperature_c": null,
+      "notes_zh": "风吹树声"
+    },
+    "platform": {
+      "uav_manufacturer": null,
+      "uav_model": null,
+      "flight_state": "not_applicable"
+    },
+    "array": {
+      "array_id": "array-01",
+      "array_model": "SMD-CR16",
+      "geometry_version": "cross16-paper-42p5mm-v1",
+      "channel_count": 16,
+      "height_above_ground_m": 0.25
+    },
+    "audio": {
+      "sample_rate_hz": 48000,
+      "bit_depth": 16,
+      "encoding": "pcm_s16",
+      "endianness": "little",
+      "duration_seconds": 200.106667
+    }
+  },
+  "experimental_design": {
+    "design_scope": "background_recording",
+    "environment_grid_id": null,
+    "acquisition_batch_id": "batch-20261013",
+    "array_position_label": null,
+    "nominal_condition_id": null,
+    "observation_role": "negative_control",
+    "independent_acquisition_index": null,
+    "independent_acquisition_count": null,
+    "is_duplicate_file": false,
+    "split_group_id": "real-20261013-wind-trees"
+  },
+  "audio_files": [
+    {
+      "channel_index": 0,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-00.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "5a2654c5563be55e125d9f1142581827f5f65cb818c4b6becef67791c4722430"
+    },
+    {
+      "channel_index": 1,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-01.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "72dfe3fd15e779b3c57f0e01ea1ed86b75320826621dc6d6b6c0be3454c078d6"
+    },
+    {
+      "channel_index": 2,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-02.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "923889f28ce6e8acb80cac1d969b9143bf9700dae5320484975d42340a8f0091"
+    },
+    {
+      "channel_index": 3,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-03.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "d5d013bba38be85802ce41f277a9e384f55b4db76a4248194ed4f06d0e186c7c"
+    },
+    {
+      "channel_index": 4,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-04.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "b60f79d2e53a2de7e43c768ae38c93a62a1635f3eb2db9ffb907947d5a2bba3f"
+    },
+    {
+      "channel_index": 5,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-05.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "4c741c50b44708fd868ee55a4f5c570137bfe5d61d98a709ee094f0aad31737d"
+    },
+    {
+      "channel_index": 6,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-06.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "d0969a746981427240324932e45544f574675f46f7ebb8fd7bf1e620ed61880c"
+    },
+    {
+      "channel_index": 7,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-07.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "c3bd7e5c603254c65f465cdebf8bf0cfdb1a3a4d8a5e971bad8ce8b5b67515bd"
+    },
+    {
+      "channel_index": 8,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-08.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "8b6230553d0a48fdb8b374a49ad386fac51863d924ee3207bde55cd9bfb0ae5c"
+    },
+    {
+      "channel_index": 9,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-09.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "70416197631049d0ba1e652f0ec5bac65327ff14c8e224fe27969a8b08c02cfe"
+    },
+    {
+      "channel_index": 10,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-10.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "9bdebe1b41766905944855417125aed440b952408872ba81109d7775da302520"
+    },
+    {
+      "channel_index": 11,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-11.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "a37874c589756a96f8d5198f85afeaa6ead3429a8f951326a993e883c6aff8db"
+    },
+    {
+      "channel_index": 12,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-12.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "c8d1d91f4b3bc4d313dfcaf35854794e2e19d32c42f0e4d0a767808e15b203d5"
+    },
+    {
+      "channel_index": 13,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-13.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "93fe6e3662e8239c2975b565bcc6ea7bdf3e440a116df6b989bab0a791d4d095"
+    },
+    {
+      "channel_index": 14,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-14.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "ce73dfe8c30382a1c0409e2771434ac2bf4d8999ee5e90f25602d63210985d12"
+    },
+    {
+      "channel_index": 15,
+      "relative_path": "data/real_background/ses-20261013-001/rec-20261013-0003/rec-20261013-0003__ch-15.wav",
+      "sample_count": 9605120,
+      "file_size_bytes": 19210284,
+      "sha256": "64a9845f945c2dd44aa01d67e536c5d5c29d46b5e884ffe14a7e60010d90cb6c"
+    }
+  ],
+  "target": {
+    "present": false,
+    "count": 0,
+    "events": []
+  },
+  "spatial": {
+    "coordinate_system": "array_centered_right_handed_cartesian",
+    "geometry_reference": "metadata/array_geometry.csv#cross16-paper-42p5mm-v1",
+    "target_position_m": null,
+    "horizontal_distance_m": null,
+    "radial_distance_m": null,
+    "azimuth_deg": null,
+    "elevation_deg": null,
+    "label_source": "not_applicable"
+  },
+  "quality_control": {
+    "status": "pass",
+    "channel_set_complete": true,
+    "equal_sample_count": true,
+    "clipping_fraction_max": 0.0,
+    "silent_channels": [],
+    "synchronization_checked": false,
+    "max_sync_error_samples": null,
+    "warnings": [
+      "Manual privacy review is required before public release."
+    ],
+    "reviewed_by": "final-analysis-builder",
+    "review_date": "2026-10-13"
+  },
+  "rights": {
+    "access_level": "open",
+    "license_spdx": "CC-BY-4.0",
+    "citation_required": true,
+    "ethical_or_privacy_notes": "Dataset license approved by the owner on 23 October 2026: CC BY 4.0. Field background and controlled-replay recordings are identified separately; replay source provenance is retained."
+  }
+}

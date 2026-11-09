@@ -1,0 +1,15 @@
+{
+  "audio_sha256_checked_against_dataset_index": 4368,
+  "recording_json": 273,
+  "source_archive_crc_checked_during_read": true,
+  "waveforms_modified": false,
+  "trained_models_during_packaging": 0,
+  "final_zip_crc_passed": true,
+  "entries": 4897,
+  "archive": "UAV_Acoustic_Dataset_v1.1.0_Data_and_Experiments_compressed.zip",
+  "bytes": 20351796153,
+  "sha256": "938de69c4b3631b70519e3f2a759f7161f781d5022a11c1c33be8836532648df",
+  "md5": "851a040d0eecb98c984a09555938f9a3",
+  "compression": "ZIP DEFLATE level 1, lossless",
+  "uncompressed_intermediate": "UAV_Acoustic_Dataset_v1.1.0_Data_and_Experiments.zip"
+}

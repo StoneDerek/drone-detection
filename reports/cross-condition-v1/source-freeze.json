@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "git_blob_sha1": "8d9306ea08ab9d14f1ff093bc35ef7af525914ea",
+      "name": "Dataset_Description.xlsx",
+      "size": 159603
+    },
+    {
+      "git_blob_sha1": "901f313a27ef54b68ef69b35e794eb7ae2e817b8",
+      "name": "KFSD_Datasheet.pdf",
+      "size": 88374
+    },
+    {
+      "git_blob_sha1": "3aa80bb00c1591817e13aca800e34f449421f538",
+      "name": "README.md",
+      "size": 3284
+    },
+    {
+      "git_blob_sha1": "de40dc4c65704b6cc96517f247b26c005554d03a",
+      "name": "ZOOM0071_16_16k.wav",
+      "size": 160626
+    },
+    {
+      "git_blob_sha1": "8f86aee4b144091e6bed89d46cabda9c04daca1f",
+      "name": "ZOOM0071_17_16k.wav",
+      "size": 160626
+    },
+    {
+      "git_blob_sha1": "5b7747705e252aa65c9e1202cb4a01eedc9729c4",
+      "name": "ZOOM0071_18_16k.wav",
+      "size": 157654
+    },
+    {
+      "git_blob_sha1": "8bab3f722d7f0ac12ff15c9f84a0138260a95641",
+      "name": "ZOOM0071_19_16k.wav",
+      "size": 160626
+    },
+    {
+      "git_blob_sha1": "1501878cfbbdc6cc77650d644547d14f77932197",
+      "name": "ZOOM0071_20_16k.wav",
+      "size": 160626
+    }
+  ],
+  "legacy_panel_sha256": "8f94ded9811e97df9bcf4ffa301c84e8bdc6c8c5cdbf81ef46f733c46d72ca1f",
+  "parent_plan_sha256": "7dcb11ad3be30e2fe0fc62152ffb7c78c7f192ef0dd2713f5f8830cdd78aa431",
+  "repository": "SCES-Makerspace-Lab/Kenya-Forest-Sounds-Dataset",
+  "revision": "d451f19df9c6aaf4acf1758b247a6209a0d8406e",
+  "scope": "All five primary-label Drone clips, one apparent original ZOOM0071 source. Freeze metadata and bytes before scores; human label is clip presence, not audible boundaries or negative truth."
+}

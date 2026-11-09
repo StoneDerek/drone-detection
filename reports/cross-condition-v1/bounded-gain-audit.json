@@ -1,0 +1,185 @@
+{
+  "rows": [
+    {
+      "both_above_silence_guard": true,
+      "id": "fpv-fpv5-fpv_53_1",
+      "original_raw_rms": 0.04447447386087049,
+      "post_bounded_rms_original_and_quiet": [
+        0.050000000241159116,
+        0.050000000241159116
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "fpv-fpv5-fpv_53_1",
+      "original_raw_rms": 0.015423865557327545,
+      "post_bounded_rms_original_and_quiet": [
+        0.04999999992637139,
+        0.038559663860166786
+      ],
+      "start_sample": 360000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "fpv-no_drone-ambient_kiili_3",
+      "original_raw_rms": 0.04782442346318449,
+      "post_bounded_rms_original_and_quiet": [
+        0.049999997640165786,
+        0.049999997640165786
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "fpv-no_drone-ambient_kiili_3",
+      "original_raw_rms": 0.005168625742856071,
+      "post_bounded_rms_original_and_quiet": [
+        0.04999999780889879,
+        0.012921564352859221
+      ],
+      "start_sample": 2960000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "fpv-no_drone-grass_trimmer_1",
+      "original_raw_rms": 0.006503016047061129,
+      "post_bounded_rms_original_and_quiet": [
+        0.05000000125937434,
+        0.016257540111099773
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "fpv-no_drone-grass_trimmer_1",
+      "original_raw_rms": 0.012100804942755292,
+      "post_bounded_rms_original_and_quiet": [
+        0.05000000056265985,
+        0.030252012362330435
+      ],
+      "start_sample": 392000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_16_16k",
+      "original_raw_rms": 0.00474059434475076,
+      "post_bounded_rms_original_and_quiet": [
+        0.04740594344750759,
+        0.011851485861876898
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_16_16k",
+      "original_raw_rms": 0.003803473486301576,
+      "post_bounded_rms_original_and_quiet": [
+        0.038034734863015764,
+        0.009508683715753941
+      ],
+      "start_sample": 32000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_17_16k",
+      "original_raw_rms": 0.006290339962499445,
+      "post_bounded_rms_original_and_quiet": [
+        0.05000000096441525,
+        0.015725849906248614
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_17_16k",
+      "original_raw_rms": 0.007980987774715917,
+      "post_bounded_rms_original_and_quiet": [
+        0.05000000063008675,
+        0.01995246943678979
+      ],
+      "start_sample": 32000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_18_16k",
+      "original_raw_rms": 0.008063164201200042,
+      "post_bounded_rms_original_and_quiet": [
+        0.04999999821008027,
+        0.020157910503000104
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_18_16k",
+      "original_raw_rms": 0.005324141686846325,
+      "post_bounded_rms_original_and_quiet": [
+        0.04999999850449651,
+        0.013310354217115811
+      ],
+      "start_sample": 24000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_19_16k",
+      "original_raw_rms": 0.0031144211849012354,
+      "post_bounded_rms_original_and_quiet": [
+        0.031144211849012355,
+        0.007786052962253089
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_19_16k",
+      "original_raw_rms": 0.0025953261826138444,
+      "post_bounded_rms_original_and_quiet": [
+        0.025953261826138444,
+        0.006488315456534611
+      ],
+      "start_sample": 32000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_20_16k",
+      "original_raw_rms": 0.0020985210031899053,
+      "post_bounded_rms_original_and_quiet": [
+        0.020985210031899054,
+        0.005246302507974763
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "kenya-ZOOM0071_20_16k",
+      "original_raw_rms": 0.0025553659583906923,
+      "post_bounded_rms_original_and_quiet": [
+        0.025553659583906922,
+        0.0063884148959767306
+      ],
+      "start_sample": 32000
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "audio/drone/drone_0078.wav",
+      "original_raw_rms": 0.00458597846206161,
+      "post_bounded_rms_original_and_quiet": [
+        0.045859784606460216,
+        0.011464946151615054
+      ],
+      "start_sample": 0
+    },
+    {
+      "both_above_silence_guard": true,
+      "id": "audio/background/background_0201.wav",
+      "original_raw_rms": 0.008191373621033027,
+      "post_bounded_rms_original_and_quiet": [
+        0.05000000084573845,
+        0.020478434063376457
+      ],
+      "start_sample": 0
+    }
+  ],
+  "scope": "Follow-up arithmetic audit on the18 consumed fixed probe contexts; no new model inference. Script expression: normalize_context_gain(wave*g,cfg) withg in[1,.25]."
+}

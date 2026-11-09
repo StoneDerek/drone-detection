@@ -1,0 +1,13 @@
+{
+  "conservative_acquisition_groups": 3,
+  "cross_corpus_whole_recording_matches": [],
+  "grouping_amendment_sha256": "8391de5537e91b3326846dc43925d0785c8b916e3d20cab2cbc90cba029341b3",
+  "limits": "Whole-recording fingerprints do not rule out every excerpt or lossy derivative. Capture groups do not represent independent sites or hardware.",
+  "original_member_sha256_and_crc_checked": true,
+  "plan_sha256": "00ffa1da899a556f882f71922cf7b711c4c5259c7082ea4cfce8a251c7d8b02f",
+  "recordings": 273,
+  "retained_bytes": 564481207,
+  "retained_pcm_bit_exact": true,
+  "seconds": 25996.330666666665,
+  "whole_archive_checksum_verified": false
+}

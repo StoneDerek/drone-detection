@@ -45,6 +45,13 @@ cross-source reliability or that harmonic motion was learned. The
 [current priorities](docs/current-research-priorities.md) preserve the user's
 request to understand the relevant distinctions before adding richer inputs.
 
+The [cross-condition checks](reports/cross-condition-v1/RESULTS.md) carry those
+same twelve packages into other real recordings without refitting. They retain
+positive-only human-labelled Kenya clips, explicit field/replay backgrounds from
+a separate controlled source, and every source's false positives. An exact
+frequency-contribution account shows why the matched non-neural control's strong
+within-session distinction does not carry over to FPV recordings.
+
 The [model lab](reports/spectral-lab-v1/RESULTS.md) compares trained spectrogram
 CNNs, a fully non-neural SVM, and the existing YAMNet/logistic controls. It shows
 the input beside genuine Grad-CAM, with context/layer/class selection, frequency

@@ -1,0 +1,228 @@
+{
+  "models": {
+    "peak-logistic": {
+      "by_source": {
+        "kenya-forest-human-drone": {
+          "conservative_groups": 1,
+          "insufficient_full_context_files": 0,
+          "max_score_auc": null,
+          "negative_files": 0,
+          "negative_files_classified_positive": 0,
+          "positive_files": 5,
+          "positive_files_detected": 0,
+          "recordings": 5,
+          "sampled_contexts": 44,
+          "scope": "Recording-bag publisher labels. Sampled seconds are not event truth or independent trials.",
+          "silence_guard_contexts": 0
+        }
+      },
+      "recordings": [
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_16_16k",
+          "label": "drone",
+          "max_score": 0.09340036766795141,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_17_16k",
+          "label": "drone",
+          "max_score": 0.06875276852768196,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_18_16k",
+          "label": "drone",
+          "max_score": 0.015690458669048987,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 8,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_19_16k",
+          "label": "drone",
+          "max_score": 0.42304000408645615,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_20_16k",
+          "label": "drone",
+          "max_score": 0.00012339854684688007,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        }
+      ]
+    },
+    "peak-seed42": {
+      "by_source": {
+        "kenya-forest-human-drone": {
+          "conservative_groups": 1,
+          "insufficient_full_context_files": 0,
+          "max_score_auc": null,
+          "negative_files": 0,
+          "negative_files_classified_positive": 0,
+          "positive_files": 5,
+          "positive_files_detected": 1,
+          "recordings": 5,
+          "sampled_contexts": 44,
+          "scope": "Recording-bag publisher labels. Sampled seconds are not event truth or independent trials.",
+          "silence_guard_contexts": 0
+        }
+      },
+      "recordings": [
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_16_16k",
+          "label": "drone",
+          "max_score": 0.35803407430648804,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_17_16k",
+          "label": "drone",
+          "max_score": 0.9986377358436584,
+          "positive_context_fraction": 0.8888888888888888,
+          "predicted": 1,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_18_16k",
+          "label": "drone",
+          "max_score": 0.38432443141937256,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 8,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_19_16k",
+          "label": "drone",
+          "max_score": 0.12995196878910065,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_20_16k",
+          "label": "drone",
+          "max_score": 0.005113841034471989,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        }
+      ]
+    },
+    "peak-seed7": {
+      "by_source": {
+        "kenya-forest-human-drone": {
+          "conservative_groups": 1,
+          "insufficient_full_context_files": 0,
+          "max_score_auc": null,
+          "negative_files": 0,
+          "negative_files_classified_positive": 0,
+          "positive_files": 5,
+          "positive_files_detected": 3,
+          "recordings": 5,
+          "sampled_contexts": 44,
+          "scope": "Recording-bag publisher labels. Sampled seconds are not event truth or independent trials.",
+          "silence_guard_contexts": 0
+        }
+      },
+      "recordings": [
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_16_16k",
+          "label": "drone",
+          "max_score": 0.8563603758811951,
+          "positive_context_fraction": 0.3333333333333333,
+          "predicted": 1,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_17_16k",
+          "label": "drone",
+          "max_score": 0.9999099969863892,
+          "positive_context_fraction": 0.8888888888888888,
+          "predicted": 1,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_18_16k",
+          "label": "drone",
+          "max_score": 0.506567120552063,
+          "positive_context_fraction": 0.125,
+          "predicted": 1,
+          "sampled_contexts": 8,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_19_16k",
+          "label": "drone",
+          "max_score": 0.23097923398017883,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        },
+        {
+          "group_id": "ec1cf5b57617f8d1dc53",
+          "id": "kenya-ZOOM0071_20_16k",
+          "label": "drone",
+          "max_score": 0.0011118327965959907,
+          "positive_context_fraction": 0.0,
+          "predicted": 0,
+          "sampled_contexts": 9,
+          "silent_contexts": 0,
+          "source": "kenya-forest-human-drone"
+        }
+      ]
+    }
+  },
+  "rule": "peak",
+  "seconds": 3.0063140649999696
+}

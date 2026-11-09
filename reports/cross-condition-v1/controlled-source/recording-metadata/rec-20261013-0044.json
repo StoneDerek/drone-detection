@@ -1,0 +1,211 @@
+{
+  "identification": {
+    "schema_name": "uav-acoustic-recording-metadata",
+    "schema_version": "1.1.0",
+    "dataset_version": "1.1.0",
+    "recording_id": "rec-20261013-0044",
+    "session_id": "ses-20261013-002",
+    "segment_id": "source"
+  },
+  "provenance": {
+    "origin": "controlled_replay",
+    "processing_level": "raw_converted_with_documented_tail_trim",
+    "original_relative_directory": "02_原始数据/legacy_layout/负样本 10月13日/replayed_non_uav/mechanical_fan/replay__fsd50k-395734",
+    "source_dataset": "FSD50K",
+    "source_recording_id": "395734",
+    "processing_software_version": "final-analysis-builder-1.1.0"
+  },
+  "acquisition": {
+    "date": "2026-10-13",
+    "start_time": null,
+    "location_public": "Nanjing, Jiangsu, China",
+    "environment": {
+      "scene_type": "replayed_mechanical_fan",
+      "weather": null,
+      "wind_speed_m_s": null,
+      "temperature_c": null,
+      "notes_zh": "扬声器回放；FSD50K 395734; CC0 1.0; Extractor Fan.wav"
+    },
+    "platform": {
+      "uav_manufacturer": null,
+      "uav_model": null,
+      "flight_state": "not_applicable"
+    },
+    "array": {
+      "array_id": "array-01",
+      "array_model": "SMD-CR16",
+      "geometry_version": "cross16-paper-42p5mm-v1",
+      "channel_count": 16,
+      "height_above_ground_m": 0.25
+    },
+    "audio": {
+      "sample_rate_hz": 48000,
+      "bit_depth": 16,
+      "encoding": "pcm_s16",
+      "endianness": "little",
+      "duration_seconds": 17.834667
+    }
+  },
+  "experimental_design": {
+    "design_scope": "controlled_replay_negative_control",
+    "environment_grid_id": null,
+    "acquisition_batch_id": "batch-20261013",
+    "array_position_label": null,
+    "nominal_condition_id": null,
+    "observation_role": "negative_control",
+    "independent_acquisition_index": null,
+    "independent_acquisition_count": null,
+    "is_duplicate_file": false,
+    "split_group_id": "replay-category-mechanical_fan"
+  },
+  "audio_files": [
+    {
+      "channel_index": 0,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-00.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "afea98b6a026c11c1e4cdf578db525a4e78e10c9e65abf0f3474ca24e7b21f38"
+    },
+    {
+      "channel_index": 1,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-01.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "9d80ae730be29bd41c2bd6f9d40ebef5bc6572712b2643a3deba5e1b6786812a"
+    },
+    {
+      "channel_index": 2,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-02.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "85d9de30bb720fbcb86faffe52d83bc95e06a91154e8892faba6ab5d70084605"
+    },
+    {
+      "channel_index": 3,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-03.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "e3819efbd2df2b6e4942c576ebf9a98129a2a7c059a2f901fd6336378fc5cd38"
+    },
+    {
+      "channel_index": 4,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-04.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "d0d48b98d5ce126e45d630e4abd3f050aa60ba5e66ad95ed5c78e5cb97144220"
+    },
+    {
+      "channel_index": 5,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-05.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "cf25a0af20f4e983294ae21c173a042bced71e15c2023508b5d44e48e949cb1a"
+    },
+    {
+      "channel_index": 6,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-06.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "207ae1274cf9aea3dfbb245db5b264bf7513658fef7f285da65a7556e38dc568"
+    },
+    {
+      "channel_index": 7,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-07.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "aa4cfb4dfe6e0e925d41a16bcf7247764bb45f5505c2d7d8e551ea7d245fa15d"
+    },
+    {
+      "channel_index": 8,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-08.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "333a65ac482c1ef47daf7110360541f0c5194dab71bba7f2b7afaa33820dc80d"
+    },
+    {
+      "channel_index": 9,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-09.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "95933de6b0c27f7ae1fc8675eb496fe3306fb2fc616ce4851368aabcf219e0e0"
+    },
+    {
+      "channel_index": 10,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-10.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "be6912002ccf558ab986024fb90f532ac500edc07649976bf4907cb265bb371d"
+    },
+    {
+      "channel_index": 11,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-11.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "597a28aa0914f661fc8d03e543c1e277bf98c352be04106117ca2a5b6a1a8ebd"
+    },
+    {
+      "channel_index": 12,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-12.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "4909684d5b2f45788645ddddc1ce33d3c40eb1592d0da4eea939a2920c6de115"
+    },
+    {
+      "channel_index": 13,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-13.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "cc361f77e89c932baa5797ff5e27d6f9546310d09f485e4cedbb10405ed30840"
+    },
+    {
+      "channel_index": 14,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-14.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "3dc124d3a3416b789ed5e50d87e92b7876da5598373d719e36dd6e373dda3618"
+    },
+    {
+      "channel_index": 15,
+      "relative_path": "data/replayed_non_uav/ses-20261013-002/rec-20261013-0044/rec-20261013-0044__ch-15.wav",
+      "sample_count": 856064,
+      "file_size_bytes": 1712172,
+      "sha256": "20a04b4587f2691cea8f066cbfa225477fb3e4356390f67757e170a4cb7156b8"
+    }
+  ],
+  "target": {
+    "present": false,
+    "count": 0,
+    "events": []
+  },
+  "spatial": {
+    "coordinate_system": "array_centered_right_handed_cartesian",
+    "geometry_reference": "metadata/array_geometry.csv#cross16-paper-42p5mm-v1",
+    "target_position_m": null,
+    "horizontal_distance_m": null,
+    "radial_distance_m": null,
+    "azimuth_deg": null,
+    "elevation_deg": null,
+    "label_source": "not_applicable"
+  },
+  "quality_control": {
+    "status": "pass",
+    "channel_set_complete": true,
+    "equal_sample_count": true,
+    "clipping_fraction_max": 0.0,
+    "silent_channels": [],
+    "synchronization_checked": false,
+    "max_sync_error_samples": null,
+    "warnings": [
+      "Recorder stop-buffer tails were trimmed to the 16-channel common interval; ch-00:2048 samples",
+      "Manual privacy review is required before public release."
+    ],
+    "reviewed_by": "final-analysis-builder",
+    "review_date": "2026-10-13"
+  },
+  "rights": {
+    "access_level": "open",
+    "license_spdx": "CC-BY-4.0",
+    "citation_required": true,
+    "ethical_or_privacy_notes": "Dataset license approved by the owner on 23 October 2026: CC BY 4.0. Field background and controlled-replay recordings are identified separately; replay source provenance is retained."
+  }
+}

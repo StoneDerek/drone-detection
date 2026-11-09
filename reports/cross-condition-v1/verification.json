@@ -1,0 +1,2363 @@
+{
+  "code_sha256": "1b1c54245d9cb7c3a772f78650deb63cd51c5ceabe9097d7e9b2cc64cd9ddf70",
+  "maximum_portable_error": 4.112720489501953e-06,
+  "passed": true,
+  "portable_real_input_checks": [
+    {
+      "error": 0.0,
+      "id": "batear-20230701_054200",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.980232238769531e-07,
+      "id": "batear-20230701_054200",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "batear-20230701_054200",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4210379847301474e-55,
+      "id": "batear-20230701_054200",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 1.7881393432617188e-07,
+      "id": "batear-20230701_054200",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 1.825392246246338e-07,
+      "id": "batear-20230701_054200",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 1.6913589181052176e-51,
+      "id": "batear-20260415_192501",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "batear-20260415_192501",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "batear-20260415_192501",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 8.809142651444724e-20,
+      "id": "batear-20260415_192501",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 4.172325134277344e-07,
+      "id": "batear-20260415_192501",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 7.152557373046875e-07,
+      "id": "batear-20260415_192501",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 3.049318610115481e-19,
+      "id": "d3-0051e42516b62b4e",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0051e42516b62b4e",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "d3-0051e42516b62b4e",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0051e42516b62b4e",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 6.05359673500061e-09,
+      "id": "d3-0051e42516b62b4e",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 1.6298145055770874e-09,
+      "id": "d3-0051e42516b62b4e",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 3.2311742677852644e-25,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.0579824447631836e-06,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 3.2782554626464844e-07,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 7.674038885990003e-27,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.1175870895385742e-07,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.341104507446289e-07,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "ddl-290321-T004-10",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "ddl-290321-T004-10",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1175870895385742e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1102230246251565e-15,
+      "id": "ddl-290321-T004-10",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "ddl-290321-T004-10",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "ddl-290321-T004-10",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 3.049318610115481e-19,
+      "id": "esc10-1-100032-A-0",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "esc10-1-100032-A-0",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 4.440892098500626e-16,
+      "id": "esc10-1-100032-A-0",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 1.5265566588595902e-16,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 5.551115123125783e-16,
+      "id": "svanstrom-DRONE_001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.8477439880371094e-06,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.6635825634002686e-07,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 5.548333335881197e-36,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 6.258487701416016e-07,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 8.195638656616211e-07,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 7.450580596923828e-08,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 1.2218952178955078e-06,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 2.220446049250313e-16,
+      "id": "batear-20230701_054200",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "batear-20230701_054200",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "batear-20230701_054200",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 5.273559366969494e-16,
+      "id": "batear-20230701_054200",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 6.51925802230835e-09,
+      "id": "batear-20230701_054200",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 1.6763806343078613e-08,
+      "id": "batear-20230701_054200",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 1.1102230246251565e-16,
+      "id": "batear-20260415_192501",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 4.6566128730773926e-09,
+      "id": "batear-20260415_192501",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "batear-20260415_192501",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.0842021724855044e-19,
+      "id": "batear-20260415_192501",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 8.195638656616211e-08,
+      "id": "batear-20260415_192501",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 7.450580596923828e-09,
+      "id": "batear-20260415_192501",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 2.42861286636753e-17,
+      "id": "d3-0051e42516b62b4e",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "d3-0051e42516b62b4e",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0051e42516b62b4e",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.3877787807814457e-17,
+      "id": "d3-0051e42516b62b4e",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 7.450580596923828e-09,
+      "id": "d3-0051e42516b62b4e",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 5.960464477539063e-08,
+      "id": "d3-0051e42516b62b4e",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.7881393432617188e-07,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.7881393432617188e-07,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 8.673617379884035e-18,
+      "id": "ddl-290321-T004-10",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1175870895385742e-07,
+      "id": "ddl-290321-T004-10",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 4.163336342344337e-17,
+      "id": "ddl-290321-T004-10",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 2.421438694000244e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 7.450580596923828e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 2.42861286636753e-17,
+      "id": "esc10-1-100032-A-0",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "esc10-1-100032-A-0",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 1.7881393432617188e-07,
+      "id": "esc10-1-100032-A-0",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 5.349417651202988e-39,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 5.960464477539063e-08,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.8243672324761902e-35,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 1.043081283569336e-07,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 1.3969838619232178e-09,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 1.1102230246251565e-16,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 3.3306690738754696e-16,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 2.682209014892578e-07,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 1.4901161193847656e-07,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 8.131516293641283e-19,
+      "id": "batear-20230701_054200",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.7508864402770996e-07,
+      "id": "batear-20230701_054200",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.7881393432617188e-06,
+      "id": "batear-20230701_054200",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.752857078576476e-21,
+      "id": "batear-20230701_054200",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 2.546585164964199e-10,
+      "id": "batear-20230701_054200",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 6.984919309616089e-10,
+      "id": "batear-20230701_054200",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 2.5229008682867344e-23,
+      "id": "batear-20260415_192501",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 5.960464477539063e-08,
+      "id": "batear-20260415_192501",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "batear-20260415_192501",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.0727498569047078e-24,
+      "id": "batear-20260415_192501",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 5.066394805908203e-07,
+      "id": "batear-20260415_192501",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 1.5273690223693848e-07,
+      "id": "batear-20260415_192501",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 1.8211208365967457e-20,
+      "id": "d3-0051e42516b62b4e",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0051e42516b62b4e",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "d3-0051e42516b62b4e",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 8.364450354136216e-21,
+      "id": "d3-0051e42516b62b4e",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 1.3387762010097504e-09,
+      "id": "d3-0051e42516b62b4e",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0051e42516b62b4e",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.5133991837501526e-09,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 6.402842700481415e-10,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 3.3881317890172014e-21,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 3.3760443329811096e-09,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 6.402842700481415e-10,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 8.131516293641283e-19,
+      "id": "ddl-290321-T004-10",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.601874828338623e-07,
+      "id": "ddl-290321-T004-10",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.0057740190981832e-18,
+      "id": "ddl-290321-T004-10",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 3.3527612686157227e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 5.140900611877441e-07,
+      "id": "ddl-290321-T004-10",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.8211208365967457e-20,
+      "id": "esc10-1-100032-A-0",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "esc10-1-100032-A-0",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 3.474158572722716e-22,
+      "id": "esc10-1-100032-A-0",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 7.623296525288703e-21,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.0617077350616455e-07,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 4.917383193969727e-07,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 7.610061635487855e-23,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 2.980232238769531e-07,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 8.940696716308594e-08,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.249000902703301e-16,
+      "id": "svanstrom-DRONE_001",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 5.960464477539063e-08,
+      "id": "svanstrom-DRONE_001",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 3.3306690738754696e-16,
+      "id": "svanstrom-DRONE_001",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 6.556510925292969e-07,
+      "id": "svanstrom-DRONE_001",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 7.318364664277155e-19,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.0477378964424133e-08,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 3.3881317890172014e-21,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 1.2479722499847412e-07,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 8.940696716308594e-07,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 1.3877787807814457e-16,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.384185791015625e-07,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.474514954580286e-17,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "peak-logistic",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 4.190951585769653e-09,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "peak-seed42",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 9.313225746154785e-10,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "peak-seed7",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 8.651638422052036e-35,
+      "id": "batear-20230701_054200",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.5832483768463135e-08,
+      "id": "batear-20230701_054200",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "batear-20230701_054200",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.291122989171076e-43,
+      "id": "batear-20230701_054200",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 4.842877388000488e-08,
+      "id": "batear-20230701_054200",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 1.9669532775878906e-06,
+      "id": "batear-20230701_054200",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 480000
+    },
+    {
+      "error": 2.326374403664247e-47,
+      "id": "batear-20260415_192501",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "batear-20260415_192501",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "batear-20260415_192501",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.752857078576476e-21,
+      "id": "batear-20260415_192501",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 0.0,
+      "id": "batear-20260415_192501",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "batear-20260415_192501",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 64000
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0051e42516b62b4e",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "d3-0051e42516b62b4e",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "d3-0051e42516b62b4e",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 6.776263578034403e-21,
+      "id": "d3-0051e42516b62b4e",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 3.4924596548080444e-09,
+      "id": "d3-0051e42516b62b4e",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 9.89530235528946e-10,
+      "id": "d3-0051e42516b62b4e",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 2960000
+    },
+    {
+      "error": 2.68833699079734e-23,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1175870895385742e-07,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 1.2407709188295415e-24,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 7.450580596923828e-08,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 3.5762786865234375e-07,
+      "id": "d3-0377ba0cc2255a43",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.9481757786848908e-19,
+      "id": "ddl-290321-T004-10",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 7.450580596923828e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 3.3527612686157227e-08,
+      "id": "ddl-290321-T004-10",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 7.771561172376096e-16,
+      "id": "ddl-290321-T004-10",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "ddl-290321-T004-10",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "ddl-290321-T004-10",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "esc10-1-100032-A-0",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "esc10-1-100032-A-0",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "esc10-1-100032-A-0",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 32000
+    },
+    {
+      "error": 1.6514567491299204e-15,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.980232238769531e-07,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-BACKGROUND_001",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 1.3877787807814457e-16,
+      "id": "svanstrom-DRONE_001",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 0.0,
+      "id": "svanstrom-DRONE_001",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 72000
+    },
+    {
+      "error": 2.2407861062549856e-38,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 5.4569682106375694e-11,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 4.112720489501953e-06,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 2.8799611595146044e-37,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 8.568167686462402e-08,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 3.91155481338501e-08,
+      "id": "fpv-fpv5-fpv_53_1",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 368000
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "rms-fixed-logistic",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 3.501772880554199e-07,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "rms-fixed-seed42",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 1.3113021850585938e-06,
+      "id": "fpv-no_drone-ambient_1",
+      "model": "rms-fixed-seed7",
+      "phase": "transfer",
+      "start_sample": 104000
+    },
+    {
+      "error": 0.0,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 1.0058283805847168e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 7.748603820800781e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 6.586680409804347e-32,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 4.544854164123535e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 8.940696716308594e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 4.7704895589362195e-18,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "fixed-logistic",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 1.3969838619232178e-09,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "fixed-seed42",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 4.190951585769653e-09,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "fixed-seed7",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 1.9081958235744878e-17,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "fixed-logistic",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 3.026798367500305e-09,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "fixed-seed42",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 1.8917489796876907e-10,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "fixed-seed7",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 6.5052130349130266e-18,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "peak-logistic",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 4.6566128730773926e-09,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "peak-seed42",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 2.3283064365386963e-09,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "peak-seed7",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 9.974659986866641e-18,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "peak-logistic",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 1.4435499906539917e-08,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "peak-seed42",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 8.344650268554688e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "peak-seed7",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 0.0,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "rms-fixed-logistic",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 7.152557373046875e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "rms-fixed-seed42",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 6.332993507385254e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "rms-fixed-seed7",
+      "phase": "kenya",
+      "start_sample": 0
+    },
+    {
+      "error": 1.2874209973206913e-27,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "rms-fixed-logistic",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 1.6298145055770874e-09,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "rms-fixed-seed42",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 2.384185791015625e-07,
+      "id": "kenya-ZOOM0071_16_16k",
+      "model": "rms-fixed-seed7",
+      "phase": "kenya",
+      "start_sample": 32000
+    },
+    {
+      "error": 2.6020852139652106e-18,
+      "id": "rec-20260425-0001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 6.705522537231445e-08,
+      "id": "rec-20260425-0001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.0132789611816406e-06,
+      "id": "rec-20260425-0001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20260425-0001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "rec-20260425-0001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20260425-0001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 1.4365678785432934e-18,
+      "id": "rec-undated-0001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 3.14321368932724e-09,
+      "id": "rec-undated-0001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "rec-undated-0001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 3.049318610115481e-19,
+      "id": "rec-undated-0001",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 7.566995918750763e-10,
+      "id": "rec-undated-0001",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-undated-0001",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 4.172325134277344e-07,
+      "id": "rec-20261013-0006",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 5.364418029785156e-07,
+      "id": "rec-20261013-0006",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 3.120006509907322e-32,
+      "id": "rec-20261013-0006",
+      "model": "exact-rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 1.1920928955078125e-07,
+      "id": "rec-20261013-0006",
+      "model": "exact-rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 2.980232238769531e-07,
+      "id": "rec-20261013-0006",
+      "model": "exact-rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20260425-0001",
+      "model": "fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.1175870895385742e-08,
+      "id": "rec-20260425-0001",
+      "model": "fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "rec-20260425-0001",
+      "model": "fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 4.7704895589362195e-18,
+      "id": "rec-20260425-0001",
+      "model": "fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 4.6566128730773926e-09,
+      "id": "rec-20260425-0001",
+      "model": "fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "rec-20260425-0001",
+      "model": "fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 4.336808689942018e-18,
+      "id": "rec-undated-0001",
+      "model": "fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 3.259629011154175e-09,
+      "id": "rec-undated-0001",
+      "model": "fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 6.51925802230835e-09,
+      "id": "rec-undated-0001",
+      "model": "fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 3.2959746043559335e-17,
+      "id": "rec-undated-0001",
+      "model": "fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 9.313225746154785e-09,
+      "id": "rec-undated-0001",
+      "model": "fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 1.043081283569336e-07,
+      "id": "rec-undated-0001",
+      "model": "fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 2.42861286636753e-17,
+      "id": "rec-20261013-0006",
+      "model": "fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "rec-20261013-0006",
+      "model": "fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 2.0816681711721685e-17,
+      "id": "rec-20261013-0006",
+      "model": "fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20260425-0001",
+      "model": "peak-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 8.731149137020111e-10,
+      "id": "rec-20260425-0001",
+      "model": "peak-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.979060471057892e-08,
+      "id": "rec-20260425-0001",
+      "model": "peak-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 8.673617379884035e-18,
+      "id": "rec-20260425-0001",
+      "model": "peak-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 2.384185791015625e-07,
+      "id": "rec-20260425-0001",
+      "model": "peak-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20260425-0001",
+      "model": "peak-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-undated-0001",
+      "model": "peak-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.5832483768463135e-08,
+      "id": "rec-undated-0001",
+      "model": "peak-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.7462298274040222e-09,
+      "id": "rec-undated-0001",
+      "model": "peak-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.3877787807814457e-17,
+      "id": "rec-undated-0001",
+      "model": "peak-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-undated-0001",
+      "model": "peak-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 1.5425030142068863e-09,
+      "id": "rec-undated-0001",
+      "model": "peak-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 2.0816681711721685e-16,
+      "id": "rec-20261013-0006",
+      "model": "peak-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 7.450580596923828e-08,
+      "id": "rec-20261013-0006",
+      "model": "peak-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.210719347000122e-08,
+      "id": "rec-20261013-0006",
+      "model": "peak-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "peak-logistic",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 8.381903171539307e-09,
+      "id": "rec-20261013-0006",
+      "model": "peak-seed42",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 1.0477378964424133e-09,
+      "id": "rec-20261013-0006",
+      "model": "peak-seed7",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 4.0657581468206416e-19,
+      "id": "rec-20260425-0001",
+      "model": "rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 2.384185791015625e-07,
+      "id": "rec-20260425-0001",
+      "model": "rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "rec-20260425-0001",
+      "model": "rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 2.220446049250313e-16,
+      "id": "rec-20260425-0001",
+      "model": "rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20260425-0001",
+      "model": "rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20260425-0001",
+      "model": "rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1000000
+    },
+    {
+      "error": 2.949029909160572e-17,
+      "id": "rec-undated-0001",
+      "model": "rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 4.470348358154297e-08,
+      "id": "rec-undated-0001",
+      "model": "rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 2.9802322387695312e-08,
+      "id": "rec-undated-0001",
+      "model": "rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 7.806255641895632e-18,
+      "id": "rec-undated-0001",
+      "model": "rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 1.4901161193847656e-08,
+      "id": "rec-undated-0001",
+      "model": "rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 6.146728992462158e-08,
+      "id": "rec-undated-0001",
+      "model": "rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 1992000
+    },
+    {
+      "error": 5.273559366969494e-16,
+      "id": "rec-20261013-0006",
+      "model": "rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 5.960464477539063e-08,
+      "id": "rec-20261013-0006",
+      "model": "rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 0
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "rms-fixed-logistic",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "rms-fixed-seed42",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    },
+    {
+      "error": 0.0,
+      "id": "rec-20261013-0006",
+      "model": "rms-fixed-seed7",
+      "phase": "controlled-source",
+      "start_sample": 280000
+    }
+  ],
+  "reproduced_classifier_recording_outcomes": 11160,
+  "reproduced_legacy_alarm_outcomes": 20,
+  "retained_48000Hz_lossless_pcm_and_publisher_json_checks": 273,
+  "scope": "Software reproducibility on already consumed inputs; these checks add no independent acoustic evidence."
+}

@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "rule": "peak",
+      "sha256": "45a89292b3799f18964a78bca1353c789e3b7e01dd9d2fabd2998f65d9e5083c"
+    },
+    {
+      "rule": "fixed",
+      "sha256": "ddb8050953def1aa53f829251f42e70b3f9aba542ae4e4c15fec840de77172be"
+    },
+    {
+      "rule": "rms-fixed",
+      "sha256": "164f3ba1e41b8133d8b7b5e610f7b923ce5756e06bfc70a7a1d72f15fc5afe45"
+    },
+    {
+      "rule": "exact-rms-fixed",
+      "sha256": "3151431a7d5f44edf286809d0b8fe1bb27992511382c54ad41bb608180c6c3d8"
+    }
+  ],
+  "passed": true,
+  "scope": "Reused earlier fixed source tensors for the non-neural contrast. No new acoustic trials."
+}

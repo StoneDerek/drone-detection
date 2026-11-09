@@ -1,0 +1,7 @@
+{
+  "plan_sha256": "00ffa1da899a556f882f71922cf7b711c4c5259c7082ea4cfce8a251c7d8b02f",
+  "recordings_sha256": "4c31411b96fe90d1d185513c19d5bf45e85b1de71eed3578c7995216a5fb770a",
+  "runner_sha256": "8eefbc1594eb8f095451acad0fd0fd80acf21bc0465660e199689cf19c88c2c9",
+  "scope": "Fresh source at first use, recording-level publisher experimental-design labels; now consumed for future tuning.",
+  "shared_runner_sha256": "9cd132782be1c5d28b0b03bf232cf30ce218319dfed780e0f6a899e6621a88df"
+}

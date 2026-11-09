@@ -1,0 +1,12 @@
+{
+  "archive_md5_verified": false,
+  "completed_recordings": 273,
+  "execution_sources": {
+    "execution-source.tar.gz": "3139a1013584801d49f5eaa99b19b6a52f10e16fbf9c8cf8945237d33f7dbe61",
+    "initial-fetch-source.tar.gz": "9b600fadb3b3d0df5115e6672930df23390ddc24ce4e580631e67b5679afc6a0",
+    "serial-resume-source.tar.gz": "a38fc0b9b5e66cc9ec592d76651961d096bf72b6979f4d5c0b3ca614ccab2231"
+  },
+  "grouping_amendment": "Frozen from publisher session metadata before source first-use. No recordings/models/thresholds selected from outcomes.",
+  "initial_attempt": "Four workers,1MiB ranges; source returnedHTTP429 after201 verified recordings. No model inference had occurred.",
+  "resume": "Preserved verified receipts; used larger4MiB ranges, first one then two workers. Transient server failures honor numericRetry-After with at least60s backoff."
+}
