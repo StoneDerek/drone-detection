@@ -1,0 +1,122 @@
+{
+  "C": 1,
+  "execution_sha256": "605f6b66539a33baae944da6c89f79748b32d60551f750534dec570fdd119d4a",
+  "label_limit": "Drone intervals were manually selected by2 annotators (reported kappa0.5869); background came from unlabelled stretches. Audible onset/offset/absence truth remains unverified.",
+  "protocol_sha256": "990efb226090cbc66a6df9d0f33bdcf5d14676b6a23a118d8955296d13463fe7",
+  "scaler_fit_split": "train",
+  "scope": "Within-one-session feasibility under published labels, not independent-session field validation.",
+  "seed": 42,
+  "splits": {
+    "test": {
+      "publisher_interval_blocks": {
+        "confusion_tn_fp_fn_tp": [
+          3,
+          0,
+          0,
+          10
+        ],
+        "examples": 13,
+        "negative": 3,
+        "positive": 10,
+        "roc_auc": 1.0
+      },
+      "segments": {
+        "confusion_tn_fp_fn_tp": [
+          150,
+          0,
+          491,
+          183
+        ],
+        "examples": 824,
+        "negative": 150,
+        "positive": 674,
+        "roc_auc": 0.8879624134520276
+      }
+    },
+    "train": {
+      "publisher_interval_blocks": {
+        "confusion_tn_fp_fn_tp": [
+          14,
+          0,
+          0,
+          16
+        ],
+        "examples": 30,
+        "negative": 14,
+        "positive": 16,
+        "roc_auc": 1.0
+      },
+      "segments": {
+        "confusion_tn_fp_fn_tp": [
+          700,
+          0,
+          1543,
+          1601
+        ],
+        "examples": 3844,
+        "negative": 700,
+        "positive": 3144,
+        "roc_auc": 0.9473904943656852
+      }
+    },
+    "val": {
+      "publisher_interval_blocks": {
+        "confusion_tn_fp_fn_tp": [
+          3,
+          0,
+          0,
+          9
+        ],
+        "examples": 12,
+        "negative": 3,
+        "positive": 9,
+        "roc_auc": 1.0
+      },
+      "segments": {
+        "confusion_tn_fp_fn_tp": [
+          150,
+          0,
+          480,
+          193
+        ],
+        "examples": 823,
+        "negative": 150,
+        "positive": 673,
+        "roc_auc": 0.9257057949479941
+      }
+    }
+  },
+  "threshold": 0.5,
+  "training_groups": [
+    "background_block_00",
+    "background_block_01",
+    "background_block_02",
+    "background_block_03",
+    "background_block_06",
+    "background_block_07",
+    "background_block_08",
+    "background_block_10",
+    "background_block_11",
+    "background_block_12",
+    "background_block_15",
+    "background_block_16",
+    "background_block_17",
+    "background_block_18",
+    "drone_interval_07",
+    "drone_interval_08",
+    "drone_interval_09",
+    "drone_interval_11",
+    "drone_interval_13",
+    "drone_interval_14",
+    "drone_interval_15",
+    "drone_interval_16",
+    "drone_interval_21",
+    "drone_interval_22",
+    "drone_interval_23",
+    "drone_interval_26",
+    "drone_interval_30",
+    "drone_interval_31",
+    "drone_interval_32",
+    "drone_interval_33"
+  ]
+}

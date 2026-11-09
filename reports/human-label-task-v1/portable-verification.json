@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "absolute_score_error": 0.0,
+      "file": "audio/drone/drone_0614.wav",
+      "split": "train"
+    },
+    {
+      "absolute_score_error": 0.0,
+      "file": "audio/background/background_0001.wav",
+      "split": "train"
+    },
+    {
+      "absolute_score_error": 0.0,
+      "file": "audio/drone/drone_0001.wav",
+      "split": "val"
+    },
+    {
+      "absolute_score_error": 2.168404344971009e-18,
+      "file": "audio/background/background_0251.wav",
+      "split": "val"
+    },
+    {
+      "absolute_score_error": 1.0408340855860843e-17,
+      "file": "audio/drone/drone_0078.wav",
+      "split": "test"
+    },
+    {
+      "absolute_score_error": 0.0,
+      "file": "audio/background/background_0201.wav",
+      "split": "test"
+    }
+  ],
+  "parameters_sha256": "a3056d5bff008a7d752c17a7fa3c44abc7a62941f89a4d6046226ddcb2d247d5",
+  "passed": true
+}

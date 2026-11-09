@@ -1,0 +1,27 @@
+{
+  "decision_threshold": 0.5,
+  "family": "512descriptor MI logistic",
+  "features": {
+    "axis": "linear_filterbank",
+    "dynamic_range_db": 80.0,
+    "f_max": 7600.0,
+    "f_min": 50.0,
+    "gain_max_db": 20.0,
+    "gain_target_rms": 0.05,
+    "hop_seconds": 0.5,
+    "intensity": "log_power",
+    "mel_bins": 256,
+    "min_audio_seconds": 0.25,
+    "n_fft": 4096,
+    "normalize_rms": false,
+    "power_reference": "context_peak",
+    "sample_rate": 16000,
+    "silence_rms": 1e-05,
+    "stft_hop": 256,
+    "window_seconds": 3.0
+  },
+  "input": "1s,256uniform-Hz logpower,47 valid frames,mean/std",
+  "parameter_sha256": "a3056d5bff008a7d752c17a7fa3c44abc7a62941f89a4d6046226ddcb2d247d5",
+  "protocol_sha256": "990efb226090cbc66a6df9d0f33bdcf5d14676b6a23a118d8955296d13463fe7",
+  "scope": "Within-one-session feasibility under published labels, not independent-session field validation."
+}

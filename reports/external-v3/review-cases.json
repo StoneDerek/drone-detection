@@ -1,0 +1,800 @@
+[
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_00-run000.wav",
+    "audio_sha256": "4e35f4fa74ccd722ede2a5739d42b2d9b594b72fc87c25cd53bf758819dc5d41",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 39.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.7685503959655762,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 27.5,
+    "peak_context_start_seconds": 24.5,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_00-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_01-run000.wav",
+    "audio_sha256": "e68b9c6a808ebf26e7b505021948cd433749142f894465dd37171b7e807ac181",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 35.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.49840331077575684,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 4.0,
+    "peak_context_start_seconds": 1.0,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_01-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [
+      [
+        75.5,
+        78.5
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_05-run000.wav",
+    "audio_sha256": "3d3a66e864c261eb5e1a0a8f252de57eb9cd8f00fd4d67ae62f8aa44d702d7a7",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 144.0,
+    "kind": "detected_positive",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.9447252154350281,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 75.0,
+    "peak_context_start_seconds": 72.0,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_05-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_1.wav",
+    "audio_sha256": "c6858b86dd28b49ad598af69295268ef69a2eb9ea86f57e60e0a2de7c7359d3d",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 46.891292517006804,
+    "kind": "false_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.6712363958358765,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 11.5,
+    "peak_context_start_seconds": 8.5,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_5.wav",
+    "audio_sha256": "30e701bfa70d1f5f982fc97a9e31db80bc634b5ee99226fe5cfa4c1aa382baf9",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 277.3449659863946,
+    "kind": "false_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.7465935349464417,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 138.5,
+    "peak_context_start_seconds": 135.5,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_5",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        361.0,
+        363.5
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_kiili_3.wav",
+    "audio_sha256": "bd9835b2258e5487c02f9ebcbbd20027fec11aa3a8ab2fdb3e89845d09f1217e",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 371.069387755102,
+    "kind": "false_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.8848368525505066,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 361.0,
+    "peak_context_start_seconds": 358.0,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_kiili_3",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        93.5,
+        97.5
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_2.wav",
+    "audio_sha256": "8c03e927fa85e3a33f651de148d6ca20853e3e0c4f8bc7cfee2e7dddf7e4bfca",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 191.39950113378686,
+    "kind": "detected_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.9180783033370972,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 93.5,
+    "peak_context_start_seconds": 90.5,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_2",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_1.wav",
+    "audio_sha256": "de4b1c8525d31fa7474bafdf4f27cc33598794c2bcc727a71f0d577b891a9942",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6528226184320449,
+      "on_hits": 2,
+      "on_threshold": 0.8704301579093933
+    },
+    "duration_seconds": 14.250362811791383,
+    "kind": "correct_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.1219508945941925,
+    "model": "coherent-frequency-seed42",
+    "peak_context_end_seconds": 14.250375,
+    "peak_context_start_seconds": 11.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_01-run000.wav",
+    "audio_sha256": "e68b9c6a808ebf26e7b505021948cd433749142f894465dd37171b7e807ac181",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6494085686874389,
+      "on_hits": 2,
+      "on_threshold": 0.8658780915832519
+    },
+    "duration_seconds": 35.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.8560590147972107,
+    "model": "coherent-frequency-seed7",
+    "peak_context_end_seconds": 4.0,
+    "peak_context_start_seconds": 1.0,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_01-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_04-run000.wav",
+    "audio_sha256": "c9840478441fb37cce0aa353bebe27672b6aa115d09850ed570b6c0c208004a9",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6494085686874389,
+      "on_hits": 2,
+      "on_threshold": 0.8658780915832519
+    },
+    "duration_seconds": 8.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.882283091545105,
+    "model": "coherent-frequency-seed7",
+    "peak_context_end_seconds": 4.5,
+    "peak_context_start_seconds": 1.5,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_04-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [
+      [
+        3.5,
+        6.5
+      ],
+      [
+        28.5,
+        34.5
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_00-run000.wav",
+    "audio_sha256": "4e35f4fa74ccd722ede2a5739d42b2d9b594b72fc87c25cd53bf758819dc5d41",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6494085686874389,
+      "on_hits": 2,
+      "on_threshold": 0.8658780915832519
+    },
+    "duration_seconds": 39.0,
+    "kind": "detected_positive",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.9734044671058655,
+    "model": "coherent-frequency-seed7",
+    "peak_context_end_seconds": 28.5,
+    "peak_context_start_seconds": 25.5,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_00-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_1.wav",
+    "audio_sha256": "c6858b86dd28b49ad598af69295268ef69a2eb9ea86f57e60e0a2de7c7359d3d",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6494085686874389,
+      "on_hits": 2,
+      "on_threshold": 0.8658780915832519
+    },
+    "duration_seconds": 46.891292517006804,
+    "kind": "false_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.2896420955657959,
+    "model": "coherent-frequency-seed7",
+    "peak_context_end_seconds": 31.0,
+    "peak_context_start_seconds": 28.0,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_2.wav",
+    "audio_sha256": "8c03e927fa85e3a33f651de148d6ca20853e3e0c4f8bc7cfee2e7dddf7e4bfca",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6494085686874389,
+      "on_hits": 2,
+      "on_threshold": 0.8658780915832519
+    },
+    "duration_seconds": 191.39950113378686,
+    "kind": "false_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.7068118453025818,
+    "model": "coherent-frequency-seed7",
+    "peak_context_end_seconds": 93.5,
+    "peak_context_start_seconds": 90.5,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_2",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_1.wav",
+    "audio_sha256": "de4b1c8525d31fa7474bafdf4f27cc33598794c2bcc727a71f0d577b891a9942",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.6494085686874389,
+      "on_hits": 2,
+      "on_threshold": 0.8658780915832519
+    },
+    "duration_seconds": 14.250362811791383,
+    "kind": "correct_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.05244264379143715,
+    "model": "coherent-frequency-seed7",
+    "peak_context_end_seconds": 14.250375,
+    "peak_context_start_seconds": 11.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_09-run000.wav",
+    "audio_sha256": "763e023c25bb0e2a2cd30f4678659455e7d3f684e2b6a03a00af8f73475c600c",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 7.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.3400487628859672,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 7.0,
+    "peak_context_start_seconds": 4.0,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_09-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_14-run000.wav",
+    "audio_sha256": "4069eafeaa497d76092db6f2c8595cbb134728ab12491d096bf989e39f4f279c",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 17.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.2961288301210102,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 3.5,
+    "peak_context_start_seconds": 0.5,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_14-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [
+      [
+        4.0,
+        37.0
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_00-run000.wav",
+    "audio_sha256": "4e35f4fa74ccd722ede2a5739d42b2d9b594b72fc87c25cd53bf758819dc5d41",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 39.0,
+    "kind": "detected_positive",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.7470662658600165,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 28.0,
+    "peak_context_start_seconds": 25.0,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_00-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_1.wav",
+    "audio_sha256": "c6858b86dd28b49ad598af69295268ef69a2eb9ea86f57e60e0a2de7c7359d3d",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 46.891292517006804,
+    "kind": "false_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.339397169169691,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 43.0,
+    "peak_context_start_seconds": 40.0,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_2.wav",
+    "audio_sha256": "8c03e927fa85e3a33f651de148d6ca20853e3e0c4f8bc7cfee2e7dddf7e4bfca",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 191.39950113378686,
+    "kind": "false_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.41730074966017355,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 95.0,
+    "peak_context_start_seconds": 92.0,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_2",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        16.0,
+        19.0
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_4.wav",
+    "audio_sha256": "4af4b14514211cf6474a9ab176f623a715b117940a8783a8728be8084bbf5c97",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 127.34113378684808,
+    "kind": "false_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.519364899048908,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 15.5,
+    "peak_context_start_seconds": 12.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_4",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        5.5,
+        11.0
+      ],
+      [
+        12.5,
+        19.0
+      ],
+      [
+        123.0,
+        127.5
+      ],
+      [
+        214.5,
+        217.5
+      ],
+      [
+        219.0,
+        221.0
+      ],
+      [
+        325.0,
+        327.0
+      ],
+      [
+        332.5,
+        339.0
+      ],
+      [
+        404.5,
+        415.0
+      ],
+      [
+        492.5,
+        495.5
+      ],
+      [
+        503.5,
+        506.0
+      ],
+      [
+        570.5,
+        575.5
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_kiili_2.wav",
+    "audio_sha256": "3d1f2bf96926ddc03c3ed76e108bf152f1cae6e99a107e095b29f3564e41c387",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 582.222947845805,
+    "kind": "false_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.6978316611759681,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 324.5,
+    "peak_context_start_seconds": 321.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_kiili_2",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        14.0,
+        30.0
+      ],
+      [
+        53.0,
+        58.5
+      ],
+      [
+        69.0,
+        72.5
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv7/fpv_72_5.wav",
+    "audio_sha256": "e18c39c80acf1197efe8ef1da96394654b05a87a7c65df44d923a2a650f59b5c",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 89.20358276643991,
+    "kind": "detected_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.5861179911120628,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 25.0,
+    "peak_context_start_seconds": 22.0,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv7-fpv_72_5",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_1.wav",
+    "audio_sha256": "de4b1c8525d31fa7474bafdf4f27cc33598794c2bcc727a71f0d577b891a9942",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.3775990136823287,
+      "on_hits": 2,
+      "on_threshold": 0.5034653515764382
+    },
+    "duration_seconds": 14.250362811791383,
+    "kind": "correct_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.17555152140306088,
+    "model": "svm-linear-fft4096",
+    "peak_context_end_seconds": 10.5,
+    "peak_context_start_seconds": 7.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_00-run000.wav",
+    "audio_sha256": "4e35f4fa74ccd722ede2a5739d42b2d9b594b72fc87c25cd53bf758819dc5d41",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 39.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.23171961907250616,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 8.0,
+    "peak_context_start_seconds": 5.0,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_00-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_01-run000.wav",
+    "audio_sha256": "e68b9c6a808ebf26e7b505021948cd433749142f894465dd37171b7e807ac181",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 35.0,
+    "kind": "false_negative",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.47497672535908964,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 19.5,
+    "peak_context_start_seconds": 16.5,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_01-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [
+      [
+        4.5,
+        6.5
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/itu-reconstructed/drone_interval_04-run000.wav",
+    "audio_sha256": "c9840478441fb37cce0aa353bebe27672b6aa115d09850ed570b6c0c208004a9",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 8.0,
+    "kind": "detected_positive",
+    "label_evidence": "Two-annotator manual drone interval selection, reported kappa0.5868742262; background from unlabelled stretches. Individual disagreements unavailable. Not independently verified temporal audibility.",
+    "max_score": 0.9770122637884289,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 5.0,
+    "peak_context_start_seconds": 2.0,
+    "publisher_label": "drone",
+    "recording_id": "itu-drone_interval_04-run000",
+    "source": "itu-aris"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv7/fpv_72_1.wav",
+    "audio_sha256": "15a3d397d74646652de62354ce762b8aa3019dc5b1c7ef4834a934fc0c52445a",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 5.0,
+    "kind": "false_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.03109283026562272,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 5.0,
+    "peak_context_start_seconds": 2.0,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv7-fpv_72_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        3.5,
+        8.0
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_2.wav",
+    "audio_sha256": "92e7be986300c38df42dfd126bbf2c57a67b6bce3c751ca1a9a329d28adcedd1",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 23.707573696145126,
+    "kind": "false_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.9475989482797574,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 4.5,
+    "peak_context_start_seconds": 1.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_2",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        28.0,
+        29.5
+      ],
+      [
+        206.0,
+        211.0
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_kiili_1.wav",
+    "audio_sha256": "b9edbc4177a56dec0f1c1ec954e49e60142eecc0269493682e4b8789b1f00d31",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 224.89977324263037,
+    "kind": "false_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.860652114137365,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 208.5,
+    "peak_context_start_seconds": 205.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_kiili_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [
+      [
+        3.5,
+        46.891292517006804
+      ]
+    ],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/fpv5/fpv_53_1.wav",
+    "audio_sha256": "c6858b86dd28b49ad598af69295268ef69a2eb9ea86f57e60e0a2de7c7359d3d",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 46.891292517006804,
+    "kind": "detected_positive",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.9999997816804097,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 41.5,
+    "peak_context_start_seconds": 38.5,
+    "publisher_label": "drone",
+    "recording_id": "fpv-fpv5-fpv_53_1",
+    "source": "saarmets-fpv"
+  },
+  {
+    "alarms": [],
+    "audibility_judgment": "Not inferred from classifier score or publisher metadata.",
+    "audio_path": "runs/external-v3/downloads/fpv/no_drone/ambient_1.wav",
+    "audio_sha256": "de4b1c8525d31fa7474bafdf4f27cc33598794c2bcc727a71f0d577b891a9942",
+    "decision": {
+      "off_hits": 2,
+      "off_threshold": 0.375,
+      "on_hits": 2,
+      "on_threshold": 0.5
+    },
+    "duration_seconds": 14.250362811791383,
+    "kind": "correct_negative",
+    "label_evidence": "Publisher class folder at pinned revision; no audible boundaries or session documentation supplied.",
+    "max_score": 0.22959409692189223,
+    "model": "yamnet-default",
+    "peak_context_end_seconds": 14.250375,
+    "peak_context_start_seconds": 11.5,
+    "publisher_label": "non_drone",
+    "recording_id": "fpv-no_drone-ambient_1",
+    "source": "saarmets-fpv"
+  }
+]

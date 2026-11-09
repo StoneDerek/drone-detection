@@ -1,0 +1,22 @@
+{
+  "assessment": "Preserve all replay outcomes; additionally report only full-context alarm-eligible recordings. ITU has no eligible continuous negatives, so do not infer a valid continuous-stream FPR from it.",
+  "before_external_scoring": true,
+  "created_utc": "2026-11-09T15:59:09.301656+00:00",
+  "observed_input_facts": {
+    "itu_background_files": 1000,
+    "itu_background_joins": 0,
+    "itu_background_seconds_per_file": 1,
+    "itu_exact_positive_joins": 4456,
+    "itu_positive_intervals": 35
+  },
+  "parent_plan_sha256": "8f94ded9811e97df9bcf4ffa301c84e8bdc6c8c5cdbf81ef46f733c46d72ca1f",
+  "small_task": {
+    "change": "Match both classes at original one-second publisher segment duration. Do not stretch/loop clips or bridge unknown gaps.",
+    "features": "Same256 uniform-Hz log spectral input, retain only47 STFT frames wholly within real1s at16kHz; temporal frequency mean/std512 descriptors. No padded frames contribute.",
+    "guard": "Use data integrity and label/interval metadata only to revise compatibility before scoring; model/threshold panel unchanged.",
+    "labels": "Published manual positive intervals and publisher background designation; individual disagreements unavailable and background labels not a verified acoustic absence benchmark.",
+    "selection": "Fixed0.5 score threshold, no validation-driven changes; evaluate segment and interval aggregation. Retain all splits, labels and predictions.",
+    "splits": "Publisher interval-disjoint assignments; check exact raw sample-half overlap across splits before fitting. All windows from a given published positive interval remain together. Same-session feasibility, not new-session reliability.",
+    "training": "Train-only weighted StandardScaler; L2 logistic C1, max_iter2000, seed42, one initialization on mean bag descriptors plus four max-positive-instance updates retaining negative clips; equal interval mass and class mass."
+  }
+}

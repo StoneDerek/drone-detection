@@ -1,0 +1,510 @@
+{
+  "architecture": {
+    "activations": "ReLU",
+    "convolutions": [
+      {
+        "filters": 32,
+        "kernel": [
+          5,
+          5
+        ],
+        "stride": [
+          2,
+          2
+        ]
+      },
+      {
+        "filters": 64,
+        "kernel": [
+          3,
+          3
+        ],
+        "stride": [
+          3,
+          2
+        ]
+      },
+      {
+        "filters": 128,
+        "kernel": [
+          3,
+          3
+        ],
+        "stride": [
+          3,
+          2
+        ]
+      }
+    ],
+    "dropout": 0.0,
+    "frequency_output_stride_bins": 18,
+    "frequency_receptive_field_bins": 21,
+    "gradcam_layers": [
+      "conv1",
+      "conv2",
+      "features"
+    ],
+    "head": "Dense32 ReLU then scalar logit",
+    "input": "[batch, frequency, time, 1]",
+    "name": "2D CNN with complete input coverage and an explicit readout",
+    "parameters": 154689,
+    "pool": "time mean, retain15 frequency positions",
+    "variant": "frequency_aware"
+  },
+  "class_mapping": {
+    "0": "non_drone",
+    "1": "drone"
+  },
+  "decision": {
+    "off_hits": 2,
+    "off_threshold": 0.6528226184320449,
+    "on_hits": 2,
+    "on_threshold": 0.8704301579093933
+  },
+  "family": "spectrogram_cnn",
+  "features": {
+    "axis": "linear_filterbank",
+    "dynamic_range_db": 80.0,
+    "f_max": 7600.0,
+    "f_min": 50.0,
+    "gain_max_db": 20.0,
+    "gain_target_rms": 0.05,
+    "hop_seconds": 0.5,
+    "intensity": "log_power",
+    "mel_bins": 256,
+    "min_audio_seconds": 0.25,
+    "n_fft": 4096,
+    "normalize_rms": false,
+    "power_reference": "context_peak",
+    "sample_rate": 16000,
+    "silence_rms": 1e-05,
+    "stft_hop": 256,
+    "window_seconds": 3.0
+  },
+  "limitations": "DEVELOPMENT-ONLY spectrogram experiment. Publisher recording labels; no fresh independent assessment, event timing, range or field-reliability claim.",
+  "model_id": "028108d143f8b511e9814727f41cbb27021ec82f7d873e8336b0ca39639c0abd",
+  "parameters_sha256": "6c080aa4d4f19e18db884ca1f453114c6a81db5b05736ecd4943388bc84476b8",
+  "recovery": {
+    "array_sha256": {
+      "w0": "a3b0515bde618d16e33723ef8a28586eaeede19e42733781797dc9c035cc7d70",
+      "w1": "f17b64ce3ad7f4bbbc10d00cb251e8b9423ab081b16d88fd0f96846537217d42",
+      "w2": "f7c3a0ceb5b781263889ac79769b700871e633d9b72f79d15846d4f247d5b8c2",
+      "w3": "8f746dc4f7fe4088122bee88ac94b2650ca88860d2dec454c5482157df7f09c8",
+      "w4": "12aaff5604b93fa5fbbffa4686ce547120b035b1dd9144ed9202367de3f917dc",
+      "w5": "95b413c2ddec00722a7faf4b41d2ed2119c1d395ac34d1b9033ae53c6a662330",
+      "w6": "03c27f02736a11847d32bf5dadf730177590c438f656d9074d32d20e555c4a6a",
+      "w7": "3e2e6009a91103fbd2b45cb012d4015b29064f4a62c5345a77fee4928cedfb8f",
+      "w8": "7ac4ce505e7499f630a4095578a51fe28f009ff474703fc640a31f8be2ebb7a2",
+      "w9": "2c2d69937a0bf281da16489584c5bff01a526e93a699ab6fabd536490dc069e9"
+    },
+    "browser_metadata_sha256": "d913c3fe9562efef796a551f709e7917a3ed8ede4143a8aa27c8471176b825dc",
+    "reason": "Original numeric CNN bundle is absent from restored Git tree; recover the deployed numeric export. New packaging identity, same declared frozen numerical model.",
+    "source_model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da",
+    "source_url": "https://drone-audio-lab.pages.dev/models/coherent-frequency-seed42/model.json"
+  },
+  "schema_version": 2,
+  "status": "frozen",
+  "training": {
+    "available_sampled_windows": 4648,
+    "bag_batch_size": 8,
+    "batch_sampling": "Four recordings per class, no extra class weights; same51 steps/epoch",
+    "epochs_completed": 24,
+    "history": [
+      {
+        "elapsed_seconds": 36.20380559899968,
+        "epoch": 1,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 2.9238213428533544,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.661554137281343,
+        "unique_positive_contexts_with_pool_gradient": 139,
+        "unique_train_windows_seen": 2174
+      },
+      {
+        "development_auc": 0.8974854932301741,
+        "development_balanced_bag_loss": 0.5792267463481634,
+        "development_consistent_max_balanced_loss": 0.5981510955141407,
+        "elapsed_seconds": 73.164584139,
+        "epoch": 2,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 12.018406893692765,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.878077922077922,
+        "train_balanced_bag_loss": 0.5976492802547171,
+        "train_consistent_max_balanced_loss": 0.6166370245775619,
+        "training_loss": 0.6200761146405164,
+        "unique_positive_contexts_with_pool_gradient": 212,
+        "unique_train_windows_seen": 3440
+      },
+      {
+        "elapsed_seconds": 133.5038748219995,
+        "epoch": 3,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 5.153923435538423,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.5652013064599505,
+        "unique_positive_contexts_with_pool_gradient": 296,
+        "unique_train_windows_seen": 3899
+      },
+      {
+        "development_auc": 0.9044970986460348,
+        "development_balanced_bag_loss": 0.3751067455025592,
+        "development_consistent_max_balanced_loss": 0.4060901732960662,
+        "elapsed_seconds": 168.48149704699972,
+        "epoch": 4,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 8.143928368886312,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9338181818181818,
+        "train_balanced_bag_loss": 0.29664794715216636,
+        "train_consistent_max_balanced_loss": 0.3356959419900173,
+        "training_loss": 0.51379293904585,
+        "unique_positive_contexts_with_pool_gradient": 357,
+        "unique_train_windows_seen": 4120
+      },
+      {
+        "elapsed_seconds": 228.00932314599777,
+        "epoch": 5,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 19.229385055747688,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.5102545575183981,
+        "unique_positive_contexts_with_pool_gradient": 407,
+        "unique_train_windows_seen": 4197
+      },
+      {
+        "development_auc": 0.8962765957446809,
+        "development_balanced_bag_loss": 0.35857187174407545,
+        "development_consistent_max_balanced_loss": 0.410330155225481,
+        "elapsed_seconds": 267.34823787599817,
+        "epoch": 6,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 6.36345258881064,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9487792207792207,
+        "train_balanced_bag_loss": 0.2798766675576803,
+        "train_consistent_max_balanced_loss": 0.35232511400248157,
+        "training_loss": 0.4063629678943578,
+        "unique_positive_contexts_with_pool_gradient": 448,
+        "unique_train_windows_seen": 4255
+      },
+      {
+        "elapsed_seconds": 342.3323286699997,
+        "epoch": 7,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 17.416393273016986,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.46818677219105703,
+        "unique_positive_contexts_with_pool_gradient": 485,
+        "unique_train_windows_seen": 4331
+      },
+      {
+        "development_auc": 0.9076402321083172,
+        "development_balanced_bag_loss": 0.3208789352844685,
+        "development_consistent_max_balanced_loss": 0.3754414517820287,
+        "elapsed_seconds": 378.8003295210001,
+        "epoch": 8,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 7.025566912164875,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9615064935064935,
+        "train_balanced_bag_loss": 0.21699778963519523,
+        "train_consistent_max_balanced_loss": 0.2864066568853004,
+        "training_loss": 0.38131750375032425,
+        "unique_positive_contexts_with_pool_gradient": 517,
+        "unique_train_windows_seen": 4395
+      },
+      {
+        "elapsed_seconds": 439.4368914250008,
+        "epoch": 9,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 7.85663795003704,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.30134133563614357,
+        "unique_positive_contexts_with_pool_gradient": 540,
+        "unique_train_windows_seen": 4462
+      },
+      {
+        "development_auc": 0.9325435203094776,
+        "development_balanced_bag_loss": 0.28440365438331794,
+        "development_consistent_max_balanced_loss": 0.34053895476053336,
+        "elapsed_seconds": 473.7870789160006,
+        "epoch": 10,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 11.696372786573335,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9554805194805195,
+        "train_balanced_bag_loss": 0.2148473417214275,
+        "train_consistent_max_balanced_loss": 0.27342458768060596,
+        "training_loss": 0.35782612944204434,
+        "unique_positive_contexts_with_pool_gradient": 556,
+        "unique_train_windows_seen": 4502
+      },
+      {
+        "elapsed_seconds": 536.7008253029999,
+        "epoch": 11,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 7.412894392714781,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.34634588425065954,
+        "unique_positive_contexts_with_pool_gradient": 566,
+        "unique_train_windows_seen": 4582
+      },
+      {
+        "development_auc": 0.8962765957446809,
+        "development_balanced_bag_loss": 0.3817307585459412,
+        "development_consistent_max_balanced_loss": 0.4481957167977455,
+        "elapsed_seconds": 569.6789668310012,
+        "epoch": 12,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 7.297275124811659,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9805194805194805,
+        "train_balanced_bag_loss": 0.1715487553633793,
+        "train_consistent_max_balanced_loss": 0.24474544946582705,
+        "training_loss": 0.2794105153457791,
+        "unique_positive_contexts_with_pool_gradient": 580,
+        "unique_train_windows_seen": 4606
+      },
+      {
+        "elapsed_seconds": 629.2959313719984,
+        "epoch": 13,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 8.016714123534221,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.2945692840160108,
+        "unique_positive_contexts_with_pool_gradient": 596,
+        "unique_train_windows_seen": 4626
+      },
+      {
+        "development_auc": 0.9148936170212766,
+        "development_balanced_bag_loss": 0.3882251488418088,
+        "development_consistent_max_balanced_loss": 0.4414224014155125,
+        "elapsed_seconds": 655.2359906800011,
+        "epoch": 14,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 8.294624311082503,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9792727272727273,
+        "train_balanced_bag_loss": 0.13324105336084277,
+        "train_consistent_max_balanced_loss": 0.18835265138688734,
+        "training_loss": 0.2905242005545719,
+        "unique_positive_contexts_with_pool_gradient": 605,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "elapsed_seconds": 700.582587345998,
+        "epoch": 15,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 8.835792611627017,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.27711981892877935,
+        "unique_positive_contexts_with_pool_gradient": 612,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "development_auc": 0.8844294003868471,
+        "development_balanced_bag_loss": 0.43908913627851875,
+        "development_consistent_max_balanced_loss": 0.5186513494626862,
+        "elapsed_seconds": 727.1119828749979,
+        "epoch": 16,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 8.722466200005774,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9842597402597403,
+        "train_balanced_bag_loss": 0.1669820722256937,
+        "train_consistent_max_balanced_loss": 0.24572827774076286,
+        "training_loss": 0.26565981115780624,
+        "unique_positive_contexts_with_pool_gradient": 618,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "elapsed_seconds": 770.7508763199985,
+        "epoch": 17,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 11.967472228349424,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.32291696951085447,
+        "unique_positive_contexts_with_pool_gradient": 627,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "development_auc": 0.9117504835589942,
+        "development_balanced_bag_loss": 0.3860172142410109,
+        "development_consistent_max_balanced_loss": 0.4388514329865378,
+        "elapsed_seconds": 798.6797660739976,
+        "epoch": 18,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 9.280763614411448,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9834805194805194,
+        "train_balanced_bag_loss": 0.11725790757355517,
+        "train_consistent_max_balanced_loss": 0.1694165821895814,
+        "training_loss": 0.2834381087884015,
+        "unique_positive_contexts_with_pool_gradient": 631,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "elapsed_seconds": 843.2521311739984,
+        "epoch": 19,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 6.479266642939811,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.20682135195124382,
+        "unique_positive_contexts_with_pool_gradient": 637,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "development_auc": 0.9122340425531915,
+        "development_balanced_bag_loss": 0.49698171312512707,
+        "development_consistent_max_balanced_loss": 0.5448603136466983,
+        "elapsed_seconds": 871.3025125599997,
+        "epoch": 20,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 7.578418602838235,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.985922077922078,
+        "train_balanced_bag_loss": 0.09350334325020612,
+        "train_consistent_max_balanced_loss": 0.1423539261645878,
+        "training_loss": 0.23485914749257705,
+        "unique_positive_contexts_with_pool_gradient": 643,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "elapsed_seconds": 913.6202924210011,
+        "epoch": 21,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 7.285551916150486,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.2625433531242843,
+        "unique_positive_contexts_with_pool_gradient": 657,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "development_auc": 0.8604932301740813,
+        "development_balanced_bag_loss": 0.7190525717255247,
+        "development_consistent_max_balanced_loss": 0.7737959291381264,
+        "elapsed_seconds": 940.397901624001,
+        "epoch": 22,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 6.963784082263124,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9831168831168832,
+        "train_balanced_bag_loss": 0.11819976410503992,
+        "train_consistent_max_balanced_loss": 0.1659482853926424,
+        "training_loss": 0.22000637708925733,
+        "unique_positive_contexts_with_pool_gradient": 666,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "elapsed_seconds": 982.8337494570005,
+        "epoch": 23,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 8.46435221883596,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "training_loss": 0.2641941666530043,
+        "unique_positive_contexts_with_pool_gradient": 672,
+        "unique_train_windows_seen": 4648
+      },
+      {
+        "development_auc": 0.9284332688588007,
+        "development_balanced_bag_loss": 0.32762260026843193,
+        "development_consistent_max_balanced_loss": 0.4288684002160516,
+        "elapsed_seconds": 1008.2147878449978,
+        "epoch": 24,
+        "mean_effective_positive_contexts": 1.0,
+        "mean_gradient_norm": 5.138236458395042,
+        "positive_contexts_forwarded": 1632,
+        "positive_pool_gradient_contexts_above1e_10": 204,
+        "train_auc": 0.9846753246753247,
+        "train_balanced_bag_loss": 0.11259963679287312,
+        "train_consistent_max_balanced_loss": 0.18296370771064369,
+        "training_loss": 0.19635567930983563,
+        "unique_positive_contexts_with_pool_gradient": 684,
+        "unique_train_windows_seen": 4648
+      }
+    ],
+    "label_scope": "Publisher recording presence; positive bags can contain negative windows",
+    "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+    "max_negative_windows_per_step": 8,
+    "negative_loss": "softplus(max window logit), same pool as positives",
+    "optimizer": "Adam 0.001, clipnorm1, dropout0.0, L2 .0001; balanced expected class mass",
+    "origins": [
+      "authentic"
+    ],
+    "positive_audit": "Per-step pooling weights, selected starts and effective count; not audible annotations",
+    "positive_pool": "max",
+    "positive_sampling": "sample8 cyclic without replacement",
+    "seconds": 1026.2813659189997,
+    "seed": 42,
+    "selected_epoch": 10,
+    "selection": "Minimum development consistent_max_balanced_loss, every2 epochs, all cached contexts",
+    "unique_windows_seen_at_selected_epoch": 4502
+  },
+  "weight_shapes": [
+    [
+      5,
+      5,
+      1,
+      32
+    ],
+    [
+      32
+    ],
+    [
+      3,
+      3,
+      32,
+      64
+    ],
+    [
+      64
+    ],
+    [
+      3,
+      3,
+      64,
+      128
+    ],
+    [
+      128
+    ],
+    [
+      1920,
+      32
+    ],
+    [
+      32
+    ],
+    [
+      32,
+      1
+    ],
+    [
+      1
+    ]
+  ]
+}

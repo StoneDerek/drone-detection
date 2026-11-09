@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "model": "coherent-frequency-seed42",
+      "outcomes_reproduced": true,
+      "recordings": 1072,
+      "trace_sha256": "730a59d93868d6415202a4ea5714d37180d29cb974fcb885a71594193f843427"
+    },
+    {
+      "model": "coherent-frequency-seed7",
+      "outcomes_reproduced": true,
+      "recordings": 1072,
+      "trace_sha256": "137c6f343dc68590919a1ae93fd54fa095da624249bfbb5717f39aabdd1405d4"
+    },
+    {
+      "model": "svm-linear-fft4096",
+      "outcomes_reproduced": true,
+      "recordings": 1072,
+      "trace_sha256": "45581f9a24fec101ca9814960fa7c5e379c14c22d44d7089274245a0ec9387e8"
+    },
+    {
+      "model": "yamnet-default",
+      "outcomes_reproduced": true,
+      "recordings": 1072,
+      "trace_sha256": "f1d7709252c4ca69b6afc64145df721fb07acad89c6955d685ba7fbed018c32c"
+    }
+  ],
+  "passed": true,
+  "scope": "Reapplying frozen alarm rules to saved scores; not a new assessment."
+}

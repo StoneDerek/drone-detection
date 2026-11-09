@@ -7,3 +7,8 @@ data/*.jsonl -text
 
 # Google's original class map uses CRLF; its published bytes are retained.
 artifacts/**/yamnet_class_map.csv whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve publisher metadata byte for byte, including its CRLF line endings.
+reports/external-v3/source-records/itu-* whitespace=cr-at-eol
+# Numeric parameter shards are binary even when a small shard has no NUL byte.
+artifacts/external-v3/recovered/**/*.bin binary

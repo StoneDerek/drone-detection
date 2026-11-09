@@ -1,0 +1,163 @@
+{
+  "base_commit": "40bf036b3fe26eb210ec1fe68e74359b49b3134f",
+  "created_utc": "2026-11-09T15:55:00.589077+00:00",
+  "data_rules": [
+    "Pin publisher revisions and licenses",
+    "Check exact/decoded/gain-normalized duplicates against all2356 existing recordings",
+    "Report unresolved excerpt/transcode/pretraining overlap; do not equate no exact duplicates with proven independence",
+    "Keep human interval labels distinct from flight metadata; background labels are not independently verified negative stretches",
+    "Exclude only invalid/corrupt audio; preserve short/silent input as explicit outcomes",
+    "No threshold tuning or normalization changes; no default promotion",
+    "Report source results separately; do not pool one-source groups into independent confidence claims"
+  ],
+  "event_metrics": "Unassessed unless entire original timing and audible positive/negative truth are established; interval reconstruction cannot recreate missing negative gaps.",
+  "models": [
+    {
+      "bundle": "artifacts/real-v2/candidate",
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.375,
+        "on_hits": 2,
+        "on_threshold": 0.5
+      },
+      "features": {
+        "f_max": 7600.0,
+        "f_min": 80.0,
+        "hop_seconds": 0.5,
+        "mel_bins": 48,
+        "min_audio_seconds": 0.25,
+        "n_fft": 512,
+        "representation": "yamnet",
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 160,
+        "window_seconds": 3.0
+      },
+      "model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f",
+      "model_json_sha256": "5d551815d5b1ef3ee08982f40b49ca3a5c38c12b24c54b17b5e1076b773c2246",
+      "name": "yamnet-default",
+      "parameters_sha256": "69a4b1bcb238ead86f5444a3b66cf16f22fad828ace22380a64fc26e123bbeac",
+      "source_model_id": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f"
+    },
+    {
+      "bundle": "artifacts/spectral-lab-v1/models/svm-linear-fft4096",
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.3775990136823287,
+        "on_hits": 2,
+        "on_threshold": 0.5034653515764382
+      },
+      "features": {
+        "axis": "linear",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 64,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+      "model_json_sha256": "fe7536fd0e9ee1ea7cce0731cb861fff387940eca93327e01e99714c21747e52",
+      "name": "svm-linear-fft4096",
+      "parameters_sha256": "09400b4231ce808d93fc4dd7b142d2f7f1f31491689f217897260fdf0fa10176",
+      "source_model_id": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04"
+    },
+    {
+      "bundle": "runs/external-v3/recovery/coherent-frequency-seed42/bundle",
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.6528226184320449,
+        "on_hits": 2,
+        "on_threshold": 0.8704301579093933
+      },
+      "features": {
+        "axis": "linear_filterbank",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "gain_max_db": 20.0,
+        "gain_target_rms": 0.05,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 256,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "normalize_rms": false,
+        "power_reference": "context_peak",
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "028108d143f8b511e9814727f41cbb27021ec82f7d873e8336b0ca39639c0abd",
+      "model_json_sha256": "2afa135efcaa9ad8d1b35c53ba4618972a9ebfe0cb619fe2e51e1c7c243997bb",
+      "name": "coherent-frequency-seed42",
+      "parameters_sha256": "6c080aa4d4f19e18db884ca1f453114c6a81db5b05736ecd4943388bc84476b8",
+      "source_model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da"
+    },
+    {
+      "bundle": "runs/external-v3/recovery/coherent-frequency-seed7/bundle",
+      "decision": {
+        "off_hits": 2,
+        "off_threshold": 0.6494085686874389,
+        "on_hits": 2,
+        "on_threshold": 0.8658780915832519
+      },
+      "features": {
+        "axis": "linear_filterbank",
+        "dynamic_range_db": 80.0,
+        "f_max": 7600.0,
+        "f_min": 50.0,
+        "gain_max_db": 20.0,
+        "gain_target_rms": 0.05,
+        "hop_seconds": 0.5,
+        "intensity": "log_power",
+        "mel_bins": 256,
+        "min_audio_seconds": 0.25,
+        "n_fft": 4096,
+        "normalize_rms": false,
+        "power_reference": "context_peak",
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 256,
+        "window_seconds": 3.0
+      },
+      "model_id": "ee9dabc431bca8b5c684d7ff50cf324dbe2900957db18b6bdc3d87c72ad48091",
+      "model_json_sha256": "81eea94e76f6ec2ccf1686879ea25ac2209d992d4dc661232422c87c99ef6468",
+      "name": "coherent-frequency-seed7",
+      "parameters_sha256": "999c4cc501ce745036b882584d3ef4331debd7605628131a04130c6a883755d7",
+      "source_model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859"
+    }
+  ],
+  "purpose": "Frozen external recording assessment and separately predeclared human-annotated feasibility task",
+  "representative_errors": "First2 false negatives and first2 false positives per source/model by sorted original ID; also one correctly detected drone and correct negative where present.",
+  "schema_version": 1,
+  "selection": "Existing default, non-neural SVM, both repaired frequency CNN seeds. No fresh scores used in selection.",
+  "small_task": {
+    "data": "ITU interval-disjoint split supplied by publisher; train/development/test groups kept intact, no overlapping samples cross splits",
+    "label_limit": "Two human annotators, reported kappa0.5869; backgrounds came from unlabelled stretches. Exported labels omit individual disagreements and do not establish perfect audibility truth.",
+    "model": "Train-only standardized uniform-Hz log-spectral temporal mean/std descriptors plus recording-balanced L2 logistic classifier; C=1, seed42, no hyperparameter sweep. Recording-level multiple-instance target, not positive labels on every crop.",
+    "scope": "Within-session published-label feasibility only, not a field-validation benchmark",
+    "selection": "Predeclared threshold0.5, no assessment-driven threshold selection; report class counts, group outcomes and ranking"
+  },
+  "sources": {
+    "fpv": {
+      "repository": "saarmets/fpv-drone-audio-classification-dataset",
+      "revision": "387f7c52516d3633e81930503127446f82008b32",
+      "selection": "All37 publisher WAVs. Folder presence labels are weak, unknown sessions collapse to one conservative group."
+    },
+    "itu": {
+      "doi": "10.5281/zenodo.22682339",
+      "repository": "imm61/itu-aris-lab-acoustic-drone-dataset",
+      "revision": "c17df31a416412b245f371f127716de3db679c0f",
+      "selection": "All eligible contiguous intervals reconstructed only across sample-verified50% overlaps. One source session;35 manually annotated positive intervals; background block identity is not an independent session. Never bridge gaps."
+    }
+  },
+  "stop_rule": "Once errors inform subsequent optimization, label that assessment consumed; obtain a new capture condition for a future reliability claim."
+}

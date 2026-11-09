@@ -1,0 +1,6 @@
+{
+  "groups_crossing_splits": [],
+  "limit": "Exact half-sample overlap checks do not rule out arbitrary shifted/lossy copies; all data comes from one capture session.",
+  "publisher_groups": 55,
+  "raw_half_second_fingerprints_crossing_splits": 0
+}

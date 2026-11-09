@@ -1,0 +1,18 @@
+[
+  {
+    "arrays_verified": true,
+    "bundle": "runs/external-v3/recovery/coherent-frequency-seed42/bundle",
+    "decision_matches_committed_report": true,
+    "name": "coherent-frequency-seed42",
+    "recovered_model_id": "028108d143f8b511e9814727f41cbb27021ec82f7d873e8336b0ca39639c0abd",
+    "source_model_id": "5668eaf22c46345685a7f58ae810835cd9d3905009f2f6c1095161b0ee8ac5da"
+  },
+  {
+    "arrays_verified": true,
+    "bundle": "runs/external-v3/recovery/coherent-frequency-seed7/bundle",
+    "decision_matches_committed_report": true,
+    "name": "coherent-frequency-seed7",
+    "recovered_model_id": "ee9dabc431bca8b5c684d7ff50cf324dbe2900957db18b6bdc3d87c72ad48091",
+    "source_model_id": "87c42c9ec3c41dc1e709acf821dc48adf8b27c04d9e80c821fff80cd0a4c3859"
+  }
+]

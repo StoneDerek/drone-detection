@@ -1,0 +1,23 @@
+{
+  "code": {
+    "git_head": "40bf036b3fe26eb210ec1fe68e74359b49b3134f",
+    "source_sha256": "02179c6c105b944024b3efc20174f81ddee4769a404bf6eb23876ed19c87d339"
+  },
+  "compatibility_amendment_sha256": "990efb226090cbc66a6df9d0f33bdcf5d14676b6a23a118d8955296d13463fe7",
+  "hardware": {
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14"
+  },
+  "manifest_sha256": "5b9930260e47ecbad2ae6740e34716dbf2688bf9fe5b551919d8c6345ec1b9c6",
+  "models": {
+    "coherent-frequency-seed42": "028108d143f8b511e9814727f41cbb27021ec82f7d873e8336b0ca39639c0abd",
+    "coherent-frequency-seed7": "ee9dabc431bca8b5c684d7ff50cf324dbe2900957db18b6bdc3d87c72ad48091",
+    "svm-linear-fft4096": "917780f8765f3ec351c5c040606706ca575170a333534370c82b40fb064a4d04",
+    "yamnet-default": "b9c7df3a56936a161dbf7e70fb02b6979666bfe8043d131a4e38496da13c261f"
+  },
+  "plan_sha256": "8f94ded9811e97df9bcf4ffa301c84e8bdc6c8c5cdbf81ef46f733c46d72ca1f",
+  "runner_sha256": "47ee171191d63285399a54f9ea752b4ba75cd560543b975bed8772938fe439e3",
+  "scope": "New-source recording-label assessment. Source/session independence and audible truth have the limitations stated in the audit. No field-reliability claim.",
+  "source_audit_sha256": "6ccf1724e68e9f1d283b4df5d7612aa4aa165852501ad528412c794b2160c260"
+}

@@ -1,0 +1,20 @@
+{
+  "cross_corpus_matches": [],
+  "limits": "Whole-file hashes cannot rule out shifted excerpts, lossy copies or all pretrained-encoder overlap. FPV session/original ancestry remains undocumented; ITU is one original session. No independent audible-event benchmark claimed.",
+  "manifest_sha256": "5b9930260e47ecbad2ae6740e34716dbf2688bf9fe5b551919d8c6345ec1b9c6",
+  "old_recordings_checked": 2356,
+  "recordings": 1072,
+  "source_groups": {
+    "itu-aris": [
+      "d51c74e0e1c790b4d179"
+    ],
+    "saarmets-fpv": [
+      "b8a99391c987fff3e295"
+    ]
+  },
+  "within_source_matches": {
+    "decoded_sha256": [],
+    "gain_normalized_sha256": [],
+    "sha256": []
+  }
+}

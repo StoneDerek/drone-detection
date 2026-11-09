@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "max_score_error": 2.1043299713863206e-07,
+      "model": "coherent-frequency-seed42",
+      "passed": true,
+      "recording": "batear-20260415_192501",
+      "windows": 14
+    },
+    {
+      "max_score_error": 4.8861876766892465e-09,
+      "model": "coherent-frequency-seed42",
+      "passed": true,
+      "recording": "svanstrom-DRONE_001",
+      "windows": 1
+    },
+    {
+      "max_score_error": 2.597313093766207e-10,
+      "model": "coherent-frequency-seed42",
+      "passed": true,
+      "recording": "esc10-4-125929-A-40",
+      "windows": 1
+    },
+    {
+      "max_score_error": 1.5565665376082727e-07,
+      "model": "coherent-frequency-seed7",
+      "passed": true,
+      "recording": "batear-20260415_192501",
+      "windows": 14
+    },
+    {
+      "max_score_error": 6.681218767123909e-08,
+      "model": "coherent-frequency-seed7",
+      "passed": true,
+      "recording": "svanstrom-DRONE_001",
+      "windows": 1
+    },
+    {
+      "max_score_error": 1.8461314565607068e-08,
+      "model": "coherent-frequency-seed7",
+      "passed": true,
+      "recording": "esc10-4-125929-A-40",
+      "windows": 1
+    }
+  ],
+  "scope": "Recovered deployed numeric weights compared with committed pre-existing browser/Python fixtures; no new acoustic trial.",
+  "windows_compared": 32
+}

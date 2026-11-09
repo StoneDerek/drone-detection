@@ -1,0 +1,55 @@
+{
+  "coherent-frequency-seed42": {
+    "itu-aris": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 29,
+        "peak_crossed_but_confirmation_not_met": 1
+      }
+    },
+    "saarmets-fpv": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 13
+      }
+    }
+  },
+  "coherent-frequency-seed7": {
+    "itu-aris": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 10,
+        "peak_crossed_but_confirmation_not_met": 4
+      }
+    },
+    "saarmets-fpv": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 20,
+        "peak_crossed_but_confirmation_not_met": 1
+      }
+    }
+  },
+  "svm-linear-fft4096": {
+    "itu-aris": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 3
+      }
+    },
+    "saarmets-fpv": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 19,
+        "peak_crossed_but_confirmation_not_met": 1
+      }
+    }
+  },
+  "yamnet-default": {
+    "itu-aris": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 18,
+        "peak_crossed_but_confirmation_not_met": 4
+      }
+    },
+    "saarmets-fpv": {
+      "false_negative_alarm_mechanisms": {
+        "all_scores_below_on_threshold": 1
+      }
+    }
+  }
+}

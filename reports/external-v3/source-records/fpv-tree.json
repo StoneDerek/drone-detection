@@ -1,0 +1,332 @@
+{
+  "sha": "387f7c52516d3633e81930503127446f82008b32",
+  "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/trees/387f7c52516d3633e81930503127446f82008b32",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d57ac53ca19562eaab1fae51853c270c108c4a",
+      "size": 212,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/b5d57ac53ca19562eaab1fae51853c270c108c4a"
+    },
+    {
+      "path": "fpv5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e43e23d133045425f9637e79ca05d10261a1a943",
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/trees/e43e23d133045425f9637e79ca05d10261a1a943"
+    },
+    {
+      "path": "fpv5/fpv_53_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a9d9a20d778e2c3038638a3f73cd67e4f14f75c",
+      "size": 8271668,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/4a9d9a20d778e2c3038638a3f73cd67e4f14f75c"
+    },
+    {
+      "path": "fpv5/fpv_53_2.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2760366f3c17b8f4f0373e19bf7f41d62b90fc",
+      "size": 33762916,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/cd2760366f3c17b8f4f0373e19bf7f41d62b90fc"
+    },
+    {
+      "path": "fpv5/fpv_53_3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5366ba870d237c75b9dfec553350932d0bd2ec6",
+      "size": 33355800,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/a5366ba870d237c75b9dfec553350932d0bd2ec6"
+    },
+    {
+      "path": "fpv5/fpv_53_4.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f69814257af3cdc0c1342cb0174526ab608685a6",
+      "size": 34793180,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/f69814257af3cdc0c1342cb0174526ab608685a6"
+    },
+    {
+      "path": "fpv5/fpv_53_5.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34829365686156505881bb2bf6c585074781fa00",
+      "size": 48923696,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/34829365686156505881bb2bf6c585074781fa00"
+    },
+    {
+      "path": "fpv5/fpv_53_6.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebf7d937ebfab4597f2a5aaaa48b7e1d2841a09b",
+      "size": 21249076,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/ebf7d937ebfab4597f2a5aaaa48b7e1d2841a09b"
+    },
+    {
+      "path": "fpv5/fpv_53_7.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcdcf3b20922b2bbddfe4a2c61dd9da71d3f96ee",
+      "size": 45348348,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/fcdcf3b20922b2bbddfe4a2c61dd9da71d3f96ee"
+    },
+    {
+      "path": "fpv5/fpv_53_8.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d2f2b28e4cb7a19eaa7545c63a5be978ad14a0a",
+      "size": 8268316,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/7d2f2b28e4cb7a19eaa7545c63a5be978ad14a0a"
+    },
+    {
+      "path": "fpv5/fpv_53_9.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d7021a47339185f0a0c065a0f1173ae66030aa",
+      "size": 32193156,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/51d7021a47339185f0a0c065a0f1173ae66030aa"
+    },
+    {
+      "path": "fpv7",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4eab2f62f8d21149d274d5c5f99a4a09d7a092f5",
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/trees/4eab2f62f8d21149d274d5c5f99a4a09d7a092f5"
+    },
+    {
+      "path": "fpv7/fpv_72_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05425a3d69e3eee40e3638b289c15d065e1d2c1b",
+      "size": 882044,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/05425a3d69e3eee40e3638b289c15d065e1d2c1b"
+    },
+    {
+      "path": "fpv7/fpv_72_2.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21228c7ac0dc6c0a2a868ee77b08f39d09e574eb",
+      "size": 15648992,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/21228c7ac0dc6c0a2a868ee77b08f39d09e574eb"
+    },
+    {
+      "path": "fpv7/fpv_72_3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ca834c5f8ffdbf8ee640ba115dbc721d4068c43",
+      "size": 15332772,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/5ca834c5f8ffdbf8ee640ba115dbc721d4068c43"
+    },
+    {
+      "path": "fpv7/fpv_72_4.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17446affb669796b0a5cfe914ec3d086203b2551",
+      "size": 3264060,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/17446affb669796b0a5cfe914ec3d086203b2551"
+    },
+    {
+      "path": "fpv7/fpv_72_5.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61493ee8ebdaf6fbd3d869d893f02aeb24ea3212",
+      "size": 15735556,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/61493ee8ebdaf6fbd3d869d893f02aeb24ea3212"
+    },
+    {
+      "path": "fpv7/fpv_72_6.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13dbbd9eb8208b28910db703766acbb67b0a3135",
+      "size": 17727940,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/13dbbd9eb8208b28910db703766acbb67b0a3135"
+    },
+    {
+      "path": "fpv7/fpv_72_7.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed8f4dd930de9f7e551ba8d7d30550f4659dee3",
+      "size": 3309872,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/3ed8f4dd930de9f7e551ba8d7d30550f4659dee3"
+    },
+    {
+      "path": "fpv7/fpv_72_8.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8271f3b08fb4322a3b6260575c607f7f855cc4e1",
+      "size": 15731232,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/8271f3b08fb4322a3b6260575c607f7f855cc4e1"
+    },
+    {
+      "path": "fpv7/fpv_73_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f668294fa2f37bcc3c24baa0280efed176f4f98d",
+      "size": 80201240,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/f668294fa2f37bcc3c24baa0280efed176f4f98d"
+    },
+    {
+      "path": "fpv7/fpv_73_2.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e3ff589b1e3a7fd2f8c901df3db3371807aabb",
+      "size": 19232468,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/50e3ff589b1e3a7fd2f8c901df3db3371807aabb"
+    },
+    {
+      "path": "fpv7/fpv_73_3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d31e3f41235682197bc4dfb24ddc98def961d9c",
+      "size": 29033388,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/9d31e3f41235682197bc4dfb24ddc98def961d9c"
+    },
+    {
+      "path": "fpv7/fpv_73_4.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9834e25cf8d9f819b3bd01768c9d6f15c7684b8",
+      "size": 23969796,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/b9834e25cf8d9f819b3bd01768c9d6f15c7684b8"
+    },
+    {
+      "path": "no_drone",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c940325142d69cb73f712eafba02db668a8b1c5",
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/trees/1c940325142d69cb73f712eafba02db668a8b1c5"
+    },
+    {
+      "path": "no_drone/ambient_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f78161f9a550f6c4860cfdd5c551a598ed9f55c",
+      "size": 2513808,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/9f78161f9a550f6c4860cfdd5c551a598ed9f55c"
+    },
+    {
+      "path": "no_drone/ambient_2.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ce5fb5b5b59cb51e1c0605d18e490acd7a0a4c",
+      "size": 4182060,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/c3ce5fb5b5b59cb51e1c0605d18e490acd7a0a4c"
+    },
+    {
+      "path": "no_drone/ambient_3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a95ad46768ab54b0648bfe266225d89fa03a076b",
+      "size": 2600336,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/a95ad46768ab54b0648bfe266225d89fa03a076b"
+    },
+    {
+      "path": "no_drone/ambient_4.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "682c264cb639c8720999b2b77d426dba91da1249",
+      "size": 22463020,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/682c264cb639c8720999b2b77d426dba91da1249"
+    },
+    {
+      "path": "no_drone/ambient_kiili_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f217f45ffe821d5bc8a24221aee1deb4c56a6a",
+      "size": 39672364,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/f3f217f45ffe821d5bc8a24221aee1deb4c56a6a"
+    },
+    {
+      "path": "no_drone/ambient_kiili_2.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12ffeafbf21d9d4404f639c47420d30ad5a798b7",
+      "size": 102704172,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/12ffeafbf21d9d4404f639c47420d30ad5a798b7"
+    },
+    {
+      "path": "no_drone/ambient_kiili_3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8a2532e1c177eed2b598a7baad643d9c5d44d46",
+      "size": 65456684,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/a8a2532e1c177eed2b598a7baad643d9c5d44d46"
+    },
+    {
+      "path": "no_drone/car_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f665fec125634961b39b5980876b7be7a91232",
+      "size": 2595728,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/01f665fec125634961b39b5980876b7be7a91232"
+    },
+    {
+      "path": "no_drone/grass_trimmer_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97186e788599884c0687a694474d459f29b62196",
+      "size": 8879740,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/97186e788599884c0687a694474d459f29b62196"
+    },
+    {
+      "path": "no_drone/grass_trimmer_2.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2cd80a407cb31b30d55fac0dad1bc8571854e3",
+      "size": 25183788,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/ad2cd80a407cb31b30d55fac0dad1bc8571854e3"
+    },
+    {
+      "path": "no_drone/grass_trimmer_3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e27e238213f53ef5f7f32f5882ca33facf7ba9f",
+      "size": 14503468,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/5e27e238213f53ef5f7f32f5882ca33facf7ba9f"
+    },
+    {
+      "path": "no_drone/grass_trimmer_4.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0218fdbd80e17dec266a6678119ce3c72c8f797",
+      "size": 16763948,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/e0218fdbd80e17dec266a6678119ce3c72c8f797"
+    },
+    {
+      "path": "no_drone/leafblower_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd45c72ad644212d6793ab0b201612e368eb8a3",
+      "size": 38294572,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/6dd45c72ad644212d6793ab0b201612e368eb8a3"
+    },
+    {
+      "path": "no_drone/leafblower_2.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c330cc491c24f7bc45b3784eee9391e0541cb33b",
+      "size": 18664792,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/c330cc491c24f7bc45b3784eee9391e0541cb33b"
+    },
+    {
+      "path": "no_drone/leafblower_3.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b796e7e4b8eb9bd0ccb6cba27e8a3ef56c3f5135",
+      "size": 24213548,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/b796e7e4b8eb9bd0ccb6cba27e8a3ef56c3f5135"
+    },
+    {
+      "path": "no_drone/wind_1.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97b656d2a4b688bce94175221c3154c6db68e80",
+      "size": 3215704,
+      "url": "https://api.github.com/repos/saarmets/fpv-drone-audio-classification-dataset/git/blobs/e97b656d2a4b688bce94175221c3154c6db68e80"
+    }
+  ],
+  "truncated": false
+}
