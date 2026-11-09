@@ -49,3 +49,13 @@ known labels when feasible, and can reserve complete sources for final. It never
 uses windows as independent groups. A split hash and group lists accompany the
 manifest. Training and tuning refuse unresolved duplicate review, and final
 evaluation refuses reuse unless explicitly disclosed.
+
+## Next-phase candidate inventory
+
+[corpus-candidates-v2.json](corpus-candidates-v2.json) lists acquisition candidates
+and unresolved coverage/label/provenance gaps.
+[candidate-files-v2.jsonl](candidate-files-v2.jsonl) records publisher distribution
+files and checksums, including archives/documents. Neither file is a training
+manifest or an independence claim. See the
+[feasibility audit](../reports/corpus-inventory-v2/README.md) before bulk transfer
+or split assignment.

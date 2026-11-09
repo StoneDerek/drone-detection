@@ -1,0 +1,64 @@
+[
+  {
+    "source_id": "dronenoise-edzell-v3",
+    "metadata_url": "https://api.figshare.com/v2/articles/22133411/versions/3",
+    "retrieved_on": "2026-11-09",
+    "response_sha256": "43f3b50a7eb7bf264454b4b344be2917574563e0513e04f9790fc58687066c03",
+    "title": "DroneNoise Database",
+    "doi": "10.17866/rd.salford.22133411.v3",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "version": 3,
+    "publication_date": null,
+    "distribution_file_count": 175,
+    "distribution_bytes": 742123543
+  },
+  {
+    "source_id": "poland-uav-v1",
+    "metadata_url": "https://zenodo.org/api/records/15190811",
+    "retrieved_on": "2026-11-09",
+    "response_sha256": "db4686d8d5284db0a13275b43192ee6822e21466dd57365aa184b35102f1acaa",
+    "title": "Dataset of acoustic signals of unmanned aerial vehicles and speech obtained in external environmental conditions",
+    "doi": "10.5281/zenodo.15190811",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": null,
+    "publication_date": "2023-09-22",
+    "distribution_file_count": 19,
+    "distribution_bytes": 12045473772
+  },
+  {
+    "source_id": "neaptide-v1",
+    "metadata_url": "https://zenodo.org/api/records/10512044",
+    "retrieved_on": "2026-11-09",
+    "response_sha256": "526a0f2246b2f75a70fe40d4e57e2a69758646a4dd27ac381b280fcc0f3cdbbb",
+    "title": "NEAPTIDE Dataset",
+    "doi": "10.5281/zenodo.10512044",
+    "license": {
+      "id": "cc-by-nc-4.0"
+    },
+    "version": null,
+    "publication_date": "2024-01-15",
+    "distribution_file_count": 7,
+    "distribution_bytes": 176260894
+  },
+  {
+    "source_id": "idmt-berne-2022",
+    "metadata_url": "https://zenodo.org/api/records/17525811",
+    "retrieved_on": "2026-11-09",
+    "response_sha256": "7f6e34e55c9a16df321c8338f1c7cac407b3c292712af4efe032331fd856b2d3",
+    "title": "Real-World Drone Audio Dataset Collected by Fraunhofer IDMT (August 2022)",
+    "doi": "10.5281/zenodo.17525811",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": null,
+    "publication_date": "2025-11-04",
+    "distribution_file_count": 1,
+    "distribution_bytes": 1515112211
+  }
+]

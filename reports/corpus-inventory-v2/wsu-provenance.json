@@ -1,0 +1,114 @@
+{
+  "source_id": "wsu-air3-v1",
+  "retrieved_on": "2026-11-09",
+  "documents": [
+    {
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/README.md",
+      "sha256": "0779ef10326916c092c878488ec8ad00163306e588c179873036a9b119ade131"
+    },
+    {
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/LICENSE.txt",
+      "sha256": "99daacece8f829755bf73e31d7eae9437744a3fd7d7618b81932f22fb8c5e336"
+    },
+    {
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/test_1/Oct_11_2024/flight_5/alignment_params.json",
+      "sha256": "cd2145d0adb74faa7650671d08ebff971f1861aa5105f48ce47ce7eea49c2a91"
+    },
+    {
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/training/Nov_25_2024/flight_11/alignment_params.json",
+      "sha256": "20d66a1aca8f1054094b05515a0e623732816455f9e3c42aa09c26b15f5107c7"
+    },
+    {
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/training/Mar_18_2025/flight_1/alignment_params.json",
+      "sha256": "ad5a7c65f721a31a54fd576fc21d9e180be4862fec7834f222d320f55744a534"
+    },
+    {
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/test_2/Mar_18_2025/flight_2/alignment_params.json",
+      "sha256": "986fbc5131636753b4df854c22806077430eb35bd069a0274414aac80c8e2139"
+    }
+  ],
+  "recordings": [
+    {
+      "date": "Oct_11_2024",
+      "flight_id": "5",
+      "site": "Site 2",
+      "conservative_group": "Oct_11_2024/Site 2",
+      "publisher_role": "test_1",
+      "wav_files": [
+        "device_1_nosync.wav",
+        "device_2_nosync.wav",
+        "device_3_nosync.wav",
+        "device_4_nosync.wav"
+      ],
+      "sample_rate": 48000,
+      "publisher_segments": []
+    },
+    {
+      "date": "Nov_25_2024",
+      "flight_id": "11",
+      "site": "Site 1",
+      "conservative_group": "Nov_25_2024/Site 1",
+      "publisher_role": "training",
+      "wav_files": [
+        "20241125_165753_device_1_nosync_part1.wav",
+        "20241125_165757_device_2_nosync_part1.wav",
+        "20241125_165801_device_3_nosync_part1.wav",
+        "20241125_165804_device_4_nosync_part1.wav"
+      ],
+      "sample_rate": 48000,
+      "publisher_segments": []
+    },
+    {
+      "date": "Mar_18_2025",
+      "flight_id": "1",
+      "site": "Site 1",
+      "conservative_group": "Mar_18_2025/Site 1",
+      "publisher_role": "training",
+      "wav_files": [
+        "20250318_115053_device_1_nosync_part1.wav",
+        "20250318_115103_device_2_nosync_part1.wav",
+        "20250318_115118_device_3_nosync_part1.wav",
+        "20250318_115133_device_4_nosync_part1.wav"
+      ],
+      "sample_rate": 48000,
+      "publisher_segments": []
+    },
+    {
+      "date": "Mar_18_2025",
+      "flight_id": "2",
+      "site": "Site 1",
+      "conservative_group": "Mar_18_2025/Site 1",
+      "publisher_role": "test_2",
+      "wav_files": [
+        "20250318_123443_device_1_nosync_part1.wav",
+        "20250318_123526_device_2_nosync_part1.wav",
+        "20250318_123624_device_3_nosync_part1.wav",
+        "20250318_123730_device_4_nosync_part1.wav"
+      ],
+      "sample_rate": 48000,
+      "publisher_segments": [
+        {
+          "name": "drone",
+          "role": "test_2",
+          "skip_seconds": 69.6,
+          "duration_approx_min": 20
+        },
+        {
+          "name": "no_drone_1",
+          "role": "training (negative class)",
+          "skip_seconds": 1290.0,
+          "skip_seconds_end": 1576.9,
+          "duration_approx_s": 287
+        },
+        {
+          "name": "no_drone_2",
+          "role": "test_2 (negative class)",
+          "skip_seconds": 1577.0,
+          "skip_seconds_end": 1864.0,
+          "duration_approx_s": 287
+        }
+      ]
+    }
+  ],
+  "note": "Publisher metadata only. No waveforms or audible-event annotations audited. Date/site grouping is our conservative split policy; publisher roles are not adopted."
+}

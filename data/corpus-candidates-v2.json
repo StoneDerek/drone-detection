@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-09",
+  "kind": "candidate inventory, not a training or evaluation manifest",
+  "acquisition_gate_passed": false,
+  "sources": [
+    {
+      "source_id": "wsu-air3-v1",
+      "title": "Western Sydney DJI Air 3 field recordings",
+      "url": "https://doi.org/10.26183/07nm-4p35",
+      "license": "CC-BY-SA-4.0",
+      "coverage": "Four flight recordings, three capture dates, two sites, one drone model; 24 microphones are views of the same timelines.",
+      "duration_evidence": "Publisher approximate flight durations sum to about 75 minutes; one explicitly bounded ambient tail is about 574 seconds. Not measured accepted hours.",
+      "label_support": "Flight telemetry and publisher-declared no-drone intervals; no independently audited audible-onset/offset labels.",
+      "access": "README, license, directory and four alignment configurations retrieved; bulk WAV transfer and hashes not verified.",
+      "blockers": [
+        "Published split uses adjacent halves of one ambient tail in train/test; our split must keep the whole capture together.",
+        "Both March flights share a date/site group.",
+        "README gives conflicting accounts of October ambient audio; inspect the raw timeline and generation code.",
+        "Single model; too little negative exposure to satisfy the benchmark."
+      ],
+      "next_action": "Audit raw file extents/telemetry and resolve label timing; acquire a fixed microphone channel per flight plus the explicitly bounded background, keeping all derivatives grouped.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; quality, provenance and duplicate review pending",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "title": "DroneNoise Database v3",
+      "url": "https://doi.org/10.17866/rd.salford.22133411.v3",
+      "license": "CC-BY-4.0",
+      "coverage": "One Edzell field campaign on 2022-08-17; microphone/event names require provenance review.",
+      "duration_evidence": "174 WAV headers checked: nine calibration files, 165 other files with 3570 file-seconds. Removing microphone suffixes gives 20 candidate groups; sum of maximum group durations is 430 seconds, not verified unique time.",
+      "label_support": "Publisher drone-noise measurements; no verified continuous background or audible-event boundaries established.",
+      "access": "Pinned v3 metadata and 712704 bytes of bounded WAV prefixes retrieved. Full files and MD5s not verified.",
+      "blockers": [
+        "Candidate filename grouping is not an independence/non-overlap proof.",
+        "One campaign cannot supply independent-session diversity.",
+        "No established matched negative coverage."
+      ],
+      "next_action": "Audit spreadsheet and mic/event identities; stage the chosen view per original event. Keep the whole campaign in one partition.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; quality, provenance and duplicate review pending",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "idmt-berne-2022",
+      "title": "IDMT Berne 2022",
+      "url": "https://zenodo.org/records/17525811",
+      "license": "CC-BY-4.0",
+      "coverage": "Publisher: eight flights, three model families, one Berne campaign; static, linear and random flight, eight-microphone array.",
+      "duration_evidence": "Publisher reports approximately 106 minutes, released as 30-second excerpts. Parent reconstruction and actual duration not audited.",
+      "label_support": "Drone position/azimuth metadata; flight presence is not an audible-event annotation.",
+      "access": "Metadata retrieved: one archive, 1515112211 bytes, publisher MD5 recorded. Archive not transferred.",
+      "blockers": [
+        "Excerpts must be joined by original flight/campaign, not randomly split.",
+        "No verified drone-absent benchmark hours established."
+      ],
+      "next_action": "Inspect archive directory and coordinate metadata before transfer; retain original-flight identity and campaign grouping.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; quality, provenance and duplicate review pending",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "title": "Polish UAV/speech field recordings",
+      "url": "https://zenodo.org/records/15190811",
+      "license": "CC-BY-4.0",
+      "coverage": "Datasheet: 17 UAV units (repeated models), four locations, five date/site combinations, two recording-device types; hovering measurement grid plus operator speech.",
+      "duration_evidence": "19 distribution files, 12045473772 bytes; no measured unique hours.",
+      "label_support": "Measurement-position and drone identities; mixed speech/drone recordings do not establish background-only intervals.",
+      "access": "Metadata and datasheet retrieved; dataset license confirmed in API metadata. Seventeen audio/data ZIPs not transferred.",
+      "blockers": [
+        "Does not fill moving-flight coverage.",
+        "No verified negative exposure or audible-event annotations established.",
+        "Simultaneous instruments and derived exports must not count as extra time."
+      ],
+      "next_action": "Inspect archive members and paired-device provenance, then measure supported durations. Use as hardware/vehicle variety if accepted.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; quality, provenance and duplicate review pending",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "neaptide-v1",
+      "title": "NEAPTIDE",
+      "url": "https://zenodo.org/records/10512044",
+      "license": "CC-BY-NC-4.0",
+      "coverage": "Four drone models; hover, yaw, ascent/descent and translational manoeuvres. Release is segmented and includes propagation/ground corrections.",
+      "duration_evidence": "Seven distribution files, 176260894 bytes; no measured original elapsed time.",
+      "label_support": "Manoeuvre/noise-characterization metadata; original field mixtures and negative coverage not established.",
+      "access": "Metadata retrieved; calibration, documentation and five ZIPs listed. Full data not transferred.",
+      "blockers": [
+        "Noncommercial license must remain visible; do not merge blindly into a general-use product corpus.",
+        "Determine whether released WAVs are suitable field inputs after correction/segmentation.",
+        "No verified continuous negative exposure."
+      ],
+      "next_action": "Read correction/calibration methodology and original-recording provenance before selecting an experimental role.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; quality, provenance and duplicate review pending",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "audrok",
+      "title": "AuDroK original campaigns and aggregation",
+      "url": "https://mobilithek.info/offers/605778370199691264",
+      "license": null,
+      "coverage": "Paper describes 40 models and 23.42 hours across original experiments and collected external recordings; not all are dynamic field timelines.",
+      "duration_evidence": "Paper aggregate only; no acquired or de-duplicated hours established.",
+      "label_support": "Varies by original source; field, laboratory and collected web recordings must remain distinct.",
+      "access": "Offer and primary publications identified. Original bulk-download access and dataset terms unresolved.",
+      "blockers": [
+        "Includes externally collected material that may overlap previously consumed sources.",
+        "Anechoic/lab/web data cannot silently satisfy field-session requirements.",
+        "Source-specific license and raw access unresolved."
+      ],
+      "next_action": "Resolve original campaign access and the source manifest; audit overlap before any split or freshness claim.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; quality, provenance and duplicate review pending",
+      "detector_scores_generated_in_this_inventory": false
+    }
+  ]
+}

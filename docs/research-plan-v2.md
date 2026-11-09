@@ -6,6 +6,10 @@ material. Increased positive detections with widespread background alarms do not
 constitute detector improvement. Existing software audits remain useful, but
 another small same-session experiment is not the next milestone.
 
+A [first source feasibility inventory](../reports/corpus-inventory-v2/README.md)
+is now recorded. It has not passed the acquisition gate; candidate distribution
+files and repeated microphone views are not accepted unique hours.
+
 ## 1. Define the task and freeze the evaluation contract
 
 Detect acoustic evidence of a drone in continuous single-microphone field audio,

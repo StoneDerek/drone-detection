@@ -1,0 +1,12 @@
+{
+  "scope": "Header inventory only; no waveform decoding, MD5 validation, labels or detector scoring",
+  "metadata_sha256": "43f3b50a7eb7bf264454b4b344be2917574563e0513e04f9790fc58687066c03",
+  "wav_files": 174,
+  "header_payload_bytes": 712704,
+  "calibration_files_by_name": 9,
+  "noncalibration_file_seconds": 3570.0,
+  "filename_candidate_event_groups": 20,
+  "sum_of_max_duration_per_candidate_group_seconds": 430.0,
+  "verified_unique_timeline_hours": null,
+  "grouping_warning": "Candidate grouping does not establish timing, independence or non-overlap; do not count as accepted hours"
+}

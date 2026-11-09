@@ -93,9 +93,13 @@ writers, immutable snapshots, module modes, pinned revisions across upstream
 changes, notebook schema and code compilation. The dedicated CI job uses the
 separate CPU lock; the ordinary inference environment does not require PyTorch.
 
-The Codex host has no exposed NVIDIA GPU or authenticated Drive mount. **Actual
-Colab GPU execution, Drive persistence after runtime replacement and full audio
-training have not been verified here.** Notebook setup is ready for those checks.
+On 2026-11-09 the user reported the notebook output
+`Replayed an earlier invocation: True`. That confirms the later-invocation path
+ran against an earlier saved checkpoint. The flag also becomes true on an ordinary
+rerun; it does not by itself attest that the runtime was deleted. The Codex host
+has no exposed NVIDIA GPU or authenticated Drive mount; the full Colab report,
+GPU identity and runtime-replacement details have not been independently inspected.
+Full audio training remains unverified.
 
 To repeat the software checks on a Linux CPU host with Python 3.12 and uv 0.13.5:
 
