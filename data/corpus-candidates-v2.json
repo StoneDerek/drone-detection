@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "kind": "candidate inventory, not a training or evaluation manifest",
   "acquisition_gate_passed": false,
   "sources": [
@@ -120,7 +120,7 @@
         "Four publisher drone codes absent from the old table; condition tokens lack a complete temporal annotation mapping.",
         "Complete native-data checks are sampled so far; the 58-file CPU preparation step will validate every selected point member."
       ],
-      "next_action": "Run byte-preserving point preparation; obtain matched negative intervals and additional independent field campaigns/labels before training.",
+      "next_action": "Broaden beyond the audited 2.9407-hour original outdoor point subset: inventory remaining original lab and external-source packages, preserving parentage and source-specific terms. Do not interpret that subset as the complete available corpus.",
       "verified_unique_hours": null,
       "proposed_partition": null,
       "disposition": "candidate; quality, provenance and duplicate review pending",
@@ -153,7 +153,7 @@
       "url": "https://huggingface.co/datasets/matei219/drone-audio-detection-samples",
       "license": null,
       "coverage": "Card claims27.10 drone hours and33.81 background hours over180320 rows. Contains ground, onboard, fault and reused environmental datasets; mirrors are not independent capture collections.",
-      "duration_evidence": "Publisher card only, not acquired/de-duplicated hours; average positive row duration0.60s highlights excerpting.",
+      "duration_evidence": "Card reports 27.10 drone + 33.81 background = 60.91 file-hours; not independent real field time. Repeated views, mixtures, mirrors and source reuse require reconstruction.",
       "label_support": "Audio and binary label schema; origin/session mapping is not provided as separate schema columns. Inspect embedded audio paths before judging whether parentage can be recovered.",
       "access": "Public card retrieved; audio Parquet shards not transferred.",
       "blockers": [
@@ -166,6 +166,176 @@
       "proposed_partition": null,
       "disposition": "candidate; quality, provenance and duplicate review pending",
       "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "alemadi-2019",
+      "title": "Al-Emadi DroneAudioDataset",
+      "url": "https://github.com/saraalemadi/DroneAudioDataset",
+      "license": "Custom restricted educational/noncommercial academic license at inspected revision; third-party audio retains separate terms.",
+      "coverage": "Indoor propeller recordings plus artificial noise augmentation; binary/multiclass layouts reuse identical WAV blobs.",
+      "duration_evidence": "23,408 WAV paths but only 10,625 distinct Git WAV blobs; original capture time unresolved. Do not equate augmented clips with independent time.",
+      "label_support": "Publisher drone classes; unknown includes ESC-50 derivatives, Speech Commands noise and created silence.",
+      "access": "Full non-truncated Git tree and README inspected; no bulk WAV transfer.",
+      "blockers": [
+        "Original capture/session and augmentation lineage incomplete.",
+        "ESC-50 and binary/multiclass duplication must remain linked."
+      ],
+      "next_action": "Retain as an auxiliary indoor/augmentation candidate; reconstruct original-positive parentage before fitting.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "spcup19-egonoise",
+      "title": "SPCup19 Egonoise Dataset",
+      "url": "https://dregon.inria.fr/datasets/the-spcup19-egonoise-dataset/",
+      "license": "Publisher makes data available for research and education; no uniform standard CC license established.",
+      "coverage": "Ten team packages of drone-embedded recordings; multiple drone models and 1/4/8/16 microphone channels.",
+      "duration_evidence": "Unique capture hours not measured; channels and teams are not interchangeable with hours or independent sessions.",
+      "label_support": "Publisher ego-noise descriptions; individual team documentation linked.",
+      "access": "Original HTTPS page read successfully with standard HTTP client; package/document links recorded.",
+      "blockers": [
+        "Per-team conditions, original timelines, channel roles and terms need package-level inspection."
+      ],
+      "next_action": "Audit team documents/manifests and use appropriate onboard/mechanism role rather than counting as ground-listening field exposure.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "dregon",
+      "title": "DREGON UAV-embedded sound localization",
+      "url": "https://dregon.inria.fr/datasets/dregon/",
+      "license": "Publisher: personal, educational and academic use only.",
+      "coverage": "Drone-mounted eight-microphone array; room flights with external speech/noise, noise-only flights, individual motors and clean loudspeaker recordings.",
+      "duration_evidence": "Unique original capture time not measured. Clean, motor-only, mixed and in-flight recordings require separate accounting.",
+      "label_support": "Source position, motor/IMU logs and audio timestamps; these are not ground-microphone drone-presence annotations.",
+      "access": "Original HTTPS page read; per-flight audio and log links available.",
+      "blockers": [
+        "Raw extents and conditions not inventoried at member level."
+      ],
+      "next_action": "Inventory noise-only/motor recordings as auxiliary acoustic data and preserve all source/log relationships.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "yi-fault-2023",
+      "title": "Sound-Based Drone Fault Classification Using Multi-Task Learning",
+      "url": "https://zenodo.org/records/7779574",
+      "license": "CC-BY-4.0",
+      "coverage": "Three drone models, body-mounted microphones, tethered chamber manoeuvres; 0.5-second segments mixed with noise from five campus spots.",
+      "duration_evidence": "54,000 mixtures per model with two microphone views; raw independent capture time unresolved. Three TAR files total 7,622,850,560 bytes.",
+      "label_support": "Publisher fault/direction labels and filename source/background indices; published random mixture split is not adopted.",
+      "access": "Zenodo API file sizes/checksums and primary paper inspected; no full TAR downloaded.",
+      "blockers": [
+        "Mixtures and parallel microphones repeat underlying captures.",
+        "Need base drone/background IDs across publisher splits."
+      ],
+      "next_action": "Inspect TAR directory/filename lineage and retain as auxiliary onboard/fault acoustics, not an independent outdoor ground benchmark.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "urbansound8k",
+      "title": "UrbanSound8K",
+      "url": "https://urbansounddataset.weebly.com/urbansound8k.html",
+      "license": "CC-BY-NC; inspected original description specifies 3.0, soundata has a conflicting 4.0 constant. Preserve source terms/credits.",
+      "coverage": "8,732 short foreground-class excerpts from 1,297 Freesound parent IDs; variable native formats.",
+      "duration_evidence": "CSV sums to 31,504.215497 excerpt seconds (8.7512 h); within-parent interval union is 14,264.203667 seconds (3.9623 h). Metadata time, not reviewed absence.",
+      "label_support": "Publisher event class and salience; not exhaustive drone-absence annotation.",
+      "access": "Complete CSV obtained from mirror and exactly MD5-matched to soundata release index; official 6 GB archive route recorded.",
+      "blockers": [
+        "94 parent IDs shared with ESC-50; some parents cross publisher folds.",
+        "Parent file IDs do not establish unique recordists, sessions or sites."
+      ],
+      "next_action": "Acquire original native excerpts plus credits; group by parent including cross-source links, and use as background/confuser supervision.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "tut2017-evaluation",
+      "title": "TUT Acoustic Scenes 2017 evaluation",
+      "url": "https://zenodo.org/records/1040168",
+      "license": "Custom noncommercial research EULA; see publisher doc ZIP, not a blanket CC/MIT grant.",
+      "coverage": "1,620 ten-second clips across 15 scenes; 109 original recording IDs recovered from mapping.",
+      "duration_evidence": "16,200 represented seconds (4.5 h), with no within-parent interval overlap in metadata. Five outdoor scenes account for 1.5 h.",
+      "label_support": "Scene labels; cannot automatically certify drone-absent continuous benchmark exposure.",
+      "access": "Meta/doc ZIPs fully downloaded, publisher MD5 and extracted member CRC verified; audio not downloaded.",
+      "blockers": [
+        "Capture-day/site independence and drone-absence support need assessment.",
+        "Contiguous source intervals are excerpts, not new sessions."
+      ],
+      "next_action": "Acquire native audio with mapping/EULA and retain publisher-original groups alongside development release.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "tut2017-development",
+      "title": "TUT Acoustic Scenes 2017 development",
+      "url": "https://zenodo.org/records/400515",
+      "license": "Custom noncommercial research EULA; see publisher doc ZIP.",
+      "coverage": "4,680 ten-second clips across 15 scenes; 248 original recording IDs, disjoint IDs from evaluation metadata.",
+      "duration_evidence": "46,800 represented seconds (13 h), with no within-parent interval overlap. Five outdoor scenes account for 4.3333 h.",
+      "label_support": "Publisher scene labels; background training candidate with disclosed label strength.",
+      "access": "API and full small metadata/doc ZIPs verified against publisher MD5; audio not downloaded.",
+      "blockers": [
+        "Disjoint recording IDs do not establish disjoint locations, devices or capture dates."
+      ],
+      "next_action": "Include full original-source release in background intake rather than limiting acquisition to the DADS-listed evaluation subset.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "dnc",
+      "title": "Dataset for Noise Classification",
+      "url": "https://doi.org/10.14279/depositonce-11645",
+      "license": "Original DepositOnce audio record explicitly links MIT license; source record checked separately from GitHub code.",
+      "coverage": "4,377 mechanic/melodic/quiet recordings collected through browser audio APIs on Windows/Mac computers.",
+      "duration_evidence": "Actual duration/unique capture time not measured. Original DNC.zip is 4,212,000,459 bytes; no duration inferred from archive size.",
+      "label_support": "Publisher background-noise classes, not exhaustive outdoor drone-absence labels.",
+      "access": "Original repository README, DepositOnce record, small README and bitstream size/MD5 obtained; live bulk audio not downloaded.",
+      "blockers": [
+        "Recorder/session identities and grouping beyond timestamp-like filenames unresolved."
+      ],
+      "next_action": "Inventory original ZIP, inspect native format and recording groups, then use suitable background/confuser recordings.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "candidate; source role provisional, not accepted study exposure",
+      "detector_scores_generated_in_this_inventory": false
+    },
+    {
+      "source_id": "esc50",
+      "title": "ESC-50",
+      "url": "https://github.com/karolpiczak/ESC-50",
+      "license": "CC-BY-NC-3.0 for ESC-50; retain per-source credits and distinguish ESC-10 terms.",
+      "coverage": "2,000 five-second recordings in 50 classes; 1,524 Freesound parent IDs in current metadata.",
+      "duration_evidence": "10,000 nominal file seconds (2.7778 h). Original offsets are absent from this CSV, so within-parent unique time is unresolved.",
+      "label_support": "Publisher foreground classes; already used extensively in project development and not fresh blind evidence.",
+      "access": "Official complete metadata CSV and README read; existing project audio remains development material.",
+      "blockers": [
+        "94 Freesound parent IDs shared with UrbanSound8K.",
+        "Al-Emadi unknown filenames map to all 2,000 ESC-50 originals; do not count as independent data.",
+        "Four source IDs cross publisher folds in inspected metadata; use own parent grouping."
+      ],
+      "next_action": "Retain as consumed development/confuser material and join all linked originals/derivatives across corpus splits.",
+      "verified_unique_hours": null,
+      "proposed_partition": null,
+      "disposition": "consumed development source; no fresh blind-test claim",
+      "detector_scores_generated_in_this_inventory": false
     }
-  ]
+  ],
+  "acceptance_basis": "No new frozen study manifest yet; this is not a 100-hour threshold or a claim of public-data shortage.",
+  "audit_report": "reports/source-scope-audit-v3/README.md"
 }

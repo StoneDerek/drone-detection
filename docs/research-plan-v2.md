@@ -6,15 +6,17 @@ material. Increased positive detections with widespread background alarms do not
 constitute detector improvement. Existing software audits remain useful, but
 another small same-session experiment is not the next milestone.
 
-A [first source feasibility inventory](../reports/corpus-inventory-v2/README.md)
-is now recorded. It has not passed the acquisition gate; candidate distribution
-files and repeated microphone views are not accepted unique hours.
+A [broader original-source audit](../reports/source-scope-audit-v3/README.md)
+now covers all ten sources identified by the user, alongside the earlier field
+and background candidates. Source availability, acquisition and suitability for
+a particular experiment are separate statuses. There is no 100-hour readiness
+gate; that earlier number was an unvalidated planning estimate.
 
 The [completed outdoor intake audit](../reports/outdoor-source-audit-v1/README.md)
 adds about 2.94 point-microphone file-hours from one campaign. The much larger
 recorder-view count includes averaged arrays. Matched negative labels and
-independent capture diversity remain open requirements; storage volume does
-not pass that gate.
+independent capture diversity remain open requirements. This subset does not
+establish either the size of the entire AuDroK collection or a public-data shortage.
 
 ## 1. Define the task and freeze the evaluation contract
 
@@ -40,12 +42,18 @@ merging must be defined before evaluation. Detection of a physically present but
 acoustically unobservable drone is a separate claim. Report difficult and
 uncertain examples separately without using model outputs to decide audibility.
 
-The blind evaluation budget should include at least 100 distinct drone events
-and 30 hours of real drone-absent field audio across multiple capture groups.
-Those counts are initial screening requirements, not automatic statistical
-proof of the targets. Report confidence intervals and session/site variation;
-collect more evaluation exposure when uncertainty is too wide. Do not treat
-overlapping windows as independent observations.
+Size the blind evaluation separately from training, using the required precision
+and condition coverage. For example, with zero false alarm episodes in T hours,
+the one-sided 95% Poisson upper rate is -log(0.05)/T, approximately 3/T. About
+30 hours with zero episodes would only put that bound near 0.1/hour under the
+Poisson assumptions; it would not establish performance in unrepresented
+conditions. Clustering by session, nonstationarity and observed alarms change
+the required exposure. Report session-aware uncertainty and condition breakdowns.
+Likewise, observing 90 detections among 100 independent events gives an estimated
+90% recall, with a 95% Wilson interval of approximately 82.6–94.5%, rather than
+proof of at least 90% recall. Related events require grouped uncertainty estimates.
+The earlier 100-event/30-hour suggestion is not a universal minimum or sufficient
+evaluation design. Do not treat overlapping windows as independent observations.
 
 **Exit artifact:** a versioned evaluation protocol and an explicit label and
 coverage specification. Thresholds are selected on development data, then fixed
@@ -54,16 +62,22 @@ evidence of generalization.
 
 ## 2. Establish a large, varied corpus before another training study
 
-Initial acquisition targets for the whole corpus, including reserved evaluation:
+Determine the needed quantity from coverage and grouped learning curves. The
+previous 100-hour total, 20/80-hour class allocation, 50-session count, model/site/
+device counts, dynamic-flight fraction and concentration caps were proposals
+without a task-specific sample-size analysis. They are withdrawn as mandatory
+requirements. A fixed number of hours cannot certify generalization, and no
+current result establishes the amount needed for this task.
 
-- At least 100 hours of unique real field timelines, aiming for at least 20 hours
-  with supported drone-present intervals and 80 hours of background exposure.
-- At least 50 documented capture sessions, 10 drone models, 5 distinct sites and
-  3 recording device types, with explicit measures of concentration by campaign.
-- At least half of the accepted drone-present time should involve moving flight
-  or changing flight state. Limit any one campaign/source to 25% of accepted
-  training hours and any one session to 10% of positive training time. Report
-  missing strata; dozens of tiny excerpts cannot satisfy session diversity.
+Acquire broadly from the identified original sources while recording:
+
+- Supported drone-present time, background time and unknown/unlabelled time;
+  file duration is not automatically positive duration.
+- Original capture groups, campaigns, sites, dates, drone models and recording
+  devices. Report their distributions and missing metadata, not just totals.
+- Moving flight and changing flight state, alongside static conditions. Measure
+  concentration by campaign and session so extra windows from one recording do
+  not masquerade as added coverage.
 - Genuine approach/recede, passes, turns, throttle/load changes, takeoff/landing
   and intermittent audibility, alongside hovering. Include FPV and conventional
   multirotors and hard negatives such as fans, engines, aircraft and tools.
@@ -71,12 +85,36 @@ Initial acquisition targets for the whole corpus, including reserved evaluation:
   collections. Positive-only collections remain separately identified auxiliary
   material. Synthetic mixtures are separately accounted training augmentation.
 
-These are proposed acquisition requirements, not verified available quantities
-or proof that exactly 100 hours is sufficient. More clips cannot compensate for
-missing conditions. The feasibility inventory must say whether these requirements
-can actually be met and what access, collection, annotation and resources cost.
-An unmet requirement is reported as a gap; it is not quietly filled with extra
-crops or replayed/synthesized audio.
+These are coverage dimensions, not a claim that all combinations are necessary
+or publicly available. Inspect the original releases before deciding which gaps
+require new collection. DADS membership is a source lead, not a quality rating.
+Do not assume a public-data shortage from a small audited subset, and do not
+fill a missing condition with extra crops or replayed/synthesized audio.
+
+### Estimate training-data needs empirically
+
+After broad intake and source grouping, reserve the blind evaluation and a
+separate, varied development set. Form nested training subsets by adding whole
+capture groups, with class/condition coverage tracked at each size. Where there
+are enough groups, use several predeclared sizes, such as 25%, 50% and 100% of
+available groups, and repeat group selection/training seeds to expose selection
+variance. Percentages are study design choices, not readiness thresholds.
+
+Use the same subsets and development conditions for the neural/non-neural
+comparison below. Give each fit enough optimization to converge and select its
+global alarm threshold on development data. Plot event recall, false episodes,
+alarm occupancy and delay against both independent group count and unique time,
+including per-condition errors and uncertainty. Do not repeatedly inspect the
+blind set to construct these curves.
+
+Keep acquiring when extra independent groups improve held-out development
+performance or fill a demonstrated coverage gap. A flat curve with unacceptable
+errors triggers investigation of labels, source/class confounding, optimization
+and missing acoustic information; it does not prove that more of the same data
+will help. Stop scaling for the current study when its predeclared development
+targets and precision are met and additional groups have little material benefit,
+then freeze the candidate for the separate blind evaluation. Until these curves
+exist, report the required training quantity as unknown, not as 100 hours.
 
 Count original elapsed time once across channels, overlapping excerpts,
 resampling, augmentations and mirrors. Record original capture/flight IDs,
@@ -85,9 +123,12 @@ and links between derivatives. Retain native source precision and keep
 transformations reversible. Unknown provenance does not become an independent
 recording merely because it has another filename.
 
-Use publisher human annotations where available. Presence somewhere in a long
-recording does not label each crop positive. A dominant non-drone sound does not
-certify absence. Train on supported intervals/whole labelled inputs; use an
+Use publisher human annotations where available. Their supplied class labels
+can support auxiliary training without requiring the user to relabel every
+second. Record label strength and check representative samples. Presence
+somewhere in a long recording does not label each crop positive; a dominant
+non-drone sound does not certify continuous drone absence. Train on supported
+intervals/whole labelled inputs; use an
 explicitly justified recording-level objective for weak bags or exclude them
 from the first supervised comparison. Final event/negative-time evaluation
 requires annotations that support those claims. If public labels are insufficient,
@@ -122,8 +163,10 @@ third-party reproduction repositories do not provide those training data.
 
 **Exit artifact:** an acquired-data inventory and coverage matrix with measured
 unique hours, verified groups, label quality, overlap, actual access and gaps;
-plus a frozen acquisition/split manifest. If the public material is insufficient,
-produce the specific acquisition/collection budget before further model work.
+plus a frozen acquisition/split manifest. If the completed source audit exposes
+a specific unmet coverage or label need, produce the corresponding acquisition/
+annotation proposal. Do not declare a shortage solely because an arbitrary hour
+target has not been reached.
 
 ## 3. Reserve genuinely unseen evaluation before development
 
@@ -237,8 +280,8 @@ precedes an actual audio throughput pilot and integration of the selected CNN.
 
 The Codex workspace has limited free disk and no exposed NVIDIA GPU; it is not
 the bulk-storage/training host for the proposed corpus. A Colab GPU allocation
-still needs to be verified in the notebook. For scale, 100 hours of
-48kHz mono PCM needs about 35 GB at 16-bit or 69 GB at 32-bit before compression,
+still needs to be verified in the notebook. For storage planning, each hour of
+48kHz mono PCM needs about 0.346 GB at 16-bit or 0.691 GB at 32-bit before compression,
 with substantially more space for multichannel originals and derived data.
 
 Budget durable storage (initially 100–200GB, revised from the inventory), a

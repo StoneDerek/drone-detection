@@ -10,9 +10,14 @@ The user's latest direction supersedes another small matched-case or
 same-session study as the next milestone: the current results are unacceptable,
 and the next phase must secure substantially larger, independently varied real
 data and use literature-based baselines. Follow
-[the data-first plan](research-plan-v2.md), including its access/coverage/resource
-gate and a reserved continuous benchmark. Its numerical budgets are proposed
-requirements, not verified available quantities or achieved performance.
+[the data-first plan](research-plan-v2.md), including source/label/coverage checks
+and a reserved continuous benchmark. The previous 100-hour and diversity-count
+budgets were unvalidated proposals and are withdrawn as readiness requirements.
+Training quantity will be assessed with grouped learning curves; evaluation
+exposure is sized separately for uncertainty and coverage. The
+[broader source audit](../reports/source-scope-audit-v3/README.md) covers all ten
+user-identified original sources. The small audited AuDroK subset does not
+establish the amount of suitable public data available.
 
 | Priority | Established work | Still open |
 | --- | --- | --- |

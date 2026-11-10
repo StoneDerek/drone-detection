@@ -57,7 +57,7 @@ and unresolved coverage/label/provenance gaps.
 [candidate-files-v2.jsonl](candidate-files-v2.jsonl) records publisher distribution
 files and checksums, including archives/documents. Neither file is a training
 manifest or an independence claim. See the
-[feasibility audit](../reports/corpus-inventory-v2/README.md) before bulk transfer
+[original-source audit](../reports/source-scope-audit-v3/README.md) before bulk transfer
 or split assignment.
 
 [source-lock-v1.json](source-lock-v1.json) freezes the completed intake references.

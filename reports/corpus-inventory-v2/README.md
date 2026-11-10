@@ -8,7 +8,10 @@ made. The existing scored sources remain consumed development material.
 
 The [second acquisition audit](../corpus-acquisition-v2/README.md) now resolves
 AuDroK public file access, acquires a native pilot and adds RealMAN/DADS candidates.
-The findings below preserve the first-pass scope; the current registry has eight sources.
+The findings below preserve the first-pass scope. The
+[broader original-source audit](../source-scope-audit-v3/README.md) now covers all
+ten sources identified by the user, with 17 entries in the expanded registry
+including separate TUT releases and the earlier candidates.
 
 The [candidate registry](../../data/corpus-candidates-v2.json) records the current sources,
 roles, licenses, limitations and the next action for each. The
@@ -91,6 +94,8 @@ negative time.
 In parallel, identify substantial independently captured background timelines
 and dynamic-flight campaigns with usable annotations. General environmental
 class labels can support auxiliary training, but do not automatically certify
-drone-absent benchmark hours. These candidates do not yet establish the proposed
-100 hours, 50 sessions, dynamic-flight fraction or 30 blind negative hours.
-Do not launch another small training study to compensate for that gap.
+drone-absent benchmark hours. The former 100-hour, 50-session and related numeric
+acquisition gates were unvalidated proposals and are superseded by the revised
+[research plan](../../docs/research-plan-v2.md). Coverage and grouped learning
+curves determine acquisition needs; evaluation exposure has a separate precision
+requirement. This limited inventory does not establish a public-data shortage.

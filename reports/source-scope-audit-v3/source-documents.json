@@ -1,0 +1,364 @@
+{
+  "retrieved_utc_date": "2026-11-10",
+  "kind": "metadata/document identities, not verified bulk audio",
+  "documents": [
+    {
+      "file": "urbansound-index.json",
+      "url": "https://zenodo.org/records/11176928/files/urbansound8k_index_1.0.json?download=1",
+      "resolved_url": "https://zenodo.org/records/11176928/files/urbansound8k_index_1.0.json?download=1",
+      "bytes": 1197559,
+      "sha256": "eb1773e82eb574fb4bf839e6ddae1c40025045bf14598791d2ead16e51350c23",
+      "md5": "1c4940e08c1305c49b592f3d9c103e6f",
+      "content_type": "text/plain; charset=utf-8,text/plain; charset=utf-8"
+    },
+    {
+      "file": "esc50.csv",
+      "url": "https://raw.githubusercontent.com/karolpiczak/ESC-50/master/meta/esc50.csv",
+      "resolved_url": "https://raw.githubusercontent.com/karolpiczak/ESC-50/master/meta/esc50.csv",
+      "bytes": 93742,
+      "sha256": "ca660da60191a97de289983a05821c9382d852a38a2ba8428980816b68cf6246",
+      "md5": "54a0d0055a10bb7df84ad340a148722e",
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "dnc.html",
+      "url": "https://depositonce.tu-berlin.de/items/aa9f01e1-3eb7-44f9-a5c8-fe1b4c858024",
+      "resolved_url": "https://depositonce.tu-berlin.de/items/aa9f01e1-3eb7-44f9-a5c8-fe1b4c858024",
+      "bytes": 536621,
+      "sha256": "d6e1fd65ace71ff482f369abe7607ef4fd4fb64acaaa2d5d93485ace1b047e6e",
+      "md5": "fc2ca3f494519d2a2102be071992c167",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "file": "tut2017-dev.json",
+      "url": "https://zenodo.org/api/records/400515",
+      "resolved_url": "https://zenodo.org/api/records/400515",
+      "bytes": 8929,
+      "sha256": "99551303dbf2b5e765a9c70855350b3f36cadac7767dd8bc91b17b1a2d33e391",
+      "md5": "25639cd6b46d708110434cd7bf04907e",
+      "content_type": "application/json"
+    },
+    {
+      "file": "alemadi-tree.json",
+      "url": "https://api.github.com/repos/saraalemadi/DroneAudioDataset/git/trees/master?recursive=1",
+      "resolved_url": "https://api.github.com/repos/saraalemadi/DroneAudioDataset/git/trees/master?recursive=1",
+      "bytes": 6310505,
+      "sha256": "bf5ac2c618bf58363b108fffb09ae353faaa6413b5ca09b75c8726ea39030745",
+      "md5": "c3e201fe5e8ffc00f457667f12f64d6e",
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "file": "fault-paper.pdf",
+      "url": "https://arxiv.org/pdf/2304.11708",
+      "resolved_url": "https://arxiv.org/pdf/2304.11708",
+      "bytes": 1011138,
+      "sha256": "b4bb4c02d80161b711691fe2579513bd702a40bbec9224ae14c2aed6b0516d63",
+      "md5": "da1ed7c0a641720e4af65d9c5bde5398",
+      "content_type": "application/pdf"
+    },
+    {
+      "file": "urban-official.html",
+      "url": "https://urbansounddataset.weebly.com/urbansound8k.html",
+      "resolved_url": "https://urbansounddataset.weebly.com/urbansound8k.html",
+      "bytes": 32158,
+      "sha256": "732c6ab36cab37103262f3d1f78b4044948eada77b46fb702380159a81f674f3",
+      "md5": "6db1afa634bb39e70da498ae625a7c2d",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "file": "TUT-acoustic-scenes-2017-evaluation.meta.zip",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.meta.zip/content",
+      "resolved_url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.meta.zip/content",
+      "bytes": 25517,
+      "sha256": "8eaa45a682ffe1eb430c7068e4b2d0ec1f7750522a9825610fc364cbc0b2e931",
+      "md5": "200eee9493e8044403e1326e3d05cfde",
+      "content_type": "application/octet-stream,application/octet-stream"
+    },
+    {
+      "file": "TUT-acoustic-scenes-2017-evaluation.doc.zip",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.doc.zip/content",
+      "resolved_url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.doc.zip/content",
+      "bytes": 54545,
+      "sha256": "e6417d6597c701e0c4d221d0df00871b6fb1e60faa141fb93a205f6b657a6612",
+      "md5": "53709a07416ea3b617c02fcf67dbeb9c",
+      "content_type": "application/octet-stream,application/octet-stream"
+    },
+    {
+      "file": "urbansound.csv",
+      "url": "https://raw.githubusercontent.com/MOULIK-RAZDAN/AUDIO-CLASSIFICATION/main/UrbanSound8K.csv",
+      "bytes": 494104,
+      "sha256": "b207f7a53f9e5eb02a5dd71d58fb8b66c88c24c0637b926dc72d9d400a6a2354",
+      "md5": "5015c37ce7d54c0bb8cd40a0b5ee2074"
+    },
+    {
+      "file": "dnc-readme.txt",
+      "url": "https://depositonce.tu-berlin.de/bitstreams/df048a48-1dcd-4c27-b6c5-26892e724987/download",
+      "bytes": 522,
+      "sha256": "f972d3fa911ba0783b44c448c6e8a6ef8438e056f9393a48b0bf8ab1a6fdfdd8",
+      "md5": "f53aeee2632ec9d0549ef620d9ac2d1f"
+    },
+    {
+      "file": "TUT-acoustic-scenes-2017-development.meta.zip",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.meta.zip/content",
+      "bytes": 104321,
+      "sha256": "09531d15630f709d1f44c1977f20ebb23c18919316ef40923a02eb22156588f5",
+      "md5": "9007fd4772d816590c5db5f5e9568f5d"
+    },
+    {
+      "file": "TUT-acoustic-scenes-2017-development.doc.zip",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.doc.zip/content",
+      "bytes": 54796,
+      "sha256": "e8734577aea54d2dab7ee3f1df119e5b60c26250ad6bb8cc1e423849d9411d84",
+      "md5": "2065495aaf3f1103e795c9899e2af1df"
+    },
+    {
+      "file": "dregon.html",
+      "url": "https://dregon.inria.fr/datasets/dregon/",
+      "bytes": 86525,
+      "sha256": "49134e694f0365da57afe16c79136f097f739af9ec95e9d875078ae70f0320cc",
+      "representation": "HTTP response body"
+    },
+    {
+      "file": "spcup19.html",
+      "url": "https://dregon.inria.fr/datasets/the-spcup19-egonoise-dataset/",
+      "bytes": 59732,
+      "sha256": "03da2db6c75fe2d92adffbdbae8904fa95c34fc98c15a4755b73734fa1d926a3",
+      "representation": "HTTP response body"
+    },
+    {
+      "file": "fault.json",
+      "url": "https://zenodo.org/api/records/7779574",
+      "bytes": 6996,
+      "sha256": "2573ff34bc2d41a778ce98b56691f270da3a3f7cf982350bb8bd564e32178b7d",
+      "representation": "HTTP response body"
+    },
+    {
+      "file": "tut2017-eval.json",
+      "url": "https://zenodo.org/api/records/1040168",
+      "bytes": 6910,
+      "sha256": "5bb51428b185a328e145de9296be0dcf44e9b699468763452490fa8aec59a3ac",
+      "representation": "HTTP response body"
+    },
+    {
+      "file": "dnc-bitstream.json",
+      "url": "https://api-depositonce.tu-berlin.de/server/api/core/bitstreams/5ad5e59d-a241-4005-b2a4-ed7f14cebfed",
+      "bytes": 1786,
+      "sha256": "3a247013bf84890e7d4a253bdcce74c21eb5a1b6caf855bb5bb239bb2b873448",
+      "representation": "HTTP response body"
+    },
+    {
+      "file": "alemadi-readme.md",
+      "url": "https://github.com/saraalemadi/DroneAudioDataset/blob/master/README.md",
+      "bytes": 2876,
+      "sha256": "41cf6129325ad8564193cce4e6740ad2fef53d7cf587474cf053bec0e739caa8",
+      "representation": "connector-returned text"
+    },
+    {
+      "file": "dnc-github-readme.md",
+      "url": "https://github.com/zequeira/DNC/blob/main/README.md",
+      "bytes": 2832,
+      "sha256": "e00e02318481d2490f933e22e577fb86e6a2e2ef5f70d6c2f2fadbb46805de0c",
+      "representation": "connector-returned text"
+    },
+    {
+      "file": "esc50-readme.md",
+      "url": "https://github.com/karolpiczak/ESC-50/blob/master/README.md",
+      "bytes": 30513,
+      "sha256": "60a3ae8cecca8488f5381ef54f302396dbd1b0d82ae0d14afc92a4bfd6b34501",
+      "representation": "connector-returned text"
+    },
+    {
+      "file": "soundata-urbansound-loader.py",
+      "url": "https://github.com/soundata/soundata/blob/main/soundata/datasets/urbansound8k.py",
+      "bytes": 13433,
+      "sha256": "ca538effd22b1656f5b5395e88bb0a7469ffa34e154a5be6b3b187e842125e46",
+      "representation": "connector-returned text"
+    }
+  ],
+  "publisher_distribution_files": [
+    {
+      "source_record_id": 7779574,
+      "name": "drone_C.tar",
+      "bytes": 2533406720,
+      "checksum": "md5:54b1e10b92d572551942a437130ecb36",
+      "url": "https://zenodo.org/api/records/7779574/files/drone_C.tar/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 7779574,
+      "name": "drone_B.tar",
+      "bytes": 2535034880,
+      "checksum": "md5:b3d19705fdc1f31f618c1f4d2682f2a4",
+      "url": "https://zenodo.org/api/records/7779574/files/drone_B.tar/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 7779574,
+      "name": "drone_A.tar",
+      "bytes": 2554408960,
+      "checksum": "md5:14a6fd11add6aedb6e53404df7811147",
+      "url": "https://zenodo.org/api/records/7779574/files/drone_A.tar/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 1040168,
+      "name": "TUT-acoustic-scenes-2017-evaluation.audio.2.zip",
+      "bytes": 1073362972,
+      "checksum": "md5:4085ef5fa286f2169074993a4e405953",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.2.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 1040168,
+      "name": "TUT-acoustic-scenes-2017-evaluation.meta.zip",
+      "bytes": 25517,
+      "checksum": "md5:200eee9493e8044403e1326e3d05cfde",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.meta.zip/content",
+      "whole_file_verified_here": true
+    },
+    {
+      "source_record_id": 1040168,
+      "name": "TUT-acoustic-scenes-2017-evaluation.audio.3.zip",
+      "bytes": 1071521152,
+      "checksum": "md5:cac432579e7cf2dff0aec7aaed248956",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.3.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 1040168,
+      "name": "TUT-acoustic-scenes-2017-evaluation.audio.1.zip",
+      "bytes": 1071856687,
+      "checksum": "md5:3d6dda4445871e9544e0fefe7d14c7d9",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.1.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 1040168,
+      "name": "TUT-acoustic-scenes-2017-evaluation.doc.zip",
+      "bytes": 54545,
+      "checksum": "md5:53709a07416ea3b617c02fcf67dbeb9c",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.doc.zip/content",
+      "whole_file_verified_here": true
+    },
+    {
+      "source_record_id": 1040168,
+      "name": "TUT-acoustic-scenes-2017-evaluation.audio.4.zip",
+      "bytes": 382756463,
+      "checksum": "md5:664bf09c3d24bd26c6b587f1d709de36",
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.4.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.meta.zip",
+      "bytes": 104321,
+      "checksum": "md5:9007fd4772d816590c5db5f5e9568f5d",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.meta.zip/content",
+      "whole_file_verified_here": true
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.error.zip",
+      "bytes": 1432,
+      "checksum": "md5:802c700b021769e52a2c1e3b9c117a1b",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.error.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.6.zip",
+      "bytes": 1072667888,
+      "checksum": "md5:165a201db800d3ea76fce5a9c2bd97d7",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.6.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.9.zip",
+      "bytes": 1072087738,
+      "checksum": "md5:0805dcf5d8e6871dc9610182b2efb93a",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.9.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.8.zip",
+      "bytes": 1072381222,
+      "checksum": "md5:35043f25123439392338c790494c7a19",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.8.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.7.zip",
+      "bytes": 1073417661,
+      "checksum": "md5:c7d79db84264401c0f8680dcc36013ad",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.7.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.doc.zip",
+      "bytes": 54796,
+      "checksum": "md5:2065495aaf3f1103e795c9899e2af1df",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.doc.zip/content",
+      "whole_file_verified_here": true
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.2.zip",
+      "bytes": 1073453613,
+      "checksum": "md5:c26861e05147dc319b4250eb103d9d99",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.2.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.4.zip",
+      "bytes": 1072822038,
+      "checksum": "md5:1732b03afe8c53ef8bba80ba14766e57",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.4.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.3.zip",
+      "bytes": 1073077819,
+      "checksum": "md5:a4815775f8a5e629179726ee4cd4f55a",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.3.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.5.zip",
+      "bytes": 1072644652,
+      "checksum": "md5:611be754a0c951185c6ae4b7643c19a0",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.5.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.1.zip",
+      "bytes": 1071445248,
+      "checksum": "md5:251325a9afaaad0326ad1c57f57d514a",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.1.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": 400515,
+      "name": "TUT-acoustic-scenes-2017-development.audio.10.zip",
+      "bytes": 1046262120,
+      "checksum": "md5:5df83a191295a04e290b125c634e13e7",
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.10.zip/content",
+      "whole_file_verified_here": false
+    },
+    {
+      "source_record_id": "depositonce-11645",
+      "name": "DNC.zip",
+      "bytes": 4212000459,
+      "checksum": "md5:9b74793cd896b0e0c78854eb3a551486",
+      "url": "https://api-depositonce.tu-berlin.de/server/api/core/bitstreams/5ad5e59d-a241-4005-b2a4-ed7f14cebfed/content",
+      "whole_file_verified_here": false
+    }
+  ]
+}
