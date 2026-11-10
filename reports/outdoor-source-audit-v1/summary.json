@@ -1,0 +1,517 @@
+{
+  "wav_files": 224,
+  "measurement_groups": 56,
+  "point_microphone_files": 56,
+  "array_mean_files": 168,
+  "all_view_file_seconds": 41113.20526077098,
+  "point_microphone_file_seconds": 10278.301315192744,
+  "publisher_drone_codes": [
+    7,
+    16,
+    23,
+    35,
+    36,
+    43,
+    44
+  ],
+  "condition_file_seconds": {
+    "F-15m": 1366.598820861678,
+    "F-30m": 1513.488253968254,
+    "S-15m": 2329.2749206349204,
+    "S-30m": 2374.4377324263037,
+    "var": 2694.5015873015873
+  },
+  "measurements": [
+    {
+      "measurement_key": "01-36-S-15m",
+      "publisher_measurement_number": 1,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 219.55628117913832,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "02-36-F-15m",
+      "publisher_measurement_number": 2,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 112.02467120181406,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "03-36-S-30m",
+      "publisher_measurement_number": 3,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 214.598820861678,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "04-36-F-30m",
+      "publisher_measurement_number": 4,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 121.9047619047619,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "05-36-var",
+      "publisher_measurement_number": 5,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 194.60643990929705,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "06-36-S-15m",
+      "publisher_measurement_number": 6,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 219.50984126984127,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "07-36-F-15m",
+      "publisher_measurement_number": 7,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 120.14004535147393,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "08-36-S-30m",
+      "publisher_measurement_number": 8,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 224.86204081632653,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "09-36-F-30m",
+      "publisher_measurement_number": 9,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 144.66031746031746,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "10-36-var",
+      "publisher_measurement_number": 10,
+      "publisher_drone_code": 36,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 193.0507029478458,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "12-43-S-15m",
+      "publisher_measurement_number": 12,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 218.2791836734694,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "13-43-F-15m",
+      "publisher_measurement_number": 13,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 144.69514739229024,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "14-43-S-30m",
+      "publisher_measurement_number": 14,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 235.75219954648526,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "15-43-F-30m",
+      "publisher_measurement_number": 15,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 150.8019954648526,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "16-43-var",
+      "publisher_measurement_number": 16,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 213.67002267573696,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "17-35-S-15m",
+      "publisher_measurement_number": 17,
+      "publisher_drone_code": 35,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 158.85931972789115,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "18-35-F-15m",
+      "publisher_measurement_number": 18,
+      "publisher_drone_code": 35,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 87.46956916099774,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "19-35-S-30m",
+      "publisher_measurement_number": 19,
+      "publisher_drone_code": 35,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 178.01578231292518,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "20-35-F-30m",
+      "publisher_measurement_number": 20,
+      "publisher_drone_code": 35,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 109.92326530612245,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "21-35-var",
+      "publisher_measurement_number": 21,
+      "publisher_drone_code": 35,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 152.11392290249432,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "22-16-S-15m",
+      "publisher_measurement_number": 22,
+      "publisher_drone_code": 16,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 188.74340136054423,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "23-16-F-15m",
+      "publisher_measurement_number": 23,
+      "publisher_drone_code": 16,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 109.57496598639456,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "24-16-S-30m",
+      "publisher_measurement_number": 24,
+      "publisher_drone_code": 16,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 208.8518820861678,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "25-16-F-30m",
+      "publisher_measurement_number": 25,
+      "publisher_drone_code": 16,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 133.14321995464852,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "26-16-var",
+      "publisher_measurement_number": 26,
+      "publisher_drone_code": 16,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 290.62095238095236,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "27-43-var",
+      "publisher_measurement_number": 27,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 291.4917006802721,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "28-43-S-15m",
+      "publisher_measurement_number": 28,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 279.6843537414966,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "29-43-F-15m",
+      "publisher_measurement_number": 29,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 189.63736961451247,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "31-43-S-30m",
+      "publisher_measurement_number": 31,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 303.40353741496597,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "32-43-F-30m",
+      "publisher_measurement_number": 32,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 206.6227664399093,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "33-43-var",
+      "publisher_measurement_number": 33,
+      "publisher_drone_code": 43,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 322.07238095238097,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "34-44-S-15m",
+      "publisher_measurement_number": 34,
+      "publisher_drone_code": 44,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 232.97741496598638,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "35-44-F-15m",
+      "publisher_measurement_number": 35,
+      "publisher_drone_code": 44,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 121.3126530612245,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "36-44-S-30m",
+      "publisher_measurement_number": 36,
+      "publisher_drone_code": 44,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 213.33333333333334,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "37-44-F-30m",
+      "publisher_measurement_number": 37,
+      "publisher_drone_code": 44,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 139.02947845804988,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "38-44-var",
+      "publisher_measurement_number": 38,
+      "publisher_drone_code": 44,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 235.62448979591838,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "39-7-S-15m",
+      "publisher_measurement_number": 39,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 233.23283446712017,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "40-7-F-15m",
+      "publisher_measurement_number": 40,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 137.32281179138323,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "41-7-S-30m",
+      "publisher_measurement_number": 41,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 227.1027664399093,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "42-7-F-30m",
+      "publisher_measurement_number": 42,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 151.56825396825397,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "43-7-var",
+      "publisher_measurement_number": 43,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 222.98122448979592,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "44-7-S-15m",
+      "publisher_measurement_number": 44,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 219.57950113378683,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "45-7-F-15m",
+      "publisher_measurement_number": 45,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 136.69587301587302,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "46-7-S-30m",
+      "publisher_measurement_number": 46,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 226.5687074829932,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "47-7-F-30m",
+      "publisher_measurement_number": 47,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 152.07909297052154,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "48-7-var",
+      "publisher_measurement_number": 48,
+      "publisher_drone_code": 7,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 266.8321088435374,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "49-23-S-15m",
+      "publisher_measurement_number": 49,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 178.73560090702946,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "50-23-F-15m",
+      "publisher_measurement_number": 50,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 108.4604081632653,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "51-23-S-30m",
+      "publisher_measurement_number": 51,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 179.9546485260771,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "52-23-F-30m",
+      "publisher_measurement_number": 52,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 121.86993197278912,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "53-23-var",
+      "publisher_measurement_number": 53,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 188.3718820861678,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "56-23-S-15m",
+      "publisher_measurement_number": 56,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "S-15m",
+      "point_microphone_file_seconds": 180.11718820861677,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "57-23-F-15m",
+      "publisher_measurement_number": 57,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "F-15m",
+      "point_microphone_file_seconds": 99.26530612244898,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "58-23-S-30m",
+      "publisher_measurement_number": 58,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "S-30m",
+      "point_microphone_file_seconds": 161.99401360544218,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "59-23-F-30m",
+      "publisher_measurement_number": 59,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "F-30m",
+      "point_microphone_file_seconds": 81.88517006802721,
+      "recorder_views": 4
+    },
+    {
+      "measurement_key": "60-23-var",
+      "publisher_measurement_number": 60,
+      "publisher_drone_code": 23,
+      "publisher_condition_code": "var",
+      "point_microphone_file_seconds": 123.06575963718821,
+      "recorder_views": 4
+    }
+  ],
+  "scope": "File durations only, one campaign. Publisher codes are retained without inventing flight-state or audible-event labels. Array means are not individual microphones.",
+  "archives": [
+    {
+      "filename": "Renamed_Dresden-II-S-A.zip",
+      "source_url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-A.zip",
+      "bytes": 3515538927,
+      "sha256_reference": "2500fa6dc186a3dfa18449ee01b6b8917185d3e5c43664f82f44f74b48e02cc4",
+      "completion_receipt_checked": true,
+      "archive_sha256_independently_rehashed": false,
+      "new_network_bytes": 39509487,
+      "wav_members": 116
+    },
+    {
+      "filename": "Renamed_Dresden-II-S-B.zip",
+      "source_url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-B.zip",
+      "bytes": 3168015789,
+      "sha256_reference": "4f176ff2be73c93fc282f0e4d493a5446dbe8928827ce9b09dbef800759356cf",
+      "completion_receipt_checked": true,
+      "archive_sha256_independently_rehashed": false,
+      "new_network_bytes": 8650752,
+      "wav_members": 108
+    }
+  ],
+  "format_evidence": {
+    "encoding": "IEEE float32",
+    "channels": 1,
+    "sample_rate": 44100
+  },
+  "single_drone_point_file_hours": 2.855083698664651,
+  "dual_drone_point_files": 2,
+  "dual_drone_point_file_seconds": 308.2332879818594,
+  "combined_point_file_hours": 2.9407040564373896,
+  "capture_campaigns_established": 1,
+  "capture_date": "2023-06-07",
+  "capture_site": "Fraunhofer IVI Dresden",
+  "campaign_evidence": "https://edocs.tib.eu/files/e01fb25/1923886762.pdf; printedpp19-20 and AppendixII",
+  "verified_drone_absent_hours": 0,
+  "accepted_training_or_test_hours": null,
+  "all_224_headers_checked": true,
+  "all_224_full_member_crcs_checked": false,
+  "split": null,
+  "detector_scores_generated": false,
+  "limitation": "Point-file durations are not an audibility/independence annotation. F/S/var codes are retained verbatim; no state durations invented. Three mean-array channels per measurement are not individual microphones."
+}

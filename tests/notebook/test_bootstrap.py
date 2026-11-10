@@ -69,6 +69,7 @@ def test_bootstrap_refuses_dirty_checkout_and_changed_origin(tmp_path):
 @pytest.mark.parametrize(('filename', 'builder'), [
     ('gpu_runtime_setup.ipynb', 'build_gpu_notebook.py'),
     ('source_intake.ipynb', 'build_intake_notebook.py'),
+    ('prepare_point_recordings.ipynb', 'build_point_preparation_notebook.py'),
 ])
 def test_notebook_schema_generated_content_and_code_compile(filename, builder):
     nbformat = pytest.importorskip('nbformat')

@@ -10,6 +10,12 @@ A [first source feasibility inventory](../reports/corpus-inventory-v2/README.md)
 is now recorded. It has not passed the acquisition gate; candidate distribution
 files and repeated microphone views are not accepted unique hours.
 
+The [completed outdoor intake audit](../reports/outdoor-source-audit-v1/README.md)
+adds about 2.94 point-microphone file-hours from one campaign. The much larger
+recorder-view count includes averaged arrays. Matched negative labels and
+independent capture diversity remain open requirements; storage volume does
+not pass that gate.
+
 ## 1. Define the task and freeze the evaluation contract
 
 Detect acoustic evidence of a drone in continuous single-microphone field audio,

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-11-09",
+  "intake_code_revision": "6d853d9ea2700b03f3a26d2ce81de02f7191c07f",
+  "source_plan_sha256": "3b1e60a2416cc9b51bc203cd64cc0594778ac07c2804f0c04ce0b34112670f43",
+  "scope": "Source references locked from completed Colab receipts; the large archives were not independently streamed/rehashed here. Public original-source URLs only; private storage locations omitted.",
+  "sources": [
+    {
+      "id": "audrok-catalog",
+      "filename": "audrok-catalog.xml",
+      "bytes": 3364217,
+      "sha256": "ff98519aa808130941301e9877af5024902247e9e974cb0c152a1ac60ae72fbc",
+      "source_url": "https://mobilithek.info/mdp-api/files/aux/607921792037576704/SQL_tables_AuDroK_20230620.xml",
+      "hash_status": "matched previously pinned SHA-256",
+      "publisher_checksum_verified": false,
+      "receipt_plan_identity_matched": true
+    },
+    {
+      "id": "audrok-multidrone",
+      "filename": "MultiDrone.zip",
+      "bytes": 200947757,
+      "sha256": "cdb981fe2d91f3eaf9495aad8a35869ec6e83d4579fe88d6f5167b365e695315",
+      "source_url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/MultiDrone.zip",
+      "hash_status": "matched previously pinned SHA-256",
+      "publisher_checksum_verified": false,
+      "receipt_plan_identity_matched": true
+    },
+    {
+      "id": "realman-ch0-proof",
+      "filename": "realman-Terrace2-CH0.flac",
+      "bytes": 1984071,
+      "sha256": "3ae3d81620318569499d782dbd3421dbd14a9f5e67d430653f6009724079dda3",
+      "source_url": "https://huggingface.co/datasets/AISHELL/RealMAN/resolve/fea47505cae8041f4b652b0954ba61c77d2b6df1/train/ma_noise/Terrace2.rar",
+      "hash_status": "matched previously pinned SHA-256",
+      "publisher_checksum_verified": false,
+      "receipt_plan_identity_matched": true
+    },
+    {
+      "id": "audrok-outdoor-B",
+      "filename": "Renamed_Dresden-II-S-B.zip",
+      "bytes": 3168015789,
+      "sha256": "4f176ff2be73c93fc282f0e4d493a5446dbe8928827ce9b09dbef800759356cf",
+      "source_url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-B.zip",
+      "hash_status": "first acquisition; observed SHA-256 frozen",
+      "publisher_checksum_verified": false,
+      "receipt_plan_identity_matched": true
+    },
+    {
+      "id": "audrok-outdoor-A",
+      "filename": "Renamed_Dresden-II-S-A.zip",
+      "bytes": 3515538927,
+      "sha256": "2500fa6dc186a3dfa18449ee01b6b8917185d3e5c43664f82f44f74b48e02cc4",
+      "source_url": "https://mobilithek.info/mdp-api/files/aux/641698075762397184/Renamed_Dresden-II-S-A.zip",
+      "hash_status": "first acquisition; observed SHA-256 frozen",
+      "publisher_checksum_verified": false,
+      "receipt_plan_identity_matched": true
+    }
+  ],
+  "all_five_receipts_checked": true,
+  "storage_files_visible_over_independent_https": true,
+  "byte_total": 6889850761,
+  "runtime_lock_sha256": "f76d2c8b3ff9659023450ac66942c67d46272321bf2fe55174e736e64dc4b5f3",
+  "independent_small_file_checks": [
+    {
+      "filename": "audrok-catalog.xml",
+      "bytes": 3364217,
+      "sha256": "ff98519aa808130941301e9877af5024902247e9e974cb0c152a1ac60ae72fbc",
+      "drive_copy_sha256_independently_checked": true
+    },
+    {
+      "filename": "realman-Terrace2-CH0.flac",
+      "bytes": 1984071,
+      "sha256": "3ae3d81620318569499d782dbd3421dbd14a9f5e67d430653f6009724079dda3",
+      "drive_copy_sha256_independently_checked": true
+    }
+  ]
+}

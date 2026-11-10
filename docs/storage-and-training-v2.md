@@ -47,6 +47,17 @@ are hashed and reused on a replacement runtime; interrupted AuDroK archives must
 restart because that server ignores HTTP ranges. See the
 [acquisition audit and remaining data gaps](../reports/corpus-acquisition-v2/README.md).
 
+## Native point-file preparation
+
+The [completed intake audit](../reports/outdoor-source-audit-v1/README.md) found
+58 point recordings among 232 simultaneous recorder-view files. Three of four
+views are array averages, so they are excluded from the primary point cache.
+The [CPU preparation notebook](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/prepare_point_recordings.ipynb)
+creates 1.867 GB of unchanged native WAVs with full source/member checks and
+restart receipts. It requires additional Drive allocation and about 4 GB of local
+SSD for one verified working archive. It leaves labels/splits unaccepted and
+does not create additional independent recordings.
+
 ## Storage arrangement
 
 - GitHub holds code, locked environments, configurations and small manifests.

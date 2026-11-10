@@ -12,6 +12,11 @@ two original outdoor archives. Confirm the available allocation, run all cells,
 flush Drive and rerun after runtime replacement to verify completed-file reuse.
 This intake uses its own pinned code folder, preserving the GPU recovery probe.
 
+The [completed intake audit](../outdoor-source-audit-v1/README.md) now verifies
+the supplied storage receipts, inventories both original outdoor archives and
+separates 58 point microphones from 174 averaged-array views. The remaining
+sections preserve the earlier acquisition scope.
+
 ## AuDroK: access resolved; the public catalog is incomplete
 
 The public website's JavaScript uses

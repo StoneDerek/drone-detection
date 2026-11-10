@@ -59,3 +59,9 @@ files and checksums, including archives/documents. Neither file is a training
 manifest or an independence claim. See the
 [feasibility audit](../reports/corpus-inventory-v2/README.md) before bulk transfer
 or split assignment.
+
+[source-lock-v1.json](source-lock-v1.json) freezes the completed intake references.
+[outdoor-point-recordings-v1.jsonl](outdoor-point-recordings-v1.jsonl) indexes the
+58 individual-microphone candidates; array means are excluded. It is not an
+accepted training/test manifest: intervals are unreviewed, split is null and
+acceptance flags remain false. See the [completed source audit](../reports/outdoor-source-audit-v1/README.md).

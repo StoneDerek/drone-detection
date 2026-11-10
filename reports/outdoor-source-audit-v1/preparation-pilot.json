@@ -1,0 +1,29 @@
+{
+  "scope": "Two real point WAVs from the dual-drone pilot, prepared and verified in two local fresh-process invocations. Full58-file/Drive preparation not executed here.",
+  "summary": {
+    "all_completed_files_finite": true,
+    "all_completed_member_crcs_checked": true,
+    "bytes": 54372440,
+    "completed_point_files": 2,
+    "labels_accepted_for_training_or_test": false,
+    "native_bytes_unchanged": true,
+    "new_drone_absent_hours_established": 0,
+    "point_file_hours": 0.08562035777273873,
+    "scope": "Source-file preparation only; no new independent recordings, event labels or model evidence",
+    "source_archive_reference_count": 1
+  },
+  "replacement_invocation_completed": true,
+  "working_archive_copies_after_completion": 0,
+  "native_member_sha256": [
+    {
+      "member": "54 Inspire M300 Free P/54 Inspire M300 Free P_BSWA.wav",
+      "sha256": "a90606091410be683a8b40985451906899c7cf7b818d5f2e16488b8ca8840a58",
+      "bytes": 24600620
+    },
+    {
+      "member": "55 Inspire M300 Free WP/55 Inspire M300 Free WP_BSWA.wav",
+      "sha256": "7e19255fc6fa7fdb39801bc10de543a82039ba95d7f7fb6d367ec0df9c16c1d8",
+      "bytes": 29771820
+    }
+  ]
+}

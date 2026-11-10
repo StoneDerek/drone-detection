@@ -77,6 +77,10 @@ The [CPU source-intake notebook](https://colab.research.google.com/github/StoneD
 then acquires the original outdoor source archives with verified completion/restart
 handling. [Acquisition findings](reports/corpus-acquisition-v2/README.md) document
 what is available and which label/coverage gaps remain.
+The [completed source audit](reports/outdoor-source-audit-v1/README.md) separates
+individual microphones from array means. The [CPU point-preparation notebook](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/prepare_point_recordings.ipynb)
+copies the 58 native point recordings unchanged with integrity and restart checks.
+
 
 
 ## Run the product
