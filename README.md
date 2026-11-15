@@ -84,6 +84,9 @@ The [broader original-source audit](reports/source-scope-audit-v3/README.md)
 covers all ten identified sources and the larger background candidates. The
 100-hour acquisition target was unvalidated; the revised plan uses coverage and
 grouped learning curves to estimate training-data needs.
+The [broader CPU intake notebook](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/corpus_intake.ipynb)
+prepares 39.011 GB across eight original release entries with resumable partial
+downloads and pinned publisher checksums. See [selection and verification](reports/corpus-intake-v3/README.md).
 
 
 

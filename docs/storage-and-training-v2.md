@@ -47,7 +47,18 @@ are hashed and reused on a replacement runtime; interrupted AuDroK archives must
 restart because that server ignores HTTP ranges. See the
 [acquisition audit and remaining data gaps](../reports/corpus-acquisition-v2/README.md).
 
-## Native point-file preparation
+## Broader original-source intake
+
+The [broader source-intake notebook](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/corpus_intake.ipynb)
+adds 39.011 GB of other original releases in a separate pinned project folder.
+It resumes partial transfers where supported and verifies pinned publisher
+checksums before publishing completion. Keep one active runtime per folder;
+local process locks do not coordinate machines. The
+[intake report](../reports/corpus-intake-v3/README.md) gives exact profile sizes
+and verification limits. Full Drive acquisition has not run in this workspace.
+Keep the completed AuDroK intake; do not extract every archive onto notebook SSD.
+
+## AuDroK native point-file preparation
 
 The [completed intake audit](../reports/outdoor-source-audit-v1/README.md) found
 58 point recordings among 232 simultaneous recorder-view files. Three of four

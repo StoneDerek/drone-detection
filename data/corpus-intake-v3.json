@@ -1,0 +1,2976 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-14",
+  "kind": "Original distribution acquisition; no training or evaluation labels/partitions assigned",
+  "default_profile": "core",
+  "notes": [
+    "Keep the completed AuDroK intake and its receipts; this separate plan adds other sources.",
+    "core contains all field/background files below, including metadata and calibration. Profile sizes are distribution bytes, not independent hours.",
+    "metadata selects small source documents and annotation packages only; verification checks transfer mechanics on three real source files.",
+    "One active writer per output directory. Interrupted files retain unverified partials; completion requires pinned checksums and stored-byte verification.",
+    "Do not extract all archives onto notebook SSD. Preserve originals and prepare bounded native caches in a later versioned step.",
+    "Original per-source terms apply. No dataset publication or common license is implied.",
+    "RealMAN fixed-channel bulk extraction and remaining AuDroK packages remain subsequent acquisition work; they are not silently included here."
+  ],
+  "source_releases": {
+    "tut2017-development": {
+      "url": "https://zenodo.org/records/400515",
+      "metadata_sha256": "99551303dbf2b5e765a9c70855350b3f36cadac7767dd8bc91b17b1a2d33e391",
+      "license": "Custom noncommercial research EULA; see publisher doc ZIP.",
+      "role": "4,680 ten-second clips across 15 scenes; 248 original recording IDs, disjoint IDs from evaluation metadata.",
+      "label_support": "Publisher scene labels; background training candidate with disclosed label strength."
+    },
+    "tut2017-evaluation": {
+      "url": "https://zenodo.org/records/1040168",
+      "metadata_sha256": "5bb51428b185a328e145de9296be0dcf44e9b699468763452490fa8aec59a3ac",
+      "license": "Custom noncommercial research EULA; see publisher doc ZIP, not a blanket CC/MIT grant.",
+      "role": "1,620 ten-second clips across 15 scenes; 109 original recording IDs recovered from mapping.",
+      "label_support": "Scene labels; cannot automatically certify drone-absent continuous benchmark exposure."
+    },
+    "urbansound8k": {
+      "url": "https://zenodo.org/records/1203745",
+      "metadata_sha256": "df6fa7475496be6e5f61a2bdee095a8b214f0a7c7bcb8cdc48c8b78d53b9b1bc",
+      "license": "CC-BY-NC; inspected original description specifies 3.0, soundata has a conflicting 4.0 constant. Preserve source terms/credits.",
+      "role": "8,732 short foreground-class excerpts from 1,297 Freesound parent IDs; variable native formats.",
+      "label_support": "Publisher event class and salience; not exhaustive drone-absence annotation."
+    },
+    "idmt-berne-2022": {
+      "url": "https://zenodo.org/records/17525811",
+      "metadata_sha256": "7f6e34e55c9a16df321c8338f1c7cac407b3c292712af4efe032331fd856b2d3",
+      "license": "CC-BY-4.0",
+      "role": "Publisher: eight flights, three model families, one Berne campaign; static, linear and random flight, eight-microphone array.",
+      "label_support": "Drone position/azimuth metadata; flight presence is not an audible-event annotation."
+    },
+    "poland-uav-v1": {
+      "url": "https://zenodo.org/records/15190811",
+      "metadata_sha256": "db4686d8d5284db0a13275b43192ee6822e21466dd57365aa184b35102f1acaa",
+      "license": "CC-BY-4.0",
+      "role": "Datasheet: 17 UAV units (repeated models), four locations, five date/site combinations, two recording-device types; hovering measurement grid plus operator speech.",
+      "label_support": "Measurement-position and drone identities; mixed speech/drone recordings do not establish background-only intervals."
+    },
+    "neaptide-v1": {
+      "url": "https://zenodo.org/records/10512044",
+      "metadata_sha256": "526a0f2246b2f75a70fe40d4e57e2a69758646a4dd27ac381b280fcc0f3cdbbb",
+      "license": "CC-BY-NC-4.0",
+      "role": "Four drone models; hover, yaw, ascent/descent and translational manoeuvres. Release is segmented and includes propagation/ground corrections.",
+      "label_support": "Manoeuvre/noise-characterization metadata; original field mixtures and negative coverage not established."
+    },
+    "dronenoise-edzell-v3": {
+      "url": "https://doi.org/10.17866/rd.salford.22133411.v3",
+      "metadata_sha256": "43f3b50a7eb7bf264454b4b344be2917574563e0513e04f9790fc58687066c03",
+      "license": "CC-BY-4.0",
+      "role": "One Edzell field campaign on 2022-08-17; microphone/event names require provenance review.",
+      "label_support": "Publisher drone-noise measurements; no verified continuous background or audible-event boundaries established."
+    },
+    "dnc": {
+      "url": "https://doi.org/10.14279/depositonce-11645",
+      "metadata_sha256": "3a247013bf84890e7d4a253bdcce74c21eb5a1b6caf855bb5bb239bb2b873448",
+      "license": "Original DepositOnce audio record explicitly links MIT license; source record checked separately from GitHub code.",
+      "role": "4,377 mechanic/melodic/quiet recordings collected through browser audio APIs on Windows/Mac computers.",
+      "label_support": "Publisher background-noise classes, not exhaustive outdoor drone-absence labels."
+    }
+  },
+  "items": [
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "DNM_SQM_FLYO_AESCT.xlsx",
+      "bytes": 68631,
+      "url": "https://ndownloader.figshare.com/files/41805060",
+      "md5": "fdccc47e702561813ccda40130c18bda",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "neaptide-v1",
+      "filename": "NEAPTIDE.pdf",
+      "bytes": 4412505,
+      "url": "https://zenodo.org/api/records/10512044/files/NEAPTIDE.pdf/content",
+      "md5": "9cf719e44953d99f78c578205c7700ea",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "dataset_files_information.docx",
+      "bytes": 733590,
+      "url": "https://zenodo.org/api/records/15190811/files/dataset_files_information.docx/content",
+      "md5": "71bc659dc5ccedb7b724faf79ca8e4bb",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "dataset_files_information.pdf",
+      "bytes": 761259,
+      "url": "https://zenodo.org/api/records/15190811/files/dataset_files_information.pdf/content",
+      "md5": "f1c7222066aafb0cb926d6ea1d43e5a1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.doc.zip",
+      "bytes": 54796,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.doc.zip/content",
+      "md5": "2065495aaf3f1103e795c9899e2af1df",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.error.zip",
+      "bytes": 1432,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.error.zip/content",
+      "md5": "802c700b021769e52a2c1e3b9c117a1b",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.meta.zip",
+      "bytes": 104321,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.meta.zip/content",
+      "md5": "9007fd4772d816590c5db5f5e9568f5d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "tut2017-evaluation",
+      "filename": "TUT-acoustic-scenes-2017-evaluation.doc.zip",
+      "bytes": 54545,
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.doc.zip/content",
+      "md5": "53709a07416ea3b617c02fcf67dbeb9c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background",
+        "metadata"
+      ]
+    },
+    {
+      "source_id": "tut2017-evaluation",
+      "filename": "TUT-acoustic-scenes-2017-evaluation.meta.zip",
+      "bytes": 25517,
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.meta.zip/content",
+      "md5": "200eee9493e8044403e1326e3d05cfde",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background",
+        "metadata",
+        "verification"
+      ]
+    },
+    {
+      "source_id": "dnc",
+      "filename": "DNC.zip",
+      "bytes": 4212000459,
+      "url": "https://api-depositonce.tu-berlin.de/server/api/core/bitstreams/5ad5e59d-a241-4005-b2a4-ed7f14cebfed/content",
+      "md5": "9b74793cd896b0e0c78854eb3a551486",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch1.wav",
+      "bytes": 2376868,
+      "url": "https://ndownloader.figshare.com/files/41804631",
+      "md5": "23aa4e59fdb9a1f23694244978d1fb5d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch2.wav",
+      "bytes": 3491876,
+      "url": "https://ndownloader.figshare.com/files/41804676",
+      "md5": "e21cb695d9357f2ec206fef2789a9840",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch3.wav",
+      "bytes": 4800080,
+      "url": "https://ndownloader.figshare.com/files/41804763",
+      "md5": "9c545b1e1790fb05de274fd33c2503fb",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch4.wav",
+      "bytes": 3257764,
+      "url": "https://ndownloader.figshare.com/files/41804808",
+      "md5": "765e812c81083352982e8488c2a4ca76",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch5.wav",
+      "bytes": 3141156,
+      "url": "https://ndownloader.figshare.com/files/41804829",
+      "md5": "f57bcc63e9306758067d6ccf01a85637",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch6.wav",
+      "bytes": 2916516,
+      "url": "https://ndownloader.figshare.com/files/41804859",
+      "md5": "0e531744860206ad0130f1a604bbdebb",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch7.wav",
+      "bytes": 2392356,
+      "url": "https://ndownloader.figshare.com/files/41804904",
+      "md5": "c2e65aaa36ff614859e0bdd0586affa3",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch8.wav",
+      "bytes": 2650660,
+      "url": "https://ndownloader.figshare.com/files/41805000",
+      "md5": "b78038bb859d36a8661579fabe9eb1da",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Calib_Scotland_ch9.wav",
+      "bytes": 3014436,
+      "url": "https://ndownloader.figshare.com/files/41805003",
+      "md5": "13fa96bc70ef78f86120144a4b274d18",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804634",
+      "md5": "e86f4084d16597d5e4467a4fd4a4797c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field",
+        "verification"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804679",
+      "md5": "94322ba83a0a181a833ccfe05db3da7b",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804721",
+      "md5": "a203c2bf4679ceb5fd5ce33190a3aae5",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804805",
+      "md5": "8c99146522122e8cf6f3593b31760350",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804832",
+      "md5": "6f66936b12262c9070d4c47ae89b8aa4",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804862",
+      "md5": "f3302fdec9fd1e5174fd0e1a93a24c67",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804907",
+      "md5": "58cf6d1e4a00397c5bcab87694ad2604",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804997",
+      "md5": "95a08fb5a7c5b93489e474080adb69ba",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev1_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805006",
+      "md5": "1b39ff9a318912fba272cb54af5485fc",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804637",
+      "md5": "414eca8b2e31992402e05de298d7fe0c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804682",
+      "md5": "812359c4145a8bf0d0496f51c6f5ba43",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804724",
+      "md5": "653011a728519a497e899395cfa86de1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804802",
+      "md5": "1a879e84e96e3294b8199d5908ad5f78",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804835",
+      "md5": "3e22ac58c54a2289f00ac4071d53f326",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804865",
+      "md5": "a5af2720eea0b236cdbb4da087d4591c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804910",
+      "md5": "1962f2ed8310a1344707084d888fe276",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804994",
+      "md5": "5ec00942207f857acc1ce76a142c3ff6",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev2_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805009",
+      "md5": "53fcab42d747caa29da60a389ba1a646",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804640",
+      "md5": "7f6f4cc68b7975a058ded285acf02906",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804685",
+      "md5": "3ad596f96e66d3ab1e9c330aad090941",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804727",
+      "md5": "9129876ea4c2adf217dd7aa9dc067ee2",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804799",
+      "md5": "98561816f1c8aca6fec82eb9387f420d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804838",
+      "md5": "a41f81afaece8cc3fb5b01b6b01bf718",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804868",
+      "md5": "304ca5df0b302720fc49a1989ae94817",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804913",
+      "md5": "3a3366aa34517e53d0a57c8683e0f33d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804991",
+      "md5": "5d44c7ae212bec5d7046cc24282a2d3a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_F15_N_W_dw_ev3_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805012",
+      "md5": "22e028927892bb281139743a63363403",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212183",
+      "md5": "d19739c7b7ce2c6cd3fc1f3fa927e1fa",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212186",
+      "md5": "49bab1cb491ed838fe715dec6073d0f4",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212189",
+      "md5": "468899ce3ec86f718b6f616e85da0a8e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212192",
+      "md5": "fa425608c323ab3338eeb7e1766b1e10",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212081",
+      "md5": "d4daa88ba9ca6dcf544130b0a1e887de",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ],
+      "publisher_alias_urls": [
+        "https://ndownloader.figshare.com/files/46212195"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212198",
+      "md5": "eae03d7d50b737fbe8d4b9547e4152cd",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212201",
+      "md5": "70a04b033f1ad8ef9e910ad545ddf4a1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212204",
+      "md5": "224f36abcb0cb7e19c742165d1cb26ed",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev1_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212207",
+      "md5": "3a9997ee41e751f2f52ac8c9fda7fe82",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev2_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212084",
+      "md5": "af36e6d14fcf6e12a0962adea0ca097c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_3p_10_H00_N_C_nw_ev3_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212087",
+      "md5": "851d1f509abd0089e2a004f8469511c8",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804643",
+      "md5": "893c6e6f00b09db0810e7e416f3e8d4d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804688",
+      "md5": "f27a96f333ee414ca07b0bb8d9a8ea67",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804733",
+      "md5": "41cdf100ca7b2fd0c179970207459d8e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804796",
+      "md5": "2a9b13764fb6c8c5b6feb3633956e5a6",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804841",
+      "md5": "9c5d2de2e50c5933ebd29fa1c2b7fdc4",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804871",
+      "md5": "c0231e59f67862c5355c324f751aa441",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804916",
+      "md5": "c030a2fee1b649b16c530dbe2c4b6786",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804988",
+      "md5": "b3aa87c3e14b2ea05afaec75f0e1a85a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev1_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805015",
+      "md5": "52bd784ba66ed60ab016bc2d86d077ee",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804646",
+      "md5": "86b87ab3f5b93fd9c22d8dca18303113",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804691",
+      "md5": "53cdcb7a1d98f91d8678492707b31694",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804736",
+      "md5": "3477dd78ea3b5c5cf1e71fe57f2bca12",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804793",
+      "md5": "7f97de3ac696f9cb634e9d15d95d5546",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804844",
+      "md5": "b9aa1532a3b87eb7f629153abc1f570a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804874",
+      "md5": "276c17db9dad3b8aecb2775ab6c9582f",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804919",
+      "md5": "bf839172d9233996d9c6d0a05d719948",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804985",
+      "md5": "09e1754ac4d20ba4f9a9c00d5b1c0ea2",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev2_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805018",
+      "md5": "760a9bdaa0a0657b08f3c39aa793ab91",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804649",
+      "md5": "55e3d53853353c3324f5fe60c238b6bc",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804694",
+      "md5": "6f4a17802a1b8105dd2176578475cb49",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804730",
+      "md5": "ffe5eac07c8a7e9a6f24c0f1f762dbd1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804790",
+      "md5": "4f71eb5794ba6bf26dd07882898f9f04",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804847",
+      "md5": "8ede18785d9c1ebaef6fbacec167a665",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804877",
+      "md5": "edbf0472511f5075aa01c51696dbf349",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804922",
+      "md5": "3df8045b515179d09ed413fca8abc4ae",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804982",
+      "md5": "501c16471938a10400de3ad1066cda9f",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Fp_10_F15_N_W_dw_ev3_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805021",
+      "md5": "110811b533fee94500b409f3724f1bc0",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804652",
+      "md5": "a2c87b03d735c56879f8d40e27192dbc",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804697",
+      "md5": "d5541238118a3411d3fd95eee2e2e100",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804757",
+      "md5": "0f2b30c33047dbc7cc9c2bd9a8af04d1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804787",
+      "md5": "a835c3f359f4521b439898421cd90ced",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804850",
+      "md5": "a13c86d106e8c17696e2c2112932abbb",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804880",
+      "md5": "3e51bd6713430e1d7eca5425154a2bc1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804925",
+      "md5": "224037cbd929d52d09c8f0da614fb17d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804979",
+      "md5": "2c9c17807b6561e0fa2fde28a08f4c33",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev1_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805024",
+      "md5": "91c06cb10514bd1841c648d533a88b7e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804655",
+      "md5": "cddb53bc03c992ecca520800ef39c697",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804700",
+      "md5": "d3328d09bf0605354a3c9472c0690a74",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804760",
+      "md5": "f2a282084a1bf62accdd00276e5a8029",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804784",
+      "md5": "3e8259763ff679177f158a4c487b53db",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804853",
+      "md5": "49fb751dc2162e23451c1b38af975ef6",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804883",
+      "md5": "770869cfab3c93b0465355966cf15e2d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804928",
+      "md5": "f5b74bbb6b1be2c3e6217c1e2c360bf6",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804976",
+      "md5": "71f2ebe1319aec26df696e4b2e34246b",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev2_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805027",
+      "md5": "4ff5c07cb63e838191e2db2cacf4bf9c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804658",
+      "md5": "0bebc607834056dbb0d64624e967457c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804703",
+      "md5": "c7245ffaf39ed5ac3a61c08c08719b8c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804748",
+      "md5": "8346914e5f1f0fd3a2724c3534ed0607",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804781",
+      "md5": "a4b3b3da848966912b5253dfc2778df7",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804811",
+      "md5": "4f7512a25a17c7e2aea9a49746576c7b",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804886",
+      "md5": "06dc10a554093fb64acf7c077198dfd0",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804931",
+      "md5": "57ffd9d1fdf614a8e96ae01adade48e5",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804973",
+      "md5": "abe50565b0f769765c4bc6be8713dab7",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev3_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805030",
+      "md5": "2ff9f22acc58b67383fbf55c6ad575c4",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804661",
+      "md5": "44289a63085836bea94878d226625bf1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804706",
+      "md5": "5ab82da85bec1d4c1d15c9bc77d6282e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804751",
+      "md5": "2279ff27193a6f159f9491b9621e5ded",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804778",
+      "md5": "5a20e16f81dcfc486dc313c0d9ba744b",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804814",
+      "md5": "e17b9bdb0c0151b62fdda4f8e519b84e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804889",
+      "md5": "35d06fa79ba5095eb32386add608abd4",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804934",
+      "md5": "fa55474787e1502b2b25ebe04969c9ae",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804970",
+      "md5": "289dfae46ca9f7b487f779dec9a6b83d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev4_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805033",
+      "md5": "272f5c9b27e079ff754dc5e5d8c1808c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804664",
+      "md5": "d97f565ef5a45d4e9585ff509145fe78",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804709",
+      "md5": "5295af7b85bc703c9dd42a67d570349e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804754",
+      "md5": "00d6d819c2f8a990949a34cb1406b8e0",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804775",
+      "md5": "85dfa3f69cadd7c76057c70e8aa391da",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804817",
+      "md5": "6b9829948ae4f878560ce30ca9f0e45f",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804892",
+      "md5": "57eebc34973b445e18020e66aa6e1a74",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804937",
+      "md5": "34f0a7bc8ee782d1706b3b8a67a648dd",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41804967",
+      "md5": "7dceba2681c9a23e0f5d3106d2c9e6c8",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_F15_N_E_dw_ev5_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/41805036",
+      "md5": "a9cc6685487af89add90846c2828c7a2",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212096",
+      "md5": "f394aaea131482c9cb6ec8d1d7d48bf3",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212099",
+      "md5": "1a7650e8387615b755252fe458c638f3",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212102",
+      "md5": "24c9083ba9abada8aa6098b90d7e4134",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212105",
+      "md5": "feabd8d22c5f6e199e9a17a7e365288e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212108",
+      "md5": "01489c7ab2caf1997d2f5fb79c68648a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212111",
+      "md5": "6f0c8fdb439004236e4b6aa01e09f953",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212114",
+      "md5": "f2013e61ca1ce6ba9599a188cbcaac39",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212117",
+      "md5": "487435bc942a36c623f3ca67c0791c78",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_N_C_nw_ev1_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212120",
+      "md5": "87b97e5bc7fe1236b7dadd4af5ba9880",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212123",
+      "md5": "99319b1ce9f92626a74f2694e10170c0",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212126",
+      "md5": "19059176e755d034065d36b43ff27652",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212129",
+      "md5": "dbe4e93b623c7f0a2dca92b5e5a71d79",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212132",
+      "md5": "16575996a0f2e4690510f28e8ca8657d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212135",
+      "md5": "c1a64fc03f33dc77a09989f36f3181bc",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212138",
+      "md5": "8002b6606f44c464f1ac1be72d4cf509",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212141",
+      "md5": "ba304b3eb3cfe7a75904840a3c948177",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212144",
+      "md5": "8bddf3ccf9f76839d417d25380fd663f",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_M3_10_H00_Y_C_nw_ev1_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212147",
+      "md5": "f7e926273cc873ec9f70b0b0c39d4cd5",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M1.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804667",
+      "md5": "c2a8964cb9bf8eabdac342c5284ccfa5",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M2.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804712",
+      "md5": "d7c90113a00519cc78dd3076ddfe90f3",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M3.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804742",
+      "md5": "53414dbe9aa82db074a9157eeadb4847",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M4.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804772",
+      "md5": "31967930023a9778f35b1c5b367e6cd9",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M5.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804820",
+      "md5": "3aa0775a47d77aa1f721471f52eba421",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M6.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804895",
+      "md5": "e8fe9ea0b68c5843e83d3ce0323ba3cb",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M7.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804940",
+      "md5": "65bf4b0a3be439749a162e7864659d1a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M8.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804964",
+      "md5": "d0501a5f99cd241d6b9b5277c2c4fbfb",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev1_M9.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41805039",
+      "md5": "d0e6cf6cde70855ffdfb83b79f67c414",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M1.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804670",
+      "md5": "2d24dae45264c3134e274e99d15e6b8e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M2.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804715",
+      "md5": "a0974b94e411bae45c4d67fcbc974349",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M3.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804745",
+      "md5": "9eb5dfb6785c35bb6a5610ab250e27fc",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M4.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804769",
+      "md5": "64e4dc995a5557077346b6f947280224",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M5.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804823",
+      "md5": "bdc01878d4271ce42858b34d2bd1c705",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M6.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804898",
+      "md5": "e9d2e8a25ba464576414abc9f4f9f18d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M7.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804943",
+      "md5": "e2fdebf2edeaf3d407847142685f7123",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M8.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804961",
+      "md5": "38f316fd8ca5b811ff5c50016cc3bab1",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev2_M9.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41805042",
+      "md5": "98a403a8a0568a94c8fef97610c0b59e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M1.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804673",
+      "md5": "4ba10556da68e3cfe5042addf13a6ddf",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M2.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804718",
+      "md5": "22330f0c14a60d5fd409f1e5763b5df6",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M3.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804739",
+      "md5": "10e50d541f94c01495a0ec0ab5ff2cc3",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M4.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804766",
+      "md5": "348de7c847ceaaac4279f0e41565f545",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M5.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804826",
+      "md5": "f06af53faa5f6ef8726daba913fca7dc",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M6.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804901",
+      "md5": "8fd5a042d3e89b2e2be603c85da4e039",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M7.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804946",
+      "md5": "c1646959f8ec5b49f4d479699322918b",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M8.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41804958",
+      "md5": "b0b962ab27988d56e537174979ef70aa",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_F15_Y_W_dw_ev3_M9.wav",
+      "bytes": 6000080,
+      "url": "https://ndownloader.figshare.com/files/41805045",
+      "md5": "6794845baf6bdf3fa49f436a98ac95ea",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M1.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212156",
+      "md5": "89b5eb7ee3000e81dfdf8a8936ded15e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M2.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212159",
+      "md5": "4b3a70fda00b4c5de1c8b1711b9d0c37",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M3.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212162",
+      "md5": "70d14887a223db6daec3344b45bd34f7",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M4.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212165",
+      "md5": "ffd5e0713c27d4cddd910933cbe38a20",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M5.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212168",
+      "md5": "f2249d1472647a6d4916e6d7660a04b2",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M6.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212171",
+      "md5": "8841c27c0678c73b9a40cd923bce5d46",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M7.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212174",
+      "md5": "ffc3871dd82e2fda54fd05da264c77b5",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M8.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212177",
+      "md5": "a7eaeb718bb7771f537627a36c8212b0",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "dronenoise-edzell-v3",
+      "filename": "Ed_Yn_10_H00_Y_C_nw_ev1_M9.wav",
+      "bytes": 4000080,
+      "url": "https://ndownloader.figshare.com/files/46212180",
+      "md5": "bb9cd0ba1002be60e0cd66f9628eb8bf",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "idmt-berne-2022",
+      "filename": "MicArrayData30s.zip",
+      "bytes": 1515112211,
+      "url": "https://zenodo.org/api/records/17525811/files/MicArrayData30s.zip/content",
+      "md5": "fd8cfda2d852e351b2d33e1ae9a5aba4",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "neaptide-v1",
+      "filename": "Calibration.wav",
+      "bytes": 619564,
+      "url": "https://zenodo.org/api/records/10512044/files/Calibration.wav/content",
+      "md5": "7af553b88dd843c9f2b40def45768022",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "neaptide-v1",
+      "filename": "SegmentedAudio_HolybroS500.zip",
+      "bytes": 34866761,
+      "url": "https://zenodo.org/api/records/10512044/files/SegmentedAudio_HolybroS500.zip/content",
+      "md5": "95ea8e9274329ec38c14280550923dfd",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "neaptide-v1",
+      "filename": "SegmentedAudio_Matrice.zip",
+      "bytes": 34239969,
+      "url": "https://zenodo.org/api/records/10512044/files/SegmentedAudio_Matrice.zip/content",
+      "md5": "c8b19f51eef086358dc2fbadf2a7c376",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "neaptide-v1",
+      "filename": "SegmentedAudio_Mavic.zip",
+      "bytes": 33521822,
+      "url": "https://zenodo.org/api/records/10512044/files/SegmentedAudio_Mavic.zip/content",
+      "md5": "1d2b4f1529ee079d5dd8ddf4cb9c99c5",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field",
+        "verification"
+      ]
+    },
+    {
+      "source_id": "neaptide-v1",
+      "filename": "SegmentedAudio_TarotX6_B1.zip",
+      "bytes": 34373930,
+      "url": "https://zenodo.org/api/records/10512044/files/SegmentedAudio_TarotX6_B1.zip/content",
+      "md5": "5c65495394a222fb2b1b16a81efd507d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "neaptide-v1",
+      "filename": "SegmentedAudio_TarotX6_B2.zip",
+      "bytes": 34226343,
+      "url": "https://zenodo.org/api/records/10512044/files/SegmentedAudio_TarotX6_B2.zip/content",
+      "md5": "8b255f8abc32439f5b12b09d5d9accdf",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D10_Mavic2Zoom.zip",
+      "bytes": 649514546,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D10_Mavic2Zoom.zip/content",
+      "md5": "041482df3959f37db5ebb57a08fe2c3f",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D11_MavicMini2.zip",
+      "bytes": 749135974,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D11_MavicMini2.zip/content",
+      "md5": "b477919ce54b0bcaeff6296e4eeca205",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D17_Phantom4.zip",
+      "bytes": 779734087,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D17_Phantom4.zip/content",
+      "md5": "b804f6b04d46aaaf0ef9e2999af40710",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D1_MATRICE300.zip",
+      "bytes": 425563898,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D1_MATRICE300.zip/content",
+      "md5": "c6af83f75d91461cacffddcaddb69715",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D2_MAVIC3.zip",
+      "bytes": 455654436,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D2_MAVIC3.zip/content",
+      "md5": "ae8d1a6f4c78e2981fd497e96d395338",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D3_MavicAir2S.zip",
+      "bytes": 529344565,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D3_MavicAir2S.zip/content",
+      "md5": "685dc8d7a20fe46f1fda68c573c55b07",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D4_MavicAir2.zip",
+      "bytes": 522797820,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D4_MavicAir2.zip/content",
+      "md5": "c2d9dc52861f720c05dca7bf7621bdef",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D5_MavicMini2.zip",
+      "bytes": 643784828,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D5_MavicMini2.zip/content",
+      "md5": "91d6c60b98d96b8eab482faeb9c2e165",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D6_Mavic2Pro.zip",
+      "bytes": 684484276,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D6_Mavic2Pro.zip/content",
+      "md5": "ac978e357238238e438fde9542b8a07f",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D7_Mavic2Pro.zip",
+      "bytes": 623581244,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D7_Mavic2Pro.zip/content",
+      "md5": "9b9109bb3aba105a23f07d8340c18d86",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D8_Mavic3.zip",
+      "bytes": 764056436,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D8_Mavic3.zip/content",
+      "md5": "64d850d7e2c583e5c7c1f8d5aded281d",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X4_D9_Phantom4.zip",
+      "bytes": 995189432,
+      "url": "https://zenodo.org/api/records/15190811/files/X4_D9_Phantom4.zip/content",
+      "md5": "ef83623d6a7dd26790eb1acb2c39823a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X6_D12_YuneecH520.zip",
+      "bytes": 977379915,
+      "url": "https://zenodo.org/api/records/15190811/files/X6_D12_YuneecH520.zip/content",
+      "md5": "451c15819f413a7eb1bd97020e8b5f72",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X6_D13_YuneecH520ERTK.zip",
+      "bytes": 837300136,
+      "url": "https://zenodo.org/api/records/15190811/files/X6_D13_YuneecH520ERTK.zip/content",
+      "md5": "e9166a03c3ecbe1607ab65cddfcd7bca",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X6_D14_S900.zip",
+      "bytes": 741304975,
+      "url": "https://zenodo.org/api/records/15190811/files/X6_D14_S900.zip/content",
+      "md5": "1452f7eac4fb51cd27b0d93b6fc33c93",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X6_D15_X6D.zip",
+      "bytes": 849589174,
+      "url": "https://zenodo.org/api/records/15190811/files/X6_D15_X6D.zip/content",
+      "md5": "911ffecfeb5bdce33f7086932282acec",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "poland-uav-v1",
+      "filename": "X6_D16_Y6.zip",
+      "bytes": 815563181,
+      "url": "https://zenodo.org/api/records/15190811/files/X6_D16_Y6.zip/content",
+      "md5": "626cec0944645fb3c7a7c526a67ff29c",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "field"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.1.zip",
+      "bytes": 1071445248,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.1.zip/content",
+      "md5": "251325a9afaaad0326ad1c57f57d514a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.10.zip",
+      "bytes": 1046262120,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.10.zip/content",
+      "md5": "5df83a191295a04e290b125c634e13e7",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.2.zip",
+      "bytes": 1073453613,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.2.zip/content",
+      "md5": "c26861e05147dc319b4250eb103d9d99",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.3.zip",
+      "bytes": 1073077819,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.3.zip/content",
+      "md5": "a4815775f8a5e629179726ee4cd4f55a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.4.zip",
+      "bytes": 1072822038,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.4.zip/content",
+      "md5": "1732b03afe8c53ef8bba80ba14766e57",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.5.zip",
+      "bytes": 1072644652,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.5.zip/content",
+      "md5": "611be754a0c951185c6ae4b7643c19a0",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.6.zip",
+      "bytes": 1072667888,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.6.zip/content",
+      "md5": "165a201db800d3ea76fce5a9c2bd97d7",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.7.zip",
+      "bytes": 1073417661,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.7.zip/content",
+      "md5": "c7d79db84264401c0f8680dcc36013ad",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.8.zip",
+      "bytes": 1072381222,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.8.zip/content",
+      "md5": "35043f25123439392338c790494c7a19",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-development",
+      "filename": "TUT-acoustic-scenes-2017-development.audio.9.zip",
+      "bytes": 1072087738,
+      "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.9.zip/content",
+      "md5": "0805dcf5d8e6871dc9610182b2efb93a",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-evaluation",
+      "filename": "TUT-acoustic-scenes-2017-evaluation.audio.1.zip",
+      "bytes": 1071856687,
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.1.zip/content",
+      "md5": "3d6dda4445871e9544e0fefe7d14c7d9",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-evaluation",
+      "filename": "TUT-acoustic-scenes-2017-evaluation.audio.2.zip",
+      "bytes": 1073362972,
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.2.zip/content",
+      "md5": "4085ef5fa286f2169074993a4e405953",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-evaluation",
+      "filename": "TUT-acoustic-scenes-2017-evaluation.audio.3.zip",
+      "bytes": 1071521152,
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.3.zip/content",
+      "md5": "cac432579e7cf2dff0aec7aaed248956",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "tut2017-evaluation",
+      "filename": "TUT-acoustic-scenes-2017-evaluation.audio.4.zip",
+      "bytes": 382756463,
+      "url": "https://zenodo.org/api/records/1040168/files/TUT-acoustic-scenes-2017-evaluation.audio.4.zip/content",
+      "md5": "664bf09c3d24bd26c6b587f1d709de36",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    },
+    {
+      "source_id": "urbansound8k",
+      "filename": "UrbanSound8K.tar.gz",
+      "bytes": 6023741708,
+      "url": "https://zenodo.org/api/records/1203745/files/UrbanSound8K.tar.gz/content",
+      "md5": "9aa69802bbf37fb986f71ec1483a196e",
+      "sha256": null,
+      "checksum_origin": "publisher",
+      "profiles": [
+        "core",
+        "background"
+      ]
+    }
+  ]
+}

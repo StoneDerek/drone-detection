@@ -60,6 +60,12 @@ manifest or an independence claim. See the
 [original-source audit](../reports/source-scope-audit-v3/README.md) before bulk transfer
 or split assignment.
 
+[corpus-intake-v3.json](corpus-intake-v3.json) freezes 222 unique distribution
+paths (39.011 GB) across eight original release entries, with per-source terms,
+publisher checksums and profiles. It preserves a duplicate publisher path as an
+alias. This is separate from the completed AuDroK intake and does not assign
+labels or partitions. See [recovery and verification](../reports/corpus-intake-v3/README.md).
+
 [source-lock-v1.json](source-lock-v1.json) freezes the completed intake references.
 [outdoor-point-recordings-v1.jsonl](outdoor-point-recordings-v1.jsonl) indexes the
 58 individual-microphone candidates; array means are excluded. It is not an

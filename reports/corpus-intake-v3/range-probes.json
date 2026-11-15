@@ -1,0 +1,72 @@
+[
+  {
+    "source": "tut",
+    "url": "https://zenodo.org/api/records/400515/files/TUT-acoustic-scenes-2017-development.audio.1.zip/content",
+    "status": 206,
+    "headers": {
+      "Content-Range": "bytes 1048576-1049599/1071445248",
+      "Content-Length": "1024",
+      "ETag": null,
+      "Last-Modified": null,
+      "Content-Type": "application/octet-stream,application/octet-stream"
+    },
+    "prefix_bytes": 1024,
+    "sha256": "83b1775cd53da646f1385e132547aeba40b07f57f6a26274edd78179a8610ec2"
+  },
+  {
+    "source": "dnc",
+    "url": "https://api-depositonce.tu-berlin.de/server/api/core/bitstreams/5ad5e59d-a241-4005-b2a4-ed7f14cebfed/content",
+    "status": 206,
+    "headers": {
+      "Content-Range": "bytes 1048576-1049599/4212000459",
+      "Content-Length": null,
+      "ETag": "\"9b74793cd896b0e0c78854eb3a551486\"",
+      "Last-Modified": "Tue, 16 Mar 2021 20:19:42 GMT",
+      "Content-Type": "application/zip;charset=UTF-8"
+    },
+    "prefix_bytes": 1024,
+    "sha256": "76990f113ba62fe38d411f596aa60ce060bf45c21aef57a1bbbadf1f65a16634"
+  },
+  {
+    "source": "urban",
+    "url": "https://zenodo.org/records/1203745/files/UrbanSound8K.tar.gz",
+    "status": 206,
+    "headers": {
+      "Content-Range": "bytes 1048576-1049599/6023741708",
+      "Content-Length": "1024",
+      "ETag": null,
+      "Last-Modified": null,
+      "Content-Type": "application/octet-stream,application/octet-stream"
+    },
+    "prefix_bytes": 1024,
+    "sha256": "8c1dfc135d07fa5fb0ab479694f9b0e66ce54039d1cd3864d85059db4c52bf27"
+  },
+  {
+    "source": "poland",
+    "url": "https://zenodo.org/api/records/15190811/files/X4_D1_MATRICE300.zip/content",
+    "status": 206,
+    "headers": {
+      "Content-Range": "bytes 1048576-1049599/425563898",
+      "Content-Length": "1024",
+      "ETag": null,
+      "Last-Modified": null,
+      "Content-Type": "application/octet-stream,application/octet-stream"
+    },
+    "prefix_bytes": 1024,
+    "sha256": "d6924920ced0d40f429f2f7fd24acb4bf51e332e27d4442a4fc8d4bfd008d245"
+  },
+  {
+    "source": "neaptide",
+    "url": "https://zenodo.org/api/records/10512044/files/SegmentedAudio_Mavic.zip/content",
+    "status": 206,
+    "headers": {
+      "Content-Range": "bytes 1048576-1049599/33521822",
+      "Content-Length": "1024",
+      "ETag": null,
+      "Last-Modified": null,
+      "Content-Type": "application/octet-stream,application/octet-stream"
+    },
+    "prefix_bytes": 1024,
+    "sha256": "d012f48f67a0e1aacedd933c13466134408aa6e4587c0d975622a7abc45a27ea"
+  }
+]

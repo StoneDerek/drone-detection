@@ -14,6 +14,10 @@ redistribution terms. No audio was scored, no labels invented and no study split
 assigned. This is a metadata audit; most original audio still needs acquisition
 and content inspection before a frozen study manifest exists.
 
+The [broader resumable intake](../corpus-intake-v3/README.md) now implements the
+next transfer step for 39.011 GB across eight original release entries. Its local
+verification does not establish that the full Drive intake has completed.
+
 ## Original sources and provisional roles
 
 | Original source | Evidence and scale | Appropriate candidate role / unresolved work |

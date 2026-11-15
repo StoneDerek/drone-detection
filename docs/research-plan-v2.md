@@ -12,6 +12,11 @@ and background candidates. Source availability, acquisition and suitability for
 a particular experiment are separate statuses. There is no 100-hour readiness
 gate; that earlier number was an unvalidated planning estimate.
 
+The [broader resumable intake](../reports/corpus-intake-v3/README.md) now prepares
+39.011 GB across eight original release entries for the Drive-connected CPU
+notebook. Local recovery/integrity checks do not establish full acquisition,
+independent field hours, accepted labels or detector performance.
+
 The [completed outdoor intake audit](../reports/outdoor-source-audit-v1/README.md)
 adds about 2.94 point-microphone file-hours from one campaign. The much larger
 recorder-view count includes averaged arrays. Matched negative labels and
