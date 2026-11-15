@@ -68,6 +68,12 @@ passed and failed; the interface uses “No alarm” rather than claiming absenc
 
 ## GPU notebook setup
 
+The [frozen audio comparison](docs/frozen-audio-comparison.md) provides a separate
+BEATs/CLAP recording-level linear-probe workflow, verified feature caching,
+timestamped diagnostic scores, and explicit original-source intake adapters.
+The initial five-example run verifies software only; it is not a new detector
+assessment or a replacement for the data-first study.
+
 [Open the Colab GPU setup](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/gpu_runtime_setup.ipynb)
 to mount Drive, pin the code/environment and verify checkpoint recovery across
 process interruption and runtime replacement. This is runtime preparation;

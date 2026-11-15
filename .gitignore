@@ -2,6 +2,7 @@
 
 # Local experiments contain generated audio and per-window traces.
 /runs/
+/work/
 /build/
 /dist/
 /web/node_modules/
