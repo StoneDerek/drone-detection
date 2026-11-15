@@ -1,0 +1,92 @@
+[
+  {
+    "crops": 4357,
+    "documented_crop_interval_union_hours": null,
+    "groups": 1,
+    "native_file_hours": 17.722017391778472,
+    "selected_crop_hours": 3.6181452951388886,
+    "source": "dnc",
+    "split": "train"
+  },
+  {
+    "crops": 18,
+    "documented_crop_interval_union_hours": null,
+    "groups": 1,
+    "native_file_hours": 0.10833333333333334,
+    "selected_crop_hours": 0.015,
+    "source": "dronenoise-edzell-v3",
+    "split": "final"
+  },
+  {
+    "crops": 163,
+    "documented_crop_interval_union_hours": null,
+    "groups": 1,
+    "native_file_hours": 1.3583333391203702,
+    "selected_crop_hours": 0.13583333333333333,
+    "source": "idmt-berne-2022",
+    "split": "train"
+  },
+  {
+    "crops": 35,
+    "documented_crop_interval_union_hours": null,
+    "groups": 1,
+    "native_file_hours": 0.04166611237087428,
+    "selected_crop_hours": 0.02222199652777778,
+    "source": "neaptide-v1",
+    "split": "final"
+  },
+  {
+    "crops": 360,
+    "documented_crop_interval_union_hours": null,
+    "groups": 1,
+    "native_file_hours": 4.734142403628118,
+    "selected_crop_hours": 0.3,
+    "source": "poland-uav-v1",
+    "split": "development"
+  },
+  {
+    "crops": 360,
+    "documented_crop_interval_union_hours": null,
+    "groups": 1,
+    "native_file_hours": 4.5262464096749815,
+    "selected_crop_hours": 0.3,
+    "source": "poland-uav-v1",
+    "split": "final"
+  },
+  {
+    "crops": 813,
+    "documented_crop_interval_union_hours": null,
+    "groups": 3,
+    "native_file_hours": 10.642459863945579,
+    "selected_crop_hours": 0.6775,
+    "source": "poland-uav-v1",
+    "split": "train"
+  },
+  {
+    "crops": 4626,
+    "documented_crop_interval_union_hours": 3.855,
+    "groups": 248,
+    "native_file_hours": 12.850029138321995,
+    "selected_crop_hours": 3.855,
+    "source": "tut2017-development",
+    "split": "train"
+  },
+  {
+    "crops": 1620,
+    "documented_crop_interval_union_hours": 1.35,
+    "groups": 109,
+    "native_file_hours": 4.500010204081632,
+    "selected_crop_hours": 1.35,
+    "source": "tut2017-evaluation",
+    "split": "development"
+  },
+  {
+    "crops": 8221,
+    "documented_crop_interval_union_hours": 3.253644723964011,
+    "groups": 1191,
+    "native_file_hours": 8.295976393108308,
+    "selected_crop_hours": 6.346760295138888,
+    "source": "urbansound8k",
+    "split": "final"
+  }
+]

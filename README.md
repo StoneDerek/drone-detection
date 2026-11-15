@@ -7,8 +7,9 @@ It includes real-audio training and reproducible source-aware evaluation.
 The current research milestone is the [public-corpus representation study](docs/corpus-study-v1.md):
 20,573 accepted crops from the verified eight-release intake, with source/capture
 holdouts and frozen spectral, CLAP, BEATs and level/duration classifiers.
-[Execution status and development results](reports/corpus-study-v1/STATUS.md)
-separate completed work from pending final transfer results.
+[Completed results and the next research step](reports/corpus-study-v1/FINDINGS.md)
+show improved cross-source recognition with BEATs and a substantial remaining
+false-positive problem on mechanical confusers.
 
 The public [browser model lab](https://drone-audio-lab.pages.dev) runs the frozen
 CNNs, non-neural SVM and YAMNet control on your device, with audio playback, score

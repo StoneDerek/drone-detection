@@ -1,0 +1,23 @@
+{
+  "implementation_commit": "38313a91d033919a0ee76e2fb1d8a4dc269cfb4c",
+  "notebook_commit": "1066ef6e9dde839d456d5f18fb097e77d6e99603",
+  "colab_url": "https://colab.research.google.com/github/StoneDerek/drone-detection/blob/1066ef6e9dde839d456d5f18fb097e77d6e99603/notebooks/public_corpus_comparison.ipynb",
+  "software_checks": {
+    "lint": "passed",
+    "tests_passed": 181,
+    "optional_skips": 8,
+    "ci_workflow": {
+      "workflow_run": 43768639056,
+      "conclusion": "success",
+      "url": "https://github.com/StoneDerek/drone-detection/actions/runs/43768639056"
+    }
+  },
+  "final_evaluation": {
+    "comparison_sha256": "aa16c548b018022ce9eb32df9ff42e2deebb8471ea92a82a3c65655d198ad5a0",
+    "frozen_models_sha256": "c6381b9854ddc7f981b00f9ad282b34c618faeb89c49934eda9da72a3e41ff7b",
+    "manifest_sha256": "174a0caf901ca638e7783b679d97c5d6c5529c4eb87e25987c8267f760246b4b",
+    "scope": "Actual full eligible corpus crop comparison; inspect per-source results and limitations"
+  },
+  "prediction_count_each_model": 8634,
+  "source": "Actual CPU native encoders and fixed linear heads; no synthetic acoustic-performance evidence"
+}

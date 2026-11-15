@@ -1,0 +1,3536 @@
+{
+  "additional_exclusions": [
+    {
+      "id": "tut2017-development-6900071e8b814c20ae9e6af8",
+      "intervals_seconds": [
+        [
+          1.749666,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-dd2d9fc52044b681a0ea0cd4",
+      "intervals_seconds": [
+        [
+          3.929495,
+          5.324136
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-a4802cd388403eac7ef3f255",
+      "intervals_seconds": [
+        [
+          3.110371,
+          7.512026
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-34880cd856564fbf4a28074b",
+      "intervals_seconds": [
+        [
+          5.858706,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-bc99377a8705236aa9455865",
+      "intervals_seconds": [
+        [
+          0.739354,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-44c85689a905b2aa02990654",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-da33918633610a636d55fe25",
+      "intervals_seconds": [
+        [
+          2.735092,
+          5.413262
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-8b1a0c5101aefcd44db0ffc8",
+      "intervals_seconds": [
+        [
+          0.0,
+          7.008239
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-9f9161c88be2a914e515f7f5",
+      "intervals_seconds": [
+        [
+          6.062207,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-fbf045b4f4024dd7638be357",
+      "intervals_seconds": [
+        [
+          1.233198,
+          1.741841
+        ],
+        [
+          4.185321,
+          4.484522
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-ff5da6c44c3e5808ac689b01",
+      "intervals_seconds": [
+        [
+          0.0,
+          5.529987
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-d25b8ea6ab6fceae5f715c7f",
+      "intervals_seconds": [
+        [
+          0.0,
+          8.99892
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-dd9a9bbf867d2ca8ba455ea8",
+      "intervals_seconds": [
+        [
+          0.170592,
+          1.197692
+        ],
+        [
+          5.990826,
+          6.276132
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-abee6e73127555d2f7142ac0",
+      "intervals_seconds": [
+        [
+          2.608378,
+          3.913095
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-34d0240d553233012909d6fb",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "urbansound8k-eebcf468de158b36ec3accb0",
+      "original_id": "freesound:114587",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1215e9ca41cd60fcbf0ba759",
+      "original_id": "freesound:114587",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7a139aa10c3e145bebff3349",
+      "original_id": "freesound:114587",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ff8f9943c268f62de76b5e0f",
+      "original_id": "freesound:114587",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8648f858b1d939e688797da7",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3b92835e54dff81a2a870a31",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d99c8c45800f7fc921c2ecde",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c6088d5d9fe361d507d6fe49",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3c6c32f15017598e73a936da",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4f6f0900e91bd69a3e075db3",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8c01b93eae494615890a107c",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6664a21e045e63996028049c",
+      "original_id": "freesound:119455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-67be72c6b9c05baf264353a0",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d5b915c41dfbf6742e061c5e",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c9f2d1ffdd1a749b5f68cb84",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-14cbeea92aa13a706e3980d9",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7478798096cf41d9f7aba4f7",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7e30b56aaffede0a32b30489",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-67788b04593257ee57d5743d",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-fb15b8c6d0f9d53c4b8b2db6",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5f3462045f86756b706449f4",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-944d9877946a21aa5da10279",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-50bb9a6266251a9320751950",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-974d68b2f957d54c67f4a2f7",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e816766a3517d8546244ccd4",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3534972678f966de2b422782",
+      "original_id": "freesound:146186",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c9126eca9fd1810524f953ef",
+      "original_id": "freesound:175845",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4b27528b521fc34c400f2e61",
+      "original_id": "freesound:176638",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c75300f4d7e64f377a345e62",
+      "original_id": "freesound:176638",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a038535fc03b46897c7ef127",
+      "original_id": "freesound:180256",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-40b4ffc36c0506fc37760df8",
+      "original_id": "freesound:180256",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3f903fbf0db71713ed501e12",
+      "original_id": "freesound:180256",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-797100add91ad245c52185e5",
+      "original_id": "freesound:180256",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3fd4640ced0201015df6e7a6",
+      "original_id": "freesound:19026",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7578b96ec8e86e63c80d11e6",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-92ef2950d69e3384ccb7ffa1",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6455292bd4951d5bd2abb169",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a2e78a51ba0e09c95953694a",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-16e20fc1e8c39becfae10999",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a34dc2e376627dda142bbb75",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4d9fe1a6282b032542b03032",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-47a930cbdbfe07035ebc2d88",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-272f12046bdc91e27af3fe67",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-917d7ec49e59b8be76cbfee6",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e9a0aee3e921445b0e8461d3",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-144bb5da9452d9eb7ed7c534",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c3a23e91b94605265936bb51",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f527cb6e2023fea462cc0b4b",
+      "original_id": "freesound:24074",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f23be684110e4e6e2049554a",
+      "original_id": "freesound:43806",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a1282a09a2d21fa844698c8c",
+      "original_id": "freesound:100648",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b0f659286d87d44a3b064e38",
+      "original_id": "freesound:100648",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-52f9e775b4891984e9edcd02",
+      "original_id": "freesound:100648",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4eead2b789c30d5bb2b62f32",
+      "original_id": "freesound:100648",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0413d9a0b82aa9661ea37de0",
+      "original_id": "freesound:100648",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3a6f11a5085cbc16219e6ca7",
+      "original_id": "freesound:106014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-27cf124abb0e760163e5d7b5",
+      "original_id": "freesound:106014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-59dd8244791ebabed24c4ad1",
+      "original_id": "freesound:106014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2155e345216be0b159f9bb57",
+      "original_id": "freesound:106014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-acd9d59b77e1ea13ebb12d79",
+      "original_id": "freesound:106014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-87f8f6cf51ba054342af2589",
+      "original_id": "freesound:141240",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-18a4b93997d7afcbf693dd16",
+      "original_id": "freesound:141240",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-586d3ed61121f6ebf8d02e04",
+      "original_id": "freesound:163459",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-741ae2887be31c5ad649611e",
+      "original_id": "freesound:178402",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b705ce880a130ffb30d9e3c8",
+      "original_id": "freesound:179868",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-493a6488bac990b6169143b7",
+      "original_id": "freesound:199261",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0ebe52708004d41eb44317cc",
+      "original_id": "freesound:199261",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b1cf80d69bc4cadaa483b03c",
+      "original_id": "freesound:199261",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0a26e7a92aa1aec9f53c6026",
+      "original_id": "freesound:199261",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-25c104541440db8b562ca791",
+      "original_id": "freesound:24076",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4b7f6e6cbaa1394d0d6f0151",
+      "original_id": "freesound:24076",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-fb12d02b36776dc060d9c082",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-cab03128851bcf57649fbe3b",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f9592a5d70dd0477f7b1e003",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-20a8b1d999e0b0fa1cf522c2",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7e7e8b7abb3f5ddb35da21df",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-50ba1b5aa683740c76720e77",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4f2e7812b453ab97019e8426",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3bd8640c6158d33dfed99f71",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a894aec1feec902fe88f9ea6",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b7a88e5217ac589f1228f5c7",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-01e88ab197a5cc05d5769bd9",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9f7938a975c978a37fe0f517",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4698c04e48088a726e7b3585",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c4827495b4c64580ab4fe1cb",
+      "original_id": "freesound:28808",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-17485e6a29cc19f87888f7db",
+      "original_id": "freesound:30344",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2f40cd5b569bc71109ab5b04",
+      "original_id": "freesound:30344",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d3636a5f0e11af0d8f02dc8b",
+      "original_id": "freesound:30344",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c7077c127f75229ff918cf6b",
+      "original_id": "freesound:30344",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3859ab071d6d6c03ca0773dc",
+      "original_id": "freesound:54086",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-85a9de8fd6de026ea412e667",
+      "original_id": "freesound:54086",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7b1de4af0e92474ae3f12bf5",
+      "original_id": "freesound:54086",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8b939218a5127714ba9582e1",
+      "original_id": "freesound:59513",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-87790bce2ee7c27f61467c5a",
+      "original_id": "freesound:59513",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2d31f4baecbe071f1327ceaf",
+      "original_id": "freesound:59513",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0dc8344b3b0e11eaacae52bb",
+      "original_id": "freesound:59513",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-89f813fc1b5235a2db5c431c",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-75680a2aa0688262446f8315",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-dee8688c44d58d5ee4a0cad5",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-150e282d4129717338ef285a",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-19e5156051262437320f31c6",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-35ffdf02b70db3aa2637301a",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6174a0daa00d05b417cb3574",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-445ef893c54d92f1d8ec648e",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f4734c119c80456d1cd7c3c2",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-046f34445ea1aa1c9fd59e5d",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0d5696d35023cd42c22eb0cb",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b73efa36b6d5fbc586d8e375",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ec3c858acfbf186e16bf8813",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-755ec8da08875d4e492c67c9",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0668fb8902d1514df92ba5bb",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a68b94da4b453d222d6d95f6",
+      "original_id": "freesound:102871",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4a830217547b891f8303ec80",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ae1f658c781e11a60f9d6792",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-264994ba8371c63e5ae0692e",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4b73cfabb770d429b85b9822",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d39018839a76a6896bde711a",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-69096d504744126de5814b13",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3e5817c01fb2539f43d2d0ec",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b23f8c1db8e26e55346dee29",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e9654d880ba680bebc1fb5e9",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2b88b70baa0e97e8ec691bb9",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-124c913ce2d03fb75e29c566",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c0b4771bc29290223612ca84",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4d833746032f716dcfb44d7e",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-59ae90a4701381a4ab1a319a",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-92034d8708d70c4046f65238",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-aec34bc873705705e190f908",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7f877a936539713cdc46ef36",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f25d480f6a4a1ae2951edd5c",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8134b77cc4e2a0552b68a95f",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7b4c428e8d9b1c56868d0114",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-40a84081052aac4bd15cd695",
+      "original_id": "freesound:106015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3cb3730018f70bb4a22b2538",
+      "original_id": "freesound:145577",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b2f44e8b1fe4c8755e487220",
+      "original_id": "freesound:155234",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ea678430c9796c11f96f4547",
+      "original_id": "freesound:179866",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-42afe785a6fb4afa40f4072e",
+      "original_id": "freesound:179866",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-34494be010d897355068f18c",
+      "original_id": "freesound:203128",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f937a9d530f3817dfef9808d",
+      "original_id": "freesound:203128",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f525d133b78850f190915f80",
+      "original_id": "freesound:203128",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-09d5952dae1fd0d7c8fbd711",
+      "original_id": "freesound:203128",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4fed790baaeee0ab0b53d0a1",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5ae3b32a76841fc5fc9fd050",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2e96a7662620c0ccd9adf438",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5c54d24365c4841f4df3ace0",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c498fa50bf4be0fe3a2fc269",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b2d1f23f277f11ad078188df",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a64b95f80219d993527e2bcb",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-691509ff12cd8982ed990a09",
+      "original_id": "freesound:107228",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1193fcc2e0718b3c2d2c5d2a",
+      "original_id": "freesound:116400",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2c18e77e65e2af9a0ebe0182",
+      "original_id": "freesound:116400",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-adac3962051cb4e03c98fd5d",
+      "original_id": "freesound:116400",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0ff3ee74ad31354a6b18228f",
+      "original_id": "freesound:116400",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7f4b00dfd190321704d8f49d",
+      "original_id": "freesound:170015",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e2fa14bab0fb7497891e925d",
+      "original_id": "freesound:174840",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-02aa2d037003882e16a0a715",
+      "original_id": "freesound:176631",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-896c819e9578d3c8a24d00f2",
+      "original_id": "freesound:179863",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-64293d1b88b4767a1cda8a2e",
+      "original_id": "freesound:179865",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-556466da27d2831c91970d0c",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ccba2524b80100e2daa3fa71",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-49a4de1adc493bb4403d7c4b",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-55e524e8473f5204e15a55a9",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-82e92b66c4b6fde905f9a62c",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-49ee672cc1a82ab91d0e74f8",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8ef2384369dfd4bda2dbd600",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6450b66fc440e5242f0511a0",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c5b3f50e93a82468a46dc0b4",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f200902941757617bcf8f315",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c097545af254a7059a04754e",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-17382d69dfe0791c7a33f132",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e05bdf1e2943b0d947207000",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-82e8079231e9ae7c9c65b59f",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4718e3c316b11536b09e695b",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e9a1bbb9fb8c882d7a7f9af7",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8fc2edb4ff2652f46c789842",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7658fd82f03f0cead465255d",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-229125cdec963de836ca98a1",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0c779b2fc3a702438017bf07",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d29710d60e7fba2888d0537f",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ebfa664590bbcb9e2acc068f",
+      "original_id": "freesound:195451",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2abfcbe9722af5f083484d52",
+      "original_id": "freesound:207124",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-92523344edd5b6dc2285f08e",
+      "original_id": "freesound:207124",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f7704cf3f8263b0aff6988da",
+      "original_id": "freesound:207124",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b100d5e07ffd2e3e3d6f9186",
+      "original_id": "freesound:32318",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-bbe8cbd0a1d2adf86e218d83",
+      "original_id": "freesound:32318",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-95320a1dffe4f3bf18c77199",
+      "original_id": "freesound:44831",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7d95a3ba26404b5a1c454825",
+      "original_id": "freesound:44831",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4006bd7a9cd439515f7f5ec3",
+      "original_id": "freesound:44831",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-37489f9c4bc440b0ea74522e",
+      "original_id": "freesound:65750",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8f2d3be386d46ab2d882c9cc",
+      "original_id": "freesound:65750",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7ff7a2b22c3669016836d9e5",
+      "original_id": "freesound:65750",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1a2b2fcc082d5a6152cf7292",
+      "original_id": "freesound:65750",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-475db7d1aee8ca741ed84d15",
+      "original_id": "freesound:90014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-24ecdf53c903435cf95a8cb3",
+      "original_id": "freesound:90014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8a9293f1936f5ad54bf3ce22",
+      "original_id": "freesound:90014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8f28f2f1820c99ee3420dd0b",
+      "original_id": "freesound:90014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-25b139afc675627fc4978f52",
+      "original_id": "freesound:90014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5e5e4aa4d13163c635194b80",
+      "original_id": "freesound:90014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-96a84cee9f90820c3eca2c59",
+      "original_id": "freesound:90014",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9036d9de6bc5a51cadd381bd",
+      "original_id": "freesound:118964",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6e19c1fa337b34bcc7be41bb",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c4c90f7708a79d1a19860df5",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-65818c18d4e740f8ea0e37b5",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-fb7a933ef0b6b058f5cadb38",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-af4d20bdad0a76e1593a1f78",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ce76b88beb78d15337cc757d",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d7925dbc3ede68ba0caf6e65",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8084ce1b52d19bbe402a6682",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ca26e9b7929b5cbe3a4b5e0c",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-aea6410158da52770528b90a",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4275ae6082df26324b380b4d",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-bc18248bbe1f47338ad4fddd",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5af8af9853a48149bce8c0a2",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-be1c82a10736ee51c48e5b85",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d1733baf04fb99c50ebfa53e",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-56daaeee04e42eb8d6d4446b",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5bb3ca46154f56d467548e3c",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1419deeac08c0cfb27d7111f",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c52664ed55e0b6883ffbf6ce",
+      "original_id": "freesound:157695",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d408fa9706d88cd9922fb239",
+      "original_id": "freesound:161010",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b7a8c80ee7687934c00712be",
+      "original_id": "freesound:161010",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-be0b512e87b115540f008d80",
+      "original_id": "freesound:161010",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3824d26de361c86e2589a5cf",
+      "original_id": "freesound:161010",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e90f6d42e2b19675d203a743",
+      "original_id": "freesound:176638",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-01befd861b5784bc35b33338",
+      "original_id": "freesound:180977",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3efbd7445837fc1926279d0d",
+      "original_id": "freesound:180977",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ebce16e1aeedd930940a14e4",
+      "original_id": "freesound:186938",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9068f2075b6b899ce34834fd",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-75e3b990167c548a1f671fda",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f98da8131097ac4177722b30",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-30068cbd54b87664ed968338",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-bdfb31270631c9ca9dba6022",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e6f3ec898795e0813c9b5a26",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-92cdf5ebdef2d289b7918e8b",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c3d90232cd259c9f5fe22f9b",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f1ae0284508fdae11fea0db7",
+      "original_id": "freesound:128160",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d80c9496e5045f864bfbefc5",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6d61af75d46b2c6e42af0e2e",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-34c8099fc12564e4f1c23202",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-446c7e5933962c23bf5afedb",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4c93dd7318041b8f267b69af",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f0670dd79c766cb45671c5c9",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9a37b954b24cf7d6cd10f796",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ecfe12c6db1542459d38522c",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-559f180bb16c11a88bb65eec",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3b5dadf9c366ccd7bd2b197e",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-bd501f283fbe0848f354a976",
+      "original_id": "freesound:154758",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-146ce265c05d0f21f154ea0d",
+      "original_id": "freesound:157695",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8c8aa8ca6b4e263f641f76c3",
+      "original_id": "freesound:157695",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d31be0dcf93d9f4f2c4e02c7",
+      "original_id": "freesound:157695",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6d8eb29a299c1f800c9227b1",
+      "original_id": "freesound:175846",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-cd7ef6ed198eebfdc9a3f72f",
+      "original_id": "freesound:175855",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-891366c83167577a4b2dcb4b",
+      "original_id": "freesound:176638",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-78379d8b711d76d1f016d1cb",
+      "original_id": "freesound:176638",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6f70eed63ff245232ea1dd1c",
+      "original_id": "freesound:180977",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-51b6dc02cac1ff1439e1b2f4",
+      "original_id": "freesound:50661",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-db582cc705fdb176627ba9c8",
+      "original_id": "freesound:50661",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-011069e6164431dd1a7aea98",
+      "original_id": "freesound:50661",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ff5dc4625237e9ca5de4814e",
+      "original_id": "freesound:50661",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6591a09078d785b141657c5e",
+      "original_id": "freesound:50661",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-15679348a259feb10a6532cf",
+      "original_id": "freesound:50661",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-16dd3e31e8155b23afecad69",
+      "original_id": "freesound:100032",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3ecad8161146e30ba2982456",
+      "original_id": "freesound:106487",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d5f947c47f290576267f592d",
+      "original_id": "freesound:106487",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-53d38985230b8e096fada7be",
+      "original_id": "freesound:106487",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-79d871d7146167da15603625",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9c25361de451cc4fc65d53b4",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b674e4ed0f6b66f64ff3b4b8",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-739441466e518b2af03c15fb",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-52280b538169b5412cf02c13",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3d5a1d146fdb8512de1d3680",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1dba198693a6087943733c63",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ebcdb38486bcad3ac0b64a82",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-dde810f205e13b8a010f2451",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-703db831b4c1e3a644cdac07",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1dd068381fdbddac071a3df6",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-923db2ea75a55e274237e60a",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8b164b0b73854b8b83894ee0",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4cc84baaa4b75b5159071099",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6316d2d3bf91b5a510288485",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0f615f07a8665158d091ac50",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-69eb8dec600107cebf2efa0f",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a9c74be68956843fe458930d",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-834620bd9d5effd9050e24b7",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7910ae935832703338842a51",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f7b07d78436267e3dcf9d14e",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-127cb170ef02ee90533f4cd4",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-874a60938ff175a540f35a3b",
+      "original_id": "freesound:111671",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e6a34664e3223daa6bb34c66",
+      "original_id": "freesound:26177",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0ff1e25a288a00bee1db5170",
+      "original_id": "freesound:26177",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1067675fed773b963c74aaed",
+      "original_id": "freesound:106486",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b328340cd7f8b0af4360c042",
+      "original_id": "freesound:106486",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7802c11859ed24d45ae2911e",
+      "original_id": "freesound:106486",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e380ab7f91ab3dd1f96a015a",
+      "original_id": "freesound:117271",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7ff920bdff6cf05561191dfa",
+      "original_id": "freesound:117271",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ef532f70d70bd091c41d5cf8",
+      "original_id": "freesound:117271",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f243a9088c0b46e9d88cf9de",
+      "original_id": "freesound:117271",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ffc6d159deb2bab41811f499",
+      "original_id": "freesound:118072",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b1ce4d8ba8d5bfd57bf9da09",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f1fbba5df9d1de952d3acedb",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b5b66ca7c610cbc92fe93344",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-80ac2990968e530f5a53cee8",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-bb6275d3f47c94e1a04be5b2",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-aaed48cee88339dfc1a767f3",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2bd505740772cba77f7f8ca7",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-330d0f4ba8695d13c86cb6b7",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ad8cdf9e7403672b543a7c47",
+      "original_id": "freesound:128465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c9f8ca000c7e7e1fa1ee6f01",
+      "original_id": "freesound:179860",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-fa38ab50db00c5e8a4273090",
+      "original_id": "freesound:208030",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4e128bf1248edea7eb49ac45",
+      "original_id": "freesound:208030",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0443e30c81a393ad10e611df",
+      "original_id": "freesound:208030",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5225a2d54ef169b96c0f7d4b",
+      "original_id": "freesound:208030",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7169f451ecf8380ebd0ef3ea",
+      "original_id": "freesound:50455",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2ebd6ef4c219d9af13877542",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-065ca4e343a1e0817486373f",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-412c418696fbb4fa12d99048",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f63e7e84fa0681054b5092b3",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-55829aa932f29998dc1efad5",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d5b0cab1dc7d26862a503cf1",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d0f7c14b62a191d54615c6a1",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-de0b2de5990c11e541a82810",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b1023a8a1513dd33ddc280d6",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c9527a0a1d8fe988e0d4f768",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f9af3d246ccb31fa57a18759",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4486c0426ba3c4757fb961c4",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b07fdecd60b5bc53d35c54d3",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-81416a6826ca53794e5ffd64",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-54ca71d34166eea00ad78692",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0bd493ff1df617440f2e4ac4",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1abfff41683e7fa25ef36d14",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a6248f4a6d30c77702ede0f7",
+      "original_id": "freesound:78651",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-161374254d6708c684ca6e56",
+      "original_id": "freesound:9032",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4e119f604298ad62c6e2b83d",
+      "original_id": "freesound:9032",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ba5e6048a4197c9c56e4bce5",
+      "original_id": "freesound:9032",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0c34b5ea4664385742cbf727",
+      "original_id": "freesound:97392",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e675201bea540e7bbf790ef3",
+      "original_id": "freesound:153057",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2e33f619f48bf6338d880f62",
+      "original_id": "freesound:183992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-230bbc7a1fadc6560c346b7e",
+      "original_id": "freesound:183992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-30098bb00270a7dd687d7154",
+      "original_id": "freesound:183992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1f855291833a39adbf0d4c1d",
+      "original_id": "freesound:183992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-42c2c0633b0f31b8a68749e8",
+      "original_id": "freesound:186936",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9adcaa3ae044f2dc03f0fa57",
+      "original_id": "freesound:186936",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8f1341fdc6620915a2700104",
+      "original_id": "freesound:191687",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7a819c0f8a0fb8d5d09baaa7",
+      "original_id": "freesound:191687",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8645e797c3cece5c31cc082f",
+      "original_id": "freesound:191687",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8dfea90a67b52a69e778f7c6",
+      "original_id": "freesound:191687",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d88affec74c37277d8f68137",
+      "original_id": "freesound:192236",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f7de7aafa06d19f4187ac8e9",
+      "original_id": "freesound:192236",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2998b4e0b1ed9d765169aea6",
+      "original_id": "freesound:192236",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2b1709aa2bb3ae79c182c31b",
+      "original_id": "freesound:192236",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4991785fb9980f80d393f417",
+      "original_id": "freesound:194754",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6e8f51e79db5a18d9c4a26cc",
+      "original_id": "freesound:194754",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-218fbe0717f45e11577af211",
+      "original_id": "freesound:194754",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f9c584be537d76b1d6fa469e",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-48111911d831dbda509fdd47",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-db9fdfa8499e4dbef9e190b4",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e623110e4cddd9d00bf10eef",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-977df74e818f899daf910cf8",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f675961b85ea2441d61b214b",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-29c6faf0ae93714c76e73cb2",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-789bc56c7b8d7f837009dfb0",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a51bad9103e69468ff5211ec",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-45e18721cb3add94463e4cfa",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-147b4d3b0c024645d0a2de1f",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f44f6876218cd49ac1625772",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-edf55bfe6e6649a4498965ed",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6f832f1524811f9b616d265f",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-03198c325b68cb2197f34098",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-bcb54c3f29a9363182a34ac1",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d34f05818e9de215967d1a5e",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3121d46ae8e0db8a79a94fca",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1f7b91c1aabdb4db0d3dc77c",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-67b3cf422e4a9dd4923f4ad6",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0e095283c23dc7b1f6ffa0c8",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-3f3099d62794bea4ea618545",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a1b4d5e1237f52e040712b38",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-fce378f84f9e045ed0db9c2e",
+      "original_id": "freesound:201988",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a04397d4d8d78dbdd6fbaede",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4d9f2af9b3bcf0efc22a0348",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b72c7e1752f035b898b6fc4d",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2af73b4fc582d806c4c26379",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7e85338bc6a0facd139751c6",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8bfc2e7933fbd27b333463a8",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f72c1fe97deb4b54a778d67e",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f3d27a1d0b104acd600dbbd8",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1e70e9e57a280e38b38cdbf6",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2058553f03c513df7a16c6e8",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-17f9adcb72147407118a1aa3",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c0311ea77e190d706a50e1cf",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a5b94c355f2d34ee87abcfa5",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4afe43f90a4da79e828f2a07",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b0d8d7f6ff13018eb920df09",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b4074f730a8b771df0c1ffd7",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d17da466c52630342561e444",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4b14bc3f153a0ff0d0dc4d3f",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-fa65c8bf651ea24044d38d02",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1f9636e58730a5a40b38d069",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-668ad2859c2629c772e57e40",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-dc1d37d124785b77ed3b5598",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2614a232aacbbde48e96e122",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-66bf0dc9cea359928773359f",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d7053ef99ca525bd2a4f42db",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-39662c83c9a416b33b844ca9",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e320937868b41982c4dd5cd7",
+      "original_id": "freesound:209992",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-30bafb106adce47e656c6ede",
+      "original_id": "freesound:50454",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7a5e599aab364a92e31f0d2e",
+      "original_id": "freesound:62878",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c9635a8802060171546ad5c1",
+      "original_id": "freesound:62878",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1c2dac0ba1c027d3e61298ab",
+      "original_id": "freesound:62878",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8983fafd8902cdcb0a0d9250",
+      "original_id": "freesound:85362",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-7dc0f95a307cb9beb1c6013e",
+      "original_id": "freesound:85362",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-42b6933b9671b7c795779f7f",
+      "original_id": "freesound:85362",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-15e8a632711d8b7f815c22bf",
+      "original_id": "freesound:85362",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-49925eca3fca62e4d6a13de1",
+      "original_id": "freesound:114280",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6781972886c288c0d8ccfc94",
+      "original_id": "freesound:114280",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-392fc2387da3e3790781d751",
+      "original_id": "freesound:125520",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-fb57f537b41b73d899a9561b",
+      "original_id": "freesound:125520",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1669fd20bc6e14627482faa8",
+      "original_id": "freesound:125520",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d8660972d1127603f50461eb",
+      "original_id": "freesound:125520",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f427b9c486fb47824454a666",
+      "original_id": "freesound:125520",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4de44803e83ba0bb9a7958e2",
+      "original_id": "freesound:138465",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ae466f332f916f4d9d773ab7",
+      "original_id": "freesound:144028",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6ec555ccdb3abe8d146b21e0",
+      "original_id": "freesound:144028",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-518cb92bfaf5eaeda6e38df0",
+      "original_id": "freesound:144028",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6b691b7ca1ab3e47fab50447",
+      "original_id": "freesound:175856",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-1efa0d90727c667f902d53de",
+      "original_id": "freesound:175856",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d43866856ac5ac876c59e5dd",
+      "original_id": "freesound:175856",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6128717adfd1d1acbfcad1f6",
+      "original_id": "freesound:186935",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a3db48ffb48b543a1aea2f3e",
+      "original_id": "freesound:186935",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-0f43569271d187a0268cf93c",
+      "original_id": "freesound:186940",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-457783863a0cee9f0f63d4bf",
+      "original_id": "freesound:26176",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ffad306b632247d7babe7dc4",
+      "original_id": "freesound:30226",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-57577d2b9e7b7814e2fa84ac",
+      "original_id": "freesound:30226",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-4035ba8e4ef0289656b9bb34",
+      "original_id": "freesound:30226",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2be1c5ea20c5d0000cb842d7",
+      "original_id": "freesound:30226",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8701cba95dc03613e2a4debc",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-90ff37c8d69b542ceccc4de0",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-003d10a0e2bb667e3e24b6a5",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-6c921d8ed67e86d4b8385a1a",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9104088ec97d532d33e1527e",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-8cfec317a1e2b3326639eaf9",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-59fd3b9f2c9b9721afdce444",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-359ba63a0d07da37ad142bd3",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-9f6bff7eeea1f1d783c5a14e",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-e827840e6a912556792b4f76",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a1212798afa1cab06d24c806",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-943c93f28d7b4ad0d640d967",
+      "original_id": "freesound:50668",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-cacbc8827cdecdd142d1eee6",
+      "original_id": "freesound:110389",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-b58e975ab52cec5f3237738d",
+      "original_id": "freesound:155130",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c007f7e9e9b2ce804a45da58",
+      "original_id": "freesound:155312",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-da0a44f7ae1f9e6c1689ff75",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-31813c98d5d742e664c54b14",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-59b62822e9f8325b03fb7fb1",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-a5f9fcc7c76a5fe80eb2ff42",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-95771524172813d6a47643b2",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2740f7fe38f9efb159bdbf8c",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-37d167cf6c077b025215c453",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-c00c9957aa441f227b8d3ddb",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-618bf2963756b7c23f34242e",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-ae9ccde076c7e2be7c7a9a23",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-caa76edd3bf30dd93738e6ce",
+      "original_id": "freesound:180156",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-5e7e4f836e7befbd515298e6",
+      "original_id": "freesound:184575",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2b1e3bddb34ff90db7cded5d",
+      "original_id": "freesound:184575",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-af99c7425324373d9c62be76",
+      "original_id": "freesound:184575",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-d3da2c14f154d1efd4f53785",
+      "original_id": "freesound:184575",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-2775a5403bf901b6b41897d0",
+      "original_id": "freesound:22882",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-f8cefe4ea5b8904dd65e3309",
+      "original_id": "freesound:22882",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "urbansound8k-25d80f6f86a0d7ffe12b09c9",
+      "original_id": "freesound:42101",
+      "reason": "historically-consumed-ESC50-parent",
+      "source": "urbansound8k"
+    },
+    {
+      "id": "tut2017-development-bcc68ae41218084505cd710e",
+      "intervals_seconds": [
+        [
+          0.0,
+          3.590225
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-b2bf3364bb2a8174ed423a36",
+      "intervals_seconds": [
+        [
+          0.0,
+          5.972562
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-e442dde479e9d0e6cd089352",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-712c85d9d4aa0e5e26164531",
+      "intervals_seconds": [
+        [
+          2.018775,
+          9.801348
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-8f7df16d6d3c4749a10f71e7",
+      "intervals_seconds": [
+        [
+          5.84924,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-156db8ae3088718ff1b2769c",
+      "intervals_seconds": [
+        [
+          1.609335,
+          4.114848
+        ],
+        [
+          6.964631,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-273c6612ccee76064b244a22",
+      "intervals_seconds": [
+        [
+          0.947453,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-a5cc52ee0fd8fe586c76e846",
+      "intervals_seconds": [
+        [
+          3.559132,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-4887a86ce73e2ef4ddd01127",
+      "intervals_seconds": [
+        [
+          0.0,
+          5.662415
+        ],
+        [
+          8.913003,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-e69808d15cb44156341cae51",
+      "intervals_seconds": [
+        [
+          0.901311,
+          7.598789
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-ed54867ab46c29a07b35181a",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-e7e299d248c246f61d5e7a5d",
+      "intervals_seconds": [
+        [
+          3.969027,
+          5.929673
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-9459bfdde5edffe653ce10b6",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-58228bbf3d5383eedccf3b00",
+      "intervals_seconds": [
+        [
+          2.013807,
+          6.82835
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-60d9b7ec54cbf09354258ac3",
+      "intervals_seconds": [
+        [
+          4.573629,
+          8.735882
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-d795e5025053de6acfc70b23",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-95532bedbee529de2b026975",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-a9747ce4bf0004115a16d2f1",
+      "intervals_seconds": [
+        [
+          2.778576,
+          3.525257
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-d0750442daeff0f73bff34bc",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-f599fa7aa3d3cdf7db708806",
+      "intervals_seconds": [
+        [
+          1.795837,
+          5.875544
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-710045c1a16743cbb02ab9ab",
+      "intervals_seconds": [
+        [
+          3.984293,
+          5.736583
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-554b39d9ec414e3c10ab0d56",
+      "intervals_seconds": [
+        [
+          1.239401,
+          4.84895
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-0130c5262932240a3e580b51",
+      "intervals_seconds": [
+        [
+          0.0,
+          5.537589
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-e6d5b2906c2ccca044447626",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-e281e142fa8b1522f412e2d8",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-7bc3709b0c57984e798e34ee",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-bde0809b29d9dc9a239a885b",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-3b5f373b0d81bc1f4fc40745",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-0f6a59f13983d66ea1f3706d",
+      "intervals_seconds": [
+        [
+          0.0,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-d9f9859bf9a4d3017d9b1d6d",
+      "intervals_seconds": [
+        [
+          5.506122,
+          10.0
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-a4f69e25ab852ade3b333cc1",
+      "intervals_seconds": [
+        [
+          3.995516,
+          7.315337
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-3157587543fa7fcb41a74d65",
+      "intervals_seconds": [
+        [
+          0.0,
+          8.989442
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-3f4d8dcd7ff3c1d7129fadaf",
+      "intervals_seconds": [
+        [
+          4.510105,
+          8.147434
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-0a6dce2c74901eeea1ea34f4",
+      "intervals_seconds": [
+        [
+          0.595134,
+          7.816983
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-552d37b7fe6777f714d9e9d5",
+      "intervals_seconds": [
+        [
+          1.834809,
+          5.889635
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-689a412ab32a6360e9f06684",
+      "intervals_seconds": [
+        [
+          4.581393,
+          4.946725
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-ad2d211444a35bce470061ff",
+      "intervals_seconds": [
+        [
+          0.0,
+          5.078545
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-825c4edc1c45cbe44c28e18e",
+      "intervals_seconds": [
+        [
+          0.0,
+          9.846758
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    },
+    {
+      "id": "tut2017-development-867df3d61948b5083afe0251",
+      "intervals_seconds": [
+        [
+          0.094659,
+          9.12533
+        ]
+      ],
+      "reason": "crop-intersects-publisher-error",
+      "source": "tut2017-development"
+    }
+  ],
+  "capture_group_counts": {
+    "development": 110,
+    "final": 1194,
+    "train": 253
+  },
+  "counts": {
+    "dnc/train/non_drone": 4357,
+    "dronenoise-edzell-v3/final/drone": 18,
+    "idmt-berne-2022/train/drone": 163,
+    "neaptide-v1/final/drone": 35,
+    "poland-uav-v1/development/drone": 360,
+    "poland-uav-v1/final/drone": 360,
+    "poland-uav-v1/train/drone": 813,
+    "tut2017-development/train/non_drone": 4626,
+    "tut2017-evaluation/development/non_drone": 1620,
+    "urbansound8k/final/non_drone": 8221
+  },
+  "historical_overlap_reference_sha256": "4e31ed317818d1831897d16bb690b7efc65e72ebf77c5599c4a2a4747f804faa",
+  "historically_shared_parent_ids": [
+    "100032",
+    "100648",
+    "102871",
+    "106014",
+    "106015",
+    "106486",
+    "106487",
+    "107228",
+    "110389",
+    "111671",
+    "114280",
+    "114587",
+    "116400",
+    "117271",
+    "118072",
+    "118964",
+    "119455",
+    "125520",
+    "128160",
+    "128465",
+    "138465",
+    "141240",
+    "144028",
+    "145577",
+    "146186",
+    "153057",
+    "154758",
+    "155130",
+    "155234",
+    "155312",
+    "157695",
+    "161010",
+    "163459",
+    "170015",
+    "17124",
+    "174840",
+    "175845",
+    "175846",
+    "175855",
+    "175856",
+    "176631",
+    "176638",
+    "178402",
+    "179860",
+    "179863",
+    "179865",
+    "179866",
+    "179868",
+    "180156",
+    "180256",
+    "180977",
+    "183992",
+    "184575",
+    "186935",
+    "186936",
+    "186938",
+    "186940",
+    "19026",
+    "191687",
+    "192236",
+    "194754",
+    "195451",
+    "199261",
+    "201988",
+    "203128",
+    "207124",
+    "208030",
+    "209992",
+    "22882",
+    "24074",
+    "24076",
+    "26176",
+    "26177",
+    "28808",
+    "30226",
+    "30344",
+    "32318",
+    "42101",
+    "43802",
+    "43806",
+    "44831",
+    "50454",
+    "50455",
+    "50661",
+    "50668",
+    "54086",
+    "59513",
+    "62878",
+    "65750",
+    "78651",
+    "85362",
+    "90014",
+    "9032",
+    "97392"
+  ],
+  "implementation_sha256": "10c27c2beb13ee27b5a39977c0eae95abdc032bc28f91e6a2ece20c32178c125",
+  "input_manifest_sha256": "d3adf08e62617313a043b8addf66f690287abe9f006584213b0701c07841959d",
+  "manifest_sha256": "174a0caf901ca638e7783b679d97c5d6c5529c4eb87e25987c8267f760246b4b",
+  "native_file_hours": 64.77921458936366,
+  "policy_sha256": "f988148e85792b6edaa3a7ad760c58f6f1ba65eaf8ef4f5784e0d96a01a323df",
+  "pretraining_and_lossy_excerpt_overlap": "Not ruled out",
+  "records": 20573,
+  "selected_crop_hours": 16.62046092013889,
+  "tut_original_ids_disjoint": true,
+  "urban_metadata_sha256": "b207f7a53f9e5eb02a5dd71d58fb8b66c88c24c0637b926dc72d9d400a6a2354",
+  "verified_distribution_bytes": 39010710391,
+  "verified_distribution_files": 222
+}

@@ -63,6 +63,12 @@ def plot(report, output):
         axis.spines[["top", "right"]].set_visible(False)
         axis.set_axisbelow(True)
         axis.grid(axis="y", alpha=0.2)
+    largest_fpr = max(
+        results[f]["metrics"]["by_source"]["urbansound8k"][key]
+        for f in families
+        for key in ["negative_clip_FPR", "macro_negative_group_FPR"]
+    )
+    fpr.set_ylim(0, min(1.04, max(0.05, largest_fpr * 1.35)))
     figure.legend(
         *recall.get_legend_handles_labels(),
         loc="lower center",

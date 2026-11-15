@@ -1,0 +1,17 @@
+model,source,clips,provenance_groups,positive_recall,negative_clip_FPR,macro_negative_group_FPR
+spectral,dronenoise-edzell-v3,18,1,0.2777777777777778,,
+spectral,neaptide-v1,35,1,0.3142857142857143,,
+spectral,poland-uav-v1,360,1,0.9944444444444445,,
+spectral,urbansound8k,8221,1191,,0.24619875927502738,0.2120595006169398
+clap,dronenoise-edzell-v3,18,1,0.6111111111111112,,
+clap,neaptide-v1,35,1,0.22857142857142856,,
+clap,poland-uav-v1,360,1,0.9972222222222222,,
+clap,urbansound8k,8221,1191,,0.1885415399586425,0.10684098095671597
+beats,dronenoise-edzell-v3,18,1,0.8333333333333334,,
+beats,neaptide-v1,35,1,1.0,,
+beats,poland-uav-v1,360,1,1.0,,
+beats,urbansound8k,8221,1191,,0.16165916555163606,0.1256398729430732
+level-duration,dronenoise-edzell-v3,18,1,0.0,,
+level-duration,neaptide-v1,35,1,0.0,,
+level-duration,poland-uav-v1,360,1,0.0,,
+level-duration,urbansound8k,8221,1191,,0.004014110205571099,0.010804861245667291
