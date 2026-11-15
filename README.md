@@ -68,6 +68,12 @@ passed and failed; the interface uses “No alarm” rather than claiming absenc
 
 ## GPU notebook setup
 
+[Open the pinned BEATs/CLAP Colab check](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/codex/frozen-audio-colab-20261115/notebooks/frozen_audio_comparison.ipynb)
+to verify the new workflow on five retained examples in a separate Drive project.
+It pins comparison code commit `d49fa175f2f739c3ca0ba2a1a049a5d71fa5bf5e`,
+runs both encoders and checks fresh-process feature/head reuse. It leaves the
+bulk intake project unchanged. This is a software check, not a generalization study.
+
 The [frozen audio comparison](docs/frozen-audio-comparison.md) provides a separate
 BEATs/CLAP recording-level linear-probe workflow, verified feature caching,
 timestamped diagnostic scores, and explicit original-source intake adapters.

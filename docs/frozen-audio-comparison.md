@@ -7,6 +7,22 @@ The current real-audio verification uses only five retained browser derivatives
 not improved generalization or a useful detector. Existing deployed models and
 the broader data-first study remain unchanged.
 
+## Pinned Colab handoff
+
+Open `notebooks/frozen_audio_comparison.ipynb` from the published comparison
+branch. It fetches exactly `d49fa175f2f739c3ca0ba2a1a049a5d71fa5bf5e`, even if that
+branch later advances. The notebook is a separate handoff commit because it
+must name the already-published implementation commit.
+
+Use a separate Colab session; select GPU or explicitly set `DEVICE='cpu'`.
+Run all and authorize Drive. Its default folder is
+`/content/drive/MyDrive/drone-detection-frozen-audio-20261115`; it does not reuse
+or replace the bulk intake folder/pin. Both actual models run on the retained
+five-example fixture. A fresh child-process rerun must reuse all five feature
+entries and reproduce the saved head/predictions. After Drive flush and actual
+runtime deletion, rerun the same notebook to check durable storage recovery.
+GPU execution and Drive persistence remain to be verified in the user's Colab.
+
 ## Setup and verified local assets
 
 From the repository root, create the separate audio-model runtime. This keeps

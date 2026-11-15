@@ -70,6 +70,7 @@ def test_bootstrap_refuses_dirty_checkout_and_changed_origin(tmp_path):
     ('gpu_runtime_setup.ipynb', 'build_gpu_notebook.py'),
     ('source_intake.ipynb', 'build_intake_notebook.py'),
     ('prepare_point_recordings.ipynb', 'build_point_preparation_notebook.py'),
+    ('frozen_audio_comparison.ipynb', 'build_frozen_probe_notebook.py'),
     ('corpus_intake.ipynb', 'build_corpus_intake_notebook.py'),
 ])
 def test_notebook_schema_generated_content_and_code_compile(filename, builder):
@@ -85,3 +86,24 @@ def test_notebook_schema_generated_content_and_code_compile(filename, builder):
             compile(cell.source, f'cell-{cell.id}', 'exec')
     embedded = next(c.source for c in notebook.cells if c.id == 'pinned-bootstrap')
     assert embedded.startswith((ROOT / 'notebooks/bootstrap.py').read_text())
+
+
+def test_frozen_comparison_pins_published_code_in_a_separate_drive_project():
+    builder = load(ROOT / 'scripts/build_frozen_probe_notebook.py')
+    notebook = builder.notebook()
+    settings = next(c['source'] for c in notebook['cells'] if c['id'] == 'settings')
+    values = {}
+    exec(compile(settings, 'settings', 'exec'), values)
+    assert values['CODE_COMMIT'] == builder.CODE_COMMIT
+    assert len(values['CODE_COMMIT']) == 40
+    assert int(values['CODE_COMMIT'], 16) > 0
+    assert values['PROJECT_DRIVE_PATH'].endswith('drone-detection-frozen-audio-20261115')
+    assert values['DEVICE'] == 'cuda'
+    bootstrap_cell = next(c['source'] for c in notebook['cells'] if c['id'] == 'pinned-bootstrap')
+    assert "pin_checkout(PROJECT, REPO, REPO_URL, CODE_COMMIT)" in bootstrap_cell
+    assert "assert PIN['revision'] == CODE_COMMIT" in bootstrap_cell
+    environment = next(c['source'] for c in notebook['cells'] if c['id'] == 'locked-environment')
+    assert "'--extra', 'probe'" in environment and "'--frozen'" in environment
+    run = next(c['source'] for c in notebook['cells'] if c['id'] == 'run-and-verify-comparisons')
+    assert "repeated['cache_hits'] == 5" in run
+    assert "repeated['predictions'] == first['predictions']" in run
