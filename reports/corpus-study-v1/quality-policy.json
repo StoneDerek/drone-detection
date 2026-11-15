@@ -1,0 +1,10 @@
+{
+  "cross_split_duplicate": "Quarantine every member of a duplicate component spanning splits or labels",
+  "duplicates": "Exact native-member/canonical checks plus quantized gain-normalized crop candidates verified by waveform residual",
+  "historical_exposure": "Quarantine UrbanSound8K parents shared with previously consumed ESC-50 material, using the published 94-parent metadata intersection",
+  "limits": "This does not rule out shifted, resampled or lossy cross-source excerpts, or overlap in model pretraining",
+  "publisher_errors": "Exclude a fixed crop if it intersects a publisher-marked faulty interval",
+  "selection": "No model predictions, embeddings or listening judgments enter these decisions",
+  "version": 2,
+  "within_split_duplicate": "Keep lexicographically smallest identifier"
+}

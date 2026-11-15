@@ -1,0 +1,42 @@
+{
+  "canonical_audio": "select physical channel0; float32 decoding/polyphase16kHz; FLOAT WAV; no gain normalization",
+  "crop": "one central3s crop per eligible native file, all samples for shorter files; minimum0.25s; no score-driven selection",
+  "development": [
+    "Poland capture2023-04-17",
+    "TUT2017 evaluation"
+  ],
+  "final": [
+    "Poland capture2023-04-18 (new site)",
+    "DroneNoise Edzell (one primary microphone/event)",
+    "NEAPTIDE (microphone1, processed stress set)",
+    "UrbanSound8K"
+  ],
+  "limitations": [
+    "Labels are inherited from publisher recordings; central crop audibility is not independently annotated.",
+    "General-background class labels do not certify continuous drone absence.",
+    "Source and class remain partly confounded; domain transfer cannot identify a single causal factor.",
+    "No event recall, alarm occupancy, false alarms/hour or detection-delay claim.",
+    "Foreign positive sources each have few independent campaigns; clip count is not campaign count."
+  ],
+  "metrics": [
+    "per-domain positive recall and negative-recording FPR",
+    "paired-domain ROC-AUC",
+    "macro-source balanced accuracy",
+    "duration/level-only control"
+  ],
+  "models": [
+    "relative-harmonic spectral summaries + logistic",
+    "frozen CLAP + logistic",
+    "frozen BEATs + logistic"
+  ],
+  "schema_version": 1,
+  "selection": "fixed linear C=1; fit scalers and heads on TRAIN only; choose one global logit threshold on DEVELOPMENT negatives at1% recording FPR",
+  "task": "Weak publisher-label acoustic clip classification with independent source/capture holdouts",
+  "train": [
+    "Poland captures2023-03-15,2023-04-15,2023-04-16",
+    "Berne2022-08-03",
+    "TUT2017 development",
+    "DNC"
+  ],
+  "weighting": "equal class, then equal source within class, then equal capture/provenance group within source/class, then equal rows within group"
+}

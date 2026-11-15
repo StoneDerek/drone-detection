@@ -1,5 +1,9 @@
 # Frozen audio comparison
 
+For the actual corpus experiment, use the
+[public-corpus study](corpus-study-v1.md). This page documents the earlier
+software fixture and its recovery checks.
+
 This development workflow compares mean-pooled frozen BEATs or CLAP features
 with a regularized linear classifier. It can run while the new corpus downloads.
 The current real-audio verification uses only five retained browser derivatives

@@ -1,0 +1,652 @@
+{
+  "learning_curves": [
+    {
+      "counts": {
+        "dnc": 4357,
+        "idmt-berne-2022": 163,
+        "poland-uav-v1": 361,
+        "tut2017-development": 1171
+      },
+      "development": {
+        "by_source": {
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 360,
+            "confusion": {
+              "fn": 77,
+              "fp": 0,
+              "tn": 0,
+              "tp": 283
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.7861111111111111,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 360,
+            "positive_recall": 0.7861111111111111,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 16,
+              "tn": 1604,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.008835521976374648,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009876543209876543,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.009876543209876543,
+        "macro_positive_source_recall": 0.7861111111111111,
+        "macro_source_balanced_accuracy": 0.8881172839506172,
+        "pooled": {
+          "average_precision": 0.9520554317602687,
+          "balanced_accuracy": 0.8881172839506172,
+          "clips": 1980,
+          "confusion": {
+            "fn": 77,
+            "fp": 16,
+            "tn": 1604,
+            "tp": 283
+          },
+          "macro_negative_group_FPR": 0.008835521976374648,
+          "macro_positive_group_recall": 0.7861111111111111,
+          "negative_clip_FPR": 0.009876543209876543,
+          "negative_clips": 1620,
+          "positive_clips": 360,
+          "positive_recall": 0.7861111111111111,
+          "provenance_groups": 110,
+          "roc_auc": 0.9870747599451304,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "requested_group_fraction": 0.25,
+      "selection_seed": 17,
+      "training_clips": 6052,
+      "training_groups": 65
+    },
+    {
+      "counts": {
+        "dnc": 4357,
+        "idmt-berne-2022": 163,
+        "poland-uav-v1": 272,
+        "tut2017-development": 1196
+      },
+      "development": {
+        "by_source": {
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 360,
+            "confusion": {
+              "fn": 38,
+              "fp": 0,
+              "tn": 0,
+              "tp": 322
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.8944444444444445,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 360,
+            "positive_recall": 0.8944444444444445,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 16,
+              "tn": 1604,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.008147102642515487,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009876543209876543,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.009876543209876543,
+        "macro_positive_source_recall": 0.8944444444444445,
+        "macro_source_balanced_accuracy": 0.9422839506172839,
+        "pooled": {
+          "average_precision": 0.9772280638567656,
+          "balanced_accuracy": 0.9422839506172839,
+          "clips": 1980,
+          "confusion": {
+            "fn": 38,
+            "fp": 16,
+            "tn": 1604,
+            "tp": 322
+          },
+          "macro_negative_group_FPR": 0.008147102642515487,
+          "macro_positive_group_recall": 0.8944444444444445,
+          "negative_clip_FPR": 0.009876543209876543,
+          "negative_clips": 1620,
+          "positive_clips": 360,
+          "positive_recall": 0.8944444444444445,
+          "provenance_groups": 110,
+          "roc_auc": 0.9931378600823045,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "requested_group_fraction": 0.25,
+      "selection_seed": 43,
+      "training_clips": 5988,
+      "training_groups": 65
+    },
+    {
+      "counts": {
+        "dnc": 4357,
+        "idmt-berne-2022": 163,
+        "poland-uav-v1": 180,
+        "tut2017-development": 1140
+      },
+      "development": {
+        "by_source": {
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 360,
+            "confusion": {
+              "fn": 110,
+              "fp": 0,
+              "tn": 0,
+              "tp": 250
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.6944444444444444,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 360,
+            "positive_recall": 0.6944444444444444,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 16,
+              "tn": 1604,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.008207065465565195,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009876543209876543,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.009876543209876543,
+        "macro_positive_source_recall": 0.6944444444444444,
+        "macro_source_balanced_accuracy": 0.8422839506172839,
+        "pooled": {
+          "average_precision": 0.9196976284307932,
+          "balanced_accuracy": 0.8422839506172839,
+          "clips": 1980,
+          "confusion": {
+            "fn": 110,
+            "fp": 16,
+            "tn": 1604,
+            "tp": 250
+          },
+          "macro_negative_group_FPR": 0.008207065465565195,
+          "macro_positive_group_recall": 0.6944444444444444,
+          "negative_clip_FPR": 0.009876543209876543,
+          "negative_clips": 1620,
+          "positive_clips": 360,
+          "positive_recall": 0.6944444444444444,
+          "provenance_groups": 110,
+          "roc_auc": 0.9748679698216736,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "requested_group_fraction": 0.25,
+      "selection_seed": 91,
+      "training_clips": 5840,
+      "training_groups": 65
+    },
+    {
+      "counts": {
+        "dnc": 4357,
+        "idmt-berne-2022": 163,
+        "poland-uav-v1": 541,
+        "tut2017-development": 2291
+      },
+      "development": {
+        "by_source": {
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 360,
+            "confusion": {
+              "fn": 29,
+              "fp": 0,
+              "tn": 0,
+              "tp": 331
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.9194444444444444,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 360,
+            "positive_recall": 0.9194444444444444,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 16,
+              "tn": 1604,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.008643640942615579,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009876543209876543,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.009876543209876543,
+        "macro_positive_source_recall": 0.9194444444444444,
+        "macro_source_balanced_accuracy": 0.9547839506172838,
+        "pooled": {
+          "average_precision": 0.9811105408002955,
+          "balanced_accuracy": 0.9547839506172838,
+          "clips": 1980,
+          "confusion": {
+            "fn": 29,
+            "fp": 16,
+            "tn": 1604,
+            "tp": 331
+          },
+          "macro_negative_group_FPR": 0.008643640942615579,
+          "macro_positive_group_recall": 0.9194444444444444,
+          "negative_clip_FPR": 0.009876543209876543,
+          "negative_clips": 1620,
+          "positive_clips": 360,
+          "positive_recall": 0.9194444444444444,
+          "provenance_groups": 110,
+          "roc_auc": 0.9948131001371743,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "requested_group_fraction": 0.5,
+      "selection_seed": 17,
+      "training_clips": 7352,
+      "training_groups": 128
+    },
+    {
+      "counts": {
+        "dnc": 4357,
+        "idmt-berne-2022": 163,
+        "poland-uav-v1": 633,
+        "tut2017-development": 2347
+      },
+      "development": {
+        "by_source": {
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 360,
+            "confusion": {
+              "fn": 19,
+              "fp": 0,
+              "tn": 0,
+              "tp": 341
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.9472222222222222,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 360,
+            "positive_recall": 0.9472222222222222,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 16,
+              "tn": 1604,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.008836990701392669,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009876543209876543,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.009876543209876543,
+        "macro_positive_source_recall": 0.9472222222222222,
+        "macro_source_balanced_accuracy": 0.9686728395061728,
+        "pooled": {
+          "average_precision": 0.9886129306174063,
+          "balanced_accuracy": 0.9686728395061728,
+          "clips": 1980,
+          "confusion": {
+            "fn": 19,
+            "fp": 16,
+            "tn": 1604,
+            "tp": 341
+          },
+          "macro_negative_group_FPR": 0.008836990701392669,
+          "macro_positive_group_recall": 0.9472222222222222,
+          "negative_clip_FPR": 0.009876543209876543,
+          "negative_clips": 1620,
+          "positive_clips": 360,
+          "positive_recall": 0.9472222222222222,
+          "provenance_groups": 110,
+          "roc_auc": 0.9969152949245541,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "requested_group_fraction": 0.5,
+      "selection_seed": 43,
+      "training_clips": 7500,
+      "training_groups": 128
+    },
+    {
+      "counts": {
+        "dnc": 4357,
+        "idmt-berne-2022": 163,
+        "poland-uav-v1": 541,
+        "tut2017-development": 2314
+      },
+      "development": {
+        "by_source": {
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 360,
+            "confusion": {
+              "fn": 33,
+              "fp": 0,
+              "tn": 0,
+              "tp": 327
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.9083333333333333,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 360,
+            "positive_recall": 0.9083333333333333,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 16,
+              "tn": 1604,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.009196452045885397,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009876543209876543,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.009876543209876543,
+        "macro_positive_source_recall": 0.9083333333333333,
+        "macro_source_balanced_accuracy": 0.9492283950617283,
+        "pooled": {
+          "average_precision": 0.9791786119090033,
+          "balanced_accuracy": 0.9492283950617283,
+          "clips": 1980,
+          "confusion": {
+            "fn": 33,
+            "fp": 16,
+            "tn": 1604,
+            "tp": 327
+          },
+          "macro_negative_group_FPR": 0.009196452045885397,
+          "macro_positive_group_recall": 0.9083333333333333,
+          "negative_clip_FPR": 0.009876543209876543,
+          "negative_clips": 1620,
+          "positive_clips": 360,
+          "positive_recall": 0.9083333333333333,
+          "provenance_groups": 110,
+          "roc_auc": 0.9942146776406036,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "requested_group_fraction": 0.5,
+      "selection_seed": 91,
+      "training_clips": 7375,
+      "training_groups": 128
+    },
+    {
+      "counts": {
+        "dnc": 4357,
+        "idmt-berne-2022": 163,
+        "poland-uav-v1": 813,
+        "tut2017-development": 4626
+      },
+      "development": {
+        "by_source": {
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 360,
+            "confusion": {
+              "fn": 19,
+              "fp": 0,
+              "tn": 0,
+              "tp": 341
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.9472222222222222,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 360,
+            "positive_recall": 0.9472222222222222,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 16,
+              "tn": 1604,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.00889064164833188,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009876543209876543,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.009876543209876543,
+        "macro_positive_source_recall": 0.9472222222222222,
+        "macro_source_balanced_accuracy": 0.9686728395061728,
+        "pooled": {
+          "average_precision": 0.990035012050403,
+          "balanced_accuracy": 0.9686728395061728,
+          "clips": 1980,
+          "confusion": {
+            "fn": 19,
+            "fp": 16,
+            "tn": 1604,
+            "tp": 341
+          },
+          "macro_negative_group_FPR": 0.00889064164833188,
+          "macro_positive_group_recall": 0.9472222222222222,
+          "negative_clip_FPR": 0.009876543209876543,
+          "negative_clips": 1620,
+          "positive_clips": 360,
+          "positive_recall": 0.9472222222222222,
+          "provenance_groups": 110,
+          "roc_auc": 0.9972942386831276,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "requested_group_fraction": 1.0,
+      "selection_seed": 17,
+      "training_clips": 9959,
+      "training_groups": 253
+    }
+  ],
+  "metrics": {
+    "by_source": {
+      "poland-uav-v1": {
+        "average_precision": null,
+        "balanced_accuracy": null,
+        "clips": 360,
+        "confusion": {
+          "fn": 19,
+          "fp": 0,
+          "tn": 0,
+          "tp": 341
+        },
+        "macro_negative_group_FPR": null,
+        "macro_positive_group_recall": 0.9472222222222222,
+        "negative_clip_FPR": null,
+        "negative_clips": 0,
+        "positive_clips": 360,
+        "positive_recall": 0.9472222222222222,
+        "provenance_groups": 1,
+        "roc_auc": null,
+        "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+      },
+      "tut2017-evaluation": {
+        "average_precision": null,
+        "balanced_accuracy": null,
+        "clips": 1620,
+        "confusion": {
+          "fn": 0,
+          "fp": 16,
+          "tn": 1604,
+          "tp": 0
+        },
+        "macro_negative_group_FPR": 0.00889064164833188,
+        "macro_positive_group_recall": null,
+        "negative_clip_FPR": 0.009876543209876543,
+        "negative_clips": 1620,
+        "positive_clips": 0,
+        "positive_recall": null,
+        "provenance_groups": 109,
+        "roc_auc": null,
+        "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+      }
+    },
+    "macro_negative_source_FPR": 0.009876543209876543,
+    "macro_positive_source_recall": 0.9472222222222222,
+    "macro_source_balanced_accuracy": 0.9686728395061728,
+    "pooled": {
+      "average_precision": 0.990035012050403,
+      "balanced_accuracy": 0.9686728395061728,
+      "clips": 1980,
+      "confusion": {
+        "fn": 19,
+        "fp": 16,
+        "tn": 1604,
+        "tp": 341
+      },
+      "macro_negative_group_FPR": 0.00889064164833188,
+      "macro_positive_group_recall": 0.9472222222222222,
+      "negative_clip_FPR": 0.009876543209876543,
+      "negative_clips": 1620,
+      "positive_clips": 360,
+      "positive_recall": 0.9472222222222222,
+      "provenance_groups": 110,
+      "roc_auc": 0.9972942386831276,
+      "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+    }
+  },
+  "model": {
+    "cutoff_logit": -2.1104364078605453,
+    "encoder": {
+      "family": "relative_harmonic",
+      "frontend": {
+        "f_max": 7600.0,
+        "f_min": 80.0,
+        "gain_max_db": 20.0,
+        "gain_target_rms": 0.05,
+        "hop_seconds": 0.5,
+        "mel_bins": 48,
+        "min_audio_seconds": 0.25,
+        "n_fft": 512,
+        "representation": "relative_harmonic",
+        "sample_rate": 16000,
+        "silence_rms": 1e-05,
+        "stft_hop": 160,
+        "window_seconds": 3.0
+      },
+      "implementation_sha256": "86c76f23d8eef55598ac2ba75d84a9fd0f0217f37b14b82b5330b822927d7b09"
+    },
+    "feature_dimension": 99,
+    "model_id": "1f48263c9bb6af6613cb94cb9f2ac0a773b5c6d8bf8fd98a47f4dc4ab20c2a02",
+    "parameters_sha256": "71daef0b29dad032ed8d18500c0577f8ce6b5743a57eccc58450ac4ae14afaae",
+    "plan_sha256": "b1ca4645437bf357bd9a2b6335b60fddf293590991c487d388225bee96b8a946",
+    "probability_cutoff_display_only": 0.10808658815581616,
+    "scope": "weak-label central-crop classification; sigmoid outputs are not calibrated field probabilities"
+  }
+}

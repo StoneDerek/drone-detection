@@ -4,6 +4,12 @@ A product for reviewing timestamped drone-presence scores from audio,
 playing/seeking the recording, inspecting alarm intervals, and exporting results.
 It includes real-audio training and reproducible source-aware evaluation.
 
+The current research milestone is the [public-corpus representation study](docs/corpus-study-v1.md):
+20,573 accepted crops from the verified eight-release intake, with source/capture
+holdouts and frozen spectral, CLAP, BEATs and level/duration classifiers.
+[Execution status and development results](reports/corpus-study-v1/STATUS.md)
+separate completed work from pending final transfer results.
+
 The public [browser model lab](https://drone-audio-lab.pages.dev) runs the frozen
 CNNs, non-neural SVM and YAMNet control on your device, with audio playback, score
 timelines, Grad-CAM and five playable real examples. Your selected audio stays in
@@ -68,17 +74,16 @@ passed and failed; the interface uses “No alarm” rather than claiming absenc
 
 ## GPU notebook setup
 
-[Open the pinned BEATs/CLAP Colab check](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/codex/frozen-audio-colab-20261115/notebooks/frozen_audio_comparison.ipynb)
-to verify the new workflow on five retained examples in a separate Drive project.
-It pins comparison code commit `d49fa175f2f739c3ca0ba2a1a049a5d71fa5bf5e`,
-runs both encoders and checks fresh-process feature/head reuse. It leaves the
-bulk intake project unchanged. This is a software check, not a generalization study.
+[Open the full-corpus Colab comparison](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/codex/corpus-study-v1-20261115/notebooks/public_corpus_comparison.ipynb)
+to run the source-aware spectral, CLAP, BEATs and level/duration comparison.
+It verifies the complete 222-file intake, prepares every eligible fixed crop,
+checkpoints completed feature families, freezes all classifiers and thresholds,
+and evaluates the corrected held-out cohort once. The notebook pins an exact
+published code commit. Inputs remain in the bulk archive folder; durable results
+use a separate Drive project. See the [study protocol](docs/corpus-study-v1.md).
 
-The [frozen audio comparison](docs/frozen-audio-comparison.md) provides a separate
-BEATs/CLAP recording-level linear-probe workflow, verified feature caching,
-timestamped diagnostic scores, and explicit original-source intake adapters.
-The initial five-example run verifies software only; it is not a new detector
-assessment or a replacement for the data-first study.
+The earlier [frozen-audio software fixture](docs/frozen-audio-comparison.md)
+remains documented as a cache/recovery check.
 
 [Open the Colab GPU setup](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/main/notebooks/gpu_runtime_setup.ipynb)
 to mount Drive, pin the code/environment and verify checkpoint recovery across
