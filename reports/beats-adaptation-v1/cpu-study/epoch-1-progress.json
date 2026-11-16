@@ -1,0 +1,16 @@
+{
+  "captured_at_utc": "2026-11-16T22:00:35.692879+00:00",
+  "completed_epochs": 1,
+  "encoder_checkpoint_receipt_verified": true,
+  "encoder_checkpoint_sha256": "e7629ce634958ff3d7c28c4cd4bea276ad5023c542c34f5b347e094283713cf2",
+  "epoch_1_joint_head_selection_weighted_logloss": 1.9215531308783895,
+  "final_classifier_refit_completed": false,
+  "held_source": "audrok-dresden",
+  "held_source_evaluation_completed": false,
+  "initial_frozen_head_selection_weighted_logloss": 0.5839618312387151,
+  "optimizer_steps_at_epoch_end": 2536,
+  "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+  "positive_mix": "current",
+  "prescribed_epochs": 3,
+  "scope": "Interim selection-DEV diagnostic only. No completed fine-tuned evaluation; the final refitted C1 classifier is not yet scored."
+}
