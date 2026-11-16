@@ -1,0 +1,251 @@
+#!/usr/bin/env python3
+"""Freeze source folds, run frozen controls, and coordinate full BEATs adaptation."""
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
+from threadpoolctl import threadpool_limits
+
+from drone_detector.adaptation import cohort_signature, group_weights, make_folds, partition_summary
+from drone_detector.common import digest, file_hash, read_json, write_json, write_jsonl
+from drone_detector.data import load_manifest
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from run_confuser_study import broad_cutoff
+from run_corpus_study import logits, matrix, summaries
+
+
+def plan(args):
+    rows = sorted(
+        load_manifest(args.corpus / "prepared/manifest.jsonl", require_split=True),
+        key=lambda r: r["id"],
+    )
+    completion = read_json(args.corpus / "prepared/preparation-complete.json")
+    if completion["manifest_sha256"] != file_hash(args.corpus / "prepared/manifest.jsonl"):
+        raise ValueError("Complete corpus preparation before defining the full study")
+    release = read_json(
+        Path(__file__).resolve().parents[1] / "data/beats-adaptation-v1-cohort.json"
+    )
+    logical = digest([{key: r[key] for key in ["id", "label", "source", "group_id"]} for r in rows])
+    if len(rows) != release["rows"] or logical != release["logical_records_sha256"]:
+        raise ValueError(
+            "This is not the complete pinned study cohort; no fixture/subsample fallback is permitted"
+        )
+    folds = make_folds(rows)
+    recipe = dict(
+        version=1,
+        study="development-only source-held-out positive-diversity / fine-tuning controls",
+        cohort_signature=cohort_signature(rows),
+        seed=42,
+        C=1,
+        weight_mass=9959,
+        classification="weighted TRAIN-only StandardScaler and C1 logistic head; equal class/source/group mass",
+        cutoff="maximum per-negative-source empirical1% cutoff on selection DEV negatives; one global cutoff",
+        labels="unchanged weak publisher labels; no human audibility review supplied",
+        folding="hold whole WSU or AuDroK source out; FSD evaluation is validation-only; source/campaign groups stay intact",
+        match="within each fold, negative TRAIN and selection DEV identical across positive-mix and encoder arms",
+        fine_tuning=dict(
+            epochs=3,
+            batch_size=8,
+            seed=42,
+            encoder_lr=1e-5,
+            head_lr=1e-4,
+            optimizer="AdamW",
+            encoder_weight_decay=0.01,
+            head_weight_decay=0,
+            head_L2="C1 penalty divided by original9959 mass",
+            gradient_clip_norm=1.0,
+            initialization="same C1 trained head / fixed scaler as paired frozen arm",
+            encoder="all pretrained BEATs representation parameters trainable; released frontend unchanged",
+            precision="float32; TF32 disabled; deterministic algorithms",
+            augmentation="none; isolate data mix and encoder adaptation",
+            batching="exact waveform-length buckets; every selected training crop once per epoch; no external padding",
+            selection="lowest class/source/group-weighted selection DEV log-loss among epochs1..3; epoch0 is a reference only",
+            final_head="refit the same weighted C1 linear head on selected encoder TRAIN embeddings",
+            resumption="model/optimizer/RNG and exact next batch checkpoint; preserve run identity",
+        ),
+        scoring="known-source development diagnostics; no fresh generalization or operational FAR claim",
+    )
+    full = dict(recipe=recipe, folds=folds)
+    args.work.mkdir(parents=True, exist_ok=True)
+    p = args.work / "plan.json"
+    if p.exists() and read_json(p) != full:
+        raise ValueError("Prospective adaptation study changed; use a new study directory")
+    write_json(p, full)
+    write_jsonl(args.work / "manifest.jsonl", rows)
+    public = dict(
+        **recipe,
+        plan_sha256=file_hash(p),
+        fold_summaries={
+            fold: {name: partition_summary(rows, ids) for name, ids in spec.items()}
+            for fold, spec in folds.items()
+        },
+    )
+    args.report.mkdir(parents=True, exist_ok=True)
+    write_json(args.report / "protocol.json", public)
+    print(json.dumps(public["fold_summaries"], indent=2), flush=True)
+
+
+def load_rows(args):
+    rows = load_manifest(args.work / "manifest.jsonl", require_split=True)
+    saved = read_json(args.work / "plan.json")
+    if cohort_signature(rows) != saved["recipe"]["cohort_signature"]:
+        raise ValueError("Study manifest changed")
+    return rows, saved
+
+
+def prepare_matrix(args):
+    rows, saved = load_rows(args)
+    out = args.work / "base-embeddings.npz"
+    receipt = out.with_suffix(".json")
+    if out.exists():
+        meta = read_json(receipt)
+        if meta["sha256"] != file_hash(out) or meta["cohort_signature"] != cohort_signature(rows):
+            raise ValueError("Compact base embeddings changed")
+        return
+    caches = [
+        (
+            args.previous / "features",
+            {
+                r["id"]
+                for r in rows
+                if r["source"] not in {"wsu-air3", "audrok-dresden", "fsd50k-eval"}
+            },
+        ),
+        (
+            args.corpus / "features",
+            {r["id"] for r in rows if r["source"] in {"wsu-air3", "audrok-dresden", "fsd50k-eval"}},
+        ),
+    ]
+    encoder = read_json(caches[0][0] / "beats/encoder.json")
+    x = np.zeros((len(rows), 768), dtype=np.float32)
+    for cache, ids in caches:
+        if read_json(cache / "beats/encoder.json") != encoder:
+            raise ValueError("Base feature caches use different encoders")
+        indices = [i for i, r in enumerate(rows) if r["id"] in ids]
+        print("Verifying cached vectors", len(indices), flush=True)
+        data = matrix([rows[i] for i in indices], cache, "beats")
+        if not np.array_equal(data, data.astype(np.float32).astype(np.float64)):
+            raise ValueError("Float32 storage would change cached representations")
+        x[indices] = data
+    np.savez_compressed(out, x=x, ids=np.array([r["id"] for r in rows]))
+    write_json(
+        receipt,
+        dict(
+            cohort_signature=saved["recipe"]["cohort_signature"],
+            encoder=encoder,
+            sha256=file_hash(out),
+            rows=len(rows),
+            dimensions=768,
+            extraction="previous verified frozen CPU embeddings; no new representation computation",
+        ),
+    )
+    print("Saved complete verified base feature matrix", x.shape, flush=True)
+
+
+def fit_head(x, rows):
+    mass = group_weights(rows)
+    scaler = StandardScaler().fit(x, sample_weight=mass)
+    with threadpool_limits(limits=1):
+        estimator = LogisticRegression(C=1, max_iter=3000, tol=1e-6, random_state=42).fit(
+            scaler.transform(x), np.array([r["label"] == "drone" for r in rows]), sample_weight=mass
+        )
+    if estimator.n_iter_[0] >= 3000:
+        raise ValueError("Head failed to converge")
+    return dict(
+        mean=scaler.mean_,
+        scale=scaler.scale_,
+        coef=estimator.coef_[0],
+        intercept=estimator.intercept_,
+    )
+
+
+def frozen(args):
+    rows, saved = load_rows(args)
+    receipt = read_json(args.work / "base-embeddings.json")
+    if file_hash(args.work / "base-embeddings.npz") != receipt["sha256"]:
+        raise ValueError("Base features changed")
+    with np.load(args.work / "base-embeddings.npz", allow_pickle=False) as z:
+        if z["ids"].tolist() != [r["id"] for r in rows]:
+            raise ValueError("Base feature order mismatch")
+        x = z["x"].astype(np.float64)
+    lookup = {r["id"]: i for i, r in enumerate(rows)}
+    result = {}
+    for fold, spec in saved["folds"].items():
+        selection = [lookup[i] for i in spec["selection"]]
+        validation = [lookup[i] for i in spec["validation"]]
+        result[fold] = {}
+        for mix in ("current", "broader"):
+            train = [lookup[i] for i in spec[mix + "_positive_train"]]
+            folder = args.work / fold / mix / "frozen"
+            folder.mkdir(parents=True, exist_ok=True)
+            if (folder / "model.json").exists():
+                meta = read_json(folder / "model.json")
+                if (
+                    meta["plan_sha256"] != file_hash(args.work / "plan.json")
+                    or meta["train_ids_sha256"] != digest(spec[mix + "_positive_train"])
+                    or meta["parameters_sha256"] != file_hash(folder / "head.npz")
+                    or meta["encoder"] != receipt["encoder"]
+                ):
+                    raise ValueError("Existing frozen control identity changed")
+                if (folder / "validation.json").exists():
+                    item = read_json(folder / "validation.json")
+                    if item["model"] != meta:
+                        raise ValueError("Completed validation uses a different frozen model")
+                    result[fold][mix] = item
+                    continue
+                with np.load(folder / "head.npz", allow_pickle=False) as z:
+                    head = {k: z[k].copy() for k in z.files}
+            else:
+                head = fit_head(x[train], [rows[i] for i in train])
+            selection_scores = logits(x[selection], head)
+            cutoff, components = broad_cutoff(selection_scores, [rows[i] for i in selection])
+            if (folder / "model.json").exists():
+                if cutoff != meta["cutoff_logit"] or components != meta["component_cutoffs"]:
+                    raise ValueError("Frozen selection operating rule changed")
+            else:
+                np.savez_compressed(folder / "head.npz", **head)
+                meta = dict(
+                    fold=fold,
+                    positive_mix=mix,
+                    encoder=receipt["encoder"],
+                    parameters_sha256=file_hash(folder / "head.npz"),
+                    cutoff_logit=cutoff,
+                    component_cutoffs=components,
+                    plan_sha256=file_hash(args.work / "plan.json"),
+                    train_ids_sha256=digest(spec[mix + "_positive_train"]),
+                    implementation_sha256=file_hash(__file__),
+                    scope="consumed-corpus development validation",
+                )
+                write_json(folder / "model.json", meta)
+            scores = logits(x[validation], head)
+            item = dict(
+                model=meta,
+                selection=summaries([rows[i] for i in selection], selection_scores, cutoff),
+                validation=summaries([rows[i] for i in validation], scores, cutoff),
+            )
+            write_json(folder / "validation.json", item)
+            result[fold][mix] = item
+            print(fold, mix, json.dumps(item["validation"]["by_source"]), flush=True)
+    write_json(args.work / "frozen-controls.json", result)
+    write_json(args.report / "frozen-controls.json", result)
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("stage", choices=["plan", "matrix", "frozen"])
+    p.add_argument("--work", type=Path, default=Path("work/beats-adaptation-v1"))
+    p.add_argument("--corpus", type=Path, default=Path("work/confuser-study-v1"))
+    p.add_argument("--previous", type=Path, default=Path("work/milestone-v1"))
+    p.add_argument("--report", type=Path, default=Path("reports/beats-adaptation-v1"))
+    args = p.parse_args()
+    {"plan": plan, "matrix": prepare_matrix, "frozen": frozen}[args.stage](args)
+
+
+if __name__ == "__main__":
+    main()

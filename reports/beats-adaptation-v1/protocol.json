@@ -1,0 +1,178 @@
+{
+  "C": 1,
+  "classification": "weighted TRAIN-only StandardScaler and C1 logistic head; equal class/source/group mass",
+  "cohort_signature": "150aba1a84c4ae8b088d2d4c9e1e4a3aacbd565bc9802f14b5e04040e5adea93",
+  "cutoff": "maximum per-negative-source empirical1% cutoff on selection DEV negatives; one global cutoff",
+  "fine_tuning": {
+    "augmentation": "none; isolate data mix and encoder adaptation",
+    "batch_size": 8,
+    "batching": "exact waveform-length buckets; every selected training crop once per epoch; no external padding",
+    "encoder": "all pretrained BEATs representation parameters trainable; released frontend unchanged",
+    "encoder_lr": 1e-05,
+    "encoder_weight_decay": 0.01,
+    "epochs": 3,
+    "final_head": "refit the same weighted C1 linear head on selected encoder TRAIN embeddings",
+    "gradient_clip_norm": 1.0,
+    "head_L2": "C1 penalty divided by original9959 mass",
+    "head_lr": 0.0001,
+    "head_weight_decay": 0,
+    "initialization": "same C1 trained head / fixed scaler as paired frozen arm",
+    "optimizer": "AdamW",
+    "precision": "float32; TF32 disabled; deterministic algorithms",
+    "resumption": "model/optimizer/RNG and exact next batch checkpoint; preserve run identity",
+    "seed": 42,
+    "selection": "lowest class/source/group-weighted selection DEV log-loss among epochs1..3; epoch0 is a reference only"
+  },
+  "fold_summaries": {
+    "audrok-dresden": {
+      "added_positive_ids": {
+        "by_source_label": {
+          "wsu-air3/drone": 1486
+        },
+        "clips": 1486,
+        "ids_sha256": "7c852d9b16a42430b2781543721810174398646008e1af42d24218eef9235694",
+        "negative_groups": 0,
+        "positive_groups": 3
+      },
+      "broader_positive_train": {
+        "by_source_label": {
+          "dnc/non_drone": 4357,
+          "idmt-berne-2022/drone": 163,
+          "poland-uav-v1/drone": 813,
+          "tut2017-development/non_drone": 4626,
+          "urbansound8k/non_drone": 6089,
+          "wsu-air3/drone": 1486,
+          "wsu-air3/non_drone": 190
+        },
+        "clips": 17724,
+        "ids_sha256": "b9952246cc5cb517b89e34e26aca762182cff8d54da4bea06f306ce7c3dcdb1e",
+        "negative_groups": 1139,
+        "positive_groups": 7
+      },
+      "current_positive_train": {
+        "by_source_label": {
+          "dnc/non_drone": 4357,
+          "idmt-berne-2022/drone": 163,
+          "poland-uav-v1/drone": 813,
+          "tut2017-development/non_drone": 4626,
+          "urbansound8k/non_drone": 6089,
+          "wsu-air3/non_drone": 190
+        },
+        "clips": 16238,
+        "ids_sha256": "8e1c39903284bf19bb9eff1e234fc70025d68725e5cf05de47c167c3f6f294a5",
+        "negative_groups": 1139,
+        "positive_groups": 4
+      },
+      "matched_extra_negative_ids": {
+        "by_source_label": {
+          "wsu-air3/non_drone": 190
+        },
+        "clips": 190,
+        "ids_sha256": "8a47fa39dfe92988555716581129971050c728dd5c6f01ef8103e516c0784b7e",
+        "negative_groups": 1,
+        "positive_groups": 0
+      },
+      "selection": {
+        "by_source_label": {
+          "dronenoise-edzell-v3/drone": 18,
+          "neaptide-v1/drone": 35,
+          "poland-uav-v1/drone": 720,
+          "tut2017-evaluation/non_drone": 1620,
+          "urbansound8k/non_drone": 2132
+        },
+        "clips": 4525,
+        "ids_sha256": "c7f23e25fca155b4b8b86b593290a974d60a937286a6fa1f3ab3c42b82be738d",
+        "negative_groups": 411,
+        "positive_groups": 4
+      },
+      "validation": {
+        "by_source_label": {
+          "audrok-dresden/drone": 58,
+          "fsd50k-eval/non_drone": 7931
+        },
+        "clips": 7989,
+        "ids_sha256": "c4c22e22ffffb52f83c60c084e269a1a7806278f92df05ff7e0cbd6c01e70095",
+        "negative_groups": 2122,
+        "positive_groups": 1
+      }
+    },
+    "wsu-air3": {
+      "added_positive_ids": {
+        "by_source_label": {
+          "audrok-dresden/drone": 58
+        },
+        "clips": 58,
+        "ids_sha256": "138d1db08ad32321dca8905458a49ead5cf1674846795128c6f55ba9b5934fb2",
+        "negative_groups": 0,
+        "positive_groups": 1
+      },
+      "broader_positive_train": {
+        "by_source_label": {
+          "audrok-dresden/drone": 58,
+          "dnc/non_drone": 4357,
+          "idmt-berne-2022/drone": 163,
+          "poland-uav-v1/drone": 813,
+          "tut2017-development/non_drone": 4626,
+          "urbansound8k/non_drone": 6089
+        },
+        "clips": 16106,
+        "ids_sha256": "9f7626fe4aae66068268bdac8717654d3773c390ad2625f6c89ca7fa0d9b57e3",
+        "negative_groups": 1138,
+        "positive_groups": 5
+      },
+      "current_positive_train": {
+        "by_source_label": {
+          "dnc/non_drone": 4357,
+          "idmt-berne-2022/drone": 163,
+          "poland-uav-v1/drone": 813,
+          "tut2017-development/non_drone": 4626,
+          "urbansound8k/non_drone": 6089
+        },
+        "clips": 16048,
+        "ids_sha256": "3126f79631b47d01b47a931348f7aac1ec720152a2439a7e6a797ea692e92deb",
+        "negative_groups": 1138,
+        "positive_groups": 4
+      },
+      "matched_extra_negative_ids": {
+        "by_source_label": {},
+        "clips": 0,
+        "ids_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "negative_groups": 0,
+        "positive_groups": 0
+      },
+      "selection": {
+        "by_source_label": {
+          "dronenoise-edzell-v3/drone": 18,
+          "neaptide-v1/drone": 35,
+          "poland-uav-v1/drone": 720,
+          "tut2017-evaluation/non_drone": 1620,
+          "urbansound8k/non_drone": 2132
+        },
+        "clips": 4525,
+        "ids_sha256": "c7f23e25fca155b4b8b86b593290a974d60a937286a6fa1f3ab3c42b82be738d",
+        "negative_groups": 411,
+        "positive_groups": 4
+      },
+      "validation": {
+        "by_source_label": {
+          "fsd50k-eval/non_drone": 7931,
+          "wsu-air3/drone": 1486,
+          "wsu-air3/non_drone": 190
+        },
+        "clips": 9607,
+        "ids_sha256": "c4c181a2a9785c9bd8ee1a90568f7330f9da7569c3ea7ab135278c4b747a5977",
+        "negative_groups": 2123,
+        "positive_groups": 3
+      }
+    }
+  },
+  "folding": "hold whole WSU or AuDroK source out; FSD evaluation is validation-only; source/campaign groups stay intact",
+  "labels": "unchanged weak publisher labels; no human audibility review supplied",
+  "match": "within each fold, negative TRAIN and selection DEV identical across positive-mix and encoder arms",
+  "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+  "scoring": "known-source development diagnostics; no fresh generalization or operational FAR claim",
+  "seed": 42,
+  "study": "development-only source-held-out positive-diversity / fine-tuning controls",
+  "version": 1,
+  "weight_mass": 9959
+}

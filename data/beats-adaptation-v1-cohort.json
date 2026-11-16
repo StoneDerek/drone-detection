@@ -1,0 +1,18 @@
+{
+  "logical_records_sha256": "6231ceca7fcc2bedcdb8eec9e30c87f84cadfc03a1d235d86c24d3f85779c28b",
+  "rows": 30238,
+  "scope": "Whole pinned consumed development corpus; labels and group identities unchanged; no fixture/subsample replacement",
+  "source_counts": {
+    "audrok-dresden": 58,
+    "dnc": 4357,
+    "dronenoise-edzell-v3": 18,
+    "fsd50k-eval": 7931,
+    "idmt-berne-2022": 163,
+    "neaptide-v1": 35,
+    "poland-uav-v1": 1533,
+    "tut2017-development": 4626,
+    "tut2017-evaluation": 1620,
+    "urbansound8k": 8221,
+    "wsu-air3": 1676
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "component_cutoffs": {
+    "tut2017-evaluation": -4.521777239661656,
+    "urbansound8k": -2.2130964332756267
+  },
+  "cutoff_logit": -2.2130964332756267,
+  "encoder": {
+    "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+    "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+    "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+    "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+    "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+    "code_sha256": {
+      "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+      "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+      "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+      "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+      "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+    },
+    "device": "cpu",
+    "family": "beats-frozen",
+    "feature_dim": 768,
+    "frontend": {
+      "fbank_mean": 15.41663,
+      "fbank_std": 6.55582,
+      "fbank_std_multiplier": 2,
+      "kaldi_fbank": {
+        "frame_length_ms": 25,
+        "frame_shift_ms": 10,
+        "num_mel_bins": 128
+      },
+      "minimum_samples": 2800,
+      "other_options": "torchaudio Kaldi defaults",
+      "sample_rate": 16000,
+      "short_input": "reject",
+      "waveform_scale": 32768
+    },
+    "import_adaptation": "private-package-relative-imports-only-v1",
+    "model": "BEATs_iter3_plus_AS2M",
+    "packages": {
+      "numpy": "2.3.5",
+      "torch": "2.7.1+cpu",
+      "torchaudio": "2.7.1+cpu"
+    },
+    "pooling": "mean-all-native-time-frequency-tokens",
+    "precision": "float32",
+    "torch_intraop_threads": 1
+  },
+  "fold": "audrok-dresden",
+  "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
+  "parameters_sha256": "e64c5caf43f1dc8da039d8451eae17ba92866e094cd9b124095743960508c8dd",
+  "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+  "positive_mix": "broader",
+  "scope": "consumed-corpus development validation",
+  "train_ids_sha256": "b9952246cc5cb517b89e34e26aca762182cff8d54da4bea06f306ce7c3dcdb1e"
+}

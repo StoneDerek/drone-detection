@@ -1,0 +1,1014 @@
+{
+  "audrok-dresden": {
+    "broader": {
+      "model": {
+        "component_cutoffs": {
+          "tut2017-evaluation": -4.521777239661656,
+          "urbansound8k": -2.2130964332756267
+        },
+        "cutoff_logit": -2.2130964332756267,
+        "encoder": {
+          "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+          "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+          "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+          "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+          "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+          "code_sha256": {
+            "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+            "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+            "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+            "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+            "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+          },
+          "device": "cpu",
+          "family": "beats-frozen",
+          "feature_dim": 768,
+          "frontend": {
+            "fbank_mean": 15.41663,
+            "fbank_std": 6.55582,
+            "fbank_std_multiplier": 2,
+            "kaldi_fbank": {
+              "frame_length_ms": 25,
+              "frame_shift_ms": 10,
+              "num_mel_bins": 128
+            },
+            "minimum_samples": 2800,
+            "other_options": "torchaudio Kaldi defaults",
+            "sample_rate": 16000,
+            "short_input": "reject",
+            "waveform_scale": 32768
+          },
+          "import_adaptation": "private-package-relative-imports-only-v1",
+          "model": "BEATs_iter3_plus_AS2M",
+          "packages": {
+            "numpy": "2.3.5",
+            "torch": "2.7.1+cpu",
+            "torchaudio": "2.7.1+cpu"
+          },
+          "pooling": "mean-all-native-time-frequency-tokens",
+          "precision": "float32",
+          "torch_intraop_threads": 1
+        },
+        "fold": "audrok-dresden",
+        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
+        "parameters_sha256": "e64c5caf43f1dc8da039d8451eae17ba92866e094cd9b124095743960508c8dd",
+        "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+        "positive_mix": "broader",
+        "scope": "consumed-corpus development validation",
+        "train_ids_sha256": "b9952246cc5cb517b89e34e26aca762182cff8d54da4bea06f306ce7c3dcdb1e"
+      },
+      "selection": {
+        "by_source": {
+          "dronenoise-edzell-v3": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 18,
+            "confusion": {
+              "fn": 12,
+              "fp": 0,
+              "tn": 0,
+              "tp": 6
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.3333333333333333,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 18,
+            "positive_recall": 0.3333333333333333,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "neaptide-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 35,
+            "confusion": {
+              "fn": 26,
+              "fp": 0,
+              "tn": 0,
+              "tp": 9
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.2571428571428571,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 35,
+            "positive_recall": 0.2571428571428571,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 720,
+            "confusion": {
+              "fn": 10,
+              "fp": 0,
+              "tn": 0,
+              "tp": 710
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.9861111111111112,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 720,
+            "positive_recall": 0.9861111111111112,
+            "provenance_groups": 2,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 6,
+              "tn": 1614,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.0035605067715159455,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.003703703703703704,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "urbansound8k": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 2132,
+            "confusion": {
+              "fn": 0,
+              "fp": 21,
+              "tn": 2111,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.01012652846560894,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009849906191369606,
+            "negative_clips": 2132,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 302,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.006776804947536655,
+        "macro_positive_source_recall": 0.5255291005291005,
+        "macro_source_balanced_accuracy": 0.7593761477907819,
+        "pooled": {
+          "average_precision": 0.9854817662851404,
+          "balanced_accuracy": 0.9653540535172962,
+          "clips": 4525,
+          "confusion": {
+            "fn": 48,
+            "fp": 27,
+            "tn": 3725,
+            "tp": 725
+          },
+          "macro_negative_group_FPR": 0.008385174780314204,
+          "macro_positive_group_recall": 0.6406746031746031,
+          "negative_clip_FPR": 0.007196162046908316,
+          "negative_clips": 3752,
+          "positive_clips": 773,
+          "positive_recall": 0.9379042690815006,
+          "provenance_groups": 415,
+          "roc_auc": 0.994710195097328,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "validation": {
+        "by_source": {
+          "audrok-dresden": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 58,
+            "confusion": {
+              "fn": 33,
+              "fp": 0,
+              "tn": 0,
+              "tp": 25
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.43103448275862066,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 58,
+            "positive_recall": 0.43103448275862066,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "fsd50k-eval": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 7931,
+            "confusion": {
+              "fn": 0,
+              "fp": 397,
+              "tn": 7534,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.05148142841796543,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.05005673937712773,
+            "negative_clips": 7931,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 2122,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.05005673937712773,
+        "macro_positive_source_recall": 0.43103448275862066,
+        "macro_source_balanced_accuracy": 0.6904888716907465,
+        "pooled": {
+          "average_precision": 0.054803090187074494,
+          "balanced_accuracy": 0.6904888716907465,
+          "clips": 7989,
+          "confusion": {
+            "fn": 33,
+            "fp": 397,
+            "tn": 7534,
+            "tp": 25
+          },
+          "macro_negative_group_FPR": 0.05148142841796543,
+          "macro_positive_group_recall": 0.43103448275862066,
+          "negative_clip_FPR": 0.05005673937712773,
+          "negative_clips": 7931,
+          "positive_clips": 58,
+          "positive_recall": 0.43103448275862066,
+          "provenance_groups": 2123,
+          "roc_auc": 0.8401840877569033,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      }
+    },
+    "current": {
+      "model": {
+        "component_cutoffs": {
+          "tut2017-evaluation": -7.6249451089309614,
+          "urbansound8k": -3.9192767449828616
+        },
+        "cutoff_logit": -3.9192767449828616,
+        "encoder": {
+          "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+          "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+          "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+          "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+          "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+          "code_sha256": {
+            "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+            "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+            "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+            "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+            "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+          },
+          "device": "cpu",
+          "family": "beats-frozen",
+          "feature_dim": 768,
+          "frontend": {
+            "fbank_mean": 15.41663,
+            "fbank_std": 6.55582,
+            "fbank_std_multiplier": 2,
+            "kaldi_fbank": {
+              "frame_length_ms": 25,
+              "frame_shift_ms": 10,
+              "num_mel_bins": 128
+            },
+            "minimum_samples": 2800,
+            "other_options": "torchaudio Kaldi defaults",
+            "sample_rate": 16000,
+            "short_input": "reject",
+            "waveform_scale": 32768
+          },
+          "import_adaptation": "private-package-relative-imports-only-v1",
+          "model": "BEATs_iter3_plus_AS2M",
+          "packages": {
+            "numpy": "2.3.5",
+            "torch": "2.7.1+cpu",
+            "torchaudio": "2.7.1+cpu"
+          },
+          "pooling": "mean-all-native-time-frequency-tokens",
+          "precision": "float32",
+          "torch_intraop_threads": 1
+        },
+        "fold": "audrok-dresden",
+        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
+        "parameters_sha256": "235241b5ece83e072b8e49cbb37e0775ef8a775ad5ae189eb502d5f0ca66244b",
+        "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+        "positive_mix": "current",
+        "scope": "consumed-corpus development validation",
+        "train_ids_sha256": "8e1c39903284bf19bb9eff1e234fc70025d68725e5cf05de47c167c3f6f294a5"
+      },
+      "selection": {
+        "by_source": {
+          "dronenoise-edzell-v3": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 18,
+            "confusion": {
+              "fn": 5,
+              "fp": 0,
+              "tn": 0,
+              "tp": 13
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.7222222222222222,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 18,
+            "positive_recall": 0.7222222222222222,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "neaptide-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 35,
+            "confusion": {
+              "fn": 0,
+              "fp": 0,
+              "tn": 0,
+              "tp": 35
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 1.0,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 35,
+            "positive_recall": 1.0,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 720,
+            "confusion": {
+              "fn": 1,
+              "fp": 0,
+              "tn": 0,
+              "tp": 719
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.9986111111111111,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 720,
+            "positive_recall": 0.9986111111111111,
+            "provenance_groups": 2,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 1,
+              "tn": 1619,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.001019367991845056,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.0006172839506172839,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "urbansound8k": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 2132,
+            "confusion": {
+              "fn": 0,
+              "fp": 21,
+              "tn": 2111,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.005090264297142879,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009849906191369606,
+            "negative_clips": 2132,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 302,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.005233595070993445,
+        "macro_positive_source_recall": 0.9069444444444444,
+        "macro_source_balanced_accuracy": 0.9508554246867256,
+        "pooled": {
+          "average_precision": 0.9964388915999846,
+          "balanced_accuracy": 0.9931872470947792,
+          "clips": 4525,
+          "confusion": {
+            "fn": 6,
+            "fp": 22,
+            "tn": 3730,
+            "tp": 767
+          },
+          "macro_negative_group_FPR": 0.004010634863377762,
+          "macro_positive_group_recall": 0.9298611111111111,
+          "negative_clip_FPR": 0.005863539445628998,
+          "negative_clips": 3752,
+          "positive_clips": 773,
+          "positive_recall": 0.9922380336351876,
+          "provenance_groups": 415,
+          "roc_auc": 0.9982808651254906,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "validation": {
+        "by_source": {
+          "audrok-dresden": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 58,
+            "confusion": {
+              "fn": 27,
+              "fp": 0,
+              "tn": 0,
+              "tp": 31
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.5344827586206896,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 58,
+            "positive_recall": 0.5344827586206896,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "fsd50k-eval": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 7931,
+            "confusion": {
+              "fn": 0,
+              "fp": 98,
+              "tn": 7833,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.013102332587541869,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.01235657546337158,
+            "negative_clips": 7931,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 2122,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.01235657546337158,
+        "macro_positive_source_recall": 0.5344827586206896,
+        "macro_source_balanced_accuracy": 0.7610630915786589,
+        "pooled": {
+          "average_precision": 0.48907301283222004,
+          "balanced_accuracy": 0.7610630915786589,
+          "clips": 7989,
+          "confusion": {
+            "fn": 27,
+            "fp": 98,
+            "tn": 7833,
+            "tp": 31
+          },
+          "macro_negative_group_FPR": 0.013102332587541869,
+          "macro_positive_group_recall": 0.5344827586206896,
+          "negative_clip_FPR": 0.01235657546337158,
+          "negative_clips": 7931,
+          "positive_clips": 58,
+          "positive_recall": 0.5344827586206896,
+          "provenance_groups": 2123,
+          "roc_auc": 0.8374579889477781,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      }
+    }
+  },
+  "wsu-air3": {
+    "broader": {
+      "model": {
+        "component_cutoffs": {
+          "tut2017-evaluation": -5.628258730354379,
+          "urbansound8k": -3.210073449578624
+        },
+        "cutoff_logit": -3.210073449578624,
+        "encoder": {
+          "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+          "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+          "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+          "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+          "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+          "code_sha256": {
+            "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+            "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+            "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+            "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+            "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+          },
+          "device": "cpu",
+          "family": "beats-frozen",
+          "feature_dim": 768,
+          "frontend": {
+            "fbank_mean": 15.41663,
+            "fbank_std": 6.55582,
+            "fbank_std_multiplier": 2,
+            "kaldi_fbank": {
+              "frame_length_ms": 25,
+              "frame_shift_ms": 10,
+              "num_mel_bins": 128
+            },
+            "minimum_samples": 2800,
+            "other_options": "torchaudio Kaldi defaults",
+            "sample_rate": 16000,
+            "short_input": "reject",
+            "waveform_scale": 32768
+          },
+          "import_adaptation": "private-package-relative-imports-only-v1",
+          "model": "BEATs_iter3_plus_AS2M",
+          "packages": {
+            "numpy": "2.3.5",
+            "torch": "2.7.1+cpu",
+            "torchaudio": "2.7.1+cpu"
+          },
+          "pooling": "mean-all-native-time-frequency-tokens",
+          "precision": "float32",
+          "torch_intraop_threads": 1
+        },
+        "fold": "wsu-air3",
+        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
+        "parameters_sha256": "0f6a77e8aefda3589024a178b8275f917a920df5944a443d060462dcee0ba887",
+        "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+        "positive_mix": "broader",
+        "scope": "consumed-corpus development validation",
+        "train_ids_sha256": "9f7626fe4aae66068268bdac8717654d3773c390ad2625f6c89ca7fa0d9b57e3"
+      },
+      "selection": {
+        "by_source": {
+          "dronenoise-edzell-v3": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 18,
+            "confusion": {
+              "fn": 4,
+              "fp": 0,
+              "tn": 0,
+              "tp": 14
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.7777777777777778,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 18,
+            "positive_recall": 0.7777777777777778,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "neaptide-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 35,
+            "confusion": {
+              "fn": 0,
+              "fp": 0,
+              "tn": 0,
+              "tp": 35
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 1.0,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 35,
+            "positive_recall": 1.0,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 720,
+            "confusion": {
+              "fn": 0,
+              "fp": 0,
+              "tn": 0,
+              "tp": 720
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 1.0,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 720,
+            "positive_recall": 1.0,
+            "provenance_groups": 2,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 2,
+              "tn": 1618,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.0011213047910295616,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.0012345679012345679,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "urbansound8k": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 2132,
+            "confusion": {
+              "fn": 0,
+              "fp": 21,
+              "tn": 2111,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.006463109769182577,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009849906191369606,
+            "negative_clips": 2132,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 302,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.005542237046302087,
+        "macro_positive_source_recall": 0.9259259259259259,
+        "macro_source_balanced_accuracy": 0.960191844439812,
+        "pooled": {
+          "average_precision": 0.9986722606229929,
+          "balanced_accuracy": 0.9943476458954534,
+          "clips": 4525,
+          "confusion": {
+            "fn": 4,
+            "fp": 23,
+            "tn": 3729,
+            "tp": 769
+          },
+          "macro_negative_group_FPR": 0.005046426697117665,
+          "macro_positive_group_recall": 0.9444444444444444,
+          "negative_clip_FPR": 0.0061300639658848615,
+          "negative_clips": 3752,
+          "positive_clips": 773,
+          "positive_recall": 0.9948253557567918,
+          "provenance_groups": 415,
+          "roc_auc": 0.999580387656984,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "validation": {
+        "by_source": {
+          "fsd50k-eval": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 7931,
+            "confusion": {
+              "fn": 0,
+              "fp": 61,
+              "tn": 7870,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.006910599282070974,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.007691337788425167,
+            "negative_clips": 7931,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 2122,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "wsu-air3": {
+            "average_precision": 0.9791801813613102,
+            "balanced_accuracy": 0.7248459304384784,
+            "clips": 1676,
+            "confusion": {
+              "fn": 239,
+              "fp": 74,
+              "tn": 116,
+              "tp": 1247
+            },
+            "macro_negative_group_FPR": 0.3894736842105263,
+            "macro_positive_group_recall": 0.888673525607803,
+            "negative_clip_FPR": 0.3894736842105263,
+            "negative_clips": 190,
+            "positive_clips": 1486,
+            "positive_recall": 0.8391655450874832,
+            "provenance_groups": 3,
+            "roc_auc": 0.852620953460367,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.19858251099947574,
+        "macro_positive_source_recall": 0.8391655450874832,
+        "macro_source_balanced_accuracy": 0.8202915170440037,
+        "pooled": {
+          "average_precision": 0.9469094020288681,
+          "balanced_accuracy": 0.9112709882807197,
+          "clips": 9607,
+          "confusion": {
+            "fn": 239,
+            "fp": 135,
+            "tn": 7986,
+            "tp": 1247
+          },
+          "macro_negative_group_FPR": 0.007090798568424463,
+          "macro_positive_group_recall": 0.888673525607803,
+          "negative_clip_FPR": 0.016623568526043592,
+          "negative_clips": 8121,
+          "positive_clips": 1486,
+          "positive_recall": 0.8391655450874832,
+          "provenance_groups": 2125,
+          "roc_auc": 0.9877199716336177,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      }
+    },
+    "current": {
+      "model": {
+        "component_cutoffs": {
+          "tut2017-evaluation": -7.179392497802334,
+          "urbansound8k": -3.3689041635492205
+        },
+        "cutoff_logit": -3.3689041635492205,
+        "encoder": {
+          "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+          "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+          "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+          "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+          "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+          "code_sha256": {
+            "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+            "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+            "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+            "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+            "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+          },
+          "device": "cpu",
+          "family": "beats-frozen",
+          "feature_dim": 768,
+          "frontend": {
+            "fbank_mean": 15.41663,
+            "fbank_std": 6.55582,
+            "fbank_std_multiplier": 2,
+            "kaldi_fbank": {
+              "frame_length_ms": 25,
+              "frame_shift_ms": 10,
+              "num_mel_bins": 128
+            },
+            "minimum_samples": 2800,
+            "other_options": "torchaudio Kaldi defaults",
+            "sample_rate": 16000,
+            "short_input": "reject",
+            "waveform_scale": 32768
+          },
+          "import_adaptation": "private-package-relative-imports-only-v1",
+          "model": "BEATs_iter3_plus_AS2M",
+          "packages": {
+            "numpy": "2.3.5",
+            "torch": "2.7.1+cpu",
+            "torchaudio": "2.7.1+cpu"
+          },
+          "pooling": "mean-all-native-time-frequency-tokens",
+          "precision": "float32",
+          "torch_intraop_threads": 1
+        },
+        "fold": "wsu-air3",
+        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
+        "parameters_sha256": "0874be48e91f581551a0d2bc119f5b4327d4642d73d760654d291b18d25aee23",
+        "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+        "positive_mix": "current",
+        "scope": "consumed-corpus development validation",
+        "train_ids_sha256": "3126f79631b47d01b47a931348f7aac1ec720152a2439a7e6a797ea692e92deb"
+      },
+      "selection": {
+        "by_source": {
+          "dronenoise-edzell-v3": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 18,
+            "confusion": {
+              "fn": 5,
+              "fp": 0,
+              "tn": 0,
+              "tp": 13
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.7222222222222222,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 18,
+            "positive_recall": 0.7222222222222222,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "neaptide-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 35,
+            "confusion": {
+              "fn": 0,
+              "fp": 0,
+              "tn": 0,
+              "tp": 35
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 1.0,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 35,
+            "positive_recall": 1.0,
+            "provenance_groups": 1,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "poland-uav-v1": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 720,
+            "confusion": {
+              "fn": 1,
+              "fp": 0,
+              "tn": 0,
+              "tp": 719
+            },
+            "macro_negative_group_FPR": null,
+            "macro_positive_group_recall": 0.9986111111111111,
+            "negative_clip_FPR": null,
+            "negative_clips": 0,
+            "positive_clips": 720,
+            "positive_recall": 0.9986111111111111,
+            "provenance_groups": 2,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "tut2017-evaluation": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 1620,
+            "confusion": {
+              "fn": 0,
+              "fp": 0,
+              "tn": 1620,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.0,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.0,
+            "negative_clips": 1620,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 109,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "urbansound8k": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 2132,
+            "confusion": {
+              "fn": 0,
+              "fp": 21,
+              "tn": 2111,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.006143846476552873,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009849906191369606,
+            "negative_clips": 2132,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 302,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.004924953095684803,
+        "macro_positive_source_recall": 0.9069444444444444,
+        "macro_source_balanced_accuracy": 0.9510097456743799,
+        "pooled": {
+          "average_precision": 0.9965334380782795,
+          "balanced_accuracy": 0.9933205093549071,
+          "clips": 4525,
+          "confusion": {
+            "fn": 6,
+            "fp": 21,
+            "tn": 3731,
+            "tp": 767
+          },
+          "macro_negative_group_FPR": 0.004514456535082647,
+          "macro_positive_group_recall": 0.9298611111111111,
+          "negative_clip_FPR": 0.005597014925373134,
+          "negative_clips": 3752,
+          "positive_clips": 773,
+          "positive_recall": 0.9922380336351876,
+          "provenance_groups": 415,
+          "roc_auc": 0.9984011976708584,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      },
+      "validation": {
+        "by_source": {
+          "fsd50k-eval": {
+            "average_precision": null,
+            "balanced_accuracy": null,
+            "clips": 7931,
+            "confusion": {
+              "fn": 0,
+              "fp": 73,
+              "tn": 7858,
+              "tp": 0
+            },
+            "macro_negative_group_FPR": 0.009256586887725371,
+            "macro_positive_group_recall": null,
+            "negative_clip_FPR": 0.009204387845164544,
+            "negative_clips": 7931,
+            "positive_clips": 0,
+            "positive_recall": null,
+            "provenance_groups": 2122,
+            "roc_auc": null,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          },
+          "wsu-air3": {
+            "average_precision": 0.9766920068814118,
+            "balanced_accuracy": 0.7019550896082737,
+            "clips": 1676,
+            "confusion": {
+              "fn": 221,
+              "fp": 85,
+              "tn": 105,
+              "tp": 1265
+            },
+            "macro_negative_group_FPR": 0.4473684210526316,
+            "macro_positive_group_recall": 0.8561382962234884,
+            "negative_clip_FPR": 0.4473684210526316,
+            "negative_clips": 190,
+            "positive_clips": 1486,
+            "positive_recall": 0.851278600269179,
+            "provenance_groups": 3,
+            "roc_auc": 0.8357016363249982,
+            "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+          }
+        },
+        "macro_negative_source_FPR": 0.22828640444889806,
+        "macro_positive_source_recall": 0.851278600269179,
+        "macro_source_balanced_accuracy": 0.8114960979101404,
+        "pooled": {
+          "average_precision": 0.9456232894935445,
+          "balanced_accuracy": 0.915911434108238,
+          "clips": 9607,
+          "confusion": {
+            "fn": 221,
+            "fp": 158,
+            "tn": 7963,
+            "tp": 1265
+          },
+          "macro_negative_group_FPR": 0.009462951388038562,
+          "macro_positive_group_recall": 0.8561382962234884,
+          "negative_clip_FPR": 0.01945573205270287,
+          "negative_clips": 8121,
+          "positive_clips": 1486,
+          "positive_recall": 0.851278600269179,
+          "provenance_groups": 2125,
+          "roc_auc": 0.9872157374753954,
+          "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
+        }
+      }
+    }
+  }
+}

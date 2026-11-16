@@ -1,0 +1,18 @@
+{
+  "batch_size": 8,
+  "cpu_threads": 2,
+  "encoder_patch_max_abs_update": 3.0249357223510742e-05,
+  "full_pipeline_budget_hours": 44,
+  "full_study_training_crop_visits": 198348,
+  "peak_process_RSS_MiB": 2729.4140625,
+  "rough_training_only_hours": 29.967305637430396,
+  "scope": "Synthetic training-mechanism and throughput check only; not a drone evaluation",
+  "scope_note": "Three synthetic 3-second batches; timing estimate only, excludes validation, embedding extraction and IO. No detector accuracy is inferred.",
+  "seconds_per_example": 0.5439041497506878,
+  "step_seconds": [
+    6.272343857002852,
+    4.4553906510045636,
+    4.247075745006441
+  ],
+  "trainable_encoder_parameters": 90311792
+}

@@ -29,3 +29,16 @@ jobs:
           uv sync --project notebooks/runtime --frozen --extra cpu --extra test
       - name: Check notebook and fresh-process recovery
         run: PYTHONPATH=src notebooks/runtime/.venv/bin/python -m pytest --confcutdir=tests/notebook tests/notebook -q
+  beats-training-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install locked CPU training verification runtime
+        run: |
+          python -m pip install uv==0.13.5
+          uv sync --project notebooks/runtime --frozen --extra cpu --extra test --extra probe
+      - name: Check source isolation and exact optimizer recovery
+        run: PYTHONPATH=src notebooks/runtime/.venv/bin/python -m pytest tests/test_adaptation.py tests/test_beats_training.py -q
