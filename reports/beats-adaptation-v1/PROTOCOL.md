@@ -64,4 +64,5 @@ Labels remain inherited publisher labels, without independent crop-audibility
 review. Positive coverage is four, five or seven groups, not hundreds of field
 trials. The 7,931 FSD recordings are reused across folds. No false alarms/hour,
 event recall or detection-delay estimate is derived from these crop rates.
-Unused-source metadata is recorded separately; that audio is not scored here.
+Candidate-source metadata and historical project exposure are recorded separately.
+Exclusion from this BEATs manifest does not establish a project-wide fresh test.

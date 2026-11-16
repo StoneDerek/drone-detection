@@ -1,0 +1,372 @@
+{
+  "cio_indoor": {
+    "independent_capture_sessions_verified": false,
+    "primary_audio_candidate": "raw_reference.wav; native mono reference",
+    "publisher_sidecar_date_counts": {
+      "2026-05-22": 12,
+      "2026-09-16": 1
+    },
+    "raw_reference_seconds": 3165.7017,
+    "role": "Candidate auxiliary indoor training; not a ground-field confirmation set",
+    "takes": 13
+  },
+  "field_release": {
+    "annotations": {
+      "documents": 21,
+      "documents_with_opposite_labels_overlapping": 7,
+      "documents_with_opposite_labels_overlapping_over_10ms": 1,
+      "maximum_opposite_label_overlap_seconds": 0.7198829999999816,
+      "parsed_intervals": 343,
+      "per_document": [
+        {
+          "archive": "Fpv.zip",
+          "intervals": 44,
+          "maximum_opposite_label_overlap_seconds": 0.0023689999998168787,
+          "member_sha256": "1615f17013e51d2f479a31ac2ea0c8fff59f6c6e6f1bed72b306099b3ba65308",
+          "opposite_label_overlap_pairs": 1,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 23,
+            "drone": 21
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 44,
+          "maximum_opposite_label_overlap_seconds": 0.00028800000001183435,
+          "member_sha256": "699f053f0ea809688391fa465d7a1058db40e9d13becf7cbf68a0ae646058c5d",
+          "opposite_label_overlap_pairs": 1,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 23,
+            "drone": 21
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 44,
+          "maximum_opposite_label_overlap_seconds": 0.0023689999998168787,
+          "member_sha256": "bf1252b8755c20ce3b4029a690669dd91fda6ef7c7dc6acee2def19e5456a4a2",
+          "opposite_label_overlap_pairs": 3,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 23,
+            "drone": 21
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 49,
+          "maximum_opposite_label_overlap_seconds": 0.7198829999999816,
+          "member_sha256": "2b3571755358901495b2656b45c47cdcdc91c704fc4d86ec50b739d7b874d39f",
+          "opposite_label_overlap_pairs": 1,
+          "opposite_label_overlap_pairs_over_10ms": 1,
+          "raw_label_counts": {
+            "background": 22,
+            "drone": 27
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 3,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "c70558f258ffe10bd56a8c603428b0a9e0cd65c327cc0e0aab49576cab3832bf",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 2,
+            "drone": 1
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 12,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "361d29f22f68711c52fb0ebd59b7936298197fa6526c3daeee7b5c160a65efae",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 7,
+            "drone": 5
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 44,
+          "maximum_opposite_label_overlap_seconds": 0.002369000000271626,
+          "member_sha256": "aadbe98372b228d98f3b5c1a44ea0cc5933b366bda6b408493d3faf5ddc5fa32",
+          "opposite_label_overlap_pairs": 2,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 23,
+            "drone": 21
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 15,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "b4b1f8d6a1d97acd028b7e111643dde79dff8b0982d3a3e9c42b4dd42466e16e",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 8,
+            "drone": 7
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 15,
+          "maximum_opposite_label_overlap_seconds": 0.0003860000000486252,
+          "member_sha256": "a132b55c03c27c66db2118e3e1b4a0ef9bb558201e2b4674b4caa6d1ccf7fe78",
+          "opposite_label_overlap_pairs": 4,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background_01": 1,
+            "background_02": 1,
+            "background_03": 1,
+            "background_04": 1,
+            "background_05": 1,
+            "background_06": 1,
+            "background_07": 1,
+            "background_08": 1,
+            "drone_004": 1,
+            "drone_01": 1,
+            "drone_02": 1,
+            "drone_03": 1,
+            "drone_05": 1,
+            "drone_06": 1,
+            "drone_07": 1
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 3,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "14b0d3cd4c40454aa183252150be84a1947ebb1e51266a243437723af4a0ddce",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 2,
+            "drone": 1
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 12,
+          "maximum_opposite_label_overlap_seconds": 0.0002539999999982001,
+          "member_sha256": "deaabf9f502a517fd0898b8b1eca14c8194f312a153b5dcb82cd56d5a660c8d0",
+          "opposite_label_overlap_pairs": 1,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 7,
+            "drone": 5
+          }
+        },
+        {
+          "archive": "Fpv.zip",
+          "intervals": 15,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "eb55a0ce61e3f16ed14133366a6a43f367b0d1a6d9ce934cac86605ee04f3ebc",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 8,
+            "drone": 7
+          }
+        },
+        {
+          "archive": "Electric Uavs.zip",
+          "intervals": 3,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "c13bd9091718f4f8eac0387c600c668a1db15dced822d3feabe3d6cd86479c3f",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background1": 1,
+            "background2": 1,
+            "electric_uav1": 1
+          }
+        },
+        {
+          "archive": "Electric Uavs.zip",
+          "intervals": 3,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "7768cc205090fee2d71dcdfdb7fddc3240f1859993ee0556855a8015fc1e0f01",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 2,
+            "electric_uav": 1
+          }
+        },
+        {
+          "archive": "Electric Uavs.zip",
+          "intervals": 3,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "a0a0390d1e1e58193f7188ef2cc78593f35c09bae2a0e0dc743eed89d94c9f41",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background1": 1,
+            "background2": 1,
+            "eletric_uav1": 1
+          }
+        },
+        {
+          "archive": "Electric Uavs.zip",
+          "intervals": 5,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "3293dc01fbfae186a764447ab868663171afcdfec452bcba8ae0d551d656a98b",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 3,
+            "electric_uav": 2
+          }
+        },
+        {
+          "archive": "Electric Uavs.zip",
+          "intervals": 3,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "18eaba182533f79a3e590704d357b3eef37666776832c9b627d0b16582c5f3fe",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 2,
+            "electric_uav": 1
+          }
+        },
+        {
+          "archive": "Uav.zip",
+          "intervals": 6,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "768a3894ff6a9013105b0d8888fbfac85ed1207e3f94e00638a94dcf2bf605a1",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 3,
+            "uav": 3
+          }
+        },
+        {
+          "archive": "Uav.zip",
+          "intervals": 6,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "f10e4e89db3e6865930669bbae4f84d3482e5b52cefc0294f208c33c2e0394ad",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 3,
+            "uav": 3
+          }
+        },
+        {
+          "archive": "Uav.zip",
+          "intervals": 7,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "500b687a2059d6ca8f6b177ace6f8111550f874ca9404c8126f0682565bafb15",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 4,
+            "uav": 3
+          }
+        },
+        {
+          "archive": "Uav.zip",
+          "intervals": 7,
+          "maximum_opposite_label_overlap_seconds": 0,
+          "member_sha256": "aa6abff450c636d1682aac47db42e29350c5231f78b7f3580808eab50b5346bb",
+          "opposite_label_overlap_pairs": 0,
+          "opposite_label_overlap_pairs_over_10ms": 0,
+          "raw_label_counts": {
+            "background": 4,
+            "uav": 3
+          }
+        }
+      ],
+      "scope": "Text integrity only. Annotation endpoints are not verified waveform offsets or independently reviewed audibility. Parallel phone views are not summed as elapsed capture time."
+    },
+    "archives": [
+      {
+        "archive": "Fpv.zip",
+        "candidate_labeled_folder_keys": 3,
+        "original_labeled_interval_wav_members": 249,
+        "other_wav_members": 9,
+        "publisher_bytes": 2152999558,
+        "publisher_md5": "md5:b06064de415a1d8fdf16b3e508ba96a0",
+        "publisher_split_export_wav_members": 19012,
+        "size_crc_duplicate_candidates": 165,
+        "size_crc_is_not_decoded_identity_proof": true,
+        "wav_members": 19270,
+        "whole_archive_checksum_verified": false
+      },
+      {
+        "archive": "Electric Uavs.zip",
+        "candidate_labeled_folder_keys": 3,
+        "original_labeled_interval_wav_members": 72,
+        "other_wav_members": 128,
+        "publisher_bytes": 1236715560,
+        "publisher_md5": "md5:4fc08312a6af80e19d21aef8f9b2418e",
+        "publisher_split_export_wav_members": 12940,
+        "size_crc_duplicate_candidates": 0,
+        "size_crc_is_not_decoded_identity_proof": true,
+        "wav_members": 13140,
+        "whole_archive_checksum_verified": false
+      },
+      {
+        "archive": "Uav.zip",
+        "candidate_labeled_folder_keys": 1,
+        "original_labeled_interval_wav_members": 42,
+        "other_wav_members": 12,
+        "publisher_bytes": 786085489,
+        "publisher_md5": "md5:96101913047e45a8512260e9c2b8428a",
+        "publisher_split_export_wav_members": 1,
+        "size_crc_duplicate_candidates": 0,
+        "size_crc_is_not_decoded_identity_proof": true,
+        "wav_members": 55,
+        "whole_archive_checksum_verified": false
+      }
+    ]
+  },
+  "input_sha256": {
+    "Electric Uavs.zip.directory.json": "cc4e6bdd78fc57f79ee4599d1af65d385f0d0346547fa42d983c787625573918",
+    "Fpv.zip.directory.json": "de73659c6716b754c43ffab124e77547fcbd9fab4fdb6355ed3aad95b482859c",
+    "Uav.zip.directory.json": "f7d207e76e4a77741e4fa777291b85656e73ac0513947960e7ce1dd1c029426d",
+    "annotation-manifest.json": "141e0173e9d4ce9218d6e2ecc5e3e3b25f9aa68789046660621f92d6be4dc30a",
+    "cio-README.md": "ec212b3ae6f5e1ef166793af3f0193239e9efa1c4ca49abdf4c587c22a4c33f5",
+    "cio-catalog.csv": "b392b733ca799f6bcf15898af73e3bae5b77d76ca87aad0a41e30b9a77fe1f5e",
+    "cio-channel_audit.csv": "8749e9722961ef275439151d5abc95123944d6edbfceb99b22028e8a274031b4"
+  },
+  "scope": "Publisher metadata, complete ZIP central directories and every TXT annotation; no audio members extracted, waveforms decoded or detector scores generated",
+  "source_records": {
+    "21935566": {
+      "listed_bytes": 4175800607,
+      "metadata_sha256": "c2d3ae8d58f459f763dce758171541335ad8a8a10ac4fc233614f77ac7395288",
+      "publication_date": "2026-08-13",
+      "publisher_license": {
+        "id": "cc-by-4.0"
+      },
+      "title": "Acoustic UAV Field Recordings: UAV, FPV and Electric UAV"
+    },
+    "22980617": {
+      "listed_bytes": 169094287,
+      "metadata_sha256": "995347c55fdfdbf825f6648301de090dd94034d31bb4ca8337b5737ecf7c0cd2",
+      "publication_date": "2026-09-26",
+      "publisher_license": {
+        "id": "cc-by-4.0"
+      },
+      "title": "ITU ARIS Lab. Acoustic Drone Dataset"
+    },
+    "23170386": {
+      "listed_bytes": 2654481228,
+      "metadata_sha256": "ceace9d0cb766bffafb5741dfe957725e96c14e8405dac8c01d035020503ae20",
+      "publication_date": "2026-10-05",
+      "publisher_license": {
+        "id": "cc-zero"
+      },
+      "title": "CiO-Drone-Acoustic: Indoor Multirotor Acoustic Dataset for Drone Detection and Classification"
+    }
+  }
+}

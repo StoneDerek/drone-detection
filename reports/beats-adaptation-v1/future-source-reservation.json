@@ -1,15 +1,35 @@
 {
+  "correction": {
+    "captured_at_utc": "2026-11-16T21:33:22.654126+00:00",
+    "previous_file_sha256": "4740f792debfa21b56c8cf6b3c53cfdb97e4db1fa68968e050bcc43b28a9009f",
+    "reason": "The earlier reservation described current-workspace actions as if they established project-wide non-exposure. Legacy tracked results establish previous ITU audio acquisition, evaluation and task-specific learning. No running study data or numerical recipe changed."
+  },
   "dads": {
-    "audio_downloaded": false,
+    "audio_downloaded_for_current_adaptation_study": false,
     "card_sha256": "cfe89719d84106450c4cc0a68078e1755b0d7d78e7ff2a369fad161da35fcda1",
+    "project_wide_fresh_test_eligible": false,
     "repository": "geronimobasso/drone-audio-detection-samples",
     "revision": "981b832c35b45a57518c989f0f79101adb4ae91f",
     "status": "Not a fresh independent source as a whole: includes already used AuDroK/DroneNoise and Urban/TUT/ESC/DNC; onboard egonoise sources require separate applicability review"
   },
   "itu_aris": {
-    "audio_downloaded": false,
+    "audio_downloaded_for_current_adaptation_study": false,
+    "beats_model_scores_seen_in_current_study": false,
     "card_sha256": "7c1ccf799c51f205e5025c965401c9355d468e4e8dddb2a072b5c4fa9d93fcb6",
-    "model_scores_seen": false,
+    "historical_evidence": [
+      "reports/external-v3/RESULTS.md",
+      "reports/external-v3/SOURCES.md",
+      "reports/human-label-task-v1/RESULTS.md",
+      "reports/transfer-diagnosis-v1/RESULTS.md"
+    ],
+    "legacy_project_audio_previously_acquired": true,
+    "legacy_project_models_previously_evaluated": [
+      "coherent-frequency-seed42",
+      "coherent-frequency-seed7",
+      "svm-linear-fft4096",
+      "yamnet-default"
+    ],
+    "project_wide_fresh_test_eligible": false,
     "publisher_counts": {
       "background": 1000,
       "drone": 4491
@@ -18,6 +38,8 @@
     "publisher_overlap": "50 percent segment overlap;35 annotated drone intervals are not35 independent sessions",
     "repository": "imm61/itu-aris-lab-acoustic-drone-dataset",
     "revision": "c17df31a416412b245f371f127716de3db679c0f",
-    "status": "Unused candidate held source; independence from other collections still requires checking"
+    "status": "Excluded from the current BEATs study but already consumed by earlier project evaluation and within-session learning. Suitable only for disclosed development/transfer comparison; not untouched project-wide confirmation.",
+    "v1_1_audio_identity_evidence": "Publisher states audio, groups.json and split manifests are identical to v1.0; this audit did not independently compare both archive payloads.",
+    "v1_1_publisher_record": "https://zenodo.org/records/22980617"
   }
 }

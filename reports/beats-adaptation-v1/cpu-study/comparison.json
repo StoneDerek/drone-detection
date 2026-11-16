@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-16T16:44:09.186958+00:00",
+  "captured_at_utc": "2026-11-16T21:53:20.268040+00:00",
   "complete": false,
   "completed_fine_tuned_controls": {
     "audrok-dresden": {},
@@ -7,7 +7,7 @@
   },
   "corpus_rows": 30238,
   "execution": {
-    "accumulated_hours": 6.655864125911392,
+    "accumulated_hours": 11.809415528032227,
     "active_child_verified": true,
     "checkpoint_every_steps": 100,
     "completed_fine_tuned_evaluations": 0,
@@ -21,17 +21,17 @@
       "seconds_per_batch": 8.220352378722986
     },
     "last_logged_batch": {
-      "batch": 1100,
-      "batch_weighted_loss_sum": 1.8877821048590704e-06,
+      "batch": 2525,
+      "batch_weighted_loss_sum": 0.0,
       "batches": 2536,
-      "elapsed_seconds": 82.55754897199995,
+      "elapsed_seconds": 17823.277800574,
       "epoch": 1,
-      "gradient_norm": 0.0002574804238975048,
-      "steps": 1100
+      "gradient_norm": 0.0002498136309441179,
+      "steps": 2525
     },
     "last_resume_checkpoint_steps": 1088,
     "max_wall_hours": 44.0,
-    "maximum_logged_steps_in_an_arm": 1675,
+    "maximum_logged_steps_in_an_arm": 2525,
     "planned_fine_tuned_evaluations": 4,
     "saved_supervisor_status": "running",
     "stage": "four-full-fine-tuning-arms",

@@ -95,7 +95,11 @@ and FSD false positives separately. Improvements confined to one collection do
 not establish generalization. WSU/AuDroK presence labels have not received blind
 human audibility review, and many windows share few recording campaigns.
 
-ITU ARIS is reserved as a possible future whole-source holdout; only metadata
-has been inspected. Its single continuous session limits the independence of
-its many overlapping clips. The DADS aggregate contains already used sources
-and is not a fresh test collection as a whole.
+ITU ARIS is excluded from this BEATs study, but was already evaluated and used
+for within-session learning earlier in this project. It is not an untouched
+project-wide holdout. Its v1.1 documentation update preserves the v1.0 audio.
+The corrected [source reservation](future-source-reservation.json) distinguishes
+this study's actions from prior project exposure. The
+[new source audit](../positive-source-audit-v1/README.md) records prospective
+field/indoor candidates and their outstanding checks. DADS also contains already
+used sources and is not a fresh test collection as a whole.

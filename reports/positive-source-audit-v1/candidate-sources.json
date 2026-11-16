@@ -1,0 +1,156 @@
+{
+  "scope": "Prospective source qualification only; no change to the running BEATs study",
+  "sources": [
+    {
+      "audio_members_extracted": 0,
+      "creators": [
+        {
+          "affiliation": null,
+          "name": "-, -"
+        }
+      ],
+      "detector_scores_generated": 0,
+      "files": [
+        {
+          "bytes": 2152999558,
+          "filename": "Fpv.zip",
+          "publisher_checksum": "md5:b06064de415a1d8fdf16b3e508ba96a0",
+          "url": "https://zenodo.org/api/records/21935566/files/Fpv.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 1236715560,
+          "filename": "Electric Uavs.zip",
+          "publisher_checksum": "md5:4fc08312a6af80e19d21aef8f9b2418e",
+          "url": "https://zenodo.org/api/records/21935566/files/Electric%20Uavs.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 786085489,
+          "filename": "Uav.zip",
+          "publisher_checksum": "md5:96101913047e45a8512260e9c2b8428a",
+          "url": "https://zenodo.org/api/records/21935566/files/Uav.zip/content",
+          "whole_file_verified": false
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "observed_record_sha256": "c2d3ae8d58f459f763dce758171541335ad8a8a10ac4fc233614f77ac7395288",
+      "project_wide_freshness": "unresolved until history/duplicate/capture checks",
+      "record_url": "https://zenodo.org/records/21935566",
+      "role": "Provisional unscored field candidate; prioritize FPV lineage and annotation qualification",
+      "source_id": "zenodo-21935566",
+      "title": "Acoustic UAV Field Recordings: UAV, FPV and Electric UAV",
+      "waveforms_decoded": 0
+    },
+    {
+      "audio_members_extracted": 0,
+      "creators": [
+        {
+          "affiliation": "Instituto Tecnol\u00f3gico de Aeron\u00e1utica, S\u00e3o Jos\u00e9 dos Campos",
+          "name": "CONCEPTIO Laboratory"
+        },
+        {
+          "affiliation": "Instituto Tecnol\u00f3gico de Aeron\u00e1utica",
+          "name": "Fagundes de Siqueira, Gustavo"
+        },
+        {
+          "affiliation": "Instituto Tecnol\u00f3gico de Aeron\u00e1utica",
+          "name": "Rossi Kuroswiski, Andre",
+          "orcid": "0000-0003-1549-2434"
+        }
+      ],
+      "detector_scores_generated": 0,
+      "files": [
+        {
+          "bytes": 482520942,
+          "filename": "mini4pro.zip",
+          "publisher_checksum": "md5:4b939ac7386b9eeb65848f7b5cde3d14",
+          "url": "https://zenodo.org/api/records/23170386/files/mini4pro.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 188011725,
+          "filename": "multi_neo2_mini4pro_free.zip",
+          "publisher_checksum": "md5:327c483e0fc9c8ab7e3d732c88818b2f",
+          "url": "https://zenodo.org/api/records/23170386/files/multi_neo2_mini4pro_free.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 533669716,
+          "filename": "matrice350.zip",
+          "publisher_checksum": "md5:d09041503164f0196c382cbdfef24396",
+          "url": "https://zenodo.org/api/records/23170386/files/matrice350.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 18382,
+          "filename": "README.md",
+          "publisher_checksum": "md5:b96abfbf8083d9cb1a483cf4434086d5",
+          "url": "https://zenodo.org/api/records/23170386/files/README.md/content",
+          "whole_file_verified": true
+        },
+        {
+          "bytes": 5219,
+          "filename": "catalog.csv",
+          "publisher_checksum": "md5:5f748b8240824334f1ed447183ddb1a3",
+          "url": "https://zenodo.org/api/records/23170386/files/catalog.csv/content",
+          "whole_file_verified": true
+        },
+        {
+          "bytes": 3710,
+          "filename": "aircraft_specifications.json",
+          "publisher_checksum": "md5:70d393cfd2712c7a446095c9ce8b16f3",
+          "url": "https://zenodo.org/api/records/23170386/files/aircraft_specifications.json/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 316827236,
+          "filename": "multi_flip_neo2_mini4pro_matrice_free.zip",
+          "publisher_checksum": "md5:12c85ecc1fefdab6c9e513941a7a8cab",
+          "url": "https://zenodo.org/api/records/23170386/files/multi_flip_neo2_mini4pro_matrice_free.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 154305311,
+          "filename": "mini4pro_noguard_free.zip",
+          "publisher_checksum": "md5:dc27650e2e733fa311c745a4ab0ed269",
+          "url": "https://zenodo.org/api/records/23170386/files/mini4pro_noguard_free.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 20016,
+          "filename": "channel_audit.csv",
+          "publisher_checksum": "md5:aafbac5191588d7904f0d6ebc0b1d531",
+          "url": "https://zenodo.org/api/records/23170386/files/channel_audit.csv/content",
+          "whole_file_verified": true
+        },
+        {
+          "bytes": 481630807,
+          "filename": "neo2.zip",
+          "publisher_checksum": "md5:f267214ca89f55b800884d7afc65303a",
+          "url": "https://zenodo.org/api/records/23170386/files/neo2.zip/content",
+          "whole_file_verified": false
+        },
+        {
+          "bytes": 497468164,
+          "filename": "flip.zip",
+          "publisher_checksum": "md5:b8c5d960117d7a90a363914c33f69c01",
+          "url": "https://zenodo.org/api/records/23170386/files/flip.zip/content",
+          "whole_file_verified": false
+        }
+      ],
+      "license": {
+        "id": "cc-zero"
+      },
+      "observed_record_sha256": "ceace9d0cb766bffafb5741dfe957725e96c14e8405dac8c01d035020503ae20",
+      "project_wide_freshness": "unresolved until history/duplicate/capture checks",
+      "record_url": "https://zenodo.org/records/23170386",
+      "role": "Auxiliary indoor training candidate; not an outdoor confirmation source",
+      "source_id": "zenodo-23170386",
+      "title": "CiO-Drone-Acoustic: Indoor Multirotor Acoustic Dataset for Drone Detection and Classification",
+      "waveforms_decoded": 0
+    }
+  ]
+}

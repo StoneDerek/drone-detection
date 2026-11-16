@@ -1,0 +1,86 @@
+{
+  "captured_at_utc": "2026-11-16T21:48:47.157669+00:00",
+  "evidence_sha256": {
+    "reports/cross-condition-v1/controlled-source/comparison.json": "b8c5d64fc3d1a95a370a19fcd10d507f1f587e163475faa42e1fd76b05cd36ba",
+    "reports/external-v3/RESULTS.md": "cd03b0901ba941ac6447f7f73c1703a47451ef68f0fb3798c889657eaa5243b2",
+    "reports/external-v3/SOURCES.md": "c3cd1672fc77db4308050ec246dc0e0f48c62ca8bc8a70f3076655e946384c9d",
+    "reports/external-v3/data-audit.json": "6ccf1724e68e9f1d283b4df5d7612aa4aa165852501ad528412c794b2160c260",
+    "reports/human-label-task-v1/RESULTS.md": "7eee3325a7dc9a2f3adeac7c2264ed65283afa78a37e4c8c2c9d34c1408e5ce5",
+    "reports/transfer-diagnosis-v1/RESULTS.md": "810e5a4071c4fa5df5163dc3529c136ab0221b4efbf8b19ad877d37cb23f719e"
+  },
+  "scope": "Known historical exposure for named releases; not a claim that every future release from a publisher is consumed",
+  "sources": [
+    {
+      "aliases": [
+        "itu_aris",
+        "imm61/itu-aris-lab-acoustic-drone-dataset",
+        "zenodo:22682339",
+        "zenodo:22980617"
+      ],
+      "canonical_source": "itu-aris",
+      "current_beats_manifest_contains_source": false,
+      "evidence": [
+        "reports/external-v3/RESULTS.md",
+        "reports/external-v3/SOURCES.md",
+        "reports/external-v3/data-audit.json",
+        "reports/human-label-task-v1/RESULTS.md",
+        "reports/transfer-diagnosis-v1/RESULTS.md"
+      ],
+      "fresh_confirmation_status": "consumed",
+      "project_exposure": "previous evaluation, within-session task learning and diagnostics",
+      "v1_1_audio_change": "Publisher explicitly states audio, groups and splits unchanged from v1.0"
+    },
+    {
+      "aliases": [
+        "saarmets/fpv-drone-audio-classification-dataset"
+      ],
+      "canonical_source": "saarmets-fpv",
+      "current_beats_manifest_contains_source": false,
+      "evidence": [
+        "reports/external-v3/RESULTS.md",
+        "reports/external-v3/SOURCES.md",
+        "reports/transfer-diagnosis-v1/RESULTS.md"
+      ],
+      "fresh_confirmation_status": "consumed",
+      "project_exposure": "previous frozen-model evaluation and threshold diagnostics"
+    },
+    {
+      "aliases": [
+        "nanjing-field",
+        "nanjing-replay",
+        "zenodo:23613504"
+      ],
+      "canonical_source": "nanjing-acoustic-v1.1",
+      "conservative_field_groups_in_previous_analysis": 3,
+      "controlled_non_uav_replay_recordings": 45,
+      "current_beats_manifest_contains_source": false,
+      "evidence": [
+        "reports/cross-condition-v1/controlled-source/comparison.json"
+      ],
+      "field_negative_recordings": 28,
+      "field_positive_recordings": 200,
+      "fresh_confirmation_status": "consumed",
+      "project_exposure": "previous source-held development assessment",
+      "published_recordings": 273
+    },
+    {
+      "aliases": [
+        "geronimobasso/drone-audio-detection-samples",
+        "matei219/drone-audio-detection-samples"
+      ],
+      "canonical_source": "dads-aggregate",
+      "fresh_confirmation_status": "not eligible as an untouched aggregate",
+      "project_exposure": "Contains already used constituent sources; aggregate lineage unresolved"
+    },
+    {
+      "canonical_source": "zenodo-21935566",
+      "fresh_confirmation_status": "unresolved; overlap and capture checks pending",
+      "project_exposure": "No named prior use found in tracked reports/data/docs/scripts; catalogue/annotation review only in this audit"
+    },
+    {
+      "canonical_source": "zenodo-23170386",
+      "fresh_confirmation_status": "unresolved; auxiliary indoor role",
+      "project_exposure": "No named prior use found in tracked reports/data/docs/scripts; publisher documents only in this audit"
+    }
+  ]
+}
