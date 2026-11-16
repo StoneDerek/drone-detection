@@ -1,0 +1,69 @@
+{
+  "C": 1.0,
+  "counts": {
+    "development": 4525,
+    "train": 16048
+  },
+  "cutoff": "single global raw-logit cutoff =max of per-negative-source1% empirical cutoffs on DEVELOPMENT; positives do not choose cutoffs",
+  "development_manifest_sha256": "7b5038f0645c648ac860b865ed8e4b0d7c337e0cfab8862242b0332fae426cfe",
+  "encoder": {
+    "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+    "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+    "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+    "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+    "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+    "code_sha256": {
+      "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+      "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+      "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+      "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+      "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+    },
+    "device": "cpu",
+    "family": "beats-frozen",
+    "feature_dim": 768,
+    "frontend": {
+      "fbank_mean": 15.41663,
+      "fbank_std": 6.55582,
+      "fbank_std_multiplier": 2,
+      "kaldi_fbank": {
+        "frame_length_ms": 25,
+        "frame_shift_ms": 10,
+        "num_mel_bins": 128
+      },
+      "minimum_samples": 2800,
+      "other_options": "torchaudio Kaldi defaults",
+      "sample_rate": 16000,
+      "short_input": "reject",
+      "waveform_scale": 32768
+    },
+    "import_adaptation": "private-package-relative-imports-only-v1",
+    "model": "BEATs_iter3_plus_AS2M",
+    "packages": {
+      "numpy": "2.3.5",
+      "torch": "2.7.1+cpu",
+      "torchaudio": "2.7.1+cpu"
+    },
+    "pooling": "mean-all-native-time-frequency-tokens",
+    "precision": "float32",
+    "torch_intraop_threads": 1
+  },
+  "evaluation": "one reserved batch for all three models; original consumed FINAL is development only",
+  "feature_implementation_sha256": "cc15e2829dbef091bee863636df62e4c8401b3d8ab48b1c90955e6827cac4039",
+  "implementation_sha256": "8b3b916c9a7993e63d083cd4ad85fc725a50ae4c6483a57ccd3beffdab420f01",
+  "max_iter": 3000,
+  "original_model_id": "4c8f8ba15bca49bef1f31b3094c87f6553fcfe5151e02533e582c2810471d86c",
+  "original_parameters_sha256": "af37d58ed9ba4b1f87e5b1e05af5842cb04f67fedc6e3955a1437c6672c6dda9",
+  "reserved_cohort_sha256": "e810993257e3481069d464401fe7f6ed1377a2cc87d83298102737bcd6323fcc",
+  "scaler": "weighted TRAIN only",
+  "seed": 42,
+  "tolerance": 1e-06,
+  "training": "same positive TRAIN, TUT and DNC; add deterministic75% Urban parents, stratified by publisher class",
+  "variants": {
+    "confuser_trained": "C1 linear head retrained with all Urban TRAIN parents; same broader-negative cutoff rule",
+    "original": "unchanged previous head and cutoff",
+    "recalibrated": "unchanged previous head; cutoff from broader negatives"
+  },
+  "weight_mass": 9959,
+  "weights": "equal class, source within class, parent/group within source; total weight mass fixed to original TRAIN size"
+}

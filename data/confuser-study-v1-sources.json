@@ -1,0 +1,152 @@
+{
+  "audrok_public_files": [
+    {
+      "folder": false,
+      "id": "1UuvO0070nEk_MDtDehfrsDjTnylAjz5b",
+      "name": "audrok-catalog.xml"
+    },
+    {
+      "folder": false,
+      "id": "1g1yYcYD9VzoyHmWfiF7a61GfT_z7OwxV",
+      "name": "audrok-catalog.xml.complete.json"
+    },
+    {
+      "folder": false,
+      "id": "1NOA0rs00lAAHQjeSImLJFMEKnwtqrRDZ",
+      "name": "MultiDrone.zip"
+    },
+    {
+      "folder": false,
+      "id": "18JjiPEHSptEkAOI_iJRWASKOrqfHG-4G",
+      "name": "MultiDrone.zip.complete.json"
+    },
+    {
+      "folder": false,
+      "id": "18UKg5P1djMzY_lyoTNjmOLA5wlOrG0PS",
+      "name": "realman-Terrace2-CH0.flac"
+    },
+    {
+      "folder": false,
+      "id": "1hPlbeWYJzPvWv8QCsI2tmmEj1U-h-WLF",
+      "name": "realman-Terrace2-CH0.flac.complete.json"
+    },
+    {
+      "folder": false,
+      "id": "1yMT6XUnSMmm7PJS3rl97_wKqf_nXCZb1",
+      "name": "Renamed_Dresden-II-S-A.zip"
+    },
+    {
+      "folder": false,
+      "id": "1WVeHKRVSCdwC4DOadSQT4AcmM0b7NX_7",
+      "name": "Renamed_Dresden-II-S-A.zip.complete.json"
+    },
+    {
+      "folder": false,
+      "id": "1uPo4Klf3Js7tYUDN7nl-GqMjhCBrAtzn",
+      "name": "Renamed_Dresden-II-S-B.zip"
+    },
+    {
+      "folder": false,
+      "id": "16hts5i-qa-PO_YItcSXz5g3upPIgRn4F",
+      "name": "Renamed_Dresden-II-S-B.zip.complete.json"
+    }
+  ],
+  "documents": [
+    {
+      "path": "wsu-docs/0-README.md",
+      "sha256": "0779ef10326916c092c878488ec8ad00163306e588c179873036a9b119ade131",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/README.md"
+    },
+    {
+      "path": "wsu-docs/1-LICENSE.txt",
+      "sha256": "99daacece8f829755bf73e31d7eae9437744a3fd7d7618b81932f22fb8c5e336",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/LICENSE.txt"
+    },
+    {
+      "path": "wsu-docs/2-alignment_params.json",
+      "sha256": "cd2145d0adb74faa7650671d08ebff971f1861aa5105f48ce47ce7eea49c2a91",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/test_1/Oct_11_2024/flight_5/alignment_params.json"
+    },
+    {
+      "path": "wsu-docs/3-alignment_params.json",
+      "sha256": "20d66a1aca8f1054094b05515a0e623732816455f9e3c42aa09c26b15f5107c7",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/training/Nov_25_2024/flight_11/alignment_params.json"
+    },
+    {
+      "path": "wsu-docs/4-alignment_params.json",
+      "sha256": "ad5a7c65f721a31a54fd576fc21d9e180be4862fec7834f222d320f55744a534",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/training/Mar_18_2025/flight_1/alignment_params.json"
+    },
+    {
+      "path": "wsu-docs/5-alignment_params.json",
+      "sha256": "986fbc5131636753b4df854c22806077430eb35bd069a0274414aac80c8e2139",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/test_2/Mar_18_2025/flight_2/alignment_params.json"
+    },
+    {
+      "path": "wsu-docs/2-flight.csv",
+      "sha256": "77974bf089826d8da23f3de50874cda26bf678de81d80051f44ec5b083be8424",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/test_1/Oct_11_2024/flight_5/Oct-11th-2024-03-49PM-Flight-Airdata.csv"
+    },
+    {
+      "path": "wsu-docs/3-flight.csv",
+      "sha256": "ad657869736ca150308cfc69c1affc91832369e449ac98824fad7e440b4ba581",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/training/Nov_25_2024/flight_11/Air_Nov-25th-2024-04-32PM-Flight-Airdata.csv"
+    },
+    {
+      "path": "wsu-docs/4-flight.csv",
+      "sha256": "4ce43be718f218dcff5669c4aa2bff30f0d37287b6787c62e9e31473a504c13a",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/training/Mar_18_2025/flight_1/Mar-18th-2025-11-19AM-Flight-Airdata.csv"
+    },
+    {
+      "path": "wsu-docs/5-flight.csv",
+      "sha256": "26d5a9a6bd02f2d986ed9d6a097dd8a525f263dc02fb3d0d52b92d54acd44862",
+      "url": "https://rds.westernsydney.edu.au/Centres/ICNS/2026/Jahir_Rodriguez/dataset/test_2/Mar_18_2025/flight_2/Mar-18th-2025-11-55AM-Flight-Airdata.csv"
+    },
+    {
+      "bytes": 334701,
+      "md5": "ca27382c195e37d2269c4c866dd73485",
+      "path": "FSD50K.ground_truth.zip",
+      "sha256": "db2396260a7b1fb06feb6ccac71685794fc89917d71c3a8d64a1de85c2cc0ebf",
+      "url": "https://zenodo.org/api/records/4060432/files/FSD50K.ground_truth.zip/content"
+    },
+    {
+      "bytes": 6700838,
+      "md5": "b9ea0c829a411c1d42adb9da539ed237",
+      "path": "FSD50K.metadata.zip",
+      "sha256": "9a738e032546f9a2c6e3d04566928d04a65fb79b422cc9d78bb781723537bd19",
+      "url": "https://zenodo.org/api/records/4060432/files/FSD50K.metadata.zip/content"
+    },
+    {
+      "bytes": 6984,
+      "md5": "3516162b82dc2945d3e7feba0904e800",
+      "path": "FSD50K.doc.zip",
+      "sha256": "a5c314ad2bf93d01b5921aa4270c70c90e28ac9a283ba9f08167490e728deb85",
+      "url": "https://zenodo.org/api/records/4060432/files/FSD50K.doc.zip/content"
+    },
+    {
+      "path": "esc50.csv",
+      "sha256": "ca660da60191a97de289983a05821c9382d852a38a2ba8428980816b68cf6246",
+      "url": "https://raw.githubusercontent.com/karolpiczak/ESC-50/master/meta/esc50.csv"
+    }
+  ],
+  "fsd_audio": [
+    {
+      "bytes": 3221225472,
+      "checksum_origin": "publisher Zenodo record4060432",
+      "filename": "FSD50K.eval_audio.z01",
+      "md5": "3090670eaeecc013ca1ff84fe4442aeb",
+      "source_id": "fsd50k-eval",
+      "url": "https://zenodo.org/api/records/4060432/files/FSD50K.eval_audio.z01/content"
+    },
+    {
+      "bytes": 3037675767,
+      "checksum_origin": "publisher Zenodo record4060432",
+      "filename": "FSD50K.eval_audio.zip",
+      "md5": "6fa47636c3a3ad5c7dfeba99f2637982",
+      "source_id": "fsd50k-eval",
+      "url": "https://zenodo.org/api/records/4060432/files/FSD50K.eval_audio.zip/content"
+    }
+  ],
+  "metadata_scope": "Primary source documents pinned before any fresh detector scores; audio acquisition rights remain source specific",
+  "version": 1
+}

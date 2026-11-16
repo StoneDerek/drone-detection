@@ -1,0 +1,41 @@
+{
+  "candidate_counts": {
+    "AuDroK": 58,
+    "FSD50K": 7955,
+    "FSD50K_uploaders": 2123,
+    "WSU": 1676,
+    "mechanical": 390
+  },
+  "development_assignment_sha256": "fda94758d67f51b4a6a9a8c97b602b7841bb0a1ee9c49c3e00d9676ffc473a27",
+  "esc50_metadata_sha256": "ca660da60191a97de289983a05821c9382d852a38a2ba8428980816b68cf6246",
+  "fsd_metadata_sha256": {
+    "FSD50K.doc.zip": "a5c314ad2bf93d01b5921aa4270c70c90e28ac9a283ba9f08167490e728deb85",
+    "FSD50K.ground_truth.zip": "db2396260a7b1fb06feb6ccac71685794fc89917d71c3a8d64a1de85c2cc0ebf",
+    "FSD50K.metadata.zip": "9a738e032546f9a2c6e3d04566928d04a65fb79b422cc9d78bb781723537bd19"
+  },
+  "full_reserved_plan_sha256": "e810993257e3481069d464401fe7f6ed1377a2cc87d83298102737bcd6323fcc",
+  "overlap_audit": {
+    "known_parents": 2727,
+    "known_parents_linked_in_fsd": 962,
+    "linked_uploaders": 505,
+    "pretraining_overlap_ruled_out": false,
+    "uploader_linkage_complete": false
+  },
+  "policy": {
+    "audrok_positive": "publisher recording label inherited to crop; weak audibility",
+    "channel": "physical channel0, no beamforming or array means",
+    "crop": "FSD/AuDroK one central min(3s,native length); WSU all supported disjoint3s windows",
+    "eligibility": "finite nonzero crop >=0.25s; decoded identity duplicates quarantined",
+    "fsd_negative": "non-aircraft human foreground labels, metadata UAV exclusion; weak absence evidence",
+    "inference": "crop classification, not a continuous alarm experiment",
+    "normalization": "none external to the pinned BEATs frontend",
+    "rate": 16000,
+    "rights": "per-recording FSD credits/licenses retained; no raw audio redistributed",
+    "wsu_negative": "only two explicitly bounded publisher no_drone tail intervals",
+    "wsu_positive": "publisher alignment + entire 3s airborne telemetry >1ft; presence does not establish audibility"
+  },
+  "previous_manifest_sha256": "174a0caf901ca638e7783b679d97c5d6c5529c4eb87e25987c8267f760246b4b",
+  "selection_without_model_outputs": true,
+  "urbansound_metadata_sha256": "b207f7a53f9e5eb02a5dd71d58fb8b66c88c24c0637b926dc72d9d400a6a2354",
+  "version": 1
+}

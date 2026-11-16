@@ -56,7 +56,10 @@ def feature_record(row, output, compute, identity, implementation_sha256=None):
         "audio_sha256": row["sha256"],
         "encoder": identity,
         "sample_rate": 16000,
-        "input": "prospective central3s crop, actual shorter signal passed to native frontend; no external gain/padding",
+        "input": row.get(
+            "feature_input_specification",
+            "prospective central3s crop, actual shorter signal passed to native frontend; no external gain/padding",
+        ),
         "implementation_sha256": implementation_sha256 or file_hash(__file__),
     }
     key = digest(specification)
