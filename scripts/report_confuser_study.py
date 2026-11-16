@@ -6,6 +6,7 @@ import csv
 import json
 import shutil
 import zipfile
+from collections import Counter
 from pathlib import Path
 
 import numpy as np
@@ -33,6 +34,16 @@ def run(args):
     report.mkdir(parents=True, exist_ok=True)
     comparison = read_json(args.work / "models/final-comparison.json")
     completion = read_json(args.work / "prepared/preparation-complete.json")
+    eligibility = [
+        dict(id="fsd50k-eval-" + entry["id"], reason=entry["exclusion"])
+        for part in (args.work / "prepared/parts").glob("*.json")
+        for entry in read_json(part)["receipts"]
+        if "exclusion" in entry
+    ]
+    completion["eligibility_exclusions"] = eligibility
+    completion["exclusion_counts"] = dict(
+        Counter(row["reason"] for row in eligibility + completion["exclusions"])
+    )
     variants = comparison["variants"]
     rows = [r for r in read_jsonl(args.work / "prepared/manifest.jsonl") if r["split"] == "final"]
     lines = [
@@ -170,11 +181,12 @@ def run(args):
                     **{name: int(p[name]["predicted_drone"]) for name in NAMES},
                 )
             )
-    figure, axes = plt.subplots(1, 2, figsize=(11.5, 4.3), layout="constrained")
+    figure, axes = plt.subplots(1, 3, figsize=(15, 4.5), layout="constrained")
     colors = ["#6b7280", "#d97706", "#2563eb"]
     for ax, definitions, title in [
-        (axes[0], metric_order[:2], "Unseen negative audio · lower is better"),
-        (axes[1], [metric_order[2], metric_order[4]], "Unseen drone audio · higher is better"),
+        (axes[0], metric_order[:2], "FSD negatives · lower is better"),
+        (axes[1], [metric_order[3]], "WSU ambient tail · lower is better"),
+        (axes[2], [metric_order[2], metric_order[4]], "Drone audio · higher is better"),
     ]:
         x = np.arange(len(definitions))
         for number, name in enumerate(NAMES):
@@ -187,10 +199,12 @@ def run(args):
             x,
             ["FSD all", "FSD mechanical"]
             if ax is axes[0]
+            else ["190 windows / one recording"]
+            if ax is axes[1]
             else ["WSU airborne", "AuDroK weak labels"],
         )
-        ax.set_ylabel("Crop FPR (%)" if ax is axes[0] else "Crop recall (%)")
-        ax.set_ylim(0, max(10, max(ax.get_ylim()[1] * 1.15, 105 if ax is axes[1] else 0)))
+        ax.set_ylabel("Crop recall (%)" if ax is axes[2] else "Crop FPR (%)")
+        ax.set_ylim(0, max(10, max(ax.get_ylim()[1] * 1.15, 105 if ax is axes[2] else 0)))
         ax.set_title(title, fontsize=11)
         ax.spines[["right", "top"]].set_visible(False)
         ax.grid(axis="y", alpha=0.15)
@@ -236,6 +250,7 @@ def run(args):
             ),
         )
     shutil.copytree(report, bundle / "report", dirs_exist_ok=True)
+    (bundle / "report/bundle-receipt.json").unlink(missing_ok=True)
     archive = args.work / "confuser-study-v1-results.zip"
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED) as z:
         for path in sorted(bundle.rglob("*")):

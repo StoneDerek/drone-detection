@@ -1,0 +1,106 @@
+{
+  "counts": {
+    "decoded_crop_identity_duplicate": 3,
+    "short_or_zero_crop": 21
+  },
+  "eligibility_exclusions": [
+    {
+      "id": "fsd50k-eval-399273",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-14575",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-14576",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-274127",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-169025",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-331680",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-91932",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-418041",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-393473",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325021",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325022",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325023",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325024",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325026",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325032",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325034",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-210254",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-197957",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-110586",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-235708",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-366781",
+      "reason": "short_or_zero_crop"
+    }
+  ],
+  "identity_exclusions": [
+    {
+      "id": "fsd50k-eval-274126",
+      "reason": "decoded_crop_identity_duplicate"
+    },
+    {
+      "id": "fsd50k-eval-391449",
+      "reason": "decoded_crop_identity_duplicate"
+    },
+    {
+      "id": "fsd50k-eval-409236",
+      "reason": "decoded_crop_identity_duplicate"
+    }
+  ]
+}

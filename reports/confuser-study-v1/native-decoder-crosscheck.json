@@ -1,0 +1,5 @@
+{
+  "WSU_channel0_first256_samples_match_libsndfile_exactly": true,
+  "prefix_sha256": "98bed3ebd43fbc1adda5e470884413df3c66d197e576184209b3fe285aa12d20",
+  "frame_selection": "complete frames only; no channel mean"
+}

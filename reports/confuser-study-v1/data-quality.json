@@ -1,0 +1,121 @@
+{
+  "eligibility_exclusions": [
+    {
+      "id": "fsd50k-eval-399273",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-14575",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-14576",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-274127",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-169025",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-331680",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-91932",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-418041",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-393473",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325021",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325022",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325023",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325024",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325026",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325032",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-325034",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-210254",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-197957",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-110586",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-235708",
+      "reason": "short_or_zero_crop"
+    },
+    {
+      "id": "fsd50k-eval-366781",
+      "reason": "short_or_zero_crop"
+    }
+  ],
+  "exclusion_counts": {
+    "decoded_crop_identity_duplicate": 3,
+    "short_or_zero_crop": 21
+  },
+  "exclusions": [
+    {
+      "id": "fsd50k-eval-274126",
+      "reason": "decoded_crop_identity_duplicate"
+    },
+    {
+      "id": "fsd50k-eval-391449",
+      "reason": "decoded_crop_identity_duplicate"
+    },
+    {
+      "id": "fsd50k-eval-409236",
+      "reason": "decoded_crop_identity_duplicate"
+    }
+  ],
+  "final_counts": {
+    "audrok-dresden": 58,
+    "fsd50k-eval": 7931,
+    "wsu-air3": 1676
+  },
+  "final_groups": {
+    "audrok-dresden": 1,
+    "fsd50k-eval": 2122,
+    "wsu-air3": 3
+  },
+  "manifest_sha256": "8f32b724f6504d19de4d16d2e1e2a337bc9dbc917956bb982e9e443868488c1a",
+  "new_final_clips": 9665,
+  "plan_sha256": "e810993257e3481069d464401fe7f6ed1377a2cc87d83298102737bcd6323fcc",
+  "preparation_implementation_sha256": "9032d5f43378e8910f616d48f1e9d234f3b19e3cdc8d7f441db69eed459cd815",
+  "reserved_candidates": 9689
+}

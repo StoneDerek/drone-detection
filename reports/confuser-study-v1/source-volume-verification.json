@@ -1,0 +1,26 @@
+{
+  "AuDroK": "Pinned member index, complete-member CRC and observed member SHA256; whole-archive reference SHA not reverified by partial reads",
+  "FSD_whole_volumes": [
+    {
+      "bytes": 3221225472,
+      "filename": "FSD50K.eval_audio.z01",
+      "generic_acquisition_publisher_marker": false,
+      "observed_md5": "3090670eaeecc013ca1ff84fe4442aeb",
+      "observed_sha256": "a1b776a5a9466a0cf17d0cb9a2a98f641454084f0292f511718aacb48e6c401d",
+      "publisher_md5": "3090670eaeecc013ca1ff84fe4442aeb",
+      "publisher_md5_reverified_in_preparation": true
+    },
+    {
+      "bytes": 3037675767,
+      "filename": "FSD50K.eval_audio.zip",
+      "generic_acquisition_publisher_marker": false,
+      "observed_md5": "6fa47636c3a3ad5c7dfeba99f2637982",
+      "observed_sha256": "e3d78e77115ff8d8df1ff3dae7ca5cd5864924c054561f61ba836764254bf50e",
+      "publisher_md5": "6fa47636c3a3ad5c7dfeba99f2637982",
+      "publisher_md5_reverified_in_preparation": true
+    }
+  ],
+  "WSU": "Pinned prefix, source length, Last-Modified and exact bounded range hashes; no publisher whole-file digest",
+  "generic_marker_note": "The intake origin string was descriptive rather than its literal 'publisher' marker; that boolean is not the independent preparation MD5 result.",
+  "method": "prepare_fsd independently ran corpus_intake.verify against the pinned publisher MD5s before ZIP extraction"
+}

@@ -1,0 +1,54 @@
+{
+  "component_cutoffs": {
+    "tut2017-evaluation": -7.1793924979056465,
+    "urbansound8k": -3.3689041634748635
+  },
+  "cutoff_logit": -3.3689041634748635,
+  "encoder": {
+    "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+    "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+    "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+    "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+    "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+    "code_sha256": {
+      "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+      "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+      "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+      "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+      "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+    },
+    "device": "cpu",
+    "family": "beats-frozen",
+    "feature_dim": 768,
+    "frontend": {
+      "fbank_mean": 15.41663,
+      "fbank_std": 6.55582,
+      "fbank_std_multiplier": 2,
+      "kaldi_fbank": {
+        "frame_length_ms": 25,
+        "frame_shift_ms": 10,
+        "num_mel_bins": 128
+      },
+      "minimum_samples": 2800,
+      "other_options": "torchaudio Kaldi defaults",
+      "sample_rate": 16000,
+      "short_input": "reject",
+      "waveform_scale": 32768
+    },
+    "import_adaptation": "private-package-relative-imports-only-v1",
+    "model": "BEATs_iter3_plus_AS2M",
+    "packages": {
+      "numpy": "2.3.5",
+      "torch": "2.7.1+cpu",
+      "torchaudio": "2.7.1+cpu"
+    },
+    "pooling": "mean-all-native-time-frequency-tokens",
+    "precision": "float32",
+    "torch_intraop_threads": 1
+  },
+  "fit_plan_sha256": "85728ab4d3123f963946105c24dbed98187e4c3e565f1d5a83b33f2d07670234",
+  "iterations": 44,
+  "model_id": "6f68f1167bc7ac707af5ed6c163f532d9fa9951ab512f560a791a9bac31d37a6",
+  "name": "confuser-trained",
+  "parameters_sha256": "65d56b65e60a61cfa049695b3a87d660d7cfb90cd19f439634ad1b904ad66283"
+}
