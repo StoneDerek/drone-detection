@@ -6,8 +6,10 @@ The main branch was not changed.
 
 The numerical implementation used for the fixed experiment is pinned at
 [`d47f094a2b5eb967cc2dcd9d66c28bd3eabaac3d`](https://github.com/StoneDerek/drone-detection/commit/d47f094a2b5eb967cc2dcd9d66c28bd3eabaac3d).
-The [Colab continuation](https://colab.research.google.com/github/StoneDerek/drone-detection/blob/9f510e78b856ff4d8adc4dd4783df1a00650cd9b/notebooks/beats_confuser_comparison.ipynb)
-pins that exact commit. It requires the previous complete BEATs study cache,
+The [Colab continuation](../../notebooks/beats_confuser_comparison.ipynb)
+pins the complete reporting/reproduction implementation at
+`bbc212467cd0d06f82c6dd93e237e84e8a55e30f`; its numerical experiment code matches
+the pre-evaluation pin above. It requires the previous complete BEATs study cache,
 uses the same explicit CPU/GPU identity, and processes the whole reserved
 cohort. The notebook was structurally validated and its code cells compiled;
 the full new experiment was executed here on CPU, not in Colab.

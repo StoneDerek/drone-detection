@@ -1,7 +1,7 @@
 {
-  "bytes": 9339163,
+  "bytes": 9339175,
   "includes_encoder_weights": false,
   "includes_numeric_linear_heads": true,
   "includes_raw_audio": false,
-  "sha256": "c3b02a73435749af8fd3905d05622cfa04ec4111698fe3fc597695c937876db3"
+  "sha256": "38055485e98fc576e36644db406ba2f1e890b2675c47d0fe13ddfc6dd54067a0"
 }
