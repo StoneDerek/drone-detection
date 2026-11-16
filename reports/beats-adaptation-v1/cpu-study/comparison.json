@@ -1,0 +1,45 @@
+{
+  "captured_at_utc": "2026-11-16T16:44:09.186958+00:00",
+  "complete": false,
+  "completed_fine_tuned_controls": {
+    "audrok-dresden": {},
+    "wsu-air3": {}
+  },
+  "corpus_rows": 30238,
+  "execution": {
+    "accumulated_hours": 6.655864125911392,
+    "active_child_verified": true,
+    "checkpoint_every_steps": 100,
+    "completed_fine_tuned_evaluations": 0,
+    "device": "cpu",
+    "first_training_segment_timing": {
+      "elapsed_seconds": 13769.090234361,
+      "observed_steps": 1675,
+      "planned_total_training_batches": 30864,
+      "projected_training_only_hours": 70.47582106025173,
+      "scope": "Extrapolation from actual first-arm batches; excludes selection, feature extraction, replay and IO variability",
+      "seconds_per_batch": 8.220352378722986
+    },
+    "last_logged_batch": {
+      "batch": 1100,
+      "batch_weighted_loss_sum": 1.8877821048590704e-06,
+      "batches": 2536,
+      "elapsed_seconds": 82.55754897199995,
+      "epoch": 1,
+      "gradient_norm": 0.0002574804238975048,
+      "steps": 1100
+    },
+    "last_resume_checkpoint_steps": 1088,
+    "max_wall_hours": 44.0,
+    "maximum_logged_steps_in_an_arm": 1675,
+    "planned_fine_tuned_evaluations": 4,
+    "saved_supervisor_status": "running",
+    "stage": "four-full-fine-tuning-arms",
+    "status": "running",
+    "threads": 2
+  },
+  "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+  "scope": "Consumed-corpus development diagnostics with unchanged weak publisher labels",
+  "training_batches": 30864,
+  "training_crop_visits": 198348
+}

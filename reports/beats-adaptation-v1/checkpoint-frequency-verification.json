@@ -1,0 +1,13 @@
+{
+  "captured_at_utc": "2026-11-16T16:44:17.290410+00:00",
+  "checkpoint_bytes": 1084048715,
+  "checkpoint_every_steps": 100,
+  "checkpoint_sha256": "d41e2c9f299b010f97bd0cbcd95c7bd43c0972bdfc3f72290537b73f2ca678b5",
+  "completed_epochs": 0,
+  "held_source": "audrok-dresden",
+  "next_batch": 1100,
+  "numerical_trainer_and_driver_unchanged": true,
+  "positive_mix": "current",
+  "scope": "Verified real optimizer recovery checkpoint; not a completed model evaluation",
+  "steps": 1100
+}

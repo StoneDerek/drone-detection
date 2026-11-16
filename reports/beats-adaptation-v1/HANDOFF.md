@@ -13,6 +13,11 @@ entire model, optimizer, RNG and counter fingerprint before and after changing
 only cadence metadata. The source folds, data, hyperparameters and accumulated
 budget remain unchanged. The supervisor runs from an isolated published checkout.
 
+The current supervision/reporting implementation is
+`2a4de5723cf755ab3a9187c8c6027030cc616027`; the current GPU notebook pins that exact
+commit. All three jobs passed in
+[run 43909773186](https://github.com/StoneDerek/drone-detection/actions/runs/43909773186).
+
 ## Completed evidence
 
 [RESULTS.md](RESULTS.md) contains all four frozen controls and their limitations.
