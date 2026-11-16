@@ -1,0 +1,7 @@
+{
+  "bytes": 4080294,
+  "contents": "Audit code and tests, publisher metadata/annotations, complete per-member ledgers, fresh-input recovery check, aggregate report. Audio, images, model weights and prior audio manifests excluded.",
+  "entries": 67,
+  "private_evidence_bundle_sha256": "e1deb1315929a9e6ab2794cf6d2fefe360f27b738bcdd43389a0a081ec02b884",
+  "publication": "Bundle retained in ignored local evidence storage; public report contains aggregate measurements and hashes."
+}

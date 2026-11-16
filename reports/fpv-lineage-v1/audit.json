@@ -1,0 +1,317 @@
+{
+  "annotation_candidates": {
+    "detector_scores_generated": 0,
+    "intervals_with_opposing_annotation_overlap": 9,
+    "original_intervals_accounted": 249,
+    "scope": "Filename/export-numbering and native-duration candidates only. Exact continuous-source waveform alignment and independent audibility remain unverified.",
+    "status_counts": {
+      "ambiguous_duration_consistent_candidates": 1,
+      "no_matching_released_annotation": 97,
+      "unique_duration_consistent_candidate": 151
+    }
+  },
+  "archive": {
+    "bytes": 2152999558,
+    "md5": "b06064de415a1d8fdf16b3e508ba96a0",
+    "publisher_md5_verified": true,
+    "sha256": "6c36545a296881d50331af0860d312529d864571c5b9e4158cd522b2b7f35f99"
+  },
+  "capture_folder_groups": [
+    {
+      "capture_folder_id": "2a540b156555d3c1bf5ce4b3",
+      "labelled_interval_members": 105,
+      "labelled_view_folder_count": 8,
+      "publisher_class_counts": {
+        "background": 60,
+        "drone": 45
+      },
+      "publisher_partitions": [
+        "test",
+        "train",
+        "validate"
+      ]
+    },
+    {
+      "capture_folder_id": "782ee645a285daafb1db0161",
+      "labelled_interval_members": 93,
+      "labelled_view_folder_count": 2,
+      "publisher_class_counts": {
+        "background": 45,
+        "drone": 48
+      },
+      "publisher_partitions": [
+        "test",
+        "train",
+        "validate"
+      ]
+    },
+    {
+      "capture_folder_id": "e0cebe733ebc0b136c6825b3",
+      "labelled_interval_members": 51,
+      "labelled_view_folder_count": 2,
+      "publisher_class_counts": {
+        "background": 16,
+        "drone": 35
+      },
+      "publisher_partitions": [
+        "test",
+        "train",
+        "validate"
+      ]
+    }
+  ],
+  "code_sha256": {
+    "scripts/audit_fpv_lineage.py": "2d00948541f4a4f928d4918d978141c635f2454626e7a7fabd8f3e93fb136067",
+    "scripts/audit_fpv_prior_identity.py": "52d2f82096e0a0e1dc44fc09e921d57ed8f9287ebd68c7937c7315a276969699",
+    "scripts/audit_fpv_raw_links.py": "ca0a5d8e4d5463e1e8902f6827b000e6875b4a4be751f607441675bef35b9982",
+    "scripts/audit_fpv_split_overlap.py": "7ed7d3fc09c808d12ed66a4118a8725eac1a4f0adff7b3792e26b493f30339a2",
+    "scripts/link_fpv_annotations.py": "7848bbc3cd1ca5ff0d93fa09f2c86fcc1c81bd142d70f97743f5439efa543a38",
+    "scripts/prepare_fpv_lineage_inputs.py": "fd960789051ef5b187b39b63b1c2317ed1865f920ee14e631d16bc50c64e48fd",
+    "scripts/summarize_fpv_lineage.py": "324a914db205cab78f82121a173f7cc6a4a9b1491a21e0cda5adb1f69eea3147",
+    "scripts/verify_fpv_direct_lineage.py": "990f759cbd41116f622d8c8af4ebf7105fd77e53ac352044b47196e476ada8fd",
+    "src/drone_detector/common.py": "4b4a71ee244301d6d04d3a15edd25caf1146b8a10d15c9ea6e2b6f8f867727ac",
+    "src/drone_detector/corpus_intake.py": "d4093d66370a5d0f958464eb989cd6eed9522de6f937d5b89212773de085138a",
+    "src/drone_detector/fpv_lineage.py": "3b7dbcb7c795b236fa053925e7296d6d56cb8e926c2f89169fec185493fadfec",
+    "tests/test_fpv_lineage.py": "6684ec536b14d5ad87b9cda5fe683b5ef04c8781ddb20ebfac21804aa00c3873"
+  },
+  "complete_audio_inventory": {
+    "decode_failures": 0,
+    "labelled_interval_members": 249,
+    "native_format_counts": {
+      "44100Hz/2ch/PCM_16": 8300,
+      "48000Hz/1ch/AAC_to_PCM16": 20,
+      "48000Hz/1ch/PCM_16": 7848,
+      "48000Hz/2ch/PCM_16": 3118
+    },
+    "nested_archive_directories": [
+      {
+        "member_id": "a62d7f2b139c337bd452c126",
+        "suffix_counts": {
+          ".jpeg": 6
+        }
+      }
+    ],
+    "other_raw_audio_members": 25,
+    "publisher_export_members": 19012,
+    "total_outer_audio_members_decoded": 19286
+  },
+  "declared_lineage": {
+    "augmented_declared_overlap_fraction": 0.3638257250675907,
+    "augmented_declared_summed_seconds": 13242.593,
+    "augmented_declared_timeline_union_seconds": 8424.597,
+    "augmented_training_windows": 13328,
+    "candidate_capture_groups": 3,
+    "candidate_capture_groups_in_multiple_partitions": 3,
+    "declared_source_aliases": 403,
+    "declared_source_aliases_in_multiple_partitions": 352,
+    "duration_scope": "Filename-declared intervals per export alias only; neither verified waveform offsets nor unique physical capture time",
+    "exported_wav_members": 19012,
+    "offset_windows_shorter_than_250ms": 90,
+    "partition_scope": "Shared declared parent/capture across publisher partitions; does not itself prove overlapping samples",
+    "status_counts": {
+      "declared_parent_present": 7503,
+      "original_parent_absent": 11476,
+      "unresolved_copy_suffix": 33
+    },
+    "uniquely_declared_capture_members": 18784
+  },
+  "detector_scores_generated": 0,
+  "direct_lineage": {
+    "archive_sha256": "6c36545a296881d50331af0860d312529d864571c5b9e4158cd522b2b7f35f99",
+    "exports_accounted": 19012,
+    "scope": "Unique exact native-rate/channel float32 decoded subsequence matching. No resampling, gain fitting or nearest-match acceptance; no detector inference.",
+    "source_families_checked": 238,
+    "status_counts": {
+      "no_exact_match": 32,
+      "original_not_uniquely_available": 11476,
+      "unique_exact_match": 7504
+    }
+  },
+  "disposition": "Unscored candidate. Preserve all source evidence; quarantine unresolved derived exports. Do not adopt publisher splits as an unfamiliar-capture test or add this source to the running experiment.",
+  "group_scope": "Conservative publisher folder keys, not independently verified recording campaigns. Parallel device folders do not create independent trials.",
+  "input_metadata_sha256": {
+    "Fpv.zip.directory.json": "de73659c6716b754c43ffab124e77547fcbd9fab4fdb6355ed3aad95b482859c",
+    "annotation-manifest.json": "141e0173e9d4ce9218d6e2ecc5e3e3b25f9aa68789046660621f92d6be4dc30a"
+  },
+  "labelled_and_export_waveforms": {
+    "decode_failures": 0,
+    "decoded_identity_duplicate_groups": 165,
+    "decoded_identity_groups_across_labels": 0,
+    "decoded_identity_groups_across_partitions": 0,
+    "decoded_identity_scope": "WAV native-rate/channel float32 samples; misnamed M4A files use fixed native-rate/channel FFmpeg PCM16 decoding. Raw SHA-256 is retained separately. No resampling or gain fitting.",
+    "detector_scores_generated": 0,
+    "export_members_requested": 19012,
+    "export_to_partition": {
+      "exact_declared_slice": 101,
+      "unique_partition_parent_unavailable": 18756
+    },
+    "exports_shorter_than_250ms": 90,
+    "ffmpeg_version": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "native_format_counts": {
+      "44100Hz/2ch/PCM_16": 8300,
+      "48000Hz/1ch/AAC_to_PCM16": 4,
+      "48000Hz/1ch/PCM_16": 7839,
+      "48000Hz/2ch/PCM_16": 3118
+    },
+    "original_members_requested": 249,
+    "partition_to_original": {
+      "no_exact_match": 21,
+      "original_waveform_not_uniquely_available": 29,
+      "unique_exact_match": 105
+    },
+    "permanent_waveform_files_written": 0,
+    "total_members_decoded": 19261
+  },
+  "prior_byte_identity": {
+    "candidate_audio_members_compared": 19286,
+    "candidate_members_with_recorded_byte_identity": 0,
+    "detector_scores_generated": 0,
+    "prior_manifest_rows_summed": 34596,
+    "prior_manifests": [
+      {
+        "available_byte_hash_fields": {
+          "native_member": 28562,
+          "stored_file": 30238
+        },
+        "manifest_sha256": "ae80337be42998c975dc3b8e18d15415c14b186eaf6aedfd2d644ea8bcb9df45",
+        "rows": 30238,
+        "source_counts": {
+          "audrok-dresden": 58,
+          "dnc": 4357,
+          "dronenoise-edzell-v3": 18,
+          "fsd50k-eval": 7931,
+          "idmt-berne-2022": 163,
+          "neaptide-v1": 35,
+          "poland-uav-v1": 1533,
+          "tut2017-development": 4626,
+          "tut2017-evaluation": 1620,
+          "urbansound8k": 8221,
+          "wsu-air3": 1676
+        }
+      },
+      {
+        "available_byte_hash_fields": {
+          "stored_file": 2356
+        },
+        "manifest_sha256": "371ab29f57e857d0ac32d2f5d346b7e7518852aa10669a29321ae0e68b9950ff",
+        "rows": 2356,
+        "source_counts": {
+          "batear-field": 17,
+          "batear-new-day": 55,
+          "d3set-ground": 21,
+          "d3set-noise": 72,
+          "ddl-real": 105,
+          "esc10": 400,
+          "esc50-fresh-negatives": 1596,
+          "svanstrom": 90
+        }
+      },
+      {
+        "available_byte_hash_fields": {
+          "stored_file": 1072
+        },
+        "manifest_sha256": "5b9930260e47ecbad2ae6740e34716dbf2688bf9fe5b551919d8c6345ec1b9c6",
+        "rows": 1072,
+        "source_counts": {
+          "itu-aris": 1035,
+          "saarmets-fpv": 37
+        }
+      },
+      {
+        "available_byte_hash_fields": {
+          "stored_file": 273
+        },
+        "manifest_sha256": "4c31411b96fe90d1d185513c19d5bf45e85b1de71eed3578c7995216a5fb770a",
+        "rows": 273,
+        "source_counts": {
+          "nanjing-field": 228,
+          "nanjing-replay": 45
+        }
+      },
+      {
+        "available_byte_hash_fields": {
+          "stored_file": 652
+        },
+        "manifest_sha256": "3834a44e37c2dae4028e50efa48cee4ed9bdd2bc016683e6e4e0effc6f1e10b7",
+        "rows": 652,
+        "source_counts": {
+          "batear-field": 17,
+          "d3set-ground": 21,
+          "d3set-noise": 72,
+          "ddl-real": 15,
+          "esc10": 400,
+          "saarmets-fpv": 37,
+          "svanstrom": 90
+        }
+      },
+      {
+        "available_byte_hash_fields": {
+          "stored_file": 5
+        },
+        "manifest_sha256": "be73ebc09b9fcca1a89c509c842f01162557989708b56d86af5bfa879e777546",
+        "rows": 5,
+        "source_counts": {
+          "kenya-forest-human-drone": 5
+        }
+      }
+    ],
+    "scope": "Exact whole-file SHA-256 against recorded stored-file/native-member identities only. Manifest rows can overlap. Different crops, containers, encodings, gains and shifted excerpts are not excluded by a zero result. Historical manifests without native hashes cannot certify raw-source coverage."
+  },
+  "private_ledger_sha256": {
+    "acquisition-complete.json": "823d8568e4fdbb8306e08a424d9324335609f13bd82500cd1321058181164cde",
+    "annotation-candidates.jsonl": "f6d4c6e587864ab5d6affb358cfc8ce87e83320c88485a91329bb5d88f022539",
+    "annotation-summary.json": "aafdfc706808b6df3c769dc0b15e9efb916ad901a00c0f17dcdca94e4fc36389",
+    "decode-failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "decoded-members.jsonl": "de07d3618d6ef80de5a04f3f5fc0a5a6ddf08e0f86442d0be301cca815466e02",
+    "direct-export-to-original.jsonl": "baff678006ad3d1841cf1bd4046423b27254078ac8fb025ca96c909244fc4433",
+    "direct-lineage-summary.json": "4f09dea3b5550849e682ade24540d1ab27211b30de3c089fb5ea9f21be1674b4",
+    "export-to-partition.jsonl": "548b2353d38aefd3b61d9662e1cfd4b92d62f408801e09348b4a46704829cf72",
+    "interval-to-raw.jsonl": "2484b810e7a70d1556cbdc9e1b7d51b00f92cd8137b79b9de518919a5f75a0b5",
+    "lineage.jsonl": "c3753484de44f7336f4dbd4136a6b72a7699c9e0bf2ecb258081bf581656f78a",
+    "partition-to-original.jsonl": "76dd83c387cb9e446c337ab643c8f84d6bcced14d3209d1a7e908ae7c41f813e",
+    "prior-byte-identity-matches.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prior-byte-identity-summary.json": "e20c3d0465d3882f7b02ef9c24eed6af77c1060e7a6ad02ff3efdeca9b3f874b",
+    "raw-links-summary.json": "cd4a0f52a62b7eac4875ea8233067ef50f738a1d2bb73579d7336919e96101f7",
+    "raw-members.jsonl": "50c6dcc02ea0e5eda5d0a640f151be01e0b61948b76eb51dda5c2c0f0e5a1475",
+    "summary.json": "542957a98dc2a286e7f66ca705d2be0dc5facb14f58341e0907b174b623939f0",
+    "verified-split-overlap-summary.json": "fd5142a1da2ff6066d73f28a3e155845a38f8f72ba284c614acd74baa407cb56",
+    "verified-split-overlaps.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "waveform-audit-complete.json": "2554233fe90e531ded0cf324fda963d01d07a8cef874c09ed2c9c0a24977b65e"
+  },
+  "publisher_creator": "-, - (authorship is not independently established)",
+  "raw_links": {
+    "byte_identical_interval_raw_pairs": 12,
+    "detector_scores_generated": 0,
+    "original_intervals_accounted": 249,
+    "raw_audio_members_accounted": 25,
+    "scope": "Exact decoded sample links to available raw members from the same declared capture/device. A missing match is not a global search across unrelated filenames or views. No raw labels are invented.",
+    "status_counts": {
+      "matching_raw_view_not_provided": 198,
+      "no_exact_raw_match": 39,
+      "unique_exact_raw_match": 12
+    }
+  },
+  "remaining_checks": [
+    "Project-wide duplicate/excerpt comparison; neither source text search nor exact within-archive matching proves freshness.",
+    "Annotation-to-continuous-audio alignment, capture/view synchronization and independent label/audibility review.",
+    "Publisher authorship/capture provenance and disposition of unmatched or unprovided declared parents."
+  ],
+  "scope": "Complete source qualification. No classifier inference, training change, or confirmation result.",
+  "source_license": "CC BY 4.0",
+  "source_url": "https://zenodo.org/records/21935566",
+  "verified_split_overlap": {
+    "overlap_pair_count": 0,
+    "overlap_seconds_summed_by_source_member": 0,
+    "scope": "Native-sample overlap only for uniquely matched original/export relationships. Unavailable/unmatched sources are unassessed. Sums across phone views are not independent capture hours.",
+    "source_members_with_measured_cross_partition_overlap": 0,
+    "source_members_with_multiple_verified_partitions": 193,
+    "source_members_with_verified_exports": 236,
+    "verified_exports_accounted": 7504
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "soundfile": "0.13.1"
+  }
+}

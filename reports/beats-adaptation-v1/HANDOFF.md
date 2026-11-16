@@ -103,3 +103,9 @@ this study's actions from prior project exposure. The
 [new source audit](../positive-source-audit-v1/README.md) records prospective
 field/indoor candidates and their outstanding checks. DADS also contains already
 used sources and is not a fresh test collection as a whole.
+
+The [complete FPV lineage audit](../fpv-lineage-v1/README.md) now verifies the
+candidate FPV ZIP and accounts for all 19,286 outer audio members. Its publisher
+splits share capture groups and many exports lack an included declared parent.
+The candidate remains unscored and outside this experiment; it is not yet a
+qualified independent confirmation set.

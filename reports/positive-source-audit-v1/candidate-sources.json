@@ -1,22 +1,21 @@
 {
-  "scope": "Prospective source qualification only; no change to the running BEATs study",
+  "scope": "Prospective source qualification; initial_metadata_audit fields preserve the earlier snapshot. FPV follow-up is current; no change to the running BEATs study.",
   "sources": [
     {
-      "audio_members_extracted": 0,
       "creators": [
         {
           "affiliation": null,
           "name": "-, -"
         }
       ],
-      "detector_scores_generated": 0,
       "files": [
         {
           "bytes": 2152999558,
           "filename": "Fpv.zip",
+          "observed_sha256": "6c36545a296881d50331af0860d312529d864571c5b9e4158cd522b2b7f35f99",
           "publisher_checksum": "md5:b06064de415a1d8fdf16b3e508ba96a0",
           "url": "https://zenodo.org/api/records/21935566/files/Fpv.zip/content",
-          "whole_file_verified": false
+          "whole_file_verified": true
         },
         {
           "bytes": 1236715560,
@@ -33,6 +32,21 @@
           "whole_file_verified": false
         }
       ],
+      "fpv_follow_up": {
+        "decode_failures": 0,
+        "detector_scores_generated": 0,
+        "outer_audio_members_decoded": 19286,
+        "permanently_extracted_waveform_files": 0,
+        "report": "../fpv-lineage-v1/README.md",
+        "status": "Unscored; unresolved declared parents, capture-shared publisher splits, project-wide freshness and label alignment still under qualification",
+        "whole_file_publisher_md5_verified": true
+      },
+      "initial_metadata_audit": {
+        "audio_members_extracted": 0,
+        "detector_scores_generated": 0,
+        "waveforms_decoded": 0,
+        "whole_field_archive_checksums_verified": false
+      },
       "license": {
         "id": "cc-by-4.0"
       },
@@ -41,11 +55,9 @@
       "record_url": "https://zenodo.org/records/21935566",
       "role": "Provisional unscored field candidate; prioritize FPV lineage and annotation qualification",
       "source_id": "zenodo-21935566",
-      "title": "Acoustic UAV Field Recordings: UAV, FPV and Electric UAV",
-      "waveforms_decoded": 0
+      "title": "Acoustic UAV Field Recordings: UAV, FPV and Electric UAV"
     },
     {
-      "audio_members_extracted": 0,
       "creators": [
         {
           "affiliation": "Instituto Tecnol\u00f3gico de Aeron\u00e1utica, S\u00e3o Jos\u00e9 dos Campos",
@@ -61,7 +73,6 @@
           "orcid": "0000-0003-1549-2434"
         }
       ],
-      "detector_scores_generated": 0,
       "files": [
         {
           "bytes": 482520942,
@@ -141,6 +152,11 @@
           "whole_file_verified": false
         }
       ],
+      "initial_metadata_audit": {
+        "audio_members_extracted": 0,
+        "detector_scores_generated": 0,
+        "waveforms_decoded": 0
+      },
       "license": {
         "id": "cc-zero"
       },
@@ -149,8 +165,7 @@
       "record_url": "https://zenodo.org/records/23170386",
       "role": "Auxiliary indoor training candidate; not an outdoor confirmation source",
       "source_id": "zenodo-23170386",
-      "title": "CiO-Drone-Acoustic: Indoor Multirotor Acoustic Dataset for Drone Detection and Classification",
-      "waveforms_decoded": 0
+      "title": "CiO-Drone-Acoustic: Indoor Multirotor Acoustic Dataset for Drone Detection and Classification"
     }
   ]
 }

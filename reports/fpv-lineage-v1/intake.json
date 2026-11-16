@@ -1,0 +1,16 @@
+{
+  "scope": "One complete source archive for unscored qualification; not a training profile",
+  "items": [
+    {
+      "source_id": "zenodo-21935566",
+      "filename": "Fpv.zip",
+      "url": "https://zenodo.org/api/records/21935566/files/Fpv.zip/content",
+      "bytes": 2152999558,
+      "md5": "b06064de415a1d8fdf16b3e508ba96a0",
+      "sha256": "6c36545a296881d50331af0860d312529d864571c5b9e4158cd522b2b7f35f99",
+      "checksum_origin": "publisher",
+      "sha256_origin": "observed after publisher-MD5 verification",
+      "profiles": ["fpv-lineage"]
+    }
+  ]
+}

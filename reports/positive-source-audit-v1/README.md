@@ -1,4 +1,11 @@
-# Public positive-source audit
+# Public positive-source metadata audit
+
+**Follow-up:** the complete FPV archive has now passed whole-file checksum and
+waveform/lineage auditing. See [the FPV findings](../fpv-lineage-v1/README.md),
+including unresolved parents and capture-shared publisher splits. The measurements
+below are the earlier metadata-only snapshot; its zero-decode and unverified-ZIP
+statements do not describe the later FPV audit. The other two field ZIPs remain
+metadata-only.
 
 The highest-value next data milestone is to recover original capture/annotation
 relationships in the **FPV portion of a newly identified public field release**.
@@ -54,7 +61,13 @@ but aircraft identity should not be asserted beyond the available evidence.
 Its array has channel-status issues documented by the publisher; the mono
 reference is the appropriate first input candidate.
 
-## Concrete next milestone
+## Initial milestone and remaining work
+
+The [complete FPV follow-up](../fpv-lineage-v1/README.md) now accounts for every
+audio member and tests declared waveform relationships. It also performs a limited
+whole-file byte-identity comparison with six prior manifests. Some relationships
+remain unresolvable from supplied originals; full excerpt independence, capture
+alignment and audibility review remain open. The original ordering was:
 
 1. **Build the complete parent manifest for FPV.** Map every labelled interval,
    derivative and publisher split export to its source phone recording and
@@ -89,10 +102,11 @@ custom architecture or proprietary collection requirement.
 
 [metadata-audit.json](metadata-audit.json) contains complete aggregate measurements
 and hashes for the cached inputs. [candidate-sources.json](candidate-sources.json)
-pins publisher file sizes, MD5s and retrieval URLs. Whole CiO metadata files were
+pins publisher file sizes, MD5s and retrieval URLs, with a separate current FPV
+follow-up status. In this initial metadata-only snapshot, whole CiO metadata files were
 MD5 checked; the field ZIPs were accessed with exact HTTP byte ranges, and all
 extracted TXT members passed ZIP CRC checks. **Whole field-archive MD5s were not
-verified.** Catalogue/annotation range blocks may include incidental compressed
+verified at that stage.** Catalogue/annotation range blocks may include incidental compressed
 audio bytes; no audio member was extracted, decoded or scored.
 
 Full directories, annotation text and observed publisher metadata remain in

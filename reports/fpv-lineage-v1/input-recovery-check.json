@@ -1,0 +1,13 @@
+{
+  "FPV_annotation_documents": 12,
+  "FPV_annotation_records_equal": true,
+  "declared_lineage_rows": 19012,
+  "declared_lineage_rows_equal": true,
+  "directory_records_equal": true,
+  "recovered_input_sha256": {
+    "Fpv.zip.directory.json": "1f92364cd38d611d52ebc7c32893e50de98b03a1bcb265e248637d36259f90d7",
+    "annotation-manifest.json": "8c2178d4c0b6b397ab51c53e920b65055c5d847a87d1e894b564688c78b5e939",
+    "input-preparation.json": "339049af8c91c3b8fe56dc97d0833fd53ab63d33b48571fffffd46f241e350d8"
+  },
+  "scope": "Complete ZIP recovery compared semantically with the earlier cached range metadata; no classifier inference"
+}
