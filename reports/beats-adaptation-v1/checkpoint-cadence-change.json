@@ -1,0 +1,30 @@
+{
+  "changed_arms": [
+    {
+      "held_source": "audrok-dresden",
+      "migrated_checkpoint_sha256": "37a682dff9dbf5c34d8a93c4ee54cb53748a192a48cefd27b92805aeec5d539d",
+      "original_checkpoint_sha256": "5af678808c78eb0101f1ff60063bbedf053ebc218cbe460e44a315f3cbc43a06",
+      "positive_mix": "current",
+      "steps": 1088,
+      "training_state_unchanged": true,
+      "unchanged_training_fingerprint": "745bf9756a04a96d797c1ced69cea0c6e462eaf31eb73e50f57cd15c308e2b27"
+    }
+  ],
+  "checkpoint_every_steps": 100,
+  "new_pipeline_identity": {
+    "checkpoint_every_steps": 100,
+    "device": "cpu",
+    "launcher_sha256": "6ed36e9ad538fe80cb5f191790de33dd58be4e907f877a9357b3d12fc6a8fce1",
+    "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+    "threads": 2
+  },
+  "numerical_driver_sha256": "201d6f2e6be1494c203c5586cd2dec64fa19cfc350fbec72f774e1e5aa835f92",
+  "numerical_trainer_sha256": "c8fc62ae8085b52073a67cb662f22a908042f020cfac038a9d5059b50750c419",
+  "old_pipeline_identity": {
+    "device": "cpu",
+    "launcher_sha256": "336445354eb89737227e6aa0d81ebb8f2029e6f4d3665aa73e8e032914af07ae",
+    "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+    "threads": 2
+  },
+  "unchanged_accumulated_seconds": 23695.75938851501
+}

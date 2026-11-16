@@ -125,6 +125,41 @@ def test_pending_checkpoint_recovers_after_data_rename(tmp_path):
         read_state(p)
 
 
+def test_checkpoint_cadence_change_preserves_exact_training_trajectory(tmp_path):
+    import importlib.util
+
+    root = Path(__file__).resolve().parents[1]
+    spec = importlib.util.spec_from_file_location(
+        "checkpoint_cadence", root / "scripts/change_beats_checkpoint_interval.py"
+    )
+    cadence = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(cadence)
+    training, selection = records(tmp_path)
+    recipe = dict(
+        encoder_lr=1e-4, head_lr=1e-3, encoder_weight_decay=0.01, epochs=3, batch_size=2, seed=42
+    )
+    identity = dict(
+        test="software fixture; not a research evaluation",
+        checkpoint_every_steps=1000,
+        training_implementation_sha256=file_hash(root / "src/drone_detector/beats_training.py"),
+        driver_sha256=file_hash(root / "scripts/train_beats_adaptation.py"),
+    )
+    full = train(model(), training, selection, recipe, tmp_path / "full", identity, "cpu")
+    folder = tmp_path / "resumed"
+    train(model(), training, selection, recipe, folder, identity, "cpu", max_steps=2)
+    before = cadence.training_fingerprint(read_state(folder / "latest.pt"))
+    assert cadence.change_arm(folder, 1)["training_state_unchanged"]
+    assert cadence.training_fingerprint(read_state(folder / "latest.pt")) == before
+    assert cadence.change_arm(folder, 1)["training_state_unchanged"]
+    target = dict(identity, checkpoint_every_steps=1)
+    resumed = train(
+        model(), training, selection, recipe, folder, target, "cpu", checkpoint_every=1
+    )
+    assert resumed["history"] == full["history"]
+    assert resumed["encoder_state_digest"] == full["encoder_state_digest"]
+    assert resumed["optimizer_steps"] == full["optimizer_steps"] == 9
+
+
 def test_budget_pause_commits_a_complete_batch_and_can_resume(tmp_path):
     training, selection = records(tmp_path)
     recipe = dict(

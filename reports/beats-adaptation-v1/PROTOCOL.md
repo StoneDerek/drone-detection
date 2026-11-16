@@ -45,6 +45,9 @@ head, cutoff or learning-rate setting.
 
 Checkpoints preserve model, optimizer, Python/NumPy/CPU/CUDA RNG and the exact
 next batch. Data, source, runtime and parameter identities are checked on reuse.
+The CPU continuation uses 100-step recovery checkpoints; GPU defaults to 1,000
+steps. An explicit cadence-only migration verifies the full non-identity state
+fingerprint while keeping the numerical trainer and driver unchanged.
 One notebook/runtime may write a project at a time. A 44-hour cumulative pipeline
 budget requests a checkpoint pause without substituting fewer examples or
 partial epochs. Complete models retain selected weights, classifiers, curves

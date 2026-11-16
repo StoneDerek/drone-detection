@@ -2,6 +2,13 @@
 
 The four frozen-encoder controls are complete. Full BEATs fine-tuning is a separate running/queued phase; the results below do not claim that the encoder has been task-trained.
 
+These initial controls used the cached one-thread CPU embeddings. [The matched
+two-thread CPU study and execution status](cpu-study/RESULTS.md) recompute the
+baseline on the adaptation runtime. One FSD classification differs at the fixed
+selection rule in the AuDroK/current arm (97 rather than 98 false positives out
+of 7,931); the overall conclusions are unchanged. Adapted results must use their
+own matching numerical-runtime baseline.
+
 These are **known-corpus development comparisons**, not fresh generalization tests. Each fold excludes its entire field source from fitting and model selection. Negative training and selection are identical across the two positive mixtures within a fold.
 
 | Held field source | Positive TRAIN mix | Positive crops / groups | FSD crop FPR | Held-field drone recall | Held-field background FPR |

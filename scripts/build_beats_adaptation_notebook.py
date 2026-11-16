@@ -217,6 +217,7 @@ print(json.loads((WORK / 'pipeline-state.json').read_text()))
 state = json.loads((WORK / 'pipeline-state.json').read_text())
 if state['status'] != 'complete':
     raise RuntimeError('Full fine-tuning is not complete: ' + repr(state))
+run_script('report_beats_adaptation.py', '--work', WORK, '--output', REPORT)
 frozen = json.loads((WORK / 'frozen-controls.json').read_text())
 adapted = json.loads((WORK / 'fine-tuned-controls.json').read_text())
 table = []
@@ -227,6 +228,7 @@ for family, results in [('frozen', frozen), ('fine-tuned', adapted)]:
                           'validation': result['validation']['by_source']})
 print(json.dumps(table, indent=2))
 print('Complete results and retained trained parameters:', WORK)
+print('Verified comparison report:', REPORT / 'RESULTS.md')
 print('These are held-source development comparisons, using unchanged weak publisher labels.')
 """,
         ),

@@ -1,9 +1,19 @@
 {
   "batch_size": 8,
+  "compute_decision": "Retain 44-hour cumulative cap; observed CPU rate does not support completing all four arms within it. Use GPU for the full comparison.",
   "cpu_threads": 2,
   "encoder_patch_max_abs_update": 3.0249357223510742e-05,
+  "estimate_status": "Initial synthetic estimate superseded by observed full-corpus timing",
   "full_pipeline_budget_hours": 44,
   "full_study_training_crop_visits": 198348,
+  "observed_full_corpus_training_segment": {
+    "elapsed_seconds": 13769.090234361,
+    "observed_steps": 1675,
+    "planned_total_training_batches": 30864,
+    "projected_training_only_hours": 70.47582106025173,
+    "scope": "Extrapolation from actual first-arm batches; excludes selection, feature extraction, replay and IO variability",
+    "seconds_per_batch": 8.220352378722986
+  },
   "peak_process_RSS_MiB": 2729.4140625,
   "rough_training_only_hours": 29.967305637430396,
   "scope": "Synthetic training-mechanism and throughput check only; not a drone evaluation",

@@ -28,16 +28,18 @@ def main():
     p.add_argument("--python", type=Path, required=True)
     p.add_argument("--device", choices=["cpu", "cuda"], default="cuda")
     p.add_argument("--threads", type=int, default=1)
+    p.add_argument("--checkpoint-every", type=int, default=1000)
     p.add_argument("--max-wall-hours", type=float, default=44)
     args = p.parse_args()
-    if args.max_wall_hours <= 0 or args.threads < 1:
-        p.error("Positive time budget and thread count required")
+    if args.max_wall_hours <= 0 or args.threads < 1 or args.checkpoint_every < 1:
+        p.error("Positive time budget, thread count and checkpoint interval required")
     args.work = args.work.resolve()
     args.work.mkdir(parents=True, exist_ok=True)
     identity = dict(
         plan_sha256=file_hash(args.work / "plan.json"),
         device=args.device,
         threads=args.threads,
+        checkpoint_every_steps=args.checkpoint_every,
         launcher_sha256=file_hash(__file__),
     )
     state_path = args.work / "pipeline-state.json"
@@ -89,6 +91,8 @@ def run(args, identity, state, state_path):
         args.device,
         "--threads",
         str(args.threads),
+        "--checkpoint-every",
+        str(args.checkpoint_every),
     ]
     stages = [
         (

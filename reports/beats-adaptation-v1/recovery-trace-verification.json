@@ -1,0 +1,41 @@
+{
+  "scope": "Logged real-training trace agreement; not a complete tensor equality comparison or detector evaluation",
+  "checks": [
+    {
+      "step": 1025,
+      "matched_fields": [
+        "epoch",
+        "batch",
+        "batches",
+        "steps",
+        "batch_weighted_loss_sum",
+        "gradient_norm"
+      ],
+      "exact_match": true
+    },
+    {
+      "step": 1050,
+      "matched_fields": [
+        "epoch",
+        "batch",
+        "batches",
+        "steps",
+        "batch_weighted_loss_sum",
+        "gradient_norm"
+      ],
+      "exact_match": true
+    },
+    {
+      "step": 1075,
+      "matched_fields": [
+        "epoch",
+        "batch",
+        "batches",
+        "steps",
+        "batch_weighted_loss_sum",
+        "gradient_norm"
+      ],
+      "exact_match": true
+    }
+  ]
+}

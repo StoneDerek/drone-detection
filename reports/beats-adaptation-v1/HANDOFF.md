@@ -1,13 +1,17 @@
 # BEATs adaptation study
 
-The four frozen-encoder controls are complete. The full CPU pipeline is running;
-full-backbone research results are not yet available. Its first stage recomputes
-the entire base feature matrix on the same numerical runtime used for adaptation.
-The complete cohort is 30,238 crops. Every neural arm uses three full epochs.
+The four frozen-encoder controls and the complete native CPU feature matrix are
+finished. Full-backbone training has started, but no adapted evaluation is complete.
+[The CPU execution report](cpu-study/RESULTS.md) separates live, interrupted and
+completed work. The complete cohort is 30,238 crops. Every neural arm uses three
+full epochs; partial training does not enter the comparison table.
 
-The running implementation is immutable commit
-`faeaf5e024ac65b8c28bc3bceeed31736e112b1b`. The supervisor executes an isolated
-checkout of that commit. Later notebook or documentation changes do not alter it.
+The numerical trainer and training driver are byte-identical to immutable commit
+`faeaf5e024ac65b8c28bc3bceeed31736e112b1b`. A continuation shortens CPU recovery
+checkpoints from 1,000 steps to 100 steps. The explicit migration verifies the
+entire model, optimizer, RNG and counter fingerprint before and after changing
+only cadence metadata. The source folds, data, hyperparameters and accumulated
+budget remain unchanged. The supervisor runs from an isolated published checkout.
 
 ## Completed evidence
 
@@ -22,6 +26,11 @@ full driver completion and exact interrupted-optimizer recovery. The synthetic
 signals in software checks are not a drone performance evaluation. All three
 GitHub Actions jobs passed for the implementation commit:
 [run 43814505622](https://github.com/StoneDerek/drone-detection/actions/runs/43814505622).
+The continuation's recovery/reporting checks passed 13 tests with two optional
+native-asset skips. A cadence-change test preserves the exact uninterrupted
+training trajectory, and reporting tests reject stale process state, changed
+classifiers and incomplete epochs. The full real checkpoint migration also
+verified the unchanged non-identity training fingerprint.
 
 ## GPU execution from the original archives
 
@@ -39,8 +48,8 @@ reused after a runtime replacement. A GPU project is separate from the local CPU
 study; its frozen controls are recomputed on its own runtime.
 
 The notebook schema and every code cell have been validated. GPU execution has
-not been exercised in this CPU-only environment; browser navigation to Colab
-failed, so no remote GPU run is claimed.
+not been exercised in this CPU-only environment. A second Colab navigation attempt
+failed with `Browser Use could not read requirements`; no remote GPU run is claimed.
 
 ## Local supervision and recovery
 
@@ -51,12 +60,20 @@ and `four-full-fine-tuning-arms.log`. Training checkpoints are under each
 `<held-source>/<positive-mix>/fine-tuned` directory. Full results will be written
 to `fine-tuned-controls.json` only after all four arms complete.
 
-An isolated CPU profile estimates about 30 hours of training, plus feature
-extraction, selection and disk access. This is a throughput estimate, not an
-observed completion time. The supervisor enforces a cumulative 44-hour budget.
-It requests a cooperative checkpoint pause rather than reducing data or epochs.
-The saved elapsed budget carries across restarts. No automatic follow-up
-notification or scheduled run is configured.
+The initial 30-hour estimate from repeated synthetic batches was too optimistic.
+The actual first training segment averaged 8.22 seconds/batch: extrapolation to
+30,864 training batches is about 70 hours of training alone, before selection,
+feature extraction or interruption replay. This is an estimate, not a measured
+completion time. Completing all four CPU arms is not expected inside the cap at
+that rate. The GPU notebook is the practical route to the full comparison.
+The supervisor retains the cumulative 44-hour budget and requests a cooperative
+checkpoint pause rather than reducing data or epochs. Saved elapsed time carries
+across restarts. No automatic follow-up notification or scheduled run is configured.
+
+The environment replacement interrupted the first epoch after 1,675 logged
+steps. Recovery verified the 1,000-step checkpoint and replayed unsaved batches.
+The replayed logged losses and gradient norms matched the original trace. The
+shorter checkpoint interval limits future replay; it does not extend the budget.
 
 To request a cooperative pause, create `pause-requested.json` in the study
 directory. Wait for the supervisor to report `paused` before replacing a runtime.
