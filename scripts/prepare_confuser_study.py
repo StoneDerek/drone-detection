@@ -313,10 +313,13 @@ def saved_part(args, name):
 
 
 def publish_part(args, name, rows, receipts):
+    destination = args.work / "prepared/parts" / (name + ".json")
+    temporary = destination.with_suffix(".partial")
     write_json(
-        args.work / "prepared/parts" / (name + ".json"),
+        temporary,
         dict(plan_sha256=file_hash(args.work / "plan.json"), records=rows, receipts=receipts),
     )
+    temporary.replace(destination)
     print(name, len(rows), "crops", flush=True)
 
 
