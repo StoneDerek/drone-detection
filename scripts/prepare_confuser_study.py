@@ -584,9 +584,14 @@ def seal(args):
     if not {"fsd50k-eval", "wsu-air3", "audrok-dresden"} <= {r["source"] for r in candidates}:
         raise ValueError("New cohort preparation is incomplete")
     old_hashes = {r["decoded_sha256"] for r in old}
+    candidate_labels = defaultdict(set)
+    for r in candidates:
+        candidate_labels[r["decoded_sha256"]].add(r["label"])
     seen, rows, excluded = set(), [], []
     for r in sorted(candidates, key=lambda r: r["id"]):
-        if r["decoded_sha256"] in old_hashes or r["decoded_sha256"] in seen:
+        if len(candidate_labels[r["decoded_sha256"]]) > 1:
+            excluded.append(dict(id=r["id"], reason="decoded_identity_label_conflict"))
+        elif r["decoded_sha256"] in old_hashes or r["decoded_sha256"] in seen:
             excluded.append(dict(id=r["id"], reason="decoded_crop_identity_duplicate"))
         else:
             seen.add(r["decoded_sha256"])
