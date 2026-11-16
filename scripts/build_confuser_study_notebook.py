@@ -138,6 +138,8 @@ run_script('checkpoint_corpus_features.py', 'pack', '--directory', FRESH_FEATURE
             """
 REPORT = PROJECT / DEVICE / 'report'
 run_script('run_confuser_study.py', 'evaluate', '--work', WORK, '--report', REPORT)
+shutil.copyfile(REPO / 'reports/confuser-study-v1/PROTOCOL.md', REPORT / 'PROTOCOL.md')
+run_script('report_confuser_study.py', '--work', WORK, '--report', REPORT)
 import pandas as pd
 display(pd.read_csv(REPORT / 'metrics.csv'))
 print('Comparison:', REPORT / 'comparison.json')
