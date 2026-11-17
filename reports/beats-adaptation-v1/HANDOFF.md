@@ -1,10 +1,13 @@
 # BEATs adaptation study
 
-The four frozen-encoder controls and the complete native CPU feature matrix are
-finished. Full-backbone training has started, but no adapted evaluation is complete.
-[The CPU execution report](cpu-study/RESULTS.md) separates live, interrupted and
-completed work. The complete cohort is 30,238 crops. Every neural arm uses three
-full epochs; partial training does not enter the comparison table.
+The four frozen-encoder controls and the first complete adapted evaluation are
+finished. [The current results](RESULTS.md) and [paired assessment](paired-analysis/audrok-dresden/current/INTERPRETATION.md)
+record all 7,989 prescribed validation clips: AuDroK recall increases from 31/58
+to 34/58, while FSD false positives increase from 97/7,931 to 141/7,931. This is
+not a clear reliability gain. Three adapted arms remain. The complete corpus has
+30,238 crops; every neural arm uses three full epochs. Partial training does not
+enter the comparison table. The earlier [CPU execution report](cpu-study/RESULTS.md)
+and optimization audit remain dated progress snapshots.
 
 The numerical trainer and training driver are byte-identical to immutable commit
 `faeaf5e024ac65b8c28bc3bceeed31736e112b1b`. A continuation shortens CPU recovery
@@ -13,14 +16,16 @@ entire model, optimizer, RNG and counter fingerprint before and after changing
 only cadence metadata. The source folds, data, hyperparameters and accumulated
 budget remain unchanged. The supervisor runs from an isolated published checkout.
 
-The current supervision/reporting implementation is
+The running supervisor and GPU notebook implementation remain
 `2a4de5723cf755ab3a9187c8c6027030cc616027`; the current GPU notebook pins that exact
 commit. All three jobs passed in
 [run 43909773186](https://github.com/StoneDerek/drone-detection/actions/runs/43909773186).
 
 ## Completed evidence
 
-[RESULTS.md](RESULTS.md) contains all four frozen controls and their limitations.
+[RESULTS.md](RESULTS.md) contains all four frozen controls, one completed adapted
+row and their limitations. [Runtime provenance](MATCHED-RUNTIME.md) explains the
+matched CPU2 controls and the earlier published CPU1 references.
 The exact fitted heads, operating thresholds and source-level counts are retained
 alongside it. Broader positives did not consistently improve transfer. These
 known-source development results do not identify the single cause of failure.
@@ -53,8 +58,9 @@ reused after a runtime replacement. A GPU project is separate from the local CPU
 study; its frozen controls are recomputed on its own runtime.
 
 The notebook schema and every code cell have been validated. GPU execution has
-not been exercised in this CPU-only environment. A second Colab navigation attempt
-failed with `Browser Use could not read requirements`; no remote GPU run is claimed.
+not been exercised in this CPU-only environment. The pinned Colab page now opens
+in the restarted shared browser, but that browser is signed out. No remote GPU
+run has started; the local CPU study continues.
 
 ## Local supervision and recovery
 
@@ -116,3 +122,8 @@ loss was already near zero while selection loss was substantially higher. Full
 schedule coverage, protocol weight allocation, checkpoint finiteness and starting
 validation arithmetic passed the audited checks. The final C1 refit and completed
 adapted source-level evaluation were still pending at that snapshot.
+
+The [complete DADS metadata census](../dads-source-census-v1/README.md) covers all
+180,320 path/label rows. Every stored filename is a class-and-sequence identifier;
+the shipped metadata does not preserve original source/capture fields. This audit
+does not add DADS audio to training or resolve its recording independence.

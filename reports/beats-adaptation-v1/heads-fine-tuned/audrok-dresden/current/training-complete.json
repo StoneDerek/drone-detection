@@ -1,0 +1,105 @@
+{
+  "all_selected_crops_visited_each_epoch": true,
+  "best_parameters_sha256": "779244b7d19b374fcb39e9aacfa4b578b3c61e5d31a943da2fcae5c7ef03e278",
+  "encoder_state_digest": "dbaa10f1fa6c45859e7b62a971aaa23e2041368c092e37fbfd7aaff9e7acdb1c",
+  "history": [
+    {
+      "epoch": 1,
+      "selection_weighted_logloss": 1.9215531308783895,
+      "steps": 2536
+    },
+    {
+      "epoch": 2,
+      "selection_weighted_logloss": 1.4589729187671308,
+      "steps": 5072
+    },
+    {
+      "epoch": 3,
+      "selection_weighted_logloss": 0.8231748093905347,
+      "steps": 7608
+    }
+  ],
+  "identity": {
+    "base_encoder": {
+      "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
+      "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
+      "checkpoint_sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34",
+      "checkpoint_source": "https://huggingface.co/SongsongBaobao8694/beats-iter3/resolve/2ec75307f57dc8892c553df85fa90cacb2d62af3/BEATs_iter3_plus_AS2M.pt",
+      "code_commit": "732d834db70ee0fc3886b4bcbcfb4ce7fb829be2",
+      "code_sha256": {
+        "BEATs.py": "27f289db7c56ce26f2ceb50d3719854b91b2dec1c2830d8b1dd8de1bbee19eeb",
+        "LICENSE": "904dc4d8749877f1dba1cda48200d2462dccbeb7c134d5e4ef6fa75e0198c8fe",
+        "README.md": "907a4a7f5f93ec6fb7ed32514ac55ad88659fd0ba93c37dc6af69815612e6162",
+        "backbone.py": "31c0378379a7e0f1d1069f9da444fb86890fe1ea078959a2dcd39640cdcadbaa",
+        "modules.py": "edeb6b6cd6a784da749f932c3e0783c0bce556fc768d0d23a4d53d4b819eb424"
+      },
+      "device": "cpu",
+      "family": "beats-frozen",
+      "feature_dim": 768,
+      "frontend": {
+        "fbank_mean": 15.41663,
+        "fbank_std": 6.55582,
+        "fbank_std_multiplier": 2,
+        "kaldi_fbank": {
+          "frame_length_ms": 25,
+          "frame_shift_ms": 10,
+          "num_mel_bins": 128
+        },
+        "minimum_samples": 2800,
+        "other_options": "torchaudio Kaldi defaults",
+        "sample_rate": 16000,
+        "short_input": "reject",
+        "waveform_scale": 32768
+      },
+      "import_adaptation": "private-package-relative-imports-only-v1",
+      "model": "BEATs_iter3_plus_AS2M",
+      "packages": {
+        "numpy": "2.3.5",
+        "torch": "2.7.1+cpu",
+        "torchaudio": "2.7.1+cpu"
+      },
+      "pooling": "mean-all-native-time-frequency-tokens",
+      "precision": "float32",
+      "torch_intraop_threads": 2
+    },
+    "checkpoint_every_steps": 100,
+    "device": "cpu",
+    "driver_sha256": "201d6f2e6be1494c203c5586cd2dec64fa19cfc350fbec72f774e1e5aa835f92",
+    "held_source": "audrok-dresden",
+    "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+    "positive_mix": "current",
+    "precision": "float32",
+    "recipe": {
+      "augmentation": "none; isolate data mix and encoder adaptation",
+      "batch_size": 8,
+      "batching": "exact waveform-length buckets; every selected training crop once per epoch; no external padding",
+      "encoder": "all pretrained BEATs representation parameters trainable; released frontend unchanged",
+      "encoder_lr": 1e-05,
+      "encoder_weight_decay": 0.01,
+      "epochs": 3,
+      "final_head": "refit the same weighted C1 linear head on selected encoder TRAIN embeddings",
+      "gradient_clip_norm": 1.0,
+      "head_L2": "C1 penalty divided by original9959 mass",
+      "head_lr": 0.0001,
+      "head_weight_decay": 0,
+      "initialization": "same C1 trained head / fixed scaler as paired frozen arm",
+      "optimizer": "AdamW",
+      "precision": "float32; TF32 disabled; deterministic algorithms",
+      "resumption": "model/optimizer/RNG and exact next batch checkpoint; preserve run identity",
+      "seed": 42,
+      "selection": "lowest class/source/group-weighted selection DEV log-loss among epochs1..3; epoch0 is a reference only"
+    },
+    "threads": 2,
+    "torch_version": "2.7.1+cpu",
+    "train_ids_sha256": "8e1c39903284bf19bb9eff1e234fc70025d68725e5cf05de47c167c3f6f294a5",
+    "training_implementation_sha256": "c8fc62ae8085b52073a67cb662f22a908042f020cfac038a9d5059b50750c419"
+  },
+  "implementation_sha256": "c8fc62ae8085b52073a67cb662f22a908042f020cfac038a9d5059b50750c419",
+  "initial_encoder_state_digest": "1a6e8b1935ca77148da5f23a1ce7ff9aafe6c4e7e5afacc3b402ac42335933a3",
+  "initial_reference_loss": 0.5839618312387151,
+  "optimizer_steps": 7608,
+  "selected_epoch": 3,
+  "selected_selection_loss": 0.8231748093905347,
+  "trainable_encoder_parameters": 90311792,
+  "training_rows": 16238
+}

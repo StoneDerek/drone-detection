@@ -1,0 +1,52 @@
+{
+  "base_embeddings_sha256": "5ab11266cbbb86a153428b1318cd140324db9c9a0783b94abaacbd8e91388e51",
+  "controls": [
+    {
+      "held_source": "audrok-dresden",
+      "paired_FSD_FP": 397,
+      "paired_head_sha256": "cebb4d4a454f4c9406f4723da9ec95adfe472a64ed5b54455e007b1405a6455a",
+      "paired_source_head_mtime_UTC": "2026-11-16T08:10:41.109857+00:00",
+      "paired_threads": 2,
+      "positive_mix": "broader",
+      "previous_FSD_FP": 397,
+      "previous_head_sha256": "e64c5caf43f1dc8da039d8451eae17ba92866e094cd9b124095743960508c8dd",
+      "previous_threads": 1
+    },
+    {
+      "held_source": "audrok-dresden",
+      "paired_FSD_FP": 97,
+      "paired_head_sha256": "8211f607e32b40dd747406a22dee5576491f4b5c452fca2db1b197e97214807a",
+      "paired_source_head_mtime_UTC": "2026-11-16T08:10:29.117491+00:00",
+      "paired_threads": 2,
+      "positive_mix": "current",
+      "previous_FSD_FP": 98,
+      "previous_head_sha256": "235241b5ece83e072b8e49cbb37e0775ef8a775ad5ae189eb502d5f0ca66244b",
+      "previous_threads": 1
+    },
+    {
+      "held_source": "wsu-air3",
+      "paired_FSD_FP": 61,
+      "paired_head_sha256": "f2d2363eb6a9d24c74e2c0cf6537158c29413e981fafd605ef9c715b5ce6f8c3",
+      "paired_source_head_mtime_UTC": "2026-11-16T08:10:59.109714+00:00",
+      "paired_threads": 2,
+      "positive_mix": "broader",
+      "previous_FSD_FP": 61,
+      "previous_head_sha256": "0f6a77e8aefda3589024a178b8275f917a920df5944a443d060462dcee0ba887",
+      "previous_threads": 1
+    },
+    {
+      "held_source": "wsu-air3",
+      "paired_FSD_FP": 73,
+      "paired_head_sha256": "220a85133800e2dec270fb562711ca15f5a8a7930f4faa4f43bd1e656450ee7f",
+      "paired_source_head_mtime_UTC": "2026-11-16T08:10:48.991404+00:00",
+      "paired_threads": 2,
+      "positive_mix": "current",
+      "previous_FSD_FP": 73,
+      "previous_head_sha256": "0874be48e91f581551a0d2bc119f5b4327d4642d73d760654d291b18d25aee23",
+      "previous_threads": 1
+    }
+  ],
+  "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
+  "previous_published_snapshot_commit": "c610759e3ac16ac9654d876a65698fe7be5ceed6",
+  "scope": "Use the pre-existing matched native CPU2 controls for the adapted CPU2 study. Previously published cached CPU1 references remain in Git history. No control was refitted for publication. Same plan, training IDs, weighting and cutoff policy; feature/runtime identities are distinct."
+}

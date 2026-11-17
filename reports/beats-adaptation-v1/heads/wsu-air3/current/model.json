@@ -1,9 +1,9 @@
 {
   "component_cutoffs": {
-    "tut2017-evaluation": -7.179392497802334,
-    "urbansound8k": -3.3689041635492205
+    "tut2017-evaluation": -7.17943466321781,
+    "urbansound8k": -3.368863850710489
   },
-  "cutoff_logit": -3.3689041635492205,
+  "cutoff_logit": -3.368863850710489,
   "encoder": {
     "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
     "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
@@ -44,11 +44,11 @@
     },
     "pooling": "mean-all-native-time-frequency-tokens",
     "precision": "float32",
-    "torch_intraop_threads": 1
+    "torch_intraop_threads": 2
   },
   "fold": "wsu-air3",
-  "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
-  "parameters_sha256": "0874be48e91f581551a0d2bc119f5b4327d4642d73d760654d291b18d25aee23",
+  "implementation_sha256": "a19e1cb53e7300b85f3672ecad7feb303be71fcd052d020035b2feecb1ef04c6",
+  "parameters_sha256": "220a85133800e2dec270fb562711ca15f5a8a7930f4faa4f43bd1e656450ee7f",
   "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
   "positive_mix": "current",
   "scope": "consumed-corpus development validation",

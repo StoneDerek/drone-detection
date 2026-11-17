@@ -1,0 +1,29 @@
+{
+  "audio_members_extracted_or_decoded": 0,
+  "detector_scores_generated": 0,
+  "method_code_sha256": "7c670de61afd3a538183805592d93d2ce219fc4742a42aecd4222fdddfa8fadd",
+  "not_verified": [
+    "waveform durations or channel/rate format",
+    "original recording/campaign identities",
+    "audio duplication or prior-project waveform overlap",
+    "whole-shard LFS SHA-256"
+  ],
+  "physical_columns": [
+    "audio.bytes",
+    "audio.path",
+    "label"
+  ],
+  "pyarrow_version": "22.0.0",
+  "range_reader_sha256": "aea06305c2fd3e61b9b5fc1f558fb7f784c7f11482db1fc4a8e607889c6b0706",
+  "revision": "981b832c35b45a57518c989f0f79101adb4ae91f",
+  "selected_fields": [
+    "audio.path",
+    "label"
+  ],
+  "publisher_metadata_claims_verified": [
+    "row counts",
+    "label counts",
+    "shard count and total published shard bytes"
+  ],
+  "source_url": "https://huggingface.co/datasets/geronimobasso/drone-audio-detection-samples"
+}

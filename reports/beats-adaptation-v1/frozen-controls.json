@@ -3,10 +3,10 @@
     "broader": {
       "model": {
         "component_cutoffs": {
-          "tut2017-evaluation": -4.521777239661656,
-          "urbansound8k": -2.2130964332756267
+          "tut2017-evaluation": -4.519469554903376,
+          "urbansound8k": -2.2183163017365097
         },
-        "cutoff_logit": -2.2130964332756267,
+        "cutoff_logit": -2.2183163017365097,
         "encoder": {
           "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
           "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
@@ -47,11 +47,11 @@
           },
           "pooling": "mean-all-native-time-frequency-tokens",
           "precision": "float32",
-          "torch_intraop_threads": 1
+          "torch_intraop_threads": 2
         },
         "fold": "audrok-dresden",
-        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
-        "parameters_sha256": "e64c5caf43f1dc8da039d8451eae17ba92866e094cd9b124095743960508c8dd",
+        "implementation_sha256": "a19e1cb53e7300b85f3672ecad7feb303be71fcd052d020035b2feecb1ef04c6",
+        "parameters_sha256": "cebb4d4a454f4c9406f4723da9ec95adfe472a64ed5b54455e007b1405a6455a",
         "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
         "positive_mix": "broader",
         "scope": "consumed-corpus development validation",
@@ -164,7 +164,7 @@
         "macro_positive_source_recall": 0.5255291005291005,
         "macro_source_balanced_accuracy": 0.7593761477907819,
         "pooled": {
-          "average_precision": 0.9854817662851404,
+          "average_precision": 0.9854838422639361,
           "balanced_accuracy": 0.9653540535172962,
           "clips": 4525,
           "confusion": {
@@ -180,7 +180,7 @@
           "positive_clips": 773,
           "positive_recall": 0.9379042690815006,
           "provenance_groups": 415,
-          "roc_auc": 0.994710195097328,
+          "roc_auc": 0.9947122638516896,
           "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
         }
       },
@@ -231,7 +231,7 @@
         "macro_positive_source_recall": 0.43103448275862066,
         "macro_source_balanced_accuracy": 0.6904888716907465,
         "pooled": {
-          "average_precision": 0.054803090187074494,
+          "average_precision": 0.05501995544417441,
           "balanced_accuracy": 0.6904888716907465,
           "clips": 7989,
           "confusion": {
@@ -247,7 +247,7 @@
           "positive_clips": 58,
           "positive_recall": 0.43103448275862066,
           "provenance_groups": 2123,
-          "roc_auc": 0.8401840877569033,
+          "roc_auc": 0.8400971308570907,
           "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
         }
       }
@@ -255,10 +255,10 @@
     "current": {
       "model": {
         "component_cutoffs": {
-          "tut2017-evaluation": -7.6249451089309614,
-          "urbansound8k": -3.9192767449828616
+          "tut2017-evaluation": -7.562048341701953,
+          "urbansound8k": -3.890002262130257
         },
-        "cutoff_logit": -3.9192767449828616,
+        "cutoff_logit": -3.890002262130257,
         "encoder": {
           "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
           "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
@@ -299,11 +299,11 @@
           },
           "pooling": "mean-all-native-time-frequency-tokens",
           "precision": "float32",
-          "torch_intraop_threads": 1
+          "torch_intraop_threads": 2
         },
         "fold": "audrok-dresden",
-        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
-        "parameters_sha256": "235241b5ece83e072b8e49cbb37e0775ef8a775ad5ae189eb502d5f0ca66244b",
+        "implementation_sha256": "a19e1cb53e7300b85f3672ecad7feb303be71fcd052d020035b2feecb1ef04c6",
+        "parameters_sha256": "8211f607e32b40dd747406a22dee5576491f4b5c452fca2db1b197e97214807a",
         "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
         "positive_mix": "current",
         "scope": "consumed-corpus development validation",
@@ -416,7 +416,7 @@
         "macro_positive_source_recall": 0.9069444444444444,
         "macro_source_balanced_accuracy": 0.9508554246867256,
         "pooled": {
-          "average_precision": 0.9964388915999846,
+          "average_precision": 0.9964084585698986,
           "balanced_accuracy": 0.9931872470947792,
           "clips": 4525,
           "confusion": {
@@ -432,7 +432,7 @@
           "positive_clips": 773,
           "positive_recall": 0.9922380336351876,
           "provenance_groups": 415,
-          "roc_auc": 0.9982808651254906,
+          "roc_auc": 0.9982546609035767,
           "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
         }
       },
@@ -464,13 +464,13 @@
             "clips": 7931,
             "confusion": {
               "fn": 0,
-              "fp": 98,
-              "tn": 7833,
+              "fp": 97,
+              "tn": 7834,
               "tp": 0
             },
-            "macro_negative_group_FPR": 0.013102332587541869,
+            "macro_negative_group_FPR": 0.012984519203941494,
             "macro_positive_group_recall": null,
-            "negative_clip_FPR": 0.01235657546337158,
+            "negative_clip_FPR": 0.012230487958643298,
             "negative_clips": 7931,
             "positive_clips": 0,
             "positive_recall": null,
@@ -479,27 +479,27 @@
             "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
           }
         },
-        "macro_negative_source_FPR": 0.01235657546337158,
+        "macro_negative_source_FPR": 0.012230487958643298,
         "macro_positive_source_recall": 0.5344827586206896,
-        "macro_source_balanced_accuracy": 0.7610630915786589,
+        "macro_source_balanced_accuracy": 0.7611261353310231,
         "pooled": {
-          "average_precision": 0.48907301283222004,
-          "balanced_accuracy": 0.7610630915786589,
+          "average_precision": 0.4887715518018427,
+          "balanced_accuracy": 0.7611261353310231,
           "clips": 7989,
           "confusion": {
             "fn": 27,
-            "fp": 98,
-            "tn": 7833,
+            "fp": 97,
+            "tn": 7834,
             "tp": 31
           },
-          "macro_negative_group_FPR": 0.013102332587541869,
+          "macro_negative_group_FPR": 0.012984519203941494,
           "macro_positive_group_recall": 0.5344827586206896,
-          "negative_clip_FPR": 0.01235657546337158,
+          "negative_clip_FPR": 0.012230487958643298,
           "negative_clips": 7931,
           "positive_clips": 58,
           "positive_recall": 0.5344827586206896,
           "provenance_groups": 2123,
-          "roc_auc": 0.8374579889477781,
+          "roc_auc": 0.8356688507341337,
           "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
         }
       }
@@ -509,10 +509,10 @@
     "broader": {
       "model": {
         "component_cutoffs": {
-          "tut2017-evaluation": -5.628258730354379,
-          "urbansound8k": -3.210073449578624
+          "tut2017-evaluation": -5.628196520953875,
+          "urbansound8k": -3.209936654495823
         },
-        "cutoff_logit": -3.210073449578624,
+        "cutoff_logit": -3.209936654495823,
         "encoder": {
           "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
           "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
@@ -553,11 +553,11 @@
           },
           "pooling": "mean-all-native-time-frequency-tokens",
           "precision": "float32",
-          "torch_intraop_threads": 1
+          "torch_intraop_threads": 2
         },
         "fold": "wsu-air3",
-        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
-        "parameters_sha256": "0f6a77e8aefda3589024a178b8275f917a920df5944a443d060462dcee0ba887",
+        "implementation_sha256": "a19e1cb53e7300b85f3672ecad7feb303be71fcd052d020035b2feecb1ef04c6",
+        "parameters_sha256": "f2d2363eb6a9d24c74e2c0cf6537158c29413e981fafd605ef9c715b5ce6f8c3",
         "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
         "positive_mix": "broader",
         "scope": "consumed-corpus development validation",
@@ -713,7 +713,7 @@
             "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
           },
           "wsu-air3": {
-            "average_precision": 0.9791801813613102,
+            "average_precision": 0.9791797696944038,
             "balanced_accuracy": 0.7248459304384784,
             "clips": 1676,
             "confusion": {
@@ -729,7 +729,7 @@
             "positive_clips": 1486,
             "positive_recall": 0.8391655450874832,
             "provenance_groups": 3,
-            "roc_auc": 0.852620953460367,
+            "roc_auc": 0.8526174116313665,
             "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
           }
         },
@@ -737,7 +737,7 @@
         "macro_positive_source_recall": 0.8391655450874832,
         "macro_source_balanced_accuracy": 0.8202915170440037,
         "pooled": {
-          "average_precision": 0.9469094020288681,
+          "average_precision": 0.9469081737157168,
           "balanced_accuracy": 0.9112709882807197,
           "clips": 9607,
           "confusion": {
@@ -753,7 +753,7 @@
           "positive_clips": 1486,
           "positive_recall": 0.8391655450874832,
           "provenance_groups": 2125,
-          "roc_auc": 0.9877199716336177,
+          "roc_auc": 0.9877196401732014,
           "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
         }
       }
@@ -761,10 +761,10 @@
     "current": {
       "model": {
         "component_cutoffs": {
-          "tut2017-evaluation": -7.179392497802334,
-          "urbansound8k": -3.3689041635492205
+          "tut2017-evaluation": -7.17943466321781,
+          "urbansound8k": -3.368863850710489
         },
-        "cutoff_logit": -3.3689041635492205,
+        "cutoff_logit": -3.368863850710489,
         "encoder": {
           "adapter_sha256": "2fde9fec4cdf2541bd534be35f3d6f5475cb73e05a66b90f4caa75f1ecc38849",
           "checkpoint_provenance_limit": "Pinned mirror content; not independently byte-compared with official OneDrive",
@@ -805,11 +805,11 @@
           },
           "pooling": "mean-all-native-time-frequency-tokens",
           "precision": "float32",
-          "torch_intraop_threads": 1
+          "torch_intraop_threads": 2
         },
         "fold": "wsu-air3",
-        "implementation_sha256": "dcf2a3e694eb542fee099d2f6abacc90916a123f81ae9291822d5666ee7f4415",
-        "parameters_sha256": "0874be48e91f581551a0d2bc119f5b4327d4642d73d760654d291b18d25aee23",
+        "implementation_sha256": "a19e1cb53e7300b85f3672ecad7feb303be71fcd052d020035b2feecb1ef04c6",
+        "parameters_sha256": "220a85133800e2dec270fb562711ca15f5a8a7930f4faa4f43bd1e656450ee7f",
         "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c",
         "positive_mix": "current",
         "scope": "consumed-corpus development validation",
@@ -931,7 +931,7 @@
             "tn": 3731,
             "tp": 767
           },
-          "macro_negative_group_FPR": 0.004514456535082647,
+          "macro_negative_group_FPR": 0.004514456535082646,
           "macro_positive_group_recall": 0.9298611111111111,
           "negative_clip_FPR": 0.005597014925373134,
           "negative_clips": 3752,
@@ -989,7 +989,7 @@
         "macro_positive_source_recall": 0.851278600269179,
         "macro_source_balanced_accuracy": 0.8114960979101404,
         "pooled": {
-          "average_precision": 0.9456232894935445,
+          "average_precision": 0.9456236993409797,
           "balanced_accuracy": 0.915911434108238,
           "clips": 9607,
           "confusion": {
@@ -1005,7 +1005,7 @@
           "positive_clips": 1486,
           "positive_recall": 0.851278600269179,
           "provenance_groups": 2125,
-          "roc_auc": 0.9872157374753954,
+          "roc_auc": 0.9872157374753953,
           "uncertainty_scope": "Descriptive held-out clip results; correlated source/campaign captures preclude treating clips as independent field trials"
         }
       }

@@ -1,0 +1,592 @@
+{
+  "cached_range_payload_bytes": 123268619,
+  "class_plus_ordinal_path_values": 180320,
+  "class_prefix_consistent_with_label": 180320,
+  "dataset_revision": "981b832c35b45a57518c989f0f79101adb4ae91f",
+  "detector_scores_generated": 0,
+  "embedded_audio_bytes_projected": false,
+  "extracted_or_decoded_audio_members": 0,
+  "input_sha256": {
+    "README.md": "cfe89719d84106450c4cc0a68078e1755b0d7d78e7ff2a369fad161da35fcda1",
+    "data-tree.json": "4b056f00c38ae999751075d9665b7f918281b2ccd3eed223d495b900fc95263d",
+    "dataset.json": "acee2326e17555ca547ea345e5b6f3fa00420e209ce19a146a77690a356d0279"
+  },
+  "label_counts": {
+    "0": 16729,
+    "1": 163591
+  },
+  "new_range_bytes_this_run": 0,
+  "null_path_values": 0,
+  "ordinal_ranges": {
+    "0": {
+      "distinct": 16729,
+      "max": 16729,
+      "min": 1
+    },
+    "1": {
+      "distinct": 163591,
+      "max": 163591,
+      "min": 1
+    }
+  },
+  "projected_fields": [
+    "audio.path",
+    "label"
+  ],
+  "pyarrow_version": "22.0.0",
+  "range_reader_sha256": "aea06305c2fd3e61b9b5fc1f558fb7f784c7f11482db1fc4a8e607889c6b0706",
+  "rows": 180320,
+  "scope": "Complete path/label metadata projection at a pinned revision. HTTP range-cache blocks can contain incidental compressed audio bytes; no embedded audio field is returned or decoded. Literal filenames do not prove physical recording independence.",
+  "script_sha256": "7c670de61afd3a538183805592d93d2ce219fc4742a42aecd4222fdddfa8fadd",
+  "shard_receipts": [
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "e21651b2e10b08821c1b5ac53cd0dffaff792208489fee3e3507420fbda5429b",
+      "published_lfs_sha256": "cdc2598eca66eb0a749a197feb352c05f0b04bf329841c39b28b687f4c63dea4",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00000-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "cbe1824e1240852db643aee010fdbac8ee2ccfb6cf43f250a9e1e0f196fe747a",
+      "published_lfs_sha256": "b1114ebf16e2b4e9e49450e147d48788539f6459c95325f40bf547423c092b1f",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00001-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "ff33958d94f9436f2968c29c6af90e290cdd56ae131a0277ffaf21354f640d15",
+      "published_lfs_sha256": "37913cdf6074b14b4c198459d741b84c96ec1a67a19871a21f4402f104d639cd",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00002-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "450f1e3e154b4f8e97e04b80bdfad25f2b1dd97ff3372fc426a799e66283c55a",
+      "published_lfs_sha256": "07f32ee163bfeee451adb2207f1be8e51066c7d58698a5e36ee88770c2e978d2",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00003-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "33d65ad4e473df34c6a31d9c77cbe79329e29abcdc17000c2fd23159da55f955",
+      "published_lfs_sha256": "fb42315519a95c9d6bd0dc2e649c8a1795c61ad6a070679e25ca1b17d18f7c39",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00004-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "9797063ef0e0f9e469cb3dc0030a88534d832a86820a71c1d799319b400a5614",
+      "published_lfs_sha256": "2b550d54d9349bd3c8456b57dea7a980fdcb983127cbaf8d23176dc221fbfb05",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00005-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "8383f6bcd580e83ab2e96cd3b066d514e65bf5976d0a2ee732a9976fee3f89bf",
+      "published_lfs_sha256": "8770cb26a4a30c92a721b244b5e09b53a56aab4e113b044f7bc2b46e319c01ef",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00006-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "e49c2675bc8268d3a70285e12e86384aa1f573fa8f72b25e14d9c572762aa0a5",
+      "published_lfs_sha256": "ed9677f4b35246ec7cf574f3e6ace60874d4124240a141f65bb08ed36b10a13b",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00007-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "47554f3b6be32e362a7a4e88bdf06f8b920de6896e685f8ed6d1df6e3aa502df",
+      "published_lfs_sha256": "ea64f9b1c693ce4fe55e0680cbd813a7240ac91c51eafd5a4aa81506c68d612f",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00008-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "a1bfd0629397aa359a4b360493c7465bf63e648d685674f2e8b71e9cd14e0683",
+      "published_lfs_sha256": "d09bcab6d149443220f23cf98b64c5eef2c57d05c662d58169ca7001e1e4e27d",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00009-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "1febe2c35de9d53bbe4827b308d485e6eb7f69a064c38ab1f4e460b454b64bde",
+      "published_lfs_sha256": "1c55d7ab75b7743584b32d7d3219e63eb37ddf502b43b37b452ebdcf2c0e152f",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00010-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "764ad4d63aec4279300e5153d8e90c46dec3e5fb1628347ef18e150d5af28399",
+      "published_lfs_sha256": "c495354cc332045f68511d6d737d23d3b7107a93c45d3b7efb5e8c281a6b0321",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00011-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "8eb5c0c6e61a3373a8b07a60cb53d871f66db21826aacbfd5800b66421195a3c",
+      "published_lfs_sha256": "9097b5778bd95b913c1d33fdd1ac1a384ff229ba9c90522492757c7c6814fd23",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00012-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "65be4076684172cab6c3d754adc27614f2f00347709fdda4d22a82ad9a5d971f",
+      "published_lfs_sha256": "cbcc4d30a90fd1e1501c00f4686c79c7cd9a5a1f1a59eb66388edd63b2d85766",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00013-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "2ede3f28977c0556ac1f2af4a41341220a10b8f36eb3d715ab03c29c3ff7382f",
+      "published_lfs_sha256": "f9ae1d35ffa7bf2daf78a32742fdc1086d0f40314c745e904f37de962c98176e",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00014-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "7e1da72537f42af4f61c5030004fbdc57dc463b8b0dc0c8012b4f3c9db17d3b3",
+      "published_lfs_sha256": "44ff7b06b88094304212e07cd4a00f14a7a4c8645a43357b859e0d68760f4b6b",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00015-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "21aa1ce0d83e9ba7ec4ccf673c921006a78035372a352a674231f84d457f7d8f",
+      "published_lfs_sha256": "1e40022d2690c84dc6822decfc1f44211b9faee0a211b0026a48d7f06e982739",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00016-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "e9693813a127a9b8c409cb7a37080c24f2fcfd279335ab50ef3f2a57e9dad65c",
+      "published_lfs_sha256": "6d22cb8b96c815d0978d252baa7ba95acd4ab61dca75a3c7281cf1d46f6ac5a5",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00017-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "0fe268dca681b50aed4a9198b66090b3bf75439af3ef6c50c3b9dfbe88d6ce98",
+      "published_lfs_sha256": "2b751b924419de6a5e9febc70dc9955e614b268e0233e4bb07db95b569bae2f7",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00018-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "65d50cf726d01bdf80cb10646692e006a6c7f2e1007b69671a5030f2a72b1be7",
+      "published_lfs_sha256": "498eb6e48a63fc1fae84c447e88691672fa5df3dc40c4ae7360b87f77dee0fe9",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00019-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "aa4ee82cad3ba55212eb1e817ec052fd2c8f4910d53284bc56c2a930f47cf08d",
+      "published_lfs_sha256": "22f2f0b88ff0bfcb027acff39cfcbe01d75881af882513a43b506da74bd8799f",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00020-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "2aedf0f713d84a4388fda18cdfe2a22ac47c467cb6cefd8723166edb5c038ff0",
+      "published_lfs_sha256": "b2a4fc9cd480ac8086e7932e3e02928756622bfabe02b008d731ae6179520efc",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00021-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "b947344ae78fd474f8276068aa34006a1d2e39ce498939e4254ac5355a09531d",
+      "published_lfs_sha256": "18f86742003f1ea6b9bb386273e4fba0fb2ed1f0cec178587827e565d1bfcf26",
+      "row_groups": 47,
+      "rows": 4624,
+      "shard": "data/train-00022-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "15551ba1e4eccecf76c5aac870ac7872e8ce0b66711adba64752a3140e913a40",
+      "published_lfs_sha256": "22786991a4a2269c187bbd72ed16d0b15f2eb2ce7bd8ada95edaee94fd5f7712",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00023-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "df438f624799540dfbcdd1a481d4b5e9f8d897b92d6fc5e55d6ee7182e3e488a",
+      "published_lfs_sha256": "be874e2578010c11566705f2e45a04f4087f18205b429b3fc02e6ca0c695098a",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00024-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "ee302aa5ab662f47c4530d9c0e292865f725069dfcc612aadd0db50bcd1514f5",
+      "published_lfs_sha256": "07b220faac4a3d017c4296d9062a64697ecbc58a251edbf1d8f2b275e42bda37",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00025-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "6d6573f689df18b9d44a6aca5ebc96bf5c8beebc983ff862f039c9fc85af1ebc",
+      "published_lfs_sha256": "666b333a27f3c872a9244f95d77f59f91dd1e4aab83b89bc3bd27a134f8d57c3",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00026-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "d1fd49da88a6b9e2bf869eb07d4d10041eb04c6725b4761ed16b6be93200f76b",
+      "published_lfs_sha256": "7a6a5591b542ca718960a42830192301c29addab3a3bafac49a3b5921ef1f345",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00027-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "6b972d2a099620d799f4c783919bf3ab46b73378f59b7b33b1b12938f199d3e5",
+      "published_lfs_sha256": "ec73307fd6b7c3e79d80f11ba7430c9d56956a4d0042d180811dd825d7339bdf",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00028-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "dd0edfc7c60fd28eb3aa8638225eb52f658d870deb1a3b111b93c45fdb0e53cd",
+      "published_lfs_sha256": "9ce030d0e700c7d3494e1f2aeac32c2c750f3964ae6880180e45afc0d2e40f35",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00029-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "99954e30c3d65a4f18a4eea4d387e71b8142c742e9e6e44216bd91f1eeeb34ab",
+      "published_lfs_sha256": "5a8d780811a0ae54bc144655cd9309d85932ec4023a812d429347d155bae910d",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00030-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "d8748b714fc55a93d69659c18679724167a33ca618bf7fb0b34386f94e266f89",
+      "published_lfs_sha256": "9cfc2810db838a0e003b5c7ac0f94d0c18ef5b2a882668a86eb9984482395c9a",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00031-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "84072a5ce0e3bfaadc8125c14c33eafcbb6da80d6736a27a3be652355edfc2a3",
+      "published_lfs_sha256": "586d42014699f27b97bfc36bb956ae8ab8303fd14882220e98f01984a5c27918",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00032-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "3bbb9f76d67024cf7f02c89710cd57e1d70aa58db90eb97bbef2d4d429fb6f90",
+      "published_lfs_sha256": "67b518ab059b994199ffffc34d8d959d87990a81374bc756bb976278d61a365b",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00033-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "cdbd2050449425ae97204605944b3d5bb58db742a727848ecd2ea4137901d863",
+      "published_lfs_sha256": "bf6c535ea771a50bf00043e7095423b7c80fcc0334a6b82efe1455a4f19ff085",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00034-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "190e2a25c603cdd45d2593e7822fcc4b85e014f26cbd1a8eaeb75c009438e627",
+      "published_lfs_sha256": "2bb1b3c4bc43cc9c4c82079480fd65db0bf4bab30577bd1e9c978720430219cc",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00035-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "c984d7b5d29a41ce8666a170b7cd9556966bf6d372666b0aaefabb7630777c57",
+      "published_lfs_sha256": "87c7491c82a83440f1c0b378e92762d1e6b50b70a1070a075e94b85dddf9cc2e",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00036-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "8591b59879d8b389f3bc2f7775026ba14d3b5ed00591f2671fe51575bbc349f6",
+      "published_lfs_sha256": "d79caa2eee1a19f964a91bb9197c5048c6cd7f9e8b5833fdda5440edb3fb6669",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00037-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    },
+    {
+      "physical_columns": [
+        "audio.bytes",
+        "audio.path",
+        "label"
+      ],
+      "projected_sha256": "c8e3b2edbb2398640dcbcd1582489190aee7aec9139d585f58aaf240e6aa3845",
+      "published_lfs_sha256": "ebf6e58b03c81de2c6b4fce19060063cb6b066a3fd3cb8d00f0cfe2d4f592cef",
+      "row_groups": 47,
+      "rows": 4623,
+      "shard": "data/train-00038-of-00039.parquet",
+      "transferred_bytes_this_run": 0,
+      "whole_parquet_checksum_verified": false
+    }
+  ],
+  "shards": 39,
+  "unique_literal_paths": 180320,
+  "whole_parquet_checksums_verified": false
+}

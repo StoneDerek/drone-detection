@@ -1,0 +1,6 @@
+encoder,held_source,positive_mix,positive_training_clips,positive_training_groups,FSD_FP,FSD_N,field_TP,field_P,field_FP,field_N
+frozen,wsu-air3,current,976,4,73,7931,1265,1486,85,190
+frozen,wsu-air3,broader,1034,5,61,7931,1247,1486,74,190
+frozen,audrok-dresden,current,976,4,97,7931,31,58,0,0
+fine-tuned,audrok-dresden,current,976,4,141,7931,34,58,0,0
+frozen,audrok-dresden,broader,2462,7,397,7931,25,58,0,0

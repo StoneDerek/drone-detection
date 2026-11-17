@@ -246,6 +246,14 @@ def main():
             f"{pct(value['field_TP'] / value['field_P']) if value['field_P'] else '—'} | "
             f"{pct(value['field_FP'] / value['field_N']) if value['field_N'] else '—'} |"
         )
+    if (args.output / "MATCHED-RUNTIME.md").exists():
+        lines += ["", "[Runtime-control provenance](MATCHED-RUNTIME.md) distinguishes these matched "
+                  "native-runtime controls from the earlier cached-CPU references."]
+    for fold in FOLDS:
+        for mix in completed[fold]:
+            paired = Path("paired-analysis") / fold / mix / "README.md"
+            if (args.output / paired).exists():
+                lines += ["", f"[Complete paired error analysis: {fold}/{mix}]({paired.as_posix()})."]
     lines += [
         "",
         "The frozen controls show that adding drone-positive sources does not consistently improve transfer. "
@@ -308,7 +316,7 @@ def main():
     ]:
         fields = [key for key in subset[0] if key not in exclude]
         with (args.output / name).open("w", newline="") as stream:
-            writer = csv.DictWriter(stream, fieldnames=fields)
+            writer = csv.DictWriter(stream, fieldnames=fields, lineterminator="\n")
             writer.writeheader()
             writer.writerows({key: row[key] for key in fields} for row in subset)
     write_json(args.output / "frozen-controls.json", frozen)
@@ -319,6 +327,12 @@ def main():
             destination.mkdir(parents=True, exist_ok=True)
             for name in ["head.npz", "model.json"]:
                 shutil.copyfile(source / name, destination / name)
+            if mix in completed[fold]:
+                source = args.work / fold / mix / "fine-tuned"
+                destination = args.output / "heads-fine-tuned" / fold / mix
+                destination.mkdir(parents=True, exist_ok=True)
+                for name in ["head.npz", "model.json", "training-complete.json"]:
+                    shutil.copyfile(source / name, destination / name)
     print(args.output / "RESULTS.md")
 
 
