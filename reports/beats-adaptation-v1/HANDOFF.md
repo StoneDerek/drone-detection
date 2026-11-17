@@ -16,10 +16,14 @@ entire model, optimizer, RNG and counter fingerprint before and after changing
 only cadence metadata. The source folds, data, hyperparameters and accumulated
 budget remain unchanged. The supervisor runs from an isolated published checkout.
 
-The running supervisor and GPU notebook implementation remain
-`2a4de5723cf755ab3a9187c8c6027030cc616027`; the current GPU notebook pins that exact
-commit. All three jobs passed in
-[run 43909773186](https://github.com/StoneDerek/drone-detection/actions/runs/43909773186).
+The recovered local CPU supervisor uses published commit
+`fcc140b6880d6af10ee81878df6efbe9af6558ad`. Its new coordinator verifies and reuses
+completed arms, then delegates unfinished work to the unchanged numerical driver.
+The [supervision recovery record](SUPERVISION-RECOVERY.md) describes the explicit
+metadata migration and completed-model preservation. All three jobs passed in
+[run 44141716431](https://github.com/StoneDerek/drone-detection/actions/runs/44141716431).
+The GPU notebook separately remains pinned to implementation
+`2a4de5723cf755ab3a9187c8c6027030cc616027`.
 
 ## Completed evidence
 
@@ -30,7 +34,9 @@ The exact fitted heads, operating thresholds and source-level counts are retaine
 alongside it. Broader positives did not consistently improve transfer. These
 known-source development results do not identify the single cause of failure.
 
-Software validation: 191 standard checks passed with nine optional skips. Eleven
+Current software validation: 220 standard checks passed with nine optional skips.
+The native training/recovery, isolation, coordination and reporting selection
+passed 24 tests with two optional native-asset skips. Earlier, eleven
 native BEATs/recovery checks passed, including an actual encoder weight update,
 full driver completion and exact interrupted-optimizer recovery. The synthetic
 signals in software checks are not a drone performance evaluation. All three
@@ -85,6 +91,12 @@ The environment replacement interrupted the first epoch after 1,675 logged
 steps. Recovery verified the 1,000-step checkpoint and replayed unsaved batches.
 The replayed logged losses and gradient norms matched the original trace. The
 shorter checkpoint interval limits future replay; it does not extend the budget.
+
+On November 17 the second arm was also found interrupted, with step 3,400 safely
+checkpointed and step 3,425 last logged. The cause of this interruption is
+unconfirmed. Supervision recovery retained exactly 98,534.66488816802 cumulative
+seconds, reused the first complete result and resumed the second arm's saved
+optimizer, RNG and next batch. No neural checkpoint migration was necessary.
 
 To request a cooperative pause, create `pause-requested.json` in the study
 directory. Wait for the supervisor to report `paused` before replacing a runtime.

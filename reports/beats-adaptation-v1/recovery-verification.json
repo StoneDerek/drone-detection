@@ -1,0 +1,79 @@
+{
+  "active_child_verified": true,
+  "captured_at_utc": "2026-11-17T17:55:28.748877+00:00",
+  "checkpoint_replay": {
+    "after": {
+      "batch": 704,
+      "batch_weighted_loss_sum": 0.0,
+      "batches": 2721,
+      "epoch": 2,
+      "gradient_norm": 0.0008051088079810143,
+      "steps": 3425
+    },
+    "before": {
+      "batch": 704,
+      "batch_weighted_loss_sum": 0.0,
+      "batches": 2721,
+      "epoch": 2,
+      "gradient_norm": 0.0008051088079810143,
+      "steps": 3425
+    },
+    "loss_and_gradient_norm_match_exactly": true,
+    "optimizer_step": 3425
+  },
+  "checkpoint_sha256_before_and_after": "7c390aea0a660000e57c396c84d27968943bb88062330f50922b782c0ab05451",
+  "ci_run_id": 44141716431,
+  "code_commit": "fcc140b6880d6af10ee81878df6efbe9af6558ad",
+  "completed_arm_reused_and_unchanged": {
+    "best.pt": {
+      "bytes": 361336793,
+      "modification_time_unchanged": true,
+      "sha256": "779244b7d19b374fcb39e9aacfa4b578b3c61e5d31a943da2fcae5c7ef03e278"
+    },
+    "best.pt.json": {
+      "bytes": 83,
+      "modification_time_unchanged": true,
+      "sha256": "53f1561ea2426e7e1644a2f9d9c11907f6ffe670c8b5184fa950b6ca581b1272"
+    },
+    "head.npz": {
+      "bytes": 18385,
+      "modification_time_unchanged": true,
+      "sha256": "49a83c371d04e2f1dacd6e7cbbcef8171f4964ebcca88b28ce4fbc002714df3f"
+    },
+    "identity.json": {
+      "bytes": 3431,
+      "modification_time_unchanged": true,
+      "sha256": "27baf463b4ebbf2b0d0757615b024bd9935e7935285c3aefd76ce0e66a12f106"
+    },
+    "model.json": {
+      "bytes": 2722,
+      "modification_time_unchanged": true,
+      "sha256": "0420115babf5c8a9be875f7eea12a684cc4d0cbb7cc32e369ad2b711858cd627"
+    },
+    "training-complete.json": {
+      "bytes": 4590,
+      "modification_time_unchanged": true,
+      "sha256": "fc15ad6654e10ab3f3cf5619c7e9a7ef9d8f01c000eda009e0b2d7f482a49239"
+    },
+    "validation.json": {
+      "bytes": 14393,
+      "modification_time_unchanged": true,
+      "sha256": "fc6f32b190a5a7607ccb6867fe5f134d8b02da049c83f998ad5b8e6bb43176f8"
+    }
+  },
+  "neural_checkpoint_unchanged_by_migration": true,
+  "replay_verified_at_utc": "2026-11-17T17:57:23.271780+00:00",
+  "resumed_from": {
+    "completed_epochs": 1,
+    "held_source": "audrok-dresden",
+    "next_batch_position": 679,
+    "optimizer_steps": 3400,
+    "positive_mix": "broader"
+  },
+  "scope": "Supervision recovery only; no additional detector evaluation",
+  "supervision_migration": {
+    "after_seconds": 98534.66488816802,
+    "before_seconds": 98534.66488816802,
+    "max_wall_hours": 44
+  }
+}

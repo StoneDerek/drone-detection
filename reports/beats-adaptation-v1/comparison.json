@@ -1,5 +1,5 @@
 {
-  "captured_at_utc": "2026-11-17T06:58:59.066692+00:00",
+  "captured_at_utc": "2026-11-17T17:57:56.581092+00:00",
   "complete": false,
   "completed_fine_tuned_controls": {
     "audrok-dresden": {
@@ -368,7 +368,7 @@
   },
   "corpus_rows": 30238,
   "execution": {
-    "accumulated_hours": 20.90227942377306,
+    "accumulated_hours": 27.434729670698058,
     "active_child_verified": true,
     "checkpoint_every_steps": 100,
     "completed_fine_tuned_evaluations": 1,
@@ -382,15 +382,15 @@
       "seconds_per_batch": 8.220352378722986
     },
     "last_logged_batch": {
-      "batch": 225,
-      "batch_weighted_loss_sum": 6.67719518787635e-07,
+      "batch": 704,
+      "batch_weighted_loss_sum": 0.0,
       "batches": 2721,
-      "elapsed_seconds": 1335.9136035789998,
-      "epoch": 1,
-      "gradient_norm": 0.0008650472154840827,
-      "steps": 225
+      "elapsed_seconds": 160.97086746999958,
+      "epoch": 2,
+      "gradient_norm": 0.0008051088079810143,
+      "steps": 3425
     },
-    "last_resume_checkpoint_steps": 1088,
+    "last_resume_checkpoint_steps": 3400,
     "max_wall_hours": 44.0,
     "maximum_logged_steps_in_an_arm": 7600,
     "planned_fine_tuned_evaluations": 4,

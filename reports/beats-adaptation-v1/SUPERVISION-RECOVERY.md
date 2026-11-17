@@ -62,5 +62,22 @@ failure on invalid completed artifacts, pause handling, and migration rejection
 when the runtime, protocol or cumulative budget changes. These are software
 checks, not acoustic classification results.
 
-The actual restart and post-recovery preservation checks will be recorded
-separately after the published recovery implementation is running.
+## Observed restart
+
+Published commit `fcc140b6880d6af10ee81878df6efbe9af6558ad` resumed the study at
+12:54:04 on November 17 (America/New_York), after all three jobs passed in
+[run 44141716431](https://github.com/StoneDerek/drone-detection/actions/runs/44141716431).
+The coordinator logged reuse of the completed first arm and an exact resume of
+the second arm at epoch counter 1, next batch position 679, optimizer step 3,400.
+
+[Post-migration verification](recovery-verification.json) confirms that the neural
+checkpoint was byte-identical before and after the supervision migration. The
+completed first-arm weights, head, model, training and validation receipts retain
+both their original hashes and modification times. The saved budget counter
+carried over exactly. The active training child was independently verified.
+
+The replayed step **3,425** exactly matches the old log's weighted batch loss and
+gradient norm. This confirms continuation of the saved numerical trajectory at
+that checkpoint; it does not constitute another acoustic evaluation. One of four
+adapted evaluations is complete, and the second arm is training. The 44-hour cap
+remains in force.
