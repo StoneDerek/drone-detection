@@ -4,6 +4,8 @@
 import argparse
 import fcntl
 import hashlib
+import copy
+import math
 import os
 import subprocess
 import tempfile
@@ -13,6 +15,59 @@ from pathlib import Path
 from drone_detector.common import file_hash, read_json, write_json
 
 ROOT = Path(__file__).resolve().parents[1]
+LEGACY_LAUNCHER_SHA256 = "6ed36e9ad538fe80cb5f191790de33dd58be4e907f877a9357b3d12fc6a8fce1"
+
+
+def child_active(pid, work):
+    if not isinstance(pid, int):
+        return False
+    try:
+        proc = Path(f"/proc/{pid}")
+        arguments = (proc / "cmdline").read_bytes().split(b"\0")
+        state = (proc / "stat").read_text().rsplit(")", 1)[1].split()[0]
+    except (FileNotFoundError, PermissionError):
+        return False
+    return (
+        state != "Z"
+        and str(work.resolve()).encode() in arguments
+        and any(
+            value.endswith(b"/scripts/train_beats_adaptation.py")
+            or value.endswith(b"/scripts/coordinate_beats_arms.py")
+            or value.endswith(b"/scripts/run_beats_adaptation.py")
+            for value in arguments
+        )
+    )
+
+
+def migrated_supervision(state, identity, max_hours, active=False, pause_exists=False):
+    """Only replace supervision identity; never edit a neural checkpoint."""
+    old = state["identity"]
+    if (
+        active
+        or pause_exists
+        or state.get("status") not in {"running", "failed", "interrupted"}
+        or old.get("launcher_sha256") != LEGACY_LAUNCHER_SHA256
+    ):
+        raise ValueError(
+            "Existing study is active, paused, complete or not the supported legacy launcher"
+        )
+    old_protocol = {key: value for key, value in old.items() if key != "launcher_sha256"}
+    new_protocol = {
+        key: value
+        for key, value in identity.items()
+        if key not in {"launcher_sha256", "arm_coordinator_sha256"}
+    }
+    elapsed = state["accumulated_seconds"]
+    if (
+        old_protocol != new_protocol
+        or state.get("max_wall_hours") != max_hours
+        or not math.isfinite(elapsed)
+        or elapsed < 0
+    ):
+        raise ValueError("Migration cannot change protocol, runtime or cumulative budget")
+    result = copy.deepcopy(state)
+    result.update(identity=identity, status="interrupted")
+    return result
 
 
 def publish(path, value):
@@ -30,6 +85,7 @@ def main():
     p.add_argument("--threads", type=int, default=1)
     p.add_argument("--checkpoint-every", type=int, default=1000)
     p.add_argument("--max-wall-hours", type=float, default=44)
+    p.add_argument("--migrate-legacy-supervision", action="store_true")
     args = p.parse_args()
     if args.max_wall_hours <= 0 or args.threads < 1 or args.checkpoint_every < 1:
         p.error("Positive time budget, thread count and checkpoint interval required")
@@ -41,6 +97,7 @@ def main():
         threads=args.threads,
         checkpoint_every_steps=args.checkpoint_every,
         launcher_sha256=file_hash(__file__),
+        arm_coordinator_sha256=file_hash(ROOT / "scripts/coordinate_beats_arms.py"),
     )
     state_path = args.work / "pipeline-state.json"
     state = (
@@ -48,21 +105,14 @@ def main():
         if state_path.exists()
         else dict(identity=identity, accumulated_seconds=0)
     )
-    if state["identity"] != identity:
+    if state["identity"] != identity and not args.migrate_legacy_supervision:
         raise ValueError("Existing pipeline uses another protocol or execution runtime")
     if state.get("status") == "complete":
         print("The full study has already completed", flush=True)
         return
     old_pid = state.get("child_pid")
-    if state.get("status") in {"running", "pausing"} and old_pid:
-        try:
-            command = Path(f"/proc/{old_pid}/cmdline").read_bytes()
-            if str(args.work).encode() in command:
-                raise RuntimeError(
-                    "The previous study child is still active; do not start another writer"
-                )
-        except FileNotFoundError:
-            pass
+    if child_active(old_pid, args.work):
+        raise RuntimeError("The previous study child is still active; do not start another writer")
     lock_root = Path(tempfile.gettempdir()) / "drone-adaptation-pipeline-locks"
     lock_root.mkdir(exist_ok=True)
     lock_path = lock_root / hashlib.sha256(str(args.work).encode()).hexdigest()
@@ -71,6 +121,31 @@ def main():
             fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         except BlockingIOError as error:
             raise RuntimeError("Another pipeline writer is active on this runtime") from error
+        if state["identity"] != identity:
+            migrated = migrated_supervision(
+                state,
+                identity,
+                args.max_wall_hours,
+                active=child_active(old_pid, args.work),
+                pause_exists=(args.work / "pause-requested.json").exists(),
+            )
+            receipt = args.work / (
+                "supervision-migration-" + identity["launcher_sha256"][:12] + ".json"
+            )
+            if receipt.exists():
+                raise ValueError(
+                    "Preserve the existing migration receipt before attempting another migration"
+                )
+            write_json(
+                receipt,
+                dict(
+                    before=state,
+                    after=migrated,
+                    scope="Supervision metadata only. Neural driver, trainer and checkpoint files are not modified.",
+                ),
+            )
+            publish(state_path, migrated)
+            state = migrated
         run(args, identity, state, state_path)
 
 
@@ -113,7 +188,7 @@ def run(args, identity, state, state_path):
         ),
         (
             "four-full-fine-tuning-arms",
-            prefix + [str(ROOT / "scripts/train_beats_adaptation.py"), "all", *native],
+            prefix + [str(ROOT / "scripts/coordinate_beats_arms.py"), *native],
         ),
     ]
     for name, command in stages:

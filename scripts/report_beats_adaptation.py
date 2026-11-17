@@ -33,6 +33,7 @@ def process_active(pid, work):
         return False
     return state != "Z" and str(work.resolve()).encode() in arguments and any(
         value.endswith(b"/scripts/train_beats_adaptation.py")
+        or value.endswith(b"/scripts/coordinate_beats_arms.py")
         or value.endswith(b"/scripts/run_beats_adaptation.py")
         for value in arguments
     )

@@ -1,0 +1,18 @@
+{
+  "archive_name": "beats-audrok-current-completed-model.zip",
+  "bytes": 336584678,
+  "captured_at_utc": "2026-11-17T17:50:30.670828+00:00",
+  "completed_artifacts_unchanged": true,
+  "encoder_parameters": 90311792,
+  "every_entry_sha256_verified": true,
+  "excluded": [
+    "audio",
+    "embeddings",
+    "optimizer state"
+  ],
+  "manifest_entries": 56,
+  "selected_encoder_sha256": "779244b7d19b374fcb39e9aacfa4b578b3c61e5d31a943da2fcae5c7ef03e278",
+  "sha256": "1a39350cfc842956bb511c8cd461e4f7b22450890715e67ceae24edb3303cb57",
+  "storage": "Local workspace archive only; not uploaded to durable off-machine storage",
+  "strict_encoder_restore": true
+}
