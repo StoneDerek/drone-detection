@@ -1,0 +1,18 @@
+{
+  "captured_at_utc": "2026-11-17T20:13:05.749177+00:00",
+  "checkpoint_every_steps": 100,
+  "checkpoint_sha256": "187bbead2cb9d6e56e6c4c952fecb6050c6b9eb5501bd722a41ab172bdc88524",
+  "completed_epochs": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "selection_weighted_logloss": 4.328486324886871,
+      "steps": 2721
+    }
+  ],
+  "model_and_optimizer_finite": true,
+  "next_batch_position": 2179,
+  "numerical_implementation_unchanged": true,
+  "optimizer_steps": 4900,
+  "scope": "Recovery integrity check only; no detector evaluation"
+}

@@ -16,6 +16,12 @@ entire model, optimizer, RNG and counter fingerprint before and after changing
 only cadence metadata. The source folds, data, hyperparameters and accumulated
 budget remain unchanged. The supervisor runs from an isolated published checkout.
 
+A separate [completion observer](COMPLETION-OBSERVER.md) verifies newly completed
+arms and prepares their full-cohort paired analyses in local evidence storage.
+It uses the predeclared analysis, reuses the existing first result, and stops on
+study completion, pause, failure or confirmed interruption. It does not restart
+training, change the 44-hour budget or publish results automatically.
+
 The recovered local CPU supervisor uses published commit
 `fcc140b6880d6af10ee81878df6efbe9af6558ad`. Its new coordinator verifies and reuses
 completed arms, then delegates unfinished work to the unchanged numerical driver.

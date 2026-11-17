@@ -1,0 +1,10 @@
+{
+  "captured_at_utc": "2026-11-17T20:15:06.273023+00:00",
+  "compared_validation_rows": 7989,
+  "completed_arms": 1,
+  "completed_evaluation_reused": true,
+  "completed_model_and_results_unchanged": true,
+  "planned_arms": 4,
+  "private_paired_ledger_unchanged": true,
+  "scope": "Existing complete analysis verification only; no new model scores or fitting"
+}

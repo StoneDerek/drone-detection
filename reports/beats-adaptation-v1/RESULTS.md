@@ -1,6 +1,6 @@
 # BEATs adaptation: completed controls and execution status
 
-Captured at 2026-11-17T12:57:56.581092-05:00 (America/New_York). Execution status: **running**. Completed fine-tuned evaluations: **1/4**.
+Captured at 2026-11-17T15:15:12.227886-05:00 (America/New_York). Execution status: **running**. Completed fine-tuned evaluations: **1/4**.
 
 The full cohort has **30,238 crops**. The declared neural study has **198,348 training-crop visits across 30,864 batches** and 3 complete epochs per arm. An unfinished arm contributes no evaluation row.
 
@@ -22,13 +22,13 @@ The frozen controls show that adding drone-positive sources does not consistentl
 
 ## Execution and compute
 
-The supervisor has accumulated 27.43 hours against a 44-hour cumulative budget. Its active child is verified. Recovery checkpoints are configured every 100 steps. A saved 'running' status is treated as interrupted when its matching process is absent.
+The supervisor has accumulated 29.72 hours against a 44-hour cumulative budget. Its active child is verified. Recovery checkpoints are configured every 100 steps. A saved 'running' status is treated as interrupted when its matching process is absent.
 
 Actual first-arm training logged 1,675 steps in 3.82 hours (8.22 seconds/batch). Extrapolating to all four arms gives about **70 hours of training alone**, before selection, feature extraction or interruption replay. This supersedes the initial 30-hour estimate from repeated synthetic batches. At the observed rate the full CPU study will not finish inside its 44-hour cap; the cap remains in force.
 
 The most recent recovery logged an exact resume from optimizer step 3,400. Unsaved batches after a checkpoint are replayed; they do not become extra training epochs or independent evidence.
 
-The latest logged training position is epoch 2, batch 704/2,721, optimizer step 3,425.
+The latest logged training position is epoch 2, batch 2,279/2,721, optimizer step 5,000.
 
 The native frontend, source folds, three-epoch recipe and calibration rule are unchanged. The best trained epoch is selected on weighted selection-DEV log-loss; a C1 head is then refitted on TRAIN embeddings. Held-field/FSD scores never select that epoch or cutoff.
 
