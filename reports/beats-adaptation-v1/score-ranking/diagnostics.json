@@ -1,0 +1,374 @@
+{
+  "folds": {
+    "audrok-dresden": {
+      "field_background_clips": 0,
+      "field_positive_clips": 58,
+      "fsd_negative_clips": 7931,
+      "models": {
+        "broader/frozen": {
+          "classifier_sha256": "cebb4d4a454f4c9406f4723da9ec95adfe472a64ed5b54455e007b1405a6455a",
+          "equal_fsd_caps": [
+            {
+              "allowed_fsd_false_positives": 0,
+              "detected_field_positives": 0,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 0
+            },
+            {
+              "allowed_fsd_false_positives": 39,
+              "detected_field_positives": 1,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 39
+            },
+            {
+              "allowed_fsd_false_positives": 79,
+              "detected_field_positives": 12,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 79
+            },
+            {
+              "allowed_fsd_false_positives": 97,
+              "detected_field_positives": 14,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 97
+            },
+            {
+              "allowed_fsd_false_positives": 141,
+              "detected_field_positives": 18,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 141
+            },
+            {
+              "allowed_fsd_false_positives": 158,
+              "detected_field_positives": 18,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 158
+            },
+            {
+              "allowed_fsd_false_positives": 396,
+              "detected_field_positives": 25,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 396
+            },
+            {
+              "allowed_fsd_false_positives": 397,
+              "detected_field_positives": 25,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 397
+            }
+          ],
+          "field_positive_vs_fsd_auc": 0.8400971308570907,
+          "field_positive_vs_local_background_auc": null,
+          "locked_cutoff_counts": {
+            "audrok-dresden": {
+              "fn": 33,
+              "fp": 0,
+              "tn": 0,
+              "tp": 25
+            },
+            "fsd50k-eval": {
+              "fn": 0,
+              "fp": 397,
+              "tn": 7534,
+              "tp": 0
+            }
+          },
+          "matrix_sha256": "5ab11266cbbb86a153428b1318cd140324db9c9a0783b94abaacbd8e91388e51",
+          "validation_score_sha256": "4962c73081e6fb5701c3bcda862d7301e8c3e382bdc2f6eebcd9778888cd3c85"
+        },
+        "current/fine-tuned": {
+          "classifier_sha256": "49a83c371d04e2f1dacd6e7cbbcef8171f4964ebcca88b28ce4fbc002714df3f",
+          "equal_fsd_caps": [
+            {
+              "allowed_fsd_false_positives": 0,
+              "detected_field_positives": 5,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 0
+            },
+            {
+              "allowed_fsd_false_positives": 39,
+              "detected_field_positives": 30,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 39
+            },
+            {
+              "allowed_fsd_false_positives": 79,
+              "detected_field_positives": 33,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 79
+            },
+            {
+              "allowed_fsd_false_positives": 97,
+              "detected_field_positives": 33,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 97
+            },
+            {
+              "allowed_fsd_false_positives": 141,
+              "detected_field_positives": 34,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 141
+            },
+            {
+              "allowed_fsd_false_positives": 158,
+              "detected_field_positives": 34,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 158
+            },
+            {
+              "allowed_fsd_false_positives": 396,
+              "detected_field_positives": 35,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 396
+            },
+            {
+              "allowed_fsd_false_positives": 397,
+              "detected_field_positives": 35,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 397
+            }
+          ],
+          "field_positive_vs_fsd_auc": 0.7200031304483933,
+          "field_positive_vs_local_background_auc": null,
+          "locked_cutoff_counts": {
+            "audrok-dresden": {
+              "fn": 24,
+              "fp": 0,
+              "tn": 0,
+              "tp": 34
+            },
+            "fsd50k-eval": {
+              "fn": 0,
+              "fp": 141,
+              "tn": 7790,
+              "tp": 0
+            }
+          },
+          "matrix_sha256": "47e074ec1d12e7afdab574ffa28211e0584814c5d5be19da1c83823f93c5c5bf",
+          "validation_score_sha256": "f3fe75ab6d766926133e786d45a0070f4492cd7e8ca90a23ec199764bcb6edb8"
+        },
+        "current/frozen": {
+          "classifier_sha256": "8211f607e32b40dd747406a22dee5576491f4b5c452fca2db1b197e97214807a",
+          "equal_fsd_caps": [
+            {
+              "allowed_fsd_false_positives": 0,
+              "detected_field_positives": 17,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 0
+            },
+            {
+              "allowed_fsd_false_positives": 39,
+              "detected_field_positives": 29,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 39
+            },
+            {
+              "allowed_fsd_false_positives": 79,
+              "detected_field_positives": 30,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 79
+            },
+            {
+              "allowed_fsd_false_positives": 97,
+              "detected_field_positives": 31,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 97
+            },
+            {
+              "allowed_fsd_false_positives": 141,
+              "detected_field_positives": 31,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 141
+            },
+            {
+              "allowed_fsd_false_positives": 158,
+              "detected_field_positives": 31,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 158
+            },
+            {
+              "allowed_fsd_false_positives": 396,
+              "detected_field_positives": 36,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 396
+            },
+            {
+              "allowed_fsd_false_positives": 397,
+              "detected_field_positives": 36,
+              "field_background_false_positives": null,
+              "observed_fsd_false_positives": 397
+            }
+          ],
+          "field_positive_vs_fsd_auc": 0.8356688507341337,
+          "field_positive_vs_local_background_auc": null,
+          "locked_cutoff_counts": {
+            "audrok-dresden": {
+              "fn": 27,
+              "fp": 0,
+              "tn": 0,
+              "tp": 31
+            },
+            "fsd50k-eval": {
+              "fn": 0,
+              "fp": 97,
+              "tn": 7834,
+              "tp": 0
+            }
+          },
+          "matrix_sha256": "5ab11266cbbb86a153428b1318cd140324db9c9a0783b94abaacbd8e91388e51",
+          "validation_score_sha256": "fad87cd2a6e82184480e9d72d29be64bf89a54883398e018870b3730537cc4cd"
+        }
+      },
+      "validation_rows": 7989
+    },
+    "wsu-air3": {
+      "field_background_clips": 190,
+      "field_positive_clips": 1486,
+      "fsd_negative_clips": 7931,
+      "models": {
+        "broader/frozen": {
+          "classifier_sha256": "f2d2363eb6a9d24c74e2c0cf6537158c29413e981fafd605ef9c715b5ce6f8c3",
+          "equal_fsd_caps": [
+            {
+              "allowed_fsd_false_positives": 0,
+              "detected_field_positives": 513,
+              "field_background_false_positives": 0,
+              "observed_fsd_false_positives": 0
+            },
+            {
+              "allowed_fsd_false_positives": 39,
+              "detected_field_positives": 1175,
+              "field_background_false_positives": 50,
+              "observed_fsd_false_positives": 39
+            },
+            {
+              "allowed_fsd_false_positives": 61,
+              "detected_field_positives": 1249,
+              "field_background_false_positives": 74,
+              "observed_fsd_false_positives": 61
+            },
+            {
+              "allowed_fsd_false_positives": 73,
+              "detected_field_positives": 1272,
+              "field_background_false_positives": 82,
+              "observed_fsd_false_positives": 73
+            },
+            {
+              "allowed_fsd_false_positives": 79,
+              "detected_field_positives": 1281,
+              "field_background_false_positives": 83,
+              "observed_fsd_false_positives": 79
+            },
+            {
+              "allowed_fsd_false_positives": 158,
+              "detected_field_positives": 1358,
+              "field_background_false_positives": 103,
+              "observed_fsd_false_positives": 158
+            },
+            {
+              "allowed_fsd_false_positives": 396,
+              "detected_field_positives": 1420,
+              "field_background_false_positives": 141,
+              "observed_fsd_false_positives": 396
+            }
+          ],
+          "field_positive_vs_fsd_auc": 0.9909562337204145,
+          "field_positive_vs_local_background_auc": 0.8526174116313665,
+          "locked_cutoff_counts": {
+            "fsd50k-eval": {
+              "fn": 0,
+              "fp": 61,
+              "tn": 7870,
+              "tp": 0
+            },
+            "wsu-air3": {
+              "fn": 239,
+              "fp": 74,
+              "tn": 116,
+              "tp": 1247
+            }
+          },
+          "matrix_sha256": "5ab11266cbbb86a153428b1318cd140324db9c9a0783b94abaacbd8e91388e51",
+          "validation_score_sha256": "6d941fa3f78f36e5b30c4050ed40f8bc1e83213c9d36fbf1bc96a5f451ca34bb"
+        },
+        "current/frozen": {
+          "classifier_sha256": "220a85133800e2dec270fb562711ca15f5a8a7930f4faa4f43bd1e656450ee7f",
+          "equal_fsd_caps": [
+            {
+              "allowed_fsd_false_positives": 0,
+              "detected_field_positives": 495,
+              "field_background_false_positives": 0,
+              "observed_fsd_false_positives": 0
+            },
+            {
+              "allowed_fsd_false_positives": 39,
+              "detected_field_positives": 1161,
+              "field_background_false_positives": 60,
+              "observed_fsd_false_positives": 39
+            },
+            {
+              "allowed_fsd_false_positives": 61,
+              "detected_field_positives": 1231,
+              "field_background_false_positives": 75,
+              "observed_fsd_false_positives": 61
+            },
+            {
+              "allowed_fsd_false_positives": 73,
+              "detected_field_positives": 1265,
+              "field_background_false_positives": 85,
+              "observed_fsd_false_positives": 73
+            },
+            {
+              "allowed_fsd_false_positives": 79,
+              "detected_field_positives": 1268,
+              "field_background_false_positives": 88,
+              "observed_fsd_false_positives": 79
+            },
+            {
+              "allowed_fsd_false_positives": 158,
+              "detected_field_positives": 1364,
+              "field_background_false_positives": 116,
+              "observed_fsd_false_positives": 158
+            },
+            {
+              "allowed_fsd_false_positives": 396,
+              "detected_field_positives": 1427,
+              "field_background_false_positives": 156,
+              "observed_fsd_false_positives": 396
+            }
+          ],
+          "field_positive_vs_fsd_auc": 0.9908455041149836,
+          "field_positive_vs_local_background_auc": 0.8357016363249982,
+          "locked_cutoff_counts": {
+            "fsd50k-eval": {
+              "fn": 0,
+              "fp": 73,
+              "tn": 7858,
+              "tp": 0
+            },
+            "wsu-air3": {
+              "fn": 221,
+              "fp": 85,
+              "tn": 105,
+              "tp": 1265
+            }
+          },
+          "matrix_sha256": "5ab11266cbbb86a153428b1318cd140324db9c9a0783b94abaacbd8e91388e51",
+          "validation_score_sha256": "25e11b458b3fc6341e3373e03eee2a053064ef0978f5b7fd7112397180696b94"
+        }
+      },
+      "validation_rows": 9607
+    }
+  },
+  "fsd_cap_percent": [
+    0,
+    0.5,
+    1,
+    2,
+    5
+  ],
+  "implementation_sha256": "fb2b21b577f6f3af7b7b9895c00aa6a22d869d2b02ed87d5482c8e15315ef101",
+  "manifest_sha256": "ae80337be42998c975dc3b8e18d15415c14b186eaf6aedfd2d644ea8bcb9df45",
+  "method": "Post-hoc development ranking comparison. Caps use held FSD scores; model thresholds stay locked.",
+  "plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c"
+}
