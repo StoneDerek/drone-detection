@@ -109,3 +109,10 @@ candidate FPV ZIP and accounts for all 19,286 outer audio members. Its publisher
 splits share capture groups and many exports lack an included declared parent.
 The candidate remains unscored and outside this experiment; it is not yet a
 qualified independent confirmation set.
+
+The [optimization/coverage audit](optimization-audit/README.md) records the first
+arm through two complete epochs and a step-5,600 recovery snapshot. Frozen TRAIN
+loss was already near zero while selection loss was substantially higher. Full
+schedule coverage, protocol weight allocation, checkpoint finiteness and starting
+validation arithmetic passed the audited checks. The final C1 refit and completed
+adapted source-level evaluation were still pending at that snapshot.

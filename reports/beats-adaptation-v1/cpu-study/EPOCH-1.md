@@ -1,5 +1,8 @@
 # First full-epoch diagnostic
 
+This is the epoch-1 snapshot. The later [optimization audit](../optimization-audit/README.md)
+adds epoch 2 and complete-schedule checks without changing the study recipe.
+
 The AuDroK-held/current-positive arm completed its first full epoch: all 16,238
 selected training crops, 2,536 optimizer steps. The prescribed recipe has three
 epochs. This is an interim development diagnostic, not a completed adapted model
