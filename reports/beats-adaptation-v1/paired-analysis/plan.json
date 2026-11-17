@@ -1,0 +1,25 @@
+{
+  "captured_at_utc": "2026-11-17T05:42:38.762200+00:00",
+  "code_sha256": {
+    "scripts/compare_completed_beats_arm.py": "052b44a43a79147207f60902727ab9867279ba42debe0861db316b1c91f0dbfa",
+    "src/drone_detector/paired_comparison.py": "7b83a5031934eafc2602e8abeb339830bc6e68b489e53a0eb343ca0277c4bd4f",
+    "tests/test_paired_comparison.py": "1a969b2e7e8731c513ee99cec0d7b1b74af48cf5b7d5dd40097e7bbbdcfbaaac"
+  },
+  "first_arm": {
+    "declared_provenance_groups": {
+      "audrok-dresden": 1,
+      "fsd50k-eval": 2122
+    },
+    "held_source": "audrok-dresden",
+    "positive_mix": "current",
+    "source_counts": {
+      "audrok-dresden": 58,
+      "fsd50k-eval": 7931
+    },
+    "validation_rows": 7989
+  },
+  "full_corpus_rows": 30238,
+  "held_adapted_results_inspected": false,
+  "scope": "Descriptive complete-cohort paired analysis using locked models; no new fit, score-selected threshold, encoder inference or independent-field claim.",
+  "study_plan_sha256": "7fa118394db3de626b43949d6f52957f3419769892c7b694931066333879ad2c"
+}
