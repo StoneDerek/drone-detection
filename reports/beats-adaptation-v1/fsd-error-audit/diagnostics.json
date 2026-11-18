@@ -1,0 +1,82 @@
+{
+  "adapted_cutoff_matched_to_frozen_fsd_cap": {
+    "all": {
+      "adapted_false_positives": 97,
+      "clips": 7931,
+      "frozen_false_positives": 97,
+      "max_new_false_positives_from_one_uploader": 3,
+      "new_false_positive_uploader_groups": 45,
+      "new_false_positives": 50,
+      "removed_false_positives": 50,
+      "shared_false_positives": 47,
+      "uploader_groups": 2122
+    },
+    "mechanical": {
+      "adapted_false_positives": 6,
+      "clips": 389,
+      "frozen_false_positives": 8,
+      "max_new_false_positives_from_one_uploader": 1,
+      "new_false_positive_uploader_groups": 4,
+      "new_false_positives": 4,
+      "removed_false_positives": 6,
+      "shared_false_positives": 2,
+      "uploader_groups": 256
+    },
+    "other": {
+      "adapted_false_positives": 91,
+      "clips": 7542,
+      "frozen_false_positives": 89,
+      "max_new_false_positives_from_one_uploader": 3,
+      "new_false_positive_uploader_groups": 41,
+      "new_false_positives": 46,
+      "removed_false_positives": 44,
+      "shared_false_positives": 45,
+      "uploader_groups": 2081
+    }
+  },
+  "comparison_scope": "Exploratory description of saved scores on the development corpus.",
+  "frozen_false_positive_cap": 97,
+  "held_source": "audrok-dresden",
+  "implementation_sha256": "657937fd4f84cb1e339db0e7dfa9ec5b68784d0df6c36645ac7b0ad23bb43d9c",
+  "label_scope": "Whole-recording publisher labels can co-occur and need not be audible in the scored crop.",
+  "label_table_sha256": "ba28e7f962e7426a4a35987849fbbb6568c90320e1b5727662db7ccee93aa11b",
+  "locked_dev_cutoffs": {
+    "all": {
+      "adapted_false_positives": 141,
+      "clips": 7931,
+      "frozen_false_positives": 97,
+      "max_new_false_positives_from_one_uploader": 4,
+      "new_false_positive_uploader_groups": 69,
+      "new_false_positives": 84,
+      "removed_false_positives": 40,
+      "shared_false_positives": 57,
+      "uploader_groups": 2122
+    },
+    "mechanical": {
+      "adapted_false_positives": 9,
+      "clips": 389,
+      "frozen_false_positives": 8,
+      "max_new_false_positives_from_one_uploader": 1,
+      "new_false_positive_uploader_groups": 7,
+      "new_false_positives": 7,
+      "removed_false_positives": 6,
+      "shared_false_positives": 2,
+      "uploader_groups": 256
+    },
+    "other": {
+      "adapted_false_positives": 132,
+      "clips": 7542,
+      "frozen_false_positives": 89,
+      "max_new_false_positives_from_one_uploader": 4,
+      "new_false_positive_uploader_groups": 62,
+      "new_false_positives": 77,
+      "removed_false_positives": 34,
+      "shared_false_positives": 55,
+      "uploader_groups": 2081
+    }
+  },
+  "manifest_sha256": "ae80337be42998c975dc3b8e18d15415c14b186eaf6aedfd2d644ea8bcb9df45",
+  "paired_report_sha256": "1d2130f28715af5cc063d4805dac3d4360dee695066780867593fb7e76336eb7",
+  "positive_mix": "current",
+  "private_paired_ledger_sha256": "d27c650796a9bafc40c53b878fbca11d3f5d7614f1a8d5b295196ab13239a53a"
+}
