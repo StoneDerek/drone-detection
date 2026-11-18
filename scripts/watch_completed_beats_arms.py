@@ -231,8 +231,11 @@ def main():
     args = parser.parse_args()
     if not 5 <= args.poll_seconds <= 60:
         parser.error("Use a poll interval between 5 and 60 seconds")
-    for name in ["work", "report", "private", "state", "python"]:
+    for name in ["work", "report", "private", "state"]:
         setattr(args, name, getattr(args, name).resolve())
+    # A virtual environment interpreter may be a symlink to the base Python.
+    # Invoking the resolved target would bypass the environment's dependencies.
+    args.python = args.python.absolute()
     # Outputs must never point inside the study that this process observes.
     for output in [args.report, args.private, args.state]:
         if output == args.work or args.work in output.parents:

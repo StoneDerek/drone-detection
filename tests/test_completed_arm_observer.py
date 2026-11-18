@@ -2,6 +2,7 @@
 
 import importlib.util
 from pathlib import Path
+import sys
 from types import SimpleNamespace
 
 import pytest
@@ -14,6 +15,35 @@ SPEC = importlib.util.spec_from_file_location(
 )
 watcher = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(watcher)
+
+
+def test_cli_preserves_the_virtual_environment_interpreter_link(tmp_path, monkeypatch):
+    python = tmp_path / "venv-python"
+    python.symlink_to(Path(sys.executable).resolve())
+    args = [
+        "--work",
+        "study",
+        "--report",
+        "report",
+        "--private",
+        "private",
+        "--state",
+        "observer.json",
+        "--python",
+        python.name,
+        "--once",
+    ]
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(sys, "argv", ["observer", *args])
+    monkeypatch.setattr(watcher.tempfile, "gettempdir", lambda: str(tmp_path))
+    monkeypatch.setattr(watcher.os, "nice", lambda _: None)
+
+    def observer(options):
+        assert options.python == python
+        return SimpleNamespace(poll=lambda **_: False)
+
+    monkeypatch.setattr(watcher, "Observer", observer)
+    watcher.main()
 
 
 def test_absent_evaluation_never_starts_analysis(tmp_path, monkeypatch):
